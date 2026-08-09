@@ -3,37 +3,81 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BTM Utility Territory Map — MISO + PJM (Phase 1 prototype)</title>
+<title>BTM Utility Map — MISO + PJM (v0.6)</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
-  html,body{margin:0;height:100%;font:13px/1.4 system-ui,sans-serif}
+  html,body{margin:0;height:100%;font:13px/1.45 system-ui,sans-serif;color:#111}
   #map{position:absolute;inset:0}
   .panel{position:absolute;top:10px;right:10px;z-index:1000;background:#fff;
-    padding:10px 12px;border-radius:6px;box-shadow:0 1px 6px rgba(0,0,0,.3);max-width:240px}
+    padding:10px 12px;border-radius:6px;box-shadow:0 1px 6px rgba(0,0,0,.3);width:230px}
   .panel h1{font-size:13px;margin:0 0 6px}
   .panel label{display:block;margin:2px 0;cursor:pointer}
   #status{font-size:11px;color:#555;margin-top:8px;white-space:pre-line}
   .legend{position:absolute;bottom:18px;right:10px;z-index:1000;background:#fff;
     padding:8px 10px;border-radius:6px;box-shadow:0 1px 6px rgba(0,0,0,.3);font-size:12px}
   .legend i{display:inline-block;width:14px;height:14px;margin-right:6px;vertical-align:-2px;border:1px solid #999}
-  .leaflet-popup-content{font-size:12px}
   hr.div{margin:8px 0;border:none;border-top:1px solid #ddd}
   #locInput{width:100%;box-sizing:border-box;margin:4px 0;padding:4px;
     font-size:12px;border:1px solid #ccc;border-radius:3px}
-  #locBtn{width:100%;padding:4px;font-size:12px;cursor:pointer;margin-bottom:2px}
+  button{padding:4px 6px;font-size:12px;cursor:pointer;border:1px solid #bbb;
+    background:#f6f6f6;border-radius:3px}
+  #locBtn{width:100%;margin-bottom:2px}
   #locResult{font-size:11px;color:#333;margin-top:4px;white-space:pre-line}
+
+  /* detail drawer */
+  #drawer{position:absolute;top:0;left:0;bottom:0;width:390px;max-width:88vw;z-index:1100;
+    background:#fff;box-shadow:2px 0 10px rgba(0,0,0,.25);overflow-y:auto;
+    transform:translateX(-100%);transition:transform .18s ease}
+  #drawer.open{transform:none}
+  #drawer .hd{position:sticky;top:0;background:#fff;border-bottom:1px solid #e3e3e3;
+    padding:12px 14px 10px;z-index:2}
+  #drawer .hd h2{margin:0 0 3px;font-size:15px;line-height:1.25}
+  #drawer .sub{font-size:11px;color:#666}
+  #closeDrawer{position:absolute;top:10px;right:10px;border:none;background:none;font-size:19px;color:#888}
+  .bod{padding:10px 14px 28px}
+  .sec{margin:0 0 14px}
+  .sec>h3{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#555;
+    margin:0 0 6px;padding-bottom:3px;border-bottom:1px solid #eee}
+  .chips span{display:inline-block;background:#eef2f7;border-radius:10px;padding:1px 8px;
+    margin:0 4px 4px 0;font-size:11px}
+  details.pg{border:1px solid #e5e5e5;border-radius:4px;margin-bottom:5px;background:#fcfcfc}
+  details.pg>summary{cursor:pointer;padding:6px 8px;font-size:12px;list-style:none}
+  details.pg>summary::-webkit-details-marker{display:none}
+  details.pg[open]>summary{border-bottom:1px solid #eee;background:#f4f6f8}
+  .cat{display:inline-block;font-size:9.5px;font-weight:600;padding:1px 5px;border-radius:3px;
+    background:#dbe6f2;color:#1f4a7a;margin-right:5px;vertical-align:1px}
+  .cf{float:right;font-size:9.5px;padding:1px 5px;border-radius:3px;color:#fff}
+  .cf.High{background:#2e7d32}.cf.Medium{background:#ef6c00}.cf.Low{background:#b71c1c}
+  .kv{padding:7px 9px;font-size:11.5px}
+  .kv div{margin-bottom:3px}
+  .kv b{color:#444;font-weight:600}
+  .placeholder{font-size:11.5px;color:#8a8a8a;background:#fafafa;border:1px dashed #ddd;
+    border-radius:4px;padding:8px 9px}
+  .warn{font-size:11px;background:#fff8e1;border:1px solid #ffe082;border-radius:4px;
+    padding:6px 8px;margin-bottom:10px;color:#6d4c00}
+  a{color:#1462b3}
 </style>
 </head>
 <body>
 <div id="map"></div>
 
+<div id="drawer">
+  <div class="hd">
+    <button id="closeDrawer" title="Close">&times;</button>
+    <h2 id="dTitle">—</h2>
+    <div class="sub" id="dSub">—</div>
+  </div>
+  <div class="bod" id="dBody"></div>
+</div>
+
 <div class="panel">
   <h1>Utility territories — MISO + PJM</h1>
   <strong>Color by:</strong>
-  <label><input type="radio" name="view" value="rto" checked> RTO (heuristic)</label>
+  <label><input type="radio" name="view" value="rto" checked> RTO</label>
   <label><input type="radio" name="view" value="owner"> Ownership type</label>
-  <label><input type="radio" name="view" value="dr"> DR program status (stub)</label>
+  <label><input type="radio" name="view" value="programs"> Program count</label>
+  <label><input type="radio" name="view" value="storage"> Storage-eligible programs</label>
   <label><input type="radio" name="view" value="none"> Off</label>
   <div id="status">Loading…</div>
   <hr class="div">
@@ -41,87 +85,208 @@
   <input id="locInput" type="text" placeholder="Address, zip, or lat,lon">
   <button id="locBtn">Look up</button>
   <div id="locResult"></div>
+  <hr class="div">
+  <button id="exportBtn" style="width:100%">Export crosswalk CSV</button>
 </div>
 <div class="legend" id="legend"></div>
 
 <script>
 const SVC = "https://services3.arcgis.com/OYP7N6mAJJCyH6hd/arcgis/rest/services/Electric_Retail_Service_Territories_HIFLD/FeatureServer/0/query";
-
 const STATES = ['MN','WI','IA','IL','IN','MI','MO','OH','PA','NJ','MD','DE',
-                'VA','WV','KY','DC','AR','LA','MS','ND','SD'];
+                'VA','WV','KY','DC','AR','LA','MS','ND','SD','TX'];
 const OUT_FIELDS = "ID,NAME,TYPE,STATE,CUSTOMERS,CNTRL_AREA,PLAN_AREA";
 
-/* Phase-2 seam — populate with real EIA-ID-keyed DR program data */
-const DR_TABLE = {};
+/* ---------------------------------------------------------------------------
+   norm() is MIRRORED from scripts/build_map_payload.py. Keep the two in sync
+   or the join silently degrades.
+--------------------------------------------------------------------------- */
+const SUFFIX = /\b(CO|COMPANY|INC|LLC|CORP|CORPORATION|LP|LTD|PLC)\b/g;
+const PREFIX = /^(CITY OF|TOWN OF|VILLAGE OF|BOROUGH OF|COUNTY OF)\b/;
+const WORDS = [[/\bELEC\b/g,'ELECTRIC'],[/\bCOOP\b/g,'COOPERATIVE'],[/\bCO-OP\b/g,'COOPERATIVE'],
+  [/\bASSN\b/g,'ASSOCIATION'],[/\bPWR\b/g,'POWER'],[/\bUTIL\b/g,'UTILITIES'],
+  [/\bDEPT\b/g,'DEPARTMENT'],[/\bMUN\b/g,'MUNICIPAL'],[/\bSVC\b/g,'SERVICE'],
+  [/\bSERVICES\b/g,'SERVICE'],[/\bUTILITY\b/g,'UTILITIES'],[/\bLT\b/g,'LIGHT'],
+  [/\bLGT\b/g,'LIGHT'],[/\bCOMM\b/g,'COMMISSION'],[/\bDIV\b/g,'DIVISION']];
+
+function norm(s){
+  s = (s||'').toUpperCase().split('&').join(' AND ');
+  s = s.replace(/\([^)]*\)/g,' ').replace(/\s*-\s*\([A-Z]{2}\)\s*$/,' ')
+       .replace(/\bD\/B\/A\b.*$/,' ').replace(/[^A-Z0-9 ]+/g,' ');
+  for(const [p,r] of WORDS) s = s.replace(p,r);
+  s = s.replace(PREFIX,' ').replace(SUFFIX,' ');
+  return s.replace(/\s+/g,' ').trim();
+}
+
+/* ---- data ---- */
+let DATA = {utilities:{}, market:[]};
+let matchStats = {matched:0, total:0, unmatchedPayload:[]};
+
+function progsFor(p){
+  const u = DATA.utilities[norm(p.NAME)];
+  return u ? u : null;
+}
 
 /* ---- styling ---- */
-const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', OTHER:'#bdbdbd'};
-const OWNER_COLORS = {
-  'INVESTOR OWNED':'#e6550d','COOPERATIVE':'#31a354','MUNICIPAL':'#756bb1',
-  'POLITICAL SUBDIVISION':'#9ecae1','STATE':'#fec44f','FEDERAL':'#636363',
-  'RETAIL POWER MARKETER':'#e7298a'
-};
-const DR_COLORS = {active:'#1a9850', partial:'#fee08b', none:'#d73027', unknown:'#cccccc'};
+const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', OTHER:'#bdbdbd'};
+const OWNER_COLORS = {'IOU':'#e6550d','Cooperative':'#31a354','Municipal':'#756bb1',
+  'Federal/State':'#fec44f','Unknown':'#dddddd'};
+const COUNT_COLORS = ['#eeeeee','#d7ecd9','#a1d99b','#41ab5d','#006d2c'];
+function countColor(n){ return n===0?COUNT_COLORS[0]:n<3?COUNT_COLORS[1]:n<6?COUNT_COLORS[2]:n<10?COUNT_COLORS[3]:COUNT_COLORS[4]; }
 
-function classifyRTO(p){
+/* RTO: prefer our verified value, fall back to the HIFLD control-area heuristic */
+function rtoOf(p){
+  const u = progsFor(p);
+  if(u && u.rto && u.rto!=='Non-RTO') return u.rto;
   const s = ((p.CNTRL_AREA||'')+' '+(p.PLAN_AREA||'')).toUpperCase();
   if (s.includes('MIDCONTINENT') || /\bMISO\b/.test(s)) return 'MISO';
   if (s.includes('PJM')) return 'PJM';
   return 'OTHER';
 }
-function drStatus(p){ const r=DR_TABLE[p.ID]; return r&&r.status?r.status:'unknown'; }
-function ownerKey(p){ return (p.TYPE||'').toUpperCase().trim(); }
+/* Ownership: prefer ours. HIFLD TYPE is frequently "NOT AVAILABLE". */
+function ownerOf(p){
+  const u = progsFor(p);
+  if(u && u.own) return u.own;
+  const t = (p.TYPE||'').toUpperCase().trim();
+  if(t==='INVESTOR OWNED') return 'IOU';
+  if(t==='COOPERATIVE') return 'Cooperative';
+  if(t==='MUNICIPAL'||t==='POLITICAL SUBDIVISION') return 'Municipal';
+  if(t==='STATE'||t==='FEDERAL') return 'Federal/State';
+  return 'Unknown';
+}
 
 let currentView = 'rto';
 function colorFor(p){
   if (currentView==='none') return 'transparent';
-  if (currentView==='rto')   return RTO_COLORS[classifyRTO(p)]  || '#bdbdbd';
-  if (currentView==='owner') return OWNER_COLORS[ownerKey(p)]   || '#dddddd';
-  return DR_COLORS[drStatus(p)] || '#cccccc';
+  if (currentView==='rto')   return RTO_COLORS[rtoOf(p)] || '#bdbdbd';
+  if (currentView==='owner') return OWNER_COLORS[ownerOf(p)] || '#dddddd';
+  const u = progsFor(p);
+  if (currentView==='programs') return countColor(u?u.programs.length:0);
+  if (currentView==='storage')  return countColor(u?u.programs.filter(x=>x.stor==='Yes'||x.stor==='Yes-restricted').length:0);
+  return '#ccc';
 }
-const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-const BORDER = darkMode ? '#fff' : '#333';
-function styleFn(f){ return {color:currentView==='none'?'transparent':BORDER,weight:currentView==='none'?0:0.8,fillColor:colorFor(f.properties),fillOpacity:currentView==='none'?0:0.15}; }
-function styleFnHL(f){ return {color:'#f00',weight:2,fillColor:colorFor(f.properties),fillOpacity:0.8}; }
+const BORDER = '#333';
+function styleFn(f){ const off=currentView==='none';
+  return {color:off?'transparent':BORDER,weight:off?0:0.8,fillColor:colorFor(f.properties),fillOpacity:off?0:0.45}; }
+function styleFnHL(f){ return {color:'#f00',weight:2.4,fillColor:colorFor(f.properties),fillOpacity:0.75}; }
 
 /* ---- map ---- */
 const map = L.map('map').setView([40.5,-85],5);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
   {attribution:'© OpenStreetMap © CARTO', subdomains:'abcd', maxZoom:19}).addTo(map);
 
-let layer = null, marker = null, highlighted = null;
-const statusEl  = document.getElementById('status');
-const legendEl  = document.getElementById('legend');
-const locResult = document.getElementById('locResult');
+let layer=null, marker=null, highlighted=null, allFeatures=[];
+const statusEl=document.getElementById('status'), legendEl=document.getElementById('legend'),
+      locResult=document.getElementById('locResult'), drawer=document.getElementById('drawer');
+
+/* ---- detail drawer ---- */
+const esc = s => (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const CAT_ORDER = ['TOU-Rate','RTP-Rate','CPP-PTR','Demand-Charge','Storage-Incentive','VPP',
+  'DR-BYOD','DR-BYOT','DR-DLC','DR-Curtailment','EV-Rate','Export-Comp','Interconnection','Wholesale-Market'];
+
+function kvRow(label, val){ return val && val.trim() ? `<div><b>${label}:</b> ${esc(val)}</div>` : ''; }
+
+function programHTML(p){
+  return `<details class="pg"><summary><span class="cat">${esc(p.cat)}</span>${esc(p.n)}
+    <span class="cf ${esc(p.conf)}">${esc(p.conf)}</span></summary>
+    <div class="kv">
+      ${kvRow('Status', p.status)}${kvRow('Who', p.seg)}${kvRow('Assets', p.assets)}
+      ${kvRow('Enrollment', p.enroll)}${kvRow('Structure', p.struct)}${kvRow('Value', p.val)}
+      ${kvRow('Limits', p.limits)}${kvRow('Tariff', p.tariff)}${kvRow('Peak window', p.peak)}
+      ${kvRow('Rates', p.rates)}${kvRow('Export', p.export)}${kvRow('Storage eligible', p.stor)}
+      ${kvRow('Stacks with', p.stack)}
+      <div style="margin-top:5px"><a href="${esc(p.url)}" target="_blank" rel="noopener">source ↗</a></div>
+    </div></details>`;
+}
+
+function openDrawer(p){
+  const u = progsFor(p);
+  const fmt = n => (n==null?'—':Number(n).toLocaleString());
+  document.getElementById('dTitle').textContent = p.NAME||'(unnamed)';
+  document.getElementById('dSub').innerHTML =
+    `EIA ID <code>${esc(p.ID)}</code> · ${esc(p.STATE)} · ${fmt(p.CUSTOMERS)} customers · ${esc(rtoOf(p))} · ${esc(ownerOf(p))}`;
+
+  let h = '';
+  if(!u){
+    h += `<div class="warn">No program data matched to this utility. Either we have not researched
+      it, or the name did not match our crosswalk. HIFLD name normalizes to
+      <code>${esc(norm(p.NAME))}</code>.</div>`;
+  } else {
+    const byCat = {};
+    u.programs.forEach(x=>(byCat[x.cat] ||= []).push(x));
+    const cats = CAT_ORDER.filter(c=>byCat[c]).concat(Object.keys(byCat).filter(c=>!CAT_ORDER.includes(c)));
+    const nStor = u.programs.filter(x=>x.stor==='Yes'||x.stor==='Yes-restricted').length;
+    h += `<div class="sec"><h3>Summary</h3><div class="chips">
+      <span>${u.programs.length} programs</span><span>${nStor} storage-eligible</span>
+      <span>matched as: ${esc(u.name)}</span>${u.scope!=='utility'?`<span>scope: ${esc(u.scope)}</span>`:''}
+      </div></div>`;
+    h += `<div class="sec"><h3>Programs &amp; rates</h3>`;
+    cats.forEach(c=>{ h += byCat[c].map(programHTML).join(''); });
+    h += `</div>`;
+  }
+
+  h += `<div class="sec"><h3>Interconnection rules</h3>
+    <div class="placeholder">Phase 2 — not yet built. Will carry: system size caps, export limits
+    and non-export options, standby charges and their kW threshold, IEEE 1547 / UL 1741-SB
+    requirements, external disconnect, application fees and study thresholds, net-metering
+    aggregate cap and current subscription, typical timeline, and whether storage may charge
+    from the grid and still export.</div></div>`;
+
+  h += `<div class="sec"><h3>Full bill structure</h3>
+    <div class="placeholder">Phase 3 — not yet built. Will carry: fixed/customer charge, energy
+    charges by season and period, demand charges and ratchets, all riders (fuel/PCA, capacity,
+    transmission, EE surcharge), minimum bills, taxes and franchise fees, plus 5–10 yr
+    escalation history.</div></div>`;
+
+  h += `<div class="sec"><h3>Aggregators / CSPs</h3>
+    <div class="placeholder">Phase 4 — not yet built. Most residential BTM assets reach DR and
+    ancillary markets through a third-party aggregator rather than a utility tariff, so an empty
+    Programs list above does not mean zero revenue opportunity.</div></div>`;
+
+  h += `<div class="sec"><h3>Hosting capacity</h3>
+    <div class="placeholder">Phase 6 — not yet built. Note that published hosting capacity is
+    almost always <i>generation</i> hosting capacity; load headroom for electrification is rarely
+    published.</div></div>`;
+
+  const mkt = DATA.market.filter(m=>m.rto.startsWith(rtoOf(p).split('/')[0]));
+  if(mkt.length){
+    h += `<div class="sec"><h3>Wholesale market products (${esc(rtoOf(p))})</h3>
+      ${mkt.map(programHTML).join('')}</div>`;
+  }
+
+  h += `<div class="sec"><h3>Provenance</h3><div class="placeholder">
+    Screening data, independently unverified. Confidence ratings are self-reported by the
+    research pass that produced each row. Re-check the source before quoting anything to a
+    customer.</div></div>`;
+
+  document.getElementById('dBody').innerHTML = h;
+  drawer.classList.add('open');
+}
+document.getElementById('closeDrawer').onclick = ()=>drawer.classList.remove('open');
 
 function popup(p){
-  const fmt = n => (n==null?'—':Number(n).toLocaleString());
-  return `<b>${p.NAME||'(unnamed)'}</b><br>
-EIA ID: <code>${p.ID||'—'}</code><br>
-Type: ${p.TYPE||'—'}<br>
-State: ${p.STATE||'—'} &nbsp; Customers: ${fmt(p.CUSTOMERS)}<br>
-RTO (heuristic): <b>${classifyRTO(p)}</b><br>
-Ctrl area: ${p.CNTRL_AREA||'—'}<br>
-Plan area: ${p.PLAN_AREA||'—'}<br>
-DR status: ${drStatus(p)}`;
+  const u = progsFor(p);
+  return `<b>${esc(p.NAME||'(unnamed)')}</b><br>EIA ID <code>${esc(p.ID)}</code> · ${esc(p.STATE)}<br>
+    ${esc(rtoOf(p))} · ${esc(ownerOf(p))}<br>
+    <b>${u?u.programs.length:0}</b> programs on file`;
 }
 
 function renderLegend(){
-  const m = currentView==='rto'?RTO_COLORS:currentView==='owner'?OWNER_COLORS:DR_COLORS;
-  legendEl.innerHTML = Object.entries(m)
-    .map(([k,c])=>`<div><i style="background:${c}"></i>${k}</div>`).join('');
+  let m;
+  if(currentView==='rto') m = RTO_COLORS;
+  else if(currentView==='owner') m = OWNER_COLORS;
+  else if(currentView==='programs'||currentView==='storage')
+    m = {'0':COUNT_COLORS[0],'1–2':COUNT_COLORS[1],'3–5':COUNT_COLORS[2],'6–9':COUNT_COLORS[3],'10+':COUNT_COLORS[4]};
+  else { legendEl.innerHTML=''; return; }
+  legendEl.innerHTML = Object.entries(m).map(([k,c])=>`<div><i style="background:${c}"></i>${k}</div>`).join('');
 }
 
-/* ---- load with pagination ---- */
+/* ---- load ---- */
 const WHERE = "STATE IN (" + STATES.map(s=>`'${s}'`).join(',') + ") AND COUNTRY='USA'";
-const PAGE  = 2000;
-
+const PAGE = 2000;
 async function fetchPage(offset){
-  const p = new URLSearchParams({
-    where:WHERE, outFields:OUT_FIELDS, returnGeometry:'true', outSR:'4326',
-    maxAllowableOffset:'0.005', geometryPrecision:'4',
-    resultOffset:offset, resultRecordCount:PAGE, f:'geojson'
-  });
+  const p = new URLSearchParams({where:WHERE, outFields:OUT_FIELDS, returnGeometry:'true',
+    outSR:'4326', maxAllowableOffset:'0.005', geometryPrecision:'4',
+    resultOffset:offset, resultRecordCount:PAGE, f:'geojson'});
   const r = await fetch(`${SVC}?${p}`);
   if(!r.ok) throw new Error(`HTTP ${r.status}`);
   const gj = await r.json();
@@ -131,59 +296,83 @@ async function fetchPage(offset){
 
 async function load(){
   try{
+    statusEl.textContent = 'Loading program data…';
+    try{
+      const pr = await fetch('data/programs.json');
+      if(pr.ok) DATA = await pr.json();
+      else statusEl.textContent = 'programs.json not found — map will render without program data.';
+    }catch(e){ console.warn('programs.json load failed', e); }
+
     let all=[], offset=0, more=true;
     while(more){
-      statusEl.textContent = `Loading… (${offset} fetched)`;
+      statusEl.textContent = `Loading territories… (${offset})`;
       const gj = await fetchPage(offset);
       const feats = gj.features||[];
       all = all.concat(feats);
       more = !!gj.exceededTransferLimit && feats.length===PAGE;
       offset += feats.length;
     }
-    const fc = {type:'FeatureCollection', features:all};
-    layer = L.geoJSON(fc, {style:styleFn,
-      onEachFeature:(f,l)=>l.bindPopup(popup(f.properties))}).addTo(map);
+    allFeatures = all;
+
+    layer = L.geoJSON({type:'FeatureCollection',features:all}, {style:styleFn,
+      onEachFeature:(f,l)=>{ l.bindPopup(popup(f.properties));
+        l.on('click',()=>openDrawer(f.properties)); }}).addTo(map);
+
+    // match stats
+    const seen = new Set();
+    all.forEach(f=>{ const k=norm(f.properties.NAME); if(DATA.utilities[k]) seen.add(k); });
+    matchStats.matched = seen.size;
+    matchStats.total = Object.values(DATA.utilities).filter(u=>u.scope==='utility').length;
+    matchStats.unmatchedPayload = Object.entries(DATA.utilities)
+      .filter(([k,u])=>u.scope==='utility' && !seen.has(k)).map(([k,u])=>({key:k,name:u.name,state:u.state}));
+
     const counts={MISO:0,PJM:0,OTHER:0};
-    all.forEach(f=>counts[classifyRTO(f.properties)]++);
+    all.forEach(f=>{ const r=rtoOf(f.properties); counts[r]=(counts[r]||0)+1; });
     statusEl.textContent =
-      `${all.length} territories loaded.\nMISO ${counts.MISO} · PJM ${counts.PJM} · OTHER ${counts.OTHER}\n(${counts.OTHER} need EIA-ID→RTO join)`;
+      `${all.length} territories.\nMISO ${counts.MISO} · PJM ${counts.PJM} · other ${counts.OTHER}\n`+
+      `Programs matched to ${matchStats.matched}/${matchStats.total} researched utilities.\n`+
+      `${matchStats.unmatchedPayload.length} unmatched (see console).`;
+    if(matchStats.unmatchedPayload.length){
+      console.warn('Unmatched payload utilities — add to data/crosswalk/aliases.csv:');
+      console.table(matchStats.unmatchedPayload);
+    }
     if(all.length) map.fitBounds(layer.getBounds(),{padding:[20,20]});
+    renderLegend();
   }catch(e){ statusEl.textContent='Load failed: '+e.message; }
 }
 
+/* ---- crosswalk export: the browser has network access the build env does not ---- */
+document.getElementById('exportBtn').onclick = ()=>{
+  const rows = [['eia_id','hifld_name','state','customers','matched_utility_name','n_programs','match']];
+  allFeatures.forEach(f=>{
+    const p=f.properties, u=DATA.utilities[norm(p.NAME)];
+    if(u) rows.push([p.ID,p.NAME,p.STATE,p.CUSTOMERS??'',u.name,u.programs.length,'matched']);
+  });
+  matchStats.unmatchedPayload.forEach(u=>rows.push(['','','' ,'',u.name,'','UNMATCHED-no-polygon']));
+  const csv = rows.map(r=>r.map(v=>{
+    const s=String(v??''); return /[",\n]/.test(s)?'"'+s.split('"').join('""')+'"':s;}).join(',')).join('\n');
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
+  a.download='utility_eia_crosswalk.csv'; a.click();
+};
+
 /* ---- location lookup ---- */
 async function geocode(query){
-  // detect "lat,lon" pattern
   const ll = query.match(/^\s*(-?\d+\.?\d*)\s*,\s*(-?\d+\.?\d*)\s*$/);
   if(ll) return {lat:parseFloat(ll[1]), lon:parseFloat(ll[2]), display:'(direct coordinates)'};
   const isZip = /^\d{5}$/.test(query);
-  const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(isZip ? query+', USA' : query)}&format=json&limit=1&countrycodes=us`;
-  const r = await fetch(url, {headers:{'Accept-Language':'en'}});
+  // Nominatim usage policy: max 1 req/sec, identify the app. Browsers forbid setting
+  // User-Agent, so we rely on Referer. Swap to a keyed geocoder before any real volume.
+  const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(isZip?query+', USA':query)}&format=json&limit=1&countrycodes=us`;
+  const r = await fetch(url,{headers:{'Accept-Language':'en'}});
+  if(!r.ok) throw new Error(`geocoder HTTP ${r.status}`);
   const data = await r.json();
   if(!data.length) throw new Error('Address not found');
   return {lat:parseFloat(data[0].lat), lon:parseFloat(data[0].lon), display:data[0].display_name};
 }
 
-function findContainingPolygon(lat, lon){
-  if(!layer) return null;
-  const pt = L.latLng(lat, lon);
-  let found = null;
-  layer.eachLayer(l => {
-    if(found) return;
-    // rough bounds check first for speed
-    if(!l.getBounds().contains(pt)) return;
-    // point-in-polygon via leaflet's contains on each ring
-    const geom = l.feature.geometry;
-    if(pip(lon, lat, geom)) found = l;
-  });
-  return found;
-}
-
-/* Ray-casting point-in-polygon for GeoJSON geometry (Polygon + MultiPolygon) */
-function pip(x, y, geom){
-  const polys = geom.type==='MultiPolygon'
-    ? geom.coordinates.map(p=>p[0])
-    : [geom.coordinates[0]];
+function pip(x,y,geom){
+  const polys = geom.type==='MultiPolygon' ? geom.coordinates.map(p=>p[0]) : [geom.coordinates[0]];
   for(const ring of polys){
     let inside=false;
     for(let i=0,j=ring.length-1;i<ring.length;j=i++){
@@ -195,41 +384,49 @@ function pip(x, y, geom){
   return false;
 }
 
+/* A point commonly falls in several overlapping HIFLD polygons. Collect them all and
+   prefer the one we actually have program data for. */
+function findContaining(lat,lon){
+  if(!layer) return [];
+  const pt=L.latLng(lat,lon), hits=[];
+  layer.eachLayer(l=>{
+    if(!l.getBounds().contains(pt)) return;
+    if(pip(lon,lat,l.feature.geometry)) hits.push(l);
+  });
+  hits.sort((a,b)=>{
+    const ua=progsFor(a.feature.properties), ub=progsFor(b.feature.properties);
+    return (ub?ub.programs.length:0)-(ua?ua.programs.length:0);
+  });
+  return hits;
+}
+
 document.getElementById('locBtn').addEventListener('click', async ()=>{
-  const q = document.getElementById('locInput').value.trim();
+  const q=document.getElementById('locInput').value.trim();
   if(!q){ locResult.textContent='Enter an address, zip, or lat,lon'; return; }
-  locResult.textContent = 'Looking up…';
+  locResult.textContent='Looking up…';
   try{
-    const {lat,lon,display} = await geocode(q);
-
-    // drop/move marker
+    const {lat,lon,display}=await geocode(q);
     if(marker) map.removeLayer(marker);
-    marker = L.marker([lat,lon]).addTo(map);
-    map.setView([lat,lon], 10);
-
-    // unhighlight previous
+    marker=L.marker([lat,lon]).addTo(map);
+    map.setView([lat,lon],10);
     if(highlighted){ highlighted.setStyle(styleFn(highlighted.feature)); highlighted=null; }
 
-    const found = findContainingPolygon(lat, lon);
-    if(found){
-      highlighted = found;
-      found.setStyle(styleFnHL(found.feature));
-      found.openPopup();
-      const p = found.feature.properties;
-      const fmt = n => (n==null?'—':Number(n).toLocaleString());
-      locResult.textContent =
-        `${p.NAME||'(unnamed)'}\nEIA ID: ${p.ID||'—'}\nType: ${p.TYPE||'—'}\n`+
-        `Customers: ${fmt(p.CUSTOMERS)}\nRTO: ${classifyRTO(p)}\n`+
-        `Ctrl area: ${p.CNTRL_AREA||'—'}`;
+    const hits=findContaining(lat,lon);
+    if(hits.length){
+      highlighted=hits[0];
+      highlighted.setStyle(styleFnHL(highlighted.feature));
+      openDrawer(highlighted.feature.properties);
+      const others = hits.slice(1).map(h=>h.feature.properties.NAME).join('\n  ');
+      locResult.textContent = `${display}\n→ ${hits[0].feature.properties.NAME}` +
+        (others?`\nAlso overlapping:\n  ${others}`:'');
     } else {
-      locResult.textContent = `Geocoded: ${display}\n(lat ${lat.toFixed(4)}, lon ${lon.toFixed(4)})\nNo territory polygon found — point may be outside loaded states or in a gap.`;
+      locResult.textContent=`Geocoded: ${display}\n(${lat.toFixed(4)}, ${lon.toFixed(4)})\nNo territory polygon found.`;
     }
   }catch(e){ locResult.textContent='Error: '+e.message; }
 });
 
-document.getElementById('locInput').addEventListener('keydown', e=>{
-  if(e.key==='Enter') document.getElementById('locBtn').click();
-});
+document.getElementById('locInput').addEventListener('keydown',e=>{
+  if(e.key==='Enter') document.getElementById('locBtn').click(); });
 
 document.querySelectorAll('input[name=view]').forEach(el=>
   el.addEventListener('change',e=>{

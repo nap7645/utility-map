@@ -1,0 +1,144 @@
+distinct utility x state: 143
+AR|Arkansas Electric Cooperative Corp (AECC) / member co-ops
+AR|Conway Corp
+AR|Entergy Arkansas LLC
+AR|North Little Rock Electric Department
+AR|Ozarks Electric Cooperative
+AR|Southwestern Electric Power Co (SWEPCO)
+DC|Potomac Electric Power Co (Pepco DC)
+DE|Delaware Electric Cooperative
+DE|Delaware Municipal Electric Corp (DEMEC) - member municipal utilities
+DE|Delmarva Power & Light Co (Delmarva DE)
+IA|Ames Electric Services (City of Ames)
+IA|Cedar Falls Utilities
+IA|Interstate Power and Light Company (Alliant Energy)
+IA|Linn County Rural Electric Cooperative
+IA|MidAmerican Energy Company
+IA|Muscatine Power and Water
+IA|Waverly Light and Power
+IL|Ameren Illinois Company d/b/a Ameren Illinois
+IL|City Water Light and Power (Springfield)
+IL|Commonwealth Edison Company (ComEd)
+IL|Illinois Municipal Electric Agency
+IL|Illinois Power Agency (statewide Adjustable Block Program administrator)
+IL|Illinois Power Agency (statewide; covers Ameren Illinois territory)
+IL|Prairie Power Inc.
+IL|Southern Illinois Power Cooperative
+IN|AES Indiana (formerly IPL)
+IN|CenterPoint Energy Indiana South (formerly Vectren)
+IN|Duke Energy Indiana
+IN|Hoosier Energy
+IN|Indiana Michigan Power (AEP)
+IN|Jackson County REMC
+IN|Northern Indiana Public Service Co (NIPSCO)
+IN|Richmond Power & Light
+IN|Wabash Valley Power Alliance
+KY|Big Rivers Electric
+KY|Duke Energy Kentucky
+KY|East Kentucky Power Cooperative
+KY|Kentucky Power (AEP)
+KY|Kentucky Utilities
+KY|Louisville Gas & Electric
+KY|Owensboro Municipal Utilities
+LA|Cleco Power LLC
+LA|Dixie Electric Membership Corp (DEMCO)
+LA|Entergy Louisiana LLC
+LA|Entergy New Orleans LLC
+LA|Lafayette Utilities System
+LA|Louisiana Energy & Power Authority (LEPA) member municipalities
+LA|South Louisiana Electric Cooperative Assn (SLECA)
+LA|Southwestern Electric Power Co (SWEPCO)
+MD|Baltimore Gas and Electric Co (BGE)
+MD|Choptank Electric Cooperative
+MD|Delmarva Power & Light Co (Delmarva MD)
+MD|Easton Utilities Commission
+MD|Maryland Energy Administration (statewide)
+MD|Maryland Public Service Commission (statewide pilot - BGE/Pepco/Delmarva)
+MD|Potomac Edison Co (FirstEnergy - Maryland)
+MD|Potomac Electric Power Co (Pepco MD)
+MD|Southern Maryland Electric Cooperative (SMECO)
+MI|Cloverland Electric Cooperative
+MI|Consumers Energy Co
+MI|DTE Electric Co
+MI|Great Lakes Energy Cooperative
+MI|Holland Board of Public Works
+MI|Indiana Michigan Power - Michigan
+MI|Lansing Board of Water & Light
+MI|Traverse City Light & Power
+MI|Upper Michigan Energy Resources (UMERC)
+MI|Upper Peninsula Power Company (UPPCO)
+MN|Austin Utilities
+MN|Connexus Energy
+MN|Dakota Electric Association
+MN|Great River Energy
+MN|Minnesota Power (ALLETE)
+MN|Moorhead Public Service
+MN|Northern States Power Co - Minnesota (Xcel Energy)
+MN|Otter Tail Power Company
+MN|Owatonna Public Utilities
+MN|Rochester Public Utilities
+MN|Willmar Municipal Utilities
+MO|City Utilities of Springfield
+MO|Columbia Water and Light
+MO|Independence Power and Light Department
+MO|Union Electric Company d/b/a Ameren Missouri
+MS|Coast Electric Power Association
+MS|East Mississippi Electric Power Association
+MS|Entergy Mississippi LLC
+MS|Mississippi Power Co (Southern Co)
+ND|Montana-Dakota Utilities Co.
+ND|Northern States Power Co - North Dakota (Xcel Energy)
+NJ|Atlantic City Electric Co (ACE)
+NJ|Jersey Central Power & Light Co (JCP&L)
+NJ|New Jersey Board of Public Utilities (statewide - applies in PSE&G/JCP&L/ACE/RECO territories)
+NJ|Public Service Electric and Gas Co (PSE&G)
+NJ|Rockland Electric Co (RECO)
+OH|AES Ohio (Dayton Power and Light Company)
+OH|American Municipal Power Inc. (AMP)
+OH|Bowling Green Municipal Utilities
+OH|Buckeye Power Inc. (G&T for Ohio's Electric Cooperatives)
+OH|City of Cuyahoga Falls (Cuyahoga Falls Electric)
+OH|City of Wadsworth (Wadsworth Electric)
+OH|City of Westerville (Westerville Electric Division)
+OH|Cleveland Public Power
+OH|Duke Energy Ohio
+OH|Ohio Edison Company
+OH|Ohio Power Company (AEP Ohio)
+OH|South Central Power Company
+OH|The Cleveland Electric Illuminating Company
+OH|Toledo Edison Company
+PA|Duquesne Light Co
+PA|Metropolitan Edison Co (Met-Ed)
+PA|PECO Energy Co
+PA|PPL Electric Utilities Corp
+PA|Pennsylvania Electric Co (Penelec)
+PA|Pennsylvania Power Co
+PA|UGI Utilities Inc - Electric Division
+PA|West Penn Power Co
+SD|East River Electric Power Cooperative
+SD|Missouri River Energy Services
+SD|Northern States Power Co - South Dakota (Xcel Energy)
+TX|Entergy Texas Inc
+VA|Appalachian Power Co (AEP - Virginia)
+VA|BARC Electric Cooperative
+VA|Central Virginia Electric Cooperative
+VA|Danville Utilities (City of Danville - Division of Power & Light)
+VA|Harrisonburg Electric Commission
+VA|Manassas City Electric (City of Manassas Utilities)
+VA|Northern Virginia Electric Cooperative (NOVEC)
+VA|Rappahannock Electric Cooperative
+VA|Shenandoah Valley Electric Cooperative
+VA|Virginia Electric & Power Co (Dominion Energy Virginia)
+WI|Madison Gas and Electric Co (MGE)
+WI|Northern States Power Co - Wisconsin (Xcel Energy)
+WI|Superior Water Light & Power Co (ALLETE)
+WI|WPPI Energy
+WI|Wisconsin Electric Power Co (We Energies)
+WI|Wisconsin Power & Light Co (Alliant Energy)
+WI|Wisconsin Public Service Corp (WPS)
+WV|Appalachian Power Co (AEP - West Virginia)
+WV|Monongahela Power Co (FirstEnergy - West Virginia)
+WV|Potomac Edison Co (FirstEnergy - West Virginia)
+WV|Wheeling Power Co (AEP - West Virginia)
+multi|Midcontinent ISO
+multi|PJM Interconnection

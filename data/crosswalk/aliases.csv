@@ -1,0 +1,98 @@
+utility_name,hifld_name,note
+Potomac Electric Power Co (Pepco DC),POTOMAC ELECTRIC POWER CO,confirmed from HIFLD DC query
+Potomac Electric Power Co (Pepco MD),POTOMAC ELECTRIC POWER CO,same EIA entity as DC - one polygon set
+Delmarva Power & Light Co (Delmarva DE),DELMARVA POWER,confirmed from HIFLD DE query
+Delmarva Power & Light Co (Delmarva MD),DELMARVA POWER,same EIA entity as DE
+Public Service Electric and Gas Co (PSE&G),PUBLIC SERVICE ELEC & GAS CO,confirmed from HIFLD NJ query
+Atlantic City Electric Co (ACE),ATLANTIC CITY ELECTRIC CO,confirmed from HIFLD NJ query
+Delaware Electric Cooperative,DELAWARE ELECTRIC COOPERATIVE,confirmed from HIFLD DE query
+Montana-Dakota Utilities Co.,MONTANA-DAKOTA UTILITIES CO,confirmed from HIFLD ND query
+Virginia Electric & Power Co (Dominion Energy Virginia),VIRGINIA ELECTRIC & POWER CO,unconfirmed - verify in browser
+Appalachian Power Co (AEP - Virginia),APPALACHIAN POWER CO,unconfirmed - HIFLD likely one record STATE=VA covering VA+WV
+Appalachian Power Co (AEP - West Virginia),APPALACHIAN POWER CO,same HIFLD record as VA - two tariff jurisdictions one polygon
+Wheeling Power Co (AEP - West Virginia),WHEELING POWER CO,unconfirmed
+Monongahela Power Co (FirstEnergy - West Virginia),MONONGAHELA POWER CO,unconfirmed - not returned by STATE=WV query
+Potomac Edison Co (FirstEnergy - West Virginia),POTOMAC EDISON CO,unconfirmed
+Potomac Edison Co (FirstEnergy - Maryland),POTOMAC EDISON CO,same HIFLD record as WV
+Jersey Central Power & Light Co (JCP&L),JERSEY CENTRAL POWER & LIGHT CO,unconfirmed - not returned by STATE=NJ query
+Rockland Electric Co (RECO),ROCKLAND ELECTRIC CO,unconfirmed - not returned by STATE=NJ query
+Northern States Power Co - Minnesota (Xcel Energy),NORTHERN STATES POWER CO,unconfirmed - disambiguate from NSP-Wisconsin
+Northern States Power Co - Wisconsin (Xcel Energy),NORTHERN STATES POWER CO - WISCONSIN,unconfirmed
+Northern States Power Co - North Dakota (Xcel Energy),NORTHERN STATES POWER CO,same EIA entity as NSP-MN
+Northern States Power Co - South Dakota (Xcel Energy),NORTHERN STATES POWER CO,same EIA entity as NSP-MN
+Union Electric Company d/b/a Ameren Missouri,UNION ELECTRIC CO,unconfirmed
+Ameren Illinois Company d/b/a Ameren Illinois,AMEREN ILLINOIS COMPANY,unconfirmed
+Commonwealth Edison Company (ComEd),COMMONWEALTH EDISON CO,unconfirmed
+Ohio Power Company (AEP Ohio),OHIO POWER CO,unconfirmed
+The Cleveland Electric Illuminating Company,CLEVELAND ELECTRIC ILLUM CO,unconfirmed
+AES Ohio (Dayton Power and Light Company),DAYTON POWER & LIGHT CO,unconfirmed - renamed AES Ohio 2021 HIFLD may lag
+AES Indiana (formerly IPL),INDIANAPOLIS POWER & LIGHT CO,unconfirmed - renamed AES Indiana 2021
+CenterPoint Energy Indiana South (formerly Vectren),SOUTHERN INDIANA GAS & ELEC CO,unconfirmed - Vectren South legacy name
+Northern Indiana Public Service Co (NIPSCO),NORTHERN INDIANA PUB SERV CO,unconfirmed
+Indiana Michigan Power (AEP),INDIANA MICHIGAN POWER CO,unconfirmed
+Indiana Michigan Power - Michigan,INDIANA MICHIGAN POWER CO,same HIFLD record as Indiana
+Wisconsin Electric Power Co (We Energies),WISCONSIN ELECTRIC POWER CO,unconfirmed
+Wisconsin Public Service Corp (WPS),WISCONSIN PUBLIC SERVICE CORP,unconfirmed
+Wisconsin Power & Light Co (Alliant Energy),WISCONSIN POWER & LIGHT CO,unconfirmed
+Interstate Power and Light Company (Alliant Energy),INTERSTATE POWER & LIGHT CO,unconfirmed
+Madison Gas and Electric Co (MGE),MADISON GAS & ELECTRIC CO,unconfirmed
+Superior Water Light & Power Co (ALLETE),SUPERIOR WATER LIGHT & POWER CO,unconfirmed
+Minnesota Power (ALLETE),MINNESOTA POWER INC,unconfirmed
+Upper Peninsula Power Company (UPPCO),UPPER PENINSULA POWER CO,unconfirmed
+Upper Michigan Energy Resources (UMERC),UPPER MICHIGAN ENERGY RESOURCES CORP,unconfirmed
+Lansing Board of Water & Light,CITY OF LANSING - (MI),confirmed from HIFLD MI query
+Holland Board of Public Works,CITY OF HOLLAND - (MI),unconfirmed
+Traverse City Light & Power,CITY OF TRAVERSE CITY - (MI),unconfirmed
+Baltimore Gas and Electric Co (BGE),BALTIMORE GAS & ELECTRIC CO,unconfirmed
+Southern Maryland Electric Cooperative (SMECO),SOUTHERN MARYLAND ELECTRIC COOP,unconfirmed
+PECO Energy Co,PECO ENERGY CO,unconfirmed
+PPL Electric Utilities Corp,PPL ELECTRIC UTILITIES CORP,unconfirmed
+Metropolitan Edison Co (Met-Ed),METROPOLITAN EDISON CO,unconfirmed
+Pennsylvania Electric Co (Penelec),PENNSYLVANIA ELECTRIC CO,unconfirmed
+Pennsylvania Power Co,PENNSYLVANIA POWER CO,unconfirmed
+Duquesne Light Co,DUQUESNE LIGHT CO,unconfirmed
+West Penn Power Co,WEST PENN POWER CO,unconfirmed
+Entergy Arkansas LLC,ENTERGY ARKANSAS INC,unconfirmed - LLC conversion HIFLD may lag
+Entergy Louisiana LLC,ENTERGY LOUISIANA LLC,unconfirmed
+Entergy Mississippi LLC,ENTERGY MISSISSIPPI INC,unconfirmed
+Entergy New Orleans LLC,ENTERGY NEW ORLEANS INC,unconfirmed
+Entergy Texas Inc,ENTERGY TEXAS INC,unconfirmed
+Southwestern Electric Power Co (SWEPCO),SOUTHWESTERN ELECTRIC POWER CO,unconfirmed - one record serves AR+LA+TX
+Mississippi Power Co (Southern Co),MISSISSIPPI POWER CO,unconfirmed
+Cleco Power LLC,CLECO POWER LLC,unconfirmed
+Dixie Electric Membership Corp (DEMCO),DIXIE ELECTRIC MEMBERSHIP CORP,unconfirmed
+Lafayette Utilities System,CITY OF LAFAYETTE - (LA),unconfirmed
+Northern Virginia Electric Cooperative (NOVEC),NORTHERN VIRGINIA ELEC COOP,unconfirmed
+Rappahannock Electric Cooperative,RAPPAHANNOCK ELECTRIC COOP,unconfirmed
+Shenandoah Valley Electric Cooperative,SHENANDOAH VALLEY ELECTRIC COOP,unconfirmed
+Central Virginia Electric Cooperative,CENTRAL VIRGINIA ELECTRIC COOP,unconfirmed
+BARC Electric Cooperative,BARC ELECTRIC COOPERATIVE,unconfirmed
+Danville Utilities (City of Danville - Division of Power & Light),CITY OF DANVILLE - (VA),unconfirmed
+Harrisonburg Electric Commission,CITY OF HARRISONBURG - (VA),unconfirmed
+Manassas City Electric (City of Manassas Utilities),CITY OF MANASSAS - (VA),unconfirmed
+Louisville Gas & Electric,LOUISVILLE GAS & ELECTRIC CO,unconfirmed
+Kentucky Utilities,KENTUCKY UTILITIES CO,unconfirmed
+Kentucky Power (AEP),KENTUCKY POWER CO,unconfirmed
+Owensboro Municipal Utilities,CITY OF OWENSBORO - (KY),unconfirmed
+Richmond Power & Light,CITY OF RICHMOND - (IN),unconfirmed
+City Water Light and Power (Springfield),CITY OF SPRINGFIELD - (IL),unconfirmed
+City Utilities of Springfield,CITY OF SPRINGFIELD - (MO),unconfirmed - distinct from Springfield IL
+Columbia Water and Light,CITY OF COLUMBIA - (MO),unconfirmed
+Independence Power and Light Department,CITY OF INDEPENDENCE - (MO),unconfirmed
+Ames Electric Services (City of Ames),CITY OF AMES - (IA),unconfirmed
+Cedar Falls Utilities,CEDAR FALLS UTILITIES,unconfirmed
+Muscatine Power and Water,MUSCATINE POWER & WATER,unconfirmed
+Waverly Light and Power,CITY OF WAVERLY - (IA),unconfirmed
+Rochester Public Utilities,CITY OF ROCHESTER - (MN),unconfirmed
+Austin Utilities,CITY OF AUSTIN - (MN),unconfirmed
+Owatonna Public Utilities,CITY OF OWATONNA - (MN),unconfirmed
+Willmar Municipal Utilities,CITY OF WILLMAR - (MN),unconfirmed
+Moorhead Public Service,CITY OF MOORHEAD - (MN),unconfirmed
+Conway Corp,CITY OF CONWAY - (AR),unconfirmed
+North Little Rock Electric Department,CITY OF NORTH LITTLE ROCK - (AR),unconfirmed
+Cleveland Public Power,CITY OF CLEVELAND - (OH),unconfirmed
+Bowling Green Municipal Utilities,CITY OF BOWLING GREEN - (OH),unconfirmed
+City of Cuyahoga Falls (Cuyahoga Falls Electric),CITY OF CUYAHOGA FALLS - (OH),unconfirmed
+City of Wadsworth (Wadsworth Electric),CITY OF WADSWORTH - (OH),unconfirmed
+City of Westerville (Westerville Electric Division),CITY OF WESTERVILLE - (OH),unconfirmed
+Easton Utilities Commission,TOWN OF EASTON - (MD),unconfirmed

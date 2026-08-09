@@ -1,0 +1,19 @@
+# Cluster 9 — RTO Wholesale Products: Gaps and Unverified Items
+
+## Covered with High/Medium confidence
+- PJM: Capacity Performance product, Demand Resource, BRA clearing prices for 2025/2026, 2026/2027, and 2027/2028 delivery years (all by RTO/LDA where prices diverged), Emergency Load Response, Economic Load Response, Synchronized/Non-Sync/Secondary Reserve (structural), RegA and RegD formulas and current values, DA/RT energy arbitrage (TB4 spreads), Order 2222 DER aggregation rules, Price Responsive Demand.
+- MISO: DRR-I, DRR-II, LMR (including the LMR-DR/LMR-BTMG split and the DLOL availability-based accreditation reform — confirmed this is live and cuts LMR value), EDR (confirmed being phased out), PRA clearing prices for 2025/2026 and 2026/2027 by LRZ/sub-region, Regulating/Spinning/Supplemental/Short-Term Reserve, ARC opt-out rules, Order 2222 compliance status/timeline, ESR participation model, DA/RT LMP spread commentary by hub.
+
+## Could not verify / low confidence — flagged in the data
+1. **PJM Non-Performance Charge Rate (current $/MWh value).** Confirmed the formula concept (Net CONE / EFORd-adjusted factor) and that aggregate 2025 charges were estimated at $1–2 billion system-wide, but could not pull the exact current per-MW Non-Performance Charge Rate or Bonus Rate for the 2025/2026 or 2026/2027 Delivery Year from Manual 18 / Attachment DD Section 10A directly (paywalled/complex PDF navigation). Marked Medium confidence.
+2. **PJM Synchronized Reserve, Non-Synchronized Reserve, and Secondary Reserve — actual clearing price ranges.** Found the market structure and the 2023 reserve price formation reform (Tier 1/Tier 2 consolidation, DA/RT alignment) but could not extract specific $/MWh clearing price data for 2025/2026 from Data Miner 2 or the IMM State of the Market report tables (data is in charts/tables not extracted by text search). Marked Low/Medium confidence — flagged as needing direct Data Miner 2 or IMM report pull.
+3. **PJM RMCCP/RMPCP current numeric values.** Have the 2023 RMCP average ($21.08/MW) and the full payment formulas, but not more recent (2025/2026) RMCCP/RMPCP average values — PJM's Regulation Redesign (Oct 2025 Phase 1, Oct 2026 Phase 2) also complicates a clean "current" number since the RegA/RegD product is being replaced.
+4. **MISO Short-Term Reserve (STR) clearing price.** Confirmed this is a new 30-minute product tied to MISO's 2025 shortage-pricing reforms, but could not extract a numeric average clearing price from the IMM Fall 2025 Quarterly Report (data in tables/charts not captured by search extraction). Marked Low confidence.
+5. **MISO DA/RT LMP spread by specific hub (Indiana/Michigan/Minnesota Hub) — full-year 2025 annualized average.** Only found a specific February 2026 Winter Storm Fern data point (148% RT vs DA premium at Indiana Hub); a clean full-year hub-by-hub average TB spread was not located. Marked Low confidence.
+6. **PJM zone-by-zone BRA breakdown for 2026/2027 and 2027/2028.** Both auctions cleared at the FERC price cap RTO-wide, so no sub-LDA breakdown was needed/available for those years (this is a real result, not a gap) — only the 2025/2026 auction had LDA-level divergence (BGE, Dominion).
+7. **MISO Order 2222 — DRR Type I rejection detail.** Confirmed FERC rejected using the 1 MW-minimum DRR Type I model as an Order 2222 vehicle (violates the 0.1 MW minimum), but the current interim participation pathway for small DERs before the 2027/2029 DEAR phases was not fully clarified.
+
+## Not checked
+- PJM Manual 11 Section 12 full text for Price Responsive Demand quantitative parameters (only summary-level detail obtained).
+- MISO Module E-1 full tariff text for exact ESR minimum size and metering language (used FAQ/help-center summary instead of primary tariff redline).
+- Historical (pre-2024) PJM Synchronized Reserve and MISO ancillary clearing price trends for context/comparison.

@@ -1,0 +1,171 @@
+# utility-map — buildout plan
+
+Persistent reference across sessions. **Update the Session Log at the bottom every session.**
+
+Owner: Nathan. Purpose: the location-intelligence layer for the BTM electrification design & economics tool. The map answers "what is possible and what is it worth at *this address*" before the Python app runs a full design.
+
+---
+
+## 0. Guiding decisions
+
+**Separate data from presentation.** Do not inline datasets into the HTML. Data lives in `data/processed/` as normalized CSV; a build script emits a compact JSON payload the map fetches at runtime. The Python app reads the same `data/processed/` files. One source of truth, two consumers.
+
+**EIA utility ID is the universal join key.** Every dataset gets an `eia_id` column. HIFLD's `ID` field is the EIA utility ID, which is what makes the map joinable at all. Anything that can't be keyed to `eia_id` needs an explicit documented reason.
+
+**Every row carries provenance.** `source_url`, `last_verified`, `confidence` on every record in every dataset, same convention as `programs.csv`. Non-negotiable — this data goes stale quarterly and will eventually back customer proposals.
+
+**Screening vs. binding.** The map is a screening tool. Hosting capacity, HIFLD polygons, and program availability are all approximate. Never let map output flow into a customer-facing number without a re-verification step.
+
+### Repo layout
+
+```
+utility-map/
+  data/
+    raw/          # immutable per-source snapshots, dated
+    processed/    # normalized, eia_id-keyed, one file per layer
+    crosswalk/    # name -> eia_id resolution, incl. manual overrides
+  scripts/        # ingest + build + validate
+  docs/           # published map + reports (GitHub Pages)
+  PLAN.md
+```
+
+---
+
+## 1. Data layers — status and priority
+
+| # | Layer | Status | Priority | File |
+|---|---|---|---|---|
+| A | DR / TOU / BESS programs | **457 rows built**, unverified, PA/NJ/DE thin | Phase 1 | `data/processed/programs.csv` |
+| B | EIA ID crosswalk | not started — **blocks everything** | Phase 0 | `data/crosswalk/utility_eia_crosswalk.csv` |
+| C | Interconnection rules | not started | Phase 2 | `data/processed/interconnection.csv` |
+| D | Full bill structure | not started | Phase 3 | `data/processed/bill_structure.csv` |
+| E | Aggregator / CSP coverage | not started | Phase 4 | `data/processed/aggregators.csv` |
+| F | EIA-861 utility stats | not started | Phase 5 | `data/processed/eia861_*.csv` |
+| G | Hosting capacity | not started | Phase 6 | `data/processed/hosting_capacity.csv` |
+| H | Historical nodal LMP | not started | Phase 7 | out-of-repo (too large) |
+
+---
+
+## Phase 0 — Crosswalk + scaffold `[IN PROGRESS]`
+
+**Why first:** `programs.csv` keys on free-text `utility_name`; the map keys on EIA ID. They do not join. Nothing else can be integrated until this exists.
+
+- [x] Repo scaffold, move `programs.csv` and reports in
+- [x] Write `norm()` name-normalization, mirrored in Python and JS (parity-tested, passing)
+- [x] Hand-write `data/crosswalk/aliases.csv` (97 entries, most still `unconfirmed`)
+- [x] `scripts/build_map_payload.py` → `docs/data/programs.json`
+- [ ] **Open the map, read the console, confirm the `unconfirmed` aliases** — unmatched utilities are logged via `console.table`
+- [ ] Click "Export crosswalk CSV", save to `data/crosswalk/utility_eia_crosswalk.csv`, commit
+- [ ] Add `eia_id` column to `programs.csv` from the exported crosswalk
+
+**Approach change (decided session 2).** The sandbox has no outbound network — only `web_fetch`/`WebSearch` reach the internet, and `web_fetch` has a ~200-char URL cap that blocks multi-term ArcGIS queries. Pulling all ~2,931 HIFLD records through the model's context to build the crosswalk offline is expensive and slow. **The browser already loads HIFLD.** So: match client-side with `norm()` + an alias table, and have the map *export* the resolved `eia_id → utility_name` crosswalk. The browser is the network-enabled compute the build environment lacks. Offline crosswalk becomes a committed artifact rather than something we recompute.
+
+**Known gotchas:**
+- **HIFLD `STATE` is the utility's home state, not every state it serves.** `STATE='WV'` returns 4 records — no Appalachian Power, no Mon Power, no Potomac Edison. `STATE='NJ'` returns no JCP&L or Rockland. Never filter attributes by state and assume completeness. Geographic coverage is still fine because the polygons cross state lines.
+- HIFLD names are municipal-style (`CITY OF LANSING - (MI)`); ~40 needed hand aliases.
+- One utility → many EIA IDs and many polygons; several utilities share one HIFLD record across two tariff jurisdictions (APCo VA/WV, Potomac Edison MD/WV, Pepco DC/MD, Delmarva DE/MD). Crosswalk is many-to-one both directions.
+- HIFLD `TYPE` is frequently `NOT AVAILABLE`. Our `ownership_type` is better — **we override HIFLD's, done in v0.6.**
+- A point often falls inside several overlapping polygons. v0.6 collects all hits and prefers the one with program data; it lists the others.
+- ~20 of our 143 entities are state agencies or G&T co-ops with **no retail polygon at all** — they can never match. Handled via the `scope` field (`utility` / `state` / `wholesale` / `rto`), so they don't pollute the match rate.
+
+## Phase 1 — Programs into the map `[MOSTLY DONE — v0.6]`
+
+- [x] `scripts/build_map_payload.py` → `docs/data/programs.json` (314 KB; 111 utility-scope, 16 wholesale, 4 state agencies, 32 market products)
+- [x] Replaced heuristic RTO coloring with verified `rto`, falling back to the heuristic
+- [x] Override HIFLD `TYPE` with our `ownership_type`
+- [x] Detail drawer replaces the cramped Leaflet popup — programs grouped by category, collapsible, with source links and confidence badges
+- [x] Color-by: RTO, ownership, program count, storage-eligible count
+- [x] Placeholder sections for Interconnection / Bill / Aggregators / Hosting capacity so later phases have a home
+- [x] RTO wholesale products shown per territory based on its RTO
+- [ ] **Verify in browser** — match rate, alias corrections, drawer rendering
+- [ ] Snapshot HIFLD to local GeoJSON so the map stops re-querying ArcGIS on every load
+
+**Backlog carried in:** PA/NJ/DE top-up (17/9/5 rows — the worst gap, and it's the richest BESS region); independent source verification of the 25-row sample (never ran); `peak_offpeak_rates` only 24% populated.
+
+**Backlog carried in:** PA/NJ/DE top-up (17/9/5 rows — the worst gap, and it's the richest BESS region); independent source verification of the 25-row sample (never ran); `peak_offpeak_rates` only 24% populated.
+
+## Phase 2 — Interconnection rules → the address popup
+
+The highest-value thing in the popup: it determines whether a design is *legal* before whether it's profitable.
+
+Per utility capture: system size caps by customer class; export limits and non-export/limited-export options; standby charges and their kW threshold; UL 1741-SA/SB and IEEE 1547 requirements; external disconnect switch requirement; interconnection application fees and study thresholds; net-metering aggregate cap and current subscription level; expedited/fast-track eligibility; typical timeline; whether storage may charge from grid and still export; AHJ/permitting notes.
+
+Source order: state PUC interconnection rules first (they set the floor for all IOUs in the state — big efficiency win), then per-utility tariff deviations, then co-op/muni which set their own.
+
+**Design note:** state-level rules and utility-level deviations should be two files — `interconnection_state.csv` and `interconnection_utility.csv` — with the utility file holding only deltas. Avoids duplicating one rule 40 times.
+
+## Phase 3 — Full bill structure
+
+`programs.csv` captures rate *design*, not the whole bill. NPV needs the whole bill.
+
+Capture per rate schedule: fixed/customer charge; energy charges by season and period; demand charges incl. ratchets; all riders (fuel/PCA, capacity, transmission, EE surcharge, decoupling); minimum bills; taxes/franchise fees; and the escalation history for the last 5–10 years so the app can fit a real escalation rate rather than assume 2.5%.
+
+**Watch:** fuel/PCA riders can move a residential bill 10–20% and are updated monthly or quarterly. Model them as a time series, not a constant.
+
+## Phase 4 — Aggregator / CSP layer
+
+**The gap in `programs.csv`.** It is utility-program-centric. Most residential BTM assets actually reach DR and ancillary markets through a third-party CSP, not a utility tariff. Without this layer the app will systematically understate revenue in territories with no utility program but active aggregators.
+
+Capture per CSP × territory: which CSPs operate where (Voltus, CPower, Enel X, EnergyHub, Leapfrog, Tesla/Sunrun VPPs, Renew Home); asset types accepted; residential vs C&I; revenue share / $ per kW-yr offered; which RTO product they bid into; contract length and exit terms; whether they stack with the utility program in the same territory.
+
+Sources: CSP websites, PJM/MISO registered-CRA lists, state DR program participant lists.
+
+## Phase 5 — EIA-861
+
+**Blocked from the sandbox** (`eia.gov` is not on the fetch allowlist and the sandbox has no outbound network). Download the zip manually on the host, drop it in `data/raw/`, then parse locally.
+
+Files worth parsing: Utility Data (ownership, RTO membership, service territory), Sales to Ultimate Customers (revenue/sales/customers by class → derived average ¢/kWh, a sanity check on Phase 3), Demand Response (actual enrollment, incentive payments, energy/peak savings by utility — ground truth against our program table), Net Metering (installed DG capacity and customer counts by utility), Reliability (SAIDI/SAIFI → backup value, which is the only quantitative handle on the customer-satisfaction objective).
+
+Also the authoritative full utility roster — the only way to know what the long tail we skipped actually contains.
+
+## Phase 6 — Hosting capacity
+
+**Source found: [DOE U.S. Atlas of Electric Distribution System Hosting Capacity Maps](https://www.energy.gov/cmei/vehicles/us-atlas-electric-distribution-system-hosting-capacity-maps)** — 58 utilities and state agencies across 26 states + DC + PR as of May 2024. Start here rather than hunting utility by utility.
+
+- [ ] Pull the Atlas list, filter to the 21-state footprint (expect ~12–18 utilities)
+- [ ] For each, find the underlying ArcGIS REST service URL behind the viewer (this is the actual work)
+- [ ] Ingest as GeoJSON; store feeder/line-section geometry + capacity values
+
+**Two caveats that matter:**
+1. Nearly all published HCA is **generation** hosting capacity. Our thesis is maximal electrification — a **load** addition problem. Load hosting capacity is rarely published. Expect to model load headroom ourselves from transformer/feeder proxies, or treat it as unknown risk.
+2. HCA is non-binding, feeder-resolution, refreshed quarterly-to-annually. Render it as a risk flag, never a constraint.
+
+## Phase 7 — Historical nodal LMP
+
+Deferred by decision. This is the arbitrage signal and the largest dataset by far.
+
+Approach when we get there: don't warehouse it in this repo. Either hit MISO/PJM APIs live, or use GridStatus.io rather than building ingest. Needs a location → pnode mapping, which is its own problem. Store aggregate statistics (TB2/TB4 spread by node by month, hours-at-price-percentile) in the map; keep full time series out-of-repo for the Python app.
+
+---
+
+## Ongoing — bug/debt list
+
+- [ ] RTO assignment in the map is a heuristic; replace with verified data (Phase 1)
+- [ ] HIFLD `TYPE` shows `NOT AVAILABLE` for many municipals; override with our `ownership_type`
+- [ ] Map re-queries ArcGIS on every load — no caching, slow. Snapshot territories to local GeoJSON.
+- [ ] `docs/index.html` and `utility_map_v0.5.html` are duplicates and will drift. Pick one; make the other a build artifact.
+- [ ] Nominatim geocoding has no error handling and no usage-policy compliance (needs a User-Agent, rate limiting)
+- [ ] No `last_verified` staleness surfacing in the UI — rows should visibly age
+- [ ] `programs.csv` confidence ratings are self-reported by the research agents, never independently audited
+- [ ] 13 Active rows sourced to news articles rather than tariffs; 20 to third-party aggregators
+
+---
+
+## Working notes for future sessions
+
+- Sessions hit API limits. **Write files early and incrementally**; do not hold work in memory to write at the end. Two research runs were lost that way.
+- Research subagents work well for breadth. Give them a schema file to read, a hard "never invent a row" rule, mandatory source URLs, and instructions to write incrementally.
+- Long `web_fetch` URLs fail with `cowork_web_fetch_url_too_long`. Keep query strings minimal.
+- Large `web_fetch` responses persist to a file instead of returning inline — read them from that path.
+
+## Session log
+
+**2026-08-08 — Session 1.** Built `programs.csv`: 457 rows, 142 utilities, 22 states + DC, 22 columns, every row source-linked. Nine parallel research agents by cluster. Two agents lost to session limits (PA/NJ/DE top-up, and the independent verification pass) — both still outstanding. Wrote `COVERAGE_REPORT.md` and `COVERAGE_GAPS.md`.
+
+**2026-08-09 — Session 2.** Scaffolded repo, moved data in, wrote this plan. Identified the EIA-ID join gap as the blocker. Located the DOE Hosting Capacity Atlas as the Phase 6 source. Discovered HIFLD's `STATE` is home-state-only, which invalidates state-filtered attribute queries. Pivoted the crosswalk to a browser-side join with an exportable crosswalk. Built `norm()` (Python + JS, parity-tested), `aliases.csv` (97 entries), `build_map_payload.py`, and map **v0.6** with a detail drawer, verified RTO/ownership overrides, program-count layers, overlapping-polygon handling, and placeholder sections for Phases 2/3/4/6. `utility_map_v0.5.html` → `docs/legacy_v0.5.html`; `docs/index.html` is now canonical.
+
+**Next session — start here:**
+1. Open `docs/index.html`, check the match rate in the status panel and the `console.table` of unmatched utilities.
+2. Fix `aliases.csv` from what the console reports; re-run `python3 scripts/build_map_payload.py`.
+3. Export the crosswalk CSV from the map, commit it, add `eia_id` to `programs.csv`.
+4. Then begin **Phase 2 (interconnection rules)** — state PUC rules first, utility deltas second.
