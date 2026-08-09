@@ -84,7 +84,34 @@ utility-map/
 
 **Backlog carried in:** PA/NJ/DE top-up (17/9/5 rows — the worst gap, and it's the richest BESS region); independent source verification of the 25-row sample (never ran); `peak_offpeak_rates` only 24% populated.
 
-## Phase 2 — Interconnection rules → the address popup
+## Phase 2 — Interconnection rules → the address drawer `[BUILT — needs verification]`
+
+- [x] `interconnection_SCHEMA.md` — two files, state rules as the floor, utility rows as deltas
+- [x] `data/processed/interconnection_state.csv` — **22 states**, 31 columns
+- [x] `data/processed/interconnection_utility.csv` — **97 utility deltas**, 21 columns, **100% join** against `programs.csv`
+- [x] Payload + drawer rendering: utility deltas shown first, state default below, "no deviations on file" stated explicitly rather than left blank
+- [ ] Verify in browser
+- [ ] Backfill `grid_charging_allowed` (see below)
+
+**The headline result is a negative one.** `grid_charging_allowed` — whether a battery may charge from the grid and still export or receive credit, which is the cell that decides whether arbitrage is legal at all — is **`Unclear` for 13 of 22 states**. This is not a research failure; most states simply never wrote a rule for it, because their net-metering statutes predate customer storage. Missouri's and Mississippi's rules contain no mention of batteries whatsoever (confirmed by direct text search).
+
+Practical consequence: in those 13 states the answer is determined by utility practice and interconnection-engineer discretion, not by published rule. **Model it as a per-utility unknown with a risk premium, not as a permission.** Resolving it means calling utility interconnection desks, which is a phone-call project, not a research project.
+
+Where it *is* answered: NJ (BPU actively enabling), MD (PSC approved storage provisions), IL (Level 1–4 forms address grid charging and non-export explicitly). Two states are `Yes-but-not-credited`. That trio plus PA is where storage arbitrage has the clearest legal footing.
+
+### Other Phase 2 findings worth carrying forward
+
+- **Michigan is the only state with a clear rule that adding a battery to a legacy net-metered PV system does not forfeit grandfathering** (R 460.920(5)(m)). IN/OH/KY/VA/WV produced no statutory answer. This single question decides most retrofit deals — treat it as a per-utility question to confirm before quoting a retrofit.
+- **Mississippi H.B. 1139 (2016)** bars the MPSC from setting cooperative compensation, so ~57% of MS ratepayers are outside the state rule entirely.
+- **Louisiana has no statewide interconnection standard at all** — it is utility-tariff-specific.
+- **Pennsylvania's 200% sizing rule** derives from the AEPS Act statutory definition (73 P.S. § 1648.2), not from 52 Pa. Code § 75.13 — the PUC tried to codify it in the regulation in 2016 and IRRC struck it. Cite the statute.
+- **Correction to an earlier assumption:** the Maryland PSC storage pilots at BGE/Pepco/Potomac Edison are utility-owned grid assets, not customer BYOD tariffs. Only Delmarva's (Sunverge VPP, 110 homes) matches a BYOD model.
+- **Live cap risk:** MD's 3,000 MW aggregate cap is ~51% used but the community-solar pipeline may exhaust it; PSC has asked the legislature to act in 2026. NJ (5.8%) and DE (8%, raised from 5% in 2022) both have subscription-level gaps.
+- **Virginia standby charge:** threshold moves 15 → 20 kW AC on 7/1/2026 under HB 1255; Dominion at $2.79/kW distribution + $1.40/kW transmission.
+- **West Virginia grandfathering:** AEP/Wheeling Power cutoff is an interconnection application by 2/28/2026, ~12.4¢/kWh after. Mon Power/Potomac Edison is a separate 2024 regime, 25-year grandfathering, cutover 3/27/2024.
+- `standby_threshold_kw` is only 64% populated; `export_credit_value` 82%.
+
+### Original scope notes
 
 The highest-value thing in the popup: it determines whether a design is *legal* before whether it's profitable.
 
@@ -164,8 +191,12 @@ Approach when we get there: don't warehouse it in this repo. Either hit MISO/PJM
 
 **2026-08-09 — Session 2.** Scaffolded repo, moved data in, wrote this plan. Identified the EIA-ID join gap as the blocker. Located the DOE Hosting Capacity Atlas as the Phase 6 source. Discovered HIFLD's `STATE` is home-state-only, which invalidates state-filtered attribute queries. Pivoted the crosswalk to a browser-side join with an exportable crosswalk. Built `norm()` (Python + JS, parity-tested), `aliases.csv` (97 entries), `build_map_payload.py`, and map **v0.6** with a detail drawer, verified RTO/ownership overrides, program-count layers, overlapping-polygon handling, and placeholder sections for Phases 2/3/4/6. `utility_map_v0.5.html` → `docs/legacy_v0.5.html`; `docs/index.html` is now canonical.
 
+**2026-08-09 — Session 3.** Phase 2 built. Five research agents by region → 22 state rule rows + 97 utility delta rows, joining 100% against `programs.csv`. Wired into the payload and the drawer (utility deltas first, state default beneath, explicit "no deviations on file" rather than silent blanks). Key negative finding: `grid_charging_allowed` is unresolved in 13 of 22 states because the rules predate customer storage.
+
+Process note: two of five agents again emitted unquoted-comma CSVs. A dedicated repair agent realigned them semantically rather than re-researching — much cheaper, and the right move since all the content was present, just misplaced. **Next time, put "write with `csv.writer`, then re-read and assert field counts" directly in the research prompt.** Three of five agents did this unprompted; two did not.
+
 **Next session — start here:**
-1. Open `docs/index.html`, check the match rate in the status panel and the `console.table` of unmatched utilities.
+1. Open `docs/index.html`. Check the match rate in the status panel and the `console.table` of unmatched utilities. Click a few territories and confirm the interconnection section renders sensibly.
 2. Fix `aliases.csv` from what the console reports; re-run `python3 scripts/build_map_payload.py`.
 3. Export the crosswalk CSV from the map, commit it, add `eia_id` to `programs.csv`.
-4. Then begin **Phase 2 (interconnection rules)** — state PUC rules first, utility deltas second.
+4. Then **Phase 3 (full bill structure)** — the other half of the NPV calculation, and the biggest remaining gap for the economics engine.

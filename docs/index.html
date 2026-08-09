@@ -198,6 +198,70 @@ function programHTML(p){
     </div></details>`;
 }
 
+/* ---- interconnection rendering ----
+   State rules are the floor; utility rows carry only deltas. A utility with no delta row
+   inherits the state rule, which is meaningful information, not missing data. */
+const IC_HEADLINE = [
+  ['nem_status','Export regime'], ['export_credit_basis','Credit basis'],
+  ['export_credit_value','Credit value'], ['grid_charging_allowed','Grid charging'],
+  ['non_export_option','Non-export path'], ['standby_charge','Standby charge'],
+  ['standby_threshold_kw','Standby threshold (kW)'],
+  ['nem_cap_res_kw','Residential cap (kW)'], ['nem_cap_nonres_kw','Non-res cap (kW)'],
+  ['nem_aggregate_cap','Aggregate cap'], ['nem_sizing_rule','Sizing rule'],
+];
+const IC_REST = [
+  ['jurisdiction_body','Regulator'], ['rule_citation','Citation'], ['applies_to','Applies to'],
+  ['nem_successor','Successor regime'], ['credit_rollover','Rollover'], ['annual_true_up','True-up'],
+  ['ic_standard','Inverter standard'], ['ic_fast_track_kw','Fast track (kW)'],
+  ['ic_simplified_kw','Simplified (kW)'], ['ic_application_fee','Application fee'],
+  ['ic_study_trigger_kw','Study trigger (kW)'], ['external_disconnect','External disconnect'],
+  ['insurance_required','Insurance'], ['ic_timeline_days','Timeline (days)'],
+  ['storage_allowed','Storage allowed'], ['storage_counts_toward_cap','Storage counts to cap'],
+];
+
+function icRows(obj, spec){
+  return spec.map(([k,label])=>kvRow(label, obj[k])).join('');
+}
+
+function interconnectionHTML(p, u){
+  const st = DATA.icStates && DATA.icStates[p.STATE];
+  const deltas = (u && u.ic) || [];
+  let h = `<div class="sec"><h3>Interconnection &amp; export rules</h3>`;
+
+  if(!st && !deltas.length){
+    h += `<div class="placeholder">No interconnection data on file for ${esc(p.STATE)}.</div></div>`;
+    return h;
+  }
+
+  if(deltas.length){
+    deltas.forEach(d=>{
+      h += `<details class="pg" open><summary><span class="cat">UTILITY RULE</span>Deviates from state default
+        <span class="cf ${esc(d.confidence)}">${esc(d.confidence)}</span></summary><div class="kv">
+        ${kvRow('Deviates on', d.deviates_on)}${kvRow('Summary', d.rule_summary)}
+        ${icRows(d, IC_HEADLINE)}${kvRow('Aggregate cap status', d.aggregate_cap_status)}
+        ${kvRow('Application fee', d.ic_application_fee)}${kvRow('Study trigger (kW)', d.ic_study_trigger_kw)}
+        ${kvRow('External disconnect', d.external_disconnect)}
+        ${kvRow('Storage notes', d.storage_specific_notes)}
+        ${d.source_url?`<div style="margin-top:5px"><a href="${esc(d.source_url)}" target="_blank" rel="noopener">source ↗</a></div>`:''}
+        </div></details>`;
+    });
+  } else if(st){
+    h += `<div class="warn" style="background:#eef7ee;border-color:#bcdcbc;color:#2c5c2c">
+      No utility-specific deviations on file — state rules below apply as written.</div>`;
+  }
+
+  if(st){
+    h += `<details class="pg" ${deltas.length?'':'open'}><summary><span class="cat">STATE RULE</span>${esc(p.STATE)} default
+      <span class="cf ${esc(st.confidence)}">${esc(st.confidence)}</span></summary><div class="kv">
+      ${icRows(st, IC_HEADLINE)}
+      <div style="margin:6px 0 3px;font-weight:600;color:#666">Process</div>
+      ${icRows(st, IC_REST)}
+      <div style="margin-top:5px"><a href="${esc(st.source_url)}" target="_blank" rel="noopener">source ↗</a></div>
+      </div></details>`;
+  }
+  return h + `</div>`;
+}
+
 function openDrawer(p){
   const u = progsFor(p);
   const fmt = n => (n==null?'—':Number(n).toLocaleString());
@@ -224,12 +288,7 @@ function openDrawer(p){
     h += `</div>`;
   }
 
-  h += `<div class="sec"><h3>Interconnection rules</h3>
-    <div class="placeholder">Phase 2 — not yet built. Will carry: system size caps, export limits
-    and non-export options, standby charges and their kW threshold, IEEE 1547 / UL 1741-SB
-    requirements, external disconnect, application fees and study thresholds, net-metering
-    aggregate cap and current subscription, typical timeline, and whether storage may charge
-    from the grid and still export.</div></div>`;
+  h += interconnectionHTML(p, u);
 
   h += `<div class="sec"><h3>Full bill structure</h3>
     <div class="placeholder">Phase 3 — not yet built. Will carry: fixed/customer charge, energy

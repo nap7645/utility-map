@@ -104,11 +104,36 @@ def main():
             if r["state"] not in u["alt_states"]:
                 u["alt_states"].append(r["state"])
 
+    # --- interconnection: state rules are the floor, utility rows are deltas ---
+    ic_states, ic_utils = {}, {}
+    p_state = P("data", "processed", "interconnection_state.csv")
+    p_util = P("data", "processed", "interconnection_utility.csv")
+    if os.path.exists(p_state):
+        with open(p_state, newline="", encoding="utf-8") as fh:
+            for r in csv.DictReader(fh):
+                ic_states[r["state"]] = {k: v for k, v in r.items() if v.strip()}
+    if os.path.exists(p_util):
+        with open(p_util, newline="", encoding="utf-8") as fh:
+            for r in csv.DictReader(fh):
+                nm = r["utility_name"].strip()
+                if not nm:
+                    continue
+                key = norm(aliases.get(nm, nm))
+                ic_utils.setdefault(key, []).append({k: v for k, v in r.items() if v.strip()})
+    # attach deltas to the matching utility entry
+    unattached = []
+    for key, deltas in ic_utils.items():
+        if key in utils:
+            utils[key]["ic"] = deltas
+        else:
+            unattached.append(deltas[0].get("utility_name", key))
+
     payload = {
         "generated": "2026-08-09",
         "note": "Screening data. Unverified. Do not quote to customers without re-checking source.",
         "utilities": utils,
         "market": market,
+        "icStates": ic_states,
         "aliasIndex": {norm(v): norm(aliases.get(k, k)) for k, v in aliases.items()},
     }
 
@@ -126,6 +151,13 @@ def main():
         print(f"    scope={k:10s} {v}")
     print(f"  market products  : {len(market)}")
     print(f"  aliases loaded   : {len(aliases)}")
+    print(f"  ic state rules   : {len(ic_states)}")
+    print(f"  ic utility deltas: {sum(len(v) for v in ic_utils.values())} "
+          f"attached to {sum(1 for u in utils.values() if 'ic' in u)} utilities")
+    if unattached:
+        print(f"  !! {len(unattached)} ic delta rows did not attach to a utility:")
+        for n in unattached:
+            print(f"       {n}")
     print("\n  sample normalized keys:")
     for k in list(utils)[:6]:
         print(f"    {k!r}")
