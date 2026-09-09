@@ -190,8 +190,11 @@ function styleFnHL(f){ return {color:'#f00',weight:2.4,fillColor:colorFor(f.prop
 
 /* ---- map ---- */
 const map = L.map('map').setView([40.5,-85],5);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-  {attribution:'© OpenStreetMap © CARTO', subdomains:'abcd', maxZoom:19}).addTo(map);
+/* CARTO's free basemap endpoint started returning "API KEY REQUIRED" tiles (observed 2026-09-09).
+   OSM standard tiles need no key; their usage policy is fine for a low-traffic internal tool.
+   Swap to a keyed provider (Stadia/MapTiler) before any real volume. */
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+  {attribution:'© OpenStreetMap contributors', maxZoom:19}).addTo(map);
 
 let layer=null, marker=null, highlighted=null, allFeatures=[];
 const statusEl=document.getElementById('status'), legendEl=document.getElementById('legend'),
