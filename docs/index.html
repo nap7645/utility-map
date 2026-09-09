@@ -9,6 +9,9 @@
 <style>
   html,body{margin:0;height:100%;font:13px/1.45 system-ui,sans-serif;color:#111}
   #map{position:absolute;inset:0}
+  /* Mute OSM's default palette so utility polygons carry the color. Approximates CARTO Positron
+     without an API key. Applies to tiles only; vector overlays sit in a different pane. */
+  .leaflet-tile-pane{filter:grayscale(1) brightness(1.06) contrast(0.85);opacity:.85}
   .panel{position:absolute;top:10px;right:10px;z-index:1000;background:#fff;
     padding:10px 12px;border-radius:6px;box-shadow:0 1px 6px rgba(0,0,0,.3);width:230px}
   .panel h1{font-size:13px;margin:0 0 6px}
