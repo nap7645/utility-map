@@ -199,7 +199,11 @@ Approach when we get there: don't warehouse it in this repo. Either hit MISO/PJM
 ## Ongoing — bug/debt list
 
 - [x] **CARTO basemap tiles return "API KEY REQUIRED"** (observed live 2026-09-09) — switched to OSM standard tiles in `93b78e9`. Move to a keyed provider before real traffic.
-- [ ] **v0.6 has never been rendered.** Syntax-checked only. Local is 4 commits ahead of `origin/main`; `docs/` is GitHub Pages. Push, then verify at https://nap7645.github.io/utility-map/ — all four presence views, the drawer, the legend, the crosswalk export.
+- [x] **v0.6 verified live 2026-09-09** at https://nap7645.github.io/utility-map/ — 1,478 territories load; 387 presence + 132 utilities + 22 state rules load; 109/112 researched utilities match; presence views color correctly; drawer renders chips → programs → interconnection (utility delta open, state default collapsed). Not yet verified: crosswalk export click, address lookup, mobile collapse (commit after the verified one).
+- [x] Regression caught in verification: adding `TX` to `STATES` loaded ~300 ERCOT territories and recentered the map on Texas. Removed; Entergy Texas and SWEPCO now load by ID via `EXTRA_IDS`.
+- [ ] Muscatine P&W is not in HIFLD under any name; Rockland Electric is filed under NY. Both stay unmatched until an EIA ID is added to `EXTRA_IDS`.
+- [ ] **Policy question:** a well-researched IOU (DTE, 16 rows) shows `C&I · price signal: Unknown` because `build_presence.py` only derives Yes from `programs.csv`, never No. Options: (a) leave as-is — honest, but looks unresearched; (b) infer No when a utility has ≥N rows and none in the cell. Leaning (a) until the C/D/F scan lands.
+- [ ] The browser pane used for verification doesn't tick CSS transitions; drawer `.open` applies but the 0.18s slide never completes there. Real browsers should be fine — confirm once on a phone.
 
 - [ ] RTO assignment in the map is a heuristic; replace with verified data (Phase 1)
 - [ ] HIFLD `TYPE` shows `NOT AVAILABLE` for many municipals; override with our `ownership_type`

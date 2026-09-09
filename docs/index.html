@@ -118,10 +118,11 @@
 <script>
 const SVC = "https://services3.arcgis.com/OYP7N6mAJJCyH6hd/arcgis/rest/services/Electric_Retail_Service_Territories_HIFLD/FeatureServer/0/query";
 const STATES = ['MN','WI','IA','IL','IN','MI','MO','OH','PA','NJ','MD','DE',
-                'VA','WV','KY','DC','AR','LA','MS','ND','SD','TX'];
+                'VA','WV','KY','DC','AR','LA','MS','ND','SD'];   // TX deliberately excluded: ERCOT noise
 const OUT_FIELDS = "ID,NAME,TYPE,STATE,CUSTOMERS,CNTRL_AREA,PLAN_AREA";
 /* Footprint utilities whose HIFLD home-state is outside STATES. HIFLD STATE = HQ state. */
-const EXTRA_IDS = ['17698'];   // SWEPCO (AEP) — filed under OK, serves AR/LA/TX
+const EXTRA_IDS = ['17698',    // SWEPCO (AEP) — filed under OK, serves AR/LA/TX
+                   '55937'];   // Entergy Texas — the only MISO utility in TX; don't load all of ERCOT
 
 /* ---------------------------------------------------------------------------
    norm() is MIRRORED from scripts/build_map_payload.py. Keep the two in sync
