@@ -196,7 +196,27 @@ Approach when we get there: don't warehouse it in this repo. Either hit MISO/PJM
 
 ---
 
+## Provenance — source tiers (decided session 4)
+
+High/Medium/Low was the research agent's self-assessment and was dropped. Every row now carries a
+derived **source tier**, computed in `scripts/source_tier.py` from the `source_url` domain plus the
+researcher's original note, erring toward the lower tier:
+
+- **Primary** — the link *is* the source: utility tariff/program page, regulator order, RTO manual, statute.
+- **Secondary** — the link *reports on* the source: news, DSIRE/OpenEI, trade press, a G&T describing a member program.
+- **Unverified** — no usable link, or the link doesn't show the claim.
+
+Raw `confidence` columns are retained for audit but not displayed. New research writes the tier
+vocabulary directly (schemas updated). Current split — programs 247 / 150 / 28; state rules
+20 / 2 / 0; utility deltas 32 / 40 / 25; presence Yes-cells 106 / 69 / 2.
+
+Known limitation: "Primary" is a domain heuristic, not a fetch. A link on the utility's domain
+that 404s or points at the wrong page still reads Primary. A link-checker pass (HEAD every
+`source_url`, demote dead ones) is cheap and should run before any customer-facing use.
+
 ## Ongoing — bug/debt list
+
+- [ ] Link-checker pass over every `source_url`; demote dead/redirected-to-homepage links to Unverified.
 
 - [x] **CARTO basemap tiles return "API KEY REQUIRED"** (observed live 2026-09-09) — switched to OSM standard tiles in `93b78e9`. Move to a keyed provider before real traffic.
 - [x] **v0.6 verified live 2026-09-09** at https://nap7645.github.io/utility-map/ — 1,478 territories load; 387 presence + 132 utilities + 22 state rules load; 109/112 researched utilities match; presence views color correctly; drawer renders chips → programs → interconnection (utility delta open, state default collapsed). Not yet verified: crosswalk export click, address lookup, mobile collapse (commit after the verified one).

@@ -62,8 +62,12 @@
   details.pg[open]>summary{border-bottom:1px solid #eee;background:#f4f6f8}
   .cat{display:inline-block;font-size:9.5px;font-weight:600;padding:1px 5px;border-radius:3px;
     background:#dbe6f2;color:#1f4a7a;margin-right:5px;vertical-align:1px}
-  .cf{float:right;font-size:9.5px;padding:1px 5px;border-radius:3px;color:#fff}
-  .cf.High{background:#2e7d32}.cf.Medium{background:#ef6c00}.cf.Low{background:#b71c1c}
+  .cf{float:right;font-size:9.5px;padding:1px 5px;border-radius:3px;color:#fff;cursor:help}
+  .cf.Primary{background:#2e7d32}.cf.Secondary{background:#ef6c00}.cf.Unverified{background:#757575}
+  .provkey{font-size:10.5px;color:#666;margin:0 0 8px;line-height:1.7}
+  .provkey .cf{float:none;cursor:default}
+  .tierkey{font-size:11px;line-height:1.5}
+  .tierkey b{display:inline-block;min-width:78px;padding:0 5px;border-radius:3px;color:#fff;font-weight:600;margin:0 6px 3px 0;text-align:center}
   .kv{padding:7px 9px;font-size:11.5px}
   .kv div{margin-bottom:3px}
   .kv b{color:#444;font-weight:600}
@@ -230,9 +234,35 @@ const CAT_ORDER = ['TOU-Rate','RTP-Rate','CPP-PTR','Demand-Charge','Storage-Ince
 
 function kvRow(label, val){ return val && val.trim() ? `<div><b>${label}:</b> ${esc(val)}</div>` : ''; }
 
+/* Source tier badge — Primary / Secondary / Unverified. Derived in scripts/source_tier.py from
+   the linked URL's domain plus the researcher's note; the raw confidence column is kept in the
+   data but not shown. Definitions come from DATA.tierHelp so the build script owns the wording. */
+const TIER_FALLBACK = {
+  Primary:    'Linked page is the source itself (utility tariff/program page, regulator, RTO, statute).',
+  Secondary:  'Linked page reports on the source (news, DSIRE, trade press, a G&T describing a member program).',
+  Unverified: 'No usable link, or the link does not show the claim. Treat as a lead, not a fact.',
+};
+function tierHelp(t){ return (DATA.tierHelp && DATA.tierHelp[t]) || TIER_FALLBACK[t] || ''; }
+function tierBadge(t){
+  t = t || 'Unverified';
+  return `<span class="cf ${esc(t)}" title="${esc(tierHelp(t))}">${esc(t)}</span>`;
+}
+function tierKeyHTML(){
+  return `<div class="tierkey">
+    <div><b style="background:#2e7d32">Primary</b>${esc(tierHelp('Primary'))}</div>
+    <div><b style="background:#ef6c00">Secondary</b>${esc(tierHelp('Secondary'))}</div>
+    <div><b style="background:#757575">Unverified</b>${esc(tierHelp('Unverified'))}</div></div>`;
+}
+function tierKey(){
+  return `<div class="provkey">Badge = what the link actually is:
+    <span class="cf Primary">Primary</span> the source itself &middot;
+    <span class="cf Secondary">Secondary</span> reports on the source &middot;
+    <span class="cf Unverified">Unverified</span> no usable link. Hover any badge.</div>`;
+}
+
 function programHTML(p){
   return `<details class="pg"><summary><span class="cat">${esc(p.cat)}</span>${esc(p.n)}
-    <span class="cf ${esc(p.conf)}">${esc(p.conf)}</span></summary>
+    ${tierBadge(p.tier)}</summary>
     <div class="kv">
       ${kvRow('Status', p.status)}${kvRow('Who', p.seg)}${kvRow('Assets', p.assets)}
       ${kvRow('Enrollment', p.enroll)}${kvRow('Structure', p.struct)}${kvRow('Value', p.val)}
@@ -281,7 +311,7 @@ function interconnectionHTML(p, u){
   if(deltas.length){
     deltas.forEach(d=>{
       h += `<details class="pg" open><summary><span class="cat">UTILITY RULE</span>Deviates from state default
-        <span class="cf ${esc(d.confidence)}">${esc(d.confidence)}</span></summary><div class="kv">
+        ${tierBadge(d.tier)}</summary><div class="kv">
         ${kvRow('Deviates on', d.deviates_on)}${kvRow('Summary', d.rule_summary)}
         ${icRows(d, IC_HEADLINE)}${kvRow('Aggregate cap status', d.aggregate_cap_status)}
         ${kvRow('Application fee', d.ic_application_fee)}${kvRow('Study trigger (kW)', d.ic_study_trigger_kw)}
@@ -297,7 +327,7 @@ function interconnectionHTML(p, u){
 
   if(st){
     h += `<details class="pg" ${deltas.length?'':'open'}><summary><span class="cat">STATE RULE</span>${esc(p.STATE)} default
-      <span class="cf ${esc(st.confidence)}">${esc(st.confidence)}</span></summary><div class="kv">
+      ${tierBadge(st.tier)}</summary><div class="kv">
       ${icRows(st, IC_HEADLINE)}
       <div style="margin:6px 0 3px;font-weight:600;color:#666">Process</div>
       ${icRows(st, IC_REST)}
@@ -317,13 +347,17 @@ function openDrawer(p){
   let h = '';
   const pr = presenceOf(p);
   if(pr){
-    const chip = (label, v) => `<span style="background:${PRES_COLORS[v]||'#eee'};color:${v==='Unknown'||v==='NotScanned'?'#333':'#fff'}">${label}: ${esc(v)}</span>`;
+    const chip = (label, v, t) => {
+      const tt = v==='Yes' && t ? ` title="Source: ${esc(t)}"` : '';
+      const mark = v==='Yes' && t ? ` <small style="opacity:.85">(${esc(t[0])})</small>` : '';
+      return `<span${tt} style="background:${PRES_COLORS[v]||'#eee'};color:${v==='Unknown'||v==='NotScanned'?'#333':'#fff'}">${label}: ${esc(v)}${mark}</span>`;
+    };
     const oof = !IN_FOOTPRINT(pr.rto);
     h += `<div class="sec"><h3>Has program?</h3><div class="chips">
       ${oof?`<span style="background:#8c8c8c;color:#fff">Not in MISO/PJM — ${esc(pr.rto)}</span>`:''}
-      ${chip('Res · price signal', pr.rh)}${chip('Res · dispatch', pr.rd)}
-      ${chip('C&I · price signal', pr.ch)}${chip('C&I · dispatch', pr.cd)}
-      </div></div>`;
+      ${chip('Res · price signal', pr.rh, pr.rht)}${chip('Res · dispatch', pr.rd, pr.rdt)}
+      ${chip('C&I · price signal', pr.ch, pr.cht)}${chip('C&I · dispatch', pr.cd, pr.cdt)}
+      </div><div style="font-size:10.5px;color:#777;margin-top:2px">(P) primary source · (S) secondary · (U) unverified — hover a chip</div></div>`;
   }
   if(!u){
     h += `<div class="warn">No program data matched to this utility. Either we have not researched
@@ -338,7 +372,7 @@ function openDrawer(p){
       <span>${u.programs.length} programs</span><span>${nStor} storage-eligible</span>
       <span>matched as: ${esc(u.name)}</span>${u.scope!=='utility'?`<span>scope: ${esc(u.scope)}</span>`:''}
       </div></div>`;
-    h += `<div class="sec"><h3>Programs &amp; rates</h3>`;
+    h += `<div class="sec"><h3>Programs &amp; rates</h3>${tierKey()}`;
     cats.forEach(c=>{ h += byCat[c].map(programHTML).join(''); });
     h += `</div>`;
   }
@@ -367,10 +401,11 @@ function openDrawer(p){
       ${mkt.map(programHTML).join('')}</div>`;
   }
 
-  h += `<div class="sec"><h3>Provenance</h3><div class="placeholder">
-    Screening data, independently unverified. Confidence ratings are self-reported by the
-    research pass that produced each row. Re-check the source before quoting anything to a
-    customer.</div></div>`;
+  h += `<div class="sec"><h3>Source tiers</h3>${tierKeyHTML()}
+    <div class="placeholder" style="margin-top:6px">Tiers are derived from the linked URL's domain
+    (utility / regulator / RTO / statute = Primary) plus the researcher's note, and err toward the
+    lower tier. No row has been independently audited. Re-check the source before quoting anything
+    to a customer.</div></div>`;
 
   document.getElementById('dBody').innerHTML = h;
   drawer.classList.add('open');

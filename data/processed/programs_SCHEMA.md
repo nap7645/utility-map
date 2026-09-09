@@ -41,7 +41,11 @@ rto,state,utility_name,ownership_type,program_name,program_category,customer_seg
 - **program_status**: `Active` | `Closed to new enrollment` | `Pilot` | `Proposed/pending` | `Terminated`
 - **source_url**: DIRECT deep link to the tariff sheet, program page, or regulatory filing. NOT a homepage. REQUIRED.
 - **last_verified**: `2026-08-08`
-- **confidence**: `High` (read the tariff/program page directly) | `Medium` (secondary source, e.g. news/aggregator/PUC summary) | `Low` (inferred)
+- **confidence** — write ONE of these (the column name is kept for compatibility, the meaning is the evidence tier):
+  - `Primary` — the `source_url` IS the source: the utility's own tariff sheet or program page, a regulator order/rule, an RTO manual, or a statute. Clicking it shows the claim.
+  - `Secondary` — the `source_url` reports on the source: news, DSIRE/OpenEI, trade press, a G&T page describing a member's program, a PUC summary of a tariff.
+  - `Unverified` — no usable link, or the link does not actually show the claim. Inferred from a state pattern or G&T membership.
+  Older files use High/Medium/Low; `scripts/source_tier.py` maps those and the URL domain to the tier above. Prefer the new vocabulary.
 
 ## Hard rules
 

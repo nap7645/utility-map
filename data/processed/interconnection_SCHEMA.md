@@ -46,7 +46,11 @@ state,jurisdiction_body,rule_citation,applies_to,nem_status,nem_successor,nem_ca
 - **standby_threshold_kw** — kW above which standby charges apply.
 - **source_url** — deep link to rule/order/tariff. Required.
 - **last_verified** — `2026-08-09`
-- **confidence** — `High` (read the rule directly) | `Medium` (secondary/PUC summary) | `Low` (inferred)
+- **confidence** — write ONE of these (the column name is kept for compatibility, the meaning is the evidence tier):
+  - `Primary` — the `source_url` IS the source: the utility's own tariff sheet or program page, a regulator order/rule, an RTO manual, or a statute. Clicking it shows the claim.
+  - `Secondary` — the `source_url` reports on the source: news, DSIRE/OpenEI, trade press, a G&T page describing a member's program, a PUC summary of a tariff.
+  - `Unverified` — no usable link, or the link does not actually show the claim. Inferred from a state pattern or G&T membership.
+  Older files use High/Medium/Low; `scripts/source_tier.py` maps those and the URL domain to the tier above. Prefer the new vocabulary.
 
 ---
 

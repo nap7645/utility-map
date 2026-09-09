@@ -11,6 +11,8 @@ is mirrored exactly in JS. Keep the two implementations in sync.
 """
 import csv, json, os, re, sys
 from collections import defaultdict
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from source_tier import source_tier, TIER_HELP
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
@@ -90,6 +92,7 @@ def main():
             "export": r["export_compensation"], "stor": r["storage_eligible"],
             "stack": r["stackable_with"], "status": r["program_status"],
             "url": r["source_url"], "conf": r["confidence"],
+            "tier": source_tier(r["source_url"], r["confidence"]),
         }
         if scope == "rto":
             market.append({**prog, "rto": rto})
@@ -114,6 +117,7 @@ def main():
         with open(p_state, newline="", encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
                 ic_states[r["state"]] = {k: v for k, v in r.items() if v.strip()}
+                ic_states[r["state"]]["tier"] = source_tier(r["source_url"], r["confidence"])
     if os.path.exists(p_util):
         with open(p_util, newline="", encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
@@ -121,7 +125,9 @@ def main():
                 if not nm:
                     continue
                 key = norm(aliases.get(nm, nm))
-                ic_utils.setdefault(key, []).append({k: v for k, v in r.items() if v.strip()})
+                d = {k: v for k, v in r.items() if v.strip()}
+                d["tier"] = source_tier(r["source_url"], r["confidence"])
+                ic_utils.setdefault(key, []).append(d)
     # attach deltas to the matching utility entry
     unattached = []
     for key, deltas in ic_utils.items():
@@ -136,6 +142,7 @@ def main():
         "utilities": utils,
         "market": market,
         "icStates": ic_states,
+        "tierHelp": TIER_HELP,
         "aliasIndex": {norm(v): norm(aliases.get(k, k)) for k, v in aliases.items()},
     }
 

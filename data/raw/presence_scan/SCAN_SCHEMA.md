@@ -31,7 +31,11 @@ eia_id,hifld_name,utility_name,hifld_state,rto,ownership_type,res_habit,res_habi
 - **`*_src`** — a URL on the utility's own domain (or its regulator's) that shows the program exists. One URL per Yes. Required for every Yes. Optional for No (put the page you checked if you have it).
 - **notes** — one line: anything odd. "TVA distributor — see TVA programs", "site unreachable", "closed program still listed", etc.
 - **last_verified** — `2026-09-09`
-- **confidence** — `High` (read the utility's own page) | `Medium` (secondary source) | `Low` (inferred from G&T or state pattern)
+- **confidence** — write ONE of these (the column name is kept for compatibility, the meaning is the evidence tier):
+  - `Primary` — the `source_url` IS the source: the utility's own tariff sheet or program page, a regulator order/rule, an RTO manual, or a statute. Clicking it shows the claim.
+  - `Secondary` — the `source_url` reports on the source: news, DSIRE/OpenEI, trade press, a G&T page describing a member's program, a PUC summary of a tariff.
+  - `Unverified` — no usable link, or the link does not actually show the claim. Inferred from a state pattern or G&T membership.
+  Older files use High/Medium/Low; `scripts/source_tier.py` maps those and the URL domain to the tier above. Prefer the new vocabulary.
 
 ## Shortcuts that are legitimate
 

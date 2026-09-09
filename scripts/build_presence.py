@@ -19,6 +19,7 @@ Output : data/processed/presence.csv
 import csv, json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_map_payload import norm, P
+from source_tier import source_tier
 
 HABIT = {"TOU-Rate", "RTP-Rate", "CPP-PTR", "Demand-Charge", "EV-Rate"}
 DISPATCH = {"DR-DLC", "DR-BYOT", "DR-BYOD", "VPP", "DR-Curtailment"}
@@ -112,7 +113,15 @@ def main():
         w.writeheader(); w.writerows(rows_out)
 
     # compact JSON keyed by eia_id for the map
+    def tier_for(r, c):
+        if r[c] != "Yes":
+            return ""
+        s = scan.get(r["eia_id"], {})
+        conf = s.get("confidence", "") if s else "High"   # derived-from-programs.csv rows were read directly
+        return source_tier(r[c + "_src"], conf)
     js = {r["eia_id"]: {"rh": r["res_habit"], "rd": r["res_dispatch"], "ch": r["ci_habit"], "cd": r["ci_dispatch"],
+                        "rht": tier_for(r, "res_habit"), "rdt": tier_for(r, "res_dispatch"),
+                        "cht": tier_for(r, "ci_habit"), "cdt": tier_for(r, "ci_dispatch"),
                         "u": r["utility_name"], "rto": r["rto"], "n": r["customers"]} for r in rows_out}
     os.makedirs(P("docs", "data"), exist_ok=True)
     with open(P("docs", "data", "presence.json"), "w", encoding="utf-8") as fh:
