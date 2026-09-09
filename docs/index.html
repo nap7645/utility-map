@@ -18,8 +18,20 @@
   .panel label{display:block;margin:2px 0;cursor:pointer}
   #status{font-size:11px;color:#555;margin-top:8px;white-space:pre-line}
   .legend{position:absolute;bottom:18px;right:10px;z-index:1000;background:#fff;
-    padding:8px 10px;border-radius:6px;box-shadow:0 1px 6px rgba(0,0,0,.3);font-size:12px}
+    padding:6px 10px 8px;border-radius:6px;box-shadow:0 1px 6px rgba(0,0,0,.3);font-size:12px}
   .legend i{display:inline-block;width:14px;height:14px;margin-right:6px;vertical-align:-2px;border:1px solid #999}
+  /* collapsible boxes: a header row with a toggle, and a body that hides */
+  .boxhd{display:flex;align-items:center;justify-content:space-between;gap:10px;cursor:pointer;
+    user-select:none;font-weight:600;font-size:12px}
+  .boxhd .tgl{border:none;background:none;font-size:14px;line-height:1;padding:0 2px;color:#666;cursor:pointer}
+  .collapsed .boxbody{display:none}
+  .collapsed{padding-bottom:6px}
+  .legend .boxhd{margin-bottom:4px}
+  @media (max-width:600px){
+    .panel{width:min(230px,70vw);top:6px;right:6px}
+    .legend{bottom:12px;right:6px;max-width:60vw}
+    #drawer{width:100vw;max-width:100vw}
+  }
   hr.div{margin:8px 0;border:none;border-top:1px solid #ddd}
   #locInput{width:100%;box-sizing:border-box;margin:4px 0;padding:4px;
     font-size:12px;border:1px solid #ccc;border-radius:3px}
@@ -74,8 +86,9 @@
   <div class="bod" id="dBody"></div>
 </div>
 
-<div class="panel">
-  <h1>Utility territories — MISO + PJM</h1>
+<div class="panel" id="panel">
+  <div class="boxhd" data-toggle="panel"><h1 style="margin:0">Utility territories — MISO + PJM</h1><button class="tgl" aria-label="Collapse controls">▾</button></div>
+  <div class="boxbody">
   <strong>Color by:</strong>
   <label><input type="radio" name="view" value="rto" checked> RTO</label>
   <label><input type="radio" name="view" value="owner"> Ownership type</label>
@@ -95,8 +108,12 @@
   <div id="locResult"></div>
   <hr class="div">
   <button id="exportBtn" style="width:100%">Export crosswalk CSV</button>
+  </div>
 </div>
-<div class="legend" id="legend"></div>
+<div class="legend" id="legendBox">
+  <div class="boxhd" data-toggle="legendBox"><span>Legend</span><button class="tgl" aria-label="Collapse legend">▾</button></div>
+  <div class="boxbody" id="legend"></div>
+</div>
 
 <script>
 const SVC = "https://services3.arcgis.com/OYP7N6mAJJCyH6hd/arcgis/rest/services/Electric_Retail_Service_Territories_HIFLD/FeatureServer/0/query";
@@ -537,6 +554,21 @@ document.querySelectorAll('input[name=view]').forEach(el=>
     if(highlighted) highlighted.setStyle(styleFnHL(highlighted.feature));
     renderLegend();
   }));
+
+/* ---- collapsible panel + legend ---- */
+(function(){
+  const isMobile = window.matchMedia('(max-width:600px)').matches;
+  const store = k => { try{ return localStorage.getItem('collapse:'+k); }catch(e){ return null; } };
+  const save  = (k,v) => { try{ localStorage.setItem('collapse:'+k, v?'1':'0'); }catch(e){} };
+  document.querySelectorAll('.boxhd[data-toggle]').forEach(hd=>{
+    const id = hd.dataset.toggle, box = document.getElementById(id), btn = hd.querySelector('.tgl');
+    const apply = c => { box.classList.toggle('collapsed', c); btn.textContent = c ? '▸' : '▾';
+      btn.setAttribute('aria-expanded', String(!c)); };
+    const saved = store(id);
+    apply(saved===null ? isMobile : saved==='1');
+    hd.addEventListener('click', ()=>{ const c = !box.classList.contains('collapsed'); apply(c); save(id,c); });
+  });
+})();
 
 renderLegend();
 load();
