@@ -198,6 +198,9 @@ Approach when we get there: don't warehouse it in this repo. Either hit MISO/PJM
 
 ## Ongoing — bug/debt list
 
+- [x] **CARTO basemap tiles return "API KEY REQUIRED"** (observed live 2026-09-09) — switched to OSM standard tiles in `93b78e9`. Move to a keyed provider before real traffic.
+- [ ] **v0.6 has never been rendered.** Syntax-checked only. Local is 4 commits ahead of `origin/main`; `docs/` is GitHub Pages. Push, then verify at https://nap7645.github.io/utility-map/ — all four presence views, the drawer, the legend, the crosswalk export.
+
 - [ ] RTO assignment in the map is a heuristic; replace with verified data (Phase 1)
 - [ ] HIFLD `TYPE` shows `NOT AVAILABLE` for many municipals; override with our `ownership_type`
 - [ ] Map re-queries ArcGIS on every load — no caching, slow. Snapshot territories to local GeoJSON.
