@@ -29,6 +29,8 @@ WORDS = [
 def norm(s):
     s = (s or "").upper()
     s = s.replace("&", " AND ")
+    s = re.sub(r"\bCO-OP", "COOPERATIVE", s)   # must precede punctuation strip (CO-OP -> CO OP -> OP)
+    s = re.sub(r"^THE\s+", "", s)              # THE TOLEDO EDISON CO
     s = re.sub(r"\([^)]*\)", " ", s)          # drop parentheticals
     s = re.sub(r"\s*-\s*\([A-Z]{2}\)\s*$", " ", s)  # drop HIFLD " - (MI)"
     s = re.sub(r"\bD/B/A\b.*$", " ", s)        # drop d/b/a tails

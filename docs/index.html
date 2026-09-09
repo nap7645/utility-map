@@ -78,6 +78,11 @@
   <label><input type="radio" name="view" value="owner"> Ownership type</label>
   <label><input type="radio" name="view" value="programs"> Program count</label>
   <label><input type="radio" name="view" value="storage"> Storage-eligible programs</label>
+  <div style="margin:6px 0 2px;font-weight:600;font-size:11px;color:#555">HAS PROGRAM? (&gt;10k customers)</div>
+  <label><input type="radio" name="view" value="rh"> Residential · price signal</label>
+  <label><input type="radio" name="view" value="rd"> Residential · dispatch / VPP</label>
+  <label><input type="radio" name="view" value="ch"> C&amp;I · price signal</label>
+  <label><input type="radio" name="view" value="cd"> C&amp;I · dispatch / DR</label>
   <label><input type="radio" name="view" value="none"> Off</label>
   <div id="status">Loading…</div>
   <hr class="div">
@@ -110,6 +115,7 @@ const WORDS = [[/\bELEC\b/g,'ELECTRIC'],[/\bCOOP\b/g,'COOPERATIVE'],[/\bCO-OP\b/
 
 function norm(s){
   s = (s||'').toUpperCase().split('&').join(' AND ');
+  s = s.replace(/\bCO-OP/g,'COOPERATIVE').replace(/^THE\s+/,'');
   s = s.replace(/\([^)]*\)/g,' ').replace(/\s*-\s*\([A-Z]{2}\)\s*$/,' ')
        .replace(/\bD\/B\/A\b.*$/,' ').replace(/[^A-Z0-9 ]+/g,' ');
   for(const [p,r] of WORDS) s = s.replace(p,r);
@@ -119,6 +125,18 @@ function norm(s){
 
 /* ---- data ---- */
 let DATA = {utilities:{}, market:[]};
+let PRES = {};   // eia_id -> {rh,rd,ch,cd,u,rto,n}  (presence.json)
+const PRES_VIEWS = {rh:'res_habit', rd:'res_dispatch', ch:'ci_habit', cd:'ci_dispatch'};
+const PRES_COLORS = {Yes:'#2e8b57', No:'#c0392b', Unknown:'#d9d9d9', ViaAggregator:'#3a6fb0',
+                     OutOfFootprint:'#8c8c8c', NotScanned:'#f2f2f2'};
+const IN_FOOTPRINT = rto => !rto || rto==='MISO' || rto==='PJM' || rto==='MISO/PJM' || rto==='Unknown';
+function presenceOf(p){ return PRES[String(p.ID)] || null; }
+function presenceState(p, cell){
+  const pr = presenceOf(p);
+  if(!pr) return 'NotScanned';            // <10k customers, outside the denominator
+  if(!IN_FOOTPRINT(pr.rto)) return 'OutOfFootprint';
+  return pr[cell] || 'Unknown';
+}
 let matchStats = {matched:0, total:0, unmatchedPayload:[]};
 
 function progsFor(p){
@@ -159,6 +177,7 @@ function colorFor(p){
   if (currentView==='none') return 'transparent';
   if (currentView==='rto')   return RTO_COLORS[rtoOf(p)] || '#bdbdbd';
   if (currentView==='owner') return OWNER_COLORS[ownerOf(p)] || '#dddddd';
+  if (PRES_VIEWS[currentView]) return PRES_COLORS[presenceState(p, currentView)];
   const u = progsFor(p);
   if (currentView==='programs') return countColor(u?u.programs.length:0);
   if (currentView==='storage')  return countColor(u?u.programs.filter(x=>x.stor==='Yes'||x.stor==='Yes-restricted').length:0);
@@ -270,6 +289,16 @@ function openDrawer(p){
     `EIA ID <code>${esc(p.ID)}</code> · ${esc(p.STATE)} · ${fmt(p.CUSTOMERS)} customers · ${esc(rtoOf(p))} · ${esc(ownerOf(p))}`;
 
   let h = '';
+  const pr = presenceOf(p);
+  if(pr){
+    const chip = (label, v) => `<span style="background:${PRES_COLORS[v]||'#eee'};color:${v==='Unknown'||v==='NotScanned'?'#333':'#fff'}">${label}: ${esc(v)}</span>`;
+    const oof = !IN_FOOTPRINT(pr.rto);
+    h += `<div class="sec"><h3>Has program?</h3><div class="chips">
+      ${oof?`<span style="background:#8c8c8c;color:#fff">Not in MISO/PJM — ${esc(pr.rto)}</span>`:''}
+      ${chip('Res · price signal', pr.rh)}${chip('Res · dispatch', pr.rd)}
+      ${chip('C&I · price signal', pr.ch)}${chip('C&I · dispatch', pr.cd)}
+      </div></div>`;
+  }
   if(!u){
     h += `<div class="warn">No program data matched to this utility. Either we have not researched
       it, or the name did not match our crosswalk. HIFLD name normalizes to
@@ -335,6 +364,10 @@ function renderLegend(){
   else if(currentView==='owner') m = OWNER_COLORS;
   else if(currentView==='programs'||currentView==='storage')
     m = {'0':COUNT_COLORS[0],'1–2':COUNT_COLORS[1],'3–5':COUNT_COLORS[2],'6–9':COUNT_COLORS[3],'10+':COUNT_COLORS[4]};
+  else if(PRES_VIEWS[currentView])
+    m = {'Yes':PRES_COLORS.Yes,'No (checked)':PRES_COLORS.No,'Via aggregator':PRES_COLORS.ViaAggregator,
+         'Unknown (not researched)':PRES_COLORS.Unknown,'Not MISO/PJM':PRES_COLORS.OutOfFootprint,
+         '<10k customers':PRES_COLORS.NotScanned};
   else { legendEl.innerHTML=''; return; }
   legendEl.innerHTML = Object.entries(m).map(([k,c])=>`<div><i style="background:${c}"></i>${k}</div>`).join('');
 }
@@ -361,6 +394,10 @@ async function load(){
       if(pr.ok) DATA = await pr.json();
       else statusEl.textContent = 'programs.json not found — map will render without program data.';
     }catch(e){ console.warn('programs.json load failed', e); }
+    try{
+      const pp = await fetch('data/presence.json');
+      if(pp.ok) PRES = await pp.json();
+    }catch(e){ console.warn('presence.json load failed', e); }
 
     let all=[], offset=0, more=true;
     while(more){

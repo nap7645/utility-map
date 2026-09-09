@@ -84,6 +84,37 @@ utility-map/
 
 **Backlog carried in:** PA/NJ/DE top-up (17/9/5 rows — the worst gap, and it's the richest BESS region); independent source verification of the 25-row sample (never ran); `peak_offpeak_rates` only 24% populated.
 
+## Phase 1b — "Has program?" presence layer `[BUILT — 160/305 scanned]`
+
+**Reframed goal (session 4):** the layer that matters is *which utilities have programs*, in two
+buckets — **habit** (customer responds to a price signal: TOU/RTP/CPP/demand/EV rate) and
+**dispatch** (utility or aggregator controls the asset: DLC/BYOT/BYOD/VPP/curtailment) — split
+residential / C&I. Completeness means the *absence* color is trustworthy, which requires three
+states per cell: `Yes` / `No` (checked, none found) / `Unknown` (not researched). A fourth,
+`ViaAggregator`, is reserved for dispatch once Phase 4 exists.
+
+Decisions: separate res / C&I layers; denominator = every territory >10k customers (387 in the
+22 states); CSP route renders as a distinct state, not as Yes.
+
+- [x] Denominator pulled from HIFLD: `data/raw/hifld_over10k.csv` — 387 territories, 56.2M customers
+- [x] `scripts/build_presence.py` → `data/processed/presence.csv` + `docs/data/presence.json` (keyed by EIA ID — no name matching)
+- [x] Derived Yes from `programs.csv` (109 territories); 4 map views + drawer chips
+- [x] Presence scan clusters A (MN/ND/SD/WI), B (MI/IA/IL), E (AR/LA/MS/TX) — 160 rows, zero malformed
+- [ ] **Clusters C (IN/OH, 52), D (KY/MO, 62), F (PA/NJ/MD/DE/VA/WV/DC, 31) — 145 targets, killed by monthly spend limit before first write.** Target files and schema are on disk; just re-run.
+- [ ] Re-scan the 51 rows that came back fully Unknown (mostly WebSearch quota exhaustion mid-run, not absence)
+- [ ] Out-of-footprint tagging is in — TVA (20), SPP (9), AECI/Other (9) render gray. Verify Evergy/Empire/Black Hills got tagged when cluster D runs.
+
+**Current state:** 87% of customers have at least one cell resolved. Yes/No/Unknown per cell —
+res_habit 107/39/241 · res_dispatch 97/25/265 · ci_habit 47/12/328 · ci_dispatch 99/7/281.
+`ci_habit` is structurally the hardest cell: most utilities don't publish C&I TOU design clearly.
+
+**Findings worth keeping:**
+- HIFLD "NORTHERN STATES POWER CO" (267k) is NSP-**Wisconsin**; "... - MINNESOTA" (1.5M) is NSP-MN. My alias had them backwards for two sessions — fixed, and the fix un-collided the two entities in the payload (131 → 132).
+- `norm()` mangled "CO-OP" (→ "OP") because punctuation stripping ran before word replacement. Fixed in both Python and JS; parity re-tested.
+- The 82 already-researched utilities cover **82% of customers**; the 305 scan targets are 18%. The long tail is long but light.
+- Central EPA (MS) is TVA, not Cooperative Energy — agent caught and corrected my brief.
+- "Carroll Electric Cooperative" exists in both AR and OH; an agent nearly cross-attributed and caught it. Name-only lookups are a trap.
+
 ## Phase 2 — Interconnection rules → the address drawer `[BUILT — needs verification]`
 
 - [x] `interconnection_SCHEMA.md` — two files, state rules as the floor, utility rows as deltas
@@ -195,8 +226,12 @@ Approach when we get there: don't warehouse it in this repo. Either hit MISO/PJM
 
 Process note: two of five agents again emitted unquoted-comma CSVs. A dedicated repair agent realigned them semantically rather than re-researching — much cheaper, and the right move since all the content was present, just misplaced. **Next time, put "write with `csv.writer`, then re-read and assert field counts" directly in the research prompt.** Three of five agents did this unprompted; two did not.
 
+**2026-09-09 — Session 4.** Reframed the target as the "has program?" presence layer (Phase 1b). Pulled the 387-territory >10k denominator from HIFLD by state (home-state field; multi-state IOUs are filed under HQ state — OH holds FirstEnergy and AEP subs). Built `build_presence.py`, four map views, drawer chips. Six scan agents launched; three completed (160 rows, zero malformed — the `csv.writer` + assert mandate worked); three died on a **monthly spend limit** before writing anything. Fixed the NSP-MN/WI alias inversion and the `norm()` CO-OP bug. Aliases now 65 confirmed / 47 unconfirmed.
+
+Budget note: the monthly spend limit is a hard wall, unlike the session limits. Each presence-scan agent cost ~270–350k tokens for 37–62 utilities. Remaining 145 targets ≈ 3 agents ≈ ~900k tokens. WebSearch has a 200-call-per-agent cap that two agents hit — a follow-up pass on the 51 all-Unknown rows should be a separate small agent.
+
 **Next session — start here:**
-1. Open `docs/index.html`. Check the match rate in the status panel and the `console.table` of unmatched utilities. Click a few territories and confirm the interconnection section renders sensibly.
-2. Fix `aliases.csv` from what the console reports; re-run `python3 scripts/build_map_payload.py`.
-3. Export the crosswalk CSV from the map, commit it, add `eia_id` to `programs.csv`.
-4. Then **Phase 3 (full bill structure)** — the other half of the NPV calculation, and the biggest remaining gap for the economics engine.
+1. Re-run presence scan clusters **C, D, F** (prompts are in this session's transcript; schema + targets on disk). That closes the >10k denominator.
+2. Open `docs/index.html`, switch to the four "Has program?" views, sanity-check colors against a few utilities you know. Check `console.table` of unmatched.
+3. Export the crosswalk CSV, commit, add `eia_id` to `programs.csv`.
+4. Then Phase 4 (aggregators) — it feeds the `ViaAggregator` state and is the last piece of the presence layer — before Phase 3 (bill structure).
