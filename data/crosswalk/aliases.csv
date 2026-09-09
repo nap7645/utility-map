@@ -15,7 +15,7 @@ Monongahela Power Co (FirstEnergy - West Virginia),MONONGAHELA POWER CO,confirme
 Potomac Edison Co (FirstEnergy - West Virginia),THE POTOMAC EDISON COMPANY,same HIFLD record as MD
 Potomac Edison Co (FirstEnergy - Maryland),THE POTOMAC EDISON COMPANY,confirmed HIFLD PA query (HQ-state PA)
 Jersey Central Power & Light Co (JCP&L),JERSEY CENTRAL POWER & LT CO,confirmed HIFLD OH query (HQ-state OH)
-Rockland Electric Co (RECO),ROCKLAND ELECTRIC CO,unconfirmed - not returned by STATE=NJ query
+Rockland Electric Co (RECO),ROCKLAND ELECTRIC CO,NOT IN HIFLD footprint pull - likely filed under NY (Orange & Rockland); add to EXTRA_IDS if EIA ID found
 Northern States Power Co - Minnesota (Xcel Energy),NORTHERN STATES POWER CO - MINNESOTA,confirmed HIFLD MN query: 1.54M customers = NSP-MN
 Northern States Power Co - Wisconsin (Xcel Energy),NORTHERN STATES POWER CO,confirmed HIFLD: the bare-name record (267k customers) is NSP-Wisconsin
 Northern States Power Co - North Dakota (Xcel Energy),NORTHERN STATES POWER CO - MINNESOTA,same EIA entity as NSP-MN
@@ -57,7 +57,7 @@ Entergy Louisiana LLC,ENTERGY LOUISIANA LLC,unconfirmed
 Entergy Mississippi LLC,ENTERGY MISSISSIPPI INC,unconfirmed
 Entergy New Orleans LLC,"ENTERGY NEW ORLEANS, LLC",confirmed HIFLD LA query
 Entergy Texas Inc,ENTERGY TEXAS INC.,confirmed HIFLD name query
-Southwestern Electric Power Co (SWEPCO),SOUTHWESTERN ELECTRIC POWER CO,EIA ID 17698 added manually - NOT returned by any state query; verify
+Southwestern Electric Power Co (SWEPCO),SOUTHWESTERN ELECTRIC POWER CO,"confirmed HIFLD: EIA 17698, STATE=OK (HQ-state), 551k customers; loaded via EXTRA_IDS"
 Mississippi Power Co (Southern Co),MISSISSIPPI POWER CO,confirmed HIFLD MS query
 Cleco Power LLC,CLECO POWER LLC,unconfirmed
 Dixie Electric Membership Corp (DEMCO),DIXIE ELECTRIC MEMBERSHIP CORP,confirmed HIFLD LA query
@@ -81,12 +81,12 @@ Columbia Water and Light,CITY OF COLUMBIA - (MO),unconfirmed
 Independence Power and Light Department,CITY OF INDEPENDENCE - (MO),unconfirmed
 Ames Electric Services (City of Ames),CITY OF AMES - (IA),unconfirmed
 Cedar Falls Utilities,CEDAR FALLS UTILITIES,unconfirmed
-Muscatine Power and Water,MUSCATINE POWER & WATER,unconfirmed
-Waverly Light and Power,CITY OF WAVERLY - (IA),unconfirmed
+Muscatine Power and Water,MUSCATINE POWER & WATER,NOT IN HIFLD under any name in footprint states - cannot bind to a polygon
+Waverly Light and Power,WAVERLY MUNICIPAL ELEC UTILITY,"confirmed live HIFLD (5,118 customers - below 10k denominator)"
 Rochester Public Utilities,ROCHESTER PUBLIC UTILITIES,confirmed HIFLD MN query
 Austin Utilities,CITY OF AUSTIN - (MN),unconfirmed
 Owatonna Public Utilities,CITY OF OWATONNA - (MN),unconfirmed
-Willmar Municipal Utilities,CITY OF WILLMAR - (MN),unconfirmed
+Willmar Municipal Utilities,WILLMAR MUNICIPAL UTILITIES,"confirmed live HIFLD (9,980 customers - just below 10k denominator)"
 Moorhead Public Service,CITY OF MOORHEAD - (MN),unconfirmed
 Conway Corp,CONWAY CORPORATION,confirmed HIFLD AR query
 North Little Rock Electric Department,CITY OF NORTH LITTLE ROCK - (AR),unconfirmed
