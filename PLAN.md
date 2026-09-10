@@ -196,6 +196,21 @@ Approach when we get there: don't warehouse it in this repo. Either hit MISO/PJM
 
 ---
 
+## Beyond MISO + PJM
+
+Region buildout plans live in **`plans/`** — see `plans/README.md` for the sequence and cost
+estimates. `plans/PLAYBOOK.md` is the generic recipe; `plans/rto_*.md` and `plans/region_*.md`
+hold per-region deltas; `plans/prompts/` has the four agent prompt templates.
+
+The research loop itself is packaged as a skill at
+`.claude/skills/utility-program-research/` so any agent gets the schema-reading, incremental-write,
+source-tier and validation discipline without being re-taught. Its `validate_csv.py` is tested
+both ways — it passes all four current datasets and catches planted field-count, missing-URL,
+blank-RTO, bad-tier, and missing-target defects.
+
+Recommended order: finish MISO/PJM (clusters C/D/F) → NYISO → ISO-NE → CAISO → Southeast →
+ERCOT (blocked on the aggregator layer) → West → SPP. Full national coverage ≈ 10.5M tokens.
+
 ## Provenance — source tiers (decided session 4)
 
 High/Medium/Low was the research agent's self-assessment and was dropped. Every row now carries a
