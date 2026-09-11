@@ -196,6 +196,54 @@ Approach when we get there: don't warehouse it in this repo. Either hit MISO/PJM
 
 ---
 
+## NYISO — COMPLETE (session 5, 2026-09-11)
+
+First region onboarded through `plans/PLAYBOOK.md` and the research skill. **12 territories >10k**
+(the region file guessed ~25; actual is 12 — NY's municipal tail sits almost entirely below the
+threshold). All four phases done:
+
+| Phase | Result |
+|---|---|
+| Presence | 5 municipals scanned. 4 of 5 are `No` across the board; **Rockville Centre runs a real utility-dispatched smart-thermostat DSM program** (PSC Case 07-E-1303, event called 7/16/2024, 158 customers, 0.3 MW) — res + C&I dispatch both Yes. |
+| Programs | **88 rows** across 7 IOU/authority entities + NYSERDA statewide. Con Ed 14, National Grid 9, and 9 each for O&R / NYSEG / RG&E / Central Hudson / LIPA. |
+| Interconnection | 2 state rows (PSC-regulated IOUs; LIPA separately) + 7 utility deltas. |
+| Wholesale | **32 NYISO-market rows**, 28 Primary. |
+
+**120 NY rows total, 105 Primary / 15 Secondary / 0 Unverified** — the cleanest provenance of any
+region so far, because NY publishes tariffs and PSC orders well.
+
+### Findings that corrected the region plan
+
+- **Rockland Electric is EIA 16213, filed under `STATE=NY`.** It is O&R's New Jersey subsidiary and
+  a PJM utility. This closes one of the five unmatched utilities outstanding since session 4 —
+  added to `EXTRA_IDS`.
+- **Massachusetts Electric (1.35M) and Nantucket Electric also file under NY** but are National
+  Grid MA / ISO-NE. Added to the denominator with `rto=ISO-NE` and all cells `Unknown`, so they
+  render as out-of-footprint gray rather than silently as "<10k". They belong to the ISO-NE phase.
+- **LIPA is confirmed not subject to PSL §66-j or the state SIR** (its own Dec 2025 filing says so,
+  citing Case 19-E-0079) — but it voluntarily mirrors the state framework closely, diverging in
+  real ways: 5,000 kW non-residential NEM cap vs 2,000, no aggregate program cap at all, and an
+  annual cash-out of banked credits.
+- **The CSRP/DLRP parallel-program lead was right** — but not uniformly. **Central Hudson has no
+  DLRP and no Term/Auto-DLM**, only CSRP and Targeted DR. Do not assume IOU parity in New York.
+- **NYSEG/RG&E DLRP reportedly pays $0.00/kW-month.** Marked Secondary, sourced to a search index
+  of the DPS Case 14-E-0423 annual report rather than a page-by-page read. **Worth one confirmation
+  pass**: any model treating "has a DLRP" as revenue will over-credit both utilities.
+- **`grid_charging_allowed` = `Yes` for the NY IOUs** — the SIR expressly studies an ESS's Maximum
+  Import alongside Maximum Export. That is the first unambiguous `Yes` in the dataset; 17 of 22
+  MISO/PJM states were `Unclear`. For LIPA it is `Unclear` (Maximum Import is declared in SGIP
+  Appendix J, but no document says how grid-charged export is credited).
+- Central Hudson's TDR ($6.82/kW-mo) and CSRP ($1.23–1.54/kW-mo) are **mutually exclusive**.
+- LIPA exempts stand-alone storage reaching SGIP Step 3 before 2030-12-31 from Buyback Contract
+  Demand Charges for 15 years — a dated economic cliff worth modeling.
+
+### Known gaps carried forward
+
+Standby $/kW rates at all five non-Con-Ed utilities (structure confirmed, numbers live in tariff
+leaves not exposed as HTML); PSEG LI System Peak Relief has no published $/kW (set by MCOS study);
+LIPA Battery Storage Rewards payment is aggregator-set — the agent correctly declined to write the
+"$250/kWh" figure circulating on vendor sites.
+
 ## Beyond MISO + PJM
 
 Region buildout plans live in **`plans/`** — see `plans/README.md` for the sequence and cost

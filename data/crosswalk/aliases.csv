@@ -15,7 +15,7 @@ Monongahela Power Co (FirstEnergy - West Virginia),MONONGAHELA POWER CO,confirme
 Potomac Edison Co (FirstEnergy - West Virginia),THE POTOMAC EDISON COMPANY,same HIFLD record as MD
 Potomac Edison Co (FirstEnergy - Maryland),THE POTOMAC EDISON COMPANY,confirmed HIFLD PA query (HQ-state PA)
 Jersey Central Power & Light Co (JCP&L),JERSEY CENTRAL POWER & LT CO,confirmed HIFLD OH query (HQ-state OH)
-Rockland Electric Co (RECO),ROCKLAND ELECTRIC CO,NOT IN HIFLD footprint pull - likely filed under NY (Orange & Rockland); add to EXTRA_IDS if EIA ID found
+Rockland Electric Co (RECO),ROCKLAND ELECTRIC CO,"confirmed live HIFLD: EIA 16213, STATE=NY (HQ state); PJM utility serving NJ; loaded via EXTRA_IDS"
 Northern States Power Co - Minnesota (Xcel Energy),NORTHERN STATES POWER CO - MINNESOTA,confirmed HIFLD MN query: 1.54M customers = NSP-MN
 Northern States Power Co - Wisconsin (Xcel Energy),NORTHERN STATES POWER CO,confirmed HIFLD: the bare-name record (267k customers) is NSP-Wisconsin
 Northern States Power Co - North Dakota (Xcel Energy),NORTHERN STATES POWER CO - MINNESOTA,same EIA entity as NSP-MN
@@ -111,3 +111,10 @@ Cloverland Electric Cooperative,CLOVERLAND ELECTRIC CO-OP,confirmed HIFLD MI que
 Linn County Rural Electric Cooperative,LINN COUNTY REC,confirmed HIFLD IA query
 Jackson County REMC,JACKSON COUNTY RURAL E M C - (IN),confirmed HIFLD IN query
 Choptank Electric Cooperative,"CHOPTANK ELECTRIC COOPERATIVE, INC",confirmed HIFLD MD query
+Consolidated Edison Co of New York (Con Edison),CONSOLIDATED EDISON CO-NY INC,confirmed live HIFLD NY query 2026-09-10
+Orange & Rockland Utilities Inc (O&R),ORANGE & ROCKLAND UTILS INC,confirmed live HIFLD NY query
+Niagara Mohawk Power Corp (National Grid NY),NIAGARA MOHAWK POWER CORP.,confirmed live HIFLD NY query
+New York State Electric & Gas Corp (NYSEG),NEW YORK STATE ELEC & GAS CORP,confirmed live HIFLD NY query
+Rochester Gas & Electric Corp (RG&E),ROCHESTER GAS & ELECTRIC CORP,confirmed live HIFLD NY query
+Central Hudson Gas & Electric Corp,CENTRAL HUDSON GAS & ELEC CORP,confirmed live HIFLD NY query
+Long Island Power Authority / PSEG Long Island,LONG ISLAND POWER AUTHORITY,"confirmed live HIFLD NY query; state authority, not PSC-regulated"

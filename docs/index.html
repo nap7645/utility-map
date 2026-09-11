@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BTM Utility Map — MISO + PJM (v0.6)</title>
+<title>BTM Utility Map — MISO + PJM + NYISO (v0.7)</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
@@ -91,7 +91,7 @@
 </div>
 
 <div class="panel" id="panel">
-  <div class="boxhd" data-toggle="panel"><h1 style="margin:0">Utility territories — MISO + PJM</h1><button class="tgl" aria-label="Collapse controls">▾</button></div>
+  <div class="boxhd" data-toggle="panel"><h1 style="margin:0">Utility territories — MISO + PJM + NYISO</h1><button class="tgl" aria-label="Collapse controls">▾</button></div>
   <div class="boxbody">
   <strong>Color by:</strong>
   <label><input type="radio" name="view" value="rto" checked> RTO</label>
@@ -122,11 +122,13 @@
 <script>
 const SVC = "https://services3.arcgis.com/OYP7N6mAJJCyH6hd/arcgis/rest/services/Electric_Retail_Service_Territories_HIFLD/FeatureServer/0/query";
 const STATES = ['MN','WI','IA','IL','IN','MI','MO','OH','PA','NJ','MD','DE',
-                'VA','WV','KY','DC','AR','LA','MS','ND','SD'];   // TX deliberately excluded: ERCOT noise
+                'VA','WV','KY','DC','AR','LA','MS','ND','SD',
+                'NY'];   // TX deliberately excluded: ERCOT noise
 const OUT_FIELDS = "ID,NAME,TYPE,STATE,CUSTOMERS,CNTRL_AREA,PLAN_AREA";
 /* Footprint utilities whose HIFLD home-state is outside STATES. HIFLD STATE = HQ state. */
 const EXTRA_IDS = ['17698',    // SWEPCO (AEP) — filed under OK, serves AR/LA/TX
-                   '55937'];   // Entergy Texas — the only MISO utility in TX; don't load all of ERCOT
+                   '55937',    // Entergy Texas — the only MISO utility in TX; don't load all of ERCOT
+                   '16213'];   // Rockland Electric (O&R's NJ sub, PJM) — HIFLD files it under NY
 
 /* ---------------------------------------------------------------------------
    norm() is MIRRORED from scripts/build_map_payload.py. Keep the two in sync
@@ -156,7 +158,8 @@ let PRES = {};   // eia_id -> {rh,rd,ch,cd,u,rto,n}  (presence.json)
 const PRES_VIEWS = {rh:'res_habit', rd:'res_dispatch', ch:'ci_habit', cd:'ci_dispatch'};
 const PRES_COLORS = {Yes:'#2e8b57', No:'#c0392b', Unknown:'#d9d9d9', ViaAggregator:'#3a6fb0',
                      OutOfFootprint:'#8c8c8c', NotScanned:'#f2f2f2'};
-const IN_FOOTPRINT = rto => !rto || rto==='MISO' || rto==='PJM' || rto==='MISO/PJM' || rto==='Unknown';
+const RESEARCHED_RTOS = new Set(['MISO','PJM','MISO/PJM','NYISO','Unknown']);
+const IN_FOOTPRINT = rto => !rto || RESEARCHED_RTOS.has(rto);
 function presenceOf(p){ return PRES[String(p.ID)] || null; }
 function presenceState(p, cell){
   const pr = presenceOf(p);
@@ -172,7 +175,7 @@ function progsFor(p){
 }
 
 /* ---- styling ---- */
-const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', OTHER:'#bdbdbd'};
+const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02', OTHER:'#bdbdbd'};
 const OWNER_COLORS = {'IOU':'#e6550d','Cooperative':'#31a354','Municipal':'#756bb1',
   'Federal/State':'#fec44f','Unknown':'#dddddd'};
 const COUNT_COLORS = ['#eeeeee','#d7ecd9','#a1d99b','#41ab5d','#006d2c'];
@@ -185,6 +188,7 @@ function rtoOf(p){
   const s = ((p.CNTRL_AREA||'')+' '+(p.PLAN_AREA||'')).toUpperCase();
   if (s.includes('MIDCONTINENT') || /\bMISO\b/.test(s)) return 'MISO';
   if (s.includes('PJM')) return 'PJM';
+  if (s.includes('NEW YORK') || /\bNYIS/.test(s)) return 'NYISO';
   return 'OTHER';
 }
 /* Ownership: prefer ours. HIFLD TYPE is frequently "NOT AVAILABLE". */
