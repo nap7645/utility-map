@@ -27,11 +27,33 @@
   .collapsed .boxbody{display:none}
   .collapsed{padding-bottom:6px}
   .legend .boxhd{margin-bottom:4px}
+  .lgtitle{font-weight:600;margin-bottom:4px;max-width:220px}
   @media (max-width:600px){
     .panel{width:min(230px,70vw);top:6px;right:6px}
     .legend{bottom:12px;right:6px;max-width:60vw}
     #drawer{width:100vw;max-width:100vw}
   }
+  .coverage{font-size:11px;color:#666;margin:-2px 0 8px}
+  .search{display:flex;gap:4px}
+  .search input{flex:1;min-width:0;padding:5px 6px;font-size:12px;border:1px solid #ccc;border-radius:4px}
+  .search button{padding:5px 10px}
+  .grp{font-size:11px;font-weight:600;color:#555;text-transform:uppercase;letter-spacing:.05em;margin:12px 0 5px}
+  .seg{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+  .seg label{margin:0}
+  .seg input{position:absolute;opacity:0;pointer-events:none}
+  .seg span{display:block;text-align:center;padding:5px 4px;border:1px solid #ccc;border-radius:4px;
+    font-size:12px;background:#fafafa;cursor:pointer;user-select:none}
+  .seg input:checked+span{background:#1f4a7a;border-color:#1f4a7a;color:#fff}
+  .seg input:focus-visible+span{outline:2px solid #7aa7d9;outline-offset:1px}
+  .seg.small{grid-template-columns:repeat(3,1fr);margin-top:6px}
+  .seg.small span{font-size:11px;padding:4px 2px}
+  .progopts{margin-top:8px;padding:8px;border:1px solid #e6e6e6;border-radius:5px;background:#fbfbfb}
+  .progopts[aria-disabled="true"]{opacity:.45;pointer-events:none}
+  .progopts select{width:100%;padding:4px;font-size:12px;border:1px solid #ccc;border-radius:4px}
+  .progopts.count-mode select{display:none}
+  .progopts.count-mode .seg.small{margin-top:0}
+  #status{font-size:10.5px;color:#888;margin-top:10px;white-space:pre-line}
+  .devlink{display:block;font-size:10.5px;color:#999;margin-top:4px}
   hr.div{margin:8px 0;border:none;border-top:1px solid #ddd}
   #locInput{width:100%;box-sizing:border-box;margin:4px 0;padding:4px;
     font-size:12px;border:1px solid #ccc;border-radius:3px}
@@ -91,28 +113,45 @@
 </div>
 
 <div class="panel" id="panel">
-  <div class="boxhd" data-toggle="panel"><h1 style="margin:0">Utility territories — MISO + PJM + NYISO</h1><button class="tgl" aria-label="Collapse controls">▾</button></div>
+  <div class="boxhd" data-toggle="panel"><h1 style="margin:0">Utility Program Map</h1><button class="tgl" aria-label="Collapse controls">▾</button></div>
   <div class="boxbody">
-  <strong>Color by:</strong>
-  <label><input type="radio" name="view" value="util" checked> Utilities (boundaries)</label>
-  <label><input type="radio" name="view" value="rto"> RTO</label>
-  <label><input type="radio" name="view" value="owner"> Ownership type</label>
-  <label><input type="radio" name="view" value="programs"> Program count</label>
-  <label><input type="radio" name="view" value="storage"> Storage-eligible programs</label>
-  <div style="margin:6px 0 2px;font-weight:600;font-size:11px;color:#555">HAS PROGRAM? (&gt;10k customers)</div>
-  <label><input type="radio" name="view" value="rh"> Residential · price signal</label>
-  <label><input type="radio" name="view" value="rd"> Residential · dispatch / VPP</label>
-  <label><input type="radio" name="view" value="ch"> C&amp;I · price signal</label>
-  <label><input type="radio" name="view" value="cd"> C&amp;I · dispatch / DR</label>
-  <label><input type="radio" name="view" value="none"> Off</label>
-  <div id="status">Loading…</div>
-  <hr class="div">
-  <strong>Find utility at location:</strong>
-  <input id="locInput" type="text" placeholder="Address, zip, or lat,lon">
-  <button id="locBtn">Look up</button>
+  <div class="coverage">Researched: MISO · PJM · NYISO</div>
+
+  <div class="search">
+    <input id="locInput" type="text" placeholder="Address, ZIP, or lat,lon">
+    <button id="locBtn">Find</button>
+  </div>
   <div id="locResult"></div>
-  <hr class="div">
-  <button id="exportBtn" style="width:100%">Export crosswalk CSV</button>
+
+  <div class="grp">Color by</div>
+  <div class="seg" role="radiogroup" aria-label="Color by">
+    <label><input type="radio" name="view" value="util" checked><span>Utility</span></label>
+    <label><input type="radio" name="view" value="rto"><span>RTO / ISO</span></label>
+    <label><input type="radio" name="view" value="count"><span>Program count</span></label>
+    <label><input type="radio" name="view" value="type"><span>Program type</span></label>
+  </div>
+
+  <div id="progOpts" class="progopts" aria-disabled="true">
+    <select id="typeSel" aria-label="Program type">
+      <option value="tou">Time-of-use rates</option>
+      <option value="dynamic">Real-time &amp; critical-peak pricing</option>
+      <option value="thermostat">Smart thermostat</option>
+      <option value="dlc">AC / water-heater control</option>
+      <option value="battery">Battery &amp; VPP</option>
+      <option value="ev">EV rates &amp; managed charging</option>
+      <option value="curtail">Interruptible / curtailment</option>
+      <option value="demand">Demand-charge rates</option>
+      <option value="export">Solar export / net metering</option>
+    </select>
+    <div class="seg small" role="radiogroup" aria-label="Customer type">
+      <label><input type="radio" name="seg" value="all" checked><span>All</span></label>
+      <label><input type="radio" name="seg" value="res"><span>Residential</span></label>
+      <label><input type="radio" name="seg" value="ci"><span>C&amp;I</span></label>
+    </div>
+  </div>
+
+  <div id="status">Loading…</div>
+  <a href="#" id="exportBtn" class="devlink">Export EIA-ID crosswalk (CSV)</a>
   </div>
 </div>
 <div class="legend" id="legendBox">
@@ -221,20 +260,95 @@ function ownerOf(p){
 }
 
 let currentView = 'util';
-function colorFor(p){
-  if (currentView==='none') return 'transparent';
-  if (currentView==='util') return '#8fb3d9';   // plain boundaries: one neutral fill, outlines do the work
-  if (currentView==='rto')   return RTO_COLORS[rtoOf(p)] || '#bdbdbd';
-  if (currentView==='owner') return OWNER_COLORS[ownerOf(p)] || '#dddddd';
-  if (PRES_VIEWS[currentView]) return PRES_COLORS[presenceState(p, currentView)];
+let currentType = 'tou';
+let currentSeg = 'all';
+
+/* Program-type buckets. Each maps to program_category values in programs.csv. `family` links a
+   bucket to the coarser presence-scan cells (habit = price signal, dispatch = device control), so a
+   utility we only presence-scanned can still show "has something in this family". */
+const PROGRAM_TYPES = {
+  tou:        {label:'Time-of-use rates',                   cats:['TOU-Rate'],                          family:'habit'},
+  dynamic:    {label:'Real-time & critical-peak pricing',   cats:['RTP-Rate','CPP-PTR'],                family:'habit'},
+  thermostat: {label:'Smart thermostat',                    cats:['DR-BYOT'],                           family:'dispatch'},
+  dlc:        {label:'AC / water-heater control',           cats:['DR-DLC'],                            family:'dispatch'},
+  battery:    {label:'Battery & VPP',                       cats:['VPP','DR-BYOD','Storage-Incentive'], family:'dispatch'},
+  ev:         {label:'EV rates & managed charging',         cats:['EV-Rate'],                           family:'habit'},
+  curtail:    {label:'Interruptible / curtailment',         cats:['DR-Curtailment'],                    family:'dispatch'},
+  demand:     {label:'Demand-charge rates',                 cats:['Demand-Charge'],                     family:'habit'},
+  export:     {label:'Solar export / net metering',         cats:['Export-Comp'],                       family:null},
+};
+const COUNTED_CATS = new Set(Object.values(PROGRAM_TYPES).flatMap(t=>t.cats));
+
+function segOk(prog){
+  if(currentSeg==='all') return true;
+  const s = prog.seg || '';
+  if(/\bAll\b/.test(s)) return true;
+  return currentSeg==='res' ? /Residential/.test(s) : /C&I/.test(s);
+}
+function inResearched(p){ return RESEARCHED_RTOS.has(rtoOf(p)) && rtoOf(p)!=='Unknown'; }
+
+/* Presence-scan fallback for utilities without itemized program rows. */
+function presenceFamily(p, family){
+  const pr = presenceOf(p); if(!pr || !family) return null;
+  const cells = family==='habit' ? {res:pr.rh, ci:pr.ch} : {res:pr.rd, ci:pr.cd};
+  const vals = currentSeg==='all' ? [cells.res, cells.ci] : [cells[currentSeg]];
+  if(vals.includes('Yes')) return 'Yes';
+  if(vals.every(v=>v==='No')) return 'No';
+  return null;
+}
+
+const V = {  // one palette for both program views
+  outside:'#d4d4d4', unknown:'#ececec', none:'#e9b9ad', related:'#cfe6d6',
+  c1:'#a8d5b7', c2:'#5fb383', c3:'#2e8b57', c4:'#15603a',
+};
+const OUT_OPACITY = 0.18;
+
+function typeState(p){
+  if(!inResearched(p)) return 'outside';
+  const t = PROGRAM_TYPES[currentType], u = progsFor(p);
+  const n = u ? u.programs.filter(x=>t.cats.includes(x.cat) && segOk(x)).length : 0;
+  if(n>=2) return 'c3';
+  if(n===1) return 'c2';
+  const fam = presenceFamily(p, t.family);
+  if(fam==='Yes') return 'related';
+  if(u) return 'none';            // researched in depth, nothing of this type
+  if(fam==='No') return 'none';
+  return 'unknown';
+}
+function countState(p){
+  if(!inResearched(p)) return 'outside';
   const u = progsFor(p);
-  if (currentView==='programs') return countColor(u?u.programs.length:0);
-  if (currentView==='storage')  return countColor(u?u.programs.filter(x=>x.stor==='Yes'||x.stor==='Yes-restricted').length:0);
+  if(u){
+    const n = u.programs.filter(x=>COUNTED_CATS.has(x.cat) && segOk(x)).length;
+    return n===0?'none': n<3?'c1': n<6?'c2': n<10?'c3':'c4';
+  }
+  const a = presenceFamily(p,'habit'), b = presenceFamily(p,'dispatch');
+  if(a==='Yes'||b==='Yes') return 'related';
+  if(a==='No'&&b==='No') return 'none';
+  return 'unknown';
+}
+
+/* Utility view: a stable muted color per utility so neighbors read as distinct territories. */
+const UTIL_PALETTE = ['#8fb3d9','#a6cfa0','#e3c28f','#c7a6d9','#93cfc9','#e0a7a7','#b7c48a','#d9b3cf','#9fb7c9','#d6c79e'];
+function utilColor(p){
+  const k = String(p.NAME||p.ID); let h = 0;
+  for(let i=0;i<k.length;i++) h = (h*31 + k.charCodeAt(i)) >>> 0;
+  return UTIL_PALETTE[h % UTIL_PALETTE.length];
+}
+
+function colorFor(p){
+  if (currentView==='util')  return utilColor(p);
+  if (currentView==='rto')   return RTO_COLORS[rtoOf(p)] || '#bdbdbd';
+  if (currentView==='type')  return V[typeState(p)];
+  if (currentView==='count') return V[countState(p)];
   return '#ccc';
 }
+function fillOpacityFor(p){
+  if ((currentView==='type'||currentView==='count') && !inResearched(p)) return OUT_OPACITY;
+  return 0.5;
+}
 const BORDER = '#333';
-function styleFn(f){ const off=currentView==='none';
-  return {color:off?'transparent':BORDER,weight:off?0:0.8,fillColor:colorFor(f.properties),fillOpacity:off?0:0.45}; }
+function styleFn(f){ return {color:BORDER,weight:0.7,fillColor:colorFor(f.properties),fillOpacity:fillOpacityFor(f.properties)}; }
 function styleFnHL(f){ return {color:'#f00',weight:2.4,fillColor:colorFor(f.properties),fillOpacity:0.75}; }
 
 /* ---- map ---- */
@@ -442,18 +556,21 @@ function popup(p){
 }
 
 function renderLegend(){
-  let m;
-  if(currentView==='rto') m = RTO_COLORS;
-  else if(currentView==='owner') m = OWNER_COLORS;
-  else if(currentView==='util') m = {'Utility service territory (click one for details)':'#8fb3d9'};
-  else if(currentView==='programs'||currentView==='storage')
-    m = {'0':COUNT_COLORS[0],'1–2':COUNT_COLORS[1],'3–5':COUNT_COLORS[2],'6–9':COUNT_COLORS[3],'10+':COUNT_COLORS[4]};
-  else if(PRES_VIEWS[currentView])
-    m = {'Yes':PRES_COLORS.Yes,'No (checked)':PRES_COLORS.No,'Via aggregator':PRES_COLORS.ViaAggregator,
-         'Unknown (not researched)':PRES_COLORS.Unknown,'Not MISO/PJM':PRES_COLORS.OutOfFootprint,
-         '<10k customers':PRES_COLORS.NotScanned};
-  else { legendEl.innerHTML=''; return; }
-  legendEl.innerHTML = Object.entries(m).map(([k,c])=>`<div><i style="background:${c}"></i>${k}</div>`).join('');
+  const seg = {all:'all customers', res:'residential', ci:'C&I'}[currentSeg];
+  let title, m;
+  if(currentView==='util'){ title='Utility service territories'; m={'Each color is one utility. Click for details.':UTIL_PALETTE[0]}; }
+  else if(currentView==='rto'){ title='RTO / ISO or balancing authority'; m=RTO_COLORS; }
+  else if(currentView==='type'){
+    title=`${PROGRAM_TYPES[currentType].label} (${seg})`;
+    m={'2 or more':V.c3,'1':V.c2,'Has a related program, type not itemized':V.related,
+       'None found':V.none,'Not researched':V.unknown,'Outside researched markets':V.outside};
+  } else {
+    title=`Programs on file (${seg})`;
+    m={'10+':V.c4,'6–9':V.c3,'3–5':V.c2,'1–2':V.c1,'Has programs, not itemized':V.related,
+       'None found':V.none,'Not researched':V.unknown,'Outside researched markets':V.outside};
+  }
+  legendEl.innerHTML = `<div class="lgtitle">${esc(title)}</div>` +
+    Object.entries(m).map(([k,c])=>`<div><i style="background:${c}"></i>${esc(k)}</div>`).join('');
 }
 
 /* ---- load ---- */
@@ -538,7 +655,7 @@ async function load(){
 }
 
 /* ---- crosswalk export: the browser has network access the build env does not ---- */
-document.getElementById('exportBtn').onclick = ()=>{
+document.getElementById('exportBtn').onclick = (ev)=>{ if(ev) ev.preventDefault();
   const rows = [['eia_id','hifld_name','state','customers','matched_utility_name','n_programs','match']];
   allFeatures.forEach(f=>{
     const p=f.properties, u=DATA.utilities[norm(p.NAME)];
@@ -624,13 +741,18 @@ document.getElementById('locBtn').addEventListener('click', async ()=>{
 document.getElementById('locInput').addEventListener('keydown',e=>{
   if(e.key==='Enter') document.getElementById('locBtn').click(); });
 
-document.querySelectorAll('input[name=view]').forEach(el=>
-  el.addEventListener('change',e=>{
-    currentView=e.target.value;
-    if(layer) layer.setStyle(styleFn);
-    if(highlighted) highlighted.setStyle(styleFnHL(highlighted.feature));
-    renderLegend();
-  }));
+function restyle(){
+  const po=document.getElementById('progOpts');
+  const prog = currentView==='type'||currentView==='count';
+  po.setAttribute('aria-disabled', prog?'false':'true');
+  po.classList.toggle('count-mode', currentView==='count');
+  if(layer) layer.setStyle(styleFn);
+  if(highlighted) highlighted.setStyle(styleFnHL(highlighted.feature));
+  renderLegend();
+}
+document.querySelectorAll('input[name=view]').forEach(el=>el.addEventListener('change',e=>{ currentView=e.target.value; restyle(); }));
+document.querySelectorAll('input[name=seg]').forEach(el=>el.addEventListener('change',e=>{ currentSeg=e.target.value; restyle(); }));
+document.getElementById('typeSel').addEventListener('change',e=>{ currentType=e.target.value; restyle(); });
 
 /* ---- collapsible panel + legend ---- */
 (function(){
