@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BTM Utility Map — MISO + PJM + NYISO (v0.7)</title>
+<title>BTM Utility Map — MISO + PJM + NYISO (v0.8)</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
@@ -115,7 +115,7 @@
 <div class="panel" id="panel">
   <div class="boxhd" data-toggle="panel"><h1 style="margin:0">Utility Program Map</h1><button class="tgl" aria-label="Collapse controls">▾</button></div>
   <div class="boxbody">
-  <div class="coverage">Researched: MISO · PJM · NYISO</div>
+  <div class="coverage">Researched: MISO · PJM · NYISO · CAISO</div>
 
   <div class="search">
     <input id="locInput" type="text" placeholder="Address, ZIP, or lat,lon">
@@ -163,7 +163,7 @@
 const SVC = "https://services3.arcgis.com/OYP7N6mAJJCyH6hd/arcgis/rest/services/Electric_Retail_Service_Territories_HIFLD/FeatureServer/0/query";
 const STATES = ['MN','WI','IA','IL','IN','MI','MO','OH','PA','NJ','MD','DE',
                 'VA','WV','KY','DC','AR','LA','MS','ND','SD',
-                'NY'];   // TX deliberately excluded: ERCOT noise
+                'NY','CA'];   // TX deliberately excluded: ERCOT noise
 const OUT_FIELDS = "ID,NAME,TYPE,STATE,CUSTOMERS,CNTRL_AREA,PLAN_AREA";
 /* Footprint utilities whose HIFLD home-state is outside STATES. HIFLD STATE = HQ state. */
 const EXTRA_IDS = ['17698',    // SWEPCO (AEP) — filed under OK, serves AR/LA/TX
@@ -198,7 +198,7 @@ let PRES = {};   // eia_id -> {rh,rd,ch,cd,u,rto,n}  (presence.json)
 const PRES_VIEWS = {rh:'res_habit', rd:'res_dispatch', ch:'ci_habit', cd:'ci_dispatch'};
 const PRES_COLORS = {Yes:'#2e8b57', No:'#c0392b', Unknown:'#d9d9d9', ViaAggregator:'#3a6fb0',
                      OutOfFootprint:'#8c8c8c', NotScanned:'#f2f2f2'};
-const RESEARCHED_RTOS = new Set(['MISO','PJM','MISO/PJM','NYISO','Unknown']);
+const RESEARCHED_RTOS = new Set(['MISO','PJM','MISO/PJM','NYISO','CAISO','WECC-nonRTO','Unknown']);
 const IN_FOOTPRINT = rto => !rto || RESEARCHED_RTOS.has(rto);
 function presenceOf(p){ return PRES[String(p.ID)] || null; }
 function presenceState(p, cell){
@@ -218,7 +218,8 @@ function progsFor(p){
 /* Researched markets get strong colors; markets we have not researched yet get muted ones so the
    map says WHAT a territory is instead of lumping it into gray. Codes are HIFLD CNTRL_AREA
    (balancing authority) values. */
-const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02',
+const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02', CAISO:'#c2185b',
+  'WECC-nonRTO':'#8d6e63',
   'SPP (not yet researched)':'#c9b98f', 'TVA (non-RTO)':'#b39ddb', 'AECI (non-RTO)':'#e0c3a8',
   'LG&E/KU (non-RTO)':'#a8c6d9', 'ISO-NE (not yet researched)':'#e6a1a1',
   'WAPA / West (non-RTO)':'#c5d3a8', 'Southeast (non-RTO)':'#d6c6b8', OTHER:'#bdbdbd'};
@@ -240,10 +241,13 @@ function countColor(n){ return n===0?COUNT_COLORS[0]:n<3?COUNT_COLORS[1]:n<6?COU
 function rtoOf(p){
   const u = progsFor(p);
   if(u && u.rto && u.rto!=='Non-RTO') return u.rto;
+  const pr = PRES[String(p.ID)];                       // presence-scan rto (researched per utility)
+  if(pr && pr.rto && pr.rto!=='Unknown' && pr.rto!=='Other-nonRTO') return pr.rto;
   const s = ((p.CNTRL_AREA||'')+' '+(p.PLAN_AREA||'')).toUpperCase();
   if (s.includes('MIDCONTINENT') || /\bMISO\b/.test(s)) return 'MISO';
   if (s.includes('PJM')) return 'PJM';
   if (s.includes('NEW YORK') || /\bNYIS/.test(s)) return 'NYISO';
+  if (/\bCISO\b|CALIFORNIA INDEPENDENT/.test(s)) return 'CAISO';
   for (const [re,label] of BA_MAP) if (re.test(s)) return label;
   return 'OTHER';
 }
@@ -435,7 +439,21 @@ function icRows(obj, spec){
 }
 
 function interconnectionHTML(p, u){
-  const st = DATA.icStates && DATA.icStates[p.STATE];
+  /* A state may carry several rule sets (NY: PSC-regulated IOUs vs LIPA; CA: CPUC IOUs vs public
+     power). Pick the one whose applies_to names this utility; otherwise the first. Show the rest
+     collapsed so nothing is hidden. */
+  let stList = DATA.icStates && DATA.icStates[p.STATE];
+  if(stList && !Array.isArray(stList)) stList=[stList];
+  stList = stList || [];
+  const words = ((u&&u.name)||p.NAME||'').toUpperCase().replace(/[^A-Z ]/g,' ').split(/\s+/)
+    .filter(w=>w.length>=4 && !['COMPANY','ELECTRIC','POWER','UTILITIES','UTILITY','CORP','ENERGY','CITY','DISTRICT','PUBLIC'].includes(w));
+  // score each rule set by how many of the utility's name words appear at the START of applies_to
+  // (descriptions often mention other utilities further in, e.g. "IOUs only ... not LIPA")
+  let hit=null, best=0;
+  stList.forEach(r=>{ const a=(r.applies_to||'').toUpperCase().slice(0,60);
+    const sc=words.filter(w=>a.includes(w)).length; if(sc>best){best=sc;hit=r;} });
+  const st = hit || stList[0] || null;
+  const otherSt = stList.filter(r=>r!==st);
   const deltas = (u && u.ic) || [];
   let h = `<div class="sec"><h3>Interconnection &amp; export rules</h3>`;
 
@@ -462,7 +480,7 @@ function interconnectionHTML(p, u){
   }
 
   if(st){
-    h += `<details class="pg" ${deltas.length?'':'open'}><summary><span class="cat">STATE RULE</span>${esc(p.STATE)} default
+    h += `<details class="pg" ${deltas.length?'':'open'}><summary><span class="cat">STATE RULE</span>${esc(p.STATE)} default${stList.length>1?` — ${esc((st.applies_to||'').slice(0,50))}`:''}
       ${tierBadge(st.tier)}</summary><div class="kv">
       ${icRows(st, IC_HEADLINE)}
       <div style="margin:6px 0 3px;font-weight:600;color:#666">Process</div>
@@ -470,6 +488,11 @@ function interconnectionHTML(p, u){
       <div style="margin-top:5px"><a href="${esc(st.source_url)}" target="_blank" rel="noopener">source ↗</a></div>
       </div></details>`;
   }
+  otherSt.forEach(r=>{
+    h += `<details class="pg"><summary><span class="cat">OTHER ${esc(p.STATE)} RULE SET</span>${esc((r.applies_to||'').slice(0,70))}
+      ${tierBadge(r.tier)}</summary><div class="kv">${icRows(r, IC_HEADLINE)}
+      <div style="margin-top:5px"><a href="${esc(r.source_url)}" target="_blank" rel="noopener">source ↗</a></div></div></details>`;
+  });
   return h + `</div>`;
 }
 
@@ -640,9 +663,10 @@ async function load(){
 
     const counts={MISO:0,PJM:0,OTHER:0};
     all.forEach(f=>{ const r=rtoOf(f.properties); counts[r]=(counts[r]||0)+1; });
-    const notYet = all.length - (counts.MISO||0) - (counts.PJM||0) - (counts['MISO/PJM']||0) - (counts.NYISO||0);
+    const R=['MISO','PJM','MISO/PJM','NYISO','CAISO','WECC-nonRTO'];
+    const notYet = all.length - R.reduce((a,k)=>a+(counts[k]||0),0);
     statusEl.textContent =
-      `${all.length} territories.\nMISO ${counts.MISO||0} · PJM ${counts.PJM||0} · NYISO ${counts.NYISO||0} · other markets ${notYet}\n`+
+      `${all.length} territories.\nMISO ${counts.MISO||0} · PJM ${counts.PJM||0} · NYISO ${counts.NYISO||0} · CA ${(counts.CAISO||0)+(counts['WECC-nonRTO']||0)} · other ${notYet}\n`+
       `Programs matched to ${matchStats.matched}/${matchStats.total} researched utilities.\n`+
       `${matchStats.unmatchedPayload.length} unmatched (see console).`;
     if(matchStats.unmatchedPayload.length){

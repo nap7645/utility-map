@@ -244,6 +244,32 @@ leaves not exposed as HTML); PSEG LI System Peak Relief has no published $/kW (s
 LIPA Battery Storage Rewards payment is aggregator-set — the agent correctly declined to write the
 "$250/kWh" figure circulating on vendor sites.
 
+## CAISO / California — COMPLETE (session 6, 2026-09-23)
+
+29 territories >10k. Programs 90 rows (PG&E 19, SCE 14, SDG&E 7, CA statewide 12, 9 public
+utilities 26, CAISO wholesale 12). Presence 17. Interconnection 1 state row + 12 utility rows.
+
+Findings:
+- **6 of 9 large CA public utilities are outside CAISO** (LADWP, Glendale, SMUD, MID, TID, IID →
+  `WECC-nonRTO`). Merced ID sits in TID's BA (non-CAISO); Lassen MUD is inside CAISO/PG&E. The map
+  treats `WECC-nonRTO` rows *with our data* as researched.
+- **Battery retrofit on grandfathered NEM 2.0 does NOT forfeit NEM 2.0** (D.22-12-056; PG&E NEM2
+  SC 8.b, SCE NEM-ST SC 8.d) — **except** storage added via SGIP with reservation accepted on/after
+  2024-06-04 → moves to Net Billing Tariff (D.24-03-071), with equity/resiliency budget exemptions.
+- **grid_charging_allowed = Yes-but-not-credited** under NBT/NEM paired storage: grid charging is
+  allowed; only renewable-derived export earns credit (≤10 kW: monthly cap on exports; >10 kW:
+  extra metering or power control). LADWP and MID require non-export for storage.
+- **DRAM ended 2024-12-31** (D.24-04-006). **DER aggregations (DERP) cannot provide RA or
+  Regulation** — only Spin/Non-Spin. Regulation needs the wholesale NGR model. CA has no
+  opt-out on third-party aggregation. No WEIM/EDAM path for customer batteries in non-CAISO BAs.
+- Unverified carry-forwards in `data/raw/interconnection/ic_CA_gaps.md` and
+  `chunk_CA_caiso_wholesale_gaps.md` (SDG&E NEM-ST not read directly; several POU tariff PDFs
+  did not render; flexible-RA must-offer window from 2018 BPM).
+
+Bug fixed: `icStates` was keyed by state alone, so a state's second rule set overwrote the first —
+NY IOUs were showing LIPA's rules. Now a list per state; drawer picks the rule set whose
+`applies_to` names the utility and shows the others collapsed.
+
 ## Beyond MISO + PJM
 
 Region buildout plans live in **`plans/`** — see `plans/README.md` for the sequence and cost

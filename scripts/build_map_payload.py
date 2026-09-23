@@ -116,8 +116,10 @@ def main():
     if os.path.exists(p_state):
         with open(p_state, newline="", encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
-                ic_states[r["state"]] = {k: v for k, v in r.items() if v.strip()}
-                ic_states[r["state"]]["tier"] = source_tier(r["source_url"], r["confidence"])
+                # a state can have several rule sets (e.g. NY: PSC-regulated IOUs vs LIPA) -> list
+                d = {k: v for k, v in r.items() if v.strip()}
+                d["tier"] = source_tier(r["source_url"], r["confidence"])
+                ic_states.setdefault(r["state"], []).append(d)
     if os.path.exists(p_util):
         with open(p_util, newline="", encoding="utf-8") as fh:
             for r in csv.DictReader(fh):
