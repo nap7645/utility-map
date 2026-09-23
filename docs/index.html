@@ -176,7 +176,22 @@ function progsFor(p){
 }
 
 /* ---- styling ---- */
-const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02', OTHER:'#bdbdbd'};
+/* Researched markets get strong colors; markets we have not researched yet get muted ones so the
+   map says WHAT a territory is instead of lumping it into gray. Codes are HIFLD CNTRL_AREA
+   (balancing authority) values. */
+const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02',
+  'SPP (not yet researched)':'#c9b98f', 'TVA (non-RTO)':'#b39ddb', 'AECI (non-RTO)':'#e0c3a8',
+  'LG&E/KU (non-RTO)':'#a8c6d9', 'ISO-NE (not yet researched)':'#e6a1a1',
+  'WAPA / West (non-RTO)':'#c5d3a8', 'Southeast (non-RTO)':'#d6c6b8', OTHER:'#bdbdbd'};
+const BA_MAP = [
+  [/\bSWPP\b|SOUTHWEST POWER POOL/, 'SPP (not yet researched)'],
+  [/\bTVA\b|TENNESSEE VALLEY/,         'TVA (non-RTO)'],
+  [/\bAECI\b|ASSOCIATED ELECTRIC/,     'AECI (non-RTO)'],
+  [/\bLGEE\b|LOUISVILLE GAS/,          'LG&E/KU (non-RTO)'],
+  [/\bISNE\b|ISO NEW ENGLAND/,         'ISO-NE (not yet researched)'],
+  [/\bWACM\b|\bWAUW\b|\bSPA\b|\bPSCO\b|WESTERN AREA/, 'WAPA / West (non-RTO)'],
+  [/\bSOCO\b|\bDUK\b|\bCPLE\b|\bSC\b|\bSCEG\b|\bFPL\b/, 'Southeast (non-RTO)'],
+];
 const OWNER_COLORS = {'IOU':'#e6550d','Cooperative':'#31a354','Municipal':'#756bb1',
   'Federal/State':'#fec44f','Unknown':'#dddddd'};
 const COUNT_COLORS = ['#eeeeee','#d7ecd9','#a1d99b','#41ab5d','#006d2c'];
@@ -190,6 +205,7 @@ function rtoOf(p){
   if (s.includes('MIDCONTINENT') || /\bMISO\b/.test(s)) return 'MISO';
   if (s.includes('PJM')) return 'PJM';
   if (s.includes('NEW YORK') || /\bNYIS/.test(s)) return 'NYISO';
+  for (const [re,label] of BA_MAP) if (re.test(s)) return label;
   return 'OTHER';
 }
 /* Ownership: prefer ours. HIFLD TYPE is frequently "NOT AVAILABLE". */
@@ -507,8 +523,9 @@ async function load(){
 
     const counts={MISO:0,PJM:0,OTHER:0};
     all.forEach(f=>{ const r=rtoOf(f.properties); counts[r]=(counts[r]||0)+1; });
+    const notYet = all.length - (counts.MISO||0) - (counts.PJM||0) - (counts['MISO/PJM']||0) - (counts.NYISO||0);
     statusEl.textContent =
-      `${all.length} territories.\nMISO ${counts.MISO} · PJM ${counts.PJM} · other ${counts.OTHER}\n`+
+      `${all.length} territories.\nMISO ${counts.MISO||0} · PJM ${counts.PJM||0} · NYISO ${counts.NYISO||0} · other markets ${notYet}\n`+
       `Programs matched to ${matchStats.matched}/${matchStats.total} researched utilities.\n`+
       `${matchStats.unmatchedPayload.length} unmatched (see console).`;
     if(matchStats.unmatchedPayload.length){
