@@ -198,7 +198,7 @@ let PRES = {};   // eia_id -> {rh,rd,ch,cd,u,rto,n}  (presence.json)
 const PRES_VIEWS = {rh:'res_habit', rd:'res_dispatch', ch:'ci_habit', cd:'ci_dispatch'};
 const PRES_COLORS = {Yes:'#2e8b57', No:'#c0392b', Unknown:'#d9d9d9', ViaAggregator:'#3a6fb0',
                      OutOfFootprint:'#8c8c8c', NotScanned:'#f2f2f2'};
-const RESEARCHED_RTOS = new Set(['MISO','PJM','MISO/PJM','NYISO','CAISO','WECC-nonRTO','Unknown']);
+const RESEARCHED_RTOS = new Set(['MISO','PJM','MISO/PJM','NYISO','CAISO','WECC-nonRTO','AECI','TVA','SPP','SERC-nonRTO','Unknown']);
 const IN_FOOTPRINT = rto => !rto || RESEARCHED_RTOS.has(rto);
 function presenceOf(p){ return PRES[String(p.ID)] || null; }
 function presenceState(p, cell){
