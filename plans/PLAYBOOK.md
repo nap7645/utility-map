@@ -76,16 +76,20 @@ Capture the Order 2222 status and any **state opt-outs** from aggregation — th
 
 ## Phase 5 — Merge, alias, build (no agent)
 
-1. Merge chunks with the same validation as `scripts/merge_program_chunks.py` (repair pass if any
-   row is off by fields — the agent left an unquoted comma).
-2. Add aliases to `data/crosswalk/aliases.csv` for every new utility whose `norm()` key won't
-   match its HIFLD name. Open the map, read the `console.table` of unmatched, iterate.
-3. Add the region's states to `STATES` in `docs/index.html` **only if the whole state is in
-   footprint**. Otherwise load its utilities by ID via `EXTRA_IDS`. (Adding TX for one utility
-   pulled 300 ERCOT polygons and recentered the map.)
-4. `python3 scripts/build_map_payload.py && python3 scripts/build_presence.py`, commit, push,
-   then open the live site and click three utilities you know. Screenshots lag in the in-app
-   browser; trust the DOM.
+1. `python3 scripts/merge_region.py --tag <TAG> --denominator data/raw/hifld_over10k_<region>.csv`
+   (dry run). It validates every raw file, de-duplicates against what is merged, and lists utility
+   names that will not join a boundary with the closest boundary names in the same state.
+2. Add those to `data/crosswalk/aliases.csv`; re-run the dry run until "all new utility names join".
+3. Re-run with `--apply` — writes the processed files and rebuilds `programs.json` / `presence.json`.
+4. Map config (only when a new state or market enters): add the state to `STATES` in
+   `docs/index.html` **only if the whole state is in the region**, otherwise load its utilities by
+   ID in `EXTRA_IDS`; add the market to `RESEARCHED_RTOS`. Then re-run
+   `python3 scripts/snapshot_boundaries.py` locally (needs internet) and commit the GeoJSON.
+5. Commit, push, open the live site with a cache-buster (`?v=<commit>`), click three utilities you
+   know.
+
+Agents that die mid-run: relaunch with the **same prompt**. The skill's resume step makes them
+continue from their partial file.
 
 ## Rules that are not optional
 

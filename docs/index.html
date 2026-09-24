@@ -219,7 +219,7 @@ function progsFor(p){
    map says WHAT a territory is instead of lumping it into gray. Codes are HIFLD CNTRL_AREA
    (balancing authority) values. */
 const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02', CAISO:'#c2185b',
-  'WECC-nonRTO':'#8d6e63',
+  'WECC-nonRTO':'#8d6e63', ERCOT:'#e6ab02', 'SERC-nonRTO':'#b08968', 'FRCC-nonRTO':'#9c8ade', 'ISO-NE':'#e6a1a1',
   'SPP (not yet researched)':'#c9b98f', 'TVA (non-RTO)':'#b39ddb', 'AECI (non-RTO)':'#e0c3a8',
   'LG&E/KU (non-RTO)':'#a8c6d9', 'ISO-NE (not yet researched)':'#e6a1a1',
   'WAPA / West (non-RTO)':'#c5d3a8', 'Southeast (non-RTO)':'#d6c6b8', OTHER:'#bdbdbd'};
@@ -315,7 +315,7 @@ function typeState(p){
   if(n===1) return 'c2';
   const fam = presenceFamily(p, t.family);
   if(fam==='Yes') return 'related';
-  if(u) return 'none';            // researched in depth, nothing of this type
+  if(u && u.programs.length>=3) return 'none';   // researched in depth (>=3 rows, same rule as build_presence.py)
   if(fam==='No') return 'none';
   return 'unknown';
 }

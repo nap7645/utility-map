@@ -24,6 +24,7 @@ from source_tier import source_tier
 HABIT = {"TOU-Rate", "RTP-Rate", "CPP-PTR", "Demand-Charge", "EV-Rate"}
 DISPATCH = {"DR-DLC", "DR-BYOT", "DR-BYOD", "VPP", "DR-Curtailment"}
 CELLS = ["res_habit", "res_dispatch", "ci_habit", "ci_dispatch"]
+RESEARCHED_MIN = 3   # program rows needed before absence in a family counts as "No"
 
 def segs(s):
     s = s or ""
@@ -66,7 +67,16 @@ def main():
                     out[c] = "Yes"
                     if not src[c]:
                         src[c] = r["source_url"]
-        return out, src
+        # A utility that got full program research (>= RESEARCHED_MIN rows) and has nothing in a
+        # cell's family is a checked "No", not "Unknown". 1-2 stray rows (e.g. one net-metering
+        # entry) are not enough evidence of absence, so those stay Unknown.
+        inferred = set()
+        active = [r for r in rows if r["program_status"] != "Terminated"]
+        if len(active) >= RESEARCHED_MIN:
+            for c in CELLS:
+                if out[c] == "Unknown":
+                    out[c] = "No"; inferred.add(c)
+        return out, src, inferred
 
     # agent scan results override Unknown (never override a derived Yes)
     scan = {r["eia_id"].strip(): r for r in load_csv(P("data", "processed", "presence_scan.csv"))}
@@ -84,14 +94,16 @@ def main():
         }
         if m:
             matched += 1
-            cells, src = derive(m["rows"])
+            cells, src, inferred = derive(m["rows"])
         else:
             cells = {c: "Unknown" for c in CELLS}
             src = {c: "" for c in CELLS}
+            inferred = set()
         s = scan.get(h["eia_id"])
         if s:
             for c in CELLS:
-                if cells[c] == "Unknown" and s.get(c, "").strip():
+                # scans fill Unknown, and may overturn an inferred "No" (never a derived Yes)
+                if (cells[c] == "Unknown" or (c in inferred and s.get(c, "").strip() == "Yes")) and s.get(c, "").strip():
                     cells[c] = s[c].strip()
                     src[c] = s.get(c + "_src", "").strip()
             for k in ("rto", "ownership_type", "utility_name"):

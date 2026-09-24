@@ -21,7 +21,23 @@ If a region file exists at `plans/rto_<x>.md` or `plans/region_<x>.md`, read it 
 notes (G&T memberships, TVA-style shortcuts, which co-ops are in a different RTO) cut the work
 in half.
 
-## 2. Set up the file before researching anything
+## 2. Resume if the output file already exists
+
+Agents on this project are routinely killed mid-run by usage limits and then relaunched with the
+same prompt. So before researching anything:
+
+1. If the output CSV already exists, read it. Every row in it is finished work — do not redo it,
+   do not rewrite the file from scratch, and do not delete rows.
+2. Work out what is left: for presence scans, target `eia_id`s not yet in the file; for program /
+   wholesale files, utilities or products with no rows yet; for interconnection, blank cells in
+   existing rows plus missing utility rows.
+3. Append only the remainder. If you must fill blank cells in an existing row, read the whole file
+   with `csv.DictReader`, change only those cells, and write it back with `csv.writer`.
+4. If a `_gaps.md` exists, append to it.
+
+This makes a relaunch cheap: the same prompt picks up where the last run stopped.
+
+## 3. Set up the file before researching anything
 
 ```python
 import csv, os
@@ -39,7 +55,7 @@ Append every ~8 rows. Never hold results in memory until the end — agents get 
 and spend limits mid-run, and unwritten work is gone. Never write CSV by hand or with bash
 heredocs; unquoted commas inside values have cost repair passes before.
 
-## 3. Research loop, per utility
+## 4. Research loop, per utility
 
 1. Find the utility's own site (search `"<utility name>" rates` or `demand response`). Prefer its
    rates/tariff page and program pages over anything else.
@@ -55,7 +71,7 @@ heredocs; unquoted commas inside values have cost repair passes before.
    - `Secondary` — the link *reports on* it (news, DSIRE, trade press, a G&T page about a member).
    - `Unverified` — no usable link or the link doesn't show the claim.
 
-## 4. Things that are not optional
+## 5. Things that are not optional
 
 - **Never invent** a row, a value, or a URL. Blank beats a guess.
 - **`No` only if you looked** at the utility's own site/tariff and found nothing. Unreachable or
@@ -68,7 +84,7 @@ heredocs; unquoted commas inside values have cost repair passes before.
   with `notes=search budget exhausted`. Don't guess to fill rows.
 - `last_verified` = today's date, ISO format.
 
-## 5. Validate before you report
+## 6. Validate before you report
 
 Run the validator (it lives next to this file):
 
@@ -80,7 +96,7 @@ It asserts: every row has exactly N fields; a `source_url` (or `*_src` for every
 with `http`; `confidence` is one of the three tiers (or legacy H/M/L); and, if a targets file is
 given, every target `eia_id` appears exactly once. Fix failures, then re-run until clean.
 
-## 6. Report back
+## 7. Report back
 
 Row count; per-cell or per-category tallies; the RTO breakdown; and a short, honest list of what
 you could not verify and why. Do not paste the CSV. If you wrote a `_gaps.md`, say so — it's as
