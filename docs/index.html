@@ -356,7 +356,7 @@ function styleFn(f){ return {color:BORDER,weight:0.7,fillColor:colorFor(f.proper
 function styleFnHL(f){ return {color:'#f00',weight:2.4,fillColor:colorFor(f.properties),fillOpacity:0.75}; }
 
 /* ---- map ---- */
-const map = L.map('map').setView([40.5,-85],5);
+const map = L.map('map',{preferCanvas:true}).setView([40.5,-85],5);   // canvas: thousands of polygons
 /* CARTO's free basemap endpoint started returning "API KEY REQUIRED" tiles (observed 2026-09-09).
    OSM standard tiles need no key; their usage policy is fine for a low-traffic internal tool.
    Swap to a keyed provider (Stadia/MapTiler) before any real volume. */
@@ -624,16 +624,29 @@ async function load(){
       if(pp.ok) PRES = await pp.json();
     }catch(e){ console.warn('presence.json load failed', e); }
 
-    let all=[], offset=0, more=true;
-    while(more){
-      statusEl.textContent = `Loading territories… (${offset})`;
-      const gj = await fetchPage(offset);
-      const feats = gj.features||[];
-      all = all.concat(feats);
-      more = !!gj.exceededTransferLimit && feats.length===PAGE;
-      offset += feats.length;
+    /* Boundaries: prefer the committed snapshot (scripts/snapshot_boundaries.py); fall back to
+       querying HIFLD live if the snapshot is missing. */
+    let all=[], source='snapshot';
+    try{
+      statusEl.textContent = 'Loading territories…';
+      const r = await fetch('data/territories.geojson');
+      if(!r.ok) throw new Error('no snapshot');
+      const gj = await r.json(); all = gj.features||[];
+      if(gj.metadata && gj.metadata.snapshot) source = 'snapshot '+gj.metadata.snapshot;
+    }catch(e){
+      source='live HIFLD';
+      let offset=0, more=true;
+      while(more){
+        statusEl.textContent = `Loading territories from HIFLD… (${offset})`;
+        const gj = await fetchPage(offset);
+        const feats = gj.features||[];
+        all = all.concat(feats);
+        more = !!gj.exceededTransferLimit && feats.length===PAGE;
+        offset += feats.length;
+      }
     }
     allFeatures = all;
+    window.BOUNDARY_SOURCE = source;
 
     layer = L.geoJSON({type:'FeatureCollection',features:all}, {style:styleFn,
       /* Clicks resolve through findContaining(), same as address lookup. Leaflet's own click hits
@@ -666,7 +679,7 @@ async function load(){
     const R=['MISO','PJM','MISO/PJM','NYISO','CAISO','WECC-nonRTO'];
     const notYet = all.length - R.reduce((a,k)=>a+(counts[k]||0),0);
     statusEl.textContent =
-      `${all.length} territories.\nMISO ${counts.MISO||0} · PJM ${counts.PJM||0} · NYISO ${counts.NYISO||0} · CA ${(counts.CAISO||0)+(counts['WECC-nonRTO']||0)} · other ${notYet}\n`+
+      `${all.length} territories (${window.BOUNDARY_SOURCE}).\nMISO ${counts.MISO||0} · PJM ${counts.PJM||0} · NYISO ${counts.NYISO||0} · CA ${(counts.CAISO||0)+(counts['WECC-nonRTO']||0)} · other ${notYet}\n`+
       `Programs matched to ${matchStats.matched}/${matchStats.total} researched utilities.\n`+
       `${matchStats.unmatchedPayload.length} unmatched (see console).`;
     if(matchStats.unmatchedPayload.length){
