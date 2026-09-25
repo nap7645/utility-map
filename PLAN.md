@@ -351,3 +351,9 @@ Budget note: the monthly spend limit is a hard wall, unlike the session limits. 
 2. Open `docs/index.html`, switch to the four "Has program?" views, sanity-check colors against a few utilities you know. Check `console.table` of unmatched.
 3. Export the crosswalk CSV, commit, add `eia_id` to `programs.csv`.
 4. Then Phase 4 (aggregators) — it feeds the `ViaAggregator` state and is the last piece of the presence layer — before Phase 3 (bill structure).
+
+### 2026-09-24 — MISO/PJM gap scans + Southeast presence
+- Gap scans C/D/F merged (145 rows). KY splits EKPC→PJM / Big Rivers→MISO / TVA; MO co-ops AECI; Frankfort PB = SERC-nonRTO; Citizens (MO) = WVPA/MISO.
+- Southeast denominator (248 territories, NC/SC/GA/AL/FL/TN) + presence scans SE1–5 merged. SE1 (NC) and SE2 (GA) and SE4 (FL) hit the 200-WebSearch cap → ~30 small munis all-Unknown; see scan_SE*_gaps.md.
+- Follow-ups: CEPCI load-control → ci_dispatch for 19 SC co-ops; PowerSouth members (12 AL) all Unknown; TVA LPC retail TOU (52 unchecked); panhandle FL co-op BA unverified.
+- Next: SE programs (≈25 load-bearing utilities) + interconnection (NC/SC/GA, AL/FL/TN).
