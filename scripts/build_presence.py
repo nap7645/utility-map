@@ -16,7 +16,7 @@ Inputs : data/raw/hifld_over10k.csv        (denominator: every territory >10k cu
 Output : data/processed/presence.csv
          docs/data/presence.json
 """
-import csv, json, os, sys
+import csv, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_map_payload import norm, P
 from source_tier import source_tier
@@ -87,6 +87,11 @@ def main():
     for h in hifld:
         key = norm(h["hifld_name"])
         m = by_key.get(key)
+        # HIFLD names like "CITY OF CLEVELAND - (TN)" carry the state; a same-name utility elsewhere
+        # (Cleveland Public Power, OH) must not join.
+        sfx = re.search(r"\(([A-Z]{2})\)\s*$", h["hifld_name"])
+        if m and sfx and sfx.group(1) not in {r["state"][:2] for r in m["rows"]}:
+            m = None
         rec = {
             "eia_id": h["eia_id"], "hifld_name": h["hifld_name"], "hifld_state": h["hifld_state"],
             "customers": h["customers"], "utility_name": m["name"] if m else "",

@@ -211,7 +211,10 @@ let matchStats = {matched:0, total:0, unmatchedPayload:[]};
 
 function progsFor(p){
   const u = DATA.utilities[norm(p.NAME)];
-  return u ? u : null;
+  if(!u) return null;
+  const sfx = /\(([A-Z]{2})\)\s*$/.exec(p.NAME||'');   // "CITY OF CLEVELAND - (TN)" must not join Cleveland, OH
+  if(sfx && u.state && !u.state.includes(sfx[1])) return null;
+  return u;
 }
 
 /* ---- styling ---- */
@@ -220,17 +223,18 @@ function progsFor(p){
    (balancing authority) values. */
 const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02', CAISO:'#c2185b',
   'WECC-nonRTO':'#8d6e63', ERCOT:'#e6ab02', 'SERC-nonRTO':'#b08968', 'FRCC-nonRTO':'#9c8ade', 'ISO-NE':'#e6a1a1',
-  'SPP (not yet researched)':'#c9b98f', 'TVA (non-RTO)':'#b39ddb', 'AECI (non-RTO)':'#e0c3a8',
+  'SPP (not yet researched)':'#c9b98f', 'TVA':'#b39ddb', 'AECI':'#e0c3a8',
   'LG&E/KU (non-RTO)':'#a8c6d9', 'ISO-NE (not yet researched)':'#e6a1a1',
-  'WAPA / West (non-RTO)':'#c5d3a8', 'Southeast (non-RTO)':'#d6c6b8', OTHER:'#bdbdbd'};
+  'WAPA / West (non-RTO)':'#c5d3a8', OTHER:'#bdbdbd'};
 const BA_MAP = [
   [/\bSWPP\b|SOUTHWEST POWER POOL/, 'SPP (not yet researched)'],
-  [/\bTVA\b|TENNESSEE VALLEY/,         'TVA (non-RTO)'],
-  [/\bAECI\b|ASSOCIATED ELECTRIC/,     'AECI (non-RTO)'],
+  [/\bTVA\b|TENNESSEE VALLEY/,         'TVA'],
+  [/\bAECI\b|ASSOCIATED ELECTRIC/,     'AECI'],
   [/\bLGEE\b|LOUISVILLE GAS/,          'LG&E/KU (non-RTO)'],
   [/\bISNE\b|ISO NEW ENGLAND/,         'ISO-NE (not yet researched)'],
   [/\bWACM\b|\bWAUW\b|\bSPA\b|\bPSCO\b|WESTERN AREA/, 'WAPA / West (non-RTO)'],
-  [/\bSOCO\b|\bDUK\b|\bCPLE\b|\bSC\b|\bSCEG\b|\bFPL\b/, 'Southeast (non-RTO)'],
+  [/\bFPL\b|\bFPC\b|\bFMPP\b|\bTEC\b|\bJEA\b|\bSEC\b|\bTAL\b|\bGVL\b|\bHST\b|\bNSB\b|FLORIDA/, 'FRCC-nonRTO'],
+  [/\bSOCO\b|\bDUK\b|\bCPLE\b|\bCPLW\b|\bSC\b|\bSCEG\b|\bSEPA\b|\bAEC\b|\bYAD\b/, 'SERC-nonRTO'],
 ];
 const OWNER_COLORS = {'IOU':'#e6550d','Cooperative':'#31a354','Municipal':'#756bb1',
   'Federal/State':'#fec44f','Unknown':'#dddddd'};
