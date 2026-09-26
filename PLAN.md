@@ -374,3 +374,12 @@ Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live,
 - Drawer top redesigned: "Ways customers here can lower their bill" table (plain language, program names, source links).
 - Open: EPB interconnection terms unpublished; grid_charging_allowed "Unclear" on nearly all SE co-op/muni rows; ~103 territories nationally still fully Unknown.
 - Next per user order: Texas design decision (retail choice) → ERCOT; then West, SPP, ISO-NE.
+
+### 2026-09-26 — ISO-NE in progress (HANDOFF)
+- Done + merged (99d1a6a): denominator (38 + 2 NY-filed National Grid MA), presence scan_NE (40), programs chunk_NE_cs (67, Opus) + chunk_NE_rest (37). Map: STATES += CT/MA/RI/NH/VT/ME, ISO-NE researched. User must re-run snapshot_boundaries.py.
+- Partial (session limit), NOT merged — relaunch same prompts, resume step continues:
+  - ic_NEa (MA done; RI, CT + 12 utility deltas left) — Opus
+  - ic_NEb (NH, VT done; ME + 9 utility deltas left) — Opus
+  - chunk_NE_wholesale (8 rows; DRR energy, reserves, DASI, regulation, Order 2222 capacity, BTM/net-metered restrictions left) — Opus
+- Then: merge_region.py --tag NEa / NEb / NE, verify, commit. Then West + NW (plans/region_west.md).
+- Flags: GMP ESS/BYOD tariffs "available until 2026-09-30 unless otherwise ordered" — recheck Oct. CT munis / BELD do NOT have ConnectedSolutions (aggregator sites misattribute). NH: grid-charging of exporting batteries banned from 2027-01-01 (HB 1718) unless utility-dispatched.
