@@ -169,7 +169,7 @@
 const SVC = "https://services3.arcgis.com/OYP7N6mAJJCyH6hd/arcgis/rest/services/Electric_Retail_Service_Territories_HIFLD/FeatureServer/0/query";
 const STATES = ['MN','WI','IA','IL','IN','MI','MO','OH','PA','NJ','MD','DE',
                 'VA','WV','KY','DC','AR','LA','MS','ND','SD',
-                'NY','CA','NC','SC','GA','AL','FL','TN'];   // TX deliberately excluded: ERCOT noise
+                'NY','CA','NC','SC','GA','AL','FL','TN','CT','MA','RI','NH','VT','ME'];   // TX deliberately excluded: ERCOT noise
 const OUT_FIELDS = "ID,NAME,TYPE,STATE,CUSTOMERS,CNTRL_AREA,PLAN_AREA";
 /* Footprint utilities whose HIFLD home-state is outside STATES. HIFLD STATE = HQ state. */
 const EXTRA_IDS = ['17698',    // SWEPCO (AEP) — filed under OK, serves AR/LA/TX
@@ -204,7 +204,7 @@ let PRES = {};   // eia_id -> {rh,rd,ch,cd,u,rto,n}  (presence.json)
 const PRES_VIEWS = {rh:'res_habit', rd:'res_dispatch', ch:'ci_habit', cd:'ci_dispatch'};
 const PRES_COLORS = {Yes:'#2e8b57', No:'#c0392b', Unknown:'#d9d9d9', ViaAggregator:'#3a6fb0',
                      OutOfFootprint:'#8c8c8c', NotScanned:'#f2f2f2'};
-const RESEARCHED_RTOS = new Set(['MISO','PJM','MISO/PJM','NYISO','CAISO','WECC-nonRTO','AECI','TVA','SPP','SERC-nonRTO','FRCC-nonRTO','Unknown']);
+const RESEARCHED_RTOS = new Set(['MISO','PJM','MISO/PJM','NYISO','CAISO','WECC-nonRTO','AECI','TVA','SPP','SERC-nonRTO','FRCC-nonRTO','ISO-NE','Unknown']);
 const IN_FOOTPRINT = rto => !rto || RESEARCHED_RTOS.has(rto);
 function presenceOf(p){ return PRES[String(p.ID)] || null; }
 function presenceState(p, cell){
@@ -230,14 +230,14 @@ function progsFor(p){
 const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02', CAISO:'#c2185b',
   'WECC-nonRTO':'#8d6e63', ERCOT:'#e6ab02', 'SERC-nonRTO':'#b08968', 'FRCC-nonRTO':'#9c8ade', 'ISO-NE':'#e6a1a1',
   'SPP (not yet researched)':'#c9b98f', 'TVA':'#b39ddb', 'AECI':'#e0c3a8',
-  'LG&E/KU (non-RTO)':'#a8c6d9', 'ISO-NE (not yet researched)':'#e6a1a1',
+  'LG&E/KU (non-RTO)':'#a8c6d9',
   'WAPA / West (non-RTO)':'#c5d3a8', OTHER:'#bdbdbd'};
 const BA_MAP = [
   [/\bSWPP\b|SOUTHWEST POWER POOL/, 'SPP (not yet researched)'],
   [/\bTVA\b|TENNESSEE VALLEY/,         'TVA'],
   [/\bAECI\b|ASSOCIATED ELECTRIC/,     'AECI'],
   [/\bLGEE\b|LOUISVILLE GAS/,          'LG&E/KU (non-RTO)'],
-  [/\bISNE\b|ISO NEW ENGLAND/,         'ISO-NE (not yet researched)'],
+  [/\bISNE\b|ISO NEW ENGLAND/,         'ISO-NE'],
   [/\bWACM\b|\bWAUW\b|\bSPA\b|\bPSCO\b|WESTERN AREA/, 'WAPA / West (non-RTO)'],
   [/\bFPL\b|\bFPC\b|\bFMPP\b|\bTEC\b|\bJEA\b|\bSEC\b|\bTAL\b|\bGVL\b|\bHST\b|\bNSB\b|FLORIDA/, 'FRCC-nonRTO'],
   [/\bSOCO\b|\bDUK\b|\bCPLE\b|\bCPLW\b|\bSC\b|\bSCEG\b|\bSEPA\b|\bAEC\b|\bYAD\b/, 'SERC-nonRTO'],

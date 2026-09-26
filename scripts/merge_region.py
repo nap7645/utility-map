@@ -81,7 +81,8 @@ def main():
         files = sorted(f for f in os.listdir(P(rawdir)) if rx.match(f)) if os.path.isdir(P(rawdir)) else []
         dh, db = read(P(dest))
         seen = {keyof(dh, r, key) for r in db}
-        add, dup = [], 0
+        pos = {keyof(dh, r, key): i for i, r in enumerate(db)}
+        add, dup, upd = [], 0, 0
         for f in files:
             h, body, probs = validate(P(rawdir, f), nf)
             if probs:
@@ -92,10 +93,16 @@ def main():
                 bad = True; print(f"  !! {f}: header differs from {dest}"); continue
             for r in body:
                 k = keyof(h, r, key)
-                if k in seen: dup += 1; continue
+                if k in seen:
+                    # presence raw files are authoritative: a re-scan or fill pass replaces the merged row
+                    if name == "presence" and k in pos and db[pos[k]] != r:
+                        db[pos[k]] = r; upd += 1
+                    else:
+                        dup += 1
+                    continue
                 seen.add(k); add.append(r)
-        plan[name] = (dest, dh, db, add)
-        print(f"{name:9s} files={files or '-'}  +{len(add)} new, {dup} already merged")
+        plan[name] = (dest, dh, db, add, upd)
+        print(f"{name:9s} files={files or '-'}  +{len(add)} new, {upd} updated, {dup} already merged")
 
     # denominator
     den_add = []
@@ -113,7 +120,7 @@ def main():
     keys = {norm(r[1]): r for r in den}
     names = {}
     for nm in ("programs", "ic_util"):
-        dest, h, _, add = plan[nm]
+        dest, h, _, add, _u = plan[nm]
         ix = {c: i for i, c in enumerate(h)}
         for r in add:
             names.setdefault(r[ix["utility_name"]], (r[ix["state"]], r[ix["rto"]] if "rto" in ix else ""))
@@ -135,8 +142,8 @@ def main():
     if not a.apply:
         print("\ndry run — nothing written. Re-run with --apply."); return 0
 
-    for nm, (dest, h, db, add) in plan.items():
-        if not add: continue
+    for nm, (dest, h, db, add, upd) in plan.items():
+        if not add and not upd: continue
         with open(P(dest), "w", newline="", encoding="utf-8") as fh:
             w = csv.writer(fh); w.writerow(h); w.writerows(db + add)
     if den_add:
