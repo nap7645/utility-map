@@ -367,3 +367,10 @@ Relaunch each with the SAME spec; the skill's resume step continues partial file
 - Interconnection, Opus → ic_SEb_*: AL, FL (Rule 25-6.065), TN (TVA) + deltas for Alabama Power, the FL list, and NES/MLGW/KUB/EPB/Huntsville.
 - Presence fill, Sonnet: edit scan_SE1–4 in place (Unknown cells only), priorities in each scan_SE*_gaps.md; CEPCI ci_dispatch; PowerSouth co-ops; FL panhandle BA. After it finishes, presence_scan.csv must be re-synced from raw by eia_id (merge_region dedups and will NOT pick up in-place edits).
 Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live, commit.
+
+### 2026-09-26 — Southeast COMPLETE
+- Programs +98 (chunk_SE_carolinas/florida/tva), interconnection 6 states + 31 utility deltas (ic_SEa/SEb), presence fill pass.
+- CEPCI-sourced ci_dispatch=Yes on 19 SC co-ops reset to Unknown (homepage language only; no C&I program documented).
+- Drawer top redesigned: "Ways customers here can lower their bill" table (plain language, program names, source links).
+- Open: EPB interconnection terms unpublished; grid_charging_allowed "Unclear" on nearly all SE co-op/muni rows; ~103 territories nationally still fully Unknown.
+- Next per user order: Texas design decision (retail choice) → ERCOT; then West, SPP, ISO-NE.
