@@ -76,6 +76,12 @@
   .sec{margin:0 0 14px}
   .sec>h3{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#555;
     margin:0 0 6px;padding-bottom:3px;border-bottom:1px solid #eee}
+  table.pc{width:100%;border-collapse:collapse;font-size:11.5px;margin-top:4px}
+  table.pc th,table.pc td{border:1px solid #e3e3e3;padding:5px 6px;vertical-align:top;text-align:left}
+  table.pc th{background:#f6f7f9;font-weight:600}
+  table.pc th div{font-weight:400;font-size:10px;color:#666;margin-top:2px}
+  table.pc .pc-names{font-size:10.5px;color:#444;margin-top:2px}
+  .pc-foot{font-size:10.5px;color:#777;margin-top:3px}
   .chips span{display:inline-block;background:#eef2f7;border-radius:10px;padding:1px 8px;
     margin:0 4px 4px 0;font-size:11px}
   details.pg{border:1px solid #e5e5e5;border-radius:4px;margin-bottom:5px;background:#fcfcfc}
@@ -510,17 +516,30 @@ function openDrawer(p){
   let h = '';
   const pr = presenceOf(p);
   if(pr){
-    const chip = (label, v, t) => {
-      const tt = v==='Yes' && t ? ` title="Source: ${esc(t)}"` : '';
-      const mark = v==='Yes' && t ? ` <small style="opacity:.85">(${esc(t[0])})</small>` : '';
-      return `<span${tt} style="background:${PRES_COLORS[v]||'#eee'};color:${v==='Unknown'||v==='NotScanned'?'#333':'#fff'}">${label}: ${esc(v)}${mark}</span>`;
+    const FAM = {habit:['TOU-Rate','RTP-Rate','CPP-PTR','Demand-Charge','EV-Rate'],
+                 dispatch:['DR-DLC','DR-BYOT','DR-BYOD','VPP','DR-Curtailment']};
+    const segRe = {res:/Residential|\bAll\b/, ci:/C&I|\bAll\b/};
+    const TIER_TXT = {Primary:'utility’s own page', Secondary:'third-party report', Unverified:'unverified'};
+    const cell = (v, tier, src, seg, fam) => {
+      const names = u ? [...new Set(u.programs.filter(x=>FAM[fam].includes(x.cat) && segRe[seg].test(x.seg||''))
+                          .map(x=>x.n))] : [];
+      const st = v==='Yes' ? ['✔ Offered','#2e8b57'] : v==='No' ? ['✘ None found','#c0392b'] : ['? Not yet checked','#888'];
+      let body = '';
+      if(names.length) body = esc(names.slice(0,3).join(' · ')) + (names.length>3?` <i>+${names.length-3} more below</i>`:'');
+      else if(v==='Yes' && src) body = `<a href="${esc(src)}" target="_blank" rel="noopener">source ↗</a> <i>(${esc(TIER_TXT[tier]||tier)})</i>`;
+      else if(v==='No') body = '<i>rates &amp; program pages checked</i>';
+      return `<td><b style="color:${st[1]}">${st[0]}</b><div class="pc-names">${body}</div></td>`;
     };
     const oof = !IN_FOOTPRINT(pr.rto);
-    h += `<div class="sec"><h3>Has program?</h3><div class="chips">
-      ${oof?`<span style="background:#8c8c8c;color:#fff">Not in MISO/PJM — ${esc(pr.rto)}</span>`:''}
-      ${chip('Res · price signal', pr.rh, pr.rht)}${chip('Res · dispatch', pr.rd, pr.rdt)}
-      ${chip('C&I · price signal', pr.ch, pr.cht)}${chip('C&I · dispatch', pr.cd, pr.cdt)}
-      </div><div style="font-size:10.5px;color:#777;margin-top:2px">(P) primary source · (S) secondary · (U) unverified — hover a chip</div></div>`;
+    h += `<div class="sec"><h3>Ways customers here can lower their bill</h3>
+      ${oof?`<div class="warn">Outside the researched area (${esc(pr.rto)}) — data may be incomplete.</div>`:''}
+      <table class="pc"><tr><th></th>
+        <th>Time-based pricing<div>pay less for using power off-peak: time-of-use, peak-time rebates, demand charges, EV rates</div></th>
+        <th>Paid device control<div>credits for letting the utility or an aggregator adjust equipment: AC / water-heater switches, smart thermostats, batteries, curtailment</div></th></tr>
+      <tr><th>Homes</th>${cell(pr.rh,pr.rht,pr.rhs,'res','habit')}${cell(pr.rd,pr.rdt,pr.rds,'res','dispatch')}</tr>
+      <tr><th>Businesses</th>${cell(pr.ch,pr.cht,pr.chs,'ci','habit')}${cell(pr.cd,pr.cdt,pr.cds,'ci','dispatch')}</tr>
+      </table>
+      <div class="pc-foot">“None found” = the utility’s own rate and program pages were checked. Program details, dollar values and sources are listed below.</div></div>`;
   }
   if(!u){
     h += `<div class="warn">No program data matched to this utility. Either we have not researched

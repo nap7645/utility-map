@@ -139,6 +139,8 @@ def main():
     js = {r["eia_id"]: {"rh": r["res_habit"], "rd": r["res_dispatch"], "ch": r["ci_habit"], "cd": r["ci_dispatch"],
                         "rht": tier_for(r, "res_habit"), "rdt": tier_for(r, "res_dispatch"),
                         "cht": tier_for(r, "ci_habit"), "cdt": tier_for(r, "ci_dispatch"),
+                        "rhs": r["res_habit_src"], "rds": r["res_dispatch_src"],
+                        "chs": r["ci_habit_src"], "cds": r["ci_dispatch_src"],
                         "u": r["utility_name"], "rto": r["rto"], "n": r["customers"]} for r in rows_out}
     os.makedirs(P("docs", "data"), exist_ok=True)
     with open(P("docs", "data", "presence.json"), "w", encoding="utf-8") as fh:
