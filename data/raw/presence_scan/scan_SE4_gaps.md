@@ -50,6 +50,36 @@ this run.
 - **Withlacoochee River Electric Cooperative** (eia 20885) — ci_dispatch Unknown; no C&I
   interruptible/curtailable rider found in the search snippets available.
 
+## Follow-up pass (2026-09-26)
+
+- **FL panhandle co-op rto verification (priority item)** — already resolved by an earlier fill
+  pass before this one started: PowerSouth Energy Cooperative's own site (powersouth.com) lists
+  Choctawhatchee (CHELCO), West Florida, Gulf Coast, and Escambia River as member distribution
+  co-ops (confirmed directly from the homepage member-map image alt-text this pass too), so
+  rto=SERC-nonRTO is Primary-sourced for all four, not inferred from geography. No further change
+  needed; noting it here since it was this job's priority #4.
+- **Utility Board of the City of Key West / Keys Energy Services (eia 10226)** — filled from
+  mostly-Unknown: the correct own domain is **keysenergy.com**, not kwutilities.com/kwboard.org
+  (both tried in the prior pass and both wrong/empty). Own "Time-of-Use Pilot Program" page
+  confirms a voluntary Residential + Small Commercial TOU rate -> res_habit=Yes, ci_habit=Yes
+  (Small Commercial TOU tariff pages 14 and 19 linked from the same page). res_dispatch/
+  ci_dispatch remain Unknown.
+- **City of Homestead (eia 8795)** — filled from all-Unknown: the City's own "Customer Service -
+  Schedule of Rates" PDF (homesteadfl.gov DocumentCenter) shows flat residential and commercial
+  rates with a single flat KW Demand Charge, no on/off-peak differential -> res_habit=No,
+  ci_habit=No. res_dispatch/ci_dispatch remain Unknown. Caution for future passes: a search hit
+  for a "Demand Response" login portal that looked plausible for Homestead turned out on
+  inspection to belong to **Hilton Head PSD (South Carolina)** running the same third-party
+  SmartC/SEW platform template — a real name/content collision, not used for this row.
+- **City of Ocala (eia 13955)** — partially filled: ocalafl.gov's electric-utility subpages remain
+  JS-rendered/unreachable directly, but the city's own "Beat the Peak" program page (mirrored via
+  a govaccess.org URL, read via search snippet) describes a voluntary peak-conservation alert
+  program with no device control -> res_dispatch=No at Secondary confidence. res_habit/ci_habit/
+  ci_dispatch remain Unknown; a residential/commercial rate-schedule PDF was never located.
+- Still fully Unknown after this pass: City of Winter Park, City of Bartow, Utilities Commission
+  of New Smyrna Beach, City of Leesburg, City of Lake Worth Beach, Florida Keys Electric
+  Cooperative (fkec.com) — all remain JS-rendered/unreachable or budget-limited.
+
 ## Confirmed shortcuts used
 - **Seminole Electric Cooperative** runs "Cooperative Rewards" (Bring-Your-Own-Thermostat DR,
   EnergyHub-powered) across all nine of its member distribution co-ops — cited directly at

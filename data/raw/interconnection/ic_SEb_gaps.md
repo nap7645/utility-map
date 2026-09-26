@@ -24,3 +24,31 @@ Run stopped early: WebSearch hit the session limit and web_fetch/browser tools b
 - State TN written (TVA DPP PPA terms + Dec 2025 CSPP price schedule + Green Connect FAQ). Primary.
 - Utility rows: Alabama Power, Duke Energy Florida, Tampa Electric, JEA (Secondary), OUC, LCEC, WREC, SECO, Clay Electric, Lakeland Electric.
 - WebSearch hit weekly limit mid-run (after Lakeland).
+
+---
+# Resume run 2026-09-26 (#2) -- utility rows COMPLETE
+## Done this run
+- Utility rows added: City of Tallahassee Utilities (Primary); Gainesville Regional Utilities (Primary); Nashville Electric Service (Primary); Memphis Light, Gas and Water Division (Primary); Knoxville Utilities Board (Primary); Huntsville Utilities (AL, Primary).
+- State cells filled: FL standby_threshold_kw; TN ic_fast_track_kw, ic_simplified_kw, ic_timeline_days, standby_threshold_kw (all "set by each LPC" with examples from utility rows). All 3 state rows now have no blank cells.
+
+## TVA LPC decisions
+- NES, MLGW, KUB, Huntsville all deviate from the TVA state row (own export-purchase programs, fees, charges or disconnect/insurance terms) -> rows written.
+  - NES and Huntsville have their own LPC-run buyback programs (NESolar Savings/Connect; HU Solar Connect 6.427c/kWh 2026) instead of relying only on TVA DPP.
+  - MLGW: no buyback of its own, but a $14.40/mo residential Electric Service Availability charge on self-generators, and exports without DPP get nothing; application fee $250 + $5/kW.
+  - KUB: $500 application fee, no insurance, 60-day notice + KUB approval for any component change (battery retrofit).
+- EPB (Electric Power Board of Chattanooga): NO ROW. epb.com / business.epb.com publish no customer-generation interconnection terms (only Solar Share community solar, Green Switch/Flex/Invest). Only third-party sites (tennesseesolarauthority.com, doineedapermit.org) claim a $500 fee, and an old EPB snippet mentions a $150 charge from the retired Green Power Providers era -- neither verified. Whether EPB deviates from TVA rules: Unknown, not "follows unchanged".
+- Other TVA LPCs (the ~150 co-ops/munis beyond these five) not checked -- out of scope for this wave.
+
+## Open items / could not verify
+- grid_charging_allowed is Unclear for all 6 new rows: none of the utilities publishes a grid-charging rule. NES program rates apply only to solar-generated energy; Huntsville says battery-commutated systems can't run grid-parallel and batteries typically need open-transition throw-over switches (so grid-parallel battery export looks restricted).
+- Adding a battery to an existing system:
+  - Tallahassee: agreement terminates on any PV system modification, so a new agreement is required.
+  - KUB: 60-day notice and approval required.
+  - NES: written approval required for any capacity expansion.
+  - GRU: must give notice; GRU may audit.
+  - Whether a battery retrofit moves a pre-April-2024 GRU retail-NEM customer onto fuel-rate credits: Unclear.
+- GRU: the current interconnection agreement (Revised 04/08/2024) is an image-only PDF and was not read. Insurance amounts differ between the web page (T2 $1M / T3 $2M) and the 2022 agreement (T2 $300k / T3 $1M). Grandfathering of pre-April-2024 NEM customers comes only from news reports (Secondary).
+- MLGW: the insurance amount in the Interconnection and Parallel Operation Agreement was not read.
+- KUB: read the older agreement PDF; the site now links KUB_Interconnection_Agreement_2024.pdf (not read).
+- Huntsville: the Solar Connect interconnection agreement is a web form (tfaforms) and was not read; the program participation cap in MW is not published.
+- NES: current NESolar subscription against the 10 MW / 35 MW caps is not published; the NES Interconnection and Operating Agreement was not read.

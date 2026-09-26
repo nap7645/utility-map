@@ -59,3 +59,16 @@ shortcut was used for any Oglethorpe member; each was checked on its own site. T
 shortcut (rto=TVA, cite TVA EnergyRight) was used only for the three confirmed TVA
 distributors in this batch (North Georgia EMC, Blue Ridge Mountain EMC, Tri-State EMC), per
 the region plan.
+
+## Follow-up pass (2026-09-26)
+
+- **City of La Grange (eia 10585)** — filled from all-Unknown: found and read the City's own
+  Residential Electric Service and Commercial Electric Service tariff PDFs (cms3.revize.com,
+  lagrangeGA). Residential is flat $35 base + 7.000 cents/kWh (res_habit=No). Commercial is flat
+  $225 base + $4.50/kW demand charge + tiered energy (plain demand design, not shifting-oriented;
+  ci_habit=No); no interruptible/curtailable rider found in the tariff (ci_dispatch=No).
+  res_dispatch left Unknown - only an EV charger rebate was found, no thermostat/switch program.
+- **City of Griffin (eia 7679)** and **Marietta Power and Water (eia 11646)** - still fully
+  Unknown. cityofgriffin.com/utilities/electric and mariettaga.gov/575/Rates-Fees both returned
+  empty content again this pass (JS-rendered); WebSearch snippets for both only surfaced generic
+  third-party rate-estimate sites, no rate-schedule or program text from the utilities' own pages.

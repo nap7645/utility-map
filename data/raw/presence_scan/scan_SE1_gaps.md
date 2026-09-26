@@ -57,3 +57,22 @@ and/or load-management switch programs like Fayetteville, New Bern, Apex, and Gr
   page body would not render for this fetcher — worth a direct re-fetch or browser-based check).
 - Duke Energy Carolinas/Progress PowerPair capacity status (DEP reported at/near capacity in some
   secondary sources) was not independently re-verified against Duke's live enrollment tracker.
+
+## Follow-up pass (2026-09-26)
+
+- **City of Monroe (eia 12801)** — filled from all-Unknown: read the City's own Fee Schedule Ch. VI
+  Electric PDF in full. Schedule RTOU confirms a residential TOU energy rate (res_habit=Yes).
+  Schedules CTOU/LCTOU (Commercial/Large Commercial TOU) and the Coordinated Peak Demand family
+  (CP/CPNC/ICP/LICPNC, tied to NCMPA1 "Peak Management Days") confirm ci_habit=Yes. Rider LM-1 (bill
+  credit for 45kW+ standby-generator customers who run their generator during City-announced
+  load-management periods) confirms ci_dispatch=Yes. res_dispatch stayed Unknown — the WH-1 water
+  heater rebate rider references "an electric water heater load control program" but doesn't spell
+  out current active terms.
+- **City of Lexington (eia 10966)** and **City of Lumberton (eia 11318)** — still fully Unknown.
+  Lexington's electric-rates page is JS-rendered and returned nothing via direct fetch or search
+  snippets again this pass. Lumberton's own DocumentCenter rate PDFs (Residential
+  R12G123, Industrial/General G4G4CP, and a "Special Rates CP" schedule) all returned empty on
+  fetch (likely scanned/image PDFs) and no cached text was found via search; the "G4G4CP" filename
+  suggests a Coincident-Peak commercial schedule may exist, but this is not confirmed content and
+  was deliberately NOT applied as a Yes.
+

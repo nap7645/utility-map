@@ -92,3 +92,37 @@ is unconfirmed. All four program cells `Unknown`.
 Nothing was skipped outright for search-budget exhaustion — all 58 targets got at least an `rto`/
 `ownership_type` determination and an attempt at the utility's own site. The `Unknown` cells above
 are honest gaps, not guesses.
+
+## Follow-up pass (2026-09-26)
+
+- **Central Electric Power Cooperative ci_dispatch (SC, 19 co-ops)** — chased the "highest-value
+  follow-up" flagged above. Read Central's own 2023 IRP (Section 4 DSM table) in full: it describes
+  only *residential* direct-load-control (AC thermostat/switch, water-heater AMI/Wi-Fi/RF switches,
+  EV charging) plus commercial *efficiency* incentives — no C&I interruptible/curtailable program.
+  Then read SC ORS's 2018 Demand Side Management Report in full: it confirms "Central Electric
+  Power Cooperative is reporting on behalf of the 20 distribution electric cooperatives," an active
+  DR program (water heater control, AC control, voltage control, and generic "interrupted loads")
+  reducing ~125 MW winter / ~60 MW summer peak demand, running 30+ years, plus a 2016 voluntary
+  "Beat the Peak" alert program and a 2018 smart-thermostat program. The state summary table checks
+  "Interruptible Service Incentives" for the co-ops with a footnote "*Available from select
+  Co-ops" but does NOT name which co-ops, and does not describe a large-industrial/commercial
+  scope distinct from residential. Neither document supports a clean C&I-specific ci_dispatch=Yes
+  across all 19 co-ops, so **ci_dispatch was left Unknown for all 19 SC co-ops** rather than
+  guessed — this contradicts the prior fill pass's ci_dispatch=Yes-via-cepci.org-homepage-language
+  entries already in the CSV (rows 35-53), which cite only the vague phrase "facilitat[es]
+  demand-response programs" on cepci.org's homepage. Recommend a future pass reconsider downgrading
+  those to Unknown/Unverified, or find each co-op's own interruptible-rate tariff sheet directly.
+- **AL PowerSouth member co-ops** — spot-checked several via search/fetch this pass:
+  - **Pioneer Electric Cooperative (eia 30517)** — confirmed via its OWN site
+    (pioneerelectric.com/time-of-use, Greenville/Selma AL) a residential Time-of-Use rate
+    (res_habit=Yes). Note: a separate, unrelated "Pioneer Electric Cooperative" exists in
+    southwest Kansas at pioneerelectric.coop — its tariff PDF was fetched and read by mistake
+    initially, confirmed to be the wrong entity (no AL address/phone anywhere in it, "We Power
+    Southwest Kansas" tagline), and discarded before any data was applied to this row.
+  - Clarke-Washington EMC, Coosa Valley EC, Tallapoosa River EC — WebSearch only returned
+    third-party rate-estimate sites, no own-domain TOU/interruptible confirmation; left Unknown.
+  - PowerSouth's own site (powersouth.com) has no visible demand-response/load-management program
+    page in its top nav (Safety/Generation/Transmission/Renewable only) — the G&T itself does not
+    appear to run a shared DR program the way TVA does; each member co-op's own site remains the
+    only path to fill ci_habit/ci_dispatch for the remaining PowerSouth co-ops.
+
