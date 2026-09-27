@@ -512,7 +512,7 @@ function interconnectionHTML(p, u){
 
 function openDrawer(p){
   const u = progsFor(p);
-  const fmt = n => (n==null?'—':Number(n).toLocaleString());
+  const fmt = n => (n==null||n===''||Number(n)<0?'n/a':Number(n).toLocaleString());
   document.getElementById('dTitle').textContent = p.NAME||'(unnamed)';
   document.getElementById('dSub').innerHTML =
     `EIA ID <code>${esc(p.ID)}</code> · ${esc(p.STATE)} · ${fmt(p.CUSTOMERS)} customers · ${esc(rtoOf(p))} · ${esc(ownerOf(p))}`;
@@ -543,7 +543,7 @@ function openDrawer(p){
       <tr><th>Homes</th>${cell(pr.rh,pr.rht,pr.rhs,'res','habit')}${cell(pr.rd,pr.rdt,pr.rds,'res','dispatch')}</tr>
       <tr><th>Businesses</th>${cell(pr.ch,pr.cht,pr.chs,'ci','habit')}${cell(pr.cd,pr.cdt,pr.cds,'ci','dispatch')}</tr>
       </table>
-      <div class="pc-foot">“None found” = the utility’s own rate and program pages were checked. Program details, dollar values and sources are listed below.</div></div>`;
+      ${pr.nt?`<div class="pc-foot"><b>Note:</b> ${esc(pr.nt)}</div>`:''}<div class="pc-foot">“None found” = the utility’s own rate and program pages were checked. Program details, dollar values and sources are listed below.</div></div>`;
   }
   if(!u){
     h += `<div class="warn">No program data matched to this utility. Either we have not researched
