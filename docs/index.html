@@ -169,10 +169,11 @@
 const SVC = "https://services3.arcgis.com/OYP7N6mAJJCyH6hd/arcgis/rest/services/Electric_Retail_Service_Territories_HIFLD/FeatureServer/0/query";
 const STATES = ['MN','WI','IA','IL','IN','MI','MO','OH','PA','NJ','MD','DE',
                 'VA','WV','KY','DC','AR','LA','MS','ND','SD',
-                'NY','CA','NC','SC','GA','AL','FL','TN','CT','MA','RI','NH','VT','ME'];   // TX deliberately excluded: ERCOT noise
+                'NY','CA','NC','SC','GA','AL','FL','TN','CT','MA','RI','NH','VT','ME','WA','OR','ID','MT','WY','CO','UT','NV','AZ','NM'];   // TX deliberately excluded: ERCOT noise
 const OUT_FIELDS = "ID,NAME,TYPE,STATE,CUSTOMERS,CNTRL_AREA,PLAN_AREA";
 /* Footprint utilities whose HIFLD home-state is outside STATES. HIFLD STATE = HQ state. */
-const EXTRA_IDS = ['17698',    // SWEPCO (AEP) — filed under OK, serves AR/LA/TX
+const EXTRA_IDS = ['5701',     // El Paso Electric — filed under TX, serves NM too
+                   '17698',    // SWEPCO (AEP) — filed under OK, serves AR/LA/TX
                    '55937',    // Entergy Texas — the only MISO utility in TX; don't load all of ERCOT
                    '16213'];   // Rockland Electric (O&R's NJ sub, PJM) — HIFLD files it under NY
 
@@ -231,14 +232,14 @@ const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:
   'WECC-nonRTO':'#8d6e63', ERCOT:'#e6ab02', 'SERC-nonRTO':'#b08968', 'FRCC-nonRTO':'#9c8ade', 'ISO-NE':'#e6a1a1',
   'SPP (not yet researched)':'#c9b98f', 'TVA':'#b39ddb', 'AECI':'#e0c3a8',
   'LG&E/KU (non-RTO)':'#a8c6d9',
-  'WAPA / West (non-RTO)':'#c5d3a8', OTHER:'#bdbdbd'};
+  OTHER:'#bdbdbd'};
 const BA_MAP = [
   [/\bSWPP\b|SOUTHWEST POWER POOL/, 'SPP (not yet researched)'],
   [/\bTVA\b|TENNESSEE VALLEY/,         'TVA'],
   [/\bAECI\b|ASSOCIATED ELECTRIC/,     'AECI'],
   [/\bLGEE\b|LOUISVILLE GAS/,          'LG&E/KU (non-RTO)'],
   [/\bISNE\b|ISO NEW ENGLAND/,         'ISO-NE'],
-  [/\bWACM\b|\bWAUW\b|\bSPA\b|\bPSCO\b|WESTERN AREA/, 'WAPA / West (non-RTO)'],
+  [/\bWACM\b|\bWAUW\b|\bSPA\b|\bPSCO\b|WESTERN AREA|\bBPAT\b|\bPACW\b|\bPACE\b|\bAVA\b|\bIPCO\b|\bNWMT\b|\bPSEI\b|\bPGE\b|\bSCL\b|\bTPWR\b|\bGCPD\b|\bCHPD\b|\bDOPD\b|\bNEVP\b|\bAZPS\b|\bSRP\b|\bTEPC\b|\bWALC\b|\bPNM\b|\bEPE\b/, 'WECC-nonRTO'],
   [/\bFPL\b|\bFPC\b|\bFMPP\b|\bTEC\b|\bJEA\b|\bSEC\b|\bTAL\b|\bGVL\b|\bHST\b|\bNSB\b|FLORIDA/, 'FRCC-nonRTO'],
   [/\bSOCO\b|\bDUK\b|\bCPLE\b|\bCPLW\b|\bSC\b|\bSCEG\b|\bSEPA\b|\bAEC\b|\bYAD\b/, 'SERC-nonRTO'],
 ];
