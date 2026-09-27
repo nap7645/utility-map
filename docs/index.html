@@ -232,11 +232,11 @@ function progsFor(p){
    (balancing authority) values. */
 const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02', CAISO:'#c2185b',
   'WECC-nonRTO':'#8d6e63', ERCOT:'#e6ab02', 'SERC-nonRTO':'#b08968', 'FRCC-nonRTO':'#9c8ade', 'ISO-NE':'#e6a1a1',
-  'SPP (not yet researched)':'#c9b98f', 'TVA':'#b39ddb', 'AECI':'#e0c3a8',
+  SPP:'#c9b98f', 'TVA':'#b39ddb', 'AECI':'#e0c3a8',
   'LG&E/KU (non-RTO)':'#a8c6d9',
   OTHER:'#bdbdbd'};
 const BA_MAP = [
-  [/\bSWPP\b|SOUTHWEST POWER POOL/, 'SPP (not yet researched)'],
+  [/\bSWPP\b|SOUTHWEST POWER POOL/, 'SPP'],
   [/\bTVA\b|TENNESSEE VALLEY/,         'TVA'],
   [/\bAECI\b|ASSOCIATED ELECTRIC/,     'AECI'],
   [/\bLGEE\b|LOUISVILLE GAS/,          'LG&E/KU (non-RTO)'],
