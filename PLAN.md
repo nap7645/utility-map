@@ -383,3 +383,13 @@ Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live,
   - chunk_NE_wholesale (8 rows; DRR energy, reserves, DASI, regulation, Order 2222 capacity, BTM/net-metered restrictions left) — Opus
 - Then: merge_region.py --tag NEa / NEb / NE, verify, commit. Then West + NW (plans/region_west.md).
 - Flags: GMP ESS/BYOD tariffs "available until 2026-09-30 unless otherwise ordered" — recheck Oct. CT munis / BELD do NOT have ConnectedSolutions (aggregator sites misattribute). NH: grid-charging of exporting batteries banned from 2027-01-01 (HB 1718) unless utility-dispatched.
+
+### 2026-09-26 — ISO-NE COMPLETE; West in progress (HANDOFF)
+- ISO-NE done (9d7da01): interconnection 6 states + 15 deltas, wholesale 22 rows. Holyoke export row corrected (buy-all DG credit ~6.3¢, not NEM — installer-site error).
+- West: denominator merged (140 + El Paso Electric via EXTRA_IDS); presence W1 (WA/ID), W2 (OR/MT/WY), W3 (CO/UT) merged (6d7511f). User must re-run snapshot_boundaries.py (10 new states).
+- NEXT (not yet launched — classifier outage):
+  - W4 presence (NV/AZ/NM + EPE), Sonnet → scan_W4.csv, targets_W4.csv
+  - Programs Opus → chunk_W_ref.csv: Xcel Energy Colorado (Public Service Co of Colorado); Arizona Public Service Co; Salt River Project; Portland General Electric; PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT) [per-state rows]
+  - Programs Sonnet → chunk_W_pnw.csv: Puget Sound Energy; Idaho Power; Seattle City Light; Avista; NorthWestern Energy; Snohomish County PUD; Clark Public Utilities; Tacoma Power; Eugene Water & Electric Board (EWEB); Flathead Electric Cooperative; Benton PUD; Grant County PUD
+  - Programs Sonnet → chunk_W_sw.csv: Colorado Springs Utilities; CORE Electric Cooperative; United Power; Black Hills Energy (Colorado Electric); Fort Collins Utilities; Holy Cross Energy; + W4 big ones (Tucson Electric Power, NV Energy x2, PNM, El Paso Electric, UNS Electric, Trico, SSVEC) — use scan_W4 utility_name strings
+  - Interconnection Opus x3: {WA,OR,ID,MT}, {CO,WY,UT}, {AZ,NV,NM}; wholesale Sonnet (WEIM/WEIS, EDAM/Markets+ status, SPP RTO West)
