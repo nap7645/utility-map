@@ -20,3 +20,29 @@
 - Leads already noted for the utility pass: Liberty NH runs a battery program in which batteries export at the net-metering rate during monthly peak events (NH Bulletin 2026-05-20, and the Liberty battery-storage page in chunk_NE_rest.csv). Under Ch. 309, utility-controlled charging is the statutory exception to charge-only-from-solar. VEC: credits expire after 12 months, siting charge for apps from 2026-08-01 (vermontelectric.coop/net-metering). GMP BYOD tariff requires grid charging, so check how GMP reconciles this with Rule 5.137 (probably separate metering / no NM credit on battery export).
 - Helper script _neb_helpers.py in this folder (append-only csv.writer) can be reused or deleted.
 
+
+## Run status (2026-09-26, resume run): COMPLETE
+- Added the ME state row. Filled the VT Rule 5.500 blanks (ic_standard, fast-track tier, fee, study trigger, timeline, non-export). Verified the VT 2026 biennial values against the order (Case 26-0291-INV, 2026-05-29, ordering ¶1-7): $0.2071 blended; REC $0.00/-$0.04; siting Cat I/II -$0.05, III -$0.07, IV -$0.08 from 2026-08-01. The "verify" note is removed. Filled NH ic_fast_track_kw from En 1000.
+- Added 8 utility rows: Eversource NH, Liberty, NHEC, GMP, BED, VEC, CMP, Versant. **No row for Unitil Energy Systems (NH)**: its NH net-metering page follows state rules and shows no deviation (absence = state default).
+- The helper script _neb_helpers.py was already gone. Its leftover __pycache__ was removed.
+
+## NH (new finding)
+- **En 1000 exists now**: "Adopted Rules 7-17-26" (DOE DER interconnection procedures), found as a copy on Unitil's site (unitil.com/sites/default/files/2026-08/EN-1000-Rules.pdf). Contents: simplified process for inverter-based facilities <=50 kW nameplate / <=25 kW export; fast track for <=1 MW export; standard process for the rest. IEEE 1547-2018 / 1547.1-2020 and UL 1741 (2025 ed.). En 1013 limited/non-export methods. En 1004.04(d): the "addition of an energy storage device" to an existing DER goes through the utility's modification process, and exempt modifications skip the queue. NOT CONFIRMED: the effective date and whether it has been filed with OLS/posted on gc.nh.gov. The NH state row's Puc 904-908 cells (simplified <=100 kW, 10-business-day completeness, disconnect/insurance rules) may be superseded once En 1000 takes effect. Re-check next pass.
+
+## ME
+- Sources read: 35-A §3209-A (current through PL 2025 c. 430), Ch. 313 PDF on maine.gov (2019 text; the MPUC NEB page cites a later §3(J)(4), so Ch. 313 has been amended since and the amended text was NOT read), Ch. 324 as amended in Docket 2023-00103 (CMP-hosted copy; effective-date line blank in that copy), MPUC NEB page (tariff rates through CY2025), OPA LD 1777 release, CMP battery CNEBA + NEB FAQ, Versant NEB application.
+- NOT READ: the 2025-12-17 tariff-rate orders (Dockets 2019-00197 / 2022-00185) with 2026-2046 rates; the Docket 2020-00332 advisory ruling itself (its content is taken from the CMP/Versant agreement text quoting it); PL 2025 c. 430 NEB project-charge amounts; §3209-B text.
+- LD 1777 litigation: a Dec 2025 Foley Hoag post says MPUC delayed enforcing part of the statute while a federal court weighed a preliminary injunction. Outcome not checked.
+- storage_counts_toward_cap: Unclear. No rule text found.
+- Insurance tiers in Ch. 324 §15(F) skip inverter-based 1-2 MW (no amount stated in the text read).
+- Retrofit on legacy NEB: the CMP FAQ says pre-2019-00197 agreements get a 20-year term when modified. PL 2025 c. 430 §1 says amendments after 2025-06-01 cannot extend the end date. These conflict, and how CMP applies them now is Unclear.
+
+## VT utilities
+- GMP: the "Solar with Battery Storage Requirements" PDF is a CAD drawing that rendered blank in both the fetch tool and the browser. The gross-meter/battery request form fetch returned empty. So how GMP meters battery exports against NM credit (Rule 5.137 compliance for BYOD grid-charging) is Unclear. BYOD availability ends 2026-09-30; no successor tariff found.
+- BED: the posted tariff (eff 2024-08-01) still lists NM 2.6 siting adjustors (-$0.04 Cat I/II). A BED update for the 2026 biennial values was not found.
+- VEC / BED / GMP: none says whether adding a battery to a pre-2017 NM system is a Rule 5.109 "substantial change". BED's tariff only says a pre-existing system loses status if capacity rises by more than 5% or 15 kW (amended on/after 2024-03-01).
+
+## NH utilities
+- Eversource NH: the Interconnection Standards for Inverters (<=100 kVA) PDF was not read. No battery charge-source rule was found on Eversource NH pages. grid_charging = Unclear (state Ch. 309 governs from 2027).
+- NHEC: T&C Section X was read via the browser pane (the page body is JS-rendered). Storage is explicitly within "interconnection-facility", and no charge-source rule exists: Unclear. Whether Ch. 309 (RSA 362-A:9) binds NHEC's self-set tariff was not verified.
+- Liberty: the battery pilot is closed. Grid-charged utility-dispatched exports credited at the NM rate are documented (Primary page). Nothing found for customer-owned batteries.
