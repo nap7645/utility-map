@@ -40,6 +40,8 @@ def main():
                 cell = col[:-4]
                 if cell in idx and r[idx[cell]].strip() == "Yes" and not r[idx[col]].strip().startswith("http"):
                     probs.append(f"line {i}: {cell}=Yes but {col} is not a URL")
+                if cell in idx and cell.startswith(("res_", "ci_")) and r[idx[cell]].strip() not in ("Yes", "No", "Unknown", "ViaAggregator"):
+                    probs.append(f"line {i}: {cell}={r[idx[cell]]!r} not in Yes/No/Unknown")
         # tier vocabulary
         if "confidence" in idx and r[idx["confidence"]].strip().lower() not in TIERS:
             probs.append(f"line {i}: confidence={r[idx['confidence']]!r} not in Primary/Secondary/Unverified")
