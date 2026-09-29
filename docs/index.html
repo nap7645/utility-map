@@ -668,7 +668,7 @@ async function load(){
     let all=[], source='snapshot';
     try{
       statusEl.textContent = 'Loading territories…';
-      const r = await fetch('data/territories.geojson');
+      const r = await fetch('data/territories.geojson',{cache:'no-cache'});
       if(!r.ok) throw new Error('no snapshot');
       const gj = await r.json(); all = gj.features||[];
       if(gj.metadata && gj.metadata.snapshot) source = 'snapshot '+gj.metadata.snapshot;
