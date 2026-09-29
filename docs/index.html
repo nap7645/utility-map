@@ -169,7 +169,7 @@
 const SVC = "https://services3.arcgis.com/OYP7N6mAJJCyH6hd/arcgis/rest/services/Electric_Retail_Service_Territories_HIFLD/FeatureServer/0/query";
 const STATES = ['MN','WI','IA','IL','IN','MI','MO','OH','PA','NJ','MD','DE',
                 'VA','WV','KY','DC','AR','LA','MS','ND','SD',
-                'NY','CA','NC','SC','GA','AL','FL','TN','CT','MA','RI','NH','VT','ME','WA','OR','ID','MT','WY','CO','UT','NV','AZ','NM','TX','OK','KS','NE'];
+                'NY','CA','NC','SC','GA','AL','FL','TN','CT','MA','RI','NH','VT','ME','WA','OR','ID','MT','WY','CO','UT','NV','AZ','NM','TX','OK','KS','NE','AK','HI'];
 const OUT_FIELDS = "ID,NAME,TYPE,STATE,CUSTOMERS,CNTRL_AREA,PLAN_AREA";
 /* Footprint utilities whose HIFLD home-state is outside STATES. HIFLD STATE = HQ state. */
 const EXTRA_IDS = ['20404',    // AEP Texas North — filed under OK
@@ -207,7 +207,7 @@ let PRES = {};   // eia_id -> {rh,rd,ch,cd,u,rto,n}  (presence.json)
 const PRES_VIEWS = {rh:'res_habit', rd:'res_dispatch', ch:'ci_habit', cd:'ci_dispatch'};
 const PRES_COLORS = {Yes:'#2e8b57', No:'#c0392b', Unknown:'#d9d9d9', ViaAggregator:'#3a6fb0',
                      OutOfFootprint:'#8c8c8c', NotScanned:'#f2f2f2'};
-const RESEARCHED_RTOS = new Set(['MISO','PJM','MISO/PJM','NYISO','CAISO','WECC-nonRTO','AECI','TVA','SPP','SERC-nonRTO','FRCC-nonRTO','ISO-NE','ERCOT','Unknown']);
+const RESEARCHED_RTOS = new Set(['MISO','PJM','MISO/PJM','NYISO','CAISO','WECC-nonRTO','AECI','TVA','SPP','SERC-nonRTO','FRCC-nonRTO','ISO-NE','ERCOT','AK-islanded','HI-islanded','Unknown']);
 const IN_FOOTPRINT = rto => !rto || RESEARCHED_RTOS.has(rto);
 function presenceOf(p){ return PRES[String(p.ID)] || null; }
 function presenceState(p, cell){
@@ -232,7 +232,7 @@ function progsFor(p){
    (balancing authority) values. */
 const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:'#d95f02', CAISO:'#c2185b',
   'WECC-nonRTO':'#8d6e63', ERCOT:'#e6ab02', 'SERC-nonRTO':'#b08968', 'FRCC-nonRTO':'#9c8ade', 'ISO-NE':'#e6a1a1',
-  SPP:'#c9b98f', 'TVA':'#b39ddb', 'AECI':'#e0c3a8',
+  SPP:'#c9b98f', 'AK-islanded':'#7fa7c9', 'HI-islanded':'#f2b880', 'TVA':'#b39ddb', 'AECI':'#e0c3a8',
   'LG&E/KU (non-RTO)':'#a8c6d9',
   OTHER:'#bdbdbd'};
 const BA_MAP = [
@@ -252,6 +252,8 @@ function countColor(n){ return n===0?COUNT_COLORS[0]:n<3?COUNT_COLORS[1]:n<6?COU
 
 /* RTO: prefer our verified value, fall back to the HIFLD control-area heuristic */
 function rtoOf(p){
+  if(p.STATE==='AK') return 'AK-islanded';
+  if(p.STATE==='HI') return 'HI-islanded';
   const u = progsFor(p);
   if(u && u.rto && u.rto!=='Non-RTO') return u.rto;
   const pr = PRES[String(p.ID)];                       // presence-scan rto (researched per utility)
@@ -371,6 +373,16 @@ function styleFnHL(f){ return {color:'#f00',weight:2.4,fillColor:colorFor(f.prop
 
 /* ---- map ---- */
 const map = L.map('map',{preferCanvas:true}).setView([40.5,-85],5);   // canvas: thousands of polygons
+const L48 = [[24.5,-125],[49.5,-66.5]];
+/* Jump buttons: Alaska and Hawaii sit far outside the lower-48 view. */
+const Jump = L.Control.extend({options:{position:'topleft'}, onAdd(){
+  const d = L.DomUtil.create('div','leaflet-bar');
+  [['48',()=>map.fitBounds(L48)],['AK',()=>map.fitBounds([[51,-170],[71.5,-130]])],['HI',()=>map.fitBounds([[18.8,-160.3],[22.3,-154.7]])]]
+    .forEach(([t,fn])=>{ const a=L.DomUtil.create('a','',d); a.href='#'; a.textContent=t; a.title='Zoom to '+t;
+      a.style.cssText='font:600 11px sans-serif;width:30px;text-align:center';
+      L.DomEvent.on(a,'click',e=>{L.DomEvent.preventDefault(e); fn();}); });
+  L.DomEvent.disableClickPropagation(d); return d; }});
+new Jump().addTo(map);
 /* CARTO's free basemap endpoint started returning "API KEY REQUIRED" tiles (observed 2026-09-09).
    OSM standard tiles need no key; their usage policy is fine for a low-traffic internal tool.
    Swap to a keyed provider (Stadia/MapTiler) before any real volume. */
@@ -672,8 +684,7 @@ async function load(){
         offset += feats.length;
       }
     }
-    const STATE_FIX = {'20404':'TX','3278':'TX','56146':'CO'};   // HIFLD STATE = HQ state
-    all = all.filter(f=>f.properties.ID!=='219');                 // Alaska Power & Telephone, filed WA
+    const STATE_FIX = {'20404':'TX','3278':'TX','56146':'CO','219':'AK'};   // HIFLD STATE = HQ state
     all.forEach(f=>{ const s=STATE_FIX[f.properties.ID]; if(s) f.properties.STATE=s; });
     allFeatures = all;
     window.BOUNDARY_SOURCE = source;
@@ -715,7 +726,7 @@ async function load(){
       console.warn('Unmatched payload utilities — add to data/crosswalk/aliases.csv:');
       console.table(matchStats.unmatchedPayload);
     }
-    if(all.length) map.fitBounds(layer.getBounds(),{padding:[20,20]});
+    map.fitBounds(L48);
     renderLegend();
   }catch(e){ statusEl.textContent='Load failed: '+e.message; }
 }

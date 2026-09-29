@@ -18,7 +18,7 @@ eia_id,hifld_name,utility_name,hifld_state,rto,ownership_type,res_habit,res_habi
 - **utility_name** — the name the utility actually uses today (e.g. `Great Lakes Energy Cooperative`, not the HIFLD string). Needed for future joins.
 - **rto** — the wholesale market / balancing area the utility's load sits in. **Do this for every row; it is cheap and it gates everything.** Use one of:
   - RTO/ISO markets: `MISO` | `PJM` | `SPP` | `NYISO` | `ISO-NE` | `CAISO` | `ERCOT`
-  - No organized market: `TVA` | `AECI` | `SERC-nonRTO` (Southeast vertically-integrated BAs: Duke, Southern, Santee Cooper, etc.) | `FRCC-nonRTO` (Florida) | `WECC-nonRTO` (West outside CAISO: BPA/PNW, Desert SW, Rockies, CA public power in their own BAs) | `Other-nonRTO`
+  - No organized market: `TVA` | `AECI` | `SERC-nonRTO` (Southeast vertically-integrated BAs: Duke, Southern, Santee Cooper, etc.) | `FRCC-nonRTO` (Florida) | `WECC-nonRTO` (West outside CAISO: BPA/PNW, Desert SW, Rockies, CA public power in their own BAs) | `AK-islanded` | `HI-islanded` | `Other-nonRTO`
   - `Unknown` only if you genuinely cannot determine it.
   Being in a state does not put a utility in that state's RTO. A G&T's membership usually determines its distribution co-ops' market (e.g. Wolverine → MISO; Buckeye → PJM; Big Rivers → MISO; East Kentucky Power → PJM; Hoosier → MISO; Wabash Valley → MISO/PJM split; Associated Electric → AECI; Dairyland → MISO; Great River → MISO; Basin → SPP/WECC/MISO mix; Oglethorpe → SERC-nonRTO). The region plan in `plans/` lists the regional G&Ts — check it.
 - **ownership_type** — `IOU` | `Cooperative` | `Municipal` | `Federal/State`.
