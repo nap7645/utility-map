@@ -66,3 +66,6 @@ of individual-site checks per cluster, in the interest of covering all 52 target
 reasonable pass. A follow-up pass focused specifically on the ~30 unchecked co-op rate pages would
 likely convert a meaningful share of the `res_habit=Unknown` cells to `Yes`, based on the high hit
 rate (9 of 9 checked) among Hoosier/WVPA co-ops with a dedicated rates or TOU page.
+
+## fill1 pass (2026-09-29)
+Tipmont: res_habit Yes (optional TOU rate, tipmont.com). Columbus DOP: res_habit/ci_habit No (rate sheet dop-rates.pdf eff. 9/1/2026 flat/demand only). Dispatch cells left Unknown for both.
