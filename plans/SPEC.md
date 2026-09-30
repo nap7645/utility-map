@@ -1,4 +1,4 @@
-# FLOBN (For Lack Of a Better Name — the Utility Map) — build spec
+# Utility Map — build spec
 
 Status: v1, 2026-09-27. Supersedes `SPEC_OUTLINE.md`. Items marked **OPEN** still need Nathan's call;
 everything else is decided (Nathan's notes) or a default Nathan can override.
