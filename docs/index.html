@@ -695,16 +695,7 @@ async function load(){
          Utility (0 programs) is drawn over most of Long Island, hiding LIPA. findContaining collects
          every polygon under the point and prefers the one we have data for. */
       onEachFeature:(f,l)=>{ l.on('click',e=>{
-        const hits=findContaining(e.latlng.lat,e.latlng.lng);
-        const best=hits[0]||l;
-        if(highlighted) highlighted.setStyle(styleFn(highlighted.feature));
-        highlighted=best; best.setStyle(styleFnHL(best.feature));
-        openDrawer(best.feature.properties);
-        const others=hits.slice(1).map(h=>h.feature.properties.NAME);
-        if(others.length){
-          document.getElementById('dBody').insertAdjacentHTML('afterbegin',
-            `<div class="warn">Also mapped at this point: ${others.map(esc).join('; ')}. Overlapping boundaries are usually a data artifact; showing the utility we have program data for.</div>`);
-        }
+        if(!selectAt(e.latlng.lat,e.latlng.lng)){ overlap={key:'',hits:[l],i:0}; showOverlap(0); }
       }); }}).addTo(map);
 
     // match stats
@@ -783,11 +774,40 @@ function findContaining(lat,lon){
     if(!l.getBounds().contains(pt)) return;
     if(pip(lon,lat,l.feature.geometry)) hits.push(l);
   });
-  hits.sort((a,b)=>{
-    const ua=progsFor(a.feature.properties), ub=progsFor(b.feature.properties);
-    return (ub?ub.programs.length:0)-(ua?ua.programs.length:0);
-  });
+  // Order: territories we have data for first (program rows, then scan answers), then smallest first.
+  // Overlaps are mostly big polygons drawn over the real local utility (HIFLD errors, G&T footprints),
+  // so the smallest researched polygon is usually the right answer.
+  const score=l=>{ const p=l.feature.properties, u=progsFor(p), pr=PRES[String(p.ID)];
+    return u ? 2 : (pr && [pr.rh,pr.rd,pr.ch,pr.cd].some(v=>v && v!=='Unknown') ? 1 : 0); };
+  const area=l=>{ const b=l.getBounds(); return (b.getNorth()-b.getSouth())*(b.getEast()-b.getWest()); };
+  hits.sort((a,b)=> score(b)-score(a) || area(a)-area(b));
   return hits;
+}
+
+/* Overlap cycling: clicking again inside the same set of overlapping territories steps to the next. */
+let overlap = {key:'', hits:[], i:0};
+function showOverlap(i){
+  const {hits}=overlap; if(!hits.length) return;
+  overlap.i = ((i%hits.length)+hits.length)%hits.length;
+  const best=hits[overlap.i];
+  if(highlighted) highlighted.setStyle(styleFn(highlighted.feature));
+  highlighted=best; best.setStyle(styleFnHL(best.feature)); best.bringToFront && best.bringToFront();
+  openDrawer(best.feature.properties);
+  if(hits.length>1){
+    const items=hits.map((h,j)=> j===overlap.i ? `<b>${esc(h.feature.properties.NAME)}</b>`
+      : `<a href="#" onclick="showOverlap(${j});return false">${esc(h.feature.properties.NAME)}</a>`).join(' · ');
+    document.getElementById('dBody').insertAdjacentHTML('afterbegin',
+      `<div class="warn">${hits.length} territories overlap here — showing ${overlap.i+1} of ${hits.length}. Click the map again to cycle, or pick: ${items}</div>`);
+  }
+}
+window.showOverlap = showOverlap;
+function selectAt(lat,lng){
+  const hits=findContaining(lat,lng);
+  if(!hits.length) return false;
+  const key=hits.map(h=>h.feature.properties.ID).sort().join('|');
+  if(key===overlap.key){ showOverlap(overlap.i+1); }
+  else { overlap={key, hits, i:0}; showOverlap(0); }
+  return true;
 }
 
 document.getElementById('locBtn').addEventListener('click', async ()=>{
@@ -803,9 +823,7 @@ document.getElementById('locBtn').addEventListener('click', async ()=>{
 
     const hits=findContaining(lat,lon);
     if(hits.length){
-      highlighted=hits[0];
-      highlighted.setStyle(styleFnHL(highlighted.feature));
-      openDrawer(highlighted.feature.properties);
+      overlap={key:hits.map(h=>h.feature.properties.ID).sort().join('|'), hits, i:0}; showOverlap(0);
       const others = hits.slice(1).map(h=>h.feature.properties.NAME).join('\n  ');
       locResult.textContent = `${display}\n→ ${hits[0].feature.properties.NAME}` +
         (others?`\nAlso overlapping:\n  ${others}`:'');
