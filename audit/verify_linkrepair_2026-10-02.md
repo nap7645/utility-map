@@ -1,0 +1,74 @@
+# Independent verification: dead-link repair (2026-10-02)
+
+Scope: 19 distinct URL swaps (63 cell edits) from `link_changes.json`, the 4 CLAIM_CONTRADICTED findings, and a spot check of 6 of the 26 "same URL" exceptions. All fetches were WebFetch on 2026-10-02. No repo data files were edited.
+
+Verdicts: **CONFIRMED** means the page loads and supports the cited use. **WRONG_PAGE** means the page loads but does not support the claim. **INCONCLUSIVE** means the page could not be fetched or read.
+
+## 1. URL swaps (19)
+
+| # | Utility | Cell / program | New URL | Verdict | Evidence |
+|---|---|---|---|---|---|
+| 1 | Wyandotte Municipal Services (MI, 21048) | res_habit No, res_dispatch No, ci_habit Yes, ci_dispatch No | wyan.org/DocumentCenter/View/4242/Electric-Rates-Effective-October-1-2026 | CONFIRMED (all 4) | Rates are "Adopted September 15, 2026 / Effective October 1, 2026". R/R-SC have no TOU, demand or load-control provisions. LGS/PR/LP/LI have an on-peak period of 11am-11pm. There is no interruptible rider. |
+| 2 | AEP Texas Central (3278) / North (20404) | res_habit No, ci_habit No (x2) | aeptexas.com/.../AEP_TEXAS_TARIFF_Eff_Sept_29_2026v1.pdf | CONFIRMED | This is the TDU delivery tariff and it covers both the former Central and North areas. Its schedules are Residential, Secondary <=10 kW / >10 kW, Primary, Transmission and Lighting, with no TOU schedule. The extracted text gives a "Second Revision ... on or after October 1, 2024" effective line (a sheet-level date), and the filename says 9/29/2026. |
+| 3 | Salt River Project (AZ, 16572) | res_dispatch Yes | srpnet.com/.../residential-solar/battery-partner | CONFIRMED | "Your battery will be selected for discharge during conservation events". The program pays $55/avg kW, is a pilot ending 4/30/2030, and is capped at 5,000 customers. |
+| 4 | El Paso Electric NM (5701) | res_dispatch Yes | epelectric.com/new-mexico-ev/residential/charging-programs | CONFIRMED | EV Smart Rewards "pays customers for allowing the utility to schedule their charging"; the page says it is open for enrollment. |
+| 5 | Eau Claire Energy Coop (WI, 5632) | res_habit Yes | ecec.com/energy-efficiency/energy-programs/electric_vehicles | CONFIRMED (weak) | SmartCharge+ is a $35/mo flat fee covering off-peak charging from 9pm to 5am, up to 400 kWh. That is an EV off-peak plan rather than a classic TOU rate. The member rates page (ecec.com/my_account/services/rates, not fetched by me) reportedly lists Rate AT TOU, which would be the stronger citation. |
+| 6 | Eau Claire Energy Coop (5632) | res_dispatch Yes | ecec.com/energy-efficiency/energy-programs/water_heater | CONFIRMED | "Your water heater may be shut off during peak periods ... via a radio signal". The credit is $3/mo. |
+| 7 | Claverack REC (PA, 40289) | res_habit Yes | claverack.com/heating-options | CONFIRMED (narrow) | "The rate features on and off-peak hours"; members must "utilize the time-of-use (TOU) rate". The TOU is tied to ETS heating. A general residential TOU was not shown. |
+| 8 | Fort Collins Utilities (CO, 6604) | res_habit Yes | fortcollins.gov/Services/Utilities/Pay-My-Bill/TOD | CONFIRMED | Residential TOD on-peak is 2-7pm in summer and 5-9pm the rest of the year, weekdays only. The page says "off-peak prices are about 70% less". |
+| 9 | Gunnison County EA (CO, 7787) | ci_habit Yes | gcea.coop/rates/ | CONFIRMED | "6.0-6.1 COMMERCIAL TIME OF USE", Schedule GS-CTOU-41-42, effective Jan 2026. |
+| 10 | Randolph EMC (NC, 15671) | res_habit Yes | randolphemc.com/.../time-of-use-tou-rates/ | CONFIRMED | A voluntary residential TOU with a one-year trial and money-back guarantee, published 9/1/2025. |
+| 11 | Kansas City BPU (KS) | program: Net Metering / Parallel Generation policy (Export-Comp) | bpu.com/About/Policies/ElectricServicePolicies.aspx | CONFIRMED, fields mismatch | "KCBPU credits the DG Customer for each kilowatt-hour its DG Facility delivers ... using energy rate(s) set forth in this Policy" (Energy Rate Component, Rider E-1). The **12/16/2009 adoption date is not on the page**. The credit rate *is* stated (ERC / Rider E-1), so "credit rate not stated" is wrong. |
+| 12 | Central Hudson (NY) | program: Peak Perks My Thermostat Rewards (DR-BYOT) | cenhudpeakperks.com/faq/ | CONFIRMED, minor | The FAQ confirms the $100 enrollment and $50 annual reward, "half the time" compressor cycling, and 2 opt-outs. The **12-month enrollment / reward-reversal clause in event_limits is not on this page**; it may be on /byod-program/nest/, which I did not fetch. |
+| 13 | AEP Ohio (OH) | program: Interruptible Power Rider - Expanded (DR-Curtailment); also presence ci_dispatch_src | aepohio.com/.../October_2026_Ohio_Power_Tariff_Book.pdf | CONFIRMED | The table of contents lists "IRP-E Interruptible Power Rider - Expanded ... 471-1 thru 471-3". The book is Cycle 1 October 2026. The $ value is blank in the dataset and was not extractable. |
+| 14 | Berkeley Electric Coop (SC) | program: Time-of-Day Rate (Rate 80/81); presence res_habit_src | berkeleyelectric.zohodesk.com/.../time-of-day-billing | CONFIRMED (Secondary-ish) | "a voluntary program that rewards members with a lower electric rate for shifting ... away from peak hours". **"Rate 80/81" and "not available to net-metered accounts" are not shown.** The page is a co-op helpdesk subdomain, not berkeleyelectric.coop. |
+| 15 | City of Tallahassee (FL) | program: Time-of-Use Rate; presence res_habit_src | talgov.com/you/you-account-plans-nw | CONFIRMED (cell). **Program $ fields STALE** | The Nights & Weekends plan prices are standard $.13279/kWh, off-peak $.07413/kWh (7pm-7am weekdays plus weekends and holidays) and on-peak $.27664/kWh (weekdays 7am-7pm). The dataset still has $0.10267 / $0.05640 / $0.2136 with confidence Unverified. |
+| 16 | SECO Energy (FL) | program: Net Metering (avoided cost) | secoenergy.com/solar-power | CONFIRMED | Members "are credited by SECO for the power their solar systems produce at SECO's wholesale rate". The page says nothing about storage. |
+| 17 | Pepco MD | program: Energy Wise Rewards for Business; presence ci_dispatch_src | homeenergysavings.pepco.com/energywiserewards/md/business/overview | CONFIRMED, fields incomplete | The program cycles AC and heat-pump compressors. It pays $80/yr in bill credits ($16/mo on Jun-Oct bills) plus an installation credit, allows 2 overrides per year, and has about 5 events of 3-6 hours. The dataset leaves incentive_value_usd blank and calls the structure "performance-based"; the page shows a fixed credit. |
+| 18 | Duquesne Light (PA) | program: Net Metering | duquesnelight.com/.../currenttariff_107_25.pdf | CONFIRMED, field stale | The document is Supplement No. 107 to PA PUC No. 25, effective 7/1/2026, and contains "Rider No. 21 - Net Metering Service" (pp. 133-136A). **tariff_schedule still says "Tariff No. 24 Supplement 30".** The crediting text was not in the extract. |
+| 19 | Reading MLD (MA) | program: Net Metering (fuel-charge credit) | rmld.com/efficiency-electrification-programs/renewable-generation | CONFIRMED | "We only purchase this excess energy - specifically the fuel charge portion of the electricity rate - not the full retail rate." |
+
+Result: 19 of 19 load and support the cited presence cell or program existence, with 0 WRONG_PAGE and 0 INCONCLUSIVE. Five program rows have field-level mismatches: #11, #12 (minor), #14, #15, #17 and #18 (listed under Corrections).
+
+## 2. CLAIM_CONTRADICTED rulings
+
+| Item | Current value | Ruling | Evidence URL | Confidence |
+|---|---|---|---|---|
+| Union Power Cooperative (NC, 19435): res_habit | No | **Yes.** Schedule RTS (Residential Time-of-Day Service) is voluntary for residential members. On-peak is $0.521200/kWh (2-6pm Apr 16-Oct 15; 6-9am Oct 16-Apr 15), off-peak is $0.047545 and super off-peak (10pm-5am) is $0.036045. The current rates page shows the same RTS prices. The same schedule book also has **CTS (Commercial Time-of-Day) and GTS (General Time-of-Day)**, so **ci_habit (currently Unknown) should be Yes**. The scan note "flat residential energy charge ... no TOU" is false. | https://union-power.com/member-resources-services/rates (current). The old PDF https://union-power.com/wp-content/uploads/2024/02/UPC-Electric-Rate-Schedules_Effective-040124.pdf still loads and shows RTS/CTS. | High |
+| Cuivre River Electric Coop (MO, 4675): res_dispatch | Yes | **Not supported. Change to Unknown** (No would also be defensible). The cited page is advice-only ("If you have a programmable thermostat, adjust the settings..."). /rebates lists GSHP, dual-fuel, mini-split, a $50 smart-thermostat rebate, HPWH, insulation and business lighting, and says nothing about utility control, DR events, or a load-control device requirement. Neither page mentions "Take Control & Save". Two web searches found no Cuivre load-control program. Because the tariff was not checked, Unknown is the schema-safe value. | https://www.cuivre.com/rebates ; https://cuivre.com/winter-peak-when-you-use-energy-just-important-how-much | Medium (that Yes is wrong: High) |
+| NHEC Transactive Energy Rate Pilot (NH) | program_status Pilot | **Closed to new enrollment.** The page says "the TER pilot program is no longer accepting new applica[tions]". It shows no $1200/$1700/$4000 estimates and no participant count, so the incentive_value_usd figures are unsourced. | https://www.nhec.com/energy-management/transactive-energy-rate-program/ | High (status) |
+| Seattle City Light TempWise (2.0) (WA) | program_status Pilot; source_url is a dead T&C PDF | **Terminated.** The page says "TempWise Pilot has Concluded"; City Light will use the learnings "to develop an improved, full-scale version", so TempWise 2.0 is in development and not enrollable. The page gives no $ amounts (only gift cards for enrollment and per season), so "Up to $90 ... $50 rebate ... up 31%" is unsupported by the current page. If you want to track 2.0, it could be a separate `Proposed/pending` row. | https://seattle.gov/city-light/residential-services/home-energy-solutions/tempwise | High |
+
+## 3. Spot check of "same URL" exceptions (6 of 26)
+
+| URL | Loads | Claim shown | Note |
+|---|---|---|---|
+| midsouthelectric.com/.../MidSouth-Rewards-TermsandConditions.pdf | Yes | Yes. Virtual Peaker can adjust thermostat setpoints, with a $200 sign-up credit and $10/mo Jun-Sep. | Supports res_dispatch Yes (12452). |
+| oppd.com/business/business-rates/business-curtailment-program/ | Yes | Yes. The Business Curtailment Program. | Supports ci_dispatch Yes (14127). |
+| alabamapower.com/.../ic.pdf | Yes | Yes. Rider IC at $2.55 / $2.02 / $0.98 per kW-month. | Supports ci_dispatch Yes (195). |
+| centerpointenergy.com/.../smart-cycle?sa=in | Yes | Yes. $75 enrollment plus $7.50/mo Mar-Nov in SW Indiana. | **Category issue.** It is a smart-thermostat program ("thermostats temporarily raise settings up to 4 degrees"; customer can override), not a switch, but the row says "Smart Cycle Direct Load Control" / DR-DLC. |
+| rpu.org/my-account/residential-time-of-use-rate-program.php | Yes | Yes. Residential TOU, off-peak 10PM-8AM and weekends, no prices. | Matches "Not published". |
+| oru.com/.../demand-response-incentives-payment-options | Yes | Yes. CSRP $3/kW-mo, DLRP Tier 1 $3 and Tier 2 $5/kW-mo, plus $0.50/kWh performance; voluntary $1/kWh. | Matches the dataset. |
+
+All 6 load and show the claimed program. One category flag (CenterPoint Smart Cycle).
+
+## Corrections needed
+
+Presence cells: apply to `data/processed/presence.csv`, `data/processed/presence_scan.csv`, and the raw scan file (Union is in `data/raw/presence_scan/scan_SE1.csv`, Cuivre in `scan_D.csv`; confirm by eia_id).
+
+1. **eia_id 19435 (Union Power Cooperative), res_habit: No -> Yes.** Set res_habit_src = https://union-power.com/member-resources-services/rates and confidence Primary.
+2. **eia_id 19435, ci_habit: Unknown -> Yes.** Set ci_habit_src = https://union-power.com/wp-content/uploads/2024/02/UPC-Electric-Rate-Schedules_Effective-040124.pdf (Schedules CTS/GTS). Rewrite the note to drop "flat residential energy charge ... no TOU".
+3. **eia_id 4675 (Cuivre River), res_dispatch: Yes -> Unknown** and clear res_dispatch_src. Remove "Load control tied to ... Take Control & Save" from the note, since it is unsupported.
+
+`data/processed/programs.csv` (and the matching `data/raw/program_chunks/*` row):
+
+4. **City of Tallahassee / Time-of-Use Rate.** Set incentive_value_usd = "Standard $0.13279/kWh; off-peak $0.07413/kWh; on-peak $0.27664/kWh". Set peak_offpeak_rates = "on $0.27664/kWh / off $0.07413/kWh" and on_peak_window = "Weekdays 7am-7pm; off-peak 7pm-7am weekdays + all weekend/holidays". Set program_name to "Nights & Weekends (Time-of-Use) Plan" (optional) and confidence = Primary. Source: https://www.talgov.com/you/you-account-plans-nw
+5. **New Hampshire Electric Cooperative / Transactive Energy Rate Pilot Program.** Set program_status = `Closed to new enrollment`. Either clear incentive_value_usd or mark it "(not on source page)". Source: https://www.nhec.com/energy-management/transactive-energy-rate-program/
+6. **Seattle City Light / TempWise (2.0).** Set program_status = `Terminated` and source_url = https://seattle.gov/city-light/residential-services/home-energy-solutions/tempwise. Set incentive_value_usd = "gift card at enrollment + seasonal gift cards (amounts not published)", or leave it blank. Remove "TempWise" from stackable_with on the Seattle City Light Residential TOU row.
+7. **Duquesne Light Co / Net Metering.** Set tariff_schedule = "Tariff No. 25 (Supp. 107), Rider No. 21 Net Metering Service".
+8. **Kansas City BPU / Net Metering-Parallel Generation policy.** Remove "(Board policy adopted 12/16/2009)" from program_name. Set incentive_value_usd = "Each delivered kWh credited at Energy Rate Component rates (Rider E-1)". Set incentive_structure = "per-kWh credit at ERC rate".
+9. **Pepco MD / Energy Wise Rewards for Business.** Set incentive_value_usd = "$80/yr bill credits ($16/mo Jun-Oct) + installation credit" and incentive_structure = "fixed seasonal bill credit".
+10. **Berkeley Electric Cooperative / Time-of-Day Rate.** "Rate 80/81" and the net-metering exclusion are not on the source, so mark them unsourced or remove them. Downgrade confidence from Primary to Secondary (helpdesk subdomain).
+11. **CenterPoint Energy Indiana South / Smart Cycle Direct Load Control.** Set program_category DR-DLC -> DR-BYOT and program_name -> "Smart Cycle (smart thermostat DR)".
+12. (Minor) **Central Hudson / My Thermostat Rewards.** The 12-month enrollment clause in event_limits is not on /faq/. Either cite /byod-program/nest/ or drop the clause.
+13. (Optional) **Eau Claire Energy Coop (5632) res_habit_src.** Prefer https://www.ecec.com/my_account/services/rates (Rate AT TOU) over the SmartCharge+ EV page. I did not fetch it.

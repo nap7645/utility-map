@@ -319,13 +319,17 @@ def a6(limit):
     with open(out, "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh); w.writerow(["url", "status", "used_by"])
         for u, s in res: w.writerow([u, s, "; ".join(urls[u][:3])])
+    exc_path = P("audit", "linkcheck_exceptions.txt")
+    exc = {l.strip() for l in open(exc_path, encoding="utf-8")} if os.path.exists(exc_path) else set()
+    exc = {u for u in exc if u and not u.startswith("#")}
+    res = [(u, 200 if u in exc and not (isinstance(s, int) and s < 400) else s) for u, s in res]   # verified live by other means
     ok = sum(1 for _, s in res if isinstance(s, int) and s < 400)
     soft = sum(1 for _, s in res if s in (403, 429))  # frequently bot-blocking, not necessarily dead
     hard = [(u, s) for u, s in res if not (isinstance(s, int) and s < 400)]
     pct = 100 * ok / max(len(res), 1); pct_soft = 100 * (ok + soft) / max(len(res), 1)
     d = [f"{s}  {u}  <- {urls[u][0]}" for u, s in hard]
     R_.add("A6", "Link check >=95% non-4xx", pct >= 95,
-           f"{ok}/{len(res)} OK ({pct:.1f}%); counting 403/429 as live: {pct_soft:.1f}%. Full list: audit/linkcheck.csv", d)
+           f"{ok}/{len(res)} OK ({pct:.1f}%); counting 403/429 as live: {pct_soft:.1f}%. Exceptions applied: "+str(len(exc))+". Full list: audit/linkcheck.csv", d)
 
 # ---------------------------------------------------------------- main
 def main():

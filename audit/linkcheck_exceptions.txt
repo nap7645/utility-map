@@ -1,0 +1,27 @@
+# URLs that returned 404 to scripts/audit.py (urllib) but loaded via WebFetch on 2026-10-02 (likely UA/geo blocking). A6 counts them as OK.
+https://midsouthelectric.com/wp-content/uploads/2024/06/MidSouth-Rewards-TermsandConditions.pdf
+https://oppd.com/business/business-rates/business-curtailment-program/
+https://wellesleyma.gov/1539/Shave-the-Peak
+https://wrec.net/sites/default/files/documents/Net_Metering_Agreement_102219_0.pdf
+https://www.alabamapower.com/content/dam/alabama-power/pdfs-docs/business/pricing-and-rates-/rules-and-regulations/ic.pdf
+https://www.buckeyerec.coop/index.php/service-policies/
+https://www.burlingtonelectric.com/sites/default/files/Net-Metering-Tariff.pdf
+https://www.cdec.coop/rates
+https://www.centerpointenergy.com/en-us/Documents/RatesandTariffs/HoustonElectric/CNP-Retail-Del-Tariff-Book-Hou.pdf
+https://www.centerpointenergy.com/en-us/residential/save-energy-money/saving-energy/smart-cycle?sa=in
+https://www.claycountyelectric.com/pdfs/Rate%20Summary%20-%20Mar%202025.pdf
+https://www.cleco.com/docs/default-source/rates-and-fees/other-documents/2026/00-index-of-rate-schedules-and-riders-04-01-2026-clean.pdf
+https://www.cobbemc.com/sites/default/files/documents/rates/residential/2026/0126_DG_Rate_Schedule.pdf
+https://www.como.gov/utilities/water-and-light/electric/rates/industrial-electric-service-rate/
+https://www.easleyutilities.com/load-management/
+https://www.eastriver.coop/save-energy-save-money/
+https://www.firstelectric.coop/pdfs/Condensed%20Rate%20Schedule%20-%20June%202023.pdf
+https://www.kyrc.org/news/solar/fighting-for-fair-solar-compensation
+https://www.mississippipower.com/content/dam/mississippi-power/pdfs/business/pricing-and-rates/standard-application-rates/2021/LPO-TOU-15I.pdf
+https://www.nbutexas.com/wp-content/uploads/2023/04/FY-2024-Electric-Rates.pdf
+https://www.nyiso.com/documents/20142/3037451/9-Demand-Response.pdf
+https://www.oru.com/en/save-money/rebates-incentives-credits/new-york-customers/incentives-for-business-customers-ny/demand-response-incentives/demand-response-incentives-payment-options
+https://www.rpu.org/education-environment/distributed-energy-resources-solar.php
+https://www.rpu.org/my-account/residential-time-of-use-rate-program.php
+https://www.uppco.com/wp-content/uploads/2025/05/D.-Distributed-Generation-Rider_-DG-_-Apr-29-2025.pdf
+https://www.waltonemc.com/solar-power-center/rooftop-solar/selling-your-solar-power/

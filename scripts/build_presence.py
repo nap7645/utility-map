@@ -141,7 +141,7 @@ def main():
                         "cht": tier_for(r, "ci_habit"), "cdt": tier_for(r, "ci_dispatch"),
                         "rhs": r["res_habit_src"], "rds": r["res_dispatch_src"],
                         "chs": r["ci_habit_src"], "cds": r["ci_dispatch_src"],
-                        "u": r["utility_name"], "rto": r["rto"], "n": r["customers"],
+                        "u": r["utility_name"], "rto": r["rto"], "ow": r["ownership_type"], "n": r["customers"],
                         "nt": (r.get("scan_notes") or "")[:240]} for r in rows_out}
     os.makedirs(P("docs", "data"), exist_ok=True)
     with open(P("docs", "data", "presence.json"), "w", encoding="utf-8") as fh:

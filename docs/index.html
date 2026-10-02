@@ -277,6 +277,8 @@ function rtoOf(p){
 function ownerOf(p){
   const u = progsFor(p);
   if(u && u.own) return u.own;
+  const pr = PRES[String(p.ID)];                        // presence-scan ownership (researched per utility)
+  if(pr && pr.ow) return pr.ow;
   const t = (p.TYPE||'').toUpperCase().trim();
   if(t==='INVESTOR OWNED') return 'IOU';
   if(t==='COOPERATIVE') return 'Cooperative';
