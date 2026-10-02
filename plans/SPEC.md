@@ -16,12 +16,12 @@ and likely-future multipliers visible at a glance.
 - Hosting: public GitHub Pages, no client data stored.
 
 ## 2. Map layers
-| Layer | Content | Rank | State (2026-09-27) |
+| Layer | Content | Rank | State (2026-10-02) |
 |---|---|---|---|
 | Governing bodies | ISO/RTO or the non-RTO alternative (balancing authority, TVA, BPA, etc.) | 0 | **Done**: the "RTO / ISO" color-by layer (utilities colored by market). Separate outline polygons not required. |
-| Utilities | Service-territory boundaries | 0 | 48 states + DC loaded; TX, OK, KS, NE, AK, HI missing |
+| Utilities | Service-territory boundaries | 0 | **Done**: all 50 states + DC (2,914 polygons) |
 | Ownership type | IOU / municipal / co-op / federal-state | 0 | Present where researched |
-| Programs | Every program that saves customers money against the base rate: two buckets (time-based pricing, paid device control) × homes/businesses; program type, $ values, sources | 0 | Done: MISO, PJM, NYISO, CAISO/CA, Southeast, ISO-NE. Partial: West. Not started: SPP, ERCOT/TX, AK, HI. **No UI changes now.** |
+| Programs | Every program that saves customers money against the base rate: two buckets (time-based pricing, paid device control) × homes/businesses; program type, $ values, sources | 0 | **Done for all 50 states + DC** (presence for every territory >10k customers; program rows for the large utilities). 100 territories (2.1M customers, 1.4%) still all-Unknown. Interconnection/wholesale only for MISO, PJM, NYISO, CAISO, Southeast, ISO-NE. |
 | Gas ÷ electricity price ratio | Relative cost of gas vs electric heat by area | 1 | **Planning only**: data-source survey (EIA state gas/electric prices, EIA-861 utility average ¢/kWh, utility gas tariffs) |
 | Multipliers | Flag co-occurring programs that stack (derived from program rows + `stackable_with`) | 1 (planning) | Concept only |
 
@@ -50,7 +50,7 @@ file" is not done.
    state interconnection rules; wholesale (WEIM/WEIS, EDAM/Markets+, SPP RTO West status).
 3. **SPP**: KS, OK, NE + SPP portions of MO/AR/LA/TX/NM/SD/ND/MT/WY; presence, programs,
    interconnection, SPP wholesale.
-4. **Texas/ERCOT.** OPEN: how to show retail-choice areas. Default: TDU territory shows TDU
+4. **Texas/ERCOT.** DONE with the default: TDU territory shows TDU
    programs (TDU-funded load management / standard offer programs) plus the label "retail offers vary
    by provider". Munis and co-ops outside retail choice are researched normally. Non-ERCOT Texas
    (SPP, MISO, El Paso) is tagged to its market. REP offers → Rank 1.

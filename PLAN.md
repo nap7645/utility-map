@@ -393,3 +393,16 @@ Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live,
   - Programs Sonnet → chunk_W_pnw.csv: Puget Sound Energy; Idaho Power; Seattle City Light; Avista; NorthWestern Energy; Snohomish County PUD; Clark Public Utilities; Tacoma Power; Eugene Water & Electric Board (EWEB); Flathead Electric Cooperative; Benton PUD; Grant County PUD
   - Programs Sonnet → chunk_W_sw.csv: Colorado Springs Utilities; CORE Electric Cooperative; United Power; Black Hills Energy (Colorado Electric); Fort Collins Utilities; Holy Cross Energy; + W4 big ones (Tucson Electric Power, NV Energy x2, PNM, El Paso Electric, UNS Electric, Trico, SSVEC) — use scan_W4 utility_name strings
   - Interconnection Opus x3: {WA,OR,ID,MT}, {CO,WY,UT}, {AZ,NV,NM}; wholesale Sonnet (WEIM/WEIS, EDAM/Markets+ status, SPP RTO West)
+
+### 2026-09-27 → 10-02 — Rank 0 for all 50 states (spec: plans/SPEC.md)
+- Texas (ERCOT + SPP/MISO/WECC parts): 71 territories; TDUs show retail-choice rule (time-based = None found, device control = TDU load-management SOPs); ERCOT statewide rows (ADER, ERS, SB 1699, Backup Power Package). Programs: TDUs (Opus) + Austin/CPS/co-ops/SPS/Entergy TX/EPE.
+- SPP: OK/KS/NE 56 territories; programs OG&E, PSO, Evergy KS, OPPD, LES, NPPD, OEC, Edmond, OMPA, Midwest, KC BPU.
+- West finished: W4 (NV/AZ/NM) presence; programs reference IOUs (Opus: Xcel CO, APS, SRP, TEP, PGE, PacifiCorp x4 states, NV Energy x2), PNW, Mountain/SW locals.
+- AK/HI: 10 territories, 61 program rows; islanded market labels; 48/AK/HI jump buttons; map opens on lower 48.
+- Verifier agents (audit/verify_*.md) found + fixed: -999,999 customers; scan notes now shown in drawer; STATE overrides (AEP Texas -> TX, Black Hills CO -> CO, AK Power & Telephone -> AK); SWEPCO = SPP; stale title/status text; matched-count bug; boundary GeoJSON now fetched no-cache (stale snapshot was served).
+- Corrections: Southeastern Electric (OK) reset (SD co-op sources); Lubbock = retail choice; Snohomish/Avista pilots closed; Holyoke = buy-all DG credit.
+- Fill pass: all-Unknown 158 -> 100 (2.1M customers). fill1 done; fill2 (KY/MO/TX/OK/KS/NE) and fill3 (SE/West/NE) cut off by limit — relaunch with data/raw/presence_scan/fill2_targets.csv / fill3_targets.csv (edit scan files in place; merge_region.py now updates merged presence rows from raw).
+- UI: overlap cycling (researched-then-smallest first; repeat click cycles; clickable list). Renamed back to "Utility Map".
+- Validator now rejects non-Yes/No/Unknown cell values.
+- OPEN: Kiamichi Electric AECI vs WFEC; 5 eastern-MT co-ops fall back to MISO via HIFLD control-area code; AK/HI + overlap-cycling live verification pending.
+- NEXT: (1) verify AK/HI + cycling live; (2) relaunch fill2/fill3; (3) audit prep — rubric (audit/RUBRIC.md) + automated audit script; then sampled agent audit (~2.5M).
