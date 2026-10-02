@@ -76,3 +76,9 @@ and/or load-management switch programs like Fayetteville, New Bern, Apex, and Gr
   suggests a Coincident-Peak commercial schedule may exist, but this is not confirmed content and
   was deliberately NOT applied as a Yes.
 
+
+## fill3b pass (2026-10-02)
+- Lexington (10966): resolved res_habit=No (Sch R/RO), ci_dispatch=Yes (Rider LRC-1). res_dispatch still Unknown (no program page reachable).
+- Lumberton (11318): res/ci habit=No from FY25 rate schedule; ci_dispatch not shown in schedule.
+- Albemarle (232): rates page returned no schedule links/content; all cells Unknown.
+- Halifax EMC (7978): rate PDF (halifaxemc.com/wp-content/uploads/Halifax-Rates-202609-Final-Version.pdf) blocked by robots.txt; NC co-ops' Connect to Save (ncelectriccooperatives.com) lists only Carteret-Craven, Jones-Onslow, Lumbee River, South River - Halifax NOT a participant, but that is not a documented No on Halifax's own site.

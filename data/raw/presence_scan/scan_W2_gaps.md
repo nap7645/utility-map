@@ -63,3 +63,9 @@ context — several came back thinner than the rest of the cluster as a result. 
 with a fresh search budget would likely resolve most of the `Unknown` cells above, particularly
 for the PDF-only tariffs (Salem Electric, High Plains Power, Lane Electric, Douglas Electric,
 Consumers Power) which need either OCR/PDF text extraction or a direct phone/tariff-book check.
+
+## fill3b pass (2026-10-02)
+- Douglas Electric (5327): res_habit/ci_habit=No from dec.coop/rate-information (Sch 1,2,4,5,6,11-17; no TOU/off-peak). Dispatch cells not checked on program pages.
+- High Plains Power (8566): 2022 Cowboy State Daily quote from CFO says no thermostat program (exploring DR) - news, not own site, so res_dispatch left Unknown.
+- Ashland (907): commercial incentives page lists no DR/curtailment, but electric-rates PDF blocked; not enough for a No.
+- Salem, Consumers Power, Lane, Northern Wasco: rate PDFs/sites not extractable or robots-blocked.

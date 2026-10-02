@@ -55,3 +55,9 @@ Used roughly 45–55 WebSearch/fetch calls of the ~200 available; stopped short 
 budget but converged given the scope of the KY/MO co-op tail. The remaining unverified AECI
 co-ops are good candidates for a focused follow-up pass (their rate pages are typically a single
 PDF or simple HTML table, same pattern as the ones already checked here).
+
+## fill2 (2026-10-02) unverifiable
+- White River Valley EC (20574; whiteriver.org), Gascosage EC (7024), New-Mac EC (13520): rates/program pages unreadable or robots-blocked; all cells left Unknown.
+- Kirkwood Electric (10370): kirkwoodelectric.org returns 403 to fetch; res_dispatch/ci_dispatch left Unknown.
+- Frankfort Plant Board (6708): fpb.cc homepage has no program content; tariff not reachable.
+- Callaway, Farmers', West Central, SEMO, Citizens (dispatch cells), Platte-Clay (res_dispatch: Schedule DF terms unclear; ci_dispatch: LP1 references interruptible hours): not enough evidence for No; commercial rates are not published by several of these co-ops, so ci_* left Unknown.

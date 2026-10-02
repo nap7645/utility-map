@@ -72,3 +72,6 @@ the region plan.
   Unknown. cityofgriffin.com/utilities/electric and mariettaga.gov/575/Rates-Fees both returned
   empty content again this pass (JS-rendered); WebSearch snippets for both only surfaced generic
   third-party rate-estimate sites, no rate-schedule or program text from the utilities' own pages.
+
+## fill3b pass (2026-10-02)
+- Marietta, Griffin, Ocmulgee EMC: pages robots-blocked/403/JS; Ocmulgee EE page lists only conservation, commercial-peak-demand explainer, green power (no program documented). All Unknown remain.

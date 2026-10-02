@@ -126,3 +126,9 @@ are honest gaps, not guesses.
     appear to run a shared DR program the way TVA does; each member co-op's own site remains the
     only path to fill ci_habit/ci_dispatch for the remaining PowerSouth co-ops.
 
+
+## fill3b pass (2026-10-02)
+- Rock Hill (16195): ci_habit=Yes from city commercial glossary (on/off-peak periods) - Secondary; tariff sheet not read (electric-rates page 403).
+- Greer (7654): CONFLICT - EV TOU rate (standard/on-peak/off-peak, approved 2022-08-23) at greercpw.com/electric-vehicle-rate-residential-incentives-announced/ contradicts existing res_habit=No. Not changed; lead should review (EV TOU counts for res_habit per schema).
+- Easley (6709): only TOU found is on non-residential customer-owned-generation export credits (SGS CRG, 2017), not consumption TOU; cells left Unknown.
+- Orangeburg, Dothan, Opelika, Camden, Black Warrior: sites 403/JS/robots-blocked or no program pages found; Unknown cells remain.

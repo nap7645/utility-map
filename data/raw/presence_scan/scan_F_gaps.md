@@ -22,3 +22,6 @@ Researched 2026-09-24. Notes on what could not be fully verified, and why.
 
 ## Search budget
 Did not exhaust the ~200-search budget, but stopped extending per-utility research once cells were Unknown-with-explanation for the smaller municipal utilities (Newark DE, Butler NJ, Easton MD) rather than making further speculative searches.
+
+## fill3b pass (2026-10-02)
+- Newark DE, Butler NJ, Easton MD: no new evidence; Efficiency Smart Newark offering is EE rebates only (no DR/TOU). Unknown remain.

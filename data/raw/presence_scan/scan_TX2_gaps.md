@@ -49,3 +49,7 @@ Austin Energy, CPS Energy, Xcel/SPS, Sam Houston EC, Bryan (BTU), Denton (DME, p
 commercial TOU schedule seen but not the full tariff), Brownsville (BPUB), New Braunfels
 (NBU), Upshur Rural EC, Kerrville (KPUB), Greenville (GEUS — commercial TOU/Primary
 Voltage option confirmed).
+
+## fill2 (2026-10-02) unverifiable
+- Bowie-Cass (2049): res_habit/ci_habit/ci_dispatch No from published rate pages; res_dispatch Unknown.
+- Deep East Texas, San Marcos, Lyntegar, Jasper-Newton, Rusk County, Panola-Harrison (rates in PDF not located), Floresville, Weatherford, Deaf Smith, Lamb County: sites blocked, JS-only, or no tariff detail; load-shedding pages are emergency-only and not counted. All cells Unknown.

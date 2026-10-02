@@ -66,3 +66,8 @@ documents (issuu flipbooks, Google Drive PDFs not fetched). These are marked
   pumping + large-power TOU) but was not read past section 165 (of ~315+); no
   explicit curtailable/interruptible C&I rider was found in the reviewed
   portion, so ci_dispatch is marked Unknown rather than No.
+
+## fill2 (2026-10-02) unverifiable
+- Tri-County EC (Hooker, 19160), CKenergy (60482), Central Rural (3226), Cotton (4401), Southeastern OK (17603), Tahlequah PWA (18433): rate/program pages not readable (JS-only, issuu flipbook, or no tariff published); remaining cells Unknown.
+- People's EC (14775): only ci_dispatch resolved (Load Management Program, demand-charge reduction for curtailment). Other cells left Unknown.
+- Northwestern EC (13807): res_habit Yes via EV charging rate (10pm-5am); other cells Unknown (rates page JS-only).

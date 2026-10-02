@@ -57,3 +57,7 @@ below are gaps worth a follow-up pass, roughly in priority order (customer count
 Used roughly 25 WebSearch calls + ~20 direct page fetches out of the ~200-call budget — well
 within budget. The gaps above are from PDF/JS-fetch failures and pages not yet crawled, not
 budget exhaustion.
+
+## fill3b pass (2026-10-02)
+- Overton (14245): res_dispatch=No - OPD5 smart-meter FAQ states it offers no opt-in thermostat/peak demand programs and has no plans. Habit/C&I cells unresolved (rate PDF unreadable).
+- Farmington, NTUA, Mora-San Miguel, Gallup: rate pages image/PDF-only, robots-blocked, or search returned nothing; Unknown remain.

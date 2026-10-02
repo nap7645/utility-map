@@ -87,3 +87,7 @@ this run.
   (preco.coop, jea.com-style local pages). Applied as `res_dispatch=Yes` for: Withlacoochee River,
   Clay, SECO Energy, Talquin, Central Florida, Peace River, Suwannee Valley, Tri-County (FL), and
   Glades — the full nine-member roster confirmed via `seminole-electric.com/members/`.
+
+## fill3b pass (2026-10-02)
+- FKEC (6443): habit cells=No (billing page lists only Rate Codes 1-3) and res_dispatch=No (rebates only); ci_dispatch unchecked.
+- Leesburg, Winter Park, Bartow, Lake Worth Beach: rates/program pages blocked (robots/timeout/JS) or show no schedules; Winter Park only has a 2005 rate sheet. All Unknown remain.

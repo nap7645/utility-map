@@ -69,3 +69,7 @@ Used roughly 55 WebSearch calls plus ~10 direct page fetches (~65 of the ~200-ca
 reflect genuine absence of findable content on the utility's own domain via search-engine
 snippets, not budget exhaustion. A follow-up pass could improve confidence by fetching each
 small co-op's rates/programs pages directly rather than relying on search snippets.
+
+## fill2 (2026-10-02) unverifiable
+- Heart of Texas EC (55982) resolved No on all four cells from full tariff.
+- Cherokee County, Navasota Valley, Navarro County, Comanche, Cooke County, Jackson, Fayette, Big Country, Fannin: public pages fetched show no tariff detail or program (Big Country rate PDF not readable; Fayette rate schedules not published on page). Cells left Unknown rather than No.

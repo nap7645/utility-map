@@ -7,3 +7,7 @@
 - Evergy Kansas South: programs are company-wide; South-specific enrollment not separately confirmed.
 - Name collision caught: pioneerec.com = Pioneer Electric of Ohio; KS Pioneer is pioneerelectric.coop.
 - G&T memberships (Sunflower: Pioneer, Prairie Land, Victory, Western, Wheatland; KEPCo: Heartland, Rolling Hills, FreeState) from Sunflower's site / co-op pages; 4 Rivers KEPCo membership not verified.
+
+## fill2 (2026-10-02) unverifiable
+- Fremont (6779), North Platte (13725), Garden City KS (6941): city sites blocked by robots/timeouts; all cells Unknown.
+- Hastings (8245): only res_dispatch resolved (No); rates are in Municode (JS-only).

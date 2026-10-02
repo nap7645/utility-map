@@ -48,3 +48,7 @@ Program tracks — this is a good candidate for a scheduled re-scan.
 ## Confidence tier note
 32/40 rows are Primary (utility's own site/tariff is the source URL). 5 Secondary (aggregator or
 news reporting on the utility's own program). 3 Unverified (Murray, Kaysville, Bountiful — see above).
+
+## fill3b pass (2026-10-02)
+- Murray (13137): res_habit=No (rate schedule eff 2023-07-18: seasonal tiers only). Fetch summarizer described 'time-of-use'; the quoted content is seasonal (Peak Season/Off-Peak Season), so treated as non-TOU - worth a human glance. ci_habit left Unknown.
+- Bountiful: rate PDFs on bountifulutah.gov redirect to homepage; Kaysville: annual report shows no DR/TOU but no tariff read. Unknown remain.

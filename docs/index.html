@@ -121,7 +121,7 @@
 <div class="panel" id="panel">
   <div class="boxhd" data-toggle="panel"><h1 style="margin:0">Utility Program Map</h1><button class="tgl" aria-label="Collapse controls">▾</button></div>
   <div class="boxbody">
-  <div class="coverage">Researched: lower 48 + DC (AK, HI pending)</div>
+  <div class="coverage">Researched: lower 48 + DC + AK + HI</div>
 
   <div class="search">
     <input id="locInput" type="text" placeholder="Address, ZIP, or lat,lon">
@@ -218,7 +218,12 @@ function presenceState(p, cell){
 }
 let matchStats = {matched:0, total:0, unmatchedPayload:[]};
 
+/* same-name polygons in another state that must NOT take the matched utility's programs
+   (found by scripts/audit.py A4): 11788 Consumers Energy (IA co-op) vs Consumers Energy Co (MI);
+   3726 Clay Electric Coop (IL) vs Clay Electric Cooperative (FL) */
+const JOIN_EXCLUDE = new Set(['11788','3726']);
 function progsFor(p){
+  if(JOIN_EXCLUDE.has(String(p.ID))) return null;
   const u = DATA.utilities[norm(p.NAME)];
   if(!u) return null;
   const sfx = /\(([A-Z]{2})\)\s*$/.exec(p.NAME||'');   // "CITY OF CLEVELAND - (TN)" must not join Cleveland, OH
@@ -234,7 +239,7 @@ const RTO_COLORS  = {MISO:'#1b9e77', PJM:'#3a6fb0', 'MISO/PJM':'#7570b3', NYISO:
   'WECC-nonRTO':'#8d6e63', ERCOT:'#e6ab02', 'SERC-nonRTO':'#b08968', 'FRCC-nonRTO':'#9c8ade', 'ISO-NE':'#e6a1a1',
   SPP:'#c9b98f', 'AK-islanded':'#7fa7c9', 'HI-islanded':'#f2b880', 'TVA':'#b39ddb', 'AECI':'#e0c3a8',
   'LG&E/KU (non-RTO)':'#a8c6d9',
-  OTHER:'#bdbdbd'};
+  'Other-nonRTO':'#c9d1b0', OTHER:'#bdbdbd'};
 const BA_MAP = [
   [/\bSWPP\b|SOUTHWEST POWER POOL/, 'SPP'],
   [/\bTVA\b|TENNESSEE VALLEY/,         'TVA'],
@@ -257,7 +262,7 @@ function rtoOf(p){
   const u = progsFor(p);
   if(u && u.rto && u.rto!=='Non-RTO') return u.rto;
   const pr = PRES[String(p.ID)];                       // presence-scan rto (researched per utility)
-  if(pr && pr.rto && pr.rto!=='Unknown' && pr.rto!=='Other-nonRTO') return pr.rto;
+  if(pr && pr.rto && pr.rto!=='Unknown' && pr.rto!=='Other-nonRTO' && pr.rto!=='Non-RTO') return pr.rto;
   const s = ((p.CNTRL_AREA||'')+' '+(p.PLAN_AREA||'')).toUpperCase();
   if (s.includes('MIDCONTINENT') || /\bMISO\b/.test(s)) return 'MISO';
   if (s.includes('PJM')) return 'PJM';
@@ -265,6 +270,7 @@ function rtoOf(p){
   if (/\bCISO\b|CALIFORNIA INDEPENDENT/.test(s)) return 'CAISO';
   if (/\bERCO\b|ELECTRIC RELIABILITY COUNCIL/.test(s)) return 'ERCOT';
   for (const [re,label] of BA_MAP) if (re.test(s)) return label;
+  if(pr && pr.rto==='Other-nonRTO') return 'Other-nonRTO';   // researched, no organized market (e.g. Northern Maine, NBSO)
   return 'OTHER';
 }
 /* Ownership: prefer ours. HIFLD TYPE is frequently "NOT AVAILABLE". */
@@ -823,11 +829,15 @@ document.getElementById('locBtn').addEventListener('click', async ()=>{
 
     const hits=findContaining(lat,lon);
     if(hits.length){
-      overlap={key:hits.map(h=>h.feature.properties.ID).sort().join('|'), hits, i:0}; showOverlap(0);
-      const others = hits.slice(1).map(h=>h.feature.properties.NAME).join('\n  ');
-      locResult.textContent = `${display}\n→ ${hits[0].feature.properties.NAME}` +
+      const key=hits.map(h=>h.feature.properties.ID).sort().join('|');
+      if(key===overlap.key) showOverlap(overlap.i+1); else { overlap={key, hits, i:0}; showOverlap(0); }
+      const cur = hits[overlap.i];
+      const others = hits.filter(h=>h!==cur).map(h=>h.feature.properties.NAME).join('\n  ');
+      locResult.textContent = `${display}\n→ ${cur.feature.properties.NAME}` +
         (others?`\nAlso overlapping:\n  ${others}`:'');
     } else {
+      overlap={key:'', hits:[], i:0}; drawer.classList.remove('open');
+      if(highlighted){ highlighted.setStyle(styleFn(highlighted.feature)); highlighted=null; }
       locResult.textContent=`Geocoded: ${display}\n(${lat.toFixed(4)}, ${lon.toFixed(4)})\nNo territory polygon found.`;
     }
   }catch(e){ locResult.textContent='Error: '+e.message; }

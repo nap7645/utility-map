@@ -66,3 +66,6 @@ per muni/co-op. No target was skipped for budget reasons.
    against MMWEC's or NextZero's current municipality list (the list seen in search results was
    partial/inconsistent across queries — different searches surfaced different subsets of the
    ~21-24 member municipalities).
+
+## fill3b pass (2026-10-02)
+- Hudson (8973) and Wellesley (20310): not named in MMWEC/NextZero Connected Homes participant lists (publicpower.org article; MMWEC Connected Buildings release names no participants). Absence from a third-party list is not a documented No on the utility's own site; dispatch cells left Unknown.

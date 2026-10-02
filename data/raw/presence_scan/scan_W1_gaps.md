@@ -52,3 +52,7 @@ Cluster: PNW sub-market, WECC-nonRTO. All 39 targets got a row; validator passes
 ## Search budget
 Used roughly 90 WebSearch/web_fetch calls across 39 targets — well under the ~200 budget. No targets were
 left as "search budget exhausted."
+
+## fill3b pass (2026-10-02)
+- Cowlitz (4442): res_dispatch=No from residential programs hub; rate schedule PDFs (cowlitzpud.org/wp-content/uploads/Schedule-*.pdf) are blocked by robots.txt for the fetch tool, so habit and C&I cells remain Unknown. Smart-thermostat rebate form exists (rebate only).
+- Lewis PUD, Richland, Benton REA, Port Angeles, Ellensburg: rates pages JS/robots-blocked or contain only fees; Unknown remain.
