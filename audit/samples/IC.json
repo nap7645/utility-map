@@ -1,0 +1,672 @@
+{
+ "region": "IC",
+ "seed": 20261002,
+ "items": [
+  {
+   "type": "ic_state",
+   "state": "MN",
+   "applies_to": "All utilities (IOU + co-op + muni; compensation mechanics differ by ownership type)",
+   "jurisdiction_body": "Minnesota Public Utilities Commission",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail (Average Retail Utility Energy Rate, systems <40 kW AC); avoided-cost/simultaneous purchase-and-sale rate or time-of-day rate for 40kW-1MW; value-of-DER stack (VOS) optional for Xcel, mandatory for new Xcel CSG subscribers",
+   "source_url": "https://www.revisor.mn.gov/statutes/cite/216B.164"
+  },
+  {
+   "type": "ic_state",
+   "state": "MN",
+   "applies_to": "All utilities (IOU + co-op + muni; compensation mechanics differ by ownership type)",
+   "jurisdiction_body": "Minnesota Public Utilities Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.revisor.mn.gov/statutes/cite/216B.164"
+  },
+  {
+   "type": "ic_state",
+   "state": "WI",
+   "applies_to": "IOU + co-op + muni (PSC 119 interconnection technical rules apply to all DG facilities <=15 MW seeking interconnection to a utility distribution system; buyback/compensation tariffs are NOT statewide and are set per-utility)",
+   "jurisdiction_body": "Public Service Commission of Wisconsin (PSCW)",
+   "cell": "export_credit_basis",
+   "claimed": "Buy-all-sell-all / avoided-cost buyback rate for excess above NEM threshold, set per-utility tariff (not 1:1 retail beyond the NEM threshold in most IOU territories)",
+   "source_url": "https://docs.legis.wisconsin.gov/code/admin_code/psc/119"
+  },
+  {
+   "type": "ic_state",
+   "state": "WI",
+   "applies_to": "IOU + co-op + muni (PSC 119 interconnection technical rules apply to all DG facilities <=15 MW seeking interconnection to a utility distribution system; buyback/compensation tariffs are NOT statewide and are set per-utility)",
+   "jurisdiction_body": "Public Service Commission of Wisconsin (PSCW)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear (varies by utility; grid-charging treatment is not addressed uniformly in PSC 119 and is a live issue in the NEM/VOSS docket)",
+   "source_url": "https://docs.legis.wisconsin.gov/code/admin_code/psc/119"
+  },
+  {
+   "type": "ic_state",
+   "state": "IA",
+   "applies_to": "IOU only for the codified SF 583 inflow-outflow regime (applies to rate-regulated utilities i.e. MidAmerican and Alliant/Interstate Power and Light); municipal utilities and rural electric cooperatives are exempt from IUC rate/NEM jurisdiction and set their own net metering/DG policies",
+   "jurisdiction_body": "Iowa Utilities Commission (formerly Iowa Utilities Board)",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail equivalent under inflow-outflow (outflow credited at same rate as inflow/retail rate, i.e. functionally 1:1 at present)",
+   "source_url": "https://www.legis.iowa.gov/docs/aco/arc/8859B.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "IA",
+   "applies_to": "IOU only for the codified SF 583 inflow-outflow regime (applies to rate-regulated utilities i.e. MidAmerican and Alliant/Interstate Power and Light); municipal utilities and rural electric cooperatives are exempt from IUC rate/NEM jurisdiction and set their own net metering/DG policies",
+   "jurisdiction_body": "Iowa Utilities Commission (formerly Iowa Utilities Board)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.legis.iowa.gov/docs/aco/arc/8859B.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "ND",
+   "applies_to": "IOU only (net metering rule applies only to investor-owned utility customers; municipal utilities and rural electric cooperatives are NOT covered and set their own policies at their discretion)",
+   "jurisdiction_body": "North Dakota Public Service Commission",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://freeingthegrid.org/north-dakota/"
+  },
+  {
+   "type": "ic_state",
+   "state": "ND",
+   "applies_to": "IOU only (net metering rule applies only to investor-owned utility customers; municipal utilities and rural electric cooperatives are NOT covered and set their own policies at their discretion)",
+   "jurisdiction_body": "North Dakota Public Service Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://freeingthegrid.org/north-dakota/"
+  },
+  {
+   "type": "ic_state",
+   "state": "SD",
+   "applies_to": "IOU only for PUC-regulated interconnection/purchase obligation (municipal utilities and rural electric cooperatives largely outside PUC rate jurisdiction and set their own terms)",
+   "jurisdiction_body": "South Dakota Public Utilities Commission",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://puc.sd.gov/Publications/solarfaq.aspx"
+  },
+  {
+   "type": "ic_state",
+   "state": "SD",
+   "applies_to": "IOU only for PUC-regulated interconnection/purchase obligation (municipal utilities and rural electric cooperatives largely outside PUC rate jurisdiction and set their own terms)",
+   "jurisdiction_body": "South Dakota Public Utilities Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://puc.sd.gov/Publications/solarfaq.aspx"
+  },
+  {
+   "type": "ic_state",
+   "state": "MI",
+   "applies_to": "IOU + AES (member co-ops exempt but many voluntarily participate)",
+   "jurisdiction_body": "Michigan Public Service Commission",
+   "cell": "export_credit_basis",
+   "claimed": "unbundled generation rate (LMP-based for DTE; utility-specific avoided-cost/power-supply component for others)",
+   "source_url": "https://www.law.cornell.edu/regulations/michigan/Mich-Admin-Code-R-460-920"
+  },
+  {
+   "type": "ic_state",
+   "state": "MI",
+   "applies_to": "IOU + AES (member co-ops exempt but many voluntarily participate)",
+   "jurisdiction_body": "Michigan Public Service Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Yes",
+   "source_url": "https://www.law.cornell.edu/regulations/michigan/Mich-Admin-Code-R-460-920"
+  },
+  {
+   "type": "ic_state",
+   "state": "IN",
+   "applies_to": "IOU only (municipal and REMC/cooperative utilities largely exempt and set own rules)",
+   "jurisdiction_body": "Indiana Utility Regulatory Commission",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://www.law.cornell.edu/regulations/indiana/170-IAC-4-4.3-6"
+  },
+  {
+   "type": "ic_state",
+   "state": "IN",
+   "applies_to": "IOU only (municipal and REMC/cooperative utilities largely exempt and set own rules)",
+   "jurisdiction_body": "Indiana Utility Regulatory Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.law.cornell.edu/regulations/indiana/170-IAC-4-4.3-6"
+  },
+  {
+   "type": "ic_state",
+   "state": "OH",
+   "applies_to": "IOU only (municipal and cooperative/REMC utilities exempt from PUCO net metering and interconnection rules; set own policies)",
+   "jurisdiction_body": "Public Utilities Commission of Ohio (PUCO)",
+   "cell": "export_credit_basis",
+   "claimed": "unbundled generation rate",
+   "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-4901:1-22-06"
+  },
+  {
+   "type": "ic_state",
+   "state": "OH",
+   "applies_to": "IOU only (municipal and cooperative/REMC utilities exempt from PUCO net metering and interconnection rules; set own policies)",
+   "jurisdiction_body": "Public Utilities Commission of Ohio (PUCO)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://codes.ohio.gov/ohio-administrative-code/rule-4901:1-22-06"
+  },
+  {
+   "type": "ic_state",
+   "state": "KY",
+   "applies_to": "IOU only (municipal utilities and rural electric cooperatives largely self-regulated/exempt from PSC net metering rate-setting, though many voluntarily follow similar interconnection practices)",
+   "jurisdiction_body": "Kentucky Public Service Commission",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://psc.ky.gov/agencies/psc/press/092021/0924_r01.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "KY",
+   "applies_to": "IOU only (municipal utilities and rural electric cooperatives largely self-regulated/exempt from PSC net metering rate-setting, though many voluntarily follow similar interconnection practices)",
+   "jurisdiction_body": "Kentucky Public Service Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://psc.ky.gov/agencies/psc/press/092021/0924_r01.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "IL",
+   "applies_to": "IOU only (municipal utilities and electric cooperatives are exempt from ICC net metering/interconnection rules and set their own -- see CWLP delta row)",
+   "jurisdiction_body": "Illinois Commerce Commission (ICC)",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail (legacy, grandfathered only); supply-rate-only net billing (new, post-1/1/2025)",
+   "source_url": "https://www.law.cornell.edu/regulations/illinois/title-83/part-466"
+  },
+  {
+   "type": "ic_state",
+   "state": "IL",
+   "applies_to": "IOU only (municipal utilities and electric cooperatives are exempt from ICC net metering/interconnection rules and set their own -- see CWLP delta row)",
+   "jurisdiction_body": "Illinois Commerce Commission (ICC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Yes-but-not-credited",
+   "source_url": "https://www.law.cornell.edu/regulations/illinois/title-83/part-466"
+  },
+  {
+   "type": "ic_state",
+   "state": "MO",
+   "applies_to": "IOU only (rural electric cooperatives and municipal utilities are exempt from MoPSC jurisdiction and net metering mandates; some voluntarily offer similar programs -- see City Utilities of Springfield/Columbia Water and Light/Independence P&L delta rows)",
+   "jurisdiction_body": "Missouri Public Service Commission (MoPSC)",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail during the billing period; monthly excess rolls forward at the utility's Commission-approved net metering rate (set equal to the utility's cogeneration/avoided-cost rate per 20 CSR 4240-20.065(6))",
+   "source_url": "https://www.law.cornell.edu/regulations/missouri/20-CSR-4240-20-065"
+  },
+  {
+   "type": "ic_state",
+   "state": "MO",
+   "applies_to": "IOU only (rural electric cooperatives and municipal utilities are exempt from MoPSC jurisdiction and net metering mandates; some voluntarily offer similar programs -- see City Utilities of Springfield/Columbia Water and Light/Independence P&L delta rows)",
+   "jurisdiction_body": "Missouri Public Service Commission (MoPSC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.law.cornell.edu/regulations/missouri/20-CSR-4240-20-065"
+  },
+  {
+   "type": "ic_state",
+   "state": "AR",
+   "applies_to": "IOU + co-op (statutory net metering applies broadly; electric cooperatives calculate avoided cost off Arkansas Electric Cooperative Corporation wholesale power costs rather than LMP -- see Ozarks Electric Cooperative delta row)",
+   "jurisdiction_body": "Arkansas Public Service Commission (APSC)",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost (LMP-based for IOUs; cooperative wholesale-cost-based for co-ops) for Non-Legacy customers; 1:1 retail for grandfathered Legacy customers",
+   "source_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=/Assembly/Meeting+Attachments/040/26244/F.2.a+PSC+Net-Metering+Rules+and+Act+278+of+2023.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "AR",
+   "applies_to": "IOU + co-op (statutory net metering applies broadly; electric cooperatives calculate avoided cost off Arkansas Electric Cooperative Corporation wholesale power costs rather than LMP -- see Ozarks Electric Cooperative delta row)",
+   "jurisdiction_body": "Arkansas Public Service Commission (APSC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=/Assembly/Meeting+Attachments/040/26244/F.2.a+PSC+Net-Metering+Rules+and+Act+278+of+2023.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "LA",
+   "applies_to": "IOU + muni + co-op (statute requires investor-owned utilities, municipal utilities, and electric cooperatives to offer net metering; NOTE -- Louisiana has NOT adopted statewide interconnection procedures/technical standards per IREC/Vote Solar's Freeing the Grid project, so interconnection process, timelines, fees, and storage/export provisions are set utility-by-utility, not by a single LPSC rule)",
+   "jurisdiction_body": "Louisiana Public Service Commission (LPSC)",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail (legacy, pre-2020 grandfathered only); avoided cost (new, post-2019)",
+   "source_url": "https://www.lpsc.louisiana.gov/Utilities_NetMetering"
+  },
+  {
+   "type": "ic_state",
+   "state": "LA",
+   "applies_to": "IOU + muni + co-op (statute requires investor-owned utilities, municipal utilities, and electric cooperatives to offer net metering; NOTE -- Louisiana has NOT adopted statewide interconnection procedures/technical standards per IREC/Vote Solar's Freeing the Grid project, so interconnection process, timelines, fees, and storage/export provisions are set utility-by-utility, not by a single LPSC rule)",
+   "jurisdiction_body": "Louisiana Public Service Commission (LPSC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.lpsc.louisiana.gov/Utilities_NetMetering"
+  },
+  {
+   "type": "ic_state",
+   "state": "MS",
+   "applies_to": "IOU only (mandate applies to investor-owned utilities incl. Entergy Mississippi and Mississippi Power; TVA-served areas and munis/co-ops largely outside MPSC net metering jurisdiction -- see Coast Electric Power Association delta row noting ~57% of MS ratepayers, co-op/muni customers, are not bound by this rule)",
+   "jurisdiction_body": "Mississippi Public Service Commission (MPSC)",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost + Commission-approved Value-of-DG adder",
+   "source_url": "https://www.psc.ms.gov/sites/default/files/Documents/Net%20Meeting%20and%20Interconnection%20Rules.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "MS",
+   "applies_to": "IOU only (mandate applies to investor-owned utilities incl. Entergy Mississippi and Mississippi Power; TVA-served areas and munis/co-ops largely outside MPSC net metering jurisdiction -- see Coast Electric Power Association delta row noting ~57% of MS ratepayers, co-op/muni customers, are not bound by this rule)",
+   "jurisdiction_body": "Mississippi Public Service Commission (MPSC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.psc.ms.gov/sites/default/files/Documents/Net%20Meeting%20and%20Interconnection%20Rules.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "TX",
+   "applies_to": "IOU only -- and critically, only the small slice of Texas still served by a vertically-integrated, non-unbundled IOU (Entergy Texas Inc., which is in MISO, not ERCOT). CRITICAL DISTINCTION: over 75% of Texas load is in ERCOT under retail choice, where PUCT has NOT adopted net-metering rules -- solar/storage export compensation there is entirely a matter of private contract with a competitive Retail Electric Provider (\"solar buyback plan\"), not a regulatory mandate. Munis and co-ops statewide (in both ERCOT and MISO footprints) are exempt from PUCT jurisdiction entirely.",
+   "jurisdiction_body": "Public Utility Commission of Texas (PUCT) -- applies only to the small non-ERCOT, MISO-served portion of the state (Entergy Texas territory); ERCOT-area distribution utilities/co-ops/munis are NOT subject to these PUCT DG/net-metering rules",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost (Entergy Texas/MISO territory only via Schedule SQF); not applicable statewide / contract-based in ERCOT",
+   "source_url": "https://www.law.cornell.edu/regulations/texas/16-Tex-Admin-Code-SS-25-211"
+  },
+  {
+   "type": "ic_state",
+   "state": "TX",
+   "applies_to": "IOU only -- and critically, only the small slice of Texas still served by a vertically-integrated, non-unbundled IOU (Entergy Texas Inc., which is in MISO, not ERCOT). CRITICAL DISTINCTION: over 75% of Texas load is in ERCOT under retail choice, where PUCT has NOT adopted net-metering rules -- solar/storage export compensation there is entirely a matter of private contract with a competitive Retail Electric Provider (\"solar buyback plan\"), not a regulatory mandate. Munis and co-ops statewide (in both ERCOT and MISO footprints) are exempt from PUCT jurisdiction entirely.",
+   "jurisdiction_body": "Public Utility Commission of Texas (PUCT) -- applies only to the small non-ERCOT, MISO-served portion of the state (Entergy Texas territory); ERCOT-area distribution utilities/co-ops/munis are NOT subject to these PUCT DG/net-metering rules",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.law.cornell.edu/regulations/texas/16-Tex-Admin-Code-SS-25-211"
+  },
+  {
+   "type": "ic_state",
+   "state": "PA",
+   "applies_to": "IOU only (Chapter 75 binds PUC-jurisdictional EDCs; municipal and rural electric cooperatives are exempt and set own rules)",
+   "jurisdiction_body": "Pennsylvania Public Utility Commission",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail",
+   "source_url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F052%2Fchapter75%2FsubchapBtoc.html"
+  },
+  {
+   "type": "ic_state",
+   "state": "PA",
+   "applies_to": "IOU only (Chapter 75 binds PUC-jurisdictional EDCs; municipal and rural electric cooperatives are exempt and set own rules)",
+   "jurisdiction_body": "Pennsylvania Public Utility Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear -- Chapter 75 does not explicitly address grid-charging of storage independent of net metering; EDC interpretations reportedly differ and have produced PUC disputes",
+   "source_url": "https://www.pacodeandbulletin.gov/Display/pacode?file=%2Fsecure%2Fpacode%2Fdata%2F052%2Fchapter75%2FsubchapBtoc.html"
+  },
+  {
+   "type": "ic_state",
+   "state": "NJ",
+   "applies_to": "IOU only (municipal electric utilities and rural electric cooperatives -- there are very few in NJ -- generally exempt from BPU jurisdiction)",
+   "jurisdiction_body": "New Jersey Board of Public Utilities",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail",
+   "source_url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-14-8-5-2"
+  },
+  {
+   "type": "ic_state",
+   "state": "NJ",
+   "applies_to": "IOU only (municipal electric utilities and rural electric cooperatives -- there are very few in NJ -- generally exempt from BPU jurisdiction)",
+   "jurisdiction_body": "New Jersey Board of Public Utilities",
+   "cell": "grid_charging_allowed",
+   "claimed": "Yes-with-conditions -- BPU is actively expanding storage participation (Garden State Energy Storage Program, 1,000 MW transmission-scale target across Tranches 1-2 as of March 2026; SREC-II/CSI Tranche 5 storage adders for net-metered solar >5MW). No blanket prohibition on grid-charging identified, but incentive program eligibility and crediting treatment vary by program track (SuSI/SREC-II vs. GSESP) -- verify per-project before assuming arbitrage revenue stacks with incentives.",
+   "source_url": "https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-14-8-5-2"
+  },
+  {
+   "type": "ic_state",
+   "state": "DE",
+   "applies_to": "IOU + co-op + muni (statute directs PSC, municipal electric companies, AND electric cooperatives to EACH promulgate their own net-metering rules -- Delaware Electric Cooperative and the DEMEC municipal members are NOT bound by PSC-adopted rules and can and do set their own terms; see utility file for DEC/DEMEC deltas)",
+   "jurisdiction_body": "Delaware Public Service Commission",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail",
+   "source_url": "https://law.justia.com/codes/delaware/title-26/chapter-10/section-1014/"
+  },
+  {
+   "type": "ic_state",
+   "state": "DE",
+   "applies_to": "IOU + co-op + muni (statute directs PSC, municipal electric companies, AND electric cooperatives to EACH promulgate their own net-metering rules -- Delaware Electric Cooperative and the DEMEC municipal members are NOT bound by PSC-adopted rules and can and do set their own terms; see utility file for DEC/DEMEC deltas)",
+   "jurisdiction_body": "Delaware Public Service Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear -- no DE-specific grid-charging provision identified in the statute; likely governed by each utility's own interconnection tariff (see Delmarva DE / DEC / DEMEC utility rows)",
+   "source_url": "https://law.justia.com/codes/delaware/title-26/chapter-10/section-1014/"
+  },
+  {
+   "type": "ic_state",
+   "state": "MD",
+   "applies_to": "IOU + co-op (net metering/interconnection duties run to 'electric companies' which under PUA include cooperatives; municipal utilities such as Easton, Berlin, Hagerstown, Thurmont, Williamsport participate voluntarily and are shown reporting net-metering data in PSC reports, so treat as All utilities for MD net metering specifically)",
+   "jurisdiction_body": "Maryland Public Service Commission",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail",
+   "source_url": "https://psc.maryland.gov/wp-content/uploads/2025-Net-Metering-Report-4.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "MD",
+   "applies_to": "IOU + co-op (net metering/interconnection duties run to 'electric companies' which under PUA include cooperatives; municipal utilities such as Easton, Berlin, Hagerstown, Thurmont, Williamsport participate voluntarily and are shown reporting net-metering data in PSC reports, so treat as All utilities for MD net metering specifically)",
+   "jurisdiction_body": "Maryland Public Service Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Yes-with-conditions -- MD PSC has approved DRIVE Act EDSSS (Electric Distribution System Support Services) pilots at BGE, Pepco, and Potomac Edison (~185.7 MW combined target) compensating customer-sited batteries and bidirectional EVs for grid services, e.g. up to $300/kW-yr for a 10kW bidirectional resource. NOTE: brief's characterization as a 'BYOD storage tariff' program was not confirmed verbatim in sources reviewed -- the mechanism found is the DRIVE Act EDSSS pilot (Order following 7/1/2025 Commission directive), not a program literally named 'Bring Your Own Device.' Underlying substance (customer-owned storage dispatched for utility/grid value, separate from net metering) matches the brief's intent; SMECO was not identified among the filing utilities (BGE, Pepco, Delmarva, Potomac Edison only) -- flagged for verification.",
+   "source_url": "https://psc.maryland.gov/wp-content/uploads/2025-Net-Metering-Report-4.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "DC",
+   "applies_to": "IOU only (Pepco is the sole electric distribution company serving the District, so this is effectively a single-utility jurisdiction)",
+   "jurisdiction_body": "Public Service Commission of the District of Columbia (net metering/interconnection); DC Department of Energy & Environment / DOEE (SREC/RPS program)",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail",
+   "source_url": "https://openei.org/wiki/Interconnection_Standards_(District_of_Columbia)"
+  },
+  {
+   "type": "ic_state",
+   "state": "DC",
+   "applies_to": "IOU only (Pepco is the sole electric distribution company serving the District, so this is effectively a single-utility jurisdiction)",
+   "jurisdiction_body": "Public Service Commission of the District of Columbia (net metering/interconnection); DC Department of Energy & Environment / DOEE (SREC/RPS program)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear -- no DC-specific grid-charging provision for storage identified in 15 DCMR Ch. 9/40 text reviewed",
+   "source_url": "https://openei.org/wiki/Interconnection_Standards_(District_of_Columbia)"
+  },
+  {
+   "type": "ic_state",
+   "state": "VA",
+   "applies_to": "IOU + co-op + muni, but co-ops operate under separate \u00a7 56-594.01 program with their own caps, and municipal utilities (e.g. Danville, Harrisonburg, Manassas) are not subject to SCC jurisdiction and set their own net metering policy by local ordinance/utility commission action",
+   "jurisdiction_body": "Virginia State Corporation Commission (SCC)",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail volumetric credit",
+   "source_url": "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594/"
+  },
+  {
+   "type": "ic_state",
+   "state": "VA",
+   "applies_to": "IOU + co-op + muni, but co-ops operate under separate \u00a7 56-594.01 program with their own caps, and municipal utilities (e.g. Danville, Harrisonburg, Manassas) are not subject to SCC jurisdiction and set their own net metering policy by local ordinance/utility commission action",
+   "jurisdiction_body": "Virginia State Corporation Commission (SCC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Yes-but-not-credited",
+   "source_url": "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594/"
+  },
+  {
+   "type": "ic_state",
+   "state": "WV",
+   "applies_to": "All utilities offering net metering (IOU, municipal utilities serving >=30,000 customers, and rural electric cooperatives are all contemplated by statute; the PSC 'shall consider adopting' a rule extending net metering to smaller munis/co-ops, so smaller munis/co-ops may not be obligated to offer it \u2014 confirm per utility)",
+   "jurisdiction_body": "West Virginia Public Service Commission (PSC)",
+   "cell": "export_credit_basis",
+   "claimed": "Mixed \u2014 1:1 retail (legacy/grandfathered customers, all four IOUs) or fixed volumetric export rate (new customers post-reform)",
+   "source_url": "https://code.wvlegislature.gov/24-2F-8/"
+  },
+  {
+   "type": "ic_state",
+   "state": "WV",
+   "applies_to": "All utilities offering net metering (IOU, municipal utilities serving >=30,000 customers, and rural electric cooperatives are all contemplated by statute; the PSC 'shall consider adopting' a rule extending net metering to smaller munis/co-ops, so smaller munis/co-ops may not be obligated to offer it \u2014 confirm per utility)",
+   "jurisdiction_body": "West Virginia Public Service Commission (PSC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://code.wvlegislature.gov/24-2F-8/"
+  },
+  {
+   "type": "ic_state",
+   "state": "NY",
+   "applies_to": "IOU only - the six PSC-regulated electric corporations (Con Edison, Orange & Rockland, Niagara Mohawk/National Grid, NYSEG, RG&E, Central Hudson). A single statewide SIR governs all six; they do not have separate interconnection procedures, only utility-specific technical requirements documents referenced by the SIR. LIPA/PSEG Long Island (state authority), municipal electric utilities and rural co-ops are NOT PSC-jurisdictional and set their own rules - see the second NY row.",
+   "jurisdiction_body": "New York State Public Service Commission / Department of Public Service",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail volumetric netting under Phase One NEM (mass market); value-of-DER stack under VDER Value Stack - monetary crediting of net hourly injections built from LBMP energy value, capacity/ICAP value, environmental E-Value, Demand Reduction Value and Locational System Relief Value",
+   "source_url": "https://dps.ny.gov/system/files/documents/2026/05/24-e-0621-sirs-effective-february-9-2026.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "NY",
+   "applies_to": "IOU only - the six PSC-regulated electric corporations (Con Edison, Orange & Rockland, Niagara Mohawk/National Grid, NYSEG, RG&E, Central Hudson). A single statewide SIR governs all six; they do not have separate interconnection procedures, only utility-specific technical requirements documents referenced by the SIR. LIPA/PSEG Long Island (state authority), municipal electric utilities and rural co-ops are NOT PSC-jurisdictional and set their own rules - see the second NY row.",
+   "jurisdiction_body": "New York State Public Service Commission / Department of Public Service",
+   "cell": "grid_charging_allowed",
+   "claimed": "Yes - the SIR expressly studies an ESS's Maximum Import as well as Maximum Export (Sec I.E Step 2 and Glossary), so grid charging is a declared, permitted operating characteristic. On the compensation side, the Joint Utilities' Value Stack Hybrid Facilities tariff Options C and D allow the storage to be charged from both the paired generator and the utility system and allow both to inject for compensation, while Options A and B restrict charging to the paired generator so that injections keep E-Value, ICAP and Market Transition Credit eligibility. The precise crediting of grid-charged kWh under Options C/D was not verified against tariff text, and the Joint Utilities have petitioned to apply standby and buyback service to Option C/D hybrids whose NEM-eligible generator is smaller than the paired ESS (Case 15-E-0751) - disposition of that petition not verified.",
+   "source_url": "https://dps.ny.gov/system/files/documents/2026/05/24-e-0621-sirs-effective-february-9-2026.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "NY",
+   "applies_to": "LIPA / PSEG Long Island only. LIPA is a state authority and is NOT subject to the PSC's Standardized Interconnection Requirements, PSL 66-j or PSL 66-l; it runs its own SGIP.",
+   "jurisdiction_body": "Long Island Power Authority (Board of Trustees); PSEG Long Island administers as LIPA's agent",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail volumetric netting for Mass Market/Net Billing customers (net excess kWh credited at the same per-kWh rate as non-generating customers in the same rate class, Leaf 34F Sec I.C.15.h)(1)-(2)); value-of-DER stack (Value Stack/VSC) for Large Onsite/Offsite and CDG projects, structurally parallel to the PSC's VDER Value Stack.",
+   "source_url": "https://www.lipower.org/wp-content/uploads/2026/07/July-2026-SGIP-1.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "NY",
+   "applies_to": "LIPA / PSEG Long Island only. LIPA is a state authority and is NOT subject to the PSC's Standardized Interconnection Requirements, PSL 66-j or PSL 66-l; it runs its own SGIP.",
+   "jurisdiction_body": "Long Island Power Authority (Board of Trustees); PSEG Long Island administers as LIPA's agent",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear - LIPA SGIP and tariff not verified on grid charging",
+   "source_url": "https://www.lipower.org/wp-content/uploads/2026/07/July-2026-SGIP-1.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "CA",
+   "applies_to": "IOU only - PG&E, SCE, SDG&E (large IOUs). The small CPUC-jurisdictional IOUs (Bear Valley, Liberty, PacifiCorp) have separately approved NEM/NBT tariffs and their own Rule 21 versions; PacifiCorp uses its OATT process instead of Rule 21 (D.07-07-027). Publicly-owned utilities (LADWP, SMUD, IID, MID, TID and the municipal utilities) are NOT bound by Rule 21 or the NBT and set their own interconnection and export rules - see the utility file. CCA customers inside IOU territory interconnect under the IOU's Rule 21 and NBT; the CCA sets the generation portion of the export credit. Rule 21 does not cover facilities selling into FERC wholesale markets (those use the IOU WDT or the CAISO tariff).",
+   "jurisdiction_body": "California Public Utilities Commission (CPUC)",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://www.sce.com/sites/default/files/custom-files/PDF_Files/ELECTRIC_SCHEDULES_NBT.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "CA",
+   "applies_to": "IOU only - PG&E, SCE, SDG&E (large IOUs). The small CPUC-jurisdictional IOUs (Bear Valley, Liberty, PacifiCorp) have separately approved NEM/NBT tariffs and their own Rule 21 versions; PacifiCorp uses its OATT process instead of Rule 21 (D.07-07-027). Publicly-owned utilities (LADWP, SMUD, IID, MID, TID and the municipal utilities) are NOT bound by Rule 21 or the NBT and set their own interconnection and export rules - see the utility file. CCA customers inside IOU territory interconnect under the IOU's Rule 21 and NBT; the CCA sets the generation portion of the export credit. Rule 21 does not cover facilities selling into FERC wholesale markets (those use the IOU WDT or the CAISO tariff).",
+   "jurisdiction_body": "California Public Utilities Commission (CPUC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Yes-but-not-credited",
+   "source_url": "https://www.sce.com/sites/default/files/custom-files/PDF_Files/ELECTRIC_SCHEDULES_NBT.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "NC",
+   "applies_to": "IOU only (Duke Energy Carolinas, Duke Energy Progress, Dominion Energy NC). EMCs and municipals are not rate-regulated by NCUC and are not required to offer net metering; they set their own rules (see utility file)",
+   "jurisdiction_body": "North Carolina Utilities Commission (NCUC)",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://starw1.ncuc.gov/NCUC/ViewFile.aspx?Id=96a20840-2be3-4ea5-8e75-4310c40c6d96"
+  },
+  {
+   "type": "ic_state",
+   "state": "NC",
+   "applies_to": "IOU only (Duke Energy Carolinas, Duke Energy Progress, Dominion Energy NC). EMCs and municipals are not rate-regulated by NCUC and are not required to offer net metering; they set their own rules (see utility file)",
+   "jurisdiction_body": "North Carolina Utilities Commission (NCUC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "No - Riders NM, NMB and RSC (DEC and DEP) only admit 'an energy storage device configured to receive electrical charge solely from onsite renewable energy generation'. A grid-charged battery would have to sit outside net metering (non-NEM arrangement not verified)",
+   "source_url": "https://starw1.ncuc.gov/NCUC/ViewFile.aspx?Id=96a20840-2be3-4ea5-8e75-4310c40c6d96"
+  },
+  {
+   "type": "ic_state",
+   "state": "SC",
+   "applies_to": "IOU only (Duke Energy Carolinas, Duke Energy Progress, Dominion Energy South Carolina). Santee Cooper (state authority), electric cooperatives and munis are not bound by these tariffs and set their own net metering/interconnection rules (see utility file)",
+   "jurisdiction_body": "Public Service Commission of South Carolina (PSCSC); Office of Regulatory Staff",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://etariff.psc.sc.gov/Uploads/tariffFile/c8e8e7f7-11b2-4602-a23c-5be72f015998"
+  },
+  {
+   "type": "ic_state",
+   "state": "SC",
+   "applies_to": "IOU only (Duke Energy Carolinas, Duke Energy Progress, Dominion Energy South Carolina). Santee Cooper (state authority), electric cooperatives and munis are not bound by these tariffs and set their own net metering/interconnection rules (see utility file)",
+   "jurisdiction_body": "Public Service Commission of South Carolina (PSCSC); Office of Regulatory Staff",
+   "cell": "grid_charging_allowed",
+   "claimed": "No - Act 62 customer-generator definition, repeated in Duke RSC/NMT and DESC Solar Choice riders, covers only 'an energy storage device configured to receive electrical charge solely from an onsite renewable energy resource'",
+   "source_url": "https://etariff.psc.sc.gov/Uploads/tariffFile/c8e8e7f7-11b2-4602-a23c-5be72f015998"
+  },
+  {
+   "type": "ic_state",
+   "state": "GA",
+   "applies_to": "All utilities for the statutory purchase obligation ('electric service provider' includes electric utilities, EMCs and municipal utilities); PSC sets rates/interconnection terms only for Georgia Power; EMCs and munis set price and interconnection rules through their own governing bodies (46-3-56(b),(d))",
+   "jurisdiction_body": "Georgia Public Service Commission (Georgia Power); EMC and municipal governing bodies for their own systems",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://www.georgiapower.com/content/dam/georgia-power/pdfs/residential-pdfs/residential-rate-plans/RNR-11.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "GA",
+   "applies_to": "All utilities for the statutory purchase obligation ('electric service provider' includes electric utilities, EMCs and municipal utilities); PSC sets rates/interconnection terms only for Georgia Power; EMCs and munis set price and interconnection rules through their own governing bodies (46-3-56(b),(d))",
+   "jurisdiction_body": "Georgia Public Service Commission (Georgia Power); EMC and municipal governing bodies for their own systems",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear - RNR-11 credits any metered 'Excess Energy' delivered to the grid and says nothing about battery charging source; GPC summary describes batteries for 'self-consumption only' use; no rule found that bars or permits crediting of grid-charged exports",
+   "source_url": "https://www.georgiapower.com/content/dam/georgia-power/pdfs/residential-pdfs/residential-rate-plans/RNR-11.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "FL",
+   "applies_to": "IOU only (FPL, Duke Energy Florida, Tampa Electric, FPUC). Municipals and co-ops are exempt from 25-6.065 but s. 366.91(6) F.S. requires each muni and retail co-op to adopt its own standardized interconnection agreement and net metering program (governing body sets terms; annual report to FPSC) -- see utility file deltas",
+   "jurisdiction_body": "Florida Public Service Commission (FPSC)",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail (monthly kWh carry-forward); annual cash-out at avoided cost",
+   "source_url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-25-6-065"
+  },
+  {
+   "type": "ic_state",
+   "state": "FL",
+   "applies_to": "IOU only (FPL, Duke Energy Florida, Tampa Electric, FPUC). Municipals and co-ops are exempt from 25-6.065 but s. 366.91(6) F.S. requires each muni and retail co-op to adopt its own standardized interconnection agreement and net metering program (governing body sets terms; annual report to FPSC) -- see utility file deltas",
+   "jurisdiction_body": "Florida Public Service Commission (FPSC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-25-6-065"
+  },
+  {
+   "type": "ic_state",
+   "state": "AL",
+   "applies_to": "No statewide rule. APSC regulates Alabama Power only among retail utilities with DG tariffs; TVA-served munis/co-ops in north AL follow TVA (see TN row / Huntsville Utilities delta); non-TVA co-ops (PowerSouth members) and munis set their own terms",
+   "jurisdiction_body": "Alabama Public Service Commission (APSC)",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://www.alabamapower.com/content/dam/alabama-power/pdfs-docs/Rates/RGB.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "AL",
+   "applies_to": "No statewide rule. APSC regulates Alabama Power only among retail utilities with DG tariffs; TVA-served munis/co-ops in north AL follow TVA (see TN row / Huntsville Utilities delta); non-TVA co-ops (PowerSouth members) and munis set their own terms",
+   "jurisdiction_body": "Alabama Public Service Commission (APSC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.alabamapower.com/content/dam/alabama-power/pdfs-docs/Rates/RGB.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "TN",
+   "applies_to": "TVA-served LPCs (munis and co-ops = essentially all of TN). Each LPC sets its own interconnection agreement, fees, insurance and disconnect rules; TVA sets the export purchase terms (DPP). Kingsport Power (AEP, TPUC-regulated) not covered here",
+   "jurisdiction_body": "Tennessee Valley Authority (federal; sets terms for its local power companies via wholesale power contracts). Tennessee Public Utility Commission has no jurisdiction over TVA LPCs",
+   "cell": "export_credit_basis",
+   "claimed": "avoided cost",
+   "source_url": "https://www.tva.com/docs/default-source/1-float/dpp_terms_and_conditions2d444866-fc37-4652-b6c9-e4c9be094af4.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "TN",
+   "applies_to": "TVA-served LPCs (munis and co-ops = essentially all of TN). Each LPC sets its own interconnection agreement, fees, insurance and disconnect rules; TVA sets the export purchase terms (DPP). Kingsport Power (AEP, TPUC-regulated) not covered here",
+   "jurisdiction_body": "Tennessee Valley Authority (federal; sets terms for its local power companies via wholesale power contracts). Tennessee Public Utility Commission has no jurisdiction over TVA LPCs",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear",
+   "source_url": "https://www.tva.com/docs/default-source/1-float/dpp_terms_and_conditions2d444866-fc37-4652-b6c9-e4c9be094af4.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "MA",
+   "applies_to": "IOU only - NSTAR Electric (Eversource), Massachusetts Electric and Nantucket Electric (National Grid), Fitchburg Gas & Electric (Unitil). The 40+ municipal light plants (MLPs) are not DPU-jurisdictional for net metering or DG interconnection and set their own policies (see utility file).",
+   "jurisdiction_body": "Massachusetts Department of Public Utilities (DPU)",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail (standard credits: basic service + distribution + transmission + transition per-kWh; excludes customer charge, SBC/EE, demand charges); 'market net metering credits' for New Solar Class I >25-60 kW, Class II, Class III and cap-exempt on-site-load facilities = 60% of net excess generation (100% for municipal/governmental hosts) per Appendix A of each EDC net metering tariff",
+   "source_url": "https://www.mass.gov/info-details/net-metering-guide"
+  },
+  {
+   "type": "ic_state",
+   "state": "MA",
+   "applies_to": "IOU only - NSTAR Electric (Eversource), Massachusetts Electric and Nantucket Electric (National Grid), Fitchburg Gas & Electric (Unitil). The 40+ municipal light plants (MLPs) are not DPU-jurisdictional for net metering or DG interconnection and set their own policies (see utility file).",
+   "jurisdiction_body": "Massachusetts Department of Public Utilities (DPU)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Requires non-export - per DPU summary of D.P.U. 17-146-A (mass.gov 'Energy storage and net metering'): ESS that can export and charges from both the NM facility and the grid is NOT eligible to net meter; ESS that cannot export may charge from facility and grid and remain eligible; exporting ESS must charge only from the NM facility. Non-export configurations may inadvertently export max 30 seconds and such export is not compensated. Ineligible paired systems may still interconnect as a Qualifying Facility. Existing or new NM facilities adding ESS must report it to the EDC and the System of Assurance Administrator; a non-conforming paired system loses NM eligibility and forfeits its cap allocation. Source: https://www.mass.gov/info-details/energy-storage-and-net-metering",
+   "source_url": "https://www.mass.gov/info-details/net-metering-guide"
+  },
+  {
+   "type": "ic_state",
+   "state": "RI",
+   "applies_to": "IOU (Rhode Island Energy / Narragansett Electric). Block Island Utility District and Pascoag Utility District are excluded from the statutory EDC definition and must offer net metering under their own RIPUC-approved tariffs (R.I. Gen. Laws 39-26.4-2(3)).",
+   "jurisdiction_body": "Rhode Island Public Utilities Commission (RIPUC)",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail up to 100% of billing-period consumption (renewable net-metering credit = last resort service + distribution + transmission + transition per-kWh charges; 80% of that for post-2023-04-15 capped projects). Excess >100%: 'excess renewable net-metering credit' at the ISO-NE energy clearing price per the current statute (OER page still describes it as the last resort service rate - statute text controls); for systems >25 kW, excess credit limited to 100-125% of usage; <=25 kW all excess eligible.",
+   "source_url": "https://webserver.rilegislature.gov/statutes/title39/39-26.4/39-26.4-2.htm"
+  },
+  {
+   "type": "ic_state",
+   "state": "RI",
+   "applies_to": "IOU (Rhode Island Energy / Narragansett Electric). Block Island Utility District and Pascoag Utility District are excluded from the statutory EDC definition and must offer net metering under their own RIPUC-approved tariffs (R.I. Gen. Laws 39-26.4-2(3)).",
+   "jurisdiction_body": "Rhode Island Public Utilities Commission (RIPUC)",
+   "cell": "grid_charging_allowed",
+   "claimed": "No - for net-metered paired systems, the battery must charge only from the solar/renewable generator; RIPUC Docket 4982 (2019-12-17) gave RI Energy the right to inspect to ensure 'no charging of the storage unit from the electric grid'. Export of battery discharge is allowed (Order 22991 struck the no-discharge condition). Grid-charged storage would fall outside net metering (treatment as standalone storage pending Docket 24-34-EL).",
+   "source_url": "https://webserver.rilegislature.gov/statutes/title39/39-26.4/39-26.4-2.htm"
+  },
+  {
+   "type": "ic_state",
+   "state": "CT",
+   "applies_to": "IOU only (Connecticut Light & Power d/b/a Eversource, United Illuminating). Municipal utilities (e.g., Wallingford, Norwich, Bozrah, Groton, Norwalk, Lebanon territories) are outside these EDC guidelines/programs and set their own rules.",
+   "jurisdiction_body": "Connecticut Public Utilities Regulatory Authority (PURA)",
+   "cell": "export_credit_basis",
+   "claimed": "Netting: 1:1 retail (monthly net excess at retail rate incl. standard-service supply) less Solar Energy Adjustment on total production for 2026 enrollees. Buy-All: fixed $/kWh for all production (includes RECs).",
+   "source_url": "https://portal.ct.gov/-/media/PURA/Residential-Renewable-Energy-Solutions-Program-Manual.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "CT",
+   "applies_to": "IOU only (Connecticut Light & Power d/b/a Eversource, United Illuminating). Municipal utilities (e.g., Wallingford, Norwich, Bozrah, Groton, Norwalk, Lebanon territories) are outside these EDC guidelines/programs and set their own rules.",
+   "jurisdiction_body": "Connecticut Public Utilities Regulatory Authority (PURA)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Unclear - no CT rule located that prohibits or permits grid charging of a battery paired with a Netting or legacy NM system; the RRES manual and FAQ are silent. Netting credits are computed on the net of the bi-directional revenue meter, and the REC incentive on a separate PV production meter, so grid-charged discharge would net against the revenue meter; no explicit crediting rule found. ESS program (Active Dispatch) compensation is performance-based and does not address charging source in the text read.",
+   "source_url": "https://portal.ct.gov/-/media/PURA/Residential-Renewable-Energy-Solutions-Program-Manual.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "NH",
+   "applies_to": "IOU + NHEC: the three PUC-regulated IOUs (Eversource/PSNH, Unitil, Liberty) plus New Hampshire Electric Cooperative (deregulated co-op; En 900 applies to it for standard-tariff customer-generators up to 3.16 MW and NHEC otherwise sets its own net-metering tariff). Municipal utilities (e.g. Littleton, Wolfeboro, Woodsville, Ashland, New Hampton) are not covered and set their own terms.",
+   "jurisdiction_body": "New Hampshire Department of Energy (net metering rules En 900; interconnection rules to move to En 1000) and New Hampshire Public Utilities Commission (NEM tariffs/compensation, Puc 900 interconnection provisions)",
+   "cell": "export_credit_basis",
+   "claimed": "unbundled generation rate",
+   "source_url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=2343&txtFormat=html"
+  },
+  {
+   "type": "ic_state",
+   "state": "NH",
+   "applies_to": "IOU + NHEC: the three PUC-regulated IOUs (Eversource/PSNH, Unitil, Liberty) plus New Hampshire Electric Cooperative (deregulated co-op; En 900 applies to it for standard-tariff customer-generators up to 3.16 MW and NHEC otherwise sets its own net-metering tariff). Municipal utilities (e.g. Littleton, Wolfeboro, Woodsville, Ashland, New Hampton) are not covered and set their own terms.",
+   "jurisdiction_body": "New Hampshire Department of Energy (net metering rules En 900; interconnection rules to move to En 1000) and New Hampshire Public Utilities Commission (NEM tariffs/compensation, Puc 900 interconnection provisions)",
+   "cell": "grid_charging_allowed",
+   "claimed": "Requires non-export (from 2027-01-01): Laws 2026 Ch. 309 (HB 1718) amends RSA 362-A:1-a II-b and adds RSA 362-A:9 XXIV/XXV. Storage configured to export must charge only from the on-site net-metered generation, unless charging is controlled by an entity other than the customer-generator (e.g. utility/aggregator dispatch) or the PUC authorizes otherwise in an adjudicated proceeding. PUC to set compensation terms for storage exports. Before 2027-01-01 there is no explicit statewide rule: Unclear.",
+   "source_url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=2343&txtFormat=html"
+  },
+  {
+   "type": "ic_state",
+   "state": "VT",
+   "applies_to": "All utilities: Rule 5.100 applies to every Vermont electric company, including municipals (e.g. Burlington Electric) and co-ops (VEC, WEC). Each company files a compliance net-metering tariff under Rule 5.134/5.128.",
+   "jurisdiction_body": "Vermont Public Utility Commission",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail",
+   "source_url": "https://puc.vermont.gov/sites/psbnew/files/documents/5100-net-metering-effective-3-1-2024.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "VT",
+   "applies_to": "All utilities: Rule 5.100 applies to every Vermont electric company, including municipals (e.g. Burlington Electric) and co-ops (VEC, WEC). Each company files a compliance net-metering tariff under Rule 5.134/5.128.",
+   "jurisdiction_body": "Vermont Public Utility Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Yes-but-not-credited: Rule 5.137 requires storage connected to a net-metering system to be configured so the customer cannot receive net-metering compensation for electricity drawn from any source other than the net-metering system. Utilities may not interconnect storage in a way that lets non-NM electricity earn NM credit. So grid charging is not prohibited, but grid-charged energy that is exported earns no net-metering credit. 5.137 also applies to pre-existing (pre-2017) systems.",
+   "source_url": "https://puc.vermont.gov/sites/psbnew/files/documents/5100-net-metering-effective-3-1-2024.pdf"
+  },
+  {
+   "type": "ic_state",
+   "state": "ME",
+   "applies_to": "All utilities: Ch. 313 and Ch. 324 apply to every T&D utility (IOUs CMP and Versant, plus consumer-owned utilities). Consumer-owned utilities may cap NEB facilities at 100 kW unless they opt to allow up to <5 MW, may limit accounts to 10, and need not offer shared NEB (Ch. 313 \u00a73(C)(4) and \u00a73(E)).",
+   "jurisdiction_body": "Maine Public Utilities Commission",
+   "cell": "export_credit_basis",
+   "claimed": "1:1 retail",
+   "source_url": "https://www.cmpco.com/documents/40117/0/Chapter+324+(2023-00103).pdf/3a14e66a-9d05-7bf4-7775-519cf1fd8209"
+  },
+  {
+   "type": "ic_state",
+   "state": "ME",
+   "applies_to": "All utilities: Ch. 313 and Ch. 324 apply to every T&D utility (IOUs CMP and Versant, plus consumer-owned utilities). Consumer-owned utilities may cap NEB facilities at 100 kW unless they opt to allow up to <5 MW, may limit accounts to 10, and need not offer shared NEB (Ch. 313 \u00a73(C)(4) and \u00a73(E)).",
+   "jurisdiction_body": "Maine Public Utilities Commission",
+   "cell": "grid_charging_allowed",
+   "claimed": "Requires non-export: under the MPUC Advisory Ruling (Docket 2020-00332), a battery paired with an NEB facility needs controls that stop it charging from the grid. If it can grid-charge, controls must stop it discharging to the grid. Facilities >100 kW with storage must file a yearly attestation. Removing the controls ends NEB eligibility and credits can be clawed back (CMP and Versant NEB agreements/applications). Ch. 324 \u00a710 requires an ESS form stating the charging mode (grid only / unrestricted / restricted / ICGF only).",
+   "source_url": "https://www.cmpco.com/documents/40117/0/Chapter+324+(2023-00103).pdf/3a14e66a-9d05-7bf4-7775-519cf1fd8209"
+  }
+ ]
+}
