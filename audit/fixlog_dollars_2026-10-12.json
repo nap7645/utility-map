@@ -1,0 +1,1721 @@
+[
+ {
+  "region": "MISO",
+  "idx": 51,
+  "utility": "Ameren Illinois Company d/b/a Ameren Illinois",
+  "program": "Rider CGR - Customer Generation Rebate (Distributed Generation & Storage Rebate)",
+  "field": "incentive_value_usd",
+  "old": "$300/kW DG + $300/kWh storage (residential); $250/kW DG + $250/kWh storage (C&I)",
+  "new": "$300/kW DG + $300/kWh storage in non-competitive supply areas; $250/kW DG + $250/kWh storage in competitive areas/COGF/CRGP (Rider CGR; values valid only through 2024-12-31; post-2024 values not shown as of 2026-10-12)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 51,
+  "utility": "Ameren Illinois Company d/b/a Ameren Illinois",
+  "program": "Rider CGR - Customer Generation Rebate (Distributed Generation & Storage Rebate)",
+  "field": "source_url",
+  "old": "https://www.ameren.com/-/media/illinois-site/files/electricchoice/illinois-distributed-energy-rebate-application.ashx",
+  "new": "https://www.ameren.com/-/media/rates/files/illinois/aiel59rdcgr.ashx",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 51,
+  "utility": "Ameren Illinois Company d/b/a Ameren Illinois",
+  "program": "Rider CGR - Customer Generation Rebate (Distributed Generation & Storage Rebate)",
+  "field": "last_verified",
+  "old": "2026-08-08",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 51,
+  "utility": "Ameren Illinois Company d/b/a Ameren Illinois",
+  "program": "Rider CGR - Customer Generation Rebate (Distributed Generation & Storage Rebate)",
+  "field": "incentive_value_usd",
+  "old": "$300/kW DG + $300/kWh storage (residential); $250/kW DG + $250/kWh storage (C&I)",
+  "new": "$300/kW DG + $300/kWh storage in non-competitive supply areas; $250/kW DG + $250/kWh storage in competitive areas/COGF/CRGP (Rider CGR; values valid only through 2024-12-31; post-2024 values not shown as of 2026-10-12)",
+  "file": "data/raw/program_chunks/chunk_03_miso_ia_il_mo.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 51,
+  "utility": "Ameren Illinois Company d/b/a Ameren Illinois",
+  "program": "Rider CGR - Customer Generation Rebate (Distributed Generation & Storage Rebate)",
+  "field": "source_url",
+  "old": "https://www.ameren.com/-/media/illinois-site/files/electricchoice/illinois-distributed-energy-rebate-application.ashx",
+  "new": "https://www.ameren.com/-/media/rates/files/illinois/aiel59rdcgr.ashx",
+  "file": "data/raw/program_chunks/chunk_03_miso_ia_il_mo.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 51,
+  "utility": "Ameren Illinois Company d/b/a Ameren Illinois",
+  "program": "Rider CGR - Customer Generation Rebate (Distributed Generation & Storage Rebate)",
+  "field": "last_verified",
+  "old": "2026-08-08",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_03_miso_ia_il_mo.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 55,
+  "utility": "Consumers Energy Co",
+  "program": "AC Peak Cycling Program",
+  "field": "incentive_value_usd",
+  "old": "$32/yr bill credits (Jun-Sep, ~$5/mo) + sign-up Visa gift card",
+  "new": "$5/mo bill credit Jun-Aug for existing participants (~$15/yr); no sign-up gift card (program closed) (as of 2026-10-12)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 55,
+  "utility": "Consumers Energy Co",
+  "program": "AC Peak Cycling Program",
+  "field": "source_url",
+  "old": "https://www.michigannewssource.com/2024/07/editorial-consumers-energys-ac-peak-cycling-program-offers-sweating-for-savings/",
+  "new": "https://www.consumersenergy.com/residential/rates/electric-rates-and-programs/rate-plan-options/standard-rate-plan/ac-peak-cycling",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 55,
+  "utility": "Consumers Energy Co",
+  "program": "AC Peak Cycling Program",
+  "field": "last_verified",
+  "old": "2026-08-08",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 55,
+  "utility": "Consumers Energy Co",
+  "program": "AC Peak Cycling Program",
+  "field": "incentive_value_usd",
+  "old": "$32/yr bill credits (Jun-Sep, ~$5/mo) + sign-up Visa gift card",
+  "new": "$5/mo bill credit Jun-Aug for existing participants (~$15/yr); no sign-up gift card (program closed) (as of 2026-10-12)",
+  "file": "data/raw/program_chunks/chunk_02_miso_wi_mi.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 55,
+  "utility": "Consumers Energy Co",
+  "program": "AC Peak Cycling Program",
+  "field": "source_url",
+  "old": "https://www.michigannewssource.com/2024/07/editorial-consumers-energys-ac-peak-cycling-program-offers-sweating-for-savings/",
+  "new": "https://www.consumersenergy.com/residential/rates/electric-rates-and-programs/rate-plan-options/standard-rate-plan/ac-peak-cycling",
+  "file": "data/raw/program_chunks/chunk_02_miso_wi_mi.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 55,
+  "utility": "Consumers Energy Co",
+  "program": "AC Peak Cycling Program",
+  "field": "last_verified",
+  "old": "2026-08-08",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_02_miso_wi_mi.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 57,
+  "utility": "Consumers Energy Co",
+  "program": "Distributed Generation Program (Inflow-Outflow)",
+  "field": "incentive_value_usd",
+  "old": "Export credit approx 6-12 cents/kWh (power supply component only; no distribution/transmission credit)",
+  "new": "Exports credited at power supply rate incl. transmission (tariff C.11.3); since eff. 2024-02-27 credits apply to all electric charges; no c/kWh figure published on page",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 57,
+  "utility": "Consumers Energy Co",
+  "program": "Distributed Generation Program (Inflow-Outflow)",
+  "field": "export_compensation",
+  "old": "Exported kWh credited at power-supply component of retail rate only (~6-12c/kWh), not full retail rate",
+  "new": "Exported kWh credited at power supply rate incl. transmission (tariff C.11.3); since eff. 2024-02-27 credits apply to all electric charges; no c/kWh figure published",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 57,
+  "utility": "Consumers Energy Co",
+  "program": "Distributed Generation Program (Inflow-Outflow)",
+  "field": "source_url",
+  "old": "https://planetdetroit.org/2023/05/legislators-introduce-bills-to-lift-solar-cap-restore-net-metering-and-establish-fair-value-tariff-for-distributed-generation/",
+  "new": "https://www.consumersenergy.com/residential/savings-and-clean-energy/renewable-energy/distributed-generation",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 57,
+  "utility": "Consumers Energy Co",
+  "program": "Distributed Generation Program (Inflow-Outflow)",
+  "field": "last_verified",
+  "old": "2026-08-08",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 57,
+  "utility": "Consumers Energy Co",
+  "program": "Distributed Generation Program (Inflow-Outflow)",
+  "field": "incentive_value_usd",
+  "old": "Export credit approx 6-12 cents/kWh (power supply component only; no distribution/transmission credit)",
+  "new": "Exports credited at power supply rate incl. transmission (tariff C.11.3); since eff. 2024-02-27 credits apply to all electric charges; no c/kWh figure published on page",
+  "file": "data/raw/program_chunks/chunk_02_miso_wi_mi.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 57,
+  "utility": "Consumers Energy Co",
+  "program": "Distributed Generation Program (Inflow-Outflow)",
+  "field": "export_compensation",
+  "old": "Exported kWh credited at power-supply component of retail rate only (~6-12c/kWh), not full retail rate",
+  "new": "Exported kWh credited at power supply rate incl. transmission (tariff C.11.3); since eff. 2024-02-27 credits apply to all electric charges; no c/kWh figure published",
+  "file": "data/raw/program_chunks/chunk_02_miso_wi_mi.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 57,
+  "utility": "Consumers Energy Co",
+  "program": "Distributed Generation Program (Inflow-Outflow)",
+  "field": "source_url",
+  "old": "https://planetdetroit.org/2023/05/legislators-introduce-bills-to-lift-solar-cap-restore-net-metering-and-establish-fair-value-tariff-for-distributed-generation/",
+  "new": "https://www.consumersenergy.com/residential/savings-and-clean-energy/renewable-energy/distributed-generation",
+  "file": "data/raw/program_chunks/chunk_02_miso_wi_mi.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 57,
+  "utility": "Consumers Energy Co",
+  "program": "Distributed Generation Program (Inflow-Outflow)",
+  "field": "last_verified",
+  "old": "2026-08-08",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_02_miso_wi_mi.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 80,
+  "utility": "Northern States Power Co - Minnesota (Xcel Energy)",
+  "program": "Saver's Switch (Residential)",
+  "field": "incentive_value_usd",
+  "old": "$40/yr bill credit (Oct) + $100 one-time enrollment credit",
+  "new": "MN: 15% discount on Jun-Sep electric energy charges (per MN 2022 booklet; current MN credit not re-verified as of 2026-10-12)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 80,
+  "utility": "Northern States Power Co - Minnesota (Xcel Energy)",
+  "program": "Saver's Switch (Residential)",
+  "field": "source_url",
+  "old": "https://www.xcelenergy.com/staticfiles/xe-responsive/Company/Rates%20&%20Regulations/Regulatory%20Filings/CO-DSM/Residential%20Demand%20Response.pdf",
+  "new": "https://www.xcelenergy.com/staticfiles/xe-responsive/Programs%20and%20Rebates/Residential/22-08-604%20It%20Pays%20To%20Save%20Booklet_MN%202022.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 80,
+  "utility": "Northern States Power Co - Minnesota (Xcel Energy)",
+  "program": "Saver's Switch (Residential)",
+  "field": "last_verified",
+  "old": "2026-08-08",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 80,
+  "utility": "Northern States Power Co - Minnesota (Xcel Energy)",
+  "program": "Saver's Switch (Residential)",
+  "field": "incentive_value_usd",
+  "old": "$40/yr bill credit (Oct) + $100 one-time enrollment credit",
+  "new": "MN: 15% discount on Jun-Sep electric energy charges (per MN 2022 booklet; current MN credit not re-verified as of 2026-10-12)",
+  "file": "data/raw/program_chunks/chunk_01_miso_north.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 80,
+  "utility": "Northern States Power Co - Minnesota (Xcel Energy)",
+  "program": "Saver's Switch (Residential)",
+  "field": "source_url",
+  "old": "https://www.xcelenergy.com/staticfiles/xe-responsive/Company/Rates%20&%20Regulations/Regulatory%20Filings/CO-DSM/Residential%20Demand%20Response.pdf",
+  "new": "https://www.xcelenergy.com/staticfiles/xe-responsive/Programs%20and%20Rebates/Residential/22-08-604%20It%20Pays%20To%20Save%20Booklet_MN%202022.pdf",
+  "file": "data/raw/program_chunks/chunk_01_miso_north.csv"
+ },
+ {
+  "region": "MISO",
+  "idx": 80,
+  "utility": "Northern States Power Co - Minnesota (Xcel Energy)",
+  "program": "Saver's Switch (Residential)",
+  "field": "last_verified",
+  "old": "2026-08-08",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_01_miso_north.csv"
+ },
+ {
+  "region": "West",
+  "idx": 47,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary General Service (SG)",
+  "field": "incentive_value_usd",
+  "old": "Base (eff. 2024-05-01): distribution demand $9.36/kW + G&T demand $15.14/kW summer / $9.11/kW winter; energy 0.853c/kWh; S&F $88.07/mo; plus riders DSM $1.71, PCCA $1.31, TCA $0.70, TEP $0.34 per kW-mo",
+  "new": "Eff. 2026-01-01 (per OpenEI IURDB; PSCo tariff not read directly): S&F $91.79/mo; energy $0.04771/kWh (incl. riders per OpenEI); flat demand $9.66/kW; TOU demand $19.79/kW and $27.14/kW (period/season mapping not confirmed)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 47,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary General Service (SG)",
+  "field": "last_verified",
+  "old": "2026-09-27",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 48,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Primary General Service (PG)",
+  "field": "incentive_value_usd",
+  "old": "Base (eff. 2024-05-01): distribution demand $5.61/kW + G&T demand $16.15/kW summer / $10.83/kW winter; energy 0.701c/kWh; S&F $894/mo",
+  "new": "",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 48,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Primary General Service (PG)",
+  "field": "event_limits",
+  "old": "",
+  "new": "figures withdrawn 2026-10-12 (stale; re-pull needed)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 48,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Primary General Service (PG)",
+  "field": "last_verified",
+  "old": "2026-09-27",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 50,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary Voltage Time-of-Use Electric Vehicle Service (S-EV)",
+  "field": "incentive_value_usd",
+  "old": "Distribution demand $4.60/kW; S&F $88.07/mo (eff. 2024-05-01)",
+  "new": "",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 50,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary Voltage Time-of-Use Electric Vehicle Service (S-EV)",
+  "field": "event_limits",
+  "old": "",
+  "new": "figures withdrawn 2026-10-12 (stale; re-pull needed)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 50,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary Voltage Time-of-Use Electric Vehicle Service (S-EV)",
+  "field": "last_verified",
+  "old": "2026-09-27",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 72,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Irrigation Load Control (Utah)",
+  "field": "incentive_value_usd",
+  "old": "2025: $33.31/kW (Utah); +20% bonus for participating in every mandatory event",
+  "new": "$32.50/kW base ($39.00/kW with 20% bonus for participating in every mandatory event), same UT and ID (per RMP page, as of 2026-10-12)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 72,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Irrigation Load Control (Utah)",
+  "field": "last_verified",
+  "old": "2026-09-28",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "incentive_value_usd",
+  "old": "Proposed ~4c/kWh (vs retail 7-18c); final IPUC-approved values not verified (secondary sources cite 14.666c on / 5.597c off Jun-Oct, 3.664c / 1.228c Nov-May as of Mar 2026)",
+  "new": "IPUC Order 36845 (2025-11-14): time-differentiated export credit rate averaging 4.2c/kWh, in place until RMP update filing 2028-07-01; on/off-peak and seasonal values not extracted",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "tariff_schedule",
+  "old": "Sched. 136; IPUC Case PAC-E-25-02 (proposed eff. 2025-10-01); legacy Sched. 135 net metering grandfathered to 2045-10-02",
+  "new": "Sched. 136; IPUC Case PAC-E-25-02 (Order 36845, 2025-11-14); legacy Sched. 135 net metering grandfathered to 2045-10-02",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "export_compensation",
+  "old": "Legacy Sched. 135: retail net metering to 2045; Sched. 136 (post-Oct 2020 systems): export credit rate per PAC-E-25-02",
+  "new": "Legacy Sched. 135: retail net metering to 2045; Sched. 136 (post-Oct 2020 systems): time-differentiated export credit rate avg 4.2c/kWh per IPUC Order 36845 (2025-11-14)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "program_status",
+  "old": "Proposed/pending",
+  "new": "Active",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "last_verified",
+  "old": "2026-09-28",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 99,
+  "utility": "Puget Sound Energy",
+  "program": "Schedule 307 Residential Time-of-Use",
+  "field": "incentive_value_usd",
+  "old": "Eff. 2026-01-29 winter (Oct-Mar) weekday peak energy charge 50.27c/kWh (search-reported); other periods not captured",
+  "new": "Eff. 2026-01-29 Sch. 307 energy charge: winter peak 53.2445c, winter off-peak 10.8197c, summer peak 33.5186c, summer off-peak 10.8197c per kWh",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 99,
+  "utility": "Puget Sound Energy",
+  "program": "Schedule 307 Residential Time-of-Use",
+  "field": "peak_offpeak_rates",
+  "old": "Winter weekday peak 50.27c/kWh (eff. 2026-01-29); off-peak and summer rates in Sched. 307",
+  "new": "Eff. 2026-01-29: winter peak 53.2445c / winter off-peak 10.8197c / summer peak 33.5186c / summer off-peak 10.8197c per kWh",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 99,
+  "utility": "Puget Sound Energy",
+  "program": "Schedule 307 Residential Time-of-Use",
+  "field": "source_url",
+  "old": "https://www.pse.com/en/account-and-billing/time-of-use/tou-faq",
+  "new": "https://www.pse.com/-/media/Project/PSE/Portal/Rate-documents/Electric/elec_sch_307.pdf?sc_lang=en",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 99,
+  "utility": "Puget Sound Energy",
+  "program": "Schedule 307 Residential Time-of-Use",
+  "field": "last_verified",
+  "old": "2026-09-28",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "West",
+  "idx": 99,
+  "utility": "Puget Sound Energy",
+  "program": "Schedule 307 Residential Time-of-Use",
+  "field": "incentive_value_usd",
+  "old": "Eff. 2026-01-29 winter (Oct-Mar) weekday peak energy charge 50.27c/kWh (search-reported); other periods not captured",
+  "new": "Eff. 2026-01-29 Sch. 307 energy charge: winter peak 53.2445c, winter off-peak 10.8197c, summer peak 33.5186c, summer off-peak 10.8197c per kWh",
+  "file": "data/raw/program_chunks/chunk_W_pnw.csv"
+ },
+ {
+  "region": "West",
+  "idx": 99,
+  "utility": "Puget Sound Energy",
+  "program": "Schedule 307 Residential Time-of-Use",
+  "field": "peak_offpeak_rates",
+  "old": "Winter weekday peak 50.27c/kWh (eff. 2026-01-29); off-peak and summer rates in Sched. 307",
+  "new": "Eff. 2026-01-29: winter peak 53.2445c / winter off-peak 10.8197c / summer peak 33.5186c / summer off-peak 10.8197c per kWh",
+  "file": "data/raw/program_chunks/chunk_W_pnw.csv"
+ },
+ {
+  "region": "West",
+  "idx": 99,
+  "utility": "Puget Sound Energy",
+  "program": "Schedule 307 Residential Time-of-Use",
+  "field": "source_url",
+  "old": "https://www.pse.com/en/account-and-billing/time-of-use/tou-faq",
+  "new": "https://www.pse.com/-/media/Project/PSE/Portal/Rate-documents/Electric/elec_sch_307.pdf?sc_lang=en",
+  "file": "data/raw/program_chunks/chunk_W_pnw.csv"
+ },
+ {
+  "region": "West",
+  "idx": 99,
+  "utility": "Puget Sound Energy",
+  "program": "Schedule 307 Residential Time-of-Use",
+  "field": "last_verified",
+  "old": "2026-09-28",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_W_pnw.csv"
+ },
+ {
+  "region": "SE",
+  "idx": 85,
+  "utility": "Florida Power & Light Company",
+  "program": "Commercial/Industrial Load Control (CILC-1)",
+  "field": "incentive_value_usd",
+  "old": "base demand $5.67/kW credit; curtailment penalty $14.17/kW (CILC-1(G), eff. Jan 2026)",
+  "new": "Firm on-peak demand $14.17/kW vs load-control on-peak demand $3.73/kW (CILC-1(G), eff. 2026-01); incentive = difference ($10.44/kW). $5.67/kW is the max demand charge, not a credit",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "SE",
+  "idx": 85,
+  "utility": "Florida Power & Light Company",
+  "program": "Commercial/Industrial Load Control (CILC-1)",
+  "field": "last_verified",
+  "old": "2026-09-24",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "SE",
+  "idx": 85,
+  "utility": "Florida Power & Light Company",
+  "program": "Commercial/Industrial Load Control (CILC-1)",
+  "field": "incentive_value_usd",
+  "old": "base demand $5.67/kW credit; curtailment penalty $14.17/kW (CILC-1(G), eff. Jan 2026)",
+  "new": "Firm on-peak demand $14.17/kW vs load-control on-peak demand $3.73/kW (CILC-1(G), eff. 2026-01); incentive = difference ($10.44/kW). $5.67/kW is the max demand charge, not a credit",
+  "file": "data/raw/program_chunks/chunk_SE_florida.csv"
+ },
+ {
+  "region": "SE",
+  "idx": 85,
+  "utility": "Florida Power & Light Company",
+  "program": "Commercial/Industrial Load Control (CILC-1)",
+  "field": "last_verified",
+  "old": "2026-09-24",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_SE_florida.csv"
+ },
+ {
+  "region": "NYISO",
+  "idx": 90,
+  "utility": "New York State Electric & Gas Corp (NYSEG)",
+  "program": "Term Dynamic Load Management (Term-DLM)",
+  "field": "incentive_value_usd",
+  "old": "Incentive Rate that caps maximum annual per-kW compensation was $26.25/kW in the January 2025 RFP (up from $25.50/kW in the December 2023 RFP); actual payment is set by accepted bid",
+  "new": "Incentive Rate cap $25.50/kW-yr (RFP dated 2025-11-27, 2027 vintage); actual payment set by accepted bid",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "NYISO",
+  "idx": 90,
+  "utility": "New York State Electric & Gas Corp (NYSEG)",
+  "program": "Term Dynamic Load Management (Term-DLM)",
+  "field": "last_verified",
+  "old": "2026-09-10",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "NYISO",
+  "idx": 91,
+  "utility": "New York State Electric & Gas Corp (NYSEG)",
+  "program": "Auto Dynamic Load Management (Auto-DLM)",
+  "field": "incentive_value_usd",
+  "old": "Incentive Rate that caps maximum annual per-kW compensation was $26.25/kW in the January 2025 RFP (up from $25.50/kW in the December 2023 RFP); actual payment is set by accepted bid",
+  "new": "Incentive Rate cap $25.50/kW-yr (RFP dated 2025-11-27, 2027 vintage); actual payment set by accepted bid",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "NYISO",
+  "idx": 91,
+  "utility": "New York State Electric & Gas Corp (NYSEG)",
+  "program": "Auto Dynamic Load Management (Auto-DLM)",
+  "field": "last_verified",
+  "old": "2026-09-10",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 36,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "peak_offpeak_rates",
+  "old": "Sep 2026 incl. surcharges: on 54.1c / mid-day 32.1c / off 46.6c per kWh (Sched R baseline 43.1c)",
+  "new": "Oct 2026 incl. surcharges (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): on 56.9c / mid-day 34.8c / off 49.4c per kWh (Sched R baseline 45.8c)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 36,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 36,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "peak_offpeak_rates",
+  "old": "Sep 2026 incl. surcharges: on 54.1c / mid-day 32.1c / off 46.6c per kWh (Sched R baseline 43.1c)",
+  "new": "Oct 2026 incl. surcharges (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): on 56.9c / mid-day 34.8c / off 49.4c per kWh (Sched R baseline 45.8c)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 36,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 37,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "peak_offpeak_rates",
+  "old": "Sep 2026 incl. surcharges: on 62.8c / mid-day 28.9c / off 57.2c per kWh (Sched R baseline 46.6c)",
+  "new": "Oct 2026 incl. surcharges (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): on 63.0c / mid-day 29.1c / off 57.4c per kWh (Sched R baseline 46.8c)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 37,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 37,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "peak_offpeak_rates",
+  "old": "Sep 2026 incl. surcharges: on 62.8c / mid-day 28.9c / off 57.2c per kWh (Sched R baseline 46.6c)",
+  "new": "Oct 2026 incl. surcharges (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): on 63.0c / mid-day 29.1c / off 57.4c per kWh (Sched R baseline 46.8c)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 37,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 38,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "peak_offpeak_rates",
+  "old": "Sep 2026 incl. surcharges: Maui on 55.6c / mid 30.9c / off 54.6c; Lanai on 60.3c / mid 38.0c / off 57.2c; Molokai on 60.2c / mid 39.0c / off 60.1c per kWh (Sched R baseline Maui 44.7c, Lanai 49.5c, Molokai 51.6c)",
+  "new": "Oct 2026 incl. surcharges (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): Maui on 55.5c / mid 30.8c / off 54.5c; Lanai on 71.6c / mid 49.2c / off 68.4c; Molokai on 66.9c / mid 45.8c / off 66.9c per kWh (Sched R baseline Maui 44.6c, Lanai 60.7c, Molokai 58.4c)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 38,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 38,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "peak_offpeak_rates",
+  "old": "Sep 2026 incl. surcharges: Maui on 55.6c / mid 30.9c / off 54.6c; Lanai on 60.3c / mid 38.0c / off 57.2c; Molokai on 60.2c / mid 39.0c / off 60.1c per kWh (Sched R baseline Maui 44.7c, Lanai 49.5c, Molokai 51.6c)",
+  "new": "Oct 2026 incl. surcharges (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): Maui on 55.5c / mid 30.8c / off 54.5c; Lanai on 71.6c / mid 49.2c / off 68.4c; Molokai on 66.9c / mid 45.8c / off 66.9c per kWh (Sched R baseline Maui 44.6c, Lanai 60.7c, Molokai 58.4c)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 38,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Residential Interim Time-of-Use (TOU-RI)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 53,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Effective 9/1/2026: daytime 22.0c / overnight 43.7c / evening peak 65.3c per kWh; customer chg $8.39 + grid access $11.34/mo (vs Sched R 43.1-46.7c tiered)",
+  "new": "Effective 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): daytime 23.5c / overnight 46.6c / evening peak 69.7c per kWh; customer chg $8.39 + grid access $11.34/mo (Sched R tiered comparison not re-pulled for Oct 2026)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 53,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 53,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 53,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Effective 9/1/2026: daytime 22.0c / overnight 43.7c / evening peak 65.3c per kWh; customer chg $8.39 + grid access $11.34/mo (vs Sched R 43.1-46.7c tiered)",
+  "new": "Effective 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): daytime 23.5c / overnight 46.6c / evening peak 69.7c per kWh; customer chg $8.39 + grid access $11.34/mo (Sched R tiered comparison not re-pulled for Oct 2026)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 53,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 53,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 54,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Effective 9/1/2026: daytime 26.8c / overnight 53.3c / evening peak 79.7c per kWh; customer chg $7.93 + grid access $10.72/mo (vs Sched R 46.6-51.7c tiered)",
+  "new": "Effective 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): daytime 26.9c / overnight 53.5c / evening peak 80.1c per kWh; customer chg $7.93 + grid access $10.72/mo (Sched R tiered comparison not re-pulled for Oct 2026)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 54,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 54,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 54,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Effective 9/1/2026: daytime 26.8c / overnight 53.3c / evening peak 79.7c per kWh; customer chg $7.93 + grid access $10.72/mo (vs Sched R 46.6-51.7c tiered)",
+  "new": "Effective 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): daytime 26.9c / overnight 53.5c / evening peak 80.1c per kWh; customer chg $7.93 + grid access $10.72/mo (Sched R tiered comparison not re-pulled for Oct 2026)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 54,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 54,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 55,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Effective 9/1/2026: Maui day 24.7c / overnight 49.1c / peak 73.6c; Lanai 26.1c/52.0c/77.9c; Molokai 28.1c/56.0c/83.8c per kWh; grid access $11.05/mo",
+  "new": "Effective 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): Maui day 24.6c / overnight 49.1c / peak 73.5c; Lanai 32.2c/64.2c/96.1c; Molokai 31.6c/63.0c/94.4c per kWh; grid access $11.05/mo",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 55,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 55,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 55,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Effective 9/1/2026: Maui day 24.7c / overnight 49.1c / peak 73.6c; Lanai 26.1c/52.0c/77.9c; Molokai 28.1c/56.0c/83.8c per kWh; grid access $11.05/mo",
+  "new": "Effective 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): Maui day 24.6c / overnight 49.1c / peak 73.5c; Lanai 32.2c/64.2c/96.1c; Molokai 31.6c/63.0c/94.4c per kWh; grid access $11.05/mo",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 55,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 55,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Shift and Save (ARD TOU R residential time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 56,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 TOU G: day 25.5c / overnight 50.8c / peak 76.1c; TOU J: day 23.2c / overnight 46.2c / peak 69.1c + $5.14/kW grid access",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) TOU G: day 27.0c / overnight 53.7c / peak 80.5c; TOU J: day 24.7c / overnight 49.1c / peak 73.5c + $5.14/kW grid access",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 56,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 56,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 56,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 TOU G: day 25.5c / overnight 50.8c / peak 76.1c; TOU J: day 23.2c / overnight 46.2c / peak 69.1c + $5.14/kW grid access",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) TOU G: day 27.0c / overnight 53.7c / peak 80.5c; TOU J: day 24.7c / overnight 49.1c / peak 73.5c + $5.14/kW grid access",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 56,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 56,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 57,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 TOU G: day 31.4c / overnight 62.4c / peak 93.5c; TOU J: day 28.2c / overnight 55.7c / peak 83.3c + $4.86/kW grid access",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) TOU G: day 31.5c / overnight 62.7c / peak 93.8c; TOU J: day 28.3c / overnight 55.9c / peak 83.6c + $4.86/kW grid access",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 57,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 57,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 57,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 TOU G: day 31.4c / overnight 62.4c / peak 93.5c; TOU J: day 28.2c / overnight 55.7c / peak 83.3c + $4.86/kW grid access",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) TOU G: day 31.5c / overnight 62.7c / peak 93.8c; TOU J: day 28.3c / overnight 55.9c / peak 83.6c + $4.86/kW grid access",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 57,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 57,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 58,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 TOU G: Maui day 28.5c / overnight 56.7c / peak 84.9c (Molokai peak 107.4c); TOU J: Maui day 26.1c / overnight 51.8c / peak 77.6c + $5.01/kW grid access",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) TOU G: Maui day 28.4c / overnight 56.6c / peak 84.8c (Molokai peak 118.0c); TOU J: Maui day 26.0c / overnight 51.7c / peak 77.5c + $5.01/kW grid access",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 58,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 58,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 58,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 TOU G: Maui day 28.5c / overnight 56.7c / peak 84.9c (Molokai peak 107.4c); TOU J: Maui day 26.1c / overnight 51.8c / peak 77.6c + $5.01/kW grid access",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) TOU G: Maui day 28.4c / overnight 56.6c / peak 84.8c (Molokai peak 118.0c); TOU J: Maui day 26.0c / overnight 51.7c / peak 77.5c + $5.01/kW grid access",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 58,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 58,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "ARD TOU G / ARD TOU J (small & medium commercial time-of-use)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 59,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 Sched J: $15.72/kW + 36.05c/kWh; Sched P: $32.04/kW + 32.71c/kWh (DS: $27.80/kW + 31.47c/kWh)",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) Sched J: $15.72/kW + 38.78c/kWh; Sched P: $32.04/kW + 35.44c/kWh (DS: $27.80/kW + 34.20c/kWh)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 59,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 59,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 59,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 Sched J: $15.72/kW + 36.05c/kWh; Sched P: $32.04/kW + 32.71c/kWh (DS: $27.80/kW + 31.47c/kWh)",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) Sched J: $15.72/kW + 38.78c/kWh; Sched P: $32.04/kW + 35.44c/kWh (DS: $27.80/kW + 34.20c/kWh)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 59,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 59,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 60,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 Sched J: $16.00/kW + 41.93c/kWh; Sched P: $30.85/kW + 36.92c/kWh",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) Sched J: $16.00/kW + 42.11c/kWh; Sched P: $30.85/kW + 37.11c/kWh",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 60,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 60,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 60,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 Sched J: $16.00/kW + 41.93c/kWh; Sched P: $30.85/kW + 36.92c/kWh",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) Sched J: $16.00/kW + 42.11c/kWh; Sched P: $30.85/kW + 37.11c/kWh",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 60,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 60,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 61,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 Sched J: Maui $15.31/kW + 40.92c/kWh; Lanai $15.31/kW + 51.05c; Molokai $15.31/kW + 50.59c; Sched P: Maui $29.44/kW + 37.61c/kWh; Lanai $29.44/kW + 48.78c; Molokai $21.20/kW + 42.63c",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) Sched J: Maui $15.31/kW + 62.27c/kWh; Lanai $15.31/kW + 57.38c/kWh; Sched P: Maui $29.44/kW + 60.00c/kWh; Lanai $21.20/kW + 49.41c/kWh; Molokai J/P figures withdrawn 2026-10-12 (not in Oct 2026 EFS; re-pull needed)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 61,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 61,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 61,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "peak_offpeak_rates",
+  "old": "Eff. 9/1/2026 Sched J: Maui $15.31/kW + 40.92c/kWh; Lanai $15.31/kW + 51.05c; Molokai $15.31/kW + 50.59c; Sched P: Maui $29.44/kW + 37.61c/kWh; Lanai $29.44/kW + 48.78c; Molokai $21.20/kW + 42.63c",
+  "new": "Eff. 10/1/2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)) Sched J: Maui $15.31/kW + 62.27c/kWh; Lanai $15.31/kW + 57.38c/kWh; Sched P: Maui $29.44/kW + 60.00c/kWh; Lanai $21.20/kW + 49.41c/kWh; Molokai J/P figures withdrawn 2026-10-12 (not in Oct 2026 EFS; re-pull needed)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 61,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "source_url",
+  "old": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf",
+  "new": "https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 61,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Schedule J / Schedule P general service demand rates",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 62,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "peak_offpeak_rates",
+  "old": "Current month (Sep 2026): EV-J (<300 kW): $2.00/kW demand; mid-day $0.345778 / on- & off-peak $0.432448 per kWh (vs Sched J $15.72/kW + $0.360495). EV-P (>=300 kW): $4.00/kW; mid-day $0.324827 / on-off $0.404187 (vs Sched P $32.04/kW + $0.327067)",
+  "new": "Oct 2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): EV-J (<300 kW): $2.00/kW demand; mid-day $0.373088 / on- & off-peak $0.459758 per kWh (vs Sched J $15.72/kW + 38.78c). EV-P (>=300 kW): $4.00/kW; mid-day $0.352191 / on-off $0.431551 (vs Sched P $32.04/kW + 35.44c)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 62,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 62,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "peak_offpeak_rates",
+  "old": "Current month (Sep 2026): EV-J (<300 kW): $2.00/kW demand; mid-day $0.345778 / on- & off-peak $0.432448 per kWh (vs Sched J $15.72/kW + $0.360495). EV-P (>=300 kW): $4.00/kW; mid-day $0.324827 / on-off $0.404187 (vs Sched P $32.04/kW + $0.327067)",
+  "new": "Oct 2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): EV-J (<300 kW): $2.00/kW demand; mid-day $0.373088 / on- & off-peak $0.459758 per kWh (vs Sched J $15.72/kW + 38.78c). EV-P (>=300 kW): $4.00/kW; mid-day $0.352191 / on-off $0.431551 (vs Sched P $32.04/kW + 35.44c)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 62,
+  "utility": "Hawaiian Electric Co (Oahu)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 63,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "peak_offpeak_rates",
+  "old": "Current month (Sep 2026): EV-J (<200 kW): $2.00/kW; mid-day $0.395186 / on-off $0.507870 per kWh (vs J $16.00/kW + $0.419290). EV-P (>=200 kW): $2.00/kW; mid-day $0.358007 / on-off $0.457559 (vs P $30.85/kW)",
+  "new": "Oct 2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): EV-J (<200 kW): $2.00/kW; mid-day $0.396965 / on-off $0.509649 per kWh (vs J $16.00/kW + 42.11c). EV-P (>=200 kW): $2.00/kW; mid-day $0.359907 / on-off $0.459459 (vs P $30.85/kW)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 63,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 63,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "peak_offpeak_rates",
+  "old": "Current month (Sep 2026): EV-J (<200 kW): $2.00/kW; mid-day $0.395186 / on-off $0.507870 per kWh (vs J $16.00/kW + $0.419290). EV-P (>=200 kW): $2.00/kW; mid-day $0.358007 / on-off $0.457559 (vs P $30.85/kW)",
+  "new": "Oct 2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): EV-J (<200 kW): $2.00/kW; mid-day $0.396965 / on-off $0.509649 per kWh (vs J $16.00/kW + 42.11c). EV-P (>=200 kW): $2.00/kW; mid-day $0.359907 / on-off $0.459459 (vs P $30.85/kW)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 63,
+  "utility": "Hawaii Electric Light Co (Hawaii Island)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 64,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "peak_offpeak_rates",
+  "old": "Current month (Sep 2026): Maui EV-J (<200 kW) $2.00/kW, mid-day $0.381949 / on-off $0.491839; EV-P $2.00/kW, $0.361433 / $0.465713. Lanai EV-J $0.476561 / $0.611529; EV-P $0.453246 / $0.578270. Molokai EV-J (<100 kW) $0.481220 / $0.589108; EV-P $0.401587 / $0.541570 (all $2.00/kW)",
+  "new": "Oct 2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): Maui EV-J (<200 kW) $2.00/kW, mid-day $0.381059 / on-off $0.490949; EV-P $2.00/kW, $0.360684 / $0.464964. Lanai EV-J $0.588711 / $0.723679; EV-P $0.565396 / $0.690420. Molokai EV-J (<100 kW) $0.549089 / $0.656977; EV-P $0.469454 / $0.609437 (all $2.00/kW)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 64,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 64,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "peak_offpeak_rates",
+  "old": "Current month (Sep 2026): Maui EV-J (<200 kW) $2.00/kW, mid-day $0.381949 / on-off $0.491839; EV-P $2.00/kW, $0.361433 / $0.465713. Lanai EV-J $0.476561 / $0.611529; EV-P $0.453246 / $0.578270. Molokai EV-J (<100 kW) $0.481220 / $0.589108; EV-P $0.401587 / $0.541570 (all $2.00/kW)",
+  "new": "Oct 2026 (eff. 2026-10-01; adjusts monthly (see utility Effective Rate Summary)): Maui EV-J (<200 kW) $2.00/kW, mid-day $0.381059 / on-off $0.490949; EV-P $2.00/kW, $0.360684 / $0.464964. Lanai EV-J $0.588711 / $0.723679; EV-P $0.565396 / $0.690420. Molokai EV-J (<100 kW) $0.549089 / $0.656977; EV-P $0.469454 / $0.609437 (all $2.00/kW)",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "AKHI",
+  "idx": 64,
+  "utility": "Maui Electric Co (Maui County)",
+  "program": "Commercial EV TOU rates (Schedule EV-J and EV-P)",
+  "field": "last_verified",
+  "old": "2026-09-29",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_AKHI.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 45,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 4-9PM (TOU-D-4-9PM)",
+  "field": "incentive_value_usd",
+  "old": "Baseline credit $0.10/kWh up to monthly baseline allocation; Base Services Charge $0.79/day. Extra baseline allocation for heat-pump water heater customers (1.9 kWh/day summer, 2.6 kWh/day winter)",
+  "new": "Baseline credit $0.09/kWh up to monthly baseline allocation; Base Services Charge $0.79/day. Extra baseline allocation for heat-pump water heater customers (1.9 kWh/day summer, 2.6 kWh/day winter)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 45,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 4-9PM (TOU-D-4-9PM)",
+  "field": "peak_offpeak_rates",
+  "old": "Summer weekday on-peak 58c / off-peak 34c; summer weekend mid-peak 46c / off-peak 34c; winter mid-peak 51c / super-off-peak 33c / off-peak 37c per kWh (SCE-published rounded values, no effective date shown on page; subtract 10c baseline credit within allocation)",
+  "new": "Summer weekday on-peak 59c / off-peak 33c; summer weekend mid-peak 44c / off-peak 33c; winter mid-peak 50c / super-off-peak 32c / off-peak 36c per kWh (SCE-published rounded values as of 2026-10-12; page shows no effective date; subtract 9c baseline credit within allocation)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 45,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 4-9PM (TOU-D-4-9PM)",
+  "field": "last_verified",
+  "old": "2026-09-16",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 45,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 4-9PM (TOU-D-4-9PM)",
+  "field": "incentive_value_usd",
+  "old": "Baseline credit $0.10/kWh up to monthly baseline allocation; Base Services Charge $0.79/day. Extra baseline allocation for heat-pump water heater customers (1.9 kWh/day summer, 2.6 kWh/day winter)",
+  "new": "Baseline credit $0.09/kWh up to monthly baseline allocation; Base Services Charge $0.79/day. Extra baseline allocation for heat-pump water heater customers (1.9 kWh/day summer, 2.6 kWh/day winter)",
+  "file": "data/raw/program_chunks/chunk_CA_iou.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 45,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 4-9PM (TOU-D-4-9PM)",
+  "field": "peak_offpeak_rates",
+  "old": "Summer weekday on-peak 58c / off-peak 34c; summer weekend mid-peak 46c / off-peak 34c; winter mid-peak 51c / super-off-peak 33c / off-peak 37c per kWh (SCE-published rounded values, no effective date shown on page; subtract 10c baseline credit within allocation)",
+  "new": "Summer weekday on-peak 59c / off-peak 33c; summer weekend mid-peak 44c / off-peak 33c; winter mid-peak 50c / super-off-peak 32c / off-peak 36c per kWh (SCE-published rounded values as of 2026-10-12; page shows no effective date; subtract 9c baseline credit within allocation)",
+  "file": "data/raw/program_chunks/chunk_CA_iou.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 45,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 4-9PM (TOU-D-4-9PM)",
+  "field": "last_verified",
+  "old": "2026-09-16",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_CA_iou.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 46,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 5-8PM (TOU-D-5-8PM)",
+  "field": "incentive_value_usd",
+  "old": "Baseline credit $0.10/kWh up to monthly baseline allocation; Base Services Charge $0.79/day",
+  "new": "Baseline credit $0.09/kWh up to monthly baseline allocation; Base Services Charge $0.79/day",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 46,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 5-8PM (TOU-D-5-8PM)",
+  "field": "peak_offpeak_rates",
+  "old": "Summer weekday on-peak 74c / off-peak 34c; summer weekend mid-peak 54c / off-peak 34c; winter mid-peak 60c / super-off-peak 32c / off-peak 38c per kWh (SCE-published rounded values, no effective date shown on page)",
+  "new": "Summer weekday on-peak 72c / off-peak 34c; summer weekend mid-peak 51c / off-peak 34c; winter mid-peak 55c / super-off-peak 32c / off-peak 37c per kWh (SCE-published rounded values as of 2026-10-12; page shows no effective date)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 46,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 5-8PM (TOU-D-5-8PM)",
+  "field": "last_verified",
+  "old": "2026-09-16",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 46,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 5-8PM (TOU-D-5-8PM)",
+  "field": "incentive_value_usd",
+  "old": "Baseline credit $0.10/kWh up to monthly baseline allocation; Base Services Charge $0.79/day",
+  "new": "Baseline credit $0.09/kWh up to monthly baseline allocation; Base Services Charge $0.79/day",
+  "file": "data/raw/program_chunks/chunk_CA_iou.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 46,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 5-8PM (TOU-D-5-8PM)",
+  "field": "peak_offpeak_rates",
+  "old": "Summer weekday on-peak 74c / off-peak 34c; summer weekend mid-peak 54c / off-peak 34c; winter mid-peak 60c / super-off-peak 32c / off-peak 38c per kWh (SCE-published rounded values, no effective date shown on page)",
+  "new": "Summer weekday on-peak 72c / off-peak 34c; summer weekend mid-peak 51c / off-peak 34c; winter mid-peak 55c / super-off-peak 32c / off-peak 37c per kWh (SCE-published rounded values as of 2026-10-12; page shows no effective date)",
+  "file": "data/raw/program_chunks/chunk_CA_iou.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 46,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option 5-8PM (TOU-D-5-8PM)",
+  "field": "last_verified",
+  "old": "2026-09-16",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_CA_iou.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 47,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option PRIME (TOU-D-PRIME)",
+  "field": "peak_offpeak_rates",
+  "old": "Summer weekday on-peak 59c / off-peak 26c; summer weekend mid-peak 40c / off-peak 26c; winter mid-peak 56c / super-off-peak 24c / off-peak 24c per kWh (SCE-published rounded values, no effective date shown on page)",
+  "new": "Summer weekday on-peak 61c / off-peak 26c; summer weekend mid-peak 39c / off-peak 26c; winter mid-peak 45c / super-off-peak 24c / off-peak 30c per kWh (SCE-published rounded values as of 2026-10-12; page shows no effective date)",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 47,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option PRIME (TOU-D-PRIME)",
+  "field": "last_verified",
+  "old": "2026-09-16",
+  "new": "2026-10-12",
+  "file": "data/processed/programs.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 47,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option PRIME (TOU-D-PRIME)",
+  "field": "peak_offpeak_rates",
+  "old": "Summer weekday on-peak 59c / off-peak 26c; summer weekend mid-peak 40c / off-peak 26c; winter mid-peak 56c / super-off-peak 24c / off-peak 24c per kWh (SCE-published rounded values, no effective date shown on page)",
+  "new": "Summer weekday on-peak 61c / off-peak 26c; summer weekend mid-peak 39c / off-peak 26c; winter mid-peak 45c / super-off-peak 24c / off-peak 30c per kWh (SCE-published rounded values as of 2026-10-12; page shows no effective date)",
+  "file": "data/raw/program_chunks/chunk_CA_iou.csv"
+ },
+ {
+  "region": "CAISO",
+  "idx": 47,
+  "utility": "Southern California Edison Co (SCE)",
+  "program": "Schedule TOU-D Option PRIME (TOU-D-PRIME)",
+  "field": "last_verified",
+  "old": "2026-09-16",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_CA_iou.csv"
+ },
+ {
+  "region": "West",
+  "idx": 47,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary General Service (SG)",
+  "field": "incentive_value_usd",
+  "old": "Base (eff. 2024-05-01): distribution demand $9.36/kW + G&T demand $15.14/kW summer / $9.11/kW winter; energy 0.853c/kWh; S&F $88.07/mo; plus riders DSM $1.71, PCCA $1.31, TCA $0.70, TEP $0.34 per kW-mo",
+  "new": "Eff. 2026-01-01 (per OpenEI IURDB; PSCo tariff not read directly): S&F $91.79/mo; energy $0.04771/kWh (incl. riders per OpenEI); flat demand $9.66/kW; TOU demand $19.79/kW and $27.14/kW (period/season mapping not confirmed)",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 47,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary General Service (SG)",
+  "field": "last_verified",
+  "old": "2026-09-27",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 48,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Primary General Service (PG)",
+  "field": "incentive_value_usd",
+  "old": "Base (eff. 2024-05-01): distribution demand $5.61/kW + G&T demand $16.15/kW summer / $10.83/kW winter; energy 0.701c/kWh; S&F $894/mo",
+  "new": "",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 48,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Primary General Service (PG)",
+  "field": "event_limits",
+  "old": "",
+  "new": "figures withdrawn 2026-10-12 (stale; re-pull needed)",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 48,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Primary General Service (PG)",
+  "field": "last_verified",
+  "old": "2026-09-27",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 50,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary Voltage Time-of-Use Electric Vehicle Service (S-EV)",
+  "field": "incentive_value_usd",
+  "old": "Distribution demand $4.60/kW; S&F $88.07/mo (eff. 2024-05-01)",
+  "new": "",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 50,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary Voltage Time-of-Use Electric Vehicle Service (S-EV)",
+  "field": "event_limits",
+  "old": "",
+  "new": "figures withdrawn 2026-10-12 (stale; re-pull needed)",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 50,
+  "utility": "Xcel Energy Colorado (Public Service Co of Colorado)",
+  "program": "Secondary Voltage Time-of-Use Electric Vehicle Service (S-EV)",
+  "field": "last_verified",
+  "old": "2026-09-27",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 72,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Irrigation Load Control (Utah)",
+  "field": "incentive_value_usd",
+  "old": "2025: $33.31/kW (Utah); +20% bonus for participating in every mandatory event",
+  "new": "$32.50/kW base ($39.00/kW with 20% bonus for participating in every mandatory event), same UT and ID (per RMP page, as of 2026-10-12)",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 72,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Irrigation Load Control (Utah)",
+  "field": "last_verified",
+  "old": "2026-09-28",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "incentive_value_usd",
+  "old": "Proposed ~4c/kWh (vs retail 7-18c); final IPUC-approved values not verified (secondary sources cite 14.666c on / 5.597c off Jun-Oct, 3.664c / 1.228c Nov-May as of Mar 2026)",
+  "new": "IPUC Order 36845 (2025-11-14): time-differentiated export credit rate averaging 4.2c/kWh, in place until RMP update filing 2028-07-01; on/off-peak and seasonal values not extracted",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "tariff_schedule",
+  "old": "Sched. 136; IPUC Case PAC-E-25-02 (proposed eff. 2025-10-01); legacy Sched. 135 net metering grandfathered to 2045-10-02",
+  "new": "Sched. 136; IPUC Case PAC-E-25-02 (Order 36845, 2025-11-14); legacy Sched. 135 net metering grandfathered to 2045-10-02",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "export_compensation",
+  "old": "Legacy Sched. 135: retail net metering to 2045; Sched. 136 (post-Oct 2020 systems): export credit rate per PAC-E-25-02",
+  "new": "Legacy Sched. 135: retail net metering to 2045; Sched. 136 (post-Oct 2020 systems): time-differentiated export credit rate avg 4.2c/kWh per IPUC Order 36845 (2025-11-14)",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "program_status",
+  "old": "Proposed/pending",
+  "new": "Active",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "West",
+  "idx": 81,
+  "utility": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)",
+  "program": "Net Billing Service (Schedule 136) - Export Credit Rate",
+  "field": "last_verified",
+  "old": "2026-09-28",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_W_ref.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "NYISO",
+  "idx": 90,
+  "utility": "New York State Electric & Gas Corp (NYSEG)",
+  "program": "Term Dynamic Load Management (Term-DLM)",
+  "field": "incentive_value_usd",
+  "old": "Incentive Rate that caps maximum annual per-kW compensation was $26.25/kW in the January 2025 RFP (up from $25.50/kW in the December 2023 RFP); actual payment is set by accepted bid",
+  "new": "Incentive Rate cap $25.50/kW-yr (RFP dated 2025-11-27, 2027 vintage); actual payment set by accepted bid",
+  "file": "data/raw/program_chunks/chunk_NY_nyiso_b.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "NYISO",
+  "idx": 90,
+  "utility": "New York State Electric & Gas Corp (NYSEG)",
+  "program": "Term Dynamic Load Management (Term-DLM)",
+  "field": "last_verified",
+  "old": "2026-09-10",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_NY_nyiso_b.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "NYISO",
+  "idx": 91,
+  "utility": "New York State Electric & Gas Corp (NYSEG)",
+  "program": "Auto Dynamic Load Management (Auto-DLM)",
+  "field": "incentive_value_usd",
+  "old": "Incentive Rate that caps maximum annual per-kW compensation was $26.25/kW in the January 2025 RFP (up from $25.50/kW in the December 2023 RFP); actual payment is set by accepted bid",
+  "new": "Incentive Rate cap $25.50/kW-yr (RFP dated 2025-11-27, 2027 vintage); actual payment set by accepted bid",
+  "file": "data/raw/program_chunks/chunk_NY_nyiso_b.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ },
+ {
+  "region": "NYISO",
+  "idx": 91,
+  "utility": "New York State Electric & Gas Corp (NYSEG)",
+  "program": "Auto Dynamic Load Management (Auto-DLM)",
+  "field": "last_verified",
+  "old": "2026-09-10",
+  "new": "2026-10-12",
+  "file": "data/raw/program_chunks/chunk_NY_nyiso_b.csv",
+  "old_note": "old taken from programs.csv log (chunk written in an earlier aborted pass)"
+ }
+]
