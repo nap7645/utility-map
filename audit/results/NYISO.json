@@ -266,11 +266,11 @@
   "utility": "Fairport Electric (Fairport Municipal Commission)",
   "cell_or_program": "res_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://cms9files.revize.com/fairport/electric/Billing/12-1-25%20Billing%20Sheet.pdf",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Billing sheet (eff. 12/1/25): Residential Class 1 = customer charge + seasonal/tiered energy only; no TOU/CPP/PTR/demand. Village electric dept page and Plug-In EV page show no TOU/EV rate or DR."
  },
  {
   "idx": 21,
@@ -279,11 +279,11 @@
   "utility": "Jamestown Board of Public Utilities (BPU)",
   "cell_or_program": "res_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.jamestownnybpu.gov/156/Electric",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. jamestownnybpu.gov returns ROBOTS_DISALLOWED for every page (Electric, Rates, Reliable Power, Customer Handbook). Cannot check."
  },
  {
   "idx": 22,
@@ -292,11 +292,11 @@
   "utility": "Central Hudson Gas & Electric Corp",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.cenhud.com/globalassets/pdf/forms/tou-application.pdf",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "evidence_url": "https://www.cenhud.com/en/my-energy/my-energy-options/time-of-use-billing/",
+  "note": "Re-audit 2026-10-12. Cited TOU application PDF returns a bot-check interstitial (unreadable). Replacement (cenhud.com TOU billing page): large C&I must take hourly pricing for CH supply; medium C&I may opt in -> C&I RTP counts. Source defect: cite the TOU-billing page / hourly pricing, not the residential-oriented TOU application."
  },
  {
   "idx": 23,
@@ -305,11 +305,11 @@
   "utility": "Rockville Centre Electric Department",
   "cell_or_program": "res_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BE0A68098-0000-C75A-A009-5F980FA12D2E%7D",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. RVC 2024-25 EE results report to PSC (dated 2025-08-06): 'The Demand Side Management (DSM) thermostat program reduces the peak demand load when an event is called'; event 2024-07-16, 158 customers."
  },
  {
   "idx": 24,
@@ -318,11 +318,11 @@
   "utility": "Jamestown Board of Public Utilities (BPU)",
   "cell_or_program": "ci_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.publicpower.org/periodical/article/new-general-manager-jamestown-board-public-utilities-details-open-access-fiber-network-project-flex",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. APPA (2026-03-13) quotes GM: flex rate agreements with high-load-factor C&I customers include 'demand response'. Weak: secondary source, one line, no terms; utility site robots-blocked so no primary replacement. Source-quality defect."
  },
  {
   "idx": 25,
@@ -331,11 +331,11 @@
   "utility": "Freeport Electric (Village of Freeport)",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.freeportelectric.com/2180/Electric-Rates",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Rates page and DocumentCenter PDFs return ROBOTS_DISALLOWED; FAQ page readable but has no rate/DR content. Cannot check."
  },
  {
   "idx": 26,
@@ -344,11 +344,11 @@
   "utility": "Jamestown Board of Public Utilities (BPU)",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.jamestownnybpu.gov/156/Electric",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. jamestownnybpu.gov ROBOTS_DISALLOWED. Cannot check."
  },
  {
   "idx": 27,
@@ -357,11 +357,11 @@
   "utility": "Orange & Rockland Utilities Inc (O&R)",
   "cell_or_program": "ci_dispatch",
   "claimed": "Yes",
-  "verdict": "INCONCLUSIVE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/Energy-Storage/2026-01-22-Utility-DLM-Program-Overview.pdf",
-  "note": "Cited NYSERDA DLM PDF has no C&I programs (src defect). Replacement check on oru.com not possible: WebFetch quota exhausted."
+  "evidence_url": "https://www.oru.com/en/save-money/rebates-incentives-credits/new-york-customers/incentives-for-business-customers-ny/demand-response-incentives",
+  "note": "Re-audit 2026-10-12. Cited NYSERDA residential DLM PDF has no C&I content (source defect). Replacement on oru.com: Smart Usage Rewards C&I DR (pre-planned $3/kW-mo; unplanned $3-5/kW-mo; $0.50-1.00/kWh; >50 kW direct, smaller via aggregator). Fix ci_dispatch_src to this URL."
  },
  {
   "idx": 28,
@@ -370,11 +370,11 @@
   "utility": "Rockville Centre Electric Department",
   "cell_or_program": "ci_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BE0A68098-0000-C75A-A009-5F980FA12D2E%7D",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Same report describes the DSM thermostat DR program as residential AND small commercial; Appendix A 'Commercial Thermostat Enrollment' = 0. Weak fit to C&I dispatch (thermostat DLC, zero C&I enrollment). Replacement not needed; RVC Peak Savers page (11-19-25) is appliance rebates only."
  },
  {
   "idx": 29,
@@ -383,11 +383,11 @@
   "utility": "Freeport Electric (Village of Freeport)",
   "cell_or_program": "res_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.freeportelectric.com/2180/Electric-Rates",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Rates page ROBOTS_DISALLOWED. Cannot check."
  },
  {
   "idx": 30,
@@ -396,11 +396,11 @@
   "utility": "Jamestown Board of Public Utilities (BPU)",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.jamestownnybpu.gov/351/Reliable-Power",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. jamestownnybpu.gov ROBOTS_DISALLOWED. Cannot check."
  },
  {
   "idx": 31,
@@ -409,11 +409,11 @@
   "utility": "Central Hudson Gas & Electric Corp",
   "cell_or_program": "res_dispatch",
   "claimed": "Yes",
-  "verdict": "INCONCLUSIVE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/Energy-Storage/2026-01-22-Utility-DLM-Program-Overview.pdf",
-  "note": "Cited NYSERDA PDF says CH residential BYOB only 'launching later in 2026' (not current). Replacement (Peak Perks) unread: WebFetch quota exhausted."
+  "evidence_url": "https://cenhudpeakperks.com/",
+  "note": "Re-audit 2026-10-12. Cited NYSERDA PDF shows CH residential BYOB only as launching later in 2026 (source defect). Replacement Central Hudson Peak Perks site lists Free Sensi Thermostat Program, Bring Your Own Device Program, Outdoor Switch Program (residential device control). Fix res_dispatch_src."
  },
  {
   "idx": 32,
@@ -422,11 +422,11 @@
   "utility": "Fairport Electric (Fairport Municipal Commission)",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://cms9files.revize.com/fairport/electric/Billing/12-1-25%20Billing%20Sheet.pdf",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Classes 3/4 = flat $/kW demand + flat energy, seasonal only; no TOU/RTP. No DR or TOU on Village electric dept page."
  },
  {
   "idx": 33,
@@ -435,11 +435,11 @@
   "utility": "Central Hudson Gas & Electric Corp",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.cenhud.com/en/my-energy/my-energy-options/time-of-use-billing/ev-time-of-use-rate/",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "evidence_url": "https://www.cenhud.com/en/my-energy/my-energy-options/time-of-use-billing/",
+  "note": "Re-audit 2026-10-12. Cited EV-TOU page returns bot-check interstitial (unreadable). Replacement cenhud.com TOU billing page: residential TOU, peak 2-7pm Mon-Fri, 1-yr minimum."
  },
  {
   "idx": 34,
@@ -448,11 +448,11 @@
   "utility": "Plattsburgh Municipal Lighting Department (PMLD)",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "http://cityofplattsburgh.com/sites/cityofplattsburgh.com/files/municipal-lighting-department/TARIFF%20PAGES.pdf",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. PSC No.1 (eff. 01/01/2010) SC 1/2/4/6/7: no interruptible/curtailable/DR rider. MLD dept page: no DR; notes proposed Riders B and C 'which the City of Plattsburgh has no plans to adopt'. Tariff is 2010 vintage."
  },
  {
   "idx": 35,
@@ -461,11 +461,11 @@
   "utility": "Orange & Rockland Utilities Inc (O&R)",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.oru.com/en/accounts-billing/your-bill/time-of-use",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Residential TOU on page (Jun-Sep peak 12-7pm 44.651c etc.)."
  },
  {
   "idx": 36,
@@ -474,11 +474,11 @@
   "utility": "Freeport Electric (Village of Freeport)",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.freeportelectric.com/2180/Electric-Rates",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Rates page ROBOTS_DISALLOWED. Cannot check."
  },
  {
   "idx": 37,
@@ -487,11 +487,11 @@
   "utility": "Rockville Centre Electric Department",
   "cell_or_program": "res_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.rvcny.gov/electric-department/pages/electric-rates",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Residential: customer charge + seasonal tiered energy (500 kWh block), no TOU/demand. 'Peak Savers' link is an appliance rebate program."
  },
  {
   "idx": 38,
@@ -500,11 +500,11 @@
   "utility": "Plattsburgh Municipal Lighting Department (PMLD)",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "http://cityofplattsburgh.com/sites/cityofplattsburgh.com/files/municipal-lighting-department/TARIFF%20PAGES.pdf",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. SC 2/4/6 seasonal only; SC 6 demand window 9am-10pm is a billing-demand window, not a TOU rate. MLD page shows no TOU."
  },
  {
   "idx": 39,
@@ -513,11 +513,11 @@
   "utility": "Rockville Centre Electric Department",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.rvcny.gov/electric-department/pages/electric-rates",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Small commercial flat seasonal energy; large commercial flat energy + $/kW demand (no TOU)."
  },
  {
   "idx": 40,
@@ -1280,11 +1280,11 @@
   "utility": "New York Independent System Operator",
   "cell_or_program": "Behind-the-Meter Net Generation (BTM:NG) Resource - exclusion from DER model",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. FAQ 7: BTM:NG 'routinely serves its host load with an on-site Generation source' which 'precludes' DER model; conversion text and Aggregation Manual 4.3.3 match."
  },
  {
   "idx": 99,
@@ -1293,11 +1293,11 @@
   "utility": "New York State Energy Research and Development Authority (NYSERDA) - statewide",
   "cell_or_program": "NY-Sun Megawatt Block PV Incentive",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "https://www.nyserda.ny.gov/All-Programs/NY-Sun/Contractors/Dashboards",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "correct_value": "source_url -> https://www.nyserda.ny.gov/All-Programs/NY-Sun/Contractors/Dashboards-and-incentives; program_category not Storage-Incentive (PV incentive, no storage on page); adders: Community, Inclusive Community Solar, Statewide Solar for All, Prevailing Wage",
+  "evidence_url": "https://www.nyserda.ny.gov/All-Programs/NY-Sun/Contractors/Dashboards-and-incentives",
+  "note": "Re-audit 2026-10-12. Cited URL .../NY-Sun/Contractors/Dashboards is 404. Replacement (Dashboards-and-incentives) shows regional (Con Edison/Long Island/Upstate) and sector MW blocks, $/W levels only in live dashboards; adders listed are Community, Inclusive Community Solar, Statewide Solar for All, Prevailing Wage (not 'affordable housing and LMI' as row says). Page does not mention storage: category Storage-Incentive (schema: rebate for BESS) and eligible_assets Solar+Storage unsupported. Errors: dead URL, category, adder text. Not a $ error (value blank)."
  },
  {
   "idx": 100,
@@ -1306,11 +1306,11 @@
   "utility": "New York Independent System Operator",
   "cell_or_program": "Targeted Demand Response Program (TDRP)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.nyiso.com/documents/20142/3037451/9-Demand-Response.pdf",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Slide: TDRP effective July 1 2007; Con Ed can request activation; SCR/EDRP resources in Zone J; voluntary; payment per enrolled program; cannot set RT price. Minor: 'Manual 7 Section 6', sub-load-pocket tie and CSP advisory notification not on this deck (2024 training)."
  },
  {
   "idx": 101,
@@ -1332,11 +1332,11 @@
   "utility": "Orange & Rockland Utilities Inc (O&R)",
   "cell_or_program": "Residential Time-of-Use Rate",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.oru.com/en/accounts-billing/your-bill/time-of-use",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. All values match page: 44.651/15.976/2.876c Jun-Sep, 15.976/2.876c Oct-May, $29, 1-yr minimum, 6 holidays, PEV customer-charge note. No effective date on page."
  },
  {
   "idx": 103,
@@ -1345,11 +1345,11 @@
   "utility": "New York Independent System Operator",
   "cell_or_program": "ICAP Spot Market Auction - NYCA / Rest of State (upstate) UCAP price",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://icappublic.nyiso.com/ucap/public/auc_view_spot_detail.do?seasonId=705094&month=08/2026&display=Display",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Spot auction pages (seasonId 705094) May/Jun/Jul/Aug/Sep 2026 NYCA = ROS LSE wtd = 7.92/7.87/4.14/4.53/5.97 $/kW-mo: match. Winter 2025-26 and Summer 2025 values not checked. Minor error in event_limits: ROS/NYC ratio is 0.24 (May, Jun), 0.33 (Jul), 0.37 (Aug), 0.48 (Sep) -> 'one quarter to one fifth' only holds May-Jun. Summer 2025 list omits Sep."
  },
  {
   "idx": 104,
@@ -1358,11 +1358,11 @@
   "utility": "New York State Energy Research and Development Authority (NYSERDA) - statewide",
   "cell_or_program": "Residential Energy Storage Incentive (market rate)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "https://www.nyserda.ny.gov/All-Programs/Energy-Storage-Program/Developers-and-Contractors/Residential-and-Retail-Storage-Incentives/Residential-Dashboard",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "correct_value": "event_limits: utility program enrollment required for applications on/after 4/1/2026 (waiver to 6/1/2026 if manufacturer not onboarded); source_url -> NYSERDA Residential and Retail Energy Storage Program Manual (April 2026)",
+  "evidence_url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/Energy-Storage/Residential-and-Retail-Energy-Storage-Program-Manual.pdf",
+  "note": "Re-audit 2026-10-12. Cited dashboard page shows only that blocks/rates exist by region; none of event_limits claims. Replacement: NYSERDA program manual (April 2026): 25 kWh cap confirmed; utility-program enrollment (National Grid ConnectedSolutions; NYSEG/RG&E Energy Storage Solutions) required for applications on or after APRIL 1, 2026 (waived to June 1 2026 if manufacturer not onboarded), not 3/1/2026; first-come-first-served stated for Retail, not Residential. Not a $ error (value blank)."
  },
  {
   "idx": 105,
@@ -1371,11 +1371,11 @@
   "utility": "Central Hudson Gas & Electric Corp",
   "cell_or_program": "Targeted Demand Response (TDR) Program",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://cenhudpeakperks.com/targeted-demand-response/",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. 'Targeted Demand Response Program', Large C&I, 'Seasonal Capacity Payment $6.825* per kW per month', Jun-Sep, interval metering required, >=50 kW commitment. Minor: row truncates to $6.82 (page $6.825); constrained-area restriction and CSRP exclusion not on page; aggregator-enrolled pay set by aggregator."
  },
  {
   "idx": 106,
@@ -1384,11 +1384,11 @@
   "utility": "Orange & Rockland Utilities Inc (O&R)",
   "cell_or_program": "Auto Dynamic Load Management (Auto-DLM)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B90B1368C-0000-C331-A0EC-CEBAF516BD9E%7D&DocTitle=OandR+2025+Vintage+Year+Term-+and+Auto-DLM+RFP",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. RFP (2025 vintage, issued 2023-12-04): Auto-DLM 10 min notice, 18 h/day 7 d/wk; 3-yr minimum (3-5 yr); pay-as-bid Incentive Rate $/kW-Capability Period. Minor: $1/kWh performance payment omitted from incentive_value_usd; cited RFP is 2 vintages old."
  },
  {
   "idx": 107,
@@ -1397,11 +1397,11 @@
   "utility": "New York State Energy Research and Development Authority (NYSERDA) - statewide",
   "cell_or_program": "Retail Energy Storage Incentive (market rate)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.nyserda.ny.gov/All-Programs/Energy-Storage-Program/Developers-and-Contractors/Residential-and-Retail-Storage-Incentives/Retail-Incentive-Dashboard",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Page: retail systems up to 5 MW, regional MWh blocks, front-of-meter on distribution network. Minor: page lacks BTM / IOU-rate value requirement (program manual frames it as demand-charge or VDER use case with interval data); manual: rate applies to first 4 h of duration, hours 5-6 at 25%, none beyond 6 h - consider adding."
  },
  {
   "idx": 108,
@@ -1410,11 +1410,11 @@
   "utility": "New York Independent System Operator",
   "cell_or_program": "Dual Participation - NYISO Aggregation plus utility DR program (CSRP / DLRP / DLM)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. FAQ 8/9: notify at enrollment (MPUG 1.2), Services Tariff 4.1.11 scheduling, CSRP/DLRP/DLM included, Order 2222 change 'currently scheduled for the end of 2026'. FAQ 3: cannot be DER in Aggregation and SCR/EDRP simultaneously."
  },
  {
   "idx": 109,
@@ -1423,11 +1423,11 @@
   "utility": "Central Hudson Gas & Electric Corp",
   "cell_or_program": "Value Stack (Value of Distributed Energy Resources / VDER) Tariff",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.cenhud.com/en/my-energy/distributed-generation/programs-and-incentives/",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "evidence_url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/NY-Sun/2026-Utility-Published-Customer-Benefit-Contribution-Rates.pdf",
+  "note": "Re-audit 2026-10-12. Cited cenhud.com page returns bot-check interstitial (unreadable). NYSERDA 2026 CBC PDF: Central Hudson Value Stack PV $0.84 res / $1.28 small commercial per kW-mo: match. Source defect: cite NYSERDA CBC PDF (as prior defect #14)."
  },
  {
   "idx": 110,
@@ -1436,11 +1436,11 @@
   "utility": "New York Independent System Operator",
   "cell_or_program": "DER Aggregation - eligibility sizing rules (10 kW DER / 100 kW Aggregation / 20 MW injection cap)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.nyiso.com/documents/20142/2923301/M-38-Aggregation-Final-v1-0.pdf/488117aa-43ec-85c3-423d-4aba592e5895",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Cited M-38 PDF returns ROBOTS_DISALLOWED; replacement nyiso.com/der-aggregations has no sizing rules. Cannot check."
  },
  {
   "idx": 111,
@@ -1449,11 +1449,11 @@
   "utility": "Orange & Rockland Utilities Inc (O&R)",
   "cell_or_program": "Standby Service and Standby Service Rates (Service Classification No. 25)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.oru.com/en/save-money/using-private-generation-energy-sources/private-generation-tariffs",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Cited page confirms standby service exists (Leaf 249) and applicability incl. ESCO retail access and NYPA (Riders B/O). Replacement (O&R private-gen FAQ) confirms electing standby -> Value Stack, no Phase One NEM. Neither page shows 'Service Classification No. 25' or contract-demand/as-used structure (basis for Demand-Charge category). Tariff leaf not checked."
  },
  {
   "idx": 112,
@@ -1462,10 +1462,10 @@
   "utility": "Orange & Rockland Utilities Inc (O&R)",
   "cell_or_program": "Term Dynamic Load Management (Term-DLM)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B90B1368C-0000-C331-A0EC-CEBAF516BD9E%7D&DocTitle=OandR+2025+Vintage+Year+Term-+and+Auto-DLM+RFP",
-  "note": "Not checked: WebFetch weekly limit hit mid-audit."
+  "note": "Re-audit 2026-10-12. Term-DLM fixed 4-h weekday Call Windows, >=21 h notice, 3-yr minimum, pay-as-bid. Unsupported: '2027 vintage year currently solicited' - cited doc is 2025-vintage RFP issued 2023-12-04; replacement search on oru.com found no 2027 RFP. Minor: $1/kWh performance payment omitted."
  }
 ]

@@ -58,11 +58,11 @@
   "utility": "Chugach Electric Association",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.chugachelectric.com/system/files/energy-solutions/TOU%20FAQs.pdf",
+  "note": "TOU Pilot: residential on 21.595c / off 10.833c, 9am-9pm on-peak; 500 res accounts, 5-yr pilot."
  },
  {
   "idx": 5,
@@ -71,11 +71,11 @@
   "utility": "Chugach Electric Association",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "INCONCLUSIVE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.chugachelectric.com/energy-solutions/electric-vehicles",
-  "note": "Site-restricted search found no Chugach DR/load-control program; pages could not be opened (WebFetch quota exhausted), so not confirmed."
+  "evidence_url": "https://www.chugachelectric.com/your-cooperative/regulatory-affairs/north-district",
+  "note": "Retry: rate page (Oct 1 2026), EV page and renewable-generation page list no DR/load-control/battery program; site searches found none."
  },
  {
   "idx": 6,
@@ -84,11 +84,11 @@
   "utility": "Chugach Electric Association",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.chugachelectric.com/system/files/energy-solutions/TOU%20FAQs.pdf",
+  "note": "TOU Pilot open to 500 small general service accounts: on 20.034c / off 10.267c."
  },
  {
   "idx": 7,
@@ -97,11 +97,11 @@
   "utility": "Chugach Electric Association",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "INCONCLUSIVE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.chugachelectric.com/energy-solutions/electric-vehicles",
-  "note": "Site-restricted search found no Chugach DR/load-control program; pages could not be opened (WebFetch quota exhausted), so not confirmed."
+  "evidence_url": "https://www.chugachelectric.com/your-cooperative/regulatory-affairs/north-district",
+  "note": "Retry: rate page lists no interruptible/curtailable schedule; no C&I DR found on chugachelectric.com."
  },
  {
   "idx": 8,
@@ -214,11 +214,11 @@
   "utility": "Matanuska Electric Association",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.mea.coop/innovation/evoffpeakchargingprogram",
+  "note": "'Off-Peak Charging Time of Use Rate Program for EV Members', 11pm-6am, 50% off (EV TOU counts as res time-based). Fully subscribed/waitlist since Oct 2025."
  },
  {
   "idx": 17,
@@ -227,11 +227,11 @@
   "utility": "Matanuska Electric Association",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "INCONCLUSIVE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.mea.coop/power-safety/energy-watch-program",
-  "note": "Site search found only Energy Watch (voluntary conservation alerts, not device control/interruptible); pages unreadable (WebFetch quota exhausted)."
+  "evidence_url": "https://cdn.prod.website-files.com/5fb09132bb96e90cc49a17eb/6a459bb4aadc7c8a54062736_3Q2026%20Rate%20Sheet.pdf",
+  "note": "Retry: 3Q2026 rate sheet has no load-control/interruptible schedule; searches found only Energy Watch (voluntary conservation alerts)."
  },
  {
   "idx": 18,
@@ -240,11 +240,11 @@
   "utility": "Matanuska Electric Association",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://cdn.prod.website-files.com/5fb09132bb96e90cc49a17eb/6a459bb4aadc7c8a54062736_3Q2026%20Rate%20Sheet.pdf",
+  "note": "Cited EV page does not state C&I eligibility. Rate sheet: Single-Phase Off-Peak EV Charging under single-phase service ('most residential and small commercial'); no C&I TOU; Off-Peak Thermal Storage closed. C&I eligibility for the EV off-peak option not shown."
  },
  {
   "idx": 19,
@@ -253,11 +253,11 @@
   "utility": "Matanuska Electric Association",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "INCONCLUSIVE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.mea.coop/power-safety/energy-watch-program",
-  "note": "Site search found only Energy Watch (voluntary conservation alerts, not device control/interruptible); pages unreadable (WebFetch quota exhausted)."
+  "evidence_url": "https://cdn.prod.website-files.com/5fb09132bb96e90cc49a17eb/6a459bb4aadc7c8a54062736_3Q2026%20Rate%20Sheet.pdf",
+  "note": "Retry: rate sheet has no interruptible/curtailable schedule (Large Power Contract is a negotiated service rate, not DR)."
  },
  {
   "idx": 20,
@@ -266,11 +266,11 @@
   "utility": "Alaska Village Electric Cooperative",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://avec.org/customer-service/rates-understanding-your-bill/",
+  "note": "Rates page: residential/small commercial energy+fuel-PCE; no load control or DR program mentioned."
  },
  {
   "idx": 21,
@@ -279,11 +279,11 @@
   "utility": "Golden Valley Electric Association",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.gvea.com/safety/clsp/",
+  "note": "No residential device-control program on gvea.com; Controlled Load Shed Program is an emergency feeder-level rotating outage plan (no opt-in/opt-out, no credit), not DR."
  },
  {
   "idx": 22,
@@ -292,11 +292,11 @@
   "utility": "Homer Electric Association",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "correct_value": "No (General Service Rate 3 and Large General Service Rate 4 are flat energy + plain demand; no C&I TOU/RTP/shifting rate)",
+  "evidence_url": "https://www.homerelectric.com/member-services/my-bill/rates/",
+  "note": "Rate schedule eff. Oct 2026 lists no TOU/off-peak/interruptible/EV rate; homerelectric.com site search found none. Plain demand charge does not count."
  },
  {
   "idx": 23,
@@ -305,11 +305,11 @@
   "utility": "Golden Valley Electric Association",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "correct_value": "No (Residential TOU Pilot only proposed in TA399-13; not on current rates page)",
+  "evidence_url": "https://www.gvea.com/rates-2/current/",
+  "note": "Cited RCA notice (Dec 3 2025) is a request for comment on a proposed pilot, not approval. GVEA current rates page (updated 9/1/2026, interim GS demand $28.60 in effect) lists no residential TOU/time-based rate."
  },
  {
   "idx": 24,
@@ -318,11 +318,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.aelp.com/Energy-Conservation/Electric-Vehicles",
+  "note": "EV off-peak rate (10pm-5am) open to small commercial non-demand customers; Rate 91 off-peak/heat storage also offered to small/large commercial (Current Rates page)."
  },
  {
   "idx": 25,
@@ -331,11 +331,11 @@
   "utility": "Homer Electric Association",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.homerelectric.com/energy-efficiency/commercial/",
+  "note": "Commercial page: self-directed tips only; no interruptible/curtailable/aggregator DR; rates page has no such rider."
  },
  {
   "idx": 26,
@@ -344,11 +344,11 @@
   "utility": "Golden Valley Electric Association",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.gvea.com/rates-2/current/",
+  "note": "No interruptible/curtailable rate on current rates page; CLSP is emergency rotating outages (large members 'asked' to reduce first, no compensation)."
  },
  {
   "idx": 27,
@@ -357,11 +357,11 @@
   "utility": "Kauai Island Utility Cooperative",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://kiuc.coop/tariffs",
+  "note": "Current Tariff No. 1 index lists Schedule 'TOU-S' Residential Service. Schedule PDF not opened (link not resolvable); availability/periods not verified."
  },
  {
   "idx": 28,
@@ -370,11 +370,11 @@
   "utility": "Golden Valley Electric Association",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "correct_value": "No (GS-1/GS-2/GS-3 flat energy + demand; no C&I TOU/RTP/shifting rate)",
+  "evidence_url": "https://www.gvea.com/rates-2/current/",
+  "note": "Cited page lists only flat utility + fuel charges and plain demand charges; plain demand charges do not count per SCAN_SCHEMA."
  },
  {
   "idx": 29,
@@ -383,11 +383,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "res_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.aelp.com/Energy-Conservation/Hot-Water-Switch",
+  "note": "Cited Current Rates page shows no device control (source defect). Replacement on aelp.com: Hot Water Load Control Switch, utility-scheduled water-heater switch, $4 winter credit."
  },
  {
   "idx": 30,
@@ -396,11 +396,11 @@
   "utility": "Alaska Village Electric Cooperative",
   "cell_or_program": "res_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://avec.org/customer-service/rates-understanding-your-bill/",
+  "note": "No residential TOU/off-peak/EV or demand rate; flat energy + fuel cost minus PCE."
  },
  {
   "idx": 31,
@@ -409,11 +409,11 @@
   "utility": "Kauai Island Utility Cooperative",
   "cell_or_program": "ci_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://kiuc.coop/tariffs",
+  "note": "Tariff No. 1 lists Rider 'I' Interruptible Contract Service (C&I interruptible). Rider PDF not opened; terms not verified."
  },
  {
   "idx": 32,
@@ -422,11 +422,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "ci_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.aelp.com/Energy-Conservation/Cost-of-Power-Adjustment",
+  "note": "Cited Current Rates page lists Rate 25 Commercial & Government Dual Fuel but no interruptible language (source defect). Replacement aelp.com COPA page: interruptible customers' sales stopped in dry periods to preserve hydro for firm customers."
  },
  {
   "idx": 33,
@@ -435,11 +435,11 @@
   "utility": "Alaska Village Electric Cooperative",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://avec.org/customer-service/rates-understanding-your-bill/",
+  "note": "Commercial: energy+fuel and demand charge for demand-metered service only; no TOU/shifting rate. 'Non-Firm Power' table unspecified (likely QF purchase)."
  },
  {
   "idx": 34,
@@ -448,11 +448,11 @@
   "utility": "Homer Electric Association",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.homerelectric.com/energy-efficiency/residential-energy-saving/",
+  "note": "No residential load-control/thermostat/BYOD program on cited page, rates page, or homerelectric.com site search."
  },
  {
   "idx": 35,
@@ -461,11 +461,11 @@
   "utility": "Homer Electric Association",
   "cell_or_program": "res_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.homerelectric.com/member-services/my-bill/rates/",
+  "note": "Residential: flat $0.17825/kWh + COPA; no TOU/EV/demand rate."
  },
  {
   "idx": 36,
@@ -595,7 +595,7 @@
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://puc.hawaii.gov/wp-content/uploads/2023/12/DPS-Phase-3-Decision-and-Order-Summary.pdf",
-  "note": "$ values match PUC summary ($100/kW up to $500, $1,000 LMI; $5/kW-mo). Status 'Terminated/Closed' not shown on cited source; not independently verified."
+  "note": "$ values match PUC summary ($100/kW up to $500, $1,000 LMI; $5/kW-mo). Status 'Terminated/Closed' not shown on cited source; not independently verified. Retry 2026-10-12: HECO BYOD Plus flyer (launch May 15 2025) and 4/1/2024 framework release do not state BYOD Level 1 closed/terminated; still INCONCLUSIVE."
  },
  {
   "idx": 46,
@@ -608,7 +608,7 @@
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://puc.hawaii.gov/wp-content/uploads/2023/12/DPS-Phase-3-Decision-and-Order-Summary.pdf",
-  "note": "As idx45: $ match; termination status unsupported by source."
+  "note": "As idx45: $ match; termination status unsupported by source. Retry 2026-10-12: HECO BYOD Plus flyer (launch May 15 2025) and 4/1/2024 framework release do not state BYOD Level 1 closed/terminated; still INCONCLUSIVE."
  },
  {
   "idx": 47,
@@ -621,7 +621,7 @@
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://puc.hawaii.gov/wp-content/uploads/2023/12/DPS-Phase-3-Decision-and-Order-Summary.pdf",
-  "note": "As idx45: $ match; termination status unsupported by source."
+  "note": "As idx45: $ match; termination status unsupported by source. Retry 2026-10-12: HECO BYOD Plus flyer (launch May 15 2025) and 4/1/2024 framework release do not state BYOD Level 1 closed/terminated; still INCONCLUSIVE."
  },
  {
   "idx": 48,
@@ -968,11 +968,11 @@
   "utility": "Chugach Electric Association",
   "cell_or_program": "Time of Use Pilot Program (Residential Time of Use Pricing Pilot)",
   "claimed": "Residential on 21.595c / off 10.833c per kWh (standard 16.182c); Small GS on 20.034c / off 10.267c (standard 15.145c); energy charge only",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.chugachelectric.com/system/files/energy-solutions/TOU%20FAQs.pdf",
+  "note": "Name, TOU-Rate, res+SGS, all six c/kWh, 9am-9pm, caps 500/500/100, 5-yr, net-metering netting per period, CS/budget billing exclusions match. Application window Oct 1-Nov 30 2026 and Jan 1 2027 start not on cited PDF (unverified, not refuted)."
  },
  {
   "idx": 75,
@@ -981,11 +981,11 @@
   "utility": "Chugach Electric Association",
   "cell_or_program": "Net Metering Service (member-installed renewable generation)",
   "claimed": "Excess kWh credited at non-firm buyback rate, carried forward; purchased power rate for QFs eff. July 1 2026 (North District page): secondary 6.831c / primary 6.781c / transmission 6.733c per kWh vs residential all-in retail 20.89c",
-  "verdict": "NOT_DONE",
-  "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "verdict": "REFUTED",
+  "wrong_dollar": true,
+  "correct_value": "QF purchased power rate eff. Oct 1 2026: secondary 6.553c / primary 6.504c / transmission 6.412c per kWh; residential all-in 21.0338c",
+  "evidence_url": "https://www.chugachelectric.com/your-cooperative/regulatory-affairs/north-district",
+  "note": "$270 fee and Sheet 89.3 confirmed on cited page; buyback figures are the superseded July 1 2026 values (North District page now Oct 1 2026). 25 kW limit and 5% cap not on cited page."
  },
  {
   "idx": 76,
@@ -994,11 +994,11 @@
   "utility": "Chugach Electric Association",
   "cell_or_program": "EV Charging Incentive Programs (Residential; Commercial L2; Commercial DC Fast)",
   "claimed": "Residential $200 per L2 charger (max 2/account); Commercial L2 up to $1,000 (max 2); Commercial DCFC up to $5,000 (max 2)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.chugachelectric.com/energy-solutions/electric-vehicles",
+  "note": "$200 res L2 (max 2), commercial L2 up to $1,000 (max 2), DCFC up to $5,000 (max 2), bill credit after install; listed under Current EV Incentive Programs. Category EV-Rate is closest schema fit for a charger rebate."
  },
  {
   "idx": 77,
@@ -1007,11 +1007,11 @@
   "utility": "Chugach Electric Association",
   "cell_or_program": "Large General Service (secondary / primary) demand rates",
   "claimed": "Eff. July 1 2026 (North District): LGS Secondary $38.38/kW + 7.68c/kWh all-in, cust chg $31.99; LGS Primary $47.07/kW + 7.60c/kWh, cust chg $20.06. Residential all-in 20.89c/kWh; Small GS 19.86c/kWh",
-  "verdict": "NOT_DONE",
-  "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "verdict": "REFUTED",
+  "wrong_dollar": true,
+  "correct_value": "Eff. Oct 1 2026: LGS Secondary $38.38/kW + 7.8228c/kWh all-in, $31.99; LGS Primary $47.07/kW + 7.7388c/kWh, $20.06; Residential all-in 21.0338c; SGS 19.9968c",
+  "evidence_url": "https://www.chugachelectric.com/your-cooperative/regulatory-affairs/north-district",
+  "note": "Demand and customer charges correct; all-in energy and res/SGS figures stale (July 1 values, superseded Oct 1 2026)."
  },
  {
   "idx": 78,
@@ -1020,11 +1020,11 @@
   "utility": "Matanuska Electric Association",
   "cell_or_program": "Single-Phase Off-Peak EV Charging Service (EV Time of Use Rate)",
   "claimed": "Off-peak EV energy $0.07513/kWh (3Q 2026) vs standard $0.15025/kWh first 1,300 kWh; COPA $0.10195/kWh applies to all kWh",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://cdn.prod.website-files.com/5fb09132bb96e90cc49a17eb/6a459bb4aadc7c8a54062736_3Q2026%20Rate%20Sheet.pdf",
+  "note": "Cited page: 11pm-6am, 500 kWh option 1 / unlimited option 2, waitlist since Oct 2025, '50% off'. $0.07513 vs $0.15025 and COPA $0.10195 from 3Q2026 rate sheet (cited page has no $ figure). Tariff TA558-18 not shown."
  },
  {
   "idx": 79,
@@ -1033,11 +1033,11 @@
   "utility": "Matanuska Electric Association",
   "cell_or_program": "Net Metering Program (<=25 kW)",
   "claimed": "Monthly excess credited at Small Facility Power Purchase Rate $0.08343/kWh (3Q 2026) vs retail ~$0.25/kWh all-in",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://cdn.prod.website-files.com/5fb09132bb96e90cc49a17eb/6a459bb4aadc7c8a54062736_3Q2026%20Rate%20Sheet.pdf",
+  "note": "Cited page confirms <=25 kW, member owned/leased, SFPPR credit, no app fee, QF-1. $0.08343 not on cited page; found on MEA 3Q2026 rate sheet (source defect: cite rate sheet for $)."
  },
  {
   "idx": 80,
@@ -1046,11 +1046,11 @@
   "utility": "Matanuska Electric Association",
   "cell_or_program": "Three-Phase Service (demand rate)",
   "claimed": "3Q 2026: $9.29/kW + $0.10302/kWh + COPA $0.10195/kWh; facilities $30/mo. Standby & Buyback: generation demand $14.59/kW, standby reservation $23.56/kW",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://cdn.prod.website-files.com/5fb09132bb96e90cc49a17eb/6a459bb4aadc7c8a54062736_3Q2026%20Rate%20Sheet.pdf",
+  "note": "$9.29/kW, $0.10302/kWh, COPA $0.10195, $30/mo; standby $14.59 / $23.56 per kW match."
  },
  {
   "idx": 81,
@@ -1059,11 +1059,11 @@
   "utility": "Matanuska Electric Association",
   "cell_or_program": "Off-Peak Thermal Storage rate",
   "claimed": "$0.03688/kWh energy + $13.00/mo customer charge (3Q 2026)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://cdn.prod.website-files.com/5fb09132bb96e90cc49a17eb/6a459bb4aadc7c8a54062736_3Q2026%20Rate%20Sheet.pdf",
+  "note": "$0.03688/kWh + $13.00/mo; 'no longer available to new applicants'."
  },
  {
   "idx": 82,
@@ -1072,11 +1072,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "Rate 91 Off-Peak / Heat Storage service",
   "claimed": "$0.0875/kWh (all seasons) + customer charge $9.20 res / $15.31 small comm / $25.71 large comm per month (eff. July 1 2026)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.aelp.com/Customer-Service/Rates-Billing/Current-Rates",
+  "note": "$0.0875/kWh both seasons; $9.20/$15.31/$25.71; 10pm-6am. Page now labelled eff. Oct 1 2026 (values unchanged)."
  },
  {
   "idx": 83,
@@ -1085,11 +1085,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "Rate 92 Residential Heat Pump Service",
   "claimed": "Eff. July 1 2026: $11.48/kW (Nov-May) / $7.00/kW (Jun-Oct) + $0.0593 / $0.0538 per kWh; $12.89/mo",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.aelp.com/Customer-Service/Rates-Billing/Current-Rates",
+  "note": "$11.48/$7.00 per kW, $0.0593/$0.0538, $12.89 match (page eff. Oct 1 2026, unchanged)."
  },
  {
   "idx": 84,
@@ -1098,11 +1098,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "Rate 26R/26S/26L Experimental High Power EV Charging Service",
   "claimed": "Eff. July 1 2026: 26R $0.2432/$0.1652 per kWh; 26S $0.2759/$0.2012; 26L $0.2944/$0.2087 (Nov-May / Jun-Oct)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.aelp.com/Customer-Service/Rates-Billing/Current-Rates",
+  "note": "26R/26S/26L energy rates match; 'experimental'."
  },
  {
   "idx": 85,
@@ -1111,11 +1111,11 @@
   "utility": "Golden Valley Electric Association",
   "cell_or_program": "Residential Time of Use Pilot Program (proposed)",
   "claimed": "Proposed/pending",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/Attachment.aspx?id=158561",
+  "note": "TA399-13 notice: <=500 residential members, three daily periods, hours not given, approval pending. Status Proposed/pending correct."
  },
  {
   "idx": 86,
@@ -1124,11 +1124,11 @@
   "utility": "Kauai Island Utility Cooperative",
   "cell_or_program": "Schedule Q Modified - Purchase from Qualified Facilities 100 kW or less",
   "claimed": "2025 filing annual incremental avoided cost: avg $187.52/MWh (on-peak $181.48, off-peak $192.22); monthly avg range $170.93-$200.58/MWh",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://kiuc.coop/sites/default/files/2025-05/2-2025-schedule-q.pdf",
+  "note": "$187.52 avg, $181.48 on, $192.22 off, $170.93-$200.58/MWh match (2025 filing, as labelled). Curtailment/right-size/ESS rules not on cited PDF (secondary sourced). Check for a 2026 filing."
  },
  {
   "idx": 87,
@@ -1137,11 +1137,11 @@
   "utility": "Homer Electric Association",
   "cell_or_program": "Large General Service (Rate 4) demand rate",
   "claimed": "Eff. July 2026: $23.981/kW + $0.11657/kWh energy + COPA $0.10323/kWh; $50/mo customer charge; min demand charge $479.62",
-  "verdict": "NOT_DONE",
-  "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "verdict": "REFUTED",
+  "wrong_dollar": true,
+  "correct_value": "Eff. Oct 2026: $23.981/kW + $0.11657/kWh + COPA $0.11763/kWh; $50/mo; min demand $479.62 (20 kW); 20-1,000 kW",
+  "evidence_url": "https://www.homerelectric.com/member-services/my-bill/rates/",
+  "note": "All figures match except COPA: claimed $0.10323 (Jul 2026) superseded by $0.11763 on current schedule."
  },
  {
   "idx": 88,
@@ -1150,11 +1150,11 @@
   "utility": "Golden Valley Electric Association",
   "cell_or_program": "GS-2 / GS-3 general service demand rates",
   "claimed": "As of 9/1/2026 (interim): GS-2 $28.60/kW + $0.05737 utility + $0.18049 fuel & purchased power per kWh; GS-3 $38.61/kW + $0.01615 + $0.18049. Proposed permanent (TA399-13) load-factor-tiered GS-2(S) $29.77-$33.77/kW",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.gvea.com/rates-2/current/",
+  "note": "GS-2 $28.60/kW + $0.05737 + $0.18049; GS-3 $38.61/kW + $0.01615 match; proposed $29.77-$33.77 tiers match TA399-13 notice. Page does not label rates interim."
  },
  {
   "idx": 89,
@@ -1163,11 +1163,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "Hot Water Load Control Switch",
   "claimed": "$4 rebate on winter electric bills",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.aelp.com/Energy-Conservation/Hot-Water-Switch",
+  "note": "$4 winter bill credit; default emergency-only <30-min delayed restart; optional Day/Night schedules."
  },
  {
   "idx": 90,
@@ -1176,11 +1176,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "Rate 93 Electric Vehicle Rate (off-peak EV charging) and Rate 94 EV Equipment Rate",
   "claimed": "Eff. July 1 2026: Rate 93 residential $0.0671 (Nov-May) / $0.0586 (Jun-Oct) per kWh; commercial $0.0762 / $0.0675; Rate 94 charger+meter rental $12.08/mo",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.aelp.com/Customer-Service/Rates-Billing/Current-Rates",
+  "note": "Cited EV page confirms 10pm-5am, L2 on separate meter, res + small commercial non-demand; $ not on cited page but Current Rates page shows 93 res $0.0671/$0.0586, comm $0.0762/$0.0675, 94 $12.08 - all match."
  },
  {
   "idx": 91,
@@ -1189,11 +1189,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "Seasonal demand rates (Rate 10-D residential, 20-D small commercial, 24 large commercial)",
   "claimed": "Eff. July 1 2026: 10-D $12.86/$7.77 per kW + 6.71c/5.86c; 20-D $14.58/$9.75 per kW + 7.62c/6.75c; 24 $16.38/$10.43 per kW + 7.00c/6.58c (Nov-May / Jun-Oct)",
-  "verdict": "NOT_DONE",
-  "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "verdict": "REFUTED",
+  "wrong_dollar": true,
+  "correct_value": "COPA ($0.006296)/kWh credit (eff. Oct 1 2026); demand/energy figures correct",
+  "evidence_url": "https://www.aelp.com/Customer-Service/Rates-Billing/Current-Rates",
+  "note": "10-D, 20-D, 24 demand and energy values all match. peak_offpeak_rates cell 'COPA $0.000758/kWh' is wrong: page shows COPA ($0.006296) (a credit)."
  },
  {
   "idx": 92,
@@ -1202,11 +1202,11 @@
   "utility": "Alaska Electric Light & Power (AEL&P)",
   "cell_or_program": "Rate 95 Residential Dual Fuel / Rate 25 Commercial & Government Dual Fuel (interruptible heating)",
   "claimed": "$0.1022/kWh (Jul-Sep 2026); COPA not applied",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.aelp.com/Customer-Service/Rates-Billing/Current-Rates",
+  "note": "$0.1022/kWh matches; COPA not applied to 95/25 matches. Page labels it Oct-Dec (row says Jul-Sep; update label). Interruptible nature from aelp.com COPA page."
  },
  {
   "idx": 93,
@@ -1215,11 +1215,11 @@
   "utility": "Golden Valley Electric Association",
   "cell_or_program": "Direct Current Fast Charging Stations rate",
   "claimed": "Current $0.17508/kWh; interim $0.18799/kWh; proposed permanent $0.21361/kWh (TA399-13)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/Attachment.aspx?id=158561",
+  "note": "$0.17508 / $0.18799 / $0.21361 match the notice. 'Current' label is as of Dec 2025; interim rates now appear in effect, so $0.18799 is likely the current DCFC rate (not shown on gvea.com rates page)."
  },
  {
   "idx": 94,
@@ -1228,11 +1228,11 @@
   "utility": "Homer Electric Association",
   "cell_or_program": "Net Metering Program",
   "claimed": "Excess kWh credited at SFPPR $0.09733/kWh eff. July 1 2026 (quarterly, RCA-approved) vs residential energy $0.17825 + COPA $0.10323 per kWh; credits carry forward and are transferable",
-  "verdict": "NOT_DONE",
-  "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "verdict": "REFUTED",
+  "wrong_dollar": true,
+  "correct_value": "SFPPR $0.09733/kWh eff. Jul 1 2026 (correct); residential energy $0.17825 + COPA $0.11763 per kWh (Oct 2026)",
+  "evidence_url": "https://www.homerelectric.com/energy-efficiency/net-metering/",
+  "note": "SFPPR, 0.4-25 kW, all retail members, transferable credits, inspection + PPIA, Sheet 87.1 / 28.1-28.2 confirmed. Stale COPA $0.10323 in export_compensation cell (rates page now $0.11763). Carry-forward not stated on page."
  },
  {
   "idx": 95,
@@ -1241,11 +1241,11 @@
   "utility": "Golden Valley Electric Association",
   "cell_or_program": "Net Metering Program (SNAP Plus; Rule 17)",
   "claimed": "Excess kWh credited at avoided cost $0.13726/kWh (eff. Sep 1-Nov 30 2026; adjusted Mar/Jun/Sep/Dec 1) vs residential effective retail $0.34559/kWh + $22.50/mo",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://www.gvea.com/services/programs-services/snap-net-metering/",
+  "note": "$0.13726 eff. Sep 1-Nov 30, quarterly Mar/Jun/Sep/Dec, <=25 kW, $65 fee eff. Nov 1 2025, Rule 17 match; $0.34559 = res utility+fuel+reg+ERO per rates page. 'SNAP Plus' name not on page."
  },
  {
   "idx": 96,
@@ -1254,10 +1254,10 @@
   "utility": "Kauai Island Utility Cooperative",
   "cell_or_program": "Medical Device Power Backup Rebate Program",
   "claimed": "Up to $200 toward qualifying battery backup or portable generator",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "WebFetch weekly quota exhausted mid-audit; item not verified."
+  "evidence_url": "https://kauainownews.com/2026/01/05/kauai-island-utility-cooperative-offers-new-rebates-for-medical-device-power-backup/",
+  "note": "Up to $200, battery backup or portable generator, Elderly & Life Support application required; offered Jan 2026. Secondary source only (confidence=Secondary is correct)."
  }
 ]

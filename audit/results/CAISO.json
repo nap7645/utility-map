@@ -110,11 +110,11 @@
   "utility": "San Diego Gas & Electric Co (SDG&E)",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.sdge.com/sites/default/files/regulatory/1-1-26%20Schedule%20TOU-DR1%20Total%20Rates%20Table.pdf",
+  "note": "Schedule TOU-DR1 Residential Time of Use Service, eff 1/1/2026, standard residential schedule."
  },
  {
   "idx": 9,
@@ -123,11 +123,11 @@
   "utility": "San Diego Gas & Electric Co (SDG&E)",
   "cell_or_program": "res_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.sdge.com/residential/savings-center/energy-saving-programs/reduce-your-use/demand-response-residential-programs/ELRP",
+  "note": "ELRP A.4: approved home battery discharged via manufacturer on CAISO EEA events, 4-9pm May-Oct (BYOD battery dispatch)."
  },
  {
   "idx": 10,
@@ -136,11 +136,11 @@
   "utility": "San Diego Gas & Electric Co (SDG&E)",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.sdge.com/sites/default/files/elec_elec-scheds_al-tou.pdf",
+  "note": "AL-TOU General Service - Time Metered, >=20 kW, on/off/super-off-peak energy periods."
  },
  {
   "idx": 11,
@@ -162,11 +162,11 @@
   "utility": "Central Coast Community Energy (3CE)",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://3cenergy.org/rebates/hourly-flex-pricing-pilot/",
+  "note": "HFP pilot w/ PG&E: hourly market-based prices, residential E-ELEC/EV2-A eligible, runs through late 2027, enrollment links live."
  },
  {
   "idx": 13,
@@ -175,11 +175,11 @@
   "utility": "Central Coast Community Energy (3CE)",
   "cell_or_program": "res_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "correct_value": "res_dispatch=No (until the Lunar VPP is enrolling)",
+  "evidence_url": "https://3cenergy.org/rebates/residential-battery-rebate-program/",
+  "note": "Cited page: '3CE cannot control your battery system'; rebate requires load-shift tracking only; VPP 'anticipated to launch in Fall 2026'. Replacement search (3cenergy.org, logged as source defect): 2026-06-24 Lunar Energy release says VPP 'will jointly develop and deploy', no open enrollment. No live device-control program shown."
  },
  {
   "idx": 14,
@@ -188,11 +188,11 @@
   "utility": "Central Coast Community Energy (3CE)",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://3cenergy.org/rebates/hourly-flex-pricing-pilot/",
+  "note": "HFP eligible business rates B6/B10/B19/B20 and ag rates; hourly pricing."
  },
  {
   "idx": 15,
@@ -201,11 +201,11 @@
   "utility": "City of Anaheim Public Utilities",
   "cell_or_program": "res_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "https://www.anaheim.net/DocumentCenter/View/25947/Developmental-Schedule-D-TOU-2-050119",
-  "note": "WebFetch quota exhausted. LEAD: anaheim.net hosts 'Developmental Schedule D-TOU-2' (domestic TOU) - likely refutes No; not opened."
+  "correct_value": "res_habit=Yes; src = Anaheim rate book Schedule TOU-2 Domestic Time-of-Use (on-peak 4-9pm weekdays) and D-EV",
+  "evidence_url": "https://local.anaheim.net/docs_agend/questys_pub/40932/40962/40963/41099/41102/2.%20Current%20Electric%20Rates,%20Rules%20and%20Regulations%20Rate%20Schedules%20and%20Rule%20Nos.%2026%20and%202941102.pdf",
+  "note": "Utility's own rate book (council attachment, pages eff. to 04-03-23) has TOU-2 Domestic TOU 4-9pm; anaheim.net/5730 battery page also requires 'Customer agrees to be on a Time of Use rate'."
  },
  {
   "idx": 16,
@@ -214,11 +214,11 @@
   "utility": "City of Anaheim Public Utilities",
   "cell_or_program": "res_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.anaheim.net/5920/myPower-Savings",
+  "note": "anaheim.net/5920 and DR FAQ PDF blocked (robots disallowed). Battery page 5730 references 'MyPower Savings Program' but does not say whether a device is controlled."
  },
  {
   "idx": 17,
@@ -227,11 +227,11 @@
   "utility": "City of Anaheim Public Utilities",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "correct_value": "ci_habit=Yes; src = Anaheim Schedule TOU (commercial, >=500 kW, on-peak 4-9pm summer weekdays) / D-TOU-L / TES",
+  "evidence_url": "https://local.anaheim.net/docs_agend/questys_pub/40932/40962/40963/41099/41102/2.%20Current%20Electric%20Rates,%20Rules%20and%20Regulations%20Rate%20Schedules%20and%20Rule%20Nos.%2026%20and%202941102.pdf",
+  "note": "Rate book lists Schedule TOU (eff 04-03-23) for >=500 kW with 4-9pm on-peak, plus TES thermal storage load-shift schedule."
  },
  {
   "idx": 18,
@@ -240,11 +240,11 @@
   "utility": "City of Anaheim Public Utilities",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://local.anaheim.net/docs_agend/questys_pub/40932/40962/40963/41099/41102/2.%20Current%20Electric%20Rates,%20Rules%20and%20Regulations%20Rate%20Schedules%20and%20Rule%20Nos.%2026%20and%202941102.pdf",
+  "note": "No interruptible/curtailable/CPP schedule in rate book or rate TOC; anaheim.net search for business DR found only UPS/lighting/custom EE rebates."
  },
  {
   "idx": 19,
@@ -253,11 +253,11 @@
   "utility": "Lassen Municipal Utility District",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.lmud.org/my-account/rates/",
+  "note": "Rates page: 1010 residential, 1020/1025/1070 GS/demand/industrial, 1030 ag, NEM. No TOU/CPP/RTP for C&I."
  },
  {
   "idx": 20,
@@ -266,11 +266,11 @@
   "utility": "Silicon Valley Power (City of Santa Clara)",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.siliconvalleypower.com/businesses/save-money",
+  "note": "Business save-money page and siliconvalleypower.com search show EE/controls/data-center rebates only; no curtailment/interruptible/DR program."
  },
  {
   "idx": 21,
@@ -279,11 +279,11 @@
   "utility": "Riverside Public Utilities",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.riversideca.gov/utilities/residents/our-energy/flex-alerts",
+  "note": "Flex Alerts page is voluntary conservation only; riversideca.gov search (rebates, thermostat, battery) shows EE/heat-pump rebates, no device-control DR."
  },
  {
   "idx": 22,
@@ -292,11 +292,11 @@
   "utility": "Bear Valley Electric Service, Inc. (Golden State Water)",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.bvesinc.com/customer-service/rates-regulations/general-rate-schedules",
+  "note": "Lists General Service - TOU (A-4) and A-5 TOU Primary/Secondary, 09/01/2026 sheets."
  },
  {
   "idx": 23,
@@ -305,11 +305,11 @@
   "utility": "City of Banning Electric Utility (BEU)",
   "cell_or_program": "ci_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "correct_value": "ci_dispatch=No (unless a C&I curtailment program is found); IW-1 is a City water-system well rate",
+  "evidence_url": "https://www.banningca.gov/DocumentCenter/View/9922/Interuptible-Well-Service-Rate-Schedule---Effective-January-1-2022",
+  "note": "IW-1 'Interruptible Well Service (Wells...)': for pumping water for the City's water system; no notice/duration/credit terms; only generator use during Flex Alerts. Not a C&I DR offering. banningca.gov search found no other interruptible/DR. Borderline."
  },
  {
   "idx": 24,
@@ -318,11 +318,11 @@
   "utility": "Pasadena Water and Power",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://pwp.cityofpasadena.net/wp-content/uploads/2025/09/Summary-Rates-2025_10.pdf",
+  "note": "Cited municode URL renders no text (JS shell) - source defect. Replacement PWP rate card 10/2025: R-1/R-2 residential TOU option on 17.98c / off 11.93c."
  },
  {
   "idx": 25,
@@ -331,11 +331,11 @@
   "utility": "Riverside Public Utilities",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://riversideca.gov/utilities/sites/riversideca.gov.utilities/files/pdf/rates-electric/2024/Electric%20Schedule%20DTOU%20-%20Effective%2001-1-24%20Final.pdf",
+  "note": "Schedule D-TOU domestic TOU, single-family, eff 1/1/2024; on-peak summer 2-7pm, winter 4-9pm."
  },
  {
   "idx": 26,
@@ -344,11 +344,11 @@
   "utility": "Lassen Municipal Utility District",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.lmud.org/customer-services/rebates/business-rebates/",
+  "note": "Business rebates are EE only (HVAC, lighting, kitchen, custom); rate page has no interruptible/curtailable schedule."
  },
  {
   "idx": 27,
@@ -357,11 +357,11 @@
   "utility": "Alameda Municipal Power",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "https://www.alamedamp.com/393/TOU-Time-of-Use-Rate-for-EV-Owners",
-  "note": "WebFetch quota exhausted. Not opened. (AMP has EV TOU page - relevant to res_habit, not this cell.)"
+  "evidence_url": "https://www.alamedamp.com/407/Rebates-and-Incentives",
+  "note": "Residential rebates are one-time purchase incentives (thermostats, EV chargers, HP etc.); no DR/device control/VPP."
  },
  {
   "idx": 28,
@@ -370,11 +370,11 @@
   "utility": "Riverside Public Utilities",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
+  "correct_value": "ci_habit=Yes; src = https://www.riversideca.gov/utilities/sites/riversideca.gov.utilities/files/pdf/rates-electric/2024/Electric%20Schedule%20TOU%20-%20Effective%2001-1-24%20Final.pdf",
   "evidence_url": "https://www.riversideca.gov/utilities/sites/riversideca.gov.utilities/files/pdf/rates-electric/2024/Electric%20Schedule%20TOU%20-%20Effective%2001-1-24%20Final.pdf",
-  "note": "WebFetch quota exhausted. LEAD: Riverside 'Electric Schedule TOU eff 01-1-24' (separate from domestic DTOU) - likely C&I TOU, would refute No; not opened."
+  "note": "Schedule TOU Large General & Industrial, >=150 kW, eff 1/1/2024: on-peak 12-6pm summer wkdays, 5-9pm winter. Listed on Electric Rules & Rates page."
  },
  {
   "idx": 29,
@@ -383,11 +383,11 @@
   "utility": "Bear Valley Electric Service, Inc. (Golden State Water)",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.bvesinc.com/assets/documents/rates/09012026/schedule-tou-ev1.pdf",
+  "note": "Cited index page shows no residential TOU by label; replacement (own site, source defect): TOU-EV-1 for single-family on D/DO, on-peak 4-10pm summer, eff 9/1/2026 AL 549-E."
  },
  {
   "idx": 30,
@@ -396,11 +396,11 @@
   "utility": "Azusa Light & Water",
   "cell_or_program": "ci_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://azusaca.gov/570/Commercial",
+  "note": "Cited ci.azusa.ca.us/575 robots-blocked (source defect). Replacement azusaca.gov/570: Schedule TOU 'Time-of-Use General Service Demand Metered', mandatory >200 kW."
  },
  {
   "idx": 31,
@@ -409,11 +409,11 @@
   "utility": "Turlock Irrigation District (TID)",
   "cell_or_program": "res_dispatch",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.tid.org/energysync/",
+  "note": "TID adjusts enrolled thermostats 1-4 F during grid events, weekdays 12-9pm; home central AC/HP."
  },
  {
   "idx": 32,
@@ -422,11 +422,11 @@
   "utility": "Lassen Municipal Utility District",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.lmud.org/customer-services/rebates/residential-rebates/smart-thermostat/",
+  "note": "$30 mail-in purchase rebate only (mercury thermostat replacement); no DR enrollment or AC cycling."
  },
  {
   "idx": 33,
@@ -435,11 +435,11 @@
   "utility": "Alameda Municipal Power",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.alamedamp.com/DocumentCenter/View/1476/A2-Rate-Schedule-Effective-2025-7-1",
+  "note": "A-2 (eff 7/1/2025) and A-3 flat energy + 15-min max demand, no TOU periods. AMP TOU page is EV-owner (residential) only."
  },
  {
   "idx": 34,
@@ -448,11 +448,11 @@
   "utility": "Riverside Public Utilities",
   "cell_or_program": "ci_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "REFUTED",
   "wrong_dollar": false,
-  "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "correct_value": "ci_dispatch=Yes (borderline: unpaid voluntary curtailment); src = https://riversideca.gov/utilities/utilities/businesses/power-partners",
+  "evidence_url": "https://riversideca.gov/utilities/utilities/businesses/power-partners",
+  "note": "Power Partner Program: businesses agree to 'voluntarily shed or shift a specific amount' of load on request Jul-Oct. No payment shown. No interruptible schedule in rate list. Borderline under SCAN_SCHEMA; flag for reviewer."
  },
  {
   "idx": 35,
@@ -461,11 +461,11 @@
   "utility": "Colton Electric Utility",
   "cell_or_program": "res_habit",
   "claimed": "Yes",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.coltonca.gov/975/Time-of-Use-Calendar",
+  "note": "TOU calendar page does not say which customer classes it applies to; current rates PDF (DocumentCenter 9648) robots-blocked. Residential TOU not shown."
  },
  {
   "idx": 36,
@@ -474,11 +474,11 @@
   "utility": "Lompoc Electric Utility",
   "cell_or_program": "ci_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.cityoflompoc.com/government/departments/utilities/utility-service-information/electric-rate-information",
+  "note": "Commercial schedules A-1, A-12 (demand metered), A-13 EDR; no TOU/CPP. (Note: CUR-1 Firm Curtailable Load Purchase Rate exists - relevant to ci_dispatch, not this cell.)"
  },
  {
   "idx": 37,
@@ -487,11 +487,11 @@
   "utility": "Pasadena Water and Power",
   "cell_or_program": "res_dispatch",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://pwp.cityofpasadena.net/smartthermostatrebate/",
+  "note": "Smart thermostat rebate is purchase-only, no DR enrollment. PWP site search: solar+battery rebate pilot (Apr 2026, up to $550/kWh) states no dispatch requirement; flex alert page voluntary."
  },
  {
   "idx": 38,
@@ -500,11 +500,11 @@
   "utility": "Lompoc Electric Utility",
   "cell_or_program": "res_habit",
   "claimed": "No",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.cityoflompoc.com/government/departments/utilities/utility-service-information/electric-rate-information",
+  "note": "Residential D-1, D-2 only; no TOU/EV TOU/CPP."
  },
  {
   "idx": 39,
@@ -539,11 +539,11 @@
   "utility": "San Diego Gas & Electric Co (SDG&E)",
   "cell_or_program": "Solar Billing Plan (Net Billing Tariff)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.sdge.com/solar/solar-billing-plan",
+  "note": "SBP: CPUC-approved Dec 2022, export credits set hour by hour by CPUC; residential on EV-TOU-5, commercial stays on existing rate; current. Page does not name ACC (minor)."
  },
  {
   "idx": 42,
@@ -643,11 +643,11 @@
   "utility": "San Diego Gas & Electric Co (SDG&E)",
   "cell_or_program": "Schedule TOU-DR1 - Residential Time of Use Service",
   "claimed": "Baseline Adjustment Credit $0.10905/kWh up to 130% of baseline; Base Services Charge $0.79343/day standard, $0.39688/day for CARE(DRAH) and FERA (eff 2026-01-01)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.sdge.com/sites/default/files/regulatory/1-1-26%20Schedule%20TOU-DR1%20Total%20Rates%20Table.pdf",
+  "note": "Eff 1/1/2026: Baseline Adj Credit (0.10905)/kWh up to 130% baseline; BSC 0.79343/day; DRAH & FERA 0.39688/day. All $ match."
  },
  {
   "idx": 50,
@@ -881,7 +881,7 @@
   "wrong_dollar": false,
   "correct_value": "",
   "evidence_url": "https://www.sce.com/save-money/savings-programs/ways-to-save-at-home/what-is-demand-response",
-  "note": "Res+business CPP exist (business 12-15 events 4-9pm; res page 20 events x 3h). '$50/yr avg savings' not found on either page. Source URL is business-only."
+  "note": "Retried 2026-10-12: sce.com search returned no page stating '$50/yr avg savings'. Res+business CPP exist (business 12-15 events 4-9pm; res page 20 events x 3h). Source URL is business-only."
  },
  {
   "idx": 68,
@@ -916,11 +916,11 @@
   "utility": "San Diego Gas & Electric Co (SDG&E)",
   "cell_or_program": "Schedule EV-TOU-5 - Domestic Time-of-Use for Households with Electric Vehicles",
   "claimed": "Base Services Charge $0.79343/day standard, $0.39688/day CARE(DRAH) and FERA",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.sdge.com/sites/default/files/regulatory/8-1-26%20Schedule%20EV-TOU-5%20Total%20Rates%20Table.pdf",
+  "note": "EV-TOU-5 eff 8/1/2026: BSC 0.79343/day; DRAH/FERA 0.39688; super off-peak 13.09c summer/12.33c winter. $ match."
  },
  {
   "idx": 71,
@@ -929,11 +929,11 @@
   "utility": "San Diego Gas & Electric Co (SDG&E)",
   "cell_or_program": "Emergency Load Reduction Program A.4 - residential battery storage",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.sdge.com/residential/savings-center/energy-saving-programs/reduce-your-use/demand-response-residential-programs/ELRP",
+  "note": "ELRP A.4 battery: 'Participants will be compensated by their battery manufacturer'; enroll via manufacturer; 4-9pm May-Oct. No $ on page (row blank). Status implied by live enrollment text."
  },
  {
   "idx": 72,
@@ -942,11 +942,11 @@
   "utility": "San Diego Gas & Electric Co (SDG&E)",
   "cell_or_program": "Power Saver Rewards (SDG&E residential ELRP A.6)",
   "claimed": "$1.00/kWh of measured incremental load reduction while the program operated (CPUC ELRP A.6 rate)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.sdge.com/residential/savings-center/energy-saving-programs/reduce-your-use/power-saver-program",
+  "note": "Page: program has ended, will not continue in 2026; $1.00/kWh credit, 4-9pm events. Matches Terminated + $1.00/kWh."
  },
  {
   "idx": 73,
@@ -1020,11 +1020,11 @@
   "utility": "San Diego Gas & Electric Co (SDG&E)",
   "cell_or_program": "Schedule AL-TOU - general service, demand-metered time-of-use",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.sdge.com/sites/default/files/elec_elec-scheds_al-tou.pdf",
+  "note": "AL-TOU: basic service fee, TOU energy, non-coincident + max on-peak demand $/kW; >=20 kW. Row has no $."
  },
  {
   "idx": 79,
@@ -1033,11 +1033,11 @@
   "utility": "City of Anaheim Public Utilities",
   "cell_or_program": "myPower Savings Program",
   "claimed": "up to $30 enrollment bill credit; $1.00/kWh reduced during event hours, up to $100/fiscal year",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.anaheim.net/5920/myPower-Savings",
+  "note": "anaheim.net/5920 and Residential DR FAQ PDF return robots-disallowed; $30 enroll / $1.00/kWh / $100 cap not verifiable. Battery page 5730 confirms program exists by name."
  },
  {
   "idx": 80,
@@ -1046,11 +1046,11 @@
   "utility": "City of Anaheim Public Utilities",
   "cell_or_program": "Residential Energy Storage Rebate",
   "claimed": "up to $3,000/household (through 6/30/2026); up to $1,500/household effective 7/1/2026",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.anaheim.net/5730/Battery-Storage",
+  "note": "Page shows 'Up to $3,000 per household', no dates and no $1,500 step-down from 7/1/2026; application PDF (DocumentCenter 70755, dated 5/5/2026) robots-blocked. Requires TOU rate + MyPower Savings 12 mo. Step-down unverified, not refuted."
  },
  {
   "idx": 81,
@@ -1059,11 +1059,11 @@
   "utility": "City of Anaheim Public Utilities",
   "cell_or_program": "Net Energy Metering 2.0",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.anaheim.net/5587/NEM-20",
+  "note": "Page shows 1:1 kWh retail-credit netting and the 5%/30 MW cap met in 2019; does not show the 'transition to wholesale-based rate', segment, or open/closed status. Source too thin to confirm."
  },
  {
   "idx": 82,
@@ -1072,11 +1072,11 @@
   "utility": "California Independent System Operator",
   "cell_or_program": "Ancillary Services (Regulation Up/Down, Spinning Reserve, Non-Spinning Reserve) - reachability for BTM aggregations and DMM clearing prices",
   "claimed": "DMM quantity-weighted average clearing prices ($/MW per hour), 2024 -> 2025. Day-Ahead: Reg Up $4.37 -> $3.40; Reg Down $6.29 -> $7.51; Spin $4.18 -> $0.84; Non-Spin $1.96 -> $0.94. Real-Time: Reg Up $7.18 -> $10.14; Reg Down $7.15 -> $16.18; Spin $1.03 -> $0.80; Non-Spin $0.85 -> $0.85. About 90% of 2025 AS cost was incurred day-ahead. Total CAISO AS cost $94.5M in 2025 ($0.47/MWh of load). DMM: actual CAISO batteries earned about $9/kW-yr from regulation in 2025; batteries supplied 53% of AS requirements",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.caiso.com/documents/2025-annual-report-on-market-issues-and-performance.pdf",
+  "note": "Fetch yields exec summary only (107k chars). Confirmed: AS cost $94.5M (2024 $106.5M), batteries ~$9/kW-yr regulation, 53% of AS reqs; DA up-AS down & Reg Down up, RT up for most. Per-product $/MW-h, $0.47/MWh, 90% DA not visible."
  },
  {
   "idx": 83,
@@ -1085,11 +1085,11 @@
   "utility": "California statewide (CPUC / CEC / GO-Biz administered)",
   "cell_or_program": "Demand Response Auction Mechanism (DRAM)",
   "claimed": "Terminated",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.utilitydive.com/news/demand-response-california-dram-der-distributed-energy-resources/715987/",
+  "note": "CPUC decision 2024-04-24 'opted to discontinue DRAM after 2024'. Terminated correct. (Trade press, not CPUC primary.)"
  },
  {
   "idx": 84,
@@ -1098,11 +1098,11 @@
   "utility": "California statewide (CPUC / CEC / GO-Biz administered)",
   "cell_or_program": "Net Billing Tariff (NBT) - successor to net energy metering; IOUs brand it 'Solar Billing Plan'",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/demand-side-management/customer-generation/net-energy-metering-and-net-billing",
+  "note": "NBT export credits at 'CPUC Avoided Cost Calculator values'; 9-yr export adder for PG&E and SCE residential (SDG&E excluded); NBT for apps since 4/15/2023."
  },
  {
   "idx": 85,
@@ -1111,11 +1111,11 @@
   "utility": "California Independent System Operator",
   "cell_or_program": "Heterogeneous DER Aggregation (HDERA) with Distributed Curtailment Resources - FERC Order 2222 model",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.caiso.com/documents/business-requirements-specification-ferc-order-2222.pdf",
+  "note": "BRS: HDERA settled as 'generic NGR NREM resource' on aggregate net DER energy; DCR 'demand curtailment represented as positive supply'. LMP not stated explicitly (minor)."
  },
  {
   "idx": 86,
@@ -1124,11 +1124,11 @@
   "utility": "California statewide (CPUC / CEC / GO-Biz administered)",
   "cell_or_program": "SGIP - San Joaquin Valley Residential budget",
   "claimed": "$1,100/kWh (CPUC rate table)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/demand-side-management/self-generation-incentive-program",
+  "note": "SJV Residential 1,100 $/kWh, PG&E/SCE residential, 'available through 2025' (consistent with closed in Oct 2026; page defers live status to SGIP site)."
  },
  {
   "idx": 87,
@@ -1150,11 +1150,11 @@
   "utility": "California Independent System Operator",
   "cell_or_program": "FERC Order 2222 implementation status - CAISO DER Aggregation",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.caiso.com/documents/nov-5-2024-informational-filing-of-effective-date-ferc-order-no-2222-er21-2455.pdf",
+  "note": "'The CAISO implemented the remaining items on November 1, 2024.'"
  },
  {
   "idx": 89,
@@ -1163,11 +1163,11 @@
   "utility": "Turlock Irrigation District (TID)",
   "cell_or_program": "EnergySync",
   "claimed": "$50 enroll + $25 participation (up to $75/season)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.tid.org/energysync/",
+  "note": "$50 enrollment + $25 season-end participation, up to $75; BYOT thermostat control; 2026 enrollment window closed 6/30, later enrollments processed 11/1 (program active)."
  },
  {
   "idx": 90,
@@ -1176,11 +1176,11 @@
   "utility": "California statewide (CPUC / CEC / GO-Biz administered)",
   "cell_or_program": "Net Energy Metering 2.0 (legacy / grandfathered)",
   "claimed": "Closed to new enrollment",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/demand-side-management/customer-generation/net-energy-metering-and-net-billing",
+  "note": "NEM tariffs 'closed to new enrollments'; NEM 1.0/2.0 export credits at import rates; NEM 2.0 NBCs on net consumption per metered interval."
  },
  {
   "idx": 91,
@@ -1189,11 +1189,11 @@
   "utility": "California Independent System Operator",
   "cell_or_program": "WEIM / EDAM - access for customer-sited batteries in non-CAISO California balancing areas (LADWP, BANC/SMUD, TID, IID)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.caiso.com/documents/participationcomparison-proxydemand-distributedenergy-storage-forecastadjustment.pdf",
+  "note": "WEIM DR = Load Forecast Adjustment by EIM entity, 'implicitly valued as a self-schedule'; +/- RT imbalance settlement on over/under performance (page does not name recipient). EDAM not covered by page (minor)."
  },
  {
   "idx": 92,
@@ -1202,11 +1202,11 @@
   "utility": "Silicon Valley Power (City of Santa Clara)",
   "cell_or_program": "Net Energy Metering (NM1.0)",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.siliconvalleypower.com/home/showpublisheddocument/58854/639080506621200000",
+  "note": "Schedule NM eff 1/1/2026: annual netting, surplus at $0.05366/kWh (2026), open first-come to 5% of peak. 'NM1.0' label not on doc (minor)."
  },
  {
   "idx": 93,
@@ -1215,11 +1215,11 @@
   "utility": "Silicon Valley Power (City of Santa Clara)",
   "cell_or_program": "Time of Use (TOU) Option",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "INCONCLUSIVE",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.siliconvalleypower.com/home/showpublisheddocument/6253/639032058815300000",
+  "note": "Cited PDF (D-1 Domestic Service per search title) fails to fetch twice; residents rates page only says 'see the D-1 rates and time of use rate schedule'. Segment claim (Res+C&I) for a D-1 doc is suspect; unverified."
  },
  {
   "idx": 94,
@@ -1228,11 +1228,11 @@
   "utility": "California statewide (CPUC / CEC / GO-Biz administered)",
   "cell_or_program": "SGIP - Small Residential Storage budget (general market)",
   "claimed": "$150/kWh (CPUC rate table)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/demand-side-management/self-generation-incentive-program",
+  "note": "Small Residential Storage 150 $/kWh, 'available through 2025'."
  },
  {
   "idx": 95,
@@ -1241,11 +1241,11 @@
   "utility": "California Independent System Operator",
   "cell_or_program": "Small utility opt-in gate and state aggregation rules for DER Aggregations",
   "claimed": "Active",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.caiso.com/Documents/May18-2023-OrderAcceptingComplianceFilingofFERCOrderNo2222-ER21-2455.pdf",
+  "note": "FERC order: utilities <=4 million MWh; ISO must not accept DERA bids incl. their customers unless RERRA permits."
  },
  {
   "idx": 96,
@@ -1254,10 +1254,10 @@
   "utility": "California statewide (CPUC / CEC / GO-Biz administered)",
   "cell_or_program": "SGIP - Equity Resiliency budget",
   "claimed": "$1,000/kWh (CPUC rate table)",
-  "verdict": "NOT_DONE",
+  "verdict": "CONFIRMED",
   "wrong_dollar": false,
   "correct_value": "",
-  "evidence_url": "",
-  "note": "Not checked: WebFetch weekly quota exhausted mid-audit."
+  "evidence_url": "https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/demand-side-management/self-generation-incentive-program",
+  "note": "Equity Resiliency 1,000 $/kWh, IOU residential or non-residential, 'available through 2025'."
  }
 ]
