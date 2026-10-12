@@ -4,9 +4,8 @@ http://nlrelectric.com/wp-content/uploads/2025/02/NLR-Net-Metering-and-DG-Rules-
 http://shakopeeutilities.com/wp-content/uploads/2020/07/SPU_2020_ElectricRates_v2.pdf,200,presence 16971 res_habit; presence 16971 ci_habit
 http://www.basepowercompany.com/EPElectric,200,programs El Paso Electric
 http://www.dominionenergy.com/en/South-Carolina/Large-Business-Services,200,presence 17539 ci_dispatch
-http://www.entergyarkansas.com/wp-content/uploads/2024/11/eal_ois.pdf,200,programs Entergy Arkansas LLC
+http://www.entergyarkansas.com/wp-content/uploads/2024/11/eal_ois.pdf,403,programs Entergy Arkansas LLC
 https://3cenergy.org/rebates/hourly-flex-pricing-pilot/,200,presence 61432 res_habit; presence 61432 ci_habit
-https://3cenergy.org/rebates/residential-battery-rebate-program/,200,presence 61432 res_dispatch
 https://4riverselectric.com/electric-rates,200,presence 64196 res_habit; presence 64196 ci_habit; presence 64196 ci_dispatch
 https://adamsec.coop/time-day-rate,200,presence 40220 res_habit
 https://adamselectric.coop/member-services/energyefficiencymembers/,403,presence 108 res_habit; presence 108 res_dispatch
@@ -27,6 +26,7 @@ https://barcelectric.com/net-metering/,200,programs BARC Electric Cooperative; i
 https://barcelectric.com/thermostat/,200,programs BARC Electric Cooperative
 https://bartlettec.coop/energy-conservation,200,presence 1273 res_dispatch
 https://bcg.evergy.com/-/media/documents/billing/kansas-central/other/ks-central-rates.pdf,200,presence 22500 res_habit; presence 10005 res_habit; programs Evergy Kansas Central
+https://berkeleyelectric.zohodesk.com/portal/en/kb/billing-information/time-of-day-billing,200,programs Berkeley Electric Cooperative
 https://bgesmartenergy.com/business/business-programs/connected-rewards,200,programs Baltimore Gas and Electric Co (BGE)
 https://bgesmartenergy.com/residential/earn-incentives/connectedrewards,200,programs Baltimore Gas and Electric Co (BGE)
 https://bgesmartenergy.com/residential/earn-incentives/eventscentral/energy-savings-days,200,programs Baltimore Gas and Electric Co (BGE); ic_util Baltimore Gas and Electric Co (BGE)
@@ -67,10 +67,11 @@ https://cdn.prod.website-files.com/5a26c42ac0c9b0000147937c/69542f2f23daa6daaa1f
 https://cdn.prod.website-files.com/5fb09132bb96e90cc49a17eb/6a459bb4aadc7c8a54062736_3Q2026%20Rate%20Sheet.pdf,200,programs Matanuska Electric Association; programs Matanuska Electric Association
 https://cemc.org/wp-content/uploads/2025/01/RATES-2025-FCA192-202501-002.pdf,200,presence 4624 res_habit; presence 4624 ci_habit
 https://cenhudpeakperks.com/custom-savings/,200,programs Central Hudson Gas & Electric Corp
-https://cenhudpeakperks.com/smart-thermostat/,404,programs Central Hudson Gas & Electric Corp
+https://cenhudpeakperks.com/faq/,200,programs Central Hudson Gas & Electric Corp
 https://cenhudpeakperks.com/targeted-demand-response/,200,programs Central Hudson Gas & Electric Corp
 https://central.libertyutilities.com/all/peak-alert.html,200,presence 5860 res_dispatch
 https://central.libertyutilities.com/all/residential/rates/time-based-rate-plans-residential-central-liberty.html,200,presence 5860 res_habit
+https://charge.weavegrid.com/sce/,200,programs Southern California Edison Co (SCE)
 https://cherrylandelectric.coop/time-of-use/,200,presence 3436 res_habit
 https://choctawelectric.net/peak-alerts,200,presence 3527 res_habit; presence 3527 res_dispatch
 https://choptankelectric.coop/beat-peak,200,programs Choptank Electric Cooperative
@@ -81,7 +82,7 @@ https://cimarronelectric.com/home/member-center/rates/,200,presence 3478 res_hab
 https://cityofdenton.com/DocumentCenter/View/10308/GreenSense-Incentive-Program-Manual-2025-2026,200,presence 5063 res_dispatch
 https://cityoftahlequah.com/546/Utility-Services,200,presence 18433 res_habit; presence 18433 res_dispatch; presence 18433 ci_habit
 https://claremore.com/wp-content/uploads/2023/12/City-of-Claremore_Utility-rate-sheet-7-2023.pdf,200,presence 3647 res_habit; presence 3647 res_dispatch; presence 3647 ci_habit
-https://claverack.com/rates,404,presence 40289 res_habit
+https://claverack.com/heating-options,200,presence 40289 res_habit
 https://cleanpeakmarketoutlook.com/doer-emergency-cps-again/,403,programs Massachusetts Department of Energy Resources (DOER) - statewide
 https://clpud.org/customer-information/rate-schedules-policies-guidelines-standards/rate-schedules/,200,presence 3264 res_habit; presence 3264 ci_habit
 https://cms3.revize.com/revize/lagrangeGA/Documents/Department/Utilities/Electric%20Commercial%20Rate%2007012025.pdf,200,presence 10585 ci_habit; presence 10585 ci_dispatch
@@ -103,7 +104,7 @@ https://coastepa.com/renewable-energy/new-renewable-energy-rate-available/,ERR U
 https://code.wvlegislature.gov/24-2F-8/,200,ic_state WV
 https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-27273,403,programs Cleveland Public Power
 https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-27494,403,programs Cleveland Public Power
-https://codelibrary.amlegal.com/codes/poncacityok/latest/poncacity_ok/0-0-0-13362,200,presence 15202 res_habit; presence 15202 ci_habit; presence 15202 ci_dispatch
+https://codelibrary.amlegal.com/codes/poncacityok/latest/poncacity_ok/0-0-0-13362,403,presence 15202 res_habit; presence 15202 ci_habit; presence 15202 ci_dispatch
 https://codes.ohio.gov/ohio-administrative-code/rule-4901:1-22-06,200,ic_state OH
 https://colquittemc.com/about-us/service-rules-regulations,200,presence 40212 ci_habit
 https://colquittemc.com/energy-management,200,presence 40212 res_habit; presence 40212 res_dispatch
@@ -130,7 +131,6 @@ https://cpowerenergy.com/wp-content/uploads/2022/12/MISO-BPM-026-Business-Practi
 https://cpowerenergymanagement.com/aps/,200,presence 803 ci_dispatch
 https://crawfordelec.com/RatesCharges,200,presence 4524 res_habit; presence 4524 res_dispatch
 https://crispcountypower.com/energy-management,200,presence 4538 res_dispatch
-https://cuivre.com/winter-peak-when-you-use-energy-just-important-how-much,404,presence 4675 res_dispatch
 https://cvec.coop/services/electric/rates,200,presence 4146 res_habit
 https://cvec.coop/services/faqs,200,presence 4146 res_dispatch
 https://cwpower.com/load-control,200,presence 4577 res_dispatch
@@ -171,7 +171,7 @@ https://doee.dc.gov/service/solar-district,200,programs Potomac Electric Power C
 https://douglaspud.org/for-customers/customer-service-policies/,403,presence 5326 res_habit
 https://dps.ny.gov/system/files/documents/2026/05/24-e-0621-sirs-effective-february-9-2026.pdf,403,ic_state NY
 https://drive.google.com/file/d/1gQTJOD0vuvoQ5tWoDmx5QTEgZ1rZYYlW/view,200,presence 3527 ci_habit; presence 3527 ci_dispatch
-https://duquesnelight.com/docs/default-source/wattchoice/act-129/supplement30totariffno24.pdf?sfvrsn=4c4ba142_2,404,programs Duquesne Light Co
+https://duquesnelight.com/docs/default-source/default-document-library/currenttariff_107_25.pdf,200,programs Duquesne Light Co
 https://e-co-op.com/services/rates/,403,presence 9209 res_habit; presence 9209 ci_habit; presence 9209 ci_dispatch
 https://eastonutilities.com/solar-and-net-metering/,200,programs Easton Utilities Commission; ic_util Easton Utilities Commission
 https://eastonutilities.com/wp-content/info/electric-tariff.pdf,200,presence 5625 res_habit; presence 5625 ci_habit; presence 5625 ci_dispatch
@@ -238,7 +238,6 @@ https://freedomforever.com/blog/net-metering-in-pennsylvania/,200,programs PECO 
 https://freeingthegrid.org/north-dakota/,200,ic_state ND
 https://freestate.coop/time-use,200,presence 10019 res_habit
 https://gazette.com/2026/09/22/electric-rate-decrease-net-metering-hikes-approved-for-colorado-springs-utilities/,200,programs Colorado Springs Utilities; programs Colorado Springs Utilities
-https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=2343&txtFormat=html,200,ic_state NH
 https://georgetowntexas.gov/utilities/customer_care/utility_rates/,200,presence 7129 res_habit; presence 7129 ci_habit
 https://georgiapowermarketplace.com/s/GeorgiaPower/programs/content_drpe_info.html,200,programs Georgia Power Company
 https://ghblp.org/billing-and-payment/business-rates/,200,presence 7483 ci_habit
@@ -269,7 +268,7 @@ https://homeenergysavings.atlanticcityelectric.com/business/energy-wise-rewards,
 https://homeenergysavings.atlanticcityelectric.com/residential/energy-wise-rewards,200,presence 963 res_dispatch
 https://homeenergysavings.delmarva.com/energywiserewards/md/residential/overview,200,programs Delmarva Power & Light Co (Delmarva MD)
 https://homeenergysavings.delmarva.com/sites/default/files/public/16346_Delmarva_2018_EWR_TCs_v10_web_Release.pdf,200,programs Delmarva Power & Light Co (Delmarva MD)
-https://homeenergysavings.pepco.com/commercial/,404,programs Potomac Electric Power Co (Pepco MD)
+https://homeenergysavings.pepco.com/energywiserewards/md/business/overview,200,programs Potomac Electric Power Co (Pepco MD)
 https://homeenergysavings.pepco.com/energywiserewards/md/residential/overview,200,programs Potomac Electric Power Co (Pepco MD)
 https://homeenergysavings.pepco.com/sites/default/files/public/26963_Pepco_EWR_BYOD_TC_v4_RELEASE-508.pdf,200,programs Potomac Electric Power Co (Pepco MD)
 https://hoodline.com/2026/03/seattle-power-play-utilities-quietly-reach-into-your-thermostat/,200,presence 16868 res_dispatch
@@ -315,10 +314,12 @@ https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594/,200,ic_stat
 https://lexingtonnc.gov/home/showpublisheddocument/2191/636927903625800000,403,presence 10966 ci_habit
 https://lexingtonnc.gov/home/showpublisheddocument/4191/637916674453170000,403,presence 10966 res_habit
 https://lexingtonnc.gov/home/showpublisheddocument/4599/638584441326300000,403,presence 10966 ci_dispatch
+https://lge-ku.com/demand-conservation,200,presence 11249 res_dispatch; presence 10171 res_dispatch
 https://lge-ku.com/peak-time-rebates,200,programs Kentucky Utilities; programs Louisville Gas & Electric
 https://lge-ku.com/residential/billing/time-of-day-rates,200,programs Kentucky Utilities; programs Louisville Gas & Electric; programs Louisville Gas & Electric
 https://library.municode.com/ca/pasadena/codes/code_of_ordinances?nodeId=TIT13UTSE_CH13.04PORARE_13.04.177NEENME,200,presence 14534 res_habit
 https://library.municode.com/il/springfield/codes/code_of_ordinances?nodeId=TITVPUWO_CH50ELUT_ARTIIRASC_S50.38NEMESE,200,ic_util City Water Light and Power (Springfield)
+"https://local.anaheim.net/docs_agend/questys_pub/40932/40962/40963/41099/41102/2.%20Current%20Electric%20Rates,%20Rules%20and%20Regulations%20Rate%20Schedules%20and%20Rule%20Nos.%2026%20and%202941102.pdf",200,presence 590 res_habit; presence 590 ci_habit
 https://longmontcolorado.gov/longmont-power-communications/rates-and-fees/residential-rates/,200,presence 11187 res_habit; programs Longmont Power & Communications; programs Longmont Power & Communications
 https://longmontcolorado.gov/news/volunteers-wanted-for-lpc-ecobee-thermostat-program/,200,presence 11187 res_dispatch; programs Longmont Power & Communications
 https://loup.com/customers/rates/,200,presence 11251 res_habit; presence 11251 res_dispatch; presence 11251 ci_habit
@@ -337,6 +338,7 @@ https://mercedid.org/power/energy-rules-fees-rates/electric-rates/,403,presence 
 https://mercedid.org/power/rebates/for-my-home/,403,presence 12312 res_dispatch
 https://mercedid.org/wp-content/uploads/2026/08/EGS-2-07-01-26.pdf,403,presence 12312 ci_habit
 https://mercedid.org/wp-content/uploads/2026/08/RES-2-07-01-26.pdf,403,presence 12312 res_habit
+https://mgrid.org/?p=4825,200,programs Georgia Power Company
 https://midsouthelectric.com/wp-content/uploads/2024/06/MidSouth-Rewards-TermsandConditions.pdf,404,presence 12452 res_dispatch
 https://mienergy.coop/energy-management,200,presence 19157 res_dispatch
 https://minnesotasolar.org/laws/,200,ic_util Austin Utilities; ic_util Moorhead Public Service
@@ -379,7 +381,7 @@ https://new-hampshire.libertyutilities.com/acworth/residential/smart-energy-use/
 https://new-hampshire.libertyutilities.com/bath/residential/smart-energy-use/electric/battery-storage.html,200,programs Liberty Utilities (Granite State Electric); ic_util Liberty Utilities (Granite State Electric)
 https://newnanutilities.org/electric/electric-rates/,200,presence 13547 res_habit; presence 13547 ci_habit
 https://newnanutilities.org/electric/energy-efficiency/,200,presence 13547 res_dispatch; presence 13547 ci_dispatch
-https://news.duke-energy.com/releases/new-duke-energy-program-helps-south-carolina-nonresidential-customers-lower-costs-while-supporting-a-growing-grid,200,"programs Duke Energy Progress, LLC"
+https://news.duke-energy.com/releases/new-duke-energy-program-helps-south-carolina-nonresidential-customers-lower-costs-while-supporting-a-growing-grid,200,"programs Duke Energy Carolinas, LLC"
 https://news.duke-energy.com/releases/new-year-bigger-incentives-as-temperatures-fall-in-the-carolinas-duke-energy-increases-financial-incentives-for-customer-energy-efficiency-and-demand-response-programs,200,"programs Duke Energy Carolinas, LLC"
 https://news.wjct.org/news/2018-04-02/jea-unveils-battery-rebates-net-metering-changes-for-solar-wind-customers,200,ic_util JEA
 https://newsroom.santeecooper.com/news/Santee-Cooper-Announces-Rewards-for-Smart-Thermostat-Customers/,200,programs Santee Cooper (South Carolina Public Service Authority)
@@ -399,7 +401,7 @@ https://northwesternenergy.com/billing-payment/rates-tariffs/rates-tariffs-monta
 https://northwesternenergy.com/docs/default-source/default-document-library/billing-and-payment/rates-and-tariffs/montana/rules/electric/rule_16_et.pdf,200,programs NorthWestern Energy
 https://norwichpublicutilities.com/,200,presence 13831 res_dispatch; presence 13831 ci_dispatch
 https://nremc.com/rates/,200,presence 20603 res_habit; presence 20603 ci_habit
-https://nueceselectric.org/sites/nueceselectric/files/images/NEC%20TARIFF%2003082019.pdf,200,presence 13830 res_habit
+https://nueceselectric.org/sites/nueceselectric/files/images/NEC%20TARIFF%2003082019.pdf,404,presence 13830 res_habit
 https://nyisoviewer.etariff.biz/ViewerDocLibrary/Filing/Filing5436/Attachments/20260602_NYISOAnswer_DERInfoRprt_cos.pdf,200,programs New York Independent System Operator
 https://oakdalerec.coop/load-management,200,presence 13936 res_habit; presence 13936 res_dispatch
 https://ocalafl.prod.govaccess.org/government/city-departments-a-h/electric-utility/public-education/beat-the-peak,ERR URLError,presence 13955 res_dispatch
@@ -413,9 +415,10 @@ https://okcoop.org/time-of-use-rate/,403,presence 14062 res_habit; programs Okla
 https://oklahoma.gov/occ/divisions/public-utility/energy/electric-utility/netmetering.html,200,programs Oklahoma Gas & Electric (OG&E); programs Public Service Co of Oklahoma (PSO)
 https://olivineinc.com/project/commonwealth-edisons-c-i-vlr-program/,200,programs Commonwealth Edison Company (ComEd)
 https://ompa.virtualpeaker.io/overview/,200,programs Oklahoma Municipal Power Authority (OMPA)
-https://omu.org/electric-rates/,403,presence 14268 res_habit; presence 14268 ci_habit; presence 14268 ci_dispatch
-https://omu.org/net-metering/,403,programs Owensboro Municipal Utilities
+https://omu.org/electric-rates/,200,presence 14268 res_habit; presence 14268 ci_habit; presence 14268 ci_dispatch
+https://omu.org/net-metering/,200,programs Owensboro Municipal Utilities
 https://omu.org/programs/,403,presence 14268 res_dispatch
+https://openei.org/IURDB/rate/view/69bda768f0300279d30f154c,503,programs Xcel Energy Colorado (Public Service Co of Colorado)
 https://openei.org/wiki/Bowling_Green_Municipal_Utilities_-_Net_Metering_(Ohio),503,programs Bowling Green Municipal Utilities
 https://openei.org/wiki/Interconnection_Standards_(District_of_Columbia),503,ic_state DC
 https://oppd.com/business/business-rates/business-curtailment-program/,404,presence 14127 ci_dispatch
@@ -438,7 +441,6 @@ https://peoplesenergy.coop/off-peak-program,200,presence 14468 res_habit; presen
 https://pieg.com/electric-rates/,200,presence 15340 res_habit; presence 15340 ci_habit
 https://pioneerec.com/member-programs/peak-load-management/,200,presence 15054 res_dispatch
 https://pioneerelectric.coop/wp-content/uploads/2026/04/04142026_2026-PEC-Rates-and-Tariffs.pdf,200,presence 15073 res_habit; presence 15073 ci_habit; presence 15073 ci_dispatch
-https://planetdetroit.org/2023/05/legislators-introduce-bills-to-lift-solar-cap-restore-net-metering-and-establish-fair-value-tariff-for-distributed-generation/,200,programs Consumers Energy Co
 https://portal.ct.gov/-/media/PURA/Residential-Renewable-Energy-Solutions-Program-Manual.pdf,200,ic_state CT; ic_util Connecticut Light & Power Co (Eversource CT)
 https://portlandgeneral.com/about/info/pricing-plans/time-of-day,200,programs Portland General Electric
 https://portlandgeneral.com/about/info/pricing-plans/time-of-use/time-of-use-pricing-business,200,programs Portland General Electric
@@ -477,6 +479,8 @@ https://psopowerhours.com/terms-and-conditions,ERR URLError,programs Public Serv
 https://puc.colorado.gov/puc-home/energy/time-of-use-rates,200,programs Xcel Energy Colorado (Public Service Co of Colorado)
 https://puc.hawaii.gov/wp-content/uploads/2023/12/DPS-Phase-3-Decision-and-Order-Summary.pdf,200,programs Hawaiian Electric Co (Oahu); programs Hawaii Electric Light Co (Hawaii Island); programs Maui Electric Co (Maui County)
 https://puc.idaho.gov/Fileroom/PublicFiles/Press/20251002Idaho%20Power%201002%20Release.pdf.pdf,200,programs Idaho Power
+https://puc.idaho.gov/Fileroom/PublicFiles/Press/20251117Rocky Mountain Power 1117 Release.pdf.pdf,ERR InvalidURL,programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)
+https://puc.nh.gov/Regulatory/Orders/2024orders/documents/22-060-2024-11-18-nhpuc-order-27074.pdf,403,ic_state NH
 https://puc.nv.gov/Renewable_Energy/Net_Metering/,200,programs Sierra Pacific Power Co (NV Energy - North)
 https://puc.sd.gov/Publications/solarfaq.aspx,200,ic_state SD
 https://puc.sd.gov/commission/dockets/admin/2022/aa22-003/NWEComments.pdf,200,presence 13809 ci_habit
@@ -504,14 +508,14 @@ https://savings.austinenergy.com/commercial/offerings/load-management/commercial
 https://sawnee.coop/residential-rate-schedules,200,programs Sawnee EMC
 https://sawnee.coop/smartsavers,200,presence 16865 res_dispatch
 https://seattle.gov/city-light/business-solutions/business-billing-and-account-information/time-of-use,200,presence 16868 ci_habit; programs Seattle City Light; programs Seattle City Light
-https://secoenergy.com/tag/net-metering/,404,programs SECO Energy
+https://seattle.gov/city-light/residential-services/home-energy-solutions/tempwise,200,programs Seattle City Light
+https://secoenergy.com/solar-power,200,programs SECO Energy
 https://secoenergy.com/wp-content/uploads/SECO_Energy_Rate_Tariff_Current.pdf,404,presence 18304 res_habit; presence 18304 ci_dispatch; ic_util SECO Energy
 https://secpa.com/sites/default/files/2024-11/gd-effective-8-1-2024.pdf,200,presence 17592 ci_habit
 https://secpa.com/sites/default/files/2024-11/hh-effective-8-1-2024.pdf,200,presence 17592 res_dispatch
 https://secpa.com/sites/default/files/2024-11/td-effective-8-1-2024.pdf,200,presence 17592 res_habit
 https://seiec.com/marathon-water-heaters/,403,presence 17585 res_dispatch
-https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/218132/99152,ERR URLError,presence 16674 res_habit
-https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/218262/99306,ERR URLError,programs Georgia Power Company
+https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/218132/99152,200,presence 16674 res_habit
 https://siea.com/shifttosave/,200,presence 16616 res_dispatch
 https://siea.com/wp-content/uploads/2023/04/TimeOfUseOneSheetAugust25pdf-1.pdf,200,presence 16616 res_habit
 https://singingriver.com/my-home/,200,presence 17252 res_habit
@@ -520,7 +524,7 @@ https://slemco.com/residential/,200,presence 17684 res_dispatch
 https://smartpeak.alabamapowerprograms.com/,200,programs Alabama Power Company
 https://solarium3.epelectric.com/DGInterconnection/Templates/NMNetMeteringOptions.pdf,200,programs El Paso Electric Co (New Mexico jurisdiction)
 https://source.fpl.com/rates/pdf/electric-tariff-section8.pdf,200,presence 6452 ci_dispatch
-https://southaec.com/energy-savings/water-heater-program/,200,presence 1149 res_dispatch; presence 40127 res_dispatch; presence 4327 res_dispatch
+https://southaec.com/energy-savings/water-heater-program/,403,presence 1149 res_dispatch; presence 40127 res_dispatch; presence 4327 res_dispatch
 https://southeasternelectric.com/demand/,200,presence 19293 res_habit
 https://southeasternelectric.com/load-control/,200,presence 19293 res_dispatch
 https://southernpd.com/electric-water-heater-program/,200,presence 17642 res_dispatch
@@ -570,7 +574,8 @@ https://tx.my.xcelenergy.com/s/residential/heating-cooling/savers-switch,200,pre
 https://txses.org/power-when-it-matters-most-texas-backup-power-package-program/,200,programs ERCOT (statewide)
 https://ucs.net/sites/default/files/Tariff%20revised%20_final%2001212022.pdf,200,presence 19490 res_habit; presence 19490 ci_habit
 https://ucs.net/thermostat-program,200,presence 19490 res_dispatch
-https://union-power.com/wp-content/uploads/2024/02/UPC-Electric-Rate-Schedules_Effective-040124.pdf,404,presence 19435 res_habit
+https://union-power.com/member-resources-services/rates,200,presence 19435 res_habit
+https://union-power.com/wp-content/uploads/2024/02/UPC-Electric-Rate-Schedules_Effective-040124.pdf,404,presence 19435 ci_habit
 https://unitil.com/rebates/connectedsolutions-wi-fi-thermostat-program-nh,200,presence 24590 res_dispatch; presence 6374 res_dispatch
 https://unitil.com/sites/default/files/2021-05/Program%20Materials%20for%20Connected%20Solutions%20for%20Commercial%20Unitil%20v2-FINAL.pdf,200,presence 24590 ci_dispatch
 https://unitil.com/sites/default/files/2024-01/MA-Commercial-Electric-Rates.pdf,200,presence 6374 ci_habit
@@ -598,7 +603,7 @@ https://visionelements.programprocessing.com/framework/CenterPointTX/Program_Man
 https://votesolar.org/advocates-celebrate-indiana-decision/,200,ic_util CenterPoint Energy Indiana South (formerly Vectren)
 https://washingtonutah.gov/services/power,200,presence 20135 res_habit
 https://wcc.efs.iowa.gov/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&RevisionSelectionMethod=latest&dDocName=1730773&noSaveAs=1,200,programs Linn County Rural Electric Cooperative
-https://weavegrid.com/sce/charge-smart-socal,200,programs Southern California Edison Co (SCE)
+https://webprod.ladwp.com/account/customer-service/electric-rates/standard-commercial-industrial-rates,200,presence 11208 ci_habit
 https://webserver.rilegislature.gov/statutes/title39/39-26.4/39-26.4-2.htm,200,ic_state RI
 https://wellesleyma.gov/1539/Shave-the-Peak,404,presence 20310 res_dispatch
 https://wellesleyma.gov/DocumentCenter/View/33810/Residential-Service-No-Discount-change,200,presence 20310 res_habit
@@ -619,8 +624,8 @@ https://www.aemc.coop/peak-changes-time-use-rate,200,presence 240 res_habit
 https://www.aepohio.com/account/bills/programs/time-of-use,200,programs Ohio Power Company (AEP Ohio)
 https://www.aepohio.com/clean-energy/electric-cars/plug-in-electric-vehicle-rate,200,programs Ohio Power Company (AEP Ohio)
 https://www.aepohio.com/lib/docs/cleanenergy/renewable/NetEnergyMeteringService2-10-2020.pdf,200,programs Ohio Power Company (AEP Ohio)
-https://www.aepohio.com/lib/docs/ratesandtariffs/Ohio/April_2026_AEP_Ohio_Tariff_Book.pdf,404,programs Ohio Power Company (AEP Ohio)
-https://www.aeptexas.com/lib/docs/ratesandtariffs/Texas/AEP_TEXAS_TARIFF_Eff_August_28_2026.pdf,404,presence 3278 res_habit; presence 3278 ci_habit; presence 20404 res_habit
+https://www.aepohio.com/lib/docs/ratesandtariffs/Ohio/October_2026_Ohio_Power_Tariff_Book.pdf,200,programs Ohio Power Company (AEP Ohio)
+https://www.aeptexas.com/lib/docs/ratesandtariffs/Texas/AEP_TEXAS_TARIFF_Eff_Sept_29_2026v1.pdf,200,presence 3278 res_habit; presence 3278 ci_habit; presence 20404 res_habit
 https://www.aes-ohio.com/evse-rebate-program,403,programs AES Ohio (Dayton Power and Light Company)
 https://www.aes-ohio.com/home-ev-charging-rewards,200,programs AES Ohio (Dayton Power and Light Company)
 https://www.aes-ohio.com/net-metering,200,programs AES Ohio (Dayton Power and Light Company); ic_util AES Ohio (Dayton Power and Light Company)
@@ -628,6 +633,7 @@ https://www.aesindiana.com/contract-riders,200,programs AES Indiana (formerly IP
 https://www.aesindiana.com/home-ev-charging-rewards,200,programs AES Indiana (formerly IPL)
 https://www.aesindiana.com/press-release/manage-heat-wave-ways-save-energy,200,programs AES Indiana (formerly IPL)
 https://www.aesindiana.com/sites/aesvault.com/files/2024-08/Rider-16-EDG-45504-Effective-07-01-24.pdf,200,programs AES Indiana (formerly IPL); ic_util AES Indiana (formerly IPL)
+https://www.aesindiana.com/sites/aesvault.com/files/2026-07/Rider-16-EDG-46258-Effective-07-27-26.pdf,200,ic_state IN
 https://www.aesindiana.com/sites/default/files/2021-05/Rate-OES-Off-Peak-Energy-Storage-Separately-Metered-50409-Effective-04-07-21.pdf,200,programs AES Indiana (formerly IPL)
 https://www.aesindiana.com/sites/default/files/2021-05/Rider-14-Interruptible-Power-50409-Effective-04-07-21.pdf,200,programs AES Indiana (formerly IPL)
 https://www.alabamapower.com/content/dam/alabama-power/pdfs-docs/Clean-Energy/APC-DER-interconnection-process.pdf,200,ic_util Alabama Power Company
@@ -651,23 +657,26 @@ https://www.alleghenyelectriccoop.com/clms,200,presence 40220 res_dispatch; pres
 https://www.alliantenergy.com/-/media/alliant/documents/accountandbilling/ratesandtariffs/iowaelectricrates/inflowoutflowtariff.pdf,403,programs Interstate Power and Light Company (Alliant Energy)
 https://www.alliantenergy.com/-/media/alliant/documents/accountandbilling/ratesandtariffs/iowaelectricrates/riderintservinterruptibleserviceoption.pdf,403,programs Interstate Power and Light Company (Alliant Energy)
 https://www.alliantenergy.com/ways-to-save/appliance-cycling,403,programs Interstate Power and Light Company (Alliant Energy)
-https://www.alliantenergy.com/ways-to-save/interruptible-program/wisconsin-electric,200,programs Wisconsin Power & Light Co (Alliant Energy)
+https://www.alliantenergy.com/ways-to-save/interruptible-program/wisconsin-electric,403,programs Wisconsin Power & Light Co (Alliant Energy)
 https://www.alliantenergy.com/ways-to-save/residential-rate-options/wisconsin,403,programs Wisconsin Power & Light Co (Alliant Energy)
-https://www.alliantenergy.com/ways-to-save/smart-hours/wisconsin,200,programs Wisconsin Power & Light Co (Alliant Energy); programs Wisconsin Power & Light Co (Alliant Energy); programs Wisconsin Power & Light Co (Alliant Energy)
+https://www.alliantenergy.com/ways-to-save/smart-hours/wisconsin,403,programs Wisconsin Power & Light Co (Alliant Energy); programs Wisconsin Power & Light Co (Alliant Energy); programs Wisconsin Power & Light Co (Alliant Energy)
 https://www.alliantenergysmarthours.com/assets/terms-and-conditions/alliant/Alliant_Smart_Hours_Terms_And_Conditions.pdf,200,programs Interstate Power and Light Company (Alliant Energy)
-https://www.alpenapower.com/electric-vehicle-rates-programs-business/,200,presence 392 ci_habit
 https://www.alpenapower.com/electric-vehicle-rates-programs-residential/,200,presence 392 res_habit; presence 392 res_dispatch
 https://www.alputilities.com/Residential,200,presence 295 res_habit; presence 295 res_dispatch
 https://www.altamahaemc.com/services.html,200,presence 407 res_dispatch; presence 407 ci_dispatch
-https://www.ameren.com/-/media/illinois-site/files/electricchoice/illinois-distributed-energy-rebate-application.ashx,200,programs Ameren Illinois Company d/b/a Ameren Illinois; programs Ameren Illinois Company d/b/a Ameren Illinois
+https://www.ameren.com/-/media/illinois-site/files/electricchoice/illinois-distributed-energy-rebate-application.ashx,200,programs Ameren Illinois Company d/b/a Ameren Illinois
 https://www.ameren.com/-/media/missouri-site/files/environment/solar/net-metering-tariff.pdf,200,programs Union Electric Company d/b/a Ameren Missouri
 https://www.ameren.com/-/media/rates/files/illinois/aiel21rdevcp.ashx,200,programs Ameren Illinois Company d/b/a Ameren Illinois; programs Ameren Illinois Company d/b/a Ameren Illinois
 https://www.ameren.com/-/media/rates/files/illinois/aiel26rdpsp.ashx,200,programs Ameren Illinois Company d/b/a Ameren Illinois
+https://www.ameren.com/-/media/rates/files/illinois/aiel59rdcgr.ashx,200,programs Ameren Illinois Company d/b/a Ameren Illinois
 https://www.ameren.com/-/media/rates/files/missouri/uecsheet54rate1mres.ashx,200,programs Union Electric Company d/b/a Ameren Missouri; programs Union Electric Company d/b/a Ameren Missouri; programs Union Electric Company d/b/a Ameren Missouri
+https://www.ameren.com/-/media/rates/missouri/non-residential/electric-rates/rates/uecdsheet55rate2msgs.ashx,200,presence 19436 ci_habit
 https://www.ameren.com/efficiency/programs/peak-time-rewards,200,programs Ameren Illinois Company d/b/a Ameren Illinois
 https://www.ameren.com/efficiency/programs/peak-time-savings,200,programs Union Electric Company d/b/a Ameren Missouri
 https://www.ameren.com/efficiency/programs/peak-time-savings-ev,200,programs Union Electric Company d/b/a Ameren Missouri
-https://www.ameren.com/illinois/residential/supply-choice/renewables/rebates,200,programs Ameren Illinois Company d/b/a Ameren Illinois; ic_util Ameren Illinois Company d/b/a Ameren Illinois
+https://www.ameren.com/illinois/residential/supply-choice/renewables/net-metering,200,programs Ameren Illinois Company d/b/a Ameren Illinois
+https://www.ameren.com/illinois/residential/supply-choice/renewables/rebates,200,ic_util Ameren Illinois Company d/b/a Ameren Illinois
+https://www.ameren.com/missouri/business/demand-response,200,presence 19436 ci_dispatch
 https://www.ameren.com/missouri/company/rate-options/faqs,200,ic_util Union Electric Company d/b/a Ameren Missouri
 https://www.amicalolaemc.com/members/water-heater-maintenance-program,200,presence 562 res_dispatch
 https://www.amicalolaemc.com/uploads/files/a1/b7/a1b73728dc7dea91e950f826220fef83.pdf,200,presence 562 res_habit
@@ -726,7 +735,6 @@ https://www.benco.org/load-management-programs,200,presence 1884 res_dispatch
 https://www.bentonpud.org/about-benton-pud/planning-performance/resource-planning,200,presence 1579 res_dispatch; presence 1579 ci_dispatch
 https://www.bentonpud.org/manage-my-account/payment-billing/demand-charge/residential-demand-charge,200,presence 1579 res_habit; programs Benton PUD
 https://www.bentonpud.org/solar-connections/rooftop-solar,200,programs Benton PUD
-https://www.berkeleyelectric.coop/rate-structure,404,programs Berkeley Electric Cooperative
 https://www.berkeleyelectric.coop/renewable-energy,200,programs Berkeley Electric Cooperative
 https://www.berkeleyelectric.coop/solar-energy,200,ic_util Berkeley Electric Cooperative
 https://www.bhec.coop/peak-demand-times,200,presence 1769 res_habit; presence 1769 res_dispatch
@@ -734,22 +742,21 @@ https://www.bia.gov/news/bureau-indian-affairs-adjusts-electric-power-rates-san-
 https://www.blackhillsenergy.com/billing-and-payments/rates-and-regulatory-information/cheyenne-regulatory-rate-review,200,presence 3461 ci_habit
 https://www.blackhillsenergy.com/billing-and-payments/rates-and-regulatory-information/colorado-rates-and-regulatory-information,200,programs Black Hills Energy (Colorado Electric)
 https://www.blackhillsenergy.com/efficiency-and-savings/residential-rebates/colorado-electric-residential-rebates,200,programs Black Hills Energy (Colorado Electric)
-https://www.blackhillsenergy.com/efficiency-and-savings/welcome-ready-ev/welcome-colorado-ready-ev/commercial-time-day-rates,200,presence 56146 ci_habit
-https://www.blackhillsenergy.com/efficiency-and-savings/welcome-ready-ev/welcome-colorado-ready-ev/residential-time-day-rates,200,presence 56146 res_habit
-https://www.blackhillsenergy.com/services/demand-controller-program,200,presence 56146 res_dispatch; presence 19545 res_dispatch
+https://www.blackhillsenergy.com/services/demand-controller-program,200,presence 19545 res_dispatch
 https://www.blackhillsenergy.com/sites/blackhillsenergy.com/files/2025-time-of-day-rate-factsheet.pdf,200,programs Black Hills Energy (Colorado Electric); programs Black Hills Energy (Colorado Electric); programs Black Hills Energy (Colorado Electric)
+https://www.blackhillsenergy.com/sites/blackhillsenergy.com/files/coe-rates-tariff_0.pdf,200,presence 56146 ci_dispatch
 https://www.bluebonnet.coop/rates,200,"presence 1892 res_habit; programs Bluebonnet Electric Cooperative, Inc."
 https://www.bluebonnet.coop/sites/default/files/Tariff-Section-III-06_27_2023-PDF.pdf,200,presence 1892 ci_habit
 https://www.blueridgeenergy.com/residential/help-faqs/electric/understanding-my-bill/rate-schedules,200,presence 1889 res_habit
 https://www.blueridgeenergy.com/residential/your-energy-solutions/beat-the-peak,200,presence 1889 res_dispatch
 https://www.bountifulutah.gov/file/970092b4-5f1a-407e-ac4c-5e63a969d9bf,200,presence 2010 res_habit
-https://www.bpu.com/about/bpu_adopts.aspx,404,programs Kansas City Board of Public Utilities
+https://www.bpu.com/About/Policies/ElectricServicePolicies.aspx,200,programs Kansas City Board of Public Utilities
 https://www.bpub.com/rates/electric-rates,200,presence 2409 res_habit; presence 2409 ci_habit
 https://www.bpub.com/services/electric/energy-conservation,200,presence 2409 res_dispatch; presence 2409 ci_dispatch
 https://www.brec.coop/rates,200,presence 1775 res_habit; presence 1775 ci_habit
 https://www.brmemc.com/electric-rate-sheet/,200,presence 1891 res_habit; presence 1891 ci_habit
 https://www.brmemc.com/waterheaters/,200,presence 1891 res_dispatch
-https://www.brookingsutilities.com/Services,200,presence 2285 res_habit; presence 2285 res_dispatch; presence 2285 ci_dispatch
+https://www.brookingsutilities.com/Services,200,presence 2285 res_habit; presence 2285 ci_dispatch
 https://www.btutilities.com/for-business/business-rates,200,presence 2442 ci_habit
 https://www.btutilities.com/for-home/residential-rates,200,presence 2442 res_habit
 https://www.buckeyerec.coop/index.php/service-policies/,404,programs Buckeye Power Inc. (G&T for Ohio's Electric Cooperatives)
@@ -762,7 +769,7 @@ https://www.burlingtonelectric.com/strategic-direction/,200,programs Burlington 
 https://www.burlingtonelectric.com/wp-content/uploads/Tariff-Sheet-EV.pdf,200,programs Burlington Electric Department
 https://www.butlerborough.com/documents/ElectricRateInfoJune2024.pdf,200,presence 2650 res_habit; presence 2650 ci_habit
 https://www.bvesinc.com/customer-service/rates-regulations/general-rate-schedules,200,presence 17612 res_habit; presence 17612 ci_habit
-https://www.bvua.com/business/pages/programs-services,200,presence 2248 ci_dispatch
+https://www.bvua.com/business/pages/programs-services,403,presence 2248 ci_dispatch
 https://www.bvua.com/residential/pages/residential-electric-rates,200,presence 2248 res_habit
 https://www.caiso.com/Documents/May18-2023-OrderAcceptingComplianceFilingofFERCOrderNo2222-ER21-2455.pdf,200,programs California Independent System Operator
 https://www.caiso.com/documents/2025-annual-report-on-market-issues-and-performance.pdf,200,programs California Independent System Operator
@@ -797,7 +804,7 @@ https://www.central.coop/load-management-program,200,presence 40224 res_dispatch
 https://www.cfu.net/filesimages/Utilities/Rate%20Schedules/2025%20Electric%20Rate%20Schedules.pdf,200,presence 3203 res_habit; presence 3203 ci_habit; presence 3203 ci_dispatch
 https://www.cgemc.com/load-management,200,presence 3248 res_dispatch
 https://www.cgemc.com/rates,200,presence 3248 res_habit; presence 3248 ci_habit
-https://www.chaffeecountytimes.com/legals/notice-of-time-of-use-rate-schedule-change-sangre-de-cristo-electric-association-inc/article_02ced674-e0a9-11e9-b9c5-93365420dbb2.html,200,presence 16649 res_habit
+https://www.chaffeecountytimes.com/legals/notice-of-time-of-use-rate-schedule-change-sangre-de-cristo-electric-association-inc/article_02ced674-e0a9-11e9-b9c5-93365420dbb2.html,429,presence 16649 res_habit
 https://www.chargingrewards.com/dominionenergy-ev/,200,programs Virginia Electric & Power Co (Dominion Energy Virginia)
 https://www.chargingrewards.com/lge-ku-ev/faq/,200,programs Kentucky Utilities; programs Louisville Gas & Electric
 https://www.chaskamn.gov/Electric-Rates,404,presence 3400 res_habit
@@ -842,8 +849,8 @@ https://www.clearwaterpower.com/services/rates-charges/,200,presence 3739 res_ha
 https://www.cleco.com/docs/default-source/rates-and-fees/other-documents/2026/00-index-of-rate-schedules-and-riders-04-01-2026-clean.pdf,404,programs Cleco Power LLC
 https://www.cleco.com/docs/default-source/rates-and-fees/rider-schedule/july-2025/22-optional-residential_small-commercial-distributed-generation-03-01-2025.pdf,200,programs Cleco Power LLC
 https://www.cleco.com/docs/default-source/rates-and-fees/rider-schedule/july-2025/39-mvdr-rider-01-01-2025.pdf,200,programs Cleco Power LLC
-https://www.cleco.com/residential-commercial/energy-efficiency-renewables/distributed-generation,200,ic_util Cleco Power LLC
-https://www.cleco.com/residential-commercial/interconnections/distributed-generation,200,programs Cleco Power LLC
+https://www.cleco.com/residential-commercial/energy-efficiency-renewables/distributed-generation,403,ic_util Cleco Power LLC
+https://www.cleco.com/residential-commercial/interconnections/distributed-generation,403,programs Cleco Power LLC
 https://www.clelectric.com/,200,presence 2678 ci_dispatch
 https://www.cloverland.com/billing-payments/rates-charges/,200,programs Cloverland Electric Cooperative
 https://www.cloverland.com/energy-solutions/der/,200,programs Cloverland Electric Cooperative; ic_util Cloverland Electric Cooperative
@@ -882,10 +889,14 @@ https://www.coned.com/en/save-money/rebates-incentives-tax-credits/rebates-incen
 https://www.coned.com/en/save-money/rebates-incentives-tax-credits/rebates-incentives-tax-credits-for-residential-customers/electric-vehicle-rewards,200,programs Consolidated Edison Co of New York (Con Edison)
 https://www.connexusenergy.com/download_file/view/82b43e23-b577-44a9-9e10-614c04a9e826,200,programs Connexus Energy; programs Connexus Energy; programs Connexus Energy
 https://www.connexusenergy.com/residential/rules-and-conditions/solar-interconnection-process,200,ic_util Dakota Electric Association; ic_util Connexus Energy
+https://www.consumersenergy.com/business/account-and-billing/rates/electric-rates-and-programs/rate-plans/time-of-use-rate-plan,200,presence 4254 ci_habit
+https://www.consumersenergy.com/business/products-and-services/demand-response,200,presence 4254 ci_dispatch
 https://www.consumersenergy.com/residential/account-and-billing/rates/electric-rates-and-programs/rate-plan-options/time-of-use-rate-plans,200,programs Consumers Energy Co
 https://www.consumersenergy.com/residential/account-and-billing/rates/electric-rates-and-programs/rate-plan-options/time-of-use-rate-plans/critical-peak-pricing-program,200,programs Consumers Energy Co
 https://www.consumersenergy.com/residential/account-and-billing/rates/electric-rates-and-programs/rate-plan-options/time-of-use-rate-plans/peak-time-rewards-program,200,programs Consumers Energy Co
+https://www.consumersenergy.com/residential/rates/electric-rates-and-programs/rate-plan-options/standard-rate-plan/ac-peak-cycling,200,programs Consumers Energy Co
 https://www.consumersenergy.com/residential/savings-and-clean-energy/electric-vehicles/smart-charging-incentive,200,programs Consumers Energy Co
+https://www.consumersenergy.com/residential/savings-and-clean-energy/renewable-energy/distributed-generation,200,programs Consumers Energy Co
 https://www.cooksonhills.com/rates,200,presence 4296 res_habit; presence 4296 res_dispatch; presence 4296 ci_habit
 https://www.coserv.com/energy-solutions/peaktime-perks/,200,"presence 5078 res_dispatch; programs CoServ Electric (Denton County Electric Cooperative, Inc.); programs CoServ Electric (Denton County Electric Cooperative, Inc.)"
 https://www.coserv.com/service/commercial/commercial-rates/,200,presence 5078 ci_habit; presence 5078 ci_dispatch
@@ -941,6 +952,7 @@ https://www.dominionenergy.com/virginia/save-energy/targeted-sector-programs,200
 https://www.dominionenergyptr.com/,200,programs Virginia Electric & Power Co (Dominion Energy Virginia)
 https://www.dominionpost.com/2024/03/27/psc-approves-reduced-mon-power-potomac-edison-base-rate-hike-compromise-net-metering-credit-achieved-in-settlements/,200,programs Monongahela Power Co (FirstEnergy - West Virginia); programs Potomac Edison Co (FirstEnergy - West Virginia); ic_util Monongahela Power Co (FirstEnergy - West Virginia)
 https://www.dothan.org/155/Electricity-Rates,200,presence 5309 res_habit
+https://www.dteenergy.com/content/dam/dteenergy/deg/website/business/service-and-price/pricing/BusinessElectricRates.pdf,200,presence 5109 ci_habit
 https://www.dteenergy.com/content/dam/dteenergy/deg/website/residential/Service-Request/pev/plug-in-electric-vehicles-pev/SmartChargeBrochure.pdf,200,programs DTE Electric Co
 https://www.dteenergy.com/content/dam/dteenergy/deg/website/residential/Service-Request/pricing/residential-pricing-options/CoolCurrents.pdf,200,programs DTE Electric Co
 https://www.dteenergy.com/content/dam/dteenergy/deg/website/residential/Service-Request/pricing/residential-pricing-options/ResidentialElectricRateCard.pdf,200,programs DTE Electric Co; programs DTE Electric Co; programs DTE Electric Co
@@ -970,8 +982,8 @@ https://www.dutil.com/electric/,200,presence 4744 res_habit; presence 4744 res_d
 https://www.easleyutilities.com/load-management/,404,presence 6709 res_dispatch
 https://www.eastcentralenergy.com/water-heating-rebates,200,presence 5574 res_habit; presence 5574 res_dispatch
 https://www.eastriver.coop/save-energy-save-money/,404,programs East River Electric Power Cooperative
-https://www.ecec.com/energy-programs/electric_vehicle,404,presence 5632 res_habit
-https://www.ecec.com/energy-programs/water_heater,404,presence 5632 res_dispatch
+https://www.ecec.com/energy-efficiency/energy-programs/electric_vehicles,200,presence 5632 res_habit
+https://www.ecec.com/energy-efficiency/energy-programs/water_heater,200,presence 5632 res_dispatch
 https://www.ed3online.org/accounts-programs/programs/time-of-use-2-9,403,presence 30518 res_habit
 https://www.edmondok.gov/1246/Residential-Rates,200,presence 5661 res_habit; programs City of Edmond (Edmond Electric)
 https://www.edmondok.gov/1294/Demand-Energy-Efficiency-Program,200,presence 5661 ci_dispatch
@@ -1003,7 +1015,7 @@ https://www.energyunited.com/rates/,200,presence 21632 res_habit
 https://www.energyunited.com/wp-content/uploads/2021/05/EU-Rate-Schedules_02012021_Net-Metering-Commercial.pdf,200,programs EnergyUnited
 https://www.energyunited.com/wp-content/uploads/2023/11/Res-TOU-CS-EU-Rate-Schedules-1.1.pdf,200,presence 21632 ci_dispatch
 https://www.energyunited.com/wp-content/uploads/2024/01/EU-Rate-Schedules-2.1.2024_RNM-1.pdf,200,ic_util EnergyUnited
-https://www.entergyarkansas.com/net-metering,200,programs Entergy Arkansas LLC
+https://www.entergyarkansas.com/net-metering,403,programs Entergy Arkansas LLC
 https://www.entergyarkansas.com/wp-content/uploads/2025/06/eal_nln-m.pdf,200,programs Entergy Arkansas LLC
 https://www.entergylouisiana.com/business/interruptible,200,programs Entergy Louisiana LLC
 https://www.entergylouisiana.com/net-metering,200,ic_util Entergy Louisiana LLC
@@ -1011,10 +1023,10 @@ https://www.entergylouisiana.com/wp-content/uploads/ell_elec_dg.pdf,200,programs
 https://www.entergylouisiana.com/wp-content/uploads/ell_elec_eio.pdf,200,programs Entergy Louisiana LLC; programs Entergy Louisiana LLC
 https://www.entergylouisiana.com/wp-content/uploads/ell_elec_nm.pdf,200,programs Entergy Louisiana LLC
 https://www.entergymississippi.com/wp-content/uploads/eml_nem.pdf,200,programs Entergy Mississippi LLC; programs Entergy Mississippi LLC; programs Entergy Mississippi LLC
-https://www.entergyneworleans.com/net-metering,200,programs Entergy New Orleans LLC; ic_util Entergy New Orleans LLC
+https://www.entergyneworleans.com/net-metering,403,programs Entergy New Orleans LLC; ic_util Entergy New Orleans LLC
 https://www.entergytexas.com/net-metering,200,programs Entergy Texas Inc; ic_util Entergy Texas Inc
 https://www.entergytexas.com/wp-content/uploads/eti_gs-tod.pdf,200,programs Entergy Texas Inc
-https://www.epelectric.com/new-mexico-ev/residential/charging-programs,200,programs El Paso Electric Co (New Mexico jurisdiction); programs El Paso Electric Co (New Mexico jurisdiction); programs El Paso Electric Co (New Mexico jurisdiction)
+https://www.epelectric.com/new-mexico-ev/residential/charging-programs,200,presence 5701 res_dispatch; programs El Paso Electric Co (New Mexico jurisdiction); programs El Paso Electric Co (New Mexico jurisdiction)
 https://www.epelectric.com/residential/customer-programs/time-of-day-rates/new-mexico,200,presence 5701 res_habit; programs El Paso Electric Co (New Mexico jurisdiction); programs El Paso Electric Co (New Mexico jurisdiction)
 https://www.epelectric.com/residential/customer-programs/time-of-day-rates/texas,200,programs El Paso Electric
 https://www.epelectric.com/residential/rooftop-solar/texas-interconnection-of-facilities-up-to-10-mw,200,programs El Paso Electric
@@ -1023,11 +1035,10 @@ https://www.epud.org/faqs_category/rates/,200,presence 40437 ci_habit
 https://www.epud.org/news-releases/interested-in-time-of-use-rates/,200,presence 40437 res_habit
 https://www.ercot.com/mktrules/issues/NPRR1296,200,programs ERCOT (statewide)
 https://www.ercot.com/services/comm/mkt_notices/M-A030226-01,200,programs ERCOT (statewide)
-https://www.erec.com/energy-efficiency/rebates/efficiency-programs/beat-the-peak-savings-progam/,ERR URLError,presence 5964 res_dispatch
+https://www.erec.com/energy-efficiency/rebates/efficiency-programs/beat-the-peak-savings-progam/,200,presence 5964 res_dispatch
 https://www.ermumn.com/programs-rebates/residential-rebates/electric-vehicle-charger,200,presence 5773 res_habit
 https://www.ermumn.com/services/electric,200,presence 5773 res_dispatch; presence 5773 ci_dispatch
 https://www.ermumn.com/services/electric/rates-fee-schedule,200,presence 5773 ci_habit
-https://www.ev.energy/en-us/blog/el-paso-electric-and-ev-energy-lead-new-mexicos-latest-managed-ev-charging-program,404,presence 5701 res_dispatch
 https://www.evergy.com/-/media/documents/billing/missouri/detailed_tariffs_mo/mo-west/residential-time-of-use-three-period-010923.pdf,200,presence 10000 res_dispatch; presence 12698 res_habit
 https://www.evergy.com/-/media/media/evergy-web/landing/missouri-tou-rate-landing/mo-tou-rate-costs.pdf,200,presence 10000 res_habit
 https://www.evergy.com/ways-to-save/discounts-link/thermostats,200,programs Evergy Kansas Central; programs Evergy Kansas South
@@ -1057,7 +1068,6 @@ https://www.faypwc.com/aquanta-electric-water-heater-control-device-program/,200
 https://www.faypwc.com/time-of-use-rates-for-non-residential-customers/,200,presence 6235 ci_habit
 https://www.faypwc.com/time-of-use-rates/,200,presence 6235 res_habit
 https://www.fcgov.com/utilities/residential/conserve/energy-efficiency/peak-partners/program-faqs,403,presence 6604 res_dispatch; presence 6604 ci_dispatch; programs Fort Collins Utilities
-https://www.fcgov.com/utilities/residential/rates/electric/time-of-day-rates,404,presence 6604 res_habit
 https://www.fec-co.com/rates-1,200,presence 6181 res_habit
 https://www.fecnm.org/rates,200,presence 6198 res_habit; presence 6198 ci_habit; presence 6198 ci_dispatch
 https://www.firstelectric.coop/pdfs/Condensed%20Rate%20Schedule%20-%20June%202023.pdf,404,presence 6342 res_habit; presence 6342 ci_habit; presence 6342 ci_dispatch
@@ -1081,6 +1091,7 @@ https://www.flintenergies.com/co-op-comfort,200,presence 6411 res_dispatch
 https://www.flintenergies.com/residential-rates,200,presence 6411 res_habit
 https://www.forestgrove-or.gov/598/Electric-Service-Rates,200,presence 6582 ci_habit
 https://www.fortcollins.gov/Services/Utilities/Pay-My-Bill/Rates,403,programs Fort Collins Utilities; programs Fort Collins Utilities; programs Fort Collins Utilities
+https://www.fortcollins.gov/Services/Utilities/Pay-My-Bill/TOD,403,presence 6604 res_habit
 https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Energy-Programs/Residential-Solar-and-Battery-Storage,403,programs Fort Collins Utilities
 https://www.fourcty.org/faqs/rate-schedules/,200,presence 6640 res_habit
 https://www.fpl.com/business/save/programs/oncall.html,200,programs Florida Power & Light Company
@@ -1099,8 +1110,8 @@ https://www.freeportelectric.com/2180/Electric-Rates,200,presence 6775 res_habit
 https://www.frenchbroademc.com/index.php/billing/rates-and-fees/,403,presence 6784 res_habit
 https://www.garkaneenergy.com/rates,200,presence 6957 ci_habit
 https://www.gastonianc.gov/component/content/article/86-357-29-commercial-industrial-rates.html,200,presence 7027 ci_habit
-https://www.gcea.coop/gceas-rate-structure-change/,404,presence 7787 ci_habit
 https://www.gcea.coop/news-releases/gcea-to-implement-rate-design-change-starting-january-1-2026/,200,presence 7787 res_habit
+https://www.gcea.coop/rates/,200,presence 7787 ci_habit
 https://www.gcec.net/rates,200,presence 7559 res_habit; presence 7559 ci_habit
 https://www.georgiapower.com/content/dam/georgia-power/pdfs/business-pdfs/DRC-1_Tariff.pdf,200,programs Georgia Power Company
 https://www.georgiapower.com/content/dam/georgia-power/pdfs/business-pdfs/rates-schedules/ci-redi-tariff.pdf,200,presence 7140 ci_dispatch
@@ -1164,7 +1175,7 @@ https://www.harrisonburgelectric.com/our-programs/,200,presence 8198 res_dispatc
 https://www.harrisonburgelectric.com/resources/rate-schedules/,200,presence 8198 res_habit
 https://www.harrisonremc.com/electric-rates/,200,presence 8179 res_habit
 https://www.hartemc.com/safety-education/energy-conservation/,200,presence 8210 res_dispatch
-https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_09.pdf,200,programs Hawaiian Electric Co (Oahu); programs Hawaii Electric Light Co (Hawaii Island); programs Maui Electric Co (Maui County)
+https://www.hawaiianelectric.com/documents/billing_and_payment/rates/effective_rate_summary/2026/efs_2026_10.pdf,200,programs Hawaiian Electric Co (Oahu); programs Hawaii Electric Light Co (Hawaii Island); programs Maui Electric Co (Maui County)
 https://www.hawaiianelectric.com/hawaiian-electric-to-close-shift-and-save-time-of-use-rates-program-to-new-enrollments-as-of-feb-1,200,presence 19547 res_habit; presence 19547 ci_habit; presence 8287 res_habit
 https://www.hawaiianelectric.com/products-and-services/customer-incentive-programs,200,presence 19547 res_dispatch; presence 19547 ci_dispatch; presence 8287 res_dispatch
 https://www.hawaiianelectric.com/products-and-services/customer-incentive-programs/battery-bonus,200,programs Hawaiian Electric Co (Oahu); programs Maui Electric Co (Maui County)
@@ -1244,6 +1255,7 @@ https://www.independencemo.gov/media/809,200,programs Independence Power and Lig
 https://www.independencemo.gov/sites/default/files/2023-08/IPL%20Rates%20-%20T%20(6-1-18)%20NM-1.cleaned%20(2).pdf,200,ic_util Independence Power and Light Department
 https://www.independencemo.gov/sites/default/files/2023-08/IPL%20Rates%20-%20T%20(7-1-12)%20-%20SCIS-1.pdf,200,presence 9231 ci_dispatch
 https://www.indianamichiganpower.com/clean-energy/electric-cars/charge-at-home-michigan,200,programs Indiana Michigan Power - Michigan; programs Indiana Michigan Power - Michigan
+https://www.indianamichiganpower.com/lib/docs/ratesandtariffs/Michigan/IM_MI_TB_Bk_19_2026_08_28.pdf,404,presence 9324 ci_habit
 https://www.inlandpower.com/commercial-incentives,200,presence 8699 ci_habit; presence 8699 ci_dispatch
 https://www.inlandpower.com/save-energy,200,presence 8699 res_habit; presence 8699 res_dispatch
 https://www.irwinemc.com/load-management,200,presence 9431 res_dispatch; presence 9431 ci_dispatch
@@ -1275,7 +1287,8 @@ https://www.jea.com/My_Account/Rates/Electric_Rates_Definitions/,200,presence 96
 https://www.jea.com/My_Account/Rates/Electric_Tariff.aspx,200,presence 9617 ci_dispatch
 https://www.jea.com/business_resources/commercial_electric_rates/,200,presence 9617 ci_habit
 https://www.jea.com/my_account/rates/smartsavings/,200,programs JEA
-https://www.jec.coop/member-services/rates/,200,presence 9689 res_habit
+https://www.jec.coop/member-services/rates/,403,presence 9689 res_habit
+https://www.jeffpud.org/rates-for-electricity/,307,presence 59013 res_habit
 https://www.jemezcoop.org/time-use,200,presence 9699 res_habit; presence 9699 res_dispatch
 https://www.karnesec.org/service/commercialrates/,200,presence 10009 ci_habit
 https://www.karnesec.org/service/residential-rates/,200,presence 10009 res_habit
@@ -1313,7 +1326,6 @@ https://www.lakeviewlight.com/save-energy-money/free-google-nest-thermostat/,200
 https://www.lakeviewlight.com/services/rates-fees/rates/,200,presence 10627 res_habit; presence 10627 ci_habit; presence 10627 ci_dispatch
 https://www.law.cornell.edu/regulations/florida/Fla-Admin-Code-Ann-R-25-6-065,200,ic_state FL
 https://www.law.cornell.edu/regulations/illinois/title-83/part-466,200,ic_state IL
-https://www.law.cornell.edu/regulations/indiana/170-IAC-4-4.3-6,200,ic_state IN
 https://www.law.cornell.edu/regulations/michigan/Mich-Admin-Code-R-460-920,200,ic_state MI
 https://www.law.cornell.edu/regulations/missouri/20-CSR-4240-20-065,200,ic_state MO
 https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-14-8-5-2,200,ic_state NJ
@@ -1328,7 +1340,7 @@ https://www.lbwl.com/documents/2025-residential-electric,200,programs Lansing Bo
 https://www.lbwl.com/installsolar,200,ic_util Lansing Board of Water & Light
 https://www.lcec.net/my-account/rates/,200,presence 10857 res_dispatch; presence 10857 ci_dispatch; programs Lee County Electric Cooperative (LCEC)
 https://www.lcec.net/wp-content/uploads/Rate-Tariff-Sheet-2026.pdf,200,programs Lee County Electric Cooperative (LCEC); ic_util Lee County Electric Cooperative (LCEC)
-https://www.lcecnet.com/rates,200,presence 10817 res_habit; presence 10817 ci_habit
+https://www.lcecnet.com/rates,307,presence 10817 res_habit; presence 10817 ci_habit
 https://www.legis.iowa.gov/docs/aco/arc/8859B.pdf,200,ic_state IA
 https://www.lehi-ut.gov/living-in-lehi/utilities/power/electric-rates/,200,presence 10879 res_habit; presence 10879 res_dispatch
 https://www.les.com/rates/business-rates,200,presence 11018 ci_habit; presence 11018 ci_dispatch; programs Lincoln Electric System
@@ -1351,7 +1363,7 @@ https://www.lrec.coop/energy-services/off-peak-water-heating/,200,presence 10618
 https://www.lrecok.coop/electric-rates,200,presence 10599 res_habit; presence 10599 res_dispatch; presence 10599 ci_habit
 https://www.lumbertonnc.gov/DocumentCenter/View/856,200,presence 11318 res_habit; presence 11318 res_dispatch; presence 11318 ci_habit
 https://www.lvenergy.com/2026/07/15/lower-valley-energy-approves-modernized-electric-rate-structure-to-support-long-term-reliability/,200,presence 11273 res_habit; presence 11273 ci_habit
-https://www.maconelectric.com/rates,200,presence 11463 res_habit; presence 11463 res_dispatch
+https://www.maconelectric.com/rates,307,presence 11463 res_habit; presence 11463 res_dispatch
 https://www.magicvalley.coop/commercial/rates-pricing/,200,presence 11501 ci_habit
 https://www.magicvalley.coop/myresponse-program/,200,"programs Magic Valley Electric Cooperative, Inc."
 https://www.magicvalley.coop/residential/,200,presence 11501 res_habit
@@ -1388,7 +1400,6 @@ https://www.mge.com/smart-energy/electric-vehicles/ev-programs/charge-ahead,200,
 https://www.mged.com/256/Home-Energy-Saving-Rebates,200,presence 12473 res_dispatch; presence 12473 ci_dispatch
 https://www.michigan.gov/-/media/Project/Websites/mpsc/workgroups/dgpi/DTE_Proposed_Rider_18_DG_Tariff.pdf,200,ic_util DTE Electric Co
 https://www.michigan.gov/mpsc/-/media/Project/Websites/mpsc/regulatory/reports/RE-DG/2024-RE-DG-Report.pdf,200,ic_util Consumers Energy Co; ic_util Great Lakes Energy Cooperative; ic_util Indiana Michigan Power - Michigan
-https://www.michigannewssource.com/2024/07/editorial-consumers-energys-ac-peak-cycling-program-offers-sweating-for-savings/,200,programs Consumers Energy Co
 https://www.mid.org/saving-energy-money/solar/,200,ic_util Modesto Irrigation District (MID)
 https://www.mid.org/wp-content/uploads/2024_net_metering_2_0.pdf,200,programs Modesto Irrigation District (MID)
 https://www.mid.org/wp-content/uploads/2026-EV-D-RESIDENTIAL-TIME-OF-USE-PILOT.pdf,200,programs Modesto Irrigation District (MID)
@@ -1454,6 +1465,7 @@ https://www.nationalgridus.com/MA-Business/Energy-Saving-Programs/ConnectedSolut
 https://www.nationalgridus.com/MA-Home/Connected-Solutions/BatteryProgram,200,presence 11804 res_dispatch; programs Massachusetts Electric Co (National Grid MA)
 https://www.nationalgridus.com/Upstate-NY-Business/Demand-Response/Electric-Demand-Response,200,programs Niagara Mohawk Power Corp (National Grid NY); programs Niagara Mohawk Power Corp (National Grid NY)
 https://www.nationalgridus.com/Upstate-NY-Business/RFP/Term-DLM-and-Auto-DLM-Program-Request-for-Proposals,200,programs Niagara Mohawk Power Corp (National Grid NY); programs Niagara Mohawk Power Corp (National Grid NY)
+https://www.nationalgridus.com/Upstate-NY-Business/Rates/Service-Rates,200,presence 13573 ci_habit
 https://www.nationalgridus.com/Upstate-NY-Business/Supply-Costs/VDER-Value-Stack-Energy-Component-Prices,200,programs Niagara Mohawk Power Corp (National Grid NY)
 https://www.nationalgridus.com/Upstate-NY-Home/ConnectedSolutions/BatteryProgram,200,programs Niagara Mohawk Power Corp (National Grid NY)
 https://www.nationalgridus.com/Upstate-NY-Home/Voluntary-Time-of-Use-Rate/Voluntary-Time-of-Use-Rate,200,programs Niagara Mohawk Power Corp (National Grid NY); programs Niagara Mohawk Power Corp (National Grid NY)
@@ -1539,13 +1551,13 @@ https://www.nyseg.com/smartenergy/rebatesandprograms/smartsavingsrewards,ERR Tim
 https://www.nyseg.com/smartenergy/understandyourusage/hourlypricingcommercial,ERR TimeoutError,programs New York State Electric & Gas Corp (NYSEG)
 https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/Energy-Storage/2026-01-22-Utility-DLM-Program-Overview.pdf,200,programs New York State Electric & Gas Corp (NYSEG); programs Rochester Gas & Electric Corp (RG&E); programs Orange & Rockland Utilities Inc (O&R)
 https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/Energy-Storage/FINAL_20251204-ISI-Webinar.pdf,200,programs New York State Energy Research and Development Authority (NYSERDA) - statewide; programs New York State Energy Research and Development Authority (NYSERDA) - statewide
+https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/Energy-Storage/Residential-and-Retail-Energy-Storage-Program-Manual.pdf,200,programs New York State Energy Research and Development Authority (NYSERDA) - statewide
 https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/NY-Sun/2026-Utility-Published-Customer-Benefit-Contribution-Rates.pdf,200,programs Consolidated Edison Co of New York (Con Edison); programs Orange & Rockland Utilities Inc (O&R); programs Niagara Mohawk Power Corp (National Grid NY)
 https://www.nyserda.ny.gov/All-Programs/Energy-Storage-Program/Developers-and-Contractors/Residential-and-Retail-Storage-Incentives,200,programs New York State Energy Research and Development Authority (NYSERDA) - statewide
-https://www.nyserda.ny.gov/All-Programs/Energy-Storage-Program/Developers-and-Contractors/Residential-and-Retail-Storage-Incentives/Residential-Dashboard,200,programs New York State Energy Research and Development Authority (NYSERDA) - statewide
 https://www.nyserda.ny.gov/All-Programs/Energy-Storage-Program/Developers-and-Contractors/Residential-and-Retail-Storage-Incentives/Retail-Incentive-Dashboard,200,programs New York State Energy Research and Development Authority (NYSERDA) - statewide
-https://www.nyserda.ny.gov/All-Programs/NY-Sun/Contractors/Dashboards,200,programs New York State Energy Research and Development Authority (NYSERDA) - statewide
+https://www.nyserda.ny.gov/All-Programs/NY-Sun/Contractors/Dashboards-and-incentives,200,programs New York State Energy Research and Development Authority (NYSERDA) - statewide
 https://www.occ.ohio.gov/content/aep-ohios-power-rewards-smart-thermostat-program,200,programs Ohio Power Company (AEP Ohio)
-https://www.ocec-inc.com/rates,200,presence 14224 res_habit; presence 14224 ci_habit
+https://www.ocec-inc.com/rates,307,presence 14224 res_habit; presence 14224 ci_habit
 https://www.oconeeemc.com/,200,presence 13962 res_dispatch; presence 13962 ci_dispatch
 https://www.oconomowoc-wi.gov/,200,presence 13963 res_habit
 https://www.ocontoelectric.com/oecs-dual-fuel-program,200,presence 13964 res_habit
@@ -1570,11 +1582,11 @@ https://www.oncor.com/content/dam/oncorwww/eepm/documents/commercial-resources/2
 https://www.oncor.com/content/dam/oncorwww/eepm/documents/residential-resources/2025/2025-26%20Winter%20Residential%20LM%20Program%20Manual.pdf.coredownload.pdf,200,programs Oncor Electric Delivery
 https://www.oncor.com/content/dam/oncorwww/eepm/documents/residential-resources/2026/2026_Residential_LM_Program_Manual.pdf.coredownload.pdf,200,programs Oncor Electric Delivery
 https://www.oncor.com/content/oncorwww/talot/en/home/get-started/business/load-management.html,200,presence 44372 ci_dispatch
-https://www.oncor.com/content/oncorwww/talot/en/home/get-started/residential/residential-demand-response-get-started.html,200,presence 44372 res_dispatch
+https://www.oncor.com/content/oncorwww/talot/en/home/get-started/residential/residential-demand-response-get-started.html,404,presence 44372 res_dispatch
 https://www.oncor.com/content/oncorwww/us/en/home/smart-energy/renewables-solar-and-more/residential-small-commercial-thinking-about-solar.html,200,programs Oncor Electric Delivery
 https://www.opalco.com/energy-savings-hub/,200,presence 14170 res_dispatch; presence 14170 ci_dispatch
 https://www.opalco.com/rates-adjustments-explained/,200,presence 14170 res_habit; presence 14170 ci_habit
-https://www.opd5.com/safety/opd5-smart-meters/,403,presence 14245 res_dispatch
+https://www.opd5.com/safety/opd5-smart-meters/,200,presence 14245 res_dispatch
 https://www.oppd.com/business/business-rates/service-regulations-all-rates/,200,programs Omaha Public Power District
 https://www.oppd.com/media/318989/solar-rebate-program-terms-and-conditions.pdf,200,programs Omaha Public Power District
 https://www.oppd.com/residential/products-services/cool-smart/,200,presence 14127 res_dispatch
@@ -1683,12 +1695,11 @@ https://www.provo.org/departments/power/customers/rates-and-fees,403,presence 15
 https://www.psc.ms.gov/sites/default/files/Documents/Net%20Meeting%20and%20Interconnection%20Rules.pdf,200,ic_state MS
 https://www.psc.state.md.us/wp-content/uploads/Energy-Storage-Pilot-Program-Interim-Report.pdf,200,programs Maryland Public Service Commission (statewide pilot - BGE/Pepco/Delmarva)
 https://www.pse.com/-/media/Project/PSE/Portal/Rate-documents/Electric/elec_sch_150.pdf,200,programs Puget Sound Energy
+https://www.pse.com/-/media/Project/PSE/Portal/Rate-documents/Electric/elec_sch_307.pdf?sc_lang=en,200,programs Puget Sound Energy
 https://www.pse.com/-/media/Project/PSE/Portal/Rate-documents/Electric/elec_sch_327.pdf?sc_lang=en,200,programs Puget Sound Energy
 https://www.pse.com/en/account-and-billing/time-of-use,200,presence 15500 res_habit
-https://www.pse.com/en/account-and-billing/time-of-use/tou-faq,200,programs Puget Sound Energy
 https://www.pse.com/en/business-incentives/energy-management-programs/flex-c-i,200,programs Puget Sound Energy
 https://www.pse.com/en/business-incentives/energy-management-programs/flex-for-business,200,presence 15500 ci_dispatch; programs Puget Sound Energy
-https://www.pse.com/en/pages/rates,200,presence 15500 ci_habit
 https://www.pse.com/en/rebates/PSE-flex,200,presence 15500 res_dispatch; programs Puget Sound Energy; programs Puget Sound Energy
 https://www.pse.com/en/rebates/PSE-flex/flex-batteries,200,programs Puget Sound Energy
 https://www.pse.com/en/rebates/peak-time-savings,200,programs Puget Sound Energy
@@ -1703,13 +1714,13 @@ https://www.psoklahoma.com/account/bills/programs/time-of-day,200,presence 15474
 https://www.psoklahoma.com/lib/docs/ratesandtariffs/Oklahoma/PSOElectricVehicleRateSchedulesFeb2025.pdf,200,programs Public Service Co of Oklahoma (PSO); programs Public Service Co of Oklahoma (PSO); programs Public Service Co of Oklahoma (PSO)
 https://www.psoklahoma.com/lib/docs/ratesandtariffs/Oklahoma/PSOOtherApplicableSchedulesJan2026.pdf,200,presence 15474 ci_habit; presence 15474 ci_dispatch; programs Public Service Co of Oklahoma (PSO)
 https://www.psoklahoma.com/lib/docs/ratesandtariffs/Oklahoma/PSOResidentialServiceFeb2025.pdf,200,programs Public Service Co of Oklahoma (PSO); programs Public Service Co of Oklahoma (PSO)
-https://www.publicpower.org/periodical/article/introducing-time-varying-rates-pacific-northwest,200,presence 59013 res_habit; presence 59013 res_dispatch; presence 17470 ci_habit
+https://www.publicpower.org/periodical/article/introducing-time-varying-rates-pacific-northwest,200,presence 59013 res_dispatch; presence 17470 ci_habit
 https://www.publicpower.org/periodical/article/new-general-manager-jamestown-board-public-utilities-details-open-access-fiber-network-project-flex,200,presence 9645 ci_dispatch
 https://www.puc.nh.gov/,403,presence 26510 res_habit
 https://www.puc.pa.gov/electric/pdf/dsr/DSRWG_Existing_DSR_Programs_PECO.pdf,200,programs PECO Energy Co
 https://www.puc.pa.gov/media/3263/net-metering-interconnection-report-2022-2024-final.pdf,200,ic_util PECO Energy Co; ic_util PPL Electric Utilities Corp; ic_util Metropolitan Edison Co (Met-Ed)
 https://www.pud3.org/account-billing/rates-fees/,200,presence 15419 res_habit; presence 15419 ci_habit
-https://www.randolphemc.com/TOU,404,presence 15671 res_habit
+https://www.randolphemc.com/energy-solutions/save-energy-money/time-of-use-tou-rates/,200,presence 15671 res_habit
 https://www.ravallielectric.com/member-center/billing-payments/rates/,200,presence 26916 res_habit
 https://www.ravallielectric.com/programs/,200,presence 26916 res_dispatch; presence 26916 ci_dispatch
 https://www.rayleemc.com/,200,presence 15700 ci_dispatch
@@ -1734,18 +1745,18 @@ https://www.rienergy.com/site/ways-to-save/save-money-with-rebates-and-incentive
 https://www.rienergy.com/site/ways-to-save/save-money-with-rebates-and-incentives/savings-for-your-business/ci-connectedsolutions,200,presence 13214 ci_dispatch
 https://www.riogrande.coop/news-releases/time-of-use-rates-begins-may-1-ends-september-30/,200,presence 16057 res_habit; presence 16057 res_dispatch
 https://www.riverlandenergy.com/load-management,200,presence 16060 res_dispatch
+https://www.riversideca.gov/utilities/sites/riversideca.gov.utilities/files/pdf/rates-electric/2024/Electric%20Schedule%20TOU%20-%20Effective%2001-1-24%20Final.pdf,200,presence 16088 ci_habit
 https://www.rivierautilities.com/electric,200,presence 6491 res_dispatch
 https://www.rivierautilities.com/services/rates,200,presence 6491 res_habit; presence 6491 ci_habit; presence 6491 ci_dispatch
 https://www.rmld.com/189/Residential-Small-Commercial-Solar-Rebat,200,programs Reading Municipal Light Department; ic_util Reading Municipal Light Department
 https://www.rmld.com/198/Shred-the-Peak-Save,200,presence 15748 res_habit; presence 15748 res_dispatch; programs Reading Municipal Light Department
 https://www.rmld.com/cpdr,200,programs Reading Municipal Light Department
-https://www.rmld.com/home/pages/solar-choice-frequently-asked-questions,404,programs Reading Municipal Light Department
+https://www.rmld.com/efficiency-electrification-programs/renewable-generation,200,programs Reading Municipal Light Department
 https://www.roanokecooperative.com/clean-energy-solutions/smart-energy-savings/,200,presence 16101 res_dispatch
 https://www.roanokecooperative.com/faqs/schedule-d-residential-service-time-of-day/,200,presence 16101 res_habit
 https://www.rock.coop/energy-information-services,403,presence 16196 ci_dispatch
 https://www.rock.coop/rate-information,200,presence 16196 res_habit
 https://www.rockymountainpower.net/content/dam/pcorp/documents/en/rockymountainpower/rates-regulation/wyoming/rates/135_Net_Metering_Service.pdf,200,programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)
-https://www.rockymountainpower.net/savings-energy-choices/customer-generation/idaho-export-credit.html,200,programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)
 https://www.rockymountainpower.net/savings-energy-choices/home/cool-keeper.html,200,programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)
 https://www.rockymountainpower.net/savings-energy-choices/time-of-day.html,200,programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT); programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT); programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)
 https://www.rockymountainpower.net/savings-energy-choices/wattsmart-battery-program.html,200,presence 14354 res_dispatch; programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT); programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)
@@ -1773,13 +1784,13 @@ https://www.santeecooper.com/rates/,200,presence 17543 res_habit
 https://www.sbec.org/rate-schedules,200,presence 16638 res_habit; presence 16638 ci_habit
 https://www.sce.com/business/rates-financing/rate-plans/critical-peak-pricing,200,programs Southern California Edison Co (SCE)
 https://www.sce.com/factsheet/emergency-load-reduction-program,200,programs Southern California Edison Co (SCE)
-https://www.sce.com/regulatory/tariff-books/rates-pricing-choices,200,programs Southern California Edison Co (SCE)
 https://www.sce.com/residential/demand-response/smart-energy-program,200,programs Southern California Edison Co (SCE)
 https://www.sce.com/residential/generating-your-own-power/solar-billing-plan,200,programs Southern California Edison Co (SCE)
 https://www.sce.com/save-money/rates-financing/residential-rate-plans/time-of-use-plans,200,programs Southern California Edison Co (SCE); programs Southern California Edison Co (SCE); programs Southern California Edison Co (SCE)
 https://www.sce.com/save-money/savings-programs/enroll-in-savings-programs/capacity-bidding-program-elect,200,programs Southern California Edison Co (SCE)
 https://www.sce.com/save-money/savings-programs/enroll-in-savings-programs/summer-discount-plan,200,programs Southern California Edison Co (SCE)
 https://www.sce.com/save-money/savings-programs/ways-to-save-at-home/what-is-demand-response,200,programs Southern California Edison Co (SCE); programs Southern California Edison Co (SCE)
+https://www.sce.com/sites/default/files/custom-files/PDF_Files/Business/TOU-8_Rate_Fact_Sheet_072025_Accessible.pdf,200,programs Southern California Edison Co (SCE)
 https://www.sce.com/sites/default/files/custom-files/PDF_Files/ELECTRIC_SCHEDULES_NBT.pdf,200,ic_state CA
 https://www.sce.com/sites/default/files/custom-files/PDF_Files/ELECTRIC_SCHEDULES_NEM-ST.pdf,200,ic_util Southern California Edison Co (SCE)
 https://www.scec.coop/load-management,200,presence 17868 res_habit; presence 17868 res_dispatch
@@ -1793,7 +1804,6 @@ https://www.sdge.com/solar/solar-billing-plan,200,programs San Diego Gas & Elect
 https://www.seattle.gov/city-light/business-solutions/business-billing-and-account-information/business-rates,200,presence 16868 ci_dispatch
 https://www.seattle.gov/city-light/business-solutions/renewable-energy-services/solar-programs-for-businesses,200,programs Seattle City Light
 https://www.seattle.gov/city-light/residential-services/billing-information/rates,200,programs Seattle City Light
-https://www.seattle.gov/documents/departments/citylight/residential/tempwisetermsconditions.pdf,404,programs Seattle City Light
 https://www.sec.coop/account-services/rates-fees/,200,presence 21244 ci_habit
 https://www.sec.coop/energy-services-and-programs/energy-services-programs-savings-programs/,200,presence 21244 res_dispatch; presence 21244 ci_dispatch
 https://www.sec.coop/wp-content/uploads/SEC-Schedule-A_-TOU-Stamped.pdf,200,presence 21244 res_habit
@@ -1837,15 +1847,14 @@ https://www.spec.coop/together-we-save,200,presence 17561 res_dispatch
 https://www.spokesman.com/stories/2026/mar/23/why-more-washington-state-utilities-want-to-remote/,200,programs Tacoma Power
 https://www.springvilleutah.gov/power/distribution-transmission/,200,presence 17845 res_habit; presence 17845 res_dispatch; presence 17845 ci_habit
 https://www.sre.coop/load-management,200,presence 16740 res_habit; presence 16740 res_dispatch
-https://www.sremc.com/TOU,200,presence 17572 res_habit
-https://www.sremc.com/demand-response,200,presence 17572 ci_dispatch
+https://www.sremc.com/TOU,307,presence 17572 res_habit
+https://www.sremc.com/demand-response,307,presence 17572 ci_dispatch
 https://www.srpnet.com/energy-savings-rebates/business/rebates/demand-response,403,presence 16572 ci_dispatch; programs Salt River Project
-https://www.srpnet.com/energy-savings-rebates/home/rebates/battery-storage,404,presence 16572 res_dispatch
-https://www.srpnet.com/energy-savings-rebates/home/residential-solar/battery-partner,200,programs Salt River Project
-https://www.srpnet.com/price-plans/business-electric/time-of-use,200,presence 16572 ci_habit
-https://www.srpnet.com/price-plans/residential-electric/solar/compare-solar-plans,200,programs Salt River Project; programs Salt River Project; programs Salt River Project
-https://www.srpnet.com/price-plans/residential-electric/solar/renewable-export-program,200,programs Salt River Project
-https://www.srpnet.com/price-plans/residential-electric/time-of-use,200,presence 16572 res_habit
+https://www.srpnet.com/energy-savings-rebates/home/residential-solar/battery-partner,403,presence 16572 res_dispatch; programs Salt River Project
+https://www.srpnet.com/price-plans/business-electric/time-of-use,403,presence 16572 ci_habit
+https://www.srpnet.com/price-plans/residential-electric/solar/compare-solar-plans,403,programs Salt River Project; programs Salt River Project; programs Salt River Project
+https://www.srpnet.com/price-plans/residential-electric/solar/renewable-export-program,403,programs Salt River Project
+https://www.srpnet.com/price-plans/residential-electric/time-of-use,403,presence 16572 res_habit
 https://www.srpnet.com/v3/assets/bltefc1fc708dcc94e7/blt1f5b0eb44368dc55/2025_Ratebook_E-32_with_TCA.pdf,200,programs Salt River Project
 https://www.srpnet.com/v3/assets/bltefc1fc708dcc94e7/blte387c22be2e0a2f6/2025-Ratebook-with-Temporary-FPPAM.pdf,200,programs Salt River Project; programs Salt River Project; programs Salt River Project
 https://www.startribune.com/xcel-utility-mn-time-of-use/601862144,200,programs Northern States Power Co - Minnesota (Xcel Energy)
@@ -1857,7 +1866,7 @@ https://www.subutil.com/customer-service/rates-policies/electric-rates/,200,pres
 https://www.sunprairieutilities.com/electric-rates,200,presence 18312 res_habit; presence 18312 ci_habit
 https://www.sunprairieutilities.com/interruptible-load-credits,404,presence 18312 ci_dispatch
 https://www.sunprairieutilities.com/smart-thermostat-rebate,200,presence 18312 res_dispatch
-https://www.sussexrec.com/beat-the-peak,200,presence 40299 res_dispatch
+https://www.sussexrec.com/beat-the-peak,307,presence 40299 res_dispatch
 https://www.svec-coop.com/faqs/time-of-use/,200,presence 18360 ci_habit
 https://www.svec.coop/energy-solutions/beat-the-peak/,200,programs Shenandoah Valley Electric Cooperative
 https://www.svec.coop/energy-solutions/solar-net-metering/residential-net-metering/,200,programs Shenandoah Valley Electric Cooperative; ic_util Shenandoah Valley Electric Cooperative
@@ -1870,7 +1879,7 @@ https://www.swlp.com/CustomerService/ElectricRatesExtensionRules,200,programs Su
 https://www.syemc.com/shift-save,200,presence 18339 res_habit
 https://www.talgov.com/Uploads/Public/Documents/you/pv_net_metering_cotu.pdf,200,ic_util City of Tallahassee Utilities
 https://www.talgov.com/you/you-account-plans-index,200,presence 18445 res_habit; presence 18445 ci_dispatch
-https://www.talgov.com/you/you-customer-helpful-rates,404,programs City of Tallahassee Utilities
+https://www.talgov.com/you/you-account-plans-nw,200,programs City of Tallahassee Utilities
 https://www.tampaelectric.com/48fbcc/siteassets/files/tariff/tariffSection3.pdf,200,presence 18454 ci_dispatch
 https://www.tampaelectric.com/49c914/siteassets/files/tariff/tariffsection8/stndinterconnagmttier2_if.pdf,200,ic_util Tampa Electric Company
 https://www.tampaelectric.com/business/billing-options/time-of-day-service/,200,presence 18454 ci_habit; programs Tampa Electric Company
@@ -1932,9 +1941,10 @@ https://www.uinet.com/w/time-of-day-rate-rt,ERR TimeoutError,presence 19497 res_
 https://www.umatillaelectric.com/member-services/rates/,200,presence 19325 ci_habit
 https://www.umatillaelectric.com/wp-content/uploads/Rate-Schedule-2025-Schedule-1-FINAL.pdf,200,presence 19325 res_habit
 https://www.unitedpower.com/battery,403,programs United Power
-https://www.unitedpower.com/residential-rates,200,presence 19499 res_habit; programs United Power; programs United Power
+https://www.unitedpower.com/residential-rates,200,programs United Power; programs United Power; programs United Power
 https://www.unitedpower.com/sites/default/files/Documents/Energy%20Programs/UnitedEV/UnitedEV_ProgramGuide_2026.pdf,200,programs United Power
-https://www.unitedpower.com/smart-rewards,200,presence 19499 res_dispatch; programs United Power
+https://www.unitedpower.com/sites/default/files/Rates/2026_Rates_UnitedPower.pdf,200,presence 19499 ci_habit
+https://www.unitedpower.com/smart-rewards,200,programs United Power
 https://www.unitedpower.com/solar-bill,200,programs United Power
 https://www.uppco.com/wp-content/uploads/2025/05/D.-Distributed-Generation-Rider_-DG-_-Apr-29-2025.pdf,404,ic_util Upper Peninsula Power Company (UPPCO)
 https://www.uppermichiganenergy.com/rates/umerc-electric-rates.pdf,200,programs Upper Michigan Energy Resources (UMERC); programs Upper Michigan Energy Resources (UMERC)
@@ -2008,13 +2018,13 @@ https://www.wrwwlc.com/pdf/Rate_Brochure_9-1-24.pdf,200,presence 20862 res_habit
 https://www.wvpa.com/power-supply-diversity/distributed-generation/,200,programs Wabash Valley Power Alliance
 https://www.wvpa.com/summer-enrollment/,200,presence 9999 res_dispatch; presence 10448 res_dispatch; presence 59505 res_dispatch
 https://www.wwvremc.com/rates/,200,presence 20216 res_habit
-https://www.wyan.org/DocumentCenter/View/563/Electric-Rates-Effective-October-1-2025-PDF,404,presence 21048 res_habit; presence 21048 res_dispatch; presence 21048 ci_habit
+https://www.wyan.org/DocumentCenter/View/4242/Electric-Rates-Effective-October-1-2026,200,presence 21048 res_habit; presence 21048 res_dispatch; presence 21048 ci_habit
 https://www.xcelenergy.com/company/rates_and_regulations/rates/colorado_residential_time_of_use_rate,200,presence 15466 res_habit
 https://www.xcelenergy.com/company/rates_and_regulations/tou_rate_study,200,presence 17718 res_habit; presence 17718 ci_habit; programs Southwestern Public Service Co. (Xcel Energy)
 https://www.xcelenergy.com/staticfiles/xe-responsive/Admin/Managed%20Documents%20&%20PDFs/CO-Business-ISOC-Information-Sheet.pdf,200,programs Xcel Energy Colorado (Public Service Co of Colorado)
 https://www.xcelenergy.com/staticfiles/xe-responsive/Business%20Programs%20&%20Rebates/EV%20CO%20CPP%20Info%20Sheet_P3.pdf,200,programs Xcel Energy Colorado (Public Service Co of Colorado)
 https://www.xcelenergy.com/staticfiles/xe-responsive/Company/Rates%20&%20Regulations/CO-Business-Rates-Brochure.pdf,200,programs Xcel Energy Colorado (Public Service Co of Colorado); programs Xcel Energy Colorado (Public Service Co of Colorado); programs Xcel Energy Colorado (Public Service Co of Colorado)
-https://www.xcelenergy.com/staticfiles/xe-responsive/Company/Rates%20&%20Regulations/Regulatory%20Filings/CO-DSM/Residential%20Demand%20Response.pdf,200,programs Northern States Power Co - Minnesota (Xcel Energy)
+https://www.xcelenergy.com/staticfiles/xe-responsive/Programs%20and%20Rebates/Residential/22-08-604%20It%20Pays%20To%20Save%20Booklet_MN%202022.pdf,200,programs Northern States Power Co - Minnesota (Xcel Energy)
 https://www.xcelenergy.com/staticfiles/xe-responsive/Programs%20and%20Rebates/Residential/CO-Solar-Rewards-FAQ.pdf,200,programs Xcel Energy Colorado (Public Service Co of Colorado)
 https://www.xcelenergy.com/staticfiles/xe-responsive/Working%20With%20Us/MN-Electric-Energy-Storage-Interconnection-Guidelines.pdf,200,ic_util Northern States Power Co - Minnesota (Xcel Energy)
 https://www.xcelenergy.com/staticfiles/xe-responsive/Working%20With%20Us/Renewable%20Developers/WI%20Parallel%20Generation%20Tariff%20Info%20Sheet%202024_FINAL.pdf,200,programs Northern States Power Co - Wisconsin (Xcel Energy); programs Northern States Power Co - Wisconsin (Xcel Energy); programs Northern States Power Co - Wisconsin (Xcel Energy)

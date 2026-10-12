@@ -53,11 +53,22 @@ def main():
     def derive(rows):
         out = {c: "Unknown" for c in CELLS}
         src = {c: "" for c in CELLS}
+        weak = set()   # cells backed only by closed/proposed rows or a C&I demand charge: never inferred "No"
         for r in rows:
             cat = r["program_category"]
-            if r["program_status"] in ("Terminated",):
+            if r["program_status"] != "Terminated" and cat in HABIT | DISPATCH:
+                _r, _c = segs(r["customer_segment"])
+                b0 = "habit" if cat in HABIT else "dispatch"
+                if _r: weak.add(f"res_{b0}")
+                if _c: weak.add(f"ci_{b0}")
+            # Only programs a new customer can join count (audit 2026-10-12): skip terminated,
+            # closed-to-new and proposed/pending rows.
+            if r["program_status"] in ("Terminated", "Proposed/pending") or r["program_status"].startswith("Closed to new"):
                 continue
             res, ci = segs(r["customer_segment"])
+            # RUBRIC: a plain demand charge counts as residential time-based, not as C&I time-based.
+            if cat == "Demand-Charge":
+                ci = False
             b = "habit" if cat in HABIT else "dispatch" if cat in DISPATCH else None
             if not b:
                 continue
@@ -74,7 +85,7 @@ def main():
         active = [r for r in rows if r["program_status"] != "Terminated"]
         if len(active) >= RESEARCHED_MIN:
             for c in CELLS:
-                if out[c] == "Unknown":
+                if out[c] == "Unknown" and c not in weak:
                     out[c] = "No"; inferred.add(c)
         return out, src, inferred
 

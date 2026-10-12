@@ -423,3 +423,15 @@ Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live,
 - A6 projected after repairs: still ~91% strict (115 URLs return 403 to scripts; ~97% if 403 counted live). SPEC bar is <4xx: decide whether 403 = inconclusive.
 - Rank 1 plan: plans/RANK1.md (bill structure, LMP history, hosting capacity, aggregators; order, cost, 5 decisions).
 - OPEN: 5 TX denominators blank customers; Platte-Clay vs Lexington ci_habit; Columbia MO res_dispatch; audit in a NEW session (rubric + audit.py ready).
+
+### 2026-10-12 - Audit wave 1 + first fixes (HANDOFF)
+- Sampled audit (seed 20261002, top-5 + samples): MISO, West, SE complete; NYISO/AKHI/CAISO partial (weekly limit hit); ERCOT, ISO-NE, PJM, SPP, state IC not run. No region meets the bars yet (see audit/SUMMARY.md, audit/DEFECTS.md, audit/AUDIT_*.md).
+- Fixed + verified (audit/verify_auditfixes_2026-10-12.md): 31 top-utility dollar figures (Hawaii rates marked 'adjusts monthly'; Xcel CO PG/S-EV figures withdrawn pending re-pull), 12 C&I/res_dispatch 'No' cells flipped to Yes via data/raw/presence_scan/scan_AUDIT.csv (DTE, Consumers, Ameren MO, I&M MI, LADWP, United Power, Black Hills CO, LG&E, KU, Niagara Mohawk). Pre-existing malformed rows remain in chunk_01_miso_north.csv and chunk_03_miso_ia_il_mo.csv (not mine; validator fails them).
+- NEXT: finish NYISO/AKHI/CAISO, then ERCOT, ISO-NE, PJM, SPP, IC; fix remaining DEFECTS.md items (non-top program rows, Yes refutations) and re-verify; re-run audit to confirm bars.
+
+## 2026-10-12 (b) — audit chunk 2 + defect fixes + habit rule
+- Audits done (Opus, seed 20261002): IC 74 items, NYISO/AKHI/CAISO resumed to 0 NOT_DONE. Rollup: scripts/audit_rollup.py -> audit/SUMMARY.md, DEFECTS.md.
+- Defect pass: 42 applied / 43 already / 15 skipped (audit/fixlog_defects_2026-10-12.json), verified (audit/verify_defectfix_2026-10-12.md).
+- Rule change in build_presence.py: derived Yes ignores Terminated, Proposed/pending, Closed-to-new rows; Demand-Charge no longer sets ci_habit; cells backed only by those rows stay Unknown (never inferred No). 15 utilities refilled via scan_AUDIT.csv (audit/fill_rulechange_2026-10-12.md), verified (audit/verify_rulechange_2026-10-12.md). ComEd ci_habit -> Yes (Rate BESH).
+- Open: Duke PowerShare Storage DEC vs DEP attribution unproven; Banning/Riverside ci_dispatch left; Black Hills CO res_dispatch Yes->No unverified; Delmarva DE Energy Wise Rewards paused but polygon 5027 still Yes via MD rows; 7 source URLs w/o replacement; A1 Texas customers; A6 refresh.
+- NEXT (Rank 0 not done): audit ERCOT, ISO-NE, PJM, SPP (~1.2M); then re-audit failed regions' bars on a fresh sample; then Rank 1.
