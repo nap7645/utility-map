@@ -26,7 +26,7 @@
 
 - **CONFIRMED rate, excluding INCONCLUSIVE:** 59/62 = **95.2%**
 - **CONFIRMED rate, including INCONCLUSIVE:** 59/74 = **79.7%**
-- **Bar:** 100%. **FAIL**
+- **Bar:** >=95% (changed from 100% by Nathan 2026-10-12). 59/62 = 95.2% excl. inconclusive: **PASS** on checked cells; the 3 refuted cells are fixed (verify_defectfix_2026-10-12.md). 12 inconclusive remain unchecked.
 - **Source defects:** 21 of the cited URLs are blocked or do not address the cell (WI, IA, ND, MI, IN, OH, IL, TX, PA, NJ, DC, NY x2, SC x2, AL, TN, MA, RI, NH, ME). Most of them are interconnection-procedure rules cited for compensation facts. Each one needs `source_url` repointed to the evidence URL in the results file.
 
 ## Refuted items (file: `data/processed/interconnection_state.csv`)

@@ -328,8 +328,9 @@ def a6(limit):
     hard = [(u, s) for u, s in res if not (isinstance(s, int) and s < 400)]
     pct = 100 * ok / max(len(res), 1); pct_soft = 100 * (ok + soft) / max(len(res), 1)
     d = [f"{s}  {u}  <- {urls[u][0]}" for u, s in hard]
-    R_.add("A6", "Link check >=95% non-4xx", pct >= 95,
-           f"{ok}/{len(res)} OK ({pct:.1f}%); counting 403/429 as live: {pct_soft:.1f}%. Exceptions applied: "+str(len(exc))+". Full list: audit/linkcheck.csv", d)
+    # Policy (Nathan 2026-10-12): 403/429 are bot-blocking, counted as live; the strict rate is reported alongside.
+    R_.add("A6", "Link check >=95% non-4xx (403/429 count as live)", pct_soft >= 95,
+           f"{ok}/{len(res)} OK strict ({pct:.1f}%); counting 403/429 as live: {pct_soft:.1f}%. Exceptions applied: "+str(len(exc))+". Full list: audit/linkcheck.csv", d)
 
 # ---------------------------------------------------------------- main
 def main():

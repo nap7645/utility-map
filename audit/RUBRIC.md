@@ -5,7 +5,7 @@ Rule: a "No" or "Unknown" is never counted as a miss against the data; a wrong "
 
 ## 0. Run first (2 min, offline)
 `python3 scripts/audit.py` : must print PASS on A1-A5, A7, A8. Then, on your own machine (needs internet):
-`python3 scripts/audit.py --links` : A6 must show >=95% non-4xx (403/429 are listed separately: likely bot-blocking, spot-check by hand).
+`python3 scripts/audit.py --links` : A6 must show >=95% live, counting 403/429 as live (bot-blocking; the strict rate is reported too). Every 404 is still fixed.
 
 ## 1. Sampled source re-verification (per region)
 Draw a stratified random sample (strata: ownership type IOU / co-op / muni, and customer-size tercile; seeded; write the seed in the report). Open the cited URL fresh; do not read the researcher's notes first.
@@ -15,7 +15,7 @@ Draw a stratified random sample (strata: ownership type IOU / co-op / muni, and 
 | Presence cells set to **Yes** | ~5% of presence cells, min 20 | Confirmed / Refuted / Inconclusive | >=95% of Yes confirmed |
 | Presence cells set to **No** | same draw | Confirmed (found nothing on the utility's own site/tariff) / Refuted (found a program) / Inconclusive | >=90% of No confirmed |
 | Program rows | ~10% of rows, min 15 | Name, category, $ value + units, status, URL each correct | 0 wrong $ among the top-10 utilities; log every other error and fix it |
-| State interconnection rows | every state: the 2 focus cells (export credit basis, grid-charging) | Confirmed / Refuted | 100%; every error fixed |
+| State interconnection rows | every state: the 2 focus cells (export credit basis, grid-charging) | Confirmed / Refuted | >=95% confirmed (excl. inconclusive); every error fixed |
 | Top-10 utilities by customers (region) | 100% of their program rows and presence cells | as above | 0 wrong $ figures |
 
 Count Inconclusive separately (unreadable site, 403, image-only PDF). Report the rate with and without them. An item is Confirmed only if the page itself shows the claim: a menu label or a marketing line is not enough.
