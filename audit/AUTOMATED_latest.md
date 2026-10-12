@@ -2,7 +2,7 @@
 
 | ID | Check | Result | Summary |
 |---|---|---|---|
-| A1 | Every row validates | FAIL | 3 problem(s) (+9 sentinel-customer polygons, info only) |
+| A1 | Every row validates | PASS | 0 problem(s) (+12 sentinel-customer polygons, info only) |
 | A2 | Every target territory has a presence row (docs/data/presence.json) | PASS | 993 targets, 0 missing, 0 duplicated, 0 extra rows (info only) |
 | A3 | Every program/IC utility name joins a boundary | PASS | 261 utility names, 0 unjoined |
 | A4 | No cross-state name joins | PASS | 0 ambiguous cross-state join(s); 17 polygon-STATE differences listed for review (info) |
@@ -13,9 +13,6 @@
 
 ## A1 detail (12 lines)
 
-- denominator eia 40051 TEXAS-NEW MEXICO POWER CO: customers=''
-- denominator eia 3278 AEP TEXAS CENTRAL COMPANY: customers=''
-- denominator eia 20404 AEP TEXAS NORTH COMPANY: customers=''
 - (info, HIFLD no-data sentinel; UI hides it) geojson 1572 BADGER POWER MARKETING AUTHORITY: CUSTOMERS=-999999
 - (info, HIFLD no-data sentinel; UI hides it) geojson 20858 WPPI ENERGY: CUSTOMERS=-999999
 - (info, HIFLD no-data sentinel; UI hides it) geojson 20910 WOLVERINE POWER SUPPLY COOP: CUSTOMERS=-999999
@@ -23,8 +20,11 @@
 - (info, HIFLD no-data sentinel; UI hides it) geojson 13687 NORTH CAROLINA EASTERN M P A: CUSTOMERS=-999999
 - (info, HIFLD no-data sentinel; UI hides it) geojson 16821 SAM RAYBURN MUNICIPAL PWR AGNY: CUSTOMERS=-999999
 - (info, HIFLD no-data sentinel; UI hides it) geojson 17583 SOUTH TEXAS ELECTRIC COOP, INC: CUSTOMERS=-999999
+- (info, HIFLD no-data sentinel; UI hides it) geojson 40051 TEXAS-NEW MEXICO POWER CO: CUSTOMERS=-999999
 - (info, HIFLD no-data sentinel; UI hides it) geojson 44372 ONCOR ELECTRIC DELIVERY COMPANY LLC: CUSTOMERS=-999999
 - (info, HIFLD no-data sentinel; UI hides it) geojson 8901 CENTERPOINT ENERGY: CUSTOMERS=-999999
+- (info, HIFLD no-data sentinel; UI hides it) geojson 20404 AEP TEXAS NORTH COMPANY: CUSTOMERS=-999999
+- (info, HIFLD no-data sentinel; UI hides it) geojson 3278 AEP TEXAS CENTRAL COMPANY: CUSTOMERS=-999999
 
 ## A4 detail (17 lines)
 

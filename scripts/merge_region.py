@@ -79,6 +79,10 @@ def main():
     for name, (dest, nf, rawdir, pat, key) in SETS.items():
         rx = re.compile(pat.format(t=t))
         files = sorted(f for f in os.listdir(P(rawdir)) if rx.match(f)) if os.path.isdir(P(rawdir)) else []
+        # scan_AUDIT.csv holds audit corrections: re-apply it last after any other presence tag, so a
+        # re-merge of an older raw scan file never reverts an audit fix.
+        if name == "presence" and a.tag != "AUDIT" and files and os.path.exists(P(rawdir, "scan_AUDIT.csv")):
+            files.append("scan_AUDIT.csv")
         dh, db = read(P(dest))
         seen = {keyof(dh, r, key) for r in db}
         pos = {keyof(dh, r, key): i for i, r in enumerate(db)}

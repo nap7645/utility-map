@@ -1,0 +1,63 @@
+url,status,used_by
+https://ccec.coop/rebates-programs,404,presence 4317 res_dispatch
+https://cdn.entergy-mississippi.com/userfiles/content/price/tariffs/eml_nem.pdf,ERR URLError,ic_util Entergy Mississippi LLC
+https://cdn.entergyarkansas.com/wp-content/uploads/2025/06/eal_nln-m.pdf,ERR URLError,ic_util Entergy Arkansas LLC
+https://coastepa.com/renewable-energy/,ERR URLError,ic_util Coast Electric Power Association
+https://coastepa.com/renewable-energy/new-renewable-energy-rate-available/,ERR URLError,programs Coast Electric Power Association
+https://eeca.coop/ppr/,ERR URLError,presence 5535 res_dispatch
+https://eeca.coop/wp-content/uploads/2025/12/SCHEDULE-A-2-2026.pdf,ERR URLError,presence 5535 res_habit
+https://hendrickspower.com/time-use-3,404,presence 8447 res_habit
+https://midsouthelectric.com/wp-content/uploads/2024/06/MidSouth-Rewards-TermsandConditions.pdf,404,presence 12452 res_dispatch
+https://nueceselectric.org/sites/nueceselectric/files/images/NEC%20TARIFF%2003082019.pdf,404,presence 13830 res_habit
+https://ocalafl.prod.govaccess.org/government/city-departments-a-h/electric-utility/public-education/beat-the-peak,ERR URLError,presence 13955 res_dispatch
+https://oppd.com/business/business-rates/business-curtailment-program/,404,presence 14127 ci_dispatch
+https://psopowerhours.com/terms-and-conditions,ERR URLError,programs Public Service Co of Oklahoma (PSO)
+https://puc.idaho.gov/Fileroom/PublicFiles/Press/20251117Rocky Mountain Power 1117 Release.pdf.pdf,ERR InvalidURL,programs PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT)
+https://secoenergy.com/wp-content/uploads/SECO_Energy_Rate_Tariff_Current.pdf,404,presence 18304 res_habit; presence 18304 ci_dispatch; ic_util SECO Energy
+https://stillwaterok.gov/DocumentCenter/View/1223/Electric---Power-and-Light-Time-of-Day---Secondary-Rate-PDF,404,presence 18125 ci_habit
+https://union-power.com/wp-content/uploads/2024/02/UPC-Electric-Rate-Schedules_Effective-040124.pdf,404,presence 19435 ci_habit
+https://wellesleyma.gov/1539/Shave-the-Peak,404,presence 20310 res_dispatch
+https://wrec.net/sites/default/files/documents/Net_Metering_Agreement_102219_0.pdf,404,ic_util Withlacoochee River Electric Cooperative
+https://www.alabamapower.com/content/dam/alabama-power/pdfs-docs/business/pricing-and-rates-/rules-and-regulations/ic.pdf,404,presence 195 ci_dispatch
+https://www.anokamn.gov/Clean-Energy-Choices,404,presence 691 res_habit
+https://www.appalachianpower.com/lib/docs/ratesandtariffs/Tennessee/KGPT_Tariff_3-FPPAR_Sept-1-2025.pdf,404,presence 10331 ci_dispatch
+https://www.buckeyerec.coop/index.php/service-policies/,404,programs Buckeye Power Inc. (G&T for Ohio's Electric Cooperatives)
+https://www.burlingtonelectric.com/sites/default/files/Net-Metering-Tariff.pdf,404,ic_util Burlington Electric Department
+https://www.cdec.coop/rates,404,presence 3273 res_habit
+https://www.centerpointenergy.com/en-us/Documents/RatesandTariffs/HoustonElectric/CNP-Retail-Del-Tariff-Book-Hou.pdf,404,presence 8901 res_habit; presence 8901 ci_habit
+https://www.centerpointenergy.com/en-us/Services/Pages/DGAP-FAQs.aspx?sa=ho&au=res,404,programs CenterPoint Energy Houston Electric
+https://www.centerpointenergy.com/en-us/residential/save-energy-money/saving-energy/smart-cycle?sa=in,404,programs CenterPoint Energy Indiana South (formerly Vectren)
+https://www.chaskamn.gov/Electric-Rates,404,presence 3400 res_habit
+https://www.ci.azusa.ca.us/575/Schedule-TOU,ERR URLError,presence 1050 ci_habit
+https://www.ckenergy.coop/rates,404,presence 60482 res_habit; presence 60482 res_dispatch; presence 60482 ci_habit
+https://www.claycountyelectric.com/pdfs/Rate%20Summary%20-%20Mar%202025.pdf,404,presence 3712 res_habit; presence 3712 ci_habit; presence 3712 ci_dispatch
+https://www.cleco.com/docs/default-source/rates-and-fees/other-documents/2026/00-index-of-rate-schedules-and-riders-04-01-2026-clean.pdf,404,programs Cleco Power LLC
+https://www.cobbemc.com/sites/default/files/documents/rates/residential/2026/0126_DG_Rate_Schedule.pdf,404,ic_util Cobb EMC
+https://www.como.gov/utilities/water-and-light/electric/rates/industrial-electric-service-rate/,404,presence 4045 ci_habit; presence 4045 ci_dispatch
+https://www.duke-energy.com/home/billing/rates/new-rates-nc,404,"programs Duke Energy Carolinas, LLC; programs Duke Energy Carolinas, LLC; programs Duke Energy Carolinas, LLC"
+https://www.easleyutilities.com/load-management/,404,presence 6709 res_dispatch
+https://www.eastriver.coop/save-energy-save-money/,404,programs East River Electric Power Cooperative
+https://www.firstelectric.coop/pdfs/Condensed%20Rate%20Schedule%20-%20June%202023.pdf,404,presence 6342 res_habit; presence 6342 ci_habit; presence 6342 ci_dispatch
+https://www.houstoncountyelec.com/nest-thermostats,404,presence 8898 res_dispatch
+https://www.ilga.gov/documents/reports/ReportsSubmitted/5853RSGAEmail12781RSGAAttachEnergy%20Storage%20Procurement%20Report%205.1.2025.pdf,ERR URLError,programs Illinois Power Agency (statewide; covers Ameren Illinois territory)
+https://www.indianamichiganpower.com/lib/docs/ratesandtariffs/Michigan/IM_MI_TB_Bk_19_2026_08_28.pdf,404,presence 9324 ci_habit
+https://www.kyrc.org/news/solar/fighting-for-fair-solar-compensation,404,programs Duke Energy Kentucky
+https://www.mississippipower.com/content/dam/mississippi-power/pdfs/business/pricing-and-rates/standard-application-rates/2021/LPO-TOU-15I.pdf,404,programs Mississippi Power Co (Southern Co)
+https://www.nbutexas.com/wp-content/uploads/2023/04/FY-2024-Electric-Rates.pdf,404,presence 13418 res_habit; presence 13418 ci_habit
+https://www.nhec.com/energy-management/transactive-energy-rate-program/,404,programs New Hampshire Electric Cooperative
+https://www.nwecok.coop/rates,404,presence 13807 res_dispatch; presence 13807 ci_habit; presence 13807 ci_dispatch
+https://www.nyiso.com/documents/20142/3037451/9-Demand-Response.pdf,404,programs New York Independent System Operator; programs New York Independent System Operator; programs New York Independent System Operator
+https://www.oncor.com/content/oncorwww/talot/en/home/get-started/residential/residential-demand-response-get-started.html,404,presence 44372 res_dispatch
+https://www.oru.com/en/save-money/rebates-incentives-credits/new-york-customers/incentives-for-business-customers-ny/demand-response-incentives/demand-response-incentives-payment-options,404,programs Orange & Rockland Utilities Inc (O&R); programs Orange & Rockland Utilities Inc (O&R)
+https://www.pacificpud.org/energy-efficiency/reduce-your-energy-bills/,404,presence 14324 res_dispatch
+https://www.pec.coop/your-service/critical-load-program/,ERR URLError,presence 14626 res_dispatch
+https://www.pec.coop/your-service/rates-pricing/time-of-use/,ERR URLError,presence 14626 res_habit
+https://www.roughriderelectric.com/water-heaters,404,presence 55959 res_habit; presence 55959 res_dispatch
+https://www.rpu.org/education-environment/distributed-energy-resources-solar.php,404,ic_util Rochester Public Utilities
+https://www.rpu.org/my-account/residential-time-of-use-rate-program.php,404,programs Rochester Public Utilities
+https://www.samhouston.net/member-services/energy-charges-service-rates/,ERR URLError,presence 16613 ci_habit
+https://www.samhouston.net/purpa/,ERR URLError,presence 16613 res_habit; presence 16613 res_dispatch; presence 16613 ci_dispatch
+https://www.sunprairieutilities.com/interruptible-load-credits,404,presence 18312 ci_dispatch
+https://www.swepco.com/lib/docs/ratesandtariffs/Louisiana/LA_Tariff_Book_as_of_06-01-26.pdf,404,programs Southwestern Electric Power Co (SWEPCO)
+https://www.uppco.com/wp-content/uploads/2025/05/D.-Distributed-Generation-Rider_-DG-_-Apr-29-2025.pdf,404,ic_util Upper Peninsula Power Company (UPPCO)
+https://www.waltonemc.com/solar-power-center/rooftop-solar/selling-your-solar-power/,404,programs Walton EMC; ic_util Walton EMC

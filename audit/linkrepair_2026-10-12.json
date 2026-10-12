@@ -1,0 +1,615 @@
+[
+ {
+  "old_url": "https://ccec.coop/rebates-programs",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 4317 res_dispatch",
+  "status": "UNRESOLVED",
+  "note": "WebFetch CLIENT_ERROR. Searching ccec.coop shows rebate PDFs, EV charging, energy assistance but not this page; no page found supporting 'no load-control/DR program'. Cell is No; left."
+ },
+ {
+  "old_url": "https://cdn.entergy-mississippi.com/userfiles/content/price/tariffs/eml_nem.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "ic_util Entergy Mississippi LLC",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets ERR URLError."
+ },
+ {
+  "old_url": "https://cdn.entergyarkansas.com/wp-content/uploads/2025/06/eal_nln-m.pdf",
+  "new_url": "https://www.entergyarkansas.com/wp-content/uploads/2025/06/eal_nln-m.pdf",
+  "files_changed": [
+   "data/raw/interconnection/ic_C_utility.csv",
+   "data/processed/interconnection_utility.csv"
+  ],
+  "cells_or_rows": "Entergy Arkansas LLC ic_util row",
+  "status": "SWAPPED",
+  "note": "Original (cdn host) blocked by robots in WebFetch, so dead status unconfirmed; canonical www host serves Rate Schedule 71 NLN-M (avoided-cost export credit, fees), same document."
+ },
+ {
+  "old_url": "https://coastepa.com/renewable-energy/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "ic_util Coast Electric Power Association",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets ERR URLError."
+ },
+ {
+  "old_url": "https://coastepa.com/renewable-energy/new-renewable-energy-rate-available/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Coast Electric Power Association",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets ERR URLError."
+ },
+ {
+  "old_url": "https://eeca.coop/ppr/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 5535 res_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets ERR URLError."
+ },
+ {
+  "old_url": "https://eeca.coop/wp-content/uploads/2025/12/SCHEDULE-A-2-2026.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 5535 res_habit",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets ERR URLError."
+ },
+ {
+  "old_url": "https://hendrickspower.com/time-use-3",
+  "new_url": "https://hendrickspower.com/residential",
+  "files_changed": [
+   "data/raw/presence_scan/scan_C.csv",
+   "data/processed/presence_scan.csv (via merge --tag C)"
+  ],
+  "cells_or_rows": "presence 8447 Hendricks res_habit=Yes",
+  "status": "SWAPPED",
+  "note": "Residential page shows time-differentiated rate: on-peak $0.2491 5-8pm weekdays, off-peak $0.1083, super off-peak $0.0594 11pm-5am. Does not use the names TOU-3/TOU-6 that the scan note cites. Old URL still appears in search index but WebFetch errors."
+ },
+ {
+  "old_url": "https://midsouthelectric.com/wp-content/uploads/2024/06/MidSouth-Rewards-TermsandConditions.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 12452 res_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://nueceselectric.org/sites/nueceselectric/files/images/NEC%20TARIFF%2003082019.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 13830 res_habit",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://ocalafl.prod.govaccess.org/government/city-departments-a-h/electric-utility/public-education/beat-the-peak",
+  "new_url": "https://ocalafl.gov/government/electric-utility/public-education/beat-the-peak",
+  "files_changed": [
+   "data/raw/presence_scan/scan_SE4.csv",
+   "data/processed/presence_scan.csv (via merge --tag SE4)"
+  ],
+  "cells_or_rows": "presence 13955 Ocala res_dispatch=No",
+  "status": "SWAPPED",
+  "note": "Official domain page: voluntary conservation, no utility load control or direct incentive, which supports No. Cell was previously sourced from a govaccess mirror."
+ },
+ {
+  "old_url": "https://oppd.com/business/business-rates/business-curtailment-program/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 14127 ci_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://psopowerhours.com/terms-and-conditions",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Public Service Co of Oklahoma (PSO)",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets ERR URLError."
+ },
+ {
+  "old_url": "https://puc.idaho.gov/Fileroom/PublicFiles/Press/20251117Rocky Mountain Power 1117 Release.pdf.pdf",
+  "new_url": "https://puc.idaho.gov/Fileroom/PublicFiles/Press/20251117Rocky%20Mountain%20Power%201117%20Release.pdf.pdf",
+  "files_changed": [
+   "data/raw/program_chunks/chunk_W_ref.csv",
+   "data/processed/programs.csv"
+  ],
+  "cells_or_rows": "PacifiCorp (Pacific Power OR / Rocky Mountain Power WY-ID-UT) program row",
+  "status": "SWAPPED",
+  "note": "Same document; URL had literal spaces (urllib InvalidURL). Percent-encoded; page loads (Idaho PUC release 11/17/2025, export credit avg 4.2 c/kWh)."
+ },
+ {
+  "old_url": "https://secoenergy.com/wp-content/uploads/SECO_Energy_Rate_Tariff_Current.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 18304 res_habit; presence 18304 ci_dispatch; ic_util SECO Energy",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://stillwaterok.gov/DocumentCenter/View/1223/Electric---Power-and-Light-Time-of-Day---Secondary-Rate-PDF",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 18125 ci_habit",
+  "status": "UNRESOLVED",
+  "note": "WebFetch blocked by robots, but WebSearch returns this exact URL titled 'ELECTRIC RATE POWER AND LIGHT-SECONDARY, TIME OF DAY (PL-S/TOU)', so likely live. Not added to exceptions because I did not load it. Cell ci_habit=Yes retained; recheck manually."
+ },
+ {
+  "old_url": "https://union-power.com/wp-content/uploads/2024/02/UPC-Electric-Rate-Schedules_Effective-040124.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 19435 ci_habit",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://wellesleyma.gov/1539/Shave-the-Peak",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 20310 res_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://wrec.net/sites/default/files/documents/Net_Metering_Agreement_102219_0.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "ic_util Withlacoochee River Electric Cooperative",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.alabamapower.com/content/dam/alabama-power/pdfs-docs/business/pricing-and-rates-/rules-and-regulations/ic.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 195 ci_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.anokamn.gov/Clean-Energy-Choices",
+  "new_url": "https://anokamn.gov/786/EV-Charger-Time-Of-Use-TOU-Program",
+  "files_changed": [
+   "data/raw/presence_scan/scan_A.csv",
+   "data/processed/presence_scan.csv (manual URL-only patch)"
+  ],
+  "cells_or_rows": "presence 691 Anoka res_habit=Yes",
+  "status": "SWAPPED",
+  "note": "WEAK: Clean-Energy-Choices page (anokaminnesota.com/785) has no residential TOU. EV Charger TOU Program page supports an EV-only TOU (off-peak $0.055 10pm-7am, peak $0.250, separate meter). Supports Yes only as EV rate; general residential TOU not shown. Consider Unknown/downgrade."
+ },
+ {
+  "old_url": "https://www.appalachianpower.com/lib/docs/ratesandtariffs/Tennessee/KGPT_Tariff_3-FPPAR_Sept-1-2025.pdf",
+  "new_url": "https://www.appalachianpower.com/lib/docs/savings/business/KingsportPSEDRFinalClean.pdf",
+  "files_changed": [
+   "data/raw/presence_scan/scan_C.csv",
+   "data/processed/presence_scan.csv (via merge --tag C)"
+  ],
+  "cells_or_rows": "presence 10331 Kingsport Power ci_dispatch=Yes",
+  "status": "SWAPPED",
+  "note": "Tariff PSEDR (Peak Shaving and Emergency DR Rider), non-residential, >=250 kW, PJM-linked curtailment with demand/event credits. Effective 2012, so currency unverified. Replaces cited 'Curtailment Service Rider / DR Service-RTO Capacity' naming. Newer KGPTTariff-11-1-2025FPPARClean.pdf index (first ~200k chars) showed no such rider."
+ },
+ {
+  "old_url": "https://www.buckeyerec.coop/index.php/service-policies/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Buckeye Power Inc. (G&T for Ohio's Electric Cooperatives)",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.burlingtonelectric.com/sites/default/files/Net-Metering-Tariff.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "ic_util Burlington Electric Department",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.cdec.coop/rates",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 3273 res_habit",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.centerpointenergy.com/en-us/Documents/RatesandTariffs/HoustonElectric/CNP-Retail-Del-Tariff-Book-Hou.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 8901 res_habit; presence 8901 ci_habit",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.centerpointenergy.com/en-us/Services/Pages/DGAP-FAQs.aspx?sa=ho&au=res",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "programs CenterPoint Energy Houston Electric",
+  "status": "UNRESOLVED",
+  "note": "Old URL CLIENT_ERROR. Candidate CenterPoint DER Application Tariff pdf (centerpointenergy.com/en-us/Documents/CenterPoint%20Energy%20DER%20Application%20Tariff.pdf) loads but only asks whether to report excess generation to the REP; does not show 'excess credited by REP', so not swapped. Program row (Distributed Generation Interconnection, Export-Comp, Unverified) left."
+ },
+ {
+  "old_url": "https://www.centerpointenergy.com/en-us/residential/save-energy-money/saving-energy/smart-cycle?sa=in",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs CenterPoint Energy Indiana South (formerly Vectren)",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.chaskamn.gov/Electric-Rates",
+  "new_url": "https://chaskafire.gov/292/Electric-Rates",
+  "files_changed": [
+   "data/raw/presence_scan/scan_A.csv",
+   "data/processed/presence_scan.csv (manual URL-only patch)"
+  ],
+  "cells_or_rows": "presence 3400 Chaska res_habit=Yes",
+  "status": "SWAPPED",
+  "note": "City of Chaska electric rates page on a shared city CMS host (chaskafire.gov): residential On/Off Peak Space Heating and EV rates, on-peak M-F 7am-7pm. Narrow TOU (space heating/EV), not general residential TOU. Host is unusual; recheck for a canonical chaskamn.gov page. Old host blocked by robots."
+ },
+ {
+  "old_url": "https://www.ci.azusa.ca.us/575/Schedule-TOU",
+  "new_url": "https://azusaca.gov/575/Schedule-TOU",
+  "files_changed": [
+   "data/raw/presence_scan/scan_CA1.csv",
+   "data/processed/presence_scan.csv (manual URL-only patch)"
+  ],
+  "cells_or_rows": "presence 1050 Azusa ci_habit=Yes",
+  "status": "SWAPPED",
+  "note": "Domain moved to azusaca.gov; Schedule TOU is the commercial TOU rate (mandatory >200 kW). Old host blocked by robots."
+ },
+ {
+  "old_url": "https://www.ckenergy.coop/rates",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 60482 res_habit; presence 60482 res_dispatch; presence 60482 ci_habit",
+  "status": "UNRESOLVED",
+  "note": "WebFetch blocked by robots; cannot confirm dead. All four cells are Unknown/Unverified; no replacement found."
+ },
+ {
+  "old_url": "https://www.claycountyelectric.com/pdfs/Rate%20Summary%20-%20Mar%202025.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 3712 res_habit; presence 3712 ci_habit; presence 3712 ci_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.cleco.com/docs/default-source/rates-and-fees/other-documents/2026/00-index-of-rate-schedules-and-riders-04-01-2026-clean.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Cleco Power LLC",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.cobbemc.com/sites/default/files/documents/rates/residential/2026/0126_DG_Rate_Schedule.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "ic_util Cobb EMC",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.como.gov/utilities/water-and-light/electric/rates/industrial-electric-service-rate/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 4045 ci_habit; presence 4045 ci_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.duke-energy.com/home/billing/rates/new-rates-nc",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Duke Energy Carolinas, LLC; programs Duke Energy Carolinas, LLC; programs Duke Energy Carolinas, LLC",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.easleyutilities.com/load-management/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 6709 res_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.eastriver.coop/save-energy-save-money/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs East River Electric Power Cooperative",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.firstelectric.coop/pdfs/Condensed%20Rate%20Schedule%20-%20June%202023.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 6342 res_habit; presence 6342 ci_habit; presence 6342 ci_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.houstoncountyelec.com/nest-thermostats",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 8898 res_dispatch",
+  "status": "UNRESOLVED",
+  "note": "WebFetch CLIENT_ERROR, but WebSearch returns this exact URL ('Nest Thermostats'), so likely live. Not loaded by me. Cell is No (Secondary)."
+ },
+ {
+  "old_url": "https://www.ilga.gov/documents/reports/ReportsSubmitted/5853RSGAEmail12781RSGAAttachEnergy%20Storage%20Procurement%20Report%205.1.2025.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Illinois Power Agency (statewide; covers Ameren Illinois territory)",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets ERR URLError."
+ },
+ {
+  "old_url": "https://www.indianamichiganpower.com/lib/docs/ratesandtariffs/Michigan/IM_MI_TB_Bk_19_2026_08_28.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 9324 ci_habit",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.kyrc.org/news/solar/fighting-for-fair-solar-compensation",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Duke Energy Kentucky",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.mississippipower.com/content/dam/mississippi-power/pdfs/business/pricing-and-rates/standard-application-rates/2021/LPO-TOU-15I.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Mississippi Power Co (Southern Co)",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.nbutexas.com/wp-content/uploads/2023/04/FY-2024-Electric-Rates.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 13418 res_habit; presence 13418 ci_habit",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.nhec.com/energy-management/transactive-energy-rate-program/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs New Hampshire Electric Cooperative",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.nwecok.coop/rates",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 13807 res_dispatch; presence 13807 ci_habit; presence 13807 ci_dispatch",
+  "status": "UNRESOLVED",
+  "note": "WebFetch blocked by robots; cannot confirm dead. Cells are Unknown; searches found no NWEC replacement."
+ },
+ {
+  "old_url": "https://www.nyiso.com/documents/20142/3037451/9-Demand-Response.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs New York Independent System Operator; programs New York Independent System Operator; programs New York Independent System Operator",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.oncor.com/content/oncorwww/talot/en/home/get-started/residential/residential-demand-response-get-started.html",
+  "new_url": "https://www.oncor.com/takealoadofftexas/pages/residential-demand-response-get-started",
+  "files_changed": [
+   "data/raw/presence_scan/scan_TX1.csv",
+   "data/processed/presence_scan.csv (via merge --tag TX1)"
+  ],
+  "cells_or_rows": "presence 44372 Oncor res_dispatch=Yes",
+  "status": "SWAPPED",
+  "note": "Page confirms Residential Load Management: Oncor pays REPs for smart-thermostat control Jun 1-Sep 30. Old URL returned CLIENT_ERROR."
+ },
+ {
+  "old_url": "https://www.oru.com/en/save-money/rebates-incentives-credits/new-york-customers/incentives-for-business-customers-ny/demand-response-incentives/demand-response-incentives-payment-options",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Orange & Rockland Utilities Inc (O&R); programs Orange & Rockland Utilities Inc (O&R)",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.pacificpud.org/energy-efficiency/reduce-your-energy-bills/",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 14324 res_dispatch",
+  "status": "UNRESOLVED",
+  "note": "WebFetch CLIENT_ERROR; site search surfaced only green-power and rebate pages. Cell is No; no replacement."
+ },
+ {
+  "old_url": "https://www.pec.coop/your-service/critical-load-program/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "presence 14626 res_dispatch",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets ERR URLError. Page is a nonresidential critical-load/priority-restoration registry, not DR; consistent with res_dispatch=No."
+ },
+ {
+  "old_url": "https://www.pec.coop/your-service/rates-pricing/time-of-use/",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 14626 res_habit",
+  "status": "UNRESOLVED",
+  "note": "WebFetch blocked by robots, but WebSearch returns this exact URL ('Time-of-Use Rate'), so likely live. Not loaded by me. res_habit=Yes retained."
+ },
+ {
+  "old_url": "https://www.roughriderelectric.com/water-heaters",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 55959 res_habit; presence 55959 res_dispatch",
+  "status": "CLAIM_UNSUPPORTED",
+  "note": "WebFetch CLIENT_ERROR; roughriderelectric.com search shows no water-heater/load-control/TOU page (home-energy-savings, heat-pump-rebates only; home-energy-savings itself would not fetch). Cells res_habit and res_dispatch stay Yes (Medium); not flipped."
+ },
+ {
+  "old_url": "https://www.rpu.org/education-environment/distributed-energy-resources-solar.php",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "ic_util Rochester Public Utilities",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.rpu.org/my-account/residential-time-of-use-rate-program.php",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Rochester Public Utilities",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.samhouston.net/member-services/energy-charges-service-rates/",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 16613 ci_habit",
+  "status": "UNRESOLVED",
+  "note": "WebFetch blocked by robots; cannot confirm dead; no replacement found. Cell is No."
+ },
+ {
+  "old_url": "https://www.samhouston.net/purpa/",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 16613 res_habit; presence 16613 res_dispatch; presence 16613 ci_dispatch",
+  "status": "UNRESOLVED",
+  "note": "WebFetch blocked by robots; cannot confirm dead; no replacement found. Cells are No."
+ },
+ {
+  "old_url": "https://www.sunprairieutilities.com/interruptible-load-credits",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "presence 18312 ci_dispatch",
+  "status": "UNRESOLVED",
+  "note": "WebFetch CLIENT_ERROR, but site search returns this exact URL ('Interruptible Load Credits'), so likely live. Not loaded by me. ci_dispatch=Yes retained."
+ },
+ {
+  "old_url": "https://www.uppco.com/wp-content/uploads/2025/05/D.-Distributed-Generation-Rider_-DG-_-Apr-29-2025.pdf",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "ic_util Upper Peninsula Power Company (UPPCO)",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.waltonemc.com/solar-power-center/rooftop-solar/selling-your-solar-power/",
+  "new_url": null,
+  "files_changed": [
+   "audit/linkcheck_exceptions.txt"
+  ],
+  "cells_or_rows": "programs Walton EMC; ic_util Walton EMC",
+  "status": "EXCEPTION",
+  "note": "WebFetch loaded the page 2026-10-12; urllib in audit.py gets 404."
+ },
+ {
+  "old_url": "https://www.swepco.com/lib/docs/ratesandtariffs/Louisiana/LA_Tariff_Book_as_of_06-01-26.pdf",
+  "new_url": "https://www.swepco.com/lib/docs/ratesandtariffs/Louisiana/LA_Tariff_Book_as_of_07-30-26.pdf",
+  "files_changed": [
+   "data/raw/program_chunks/chunk_04_miso_south.csv"
+  ],
+  "cells_or_rows": "raw chunk SWEPCO 'Net Metering / Distributed Generation Interconnection' second row (duplicate not merged into programs.csv; processed row cites company/about/rates)",
+  "status": "SWAPPED",
+  "note": "New book lists Net Metering Rider (Closed, 30.1-30.9) and Distributed Generation Rider (33.1-33.9, eff 3/31/2026). Old URL gave WebFetch CLIENT_ERROR; search shows 07-30-26 as the current book."
+ },
+ {
+  "old_url": "https://www.swepco.com/lib/docs/ratesandtariffs/Louisiana/LA_Tariff_Book_as_of_06-01-26.pdf",
+  "new_url": null,
+  "files_changed": [],
+  "cells_or_rows": "programs.csv + chunk_04: SWEPCO 'Load Management Service Option Program (LMSOP) / Interruptible Service' (DR-Curtailment); presence derived from it",
+  "status": "UNRESOLVED",
+  "note": "07-30-26 book has no LMSOP/interruptible schedule by that name; nearest are Voluntary Curtailment Service Rider (60.1-60.3) and Supplemental Reserve DR Pilot (69.1-69.4), bodies not read. Program row logged, URL left dead, row not deleted."
+ }
+]

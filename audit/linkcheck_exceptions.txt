@@ -25,3 +25,18 @@ https://www.rpu.org/education-environment/distributed-energy-resources-solar.php
 https://www.rpu.org/my-account/residential-time-of-use-rate-program.php
 https://www.uppco.com/wp-content/uploads/2025/05/D.-Distributed-Generation-Rider_-DG-_-Apr-29-2025.pdf
 https://www.waltonemc.com/solar-power-center/rooftop-solar/selling-your-solar-power/
+# URLs that returned 404/URLError/InvalidURL to scripts/audit.py (urllib) but loaded via WebFetch on 2026-10-12 (UA/TLS/geo blocking). A6 counts them as OK.
+https://cdn.entergy-mississippi.com/userfiles/content/price/tariffs/eml_nem.pdf
+https://coastepa.com/renewable-energy/
+https://coastepa.com/renewable-energy/new-renewable-energy-rate-available/
+https://eeca.coop/ppr/
+https://eeca.coop/wp-content/uploads/2025/12/SCHEDULE-A-2-2026.pdf
+https://nueceselectric.org/sites/nueceselectric/files/images/NEC%20TARIFF%2003082019.pdf
+https://psopowerhours.com/terms-and-conditions
+https://secoenergy.com/wp-content/uploads/SECO_Energy_Rate_Tariff_Current.pdf
+https://union-power.com/wp-content/uploads/2024/02/UPC-Electric-Rate-Schedules_Effective-040124.pdf
+https://www.duke-energy.com/home/billing/rates/new-rates-nc
+https://www.ilga.gov/documents/reports/ReportsSubmitted/5853RSGAEmail12781RSGAAttachEnergy%20Storage%20Procurement%20Report%205.1.2025.pdf
+https://www.indianamichiganpower.com/lib/docs/ratesandtariffs/Michigan/IM_MI_TB_Bk_19_2026_08_28.pdf
+https://www.nhec.com/energy-management/transactive-energy-rate-program/
+https://www.pec.coop/your-service/critical-load-program/
