@@ -171,6 +171,8 @@ const STATES = ['MN','WI','IA','IL','IN','MI','MO','OH','PA','NJ','MD','DE',
                 'VA','WV','KY','DC','AR','LA','MS','ND','SD',
                 'NY','CA','NC','SC','GA','AL','FL','TN','CT','MA','RI','NH','VT','ME','WA','OR','ID','MT','WY','CO','UT','NV','AZ','NM','TX','OK','KS','NE','AK','HI'];
 const OUT_FIELDS = "ID,NAME,TYPE,STATE,CUSTOMERS,CNTRL_AREA,PLAN_AREA";
+// HIFLD uses -999999 for unknown customers (e.g. ERCOT T&D utilities); fall back to the EIA-861 count in presence.json.
+function custOf(p){ const c=p.CUSTOMERS; if(c!=null && c>=0) return c; const pr=(typeof PRES!=='undefined')?PRES[String(p.ID)]:null; const n=pr&&pr.n?Number(pr.n):NaN; return isNaN(n)?c:n; }
 /* Footprint utilities whose HIFLD home-state is outside STATES. HIFLD STATE = HQ state. */
 const EXTRA_IDS = ['20404',    // AEP Texas North — filed under OK
                    '3278',     // AEP Texas Central — filed under OK
@@ -535,7 +537,7 @@ function openDrawer(p){
   const fmt = n => (n==null||n===''||Number(n)<=0?'n/a':Number(n).toLocaleString());
   document.getElementById('dTitle').textContent = p.NAME||'(unnamed)';
   document.getElementById('dSub').innerHTML =
-    `EIA ID <code>${esc(p.ID)}</code> · ${esc(p.STATE)} · ${fmt(p.CUSTOMERS)} customers · ${esc(rtoOf(p))} · ${esc(ownerOf(p))}`;
+    `EIA ID <code>${esc(p.ID)}</code> · ${esc(p.STATE)} · ${fmt(custOf(p))} customers · ${esc(rtoOf(p))} · ${esc(ownerOf(p))}`;
 
   let h = '';
   const pr = presenceOf(p);
@@ -735,7 +737,7 @@ document.getElementById('exportBtn').onclick = (ev)=>{ if(ev) ev.preventDefault(
   const rows = [['eia_id','hifld_name','state','customers','matched_utility_name','n_programs','match']];
   allFeatures.forEach(f=>{
     const p=f.properties, u=DATA.utilities[norm(p.NAME)];
-    if(u) rows.push([p.ID,p.NAME,p.STATE,p.CUSTOMERS??'',u.name,u.programs.length,'matched']);
+    if(u) rows.push([p.ID,p.NAME,p.STATE,custOf(p)??'',u.name,u.programs.length,'matched']);
   });
   matchStats.unmatchedPayload.forEach(u=>rows.push(['','','' ,'',u.name,'','UNMATCHED-no-polygon']));
   const csv = rows.map(r=>r.map(v=>{

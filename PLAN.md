@@ -435,3 +435,9 @@ Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live,
 - Rule change in build_presence.py: derived Yes ignores Terminated, Proposed/pending, Closed-to-new rows; Demand-Charge no longer sets ci_habit; cells backed only by those rows stay Unknown (never inferred No). 15 utilities refilled via scan_AUDIT.csv (audit/fill_rulechange_2026-10-12.md), verified (audit/verify_rulechange_2026-10-12.md). ComEd ci_habit -> Yes (Rate BESH).
 - Open: Duke PowerShare Storage DEC vs DEP attribution unproven; Banning/Riverside ci_dispatch left; Black Hills CO res_dispatch Yes->No unverified; Delmarva DE Energy Wise Rewards paused but polygon 5027 still Yes via MD rows; 7 source URLs w/o replacement; A1 Texas customers; A6 refresh.
 - NEXT (Rank 0 not done): audit ERCOT, ISO-NE, PJM, SPP (~1.2M); then re-audit failed regions' bars on a fresh sample; then Rank 1.
+
+## 2026-10-12 (c) — end of session
+- Done: A1 PASS (EIA-861 2024 delivery customers for 5 ERCOT TDUs, data/crosswalk/customer_overrides.md); A6 policy 403/429=live (96.9%); link repair (audit/linkrepair_2026-10-12.json); merge_region.py re-applies scan_AUDIT.csv last; all 11 regions audited (audit/SUMMARY.md); PJM/ERCOT/ISO-NE/SPP audits + A1 + links verified (audit/verify_audits_*_2026-10-12.md, 54/54 agree); map drawer now shows EIA customers when HIFLD has -999999 (custOf in docs/index.html, headless-tested).
+- Open: ~150 defects in audit/DEFECTS.md; SWEPCO LA tariff-book row (programs.csv:85, presence 17698 cd) needs re-research; Duke DEC rows cite a DEP page; PJM big-IOU No cells wrong (PSE&G ci_habit, PECO res_habit+res_dispatch, AEP Ohio ci_habit, Dominion ci_habit -> Yes).
+- Decision pending (Nathan): unsourced "No" (245 cells / 154 utilities) -> Unknown (0 tokens) vs re-research big ones (~0.4M).
+- NEXT: step 3 fix+verify defects (~0.4-0.45M), narrow re-audit (~0.5M), live-site check (~0.15M). Nathan: spot checks (RUBRIC §3), `audit.py --links`.
