@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "8179",
+  "utility": "Harrison REMC",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+  "note": "Hoosier Energy (G&T) LMR program exists (Feb 2026 article, 11 participants across 7 unnamed member co-ops) but Harrison REMC not named; no Harrison REMC page found in one search. Cannot attribute to member."
+ },
+ {
+  "idx": 1,
+  "eia_id": "10618",
+  "utility": "Lake Region Electric Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "Yes",
+  "evidence_url": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+  "note": "GRE page shows Interruptible C&I and C&I GenSet programs for member co-ops, but Lake Region Electric Coop not named; replacement search found no LREC page. G&T attribution unverified."
+ },
+ {
+  "idx": 2,
+  "eia_id": "8723",
+  "utility": "Holland Board of Public Works",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.hollandbpw.com/en/customer-service/rates/residential",
+  "note": "Residential EV TOU rate (on/mid/off-peak) for residential PEV owners. No whole-home TOU/CPP/PTR."
+ },
+ {
+  "idx": 3,
+  "eia_id": "17833",
+  "utility": "City Utilities of Springfield",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.cityutilities.net/DocumentCenter/View/162/Interruptible-Rates-PDF",
+  "note": "SOURCE DEFECT: cited nectarclimate.com (third party). CU Interruptible Power rate, C&I >=1,500 kW, effective Apr 2024, interruption by special contract."
+ },
+ {
+  "idx": 4,
+  "eia_id": "689",
+  "utility": "Connexus Energy",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://connexusenergy.com/download_file/view/d1a05b74-92f4-4884-9682-8e0047752047",
+  "note": "SOURCE DEFECT: cited nectarclimate.com (third party). Connexus Business Rate Book eff 1-1-2026: GC Peak Period Rate, Off-Peak GC Rider, Controlled Off-Peak Storage, EV Fleet TOD pilot."
+ },
+ {
+  "idx": 5,
+  "eia_id": "1009",
+  "utility": "Austin Utilities",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.austinutilities.com/assetmanager/downloads/June%202026%20Connections%201.pdf",
+  "note": "SOURCE DEFECT: cited LoadControlFAQ URL returns 'page not found'. June 2026 AU newsletter describes active central-AC load control (device cycles outdoor condenser in summer)."
+ },
+ {
+  "idx": 6,
+  "eia_id": "24949",
+  "utility": "Cass County Electric Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://casscountyelectric.com/sites/default/files/documents/2026_june_business-accounts_handbook.pdf",
+  "note": "SOURCE DEFECT: Minnkota page is G&T-level, does not show CCEC C&I terms. CCEC June 2026 Business Accounts Handbook: Demand Response/Generator Program (Incremental Pricing Plan) and Off-Peak Generator Program for C&I."
+ },
+ {
+  "idx": 7,
+  "eia_id": "22822",
+  "utility": "Clark County REMC",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+  "note": "Same Hoosier Energy LMR article as idx 0; Clark County REMC not named among the 7 participating member co-ops. G&T attribution unverified."
+ },
+ {
+  "idx": 8,
+  "eia_id": "18895",
+  "utility": "Thumb Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.michigan.gov/mpsc/-/media/Project/Websites/mpsc/consumer/rate-books/electric/thumb/thumbmemberregcur.pdf",
+  "note": "Cited tecmi.coop page robots-blocked. Thumb member-regulated rate book (MPSC) lists Schedule A-TOD Optional Farm and Home Time-of-Day Service, eff Feb 1 2025. Also CWH/CAC controlled-load schedules (res_dispatch relevance)."
+ },
+ {
+  "idx": 9,
+  "eia_id": "21048",
+  "utility": "Wyandotte Municipal Services",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.wyan.org/DocumentCenter/View/4242/Electric-Rates-Effective-October-1-2026",
+  "note": "Rate sheet eff Oct 1 2026: no interruptible/curtailable/DR provisions (only TOU billing demand on PR/LP/LI). Site search found no DR program."
+ },
+ {
+  "idx": 10,
+  "eia_id": "16613",
+  "utility": "Sam Houston Electric Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "No",
+  "evidence_url": "https://www.samhouston.net/purpa/",
+  "note": "samhouston.net robots-blocked (purpa page and tariff book). Third-party nectarclimate mentions an 'Industrial Critical Load program' with no terms; possible C&I dispatch, unverifiable on utility site."
+ },
+ {
+  "idx": 11,
+  "eia_id": "3712",
+  "utility": "Clay County Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.claycountyelectric.com/pdfs/Rate%20Summary%20-%20Mar%202025.pdf",
+  "note": "Only residential schedule RES, flat 10.353 c/kWh; no TOU/EV/CPP/PTR/res demand. TOU exists only for LGS (LGTOU)."
+ },
+ {
+  "idx": 12,
+  "eia_id": "18895",
+  "utility": "Thumb Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.michigan.gov/mpsc/-/media/Project/Websites/mpsc/consumer/rate-books/electric/thumb/thumbmemberregcur.pdf",
+  "note": "Thumb rate book lists Schedule GS-TOD Optional General Time-of-Day Service, eff Feb 1 2025."
+ },
+ {
+  "idx": 13,
+  "eia_id": "6342",
+  "utility": "First Electric Cooperative Corporation",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.firstelectric.coop/pdfs/Condensed%20Rate%20Schedule%20-%20June%202023.pdf",
+  "note": "No C&I TOU/RTP; Rates 4/13 seasonal demand only. SOURCE DEFECT (stale): newer April 2025 condensed schedule exists (https://www.firstelectric.coop/pdfs/Condensed%20Rate%20Schedule%20April%202025.pdf per nectarclimate), also no TOU."
+ },
+ {
+  "idx": 14,
+  "eia_id": "11701",
+  "utility": "Marquette Board of Light & Power",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://mblp.org/other-customer-information/",
+  "note": "No residential load control/DR on MBLP customer-info page; web search found no MBLP DLC/thermostat program. Low-depth check."
+ },
+ {
+  "idx": 15,
+  "eia_id": "17260",
+  "utility": "North West Rural Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.nwrec.coop/electric-rates",
+  "note": "C&I rates 40/42 have no TOU/off-peak/interruptible; non-coincident demand only. Residential has interruptible electric heat (res_dispatch) and 'Peak Alert' link."
+ },
+ {
+  "idx": 16,
+  "eia_id": "16971",
+  "utility": "Shakopee Public Utilities",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://shakopeeutilities.com/residential/ev-charging-2/",
+  "note": "SOURCE DEFECT: cited 2020 rate PDF is stale. SPU residential EV Charging Rate (separate meter): $0.057/kWh 10pm-8am, $0.25/kWh otherwise = EV TOU."
+ },
+ {
+  "idx": 17,
+  "eia_id": "12899",
+  "utility": "Mor-Gran-Sou Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.morgransou.com/electric-heat",
+  "note": "Electric heat separate-meter seasonal rate, explicitly 'not currently controlled'; control only if Basin initiates future program. No other DLC found."
+ },
+ {
+  "idx": 18,
+  "eia_id": "9964",
+  "utility": "Kenergy Corp",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.kenergycorp.com/rates/",
+  "note": "Single residential rate ($22 + $0.110529/kWh); no TOU/EV/CPP/PTR/res demand. Site-restricted search found nothing. Moderate depth (KY PSC tariff not opened)."
+ },
+ {
+  "idx": 19,
+  "eia_id": "8449",
+  "utility": "Henderson Municipal Power & Light",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.hmpl.com/rates-and-fees.html",
+  "note": "General Service and Demand rates are tiered/demand only; no TOU/RTP/interruptible C&I rate on page."
+ }
+]

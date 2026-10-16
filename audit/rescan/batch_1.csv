@@ -1,0 +1,50 @@
+eia_id,cell,value,src,note
+241,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+241,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+750,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+750,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+944,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+944,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+1640,res_dispatch,Unknown,https://energyright.com/residential/rebates/smartthermostat/,Not on TVA Smart Thermostat Rewards participating LPC list; own site robots-blocked; no other evidence
+1640,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+3222,res_habit,Unknown,https://nectarclimate.com/rates/central-alabama-electric,Residential tariff not retrieved; third-party page shows no TOU
+3222,ci_habit,Unknown,https://nectarclimate.com/rates/central-alabama-electric,Third-party page shows commercial schedules w/o TOU; official tariff book not reached
+3426,res_dispatch,Unknown,https://energyright.com/residential/rebates/smartthermostat/,Not on TVA Smart Thermostat Rewards participating LPC list; own site robots-blocked; no other evidence
+3426,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+4618,res_dispatch,No,https://cullmanec.com/savings-programs,"Not on TVA Smart Thermostat Rewards LPC list; own savings page lists only EnergyRight rebates, no DR"
+4618,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+4958,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+4958,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+6422,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+6422,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+9094,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+9094,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+9739,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+9739,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+11714,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+11714,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+13669,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+13669,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+16629,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+16629,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+17033,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC
+17033,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility
+61432,res_dispatch,Unknown,https://3cenergy.org/central-coast-community-energy-launches-residential-battery-rebate-program/,"3CE battery rebate is purchase-only, no dispatch requirement stated; PG&E/SCE run DR; 3CE programs page unreadable"
+19229,res_dispatch,Unknown,https://energybot.com/incentives/california/truckee-donner-public-utility-district-energy-conservation-rebate-program-1925.html,TDPUD site unreadable; no evidence either way
+19229,ci_dispatch,Unknown,https://energybot.com/incentives/california/truckee-donner-public-utility-district-energy-conservation-rebate-program-1925.html,TDPUD site unreadable; no evidence either way
+5070,ci_dispatch,Unknown,https://www.delaware.coop/btp,"Beat the Peak (alerts, thermostat, battery, TOU) page is written for residential members; no C&I program found; business pages unreadable"
+9616,res_habit,No,https://www.beachesenergy.com/energy-savings/residential-commercial-rates,"No rate schedule or program of this type on rates, rebates, or home pages"
+9616,res_dispatch,No,https://www.beachesenergy.com/energy-savings/residential-commercial-rates,"No rate schedule or program of this type on rates, rebates, or home pages"
+9616,ci_habit,No,https://www.beachesenergy.com/energy-savings/residential-commercial-rates,"No rate schedule or program of this type on rates, rebates, or home pages"
+9616,ci_dispatch,No,https://www.beachesenergy.com/energy-savings/residential-commercial-rates,"No rate schedule or program of this type on rates, rebates, or home pages"
+3245,res_habit,Yes,https://www.psc.state.fl.us/library/filings/2025/07014-2025/07014-2025.pdf,FL PSC tariff filing Jul 2025: Rate RST Residential Service Time-of-Use
+3245,ci_habit,Yes,https://www.psc.state.fl.us/library/filings/2025/07014-2025/07014-2025.pdf,FL PSC tariff filing Jul 2025: Rate GST General Service Time-of-Use
+18445,res_dispatch,No,https://www.talgov.com/you/you-account-plans-index,"Pricing plans and home products pages list no DR/load control for residential (only Nights & Weekends TOU, rebates)"
+18445,ci_habit,Unknown,https://www.talgov.com/you/you-account-plans-nw,"Nights & Weekends TOU stated as residential since 2012 but ""any electric customer may participate""; commercial rates page lists no TOU; ambiguous"
+3757,res_habit,Yes,https://clayelectric.com/sites/default/files/documents/RateBook0625.pdf,Clay Electric Rate RT Residential Optional Time of Use
+3757,ci_habit,Yes,https://clayelectric.com/sites/default/files/documents/RateBook0625.pdf,Clay Electric GST/GSDT-LM/LGSDT-LM optional time-of-use schedules
+3757,ci_dispatch,Yes,https://clayelectric.com/sites/default/files/documents/RateBook0625.pdf,Clay Electric Rate INT / INT-T Interruptible Service
+6457,res_habit,Unknown,https://fpuc.com/wp-content/uploads/Notice-to-Natural-Gas-and-Electric-Customers_2025-1.pdf,RST-EXP listed in 2025 customer notice table but experimental and no current rates shown; open status unclear
+6457,res_dispatch,No,https://fpuc.com/energy-efficiency/energy-conservation-program-ecp/,"fpuc.com electric and ECP pages list rebates only, no DR/load control"
+6457,ci_habit,Unknown,https://fpuc.com/wp-content/uploads/Notice-to-Natural-Gas-and-Electric-Customers_2025-1.pdf,"GST-EXP/GSDT-EXP/GSLDT-EXP listed in 2025 notice table but experimental, no current rates; open status unclear"
+6457,ci_dispatch,Unknown,https://fpuc.com/wp-content/uploads/Notice-to-Natural-Gas-and-Electric-Customers_2025-1.pdf,"IS-EXP Interruptible (special-contract, experimental) listed in 2025 notice; open status unclear"

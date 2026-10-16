@@ -1,0 +1,18 @@
+{
+ "region": "AKHI",
+ "seed": 20261015,
+ "items": [
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "213",
+   "utility_name": "Alaska Electric Light & Power (AEL&P)",
+   "state": "AK",
+   "ownership": "IOU",
+   "customers": "17701",
+   "cell": "res_habit",
+   "claimed": "Yes",
+   "source_url": "https://www.aelp.com/Energy-Conservation/Electric-Vehicles"
+  }
+ ]
+}

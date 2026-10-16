@@ -1,0 +1,13 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "213",
+  "utility": "Alaska Electric Light & Power (AEL&P)",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.aelp.com/Energy-Conservation/Electric-Vehicles",
+  "note": "AEL&P off-peak EV rate (10pm-5am, Level II charger), residential and small commercial non-demand customers eligible."
+ }
+]

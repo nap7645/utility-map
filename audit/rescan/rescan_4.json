@@ -1,0 +1,502 @@
+[
+{
+"eia_id": "276",
+"utility": "Alcorn County Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "276",
+"utility": "Alcorn County Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "2849",
+"utility": "Central Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "2849",
+"utility": "Central Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "4068",
+"utility": "Columbus Light and Water Department",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "4068",
+"utility": "Columbus Light and Water Department",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5578",
+"utility": "East Mississippi Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "5578",
+"utility": "East Mississippi Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "8748",
+"utility": "Holly Springs Utility Department",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "8748",
+"utility": "Holly Springs Utility Department",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "40303",
+"utility": "Monroe County Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "40303",
+"utility": "Monroe County Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13227",
+"utility": "Natchez Trace Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "13227",
+"utility": "Natchez Trace Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13412",
+"utility": "New Albany Light, Gas & Water",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "13412",
+"utility": "New Albany Light, Gas & Water",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "40302",
+"utility": "North East Mississippi Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "40302",
+"utility": "North East Mississippi Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13735",
+"utility": "Northcentral Electric Cooperative (Northcentral EPA)",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "13735",
+"utility": "Northcentral Electric Cooperative (Northcentral EPA)",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "14275",
+"utility": "Oxford Utilities",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "14275",
+"utility": "Oxford Utilities",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "15211",
+"utility": "Pontotoc Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "15211",
+"utility": "Pontotoc Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "15334",
+"utility": "Prentiss County Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "15334",
+"utility": "Prentiss County Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "18006",
+"utility": "Starkville Electric Department (Starkville Utilities)",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18006",
+"utility": "Starkville Electric Department (Starkville Utilities)",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "18447",
+"utility": "Tallahatchie Valley Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18447",
+"utility": "Tallahatchie Valley Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "18943",
+"utility": "Tippah Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18943",
+"utility": "Tippah Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "18951",
+"utility": "Tishomingo County Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18951",
+"utility": "Tishomingo County Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "19007",
+"utility": "Tombigbee Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "19007",
+"utility": "Tombigbee Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "19273",
+"utility": "Tupelo Water & Light Department",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "19273",
+"utility": "Tupelo Water & Light Department",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12825",
+"utility": "NorthWestern Energy",
+"state": "MT",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20997",
+"utility": "Yellowstone Valley Electric Cooperative",
+"state": "MT",
+"cell": "res_habit",
+"current": "No",
+"source": "https://www.yvec.com/your-account/electrical-rates/",
+"reason": "round-2 audit refuted: Yes https://www.yvec.com/your-account/electrical-rates/",
+"from_programs": false
+},
+{
+"eia_id": "13441",
+"utility": "New Hampshire Electric Cooperative",
+"state": "NH",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "1890",
+"utility": "Blue Ridge Electric Cooperative",
+"state": "SC",
+"cell": "res_habit",
+"current": "Yes",
+"source": "https://nectarclimate.com/rates/blue-ridge-electric-cooperative-sc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "7646",
+"utility": "Greenwood Commissioners of Public Works",
+"state": "SC",
+"cell": "res_habit",
+"current": "No",
+"source": "https://greenwoodcpw.com/utilities/electric/",
+"reason": "round-2 audit refuted: Yes https://greenwoodcpw.com/wp-content/uploads/2025/12/2026-01_E2500-Residential-EV-Charger.pdf",
+"from_programs": false
+},
+{
+"eia_id": "19293",
+"utility": "Southeastern Electric Cooperative",
+"state": "SD",
+"cell": "res_habit",
+"current": "Yes",
+"source": "https://southeasternelectric.com/demand/",
+"reason": "round-2 audit refuted: No https://southeasternelectric.com/about/rates-policies/",
+"from_programs": false
+},
+{
+"eia_id": "577",
+"utility": "Alcoa Electric Department",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "727",
+"utility": "Appalachian Electric Cooperative",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "727",
+"utility": "Appalachian Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "947",
+"utility": "Athens Utilities Board",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "947",
+"utility": "Athens Utilities Board",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "1578",
+"utility": "Benton County Electric System",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+}
+]

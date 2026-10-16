@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "17564",
+  "utility": "South Kentucky RECC",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://psc.ky.gov/tariffs/electric/South Kentucky RECC/Tariff.pdf",
+  "note": "SOURCE DEFECT: cited EKPC energy-efficiency page shows no C&I DR. Current SKRECC tariff (PSC, mod 9/24/2026) contains 'Direct Load Control Program - DSM - Commercial' (Sheet R-37); ISR rider not visible in current tariff class list. Confidence moderate."
+ },
+ {
+  "idx": 1,
+  "eia_id": "40224",
+  "utility": "Central Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.central.coop/load-management-program",
+  "note": "Water-heater DR unit interrupted at peak; electric-heat interruptible second-meter rate."
+ },
+ {
+  "idx": 2,
+  "eia_id": "3542",
+  "utility": "Duke Energy Ohio",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://dam.assets.ohio.gov/image/upload/puco.ohio.gov/empliibrary/files/docketing/tariffs/Electric/Duke%20Energy%20Ohio%20-%20Electric/PUCO%2019%20Schedules%20of%20Rates,%20Classifications,%20Rules%20andRegulations.pdf",
+  "note": "Cited PUCO 19 tariff index lists Rider PLM Peak Load Management Program (Sheet 87) and Rider DM-I Industrial Demand Management (Sheet 123, eff 1/3/23). Confirmed from index only; rider text not read. Cited URL now 302-redirects to dam.assets.ohio.gov (update link)."
+ },
+ {
+  "idx": 3,
+  "eia_id": "5070",
+  "utility": "Delaware Electric Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://www.delaware.coop/btp",
+  "note": "Cited Beat the Peak page is residential only (batteries, Wi-Fi thermostats); R-LM is residential load mgmt and excludes C&I. No C&I interruptible/curtailable/DR found on delaware.coop via search. Confidence moderate."
+ },
+ {
+  "idx": 4,
+  "eia_id": "40222",
+  "utility": "Valley Rural Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.valleyrec.com/content/demand-response-details",
+  "note": "SOURCE DEFECT: cited Allegheny CLMS page does not name Valley REC. Valley REC DR page: co-op-installed demand response unit on water heaters / heating-cooling equipment, $100 credit to new participants, enrolling."
+ },
+ {
+  "idx": 5,
+  "eia_id": "6442",
+  "utility": "Fleming-Mason Energy Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://psc.ky.gov/tariffs/electric/Fleming-Mason RECC/Cancelled Tariff Pages/2026/Schedule IS - Interruptible Service/05-01.pdf",
+  "note": "SOURCE DEFECT: EKPC page shows no C&I DR. Schedule IS (250-20,000 kW interruptible, eff 9/1/2021) superseded 5/1/2026 in a whole-tariff revision (all 26 schedules incl. cover page re-issued); current Tariff.pdf unfetchable. Inference that IS persists; confidence moderate."
+ },
+ {
+  "idx": 6,
+  "eia_id": "3503",
+  "utility": "Choptank Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.choptankelectric.coop/sites/default/files/CL%20Choptank_August%202026.pdf",
+  "note": "SOURCE DEFECT: cited beat-peak page is an alert-only program. Aug 2026 Co-op Living: 'Choptank Electric Cooperative launched a Thermostat Program for eligible members with a Wi-Fi-enabled smart thermostat' (bill credits for summer reductions)."
+ },
+ {
+  "idx": 7,
+  "eia_id": "733",
+  "utility": "Appalachian Power Co (AEP - Virginia)",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.appalachianpower.com/clean-energy/electric-cars/virginia-off-peak",
+  "note": "Tariff RS-PEV Off-Peak Residential EV, open ('Apply now'). Note state field OH for AEP-Virginia looks wrong (data issue, not this cell)."
+ },
+ {
+  "idx": 8,
+  "eia_id": "17044",
+  "utility": "Shelby Energy Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://psc.ky.gov/tariffs/Electric/Shelby Energy Cooperative, Inc/Tariff.pdf",
+  "note": "Only residential off-peak marketing rate pages date to <=2011 (cancelled); no residential TOD/ETS/EV found in searches. Current tariff (eff 5/1/2026) rate-schedule section truncated in fetch. Confidence moderate."
+ },
+ {
+  "idx": 9,
+  "eia_id": "18085",
+  "utility": "South Central Power Company",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.southcentralpower.com/your-account/member-rates/",
+  "note": "Member-rates page lists R, SGS, MGS, LGS, LP, Riders A/B, NB; none TOU/RTP/interruptible; LGS is a plain max-demand charge. Rate PDFs not individually read. Confidence moderate."
+ },
+ {
+  "idx": 10,
+  "eia_id": "7908",
+  "utility": "Hagerstown Light Department",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.hagerstownmd.org/153/Tariffs",
+  "note": "Schedules R, C, PLH, OL, TP, SL + riders; no DLC/DR program; Rule 12 reliability interruption only."
+ },
+ {
+  "idx": 11,
+  "eia_id": "18498",
+  "utility": "Taylor County RECC",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://psc.ky.gov/tariffs/Electric/Taylor County RECC/Tariff.pdf",
+  "note": "Current tariff: only Schedule A Residential Farm & Home (flat, eff 5/1/2026); R-1 Residential Marketing Rate cancelled 2024."
+ },
+ {
+  "idx": 12,
+  "eia_id": "6442",
+  "utility": "Fleming-Mason Energy Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://psc.ky.gov/tariffs/electric/Fleming-Mason%20RECC/Cancelled%20Tariff%20Pages/2026/Schedule%20RSP-TOD%20-%20Residential%20and%20Small%20Power%20-%20Time%20of%20Day/05-01.pdf",
+  "note": "Schedule RSP-TOD residential TOD (on 13.7c / off 6.9c, open to all residential) eff 9/1/2024; re-issued in 5/1/2026 whole-tariff revision alongside RSP-ETS. Current sheet not directly viewed (Tariff.pdf fetch failed)."
+ },
+ {
+  "idx": 13,
+  "eia_id": "6194",
+  "utility": "Farmers RECC",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://psc.ky.gov/tariffs/electric/Farmers RECC/Tariff.pdf",
+  "note": "Current Farmers RECC tariff contains 'SCHEDULE R - TIME-OF-DAY - RESIDENTIAL SERVICE'; also Schedule RM Residential Off-Peak Marketing-ETS history."
+ },
+ {
+  "idx": 14,
+  "eia_id": "4065",
+  "utility": "City of Columbus, Division of Power",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.columbus.gov/files/sharedassets/city/v/15/services/public-utilities/dop-rates.pdf",
+  "note": "Residential A and A-1 flat per-kWh, no TOU/EV/demand."
+ },
+ {
+  "idx": 15,
+  "eia_id": "1886",
+  "utility": "Blue Grass Energy Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://psc.ky.gov/tariffs/electric/Bluegrass%20Energy%20Coop.%20Corp/Cancelled%20Tariff%20Pages/2026/GS-3%20(Residential%20and%20Farm%20Time-of-Day%20Rate)/05-01.pdf",
+  "note": "GS-3 Residential and Farm Time-of-Day Rate, available to all GS-1 consumers, eff 7/21/2025; re-issued in 5/1/2026 revision with all 17 schedules (incl. GS-1). Current sheet not directly viewed."
+ },
+ {
+  "idx": 16,
+  "eia_id": "7558",
+  "utility": "Grayson RECC",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://psc.ky.gov/tariffs/Electric/Grayson RECC/Tariff.pdf",
+  "note": "Current tariff (eff 5/1/2026): Schedule 1 flat residential only; Schedule 3 off-peak 'RESERVED FOR FUTURE USE'; Schedule 10 Residential TOD (last eff 9/1/2024) cancelled 2026 and absent from TOC. Confidence moderate."
+ },
+ {
+  "idx": 17,
+  "eia_id": "7908",
+  "utility": "Hagerstown Light Department",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.hagerstownmd.org/153/Tariffs",
+  "note": "Schedule R flat energy charge; no TOU/EV/CPP."
+ },
+ {
+  "idx": 18,
+  "eia_id": "84",
+  "utility": "A&N Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://www.anec.com/energy-efficiency/energy-efficiency-programs/",
+  "note": "Cited Beat the Peak page is alert-only, but ANEC programs page links a 'Thermostat Program' (ODEC). Sister ODEC co-op Choptank reports this thermostat DR program launched (Aug 2026). Link label only, no terms visible. Lean REFUTED (likely Yes); verify ODEC page."
+ },
+ {
+  "idx": 19,
+  "eia_id": "14251",
+  "utility": "Owen Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://psc.ky.gov/tariffs/electric/Owen%20Electric%20Cooperative,%20Inc/Cancelled%20Tariff%20Pages/2024/Schedule%201-B2%20-%20Farm%20and%20Home%20-%20Time%20of%20Day/09-01.pdf",
+  "note": "Schedule I-B2 Farm & Home TOD open (eff 10/1/2021) until superseded 9/2024; current Tariff.pdf unfetchable so current status unverified. Lean REFUTED."
+ }
+]

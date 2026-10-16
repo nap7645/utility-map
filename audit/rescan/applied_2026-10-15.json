@@ -1,0 +1,2414 @@
+[
+{
+"eia_id": "241",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "241",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "750",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "750",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "944",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "944",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "1640",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://energyright.com/residential/rebates/smartthermostat/",
+"note": "Not on TVA Smart Thermostat Rewards participating LPC list; own site robots-blocked; no other evidence",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "1640",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "3222",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/central-alabama-electric",
+"note": "Residential tariff not retrieved; third-party page shows no TOU",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "3222",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/central-alabama-electric",
+"note": "Third-party page shows commercial schedules w/o TOU; official tariff book not reached",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "3426",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://energyright.com/residential/rebates/smartthermostat/",
+"note": "Not on TVA Smart Thermostat Rewards participating LPC list; own site robots-blocked; no other evidence",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "3426",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "4618",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://cullmanec.com/savings-programs",
+"note": "Not on TVA Smart Thermostat Rewards LPC list; own savings page lists only EnergyRight rebates, no DR",
+"batch": "1",
+"final": "No"
+},
+{
+"eia_id": "4618",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "4958",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "4958",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "6422",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "6422",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "9094",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "9094",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "9739",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "9739",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "11714",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "11714",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "13669",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "13669",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "16629",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "16629",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "17033",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; utility listed as participating LPC",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "17033",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex DR (interruptible); utility in participating LPC dropdown; >1MW eligibility",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "61432",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://3cenergy.org/central-coast-community-energy-launches-residential-battery-rebate-program/",
+"note": "3CE battery rebate is purchase-only, no dispatch requirement stated; PG&E/SCE run DR; 3CE programs page unreadable",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "19229",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://energybot.com/incentives/california/truckee-donner-public-utility-district-energy-conservation-rebate-program-1925.html",
+"note": "TDPUD site unreadable; no evidence either way",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "19229",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://energybot.com/incentives/california/truckee-donner-public-utility-district-energy-conservation-rebate-program-1925.html",
+"note": "TDPUD site unreadable; no evidence either way",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "5070",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.delaware.coop/btp",
+"note": "Beat the Peak (alerts, thermostat, battery, TOU) page is written for residential members; no C&I program found; business pages unreadable",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "9616",
+"cell": "res_habit",
+"value": "No",
+"src": "https://www.beachesenergy.com/energy-savings/residential-commercial-rates",
+"note": "No rate schedule or program of this type on rates, rebates, or home pages",
+"batch": "1",
+"final": "No"
+},
+{
+"eia_id": "9616",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://www.beachesenergy.com/energy-savings/residential-commercial-rates",
+"note": "No rate schedule or program of this type on rates, rebates, or home pages",
+"batch": "1",
+"final": "No"
+},
+{
+"eia_id": "9616",
+"cell": "ci_habit",
+"value": "No",
+"src": "https://www.beachesenergy.com/energy-savings/residential-commercial-rates",
+"note": "No rate schedule or program of this type on rates, rebates, or home pages",
+"batch": "1",
+"final": "No"
+},
+{
+"eia_id": "9616",
+"cell": "ci_dispatch",
+"value": "No",
+"src": "https://www.beachesenergy.com/energy-savings/residential-commercial-rates",
+"note": "No rate schedule or program of this type on rates, rebates, or home pages",
+"batch": "1",
+"final": "No"
+},
+{
+"eia_id": "3245",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://www.psc.state.fl.us/library/filings/2025/07014-2025/07014-2025.pdf",
+"note": "FL PSC tariff filing Jul 2025: Rate RST Residential Service Time-of-Use",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "3245",
+"cell": "ci_habit",
+"value": "Yes",
+"src": "https://www.psc.state.fl.us/library/filings/2025/07014-2025/07014-2025.pdf",
+"note": "FL PSC tariff filing Jul 2025: Rate GST General Service Time-of-Use",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "18445",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://www.talgov.com/you/you-account-plans-index",
+"note": "Pricing plans and home products pages list no DR/load control for residential (only Nights & Weekends TOU, rebates)",
+"batch": "1",
+"final": "No"
+},
+{
+"eia_id": "18445",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://www.talgov.com/you/you-account-plans-nw",
+"note": "Nights & Weekends TOU stated as residential since 2012 but \"any electric customer may participate\"; commercial rates page lists no TOU; ambiguous",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "3757",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://clayelectric.com/sites/default/files/documents/RateBook0625.pdf",
+"note": "Clay Electric Rate RT Residential Optional Time of Use",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "3757",
+"cell": "ci_habit",
+"value": "Yes",
+"src": "https://clayelectric.com/sites/default/files/documents/RateBook0625.pdf",
+"note": "Clay Electric GST/GSDT-LM/LGSDT-LM optional time-of-use schedules",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "3757",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://clayelectric.com/sites/default/files/documents/RateBook0625.pdf",
+"note": "Clay Electric Rate INT / INT-T Interruptible Service",
+"batch": "1",
+"final": "Yes"
+},
+{
+"eia_id": "6457",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://fpuc.com/wp-content/uploads/Notice-to-Natural-Gas-and-Electric-Customers_2025-1.pdf",
+"note": "RST-EXP listed in 2025 customer notice table but experimental and no current rates shown; open status unclear",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "6457",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://fpuc.com/energy-efficiency/energy-conservation-program-ecp/",
+"note": "fpuc.com electric and ECP pages list rebates only, no DR/load control",
+"batch": "1",
+"final": "No"
+},
+{
+"eia_id": "6457",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://fpuc.com/wp-content/uploads/Notice-to-Natural-Gas-and-Electric-Customers_2025-1.pdf",
+"note": "GST-EXP/GSDT-EXP/GSLDT-EXP listed in 2025 notice table but experimental, no current rates; open status unclear",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "6457",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://fpuc.com/wp-content/uploads/Notice-to-Natural-Gas-and-Electric-Customers_2025-1.pdf",
+"note": "IS-EXP Interruptible (special-contract, experimental) listed in 2025 notice; open status unclear",
+"batch": "1",
+"final": "Unknown"
+},
+{
+"eia_id": "6616",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://fpua.com/rates-and-resolutions/",
+"note": "FPUA rates page lists no schedule names; tariff PDFs not readable; unverified",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "6616",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://fpua.com/rates-and-resolutions/",
+"note": "FPUA rates page lists no schedule names; tariff PDFs not readable; unverified",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "6616",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://fpua.com/rates-and-resolutions/",
+"note": "FPUA rates page lists no schedule names; tariff PDFs not readable; unverified",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "6616",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://fpua.com/rates-and-resolutions/",
+"note": "FPUA rates page lists no schedule names; tariff PDFs not readable; unverified",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "6909",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://www.gru.com/Portals/0/GS - TOU - D - 2021.pdf",
+"note": "GRU TOU found only for GS (non-residential); residential rate page unreadable",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "6909",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://www.gru.com/Rates",
+"note": "gru.com fetch failed; no evidence either way",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "7264",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://www.floridapsc.com/library/filings/2021/01831-2021/01831-2021.pdf",
+"note": "PSC filing excerpt has no residential schedules",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "7264",
+"cell": "ci_habit",
+"value": "No",
+"src": "https://www.floridapsc.com/library/filings/2021/01831-2021/01831-2021.pdf",
+"note": "Glades PSC tariff sheets: GS, LP, PS-2, PS-3 all flat/demand; no TOU (2021 filing, partial)",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "9617",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://www.jea.com/Residential/Save_Energy_and_Money/",
+"note": "jea.com blocked by human-verification",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "10376",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://kua.com/pay-my-bill/electric-rates-service-fees-and-procedures/",
+"note": "Rates PDF unreadable; secondary source lists only commercial GSDT, no residential schedules",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "10376",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://kua.com/energy-conservation/",
+"note": "KUA conservation page lists only audit, net metering, tips; no DR/thermostat program (EV charger program is not DR)",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "10376",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://kua.com/energy-conservation/",
+"note": "No DR/interruptible found on conservation page; rates PDF unreadable",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "10623",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://lakelandelectric.com/programs-and-services",
+"note": "Programs page lists ReEnergize, rebates, Energy Check etc.; no load control/thermostat DR (Shift to Save is a rate plan)",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "10623",
+"cell": "ci_dispatch",
+"value": "No",
+"src": "https://lakelandelectric.com/programs-and-services",
+"note": "Programs page lists no interruptible/curtailable/DR program; tariff not read",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "10857",
+"cell": "res_habit",
+"value": "No",
+"src": "http://www.lcec.net/my-account/rates/",
+"note": "LCEC rates page lists RS only for residential; no TOU/EV TOU listed",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "10857",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "http://www.lcec.net/my-account/rates/",
+"note": "Lists GS, GSD, IS-GSD, GSD-O (optional rate, structure not shown); no TOU named",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "14610",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://www.floridapsc.com/pscfiles/website-files/PDF/Utilities/Electricgas/ARDemandSide/2024/Orlando%20Utilities%20Commission.pdf",
+"note": "OUC 2024 FPSC DSM report lists no load control/DR program (rebates, surveys, Power Pass only)",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "18304",
+"cell": "ci_habit",
+"value": "No",
+"src": "https://floridapsc.com/library/filings/2025/02515-2025/02515-2025.pdf",
+"note": "SECO 2025 PSC filing: RS-TOU residential only; commercial GS, GSD, GSDI (interruptible), LGSD, no commercial TOU",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "18360",
+"cell": "res_habit",
+"value": "No",
+"src": "https://www.floridapsc.com/library/filings/2025/15244-2025/15244-2025.pdf",
+"note": "SVEC Nov 2025 PSC tariff: RS and RS-PM flat; TOU schedule is non-residential only",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "18449",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/talquin-electric-cooperative",
+"note": "Only secondary aggregator readable; no residential schedule shown",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "18449",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/talquin-electric-cooperative",
+"note": "Aggregator shows GSND/GSD/GSLD no TOU; utility tariff not read",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "18449",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/talquin-electric-cooperative",
+"note": "Aggregator shows no interruptible rate; utility tariff not read",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "19161",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://www.floridapsc.com/library/FILINGS/2020/00660-2020/00660-2020.pdf",
+"note": "PSC filing covers only INT rate; full tariff not read",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "19161",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://www.floridapsc.com/library/FILINGS/2020/00660-2020/00660-2020.pdf",
+"note": "PSC filing covers only INT rate (C&I interruptible); full tariff not read",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "20885",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://www.floridapsc.com/library/FILINGS/2025/02427-2025/02427-2025.pdf",
+"note": "2025 PSC filing shows no TOU but is not the full tariff",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "20885",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://www.floridapsc.com/library/FILINGS/2025/02427-2025/02427-2025.pdf",
+"note": "2025 PSC filing shows no TOU but is not the full tariff",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "230",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://www.albanyga.gov/City-Departments/Utility-Operations/Light",
+"note": "Light dept page has no program info; rate pages not read",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "230",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.albanyga.gov/City-Departments/Utility-Operations/Light",
+"note": "Light dept page has no program info; rate pages not read",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "1283",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.bcremc.com/save-energy-money/beat-the-peak/",
+"note": "Beat the Peak is voluntary conservation alerts; no C&I interruptible found; rates not read",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "22822",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.clarkremc.com",
+"note": "site blocked by robots",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "5394",
+"cell": "ci_dispatch",
+"value": "No",
+"src": "https://www.duboisrec.com/large-power/",
+"note": "Dubois REC Large Power (LPS) tariff page has no interruptible/PLM option; site has none listed",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "8179",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.harrisonremc.com/beat-the-peak/",
+"note": "Beat the Peak voluntary alerts (member-wide); no C&I interruptible/PLM described",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "9576",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://www.hoosierenergy.com/wp-content/uploads/2022/08/Jackson-County-REMC-Hoosier-Energy-smart-thermostat-pilot.pdf",
+"note": "2021 smart-thermostat DR pilot completed; no evidence of currently open residential program",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "17038",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.rushshelby.com",
+"note": "site blocked by robots",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "12929",
+"cell": "ci_dispatch",
+"value": "No",
+"src": "https://www.sciremc.com/member-services/rates/",
+"note": "SCI REMC rate list has no interruptible/PLM/DR commercial rate; only residential TOU and EV TOU",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "17599",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.seiremc.com/programs",
+"note": "Load Management section lists Beat the Peak, Smart Thermostats, Generator Program, Time of Day; C&I applicability unclear",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "19667",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "",
+"note": "utility domain not identified; udwi.com is parked",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "25295",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://www.winenergyremc.com/take-load-peak",
+"note": "Take A Load Off The Peak: large-motor (irrigation) load control with rebates, penalty for running at peak; ag/C&I",
+"batch": "2",
+"final": "Yes"
+},
+{
+"eia_id": "20216",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.wvremc.com",
+"note": "site blocked by robots",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "1708",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://psc.ky.gov/tariffs/Electric/Big%20Sandy%20RECC/Tariff.pdf",
+"note": "Big Sandy PSC tariff: A-1 has only optional off-peak energy charge tied to EKPC marketing-rate programs; no standalone residential TOU; ambiguous",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "1886",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://psc.ky.gov/tariffs/electric/Bluegrass%20Energy%20Coop.%20Corp/Cancelled%20Tariff%20Pages/2026/GS-3%20(Residential%20and%20Farm%20Time-of-Day%20Rate)/05-01.pdf",
+"note": "GS-3 Residential and Farm Time-of-Day Rate, 6th rev. sheet eff. 7/21/2025 (PSC 2025-00103); sheet now in cancelled folder (superseded revision), schedule appears maintained [policy: superseded sheet only -> Unknown]",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "2056",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://www.bgmu.com/customer-care/rates/",
+"note": "Rates page only links monthly PDFs; not read",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "2056",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://www.bgmu.com/customer-care/energy-programs/",
+"note": "BGMU programs page lists only TVA EnergyRight evaluations and Green Power Switch; no DR/thermostat",
+"batch": "2",
+"final": "No"
+},
+{
+"eia_id": "2056",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://www.bgmu.com/customer-care/rates/",
+"note": "Rates page only links monthly PDFs; not read",
+"batch": "2",
+"final": "Unknown"
+},
+{
+"eia_id": "2056",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; BGMU in participating local power company dropdown",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "3687",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://psc.ky.gov/tariffs/Electric/Clark Energy Cooperative/Tariff.pdf",
+"note": "Schedule D Time-of-Use Marketing Service (separately metered off-peak, eff 5/1/2026)",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "4622",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://psc.ky.gov/tariffs/electric/Cumberland Valley Electric/Tariff.pdf",
+"note": "Schedule I Time of Day (TOD) residential, eff 5/1/2026",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "6194",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://psc.ky.gov/tariffs/electric/Farmers RECC/Tariff.pdf",
+"note": "Schedule R Time-of-Day Residential Service",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "6442",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://psc.ky.gov/tariffs/electric/Fleming-Mason RECC/Cancelled Tariff Pages/2026/Schedule RSP-TOD - Residential and Small Power - Time of Day/05-01.pdf",
+"note": "Schedule RSP-TOD; only superseded 5/2026 sheet seen (current Tariff.pdf unreadable), successor presumed [policy: superseded sheet only -> Unknown]",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "7558",
+"cell": "res_habit",
+"value": "No",
+"src": "https://psc.ky.gov/tariffs/electric/Grayson RECC/Tariff.pdf",
+"note": "Only Schedule 1 flat residential; Schedule 3 Off-Peak Marketing Rate is RESERVED; tariff text truncated",
+"batch": "3",
+"final": "No"
+},
+{
+"eia_id": "8846",
+"cell": "res_habit",
+"value": "No",
+"src": "https://hop-electric.com/electric/residential-electric/schedule-of-rates",
+"note": "Single flat residential rate; no TOU/demand/EV listed",
+"batch": "3",
+"final": "No"
+},
+{
+"eia_id": "8846",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://energyright.com/residential/rebates/smartthermostat/",
+"note": "HES not on Smart Thermostat Rewards participating LPC list; own DR pages not found",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "8846",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://hop-electric.com/electric/residential-electric/schedule-of-rates",
+"note": "Commercial rate page not checked",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "8846",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "PowerFlex; HES in participating LPC dropdown",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "9292",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://psc.ky.gov/tariffs/electric/Inter-County Energy Cooperative Corporation/Tariff.pdf",
+"note": "Schedule 1-A Farm and Home Marketing Rate (ETS) off-peak hours; also EV off-peak charging pilot",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "9575",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://psc.ky.gov/tariffs/electric/Jackson Energy Coop. Corp/Tariff.pdf",
+"note": "Tariff fetch failed; Schedule 11 Residential Off Peak Retail Marketing Rate exists in 2024 cancelled sheets, terms unverified",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "11011",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://psc.ky.gov/tariffs/electric/Licking Valley RECC/Tariff.pdf",
+"note": "Tariff fetch failed; no TOD found via search",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "13651",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://psc.ky.gov/tariffs/Electric/Nolin RECC/Tariff.pdf",
+"note": "Tariff text truncated; only 1980s-90s TOD sheets found",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "14251",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://psc.ky.gov/tariffs/Electric/Owen Electric Cooperative, Inc/Cancelled Tariff Pages/2024/Schedule 1-B1 - Farm and Home - Time of Day/09-01.pdf",
+"note": "Schedules 1-B1/B2/B3 Farm and Home Time of Day; only superseded 2024 sheets seen [policy: superseded sheet only -> Unknown]",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "14724",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/pennyrile-electric",
+"note": "No tariff located",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "14724",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "Pennyrile RECC on EnergyRight Smart Thermostat Rewards participating list",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "14724",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/pennyrile-electric",
+"note": "No tariff located",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "14724",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "PowerFlex; Pennyrile in participating LPC dropdown",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "16587",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://psc.ky.gov/tariffs/electric/Salt River Electric Coop. Corp/Cancelled Tariff Pages/2024/Schedule A-5T-TOD - Farm and Home Service Taxable (Time of Day)/09-01.pdf",
+"note": "Schedule A-5/A-5T-TOD Farm and Home Time of Day; only superseded 2024 sheet seen [policy: superseded sheet only -> Unknown]",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "17044",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://psc.ky.gov/tariffs/Electric/Shelby Energy Cooperative, Inc/Cancelled Tariff Pages/2026/Rate 9 - Off-Peak Retail Marketing Rate (ETS)/05-01.pdf",
+"note": "Rate 9 ETS off-peak marketing only; rate sheets not readable",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "17564",
+"cell": "res_habit",
+"value": "No",
+"src": "https://psc.ky.gov/tariffs/electric/South Kentucky RECC/Tariff.pdf",
+"note": "Tariff lists only Schedule A residential (TOD sheet cancelled 1989); tariff text truncated",
+"batch": "3",
+"final": "No"
+},
+{
+"eia_id": "18498",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://psc.ky.gov/tariffs/Electric/Taylor County RECC/Tariff.pdf",
+"note": "Schedule R-1 Residential Marketing Rate exists in 2024 cancelled sheets; terms unverified",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "20130",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/pennyrile-electric",
+"note": "No tariff located",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "20130",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "Warren RECC not on Smart Thermostat Rewards list; own DR pages not checked",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "20130",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/pennyrile-electric",
+"note": "No tariff located",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "20130",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "PowerFlex; Warren RECC in participating LPC dropdown",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "20377",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/pennyrile-electric",
+"note": "No tariff located",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "20377",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "West Kentucky RECC on Smart Thermostat Rewards participating list",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "20377",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://nectarclimate.com/rates/pennyrile-electric",
+"note": "No tariff located",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "20377",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "PowerFlex; West Kentucky RECC in participating LPC dropdown",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "3266",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://www.cmpco.com",
+"note": "Home page shows no DR; Smart Energy pages not read",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "3828",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://www.cloverland.com/billing-payments/rates-charges/",
+"note": "Rates page shows no DR; Rate Book Part 3 programs not read",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "3828",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.cloverland.com/billing-payments/rates-charges/",
+"note": "Rates page shows no DR; Rate Book Part 3 programs not read",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "18895",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://www.tecmi.coop/rates-tariffs",
+"note": "Site blocked by robots",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "18895",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://www.tecmi.coop/rates-tariffs",
+"note": "Site blocked by robots",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "689",
+"cell": "ci_habit",
+"value": "No",
+"src": "https://www.connexusenergy.com/business/rates/business-rates",
+"note": "Only Small Commercial and General Commercial, seasonal not TOD; rate-book PDF not read",
+"batch": "3",
+"final": "No"
+},
+{
+"eia_id": "4577",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"note": "GRE page names C&I interruptible programs but no member co-ops; no own-site evidence found",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "5574",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"note": "GRE page lists no member co-ops; no own-site evidence found",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "9475",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"note": "GRE page lists no member co-ops; no own-site evidence found",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "10697",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://www.lakecountrypower.coop/sites/default/files/money_saving_programs/For_your_business/2025%20C%26I%20Interruptable%20Program%20Guide.pdf",
+"note": "Own C&I Interruptible Program (Rate 50/57), 25 kW+; 2026 sell sheet also on site",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "10618",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"note": "GRE page lists no member co-ops; no own-site evidence found",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "12546",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"note": "GRE page lists no member co-ops; no own-site evidence found",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "12651",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"note": "GRE page lists no member co-ops; no own-site evidence found",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "16971",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://utility-rates.com/providers/shakopee-public-utilities",
+"note": "Not verified against current SPU tariff",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "18019",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"note": "GRE page lists no member co-ops; no own-site evidence found",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "20996",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://www.whe.org/rates",
+"note": "Own commercial rates page lists interruptible-load rate option (terms by contact only)",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "17833",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.cityutilities.net/",
+"note": "Home page shows no DR; For Businesses page not read",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "6641",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "Not checked",
+"batch": "3",
+"final": "Unknown"
+},
+{
+"eia_id": "6641",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "PowerFlex; 4-County EPA in participating LPC dropdown",
+"batch": "3",
+"final": "Yes"
+},
+{
+"eia_id": "276",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "276",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "2849",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "2849",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "4068",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "4068",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "5578",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "5578",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "8748",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "8748",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "40303",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "40303",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "13227",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "13227",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "13412",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "13412",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "40302",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "40302",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "13735",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "13735",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "14275",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "14275",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "15211",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "15211",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "15334",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "15334",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "18006",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "18006",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "18447",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "18447",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "18943",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "18943",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "18951",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "18951",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "19007",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "",
+"note": "Own rate page not readable/located (robots, no residential schedule shown); TVA LPC",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "19007",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "19273",
+"cell": "res_habit",
+"value": "No",
+"src": "https://www.tupeloms.gov/wp-content/uploads/2026/08/Residential-Electric-Rates-Effective-2026-08.pdf",
+"note": "Single flat Residential Electric Rates schedule eff 2026-08; no TOU/demand/EV; DR pages not separately checked",
+"batch": "4",
+"final": "No"
+},
+{
+"eia_id": "19273",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "12825",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "",
+"note": "No residential DR program found on handbook/IRP; NorthWestern site fetch failed; ambiguous",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "20997",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://www.yvec.com/your-account/electrical-rates/",
+"note": "Residential Demand $2.00/kW (Net Metering Only)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "13441",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://www.nhec.com/optional-energy-programs/",
+"note": "Peak Days is voluntary notification only (no device control); Battery Storage page is utility-owned 2.45MW unit; TOD is a rate",
+"batch": "4",
+"final": "No"
+},
+{
+"eia_id": "1890",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://blueridge.coop/empowerment",
+"note": "EmPOWERment Rate (TOU+peak kW) described as upcoming/transition; own page does not confirm open; nectar page is third party",
+"batch": "4",
+"final": "Unknown"
+},
+{
+"eia_id": "7646",
+"cell": "res_habit",
+"value": "Yes",
+"src": "https://greenwoodcpw.com/wp-content/uploads/2025/12/2026-01_E2500-Residential-EV-Charger.pdf",
+"note": "Schedule E-EV Rate 2500 residential EV TOU, rev eff 2026-01-01",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "19293",
+"cell": "res_habit",
+"value": "No",
+"src": "https://southeasternelectric.com/about/rates-policies/",
+"note": "Only residential rate 310 flat; no TOU/demand/EV/CPP; water heater credit is DLC (dispatch) not habit",
+"batch": "4",
+"final": "No"
+},
+{
+"eia_id": "577",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "727",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight thermostat program; LPC FAQ page lists utility (Athens listed as \"Athens Utilities\")",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "727",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "947",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight thermostat program; LPC FAQ page lists utility (Athens listed as \"Athens Utilities\")",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "947",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "1578",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight thermostat program; LPC FAQ page lists utility (Athens listed as \"Athens Utilities\")",
+"batch": "4",
+"final": "Yes"
+},
+{
+"eia_id": "1578",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Benton County Electric System'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "1936",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Bolivar Energy Authority'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "9777",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "9777",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'BrightRidge (Johnson City Power Board)'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "2247",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Bristol Tennessee Essential Services'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3704",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3704",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'CDE Lightband (Clarksville Dept of Electricity)'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "2960",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "2960",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Caney Fork Electric Cooperative'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3075",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Carroll County Electric Cooperative'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "40166",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "40166",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Chickasaw Electric Cooperative'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3758",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3758",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Cleveland Utilities'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3812",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Clinton Utilities Board'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3855",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3855",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Columbia Power & Water Systems'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "4294",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Cookeville Electric Department'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "4624",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "4624",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Cumberland Electric Membership Corporation'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "4920",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Dayton Electric Department'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "5148",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "5148",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Dickson Electric System'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "5399",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "5399",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Duck River Electric Membership Corporation'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "5509",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Dyersburg Electric System'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3408",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "3408",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'EPB (Electric Power Board of Chattanooga)'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "5763",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "5763",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Elizabethton Electric Department'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "6234",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Fayetteville Public Utilities'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "40236",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Forked Deer Electric Cooperative'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "6608",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "6608",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Fort Loudoun Electric Cooperative'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "6923",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "6923",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Gallatin Department of Electricity'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "7174",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Gibson Electric Membership Corporation'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "7625",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "7625",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Greeneville Light & Power System (Greeneville Energy Authority)'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "8147",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "8147",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Harriman Utility Board'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "8764",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Holston Electric Cooperative'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "9612",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Jackson Energy Authority'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "10421",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Knoxville Utilities Board'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "10579",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'LaFollette Utilities'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "10799",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Lawrenceburg Utility Systems'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "10906",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "10906",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Lenoir City Utilities Board'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "10968",
+"cell": "ci_dispatch",
+"value": "Yes",
+"src": "https://energyright.com/business-industry/demand-response/powerflex/",
+"note": "TVA EnergyRight PowerFlex; LPC named in sign-up dropdown as 'Lexington Electric System'; page doesn't state open/closed but has live enrollment form",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "11222",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC named in participating list (63 LPCs); page has Get Started enrollment link",
+"batch": "5",
+"final": "Yes"
+},
+{
+"eia_id": "11789",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "12293",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "12470",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "12988",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "13216",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "13216",
+"cell": "res_habit",
+"value": "No",
+"src": "https://www.nespower.com/rates/",
+"note": "NES rates page lists no residential TOU/demand/EV rate; only commercial TGSA/EVC",
+"batch": "6",
+"final": "No"
+},
+{
+"eia_id": "13550",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "16949",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "17694",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "18643",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "19898",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"note": "TVA EnergyRight Smart Thermostat Rewards; LPC page names this utility as participating (63-LPC list)",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "7979",
+"cell": "res_dispatch",
+"value": "No",
+"src": "https://www.hamiltonelectric.coop/new-service/rates-fees/",
+"note": "Rates page (Rate 01/02 only) and homepage show no load control/thermostat program",
+"batch": "6",
+"final": "No"
+},
+{
+"eia_id": "11292",
+"cell": "res_habit",
+"value": "Unknown",
+"src": "https://www.lpandl.com",
+"note": "LP&L completed retail competition; own site has no rates page; REPs set retail rates",
+"batch": "6",
+"final": "Unknown"
+},
+{
+"eia_id": "11292",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://www.lpandl.com",
+"note": "LP&L completed retail competition; own site has no rates page; REPs set retail rates",
+"batch": "6",
+"final": "Unknown"
+},
+{
+"eia_id": "11501",
+"cell": "res_habit",
+"value": "No",
+"src": "https://www.magicvalley.coop/residential/",
+"note": "Single flat residential rate $0.09187/kWh; no TOU/demand/EV rate",
+"batch": "6",
+"final": "No"
+},
+{
+"eia_id": "2248",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://energyright.com/residential/rebates/smartthermostat/",
+"note": "BVU absent from 63-LPC Smart Thermostat Rewards list; BVU own site unreadable (bvu.com redirects to domain sale, bvuauthority.com robots-blocked)",
+"batch": "6",
+"final": "Unknown"
+},
+{
+"eia_id": "13762",
+"cell": "ci_habit",
+"value": "Unknown",
+"src": "https://www.nnec.coop/energy-solutions/beat-the-peak/",
+"note": "No commercial tariff located; Beat the Peak is residential only",
+"batch": "6",
+"final": "Unknown"
+},
+{
+"eia_id": "13762",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.nnec.coop/energy-solutions/beat-the-peak/",
+"note": "No commercial tariff located; Beat the Peak is residential thermostat DR only",
+"batch": "6",
+"final": "Unknown"
+},
+{
+"eia_id": "20169",
+"cell": "res_dispatch",
+"value": "Unknown",
+"src": "https://www.myavista.com/-/media/myavista/content-documents/our-rates-and-tariffs/wa/wa_071.pdf",
+"note": "Schedule 71 Connected Communities pilot (thru 7/2027) limited to 4 Spokane neighborhoods; operational status unconfirmed",
+"batch": "6",
+"final": "Unknown"
+},
+{
+"eia_id": "20169",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://www.myavista.com/-/media/myavista/content-documents/our-rates-and-tariffs/wa/wa_071.pdf",
+"note": "No C&I DR found; only Schedule 71 geographic pilot; Avista site partly blocked",
+"batch": "6",
+"final": "Unknown"
+},
+{
+"eia_id": "3660",
+"cell": "res_habit",
+"value": "No",
+"src": "https://www.clarkpublicutilities.com/about-cpu/public-documents/current-electric-water-rates/",
+"note": "Flat 8.79c/kWh residential; no TOU/EV rate. EV managed charging is a $25-credit control pilot, not a rate",
+"batch": "6",
+"final": "No"
+},
+{
+"eia_id": "3660",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://www.clarkpublicutilities.com/residential-customers/reduce-energy-waste-and-lower-your-bill/all-rebates-incentives/electric-vehicle-managed-charging-program/",
+"note": "EV Managed Charging via Optiwatt, utility-managed charging events, pilot capped at 1,400 EVs through end of 2026",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "15419",
+"cell": "ci_dispatch",
+"value": "No",
+"src": "https://www.pud3.org/account-billing/rates-fees/",
+"note": "Mason PUD3 commercial schedules 20/21/24/27/50/61 list no interruptible/DR; schedule PDFs not opened",
+"batch": "6",
+"final": "No"
+},
+{
+"eia_id": "11479",
+"cell": "res_dispatch",
+"value": "Yes",
+"src": "https://www.thermostatrewards.com/ss/mge/",
+"note": "MGE Connect thermostat program: MGE adjusts enrolled thermostats up to 4F, <=4h, 20 events/season; open status not stated",
+"batch": "6",
+"final": "Yes"
+},
+{
+"eia_id": "18336",
+"cell": "ci_dispatch",
+"value": "Unknown",
+"src": "https://utility-rates.com/providers/superior-water-light-power",
+"note": "Own site (slwp.com) is a domain-for-sale page; tariff not found",
+"batch": "6",
+"final": "Unknown"
+}
+]

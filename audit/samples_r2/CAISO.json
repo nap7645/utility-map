@@ -1,0 +1,138 @@
+{
+ "region": "CAISO",
+ "seed": 20261015,
+ "items": [
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "14401",
+   "utility_name": "City of Palo Alto Utilities",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "29644",
+   "cell": "ci_habit",
+   "claimed": "Yes",
+   "source_url": "https://www.paloalto.gov/files/assets/public/v/5/utilities/rates-schedules-for-utilities/commercial-utility-rates/e-4-tou-effective-2025-07-01.pdf"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "14534",
+   "utility_name": "Pasadena Water and Power",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "66452",
+   "cell": "ci_habit",
+   "claimed": "Yes",
+   "source_url": "https://pwp.cityofpasadena.net/water-and-electric-rates/"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "14401",
+   "utility_name": "City of Palo Alto Utilities",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "29644",
+   "cell": "res_habit",
+   "claimed": "Yes",
+   "source_url": "https://www.paloalto.gov/files/assets/public/v/2/utilities/rates-schedules-for-utilities/residential-utility-rates/e-1-tou_effective_2026-07-01.pdf"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "207",
+   "utility_name": "Alameda Municipal Power",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "36377",
+   "cell": "res_habit",
+   "claimed": "Yes",
+   "source_url": "https://www.alamedamp.com/393/TOU-Time-of-Use-Rate-for-EV-Owners"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "11124",
+   "utility_name": "Lodi Electric Utility",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "25418",
+   "cell": "res_habit",
+   "claimed": "Yes",
+   "source_url": "https://www.lodiutilities.org/time-day-pricing-nights-weekends-smart-plan"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "16655",
+   "utility_name": "Silicon Valley Power (City of Santa Clara)",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "59555",
+   "cell": "res_habit",
+   "claimed": "Yes",
+   "source_url": "https://www.siliconvalleypower.com/home/showpublisheddocument/6253/639032058815300000"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "16655",
+   "utility_name": "Silicon Valley Power (City of Santa Clara)",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "59555",
+   "cell": "ci_habit",
+   "claimed": "Yes",
+   "source_url": "https://www.siliconvalleypower.com/home/showpublisheddocument/6253/639032058815300000"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "11148",
+   "utility_name": "Lompoc Electric Utility",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "15181",
+   "cell": "ci_dispatch",
+   "claimed": "Yes",
+   "source_url": "https://www.cityoflompoc.com/home/showpublisheddocument/1014/638641590799700000"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "1192",
+   "utility_name": "City of Banning Electric Utility (BEU)",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "13224",
+   "cell": "res_habit",
+   "claimed": "No",
+   "source_url": "https://www.banningca.gov/DocumentCenter/View/9913/Residential-Service-Rate-Schedule---Effective-January-1-2022"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "1192",
+   "utility_name": "City of Banning Electric Utility (BEU)",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "13224",
+   "cell": "ci_habit",
+   "claimed": "No",
+   "source_url": "https://banningca.gov/DocumentCenter/View/9909/Medium-Commercial-Service-Rate-Schedule---Effective-January-1-2022"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "10724",
+   "utility_name": "Lassen Municipal Utility District",
+   "state": "CA",
+   "ownership": "Municipal",
+   "customers": "10715",
+   "cell": "res_habit",
+   "claimed": "No",
+   "source_url": "https://www.lmud.org/my-account/rates/"
+  }
+ ]
+}

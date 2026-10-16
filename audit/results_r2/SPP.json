@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "5598",
+  "utility": "East Central Electric Cooperative (ECOEC)",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://ecoec.com/sites/default/files/documents/Rates%202026.pdf",
+  "note": "130 TOU-C Commercial TOU, 140 TOU-P, 160 TOU-LP (CP demand)"
+ },
+ {
+  "idx": 1,
+  "eia_id": "13664",
+  "utility": "Norris Public Power District",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://norrisppd.com/rate-schedules-2026/",
+  "note": "Rate 23 Commercial Interruptible Service listed in 2026 schedules; irrigation load mgmt messaging. Terms in linked PDF not read"
+ },
+ {
+  "idx": 2,
+  "eia_id": "14127",
+  "utility": "Omaha Public Power District",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.oppd.com/business/business-rates/service-regulations-all-rates/",
+  "note": "469/469S General Service Time-Of-Use Rider"
+ },
+ {
+  "idx": 3,
+  "eia_id": "19293",
+  "utility": "Southeastern Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://southeasternelectric.com/about/rates-policies/",
+  "note": "Cited /demand/ page says residential members not currently charged for demand. Rates page: Rate 310 tiered per-kWh, no res TOU/CPP/EV/demand. (Controlled water heater credit is dispatch, not habit; Dual Fuel closed to new 2026-01-01)"
+ },
+ {
+  "idx": 4,
+  "eia_id": "10599",
+  "utility": "Lake Region Electric Cooperative (LREC)",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.lrecok.coop/electric-rates",
+  "note": "Large General Service (time-of-use): On Peak Demand $15.60/kW"
+ },
+ {
+  "idx": 5,
+  "eia_id": "15073",
+  "utility": "Pioneer Electric Cooperative, Inc. (Ulysses, KS)",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": null,
+  "evidence_url": "https://pioneerelectric.coop/wp-content/uploads/2026/04/04142026_2026-PEC-Rates-and-Tariffs.pdf",
+  "note": "ROBOTS_DISALLOWED on cited tariff and on site rules PDF; site search surfaced no DR page"
+ },
+ {
+  "idx": 6,
+  "eia_id": "12698",
+  "utility": "Evergy Missouri West",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": null,
+  "evidence_url": "https://www.evergy.com/-/media/documents/ways-to-save/discounts/evergy-thermostat-program-terms-and-conditions-mo.pdf",
+  "note": "SOURCE DEFECT: cited PSC TOU-implementation deck has no device-control DR. Replacement: Evergy MO thermostat T&C describes Energy Savings Events adjusting thermostats (Missouri, not West-specific, no dates); enrollment page /ways-to-save/discounts/thermostats bot-blocked (captcha). Likely Yes, but open status unverified"
+ },
+ {
+  "idx": 7,
+  "eia_id": "14192",
+  "utility": "Osage Valley Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.osagevalley.com/billing-center",
+  "note": "Rate 1 Residential demand charge $6.75/kW, peak 6-9am & 4-8pm (eff 4-1-26)"
+ },
+ {
+  "idx": 8,
+  "eia_id": "1775",
+  "utility": "Black River Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.brec.coop/rates",
+  "note": "C/I 61/62/63: flat $13.75/kW demand + flat kWh; no TOU/CP"
+ },
+ {
+  "idx": 9,
+  "eia_id": "16382",
+  "utility": "Rural Electric Cooperative (REC), Lindsay OK",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://recok.coop/rates",
+  "note": "Small commercial flat kWh; Large Power plain demand + hours-use blocks. Alternative curtailable rate mentioned (dispatch, not habit)"
+ },
+ {
+  "idx": 10,
+  "eia_id": "9996",
+  "utility": "Kansas City Board of Public Utilities (BPU)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.bpu.com/ForHome/Rates.aspx",
+  "note": "SOURCE DEFECT: cited /billing-rates/rates/ shows only C&I classes. Replacement residential page: single E100 Residential Service, no TOU/CPP/EV/demand mentioned (amounts in Rate Application Manual, not read)"
+ },
+ {
+  "idx": 11,
+  "eia_id": "3527",
+  "utility": "Choctaw Electric Cooperative (CEC)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://choctawelectric.net/",
+  "note": "Peak Alerts are voluntary, no payment; homepage shows no TOU/demand/EV rate. Weak: rate sheet is a Google Drive PDF that did not render"
+ },
+ {
+  "idx": 12,
+  "eia_id": "8245",
+  "utility": "Hastings Utilities",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.cityofhastings.org/departments/utilities/service-connection/rebates-and-incentives/incentives/",
+  "note": "Equipment rebates only; site search found no load-control program"
+ },
+ {
+  "idx": 13,
+  "eia_id": "13799",
+  "utility": "Prairie Land Electric Cooperative, Inc.",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.prairielandelectric.com/rate-schedule-tariffs",
+  "note": "Schedule list: GSS/GSS-D/GSM/GSL/I/LI/INT/STR; no TOU/CP named (INT-22 interruptible = dispatch). PDFs not read"
+ },
+ {
+  "idx": 14,
+  "eia_id": "15202",
+  "utility": "Ponca City Utility Authority",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://codelibrary.amlegal.com/codes/poncacityok/latest/poncacity_ok/0-0-0-13362",
+  "note": "9-8A-2(A) residential: customer charge + seasonal/block kWh; TOU (D) limited to Medium/Large Power"
+ },
+ {
+  "idx": 15,
+  "eia_id": "14288",
+  "utility": "Ozark Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.ozarkelectric.com/rates",
+  "note": "Three Phase <125 kVA and Large Power: plain demand charges only"
+ },
+ {
+  "idx": 16,
+  "eia_id": "64196",
+  "utility": "4 Rivers Electric Cooperative, Inc.",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://4riverselectric.com/sites/default/files/2026-03/non-commercialservice030126.pdf",
+  "note": "Non-Commercial Service: $48.25 + $1/kVA transformer over 15 kVA + tiered kWh; no TOU/kW demand/EV"
+ },
+ {
+  "idx": 17,
+  "eia_id": "13799",
+  "utility": "Prairie Land Electric Cooperative, Inc.",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.prairielandelectric.com/rate-schedule-tariffs",
+  "note": "RSF-22 only residential schedule; riders list has no TOU/EV/off-peak (2026-PTR-LAC is a property-tax surcharge)"
+ },
+ {
+  "idx": 18,
+  "eia_id": "17642",
+  "utility": "Southern Public Power District",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://southernpd.com/rates/",
+  "note": "Marathon water heater program = equipment offer, no control described; rates page: interruptible only for irrigation/industrial. PURPA DR mgmt report exists (not read)"
+ },
+ {
+  "idx": 19,
+  "eia_id": "4911",
+  "utility": "Dawson Public Power District",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://dawsonpower.com/customers/rebates/",
+  "note": "Rebates incl. smart thermostat purchase rebate (customer-controlled); load control on site is irrigation-only"
+ }
+]

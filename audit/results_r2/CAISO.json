@@ -1,0 +1,123 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "14401",
+  "utility": "City of Palo Alto Utilities",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.paloalto.gov/files/assets/public/v/5/utilities/rates-schedules-for-utilities/commercial-utility-rates/e-4-tou-effective-2025-07-01.pdf",
+  "note": "E-4-TOU Medium Non-Residential TOU (500-1,000 kW), peak 4-9pm, sheet effective 07-01-2026 (filename says 2025)."
+ },
+ {
+  "idx": 1,
+  "eia_id": "14534",
+  "utility": "Pasadena Water and Power",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://pwp.cityofpasadena.net/water-and-electric-rates/",
+  "note": "Commercial-Large L-1/L-2 have on-peak/off-peak energy charges; rate card eff 10/1/2026."
+ },
+ {
+  "idx": 2,
+  "eia_id": "14401",
+  "utility": "City of Palo Alto Utilities",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.paloalto.gov/files/assets/public/v/2/utilities/rates-schedules-for-utilities/residential-utility-rates/e-1-tou_effective_2026-07-01.pdf",
+  "note": "E-1-TOU residential TOU, peak 4-9pm, eff 07-01-2026; voluntary, not for NEM customers."
+ },
+ {
+  "idx": 3,
+  "eia_id": "207",
+  "utility": "Alameda Municipal Power",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.alamedamp.com/393/TOU-Time-of-Use-Rate-for-EV-Owners",
+  "note": "Optional EV TOU: 50c/kWh weekday 5-9pm, 15.17c off-peak; home charging."
+ },
+ {
+  "idx": 4,
+  "eia_id": "11124",
+  "utility": "Lodi Electric Utility",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.lodi.gov/1143/EV-Charger-and-Installation-Rebates",
+  "note": "SOURCE DEFECT (wrong utility): cited lodiutilities.org appears to be Lodi, WI (phone 592-0712 = 608 area, 8pm-8am window, 11.11c std rate) - medium-high confidence. Lodi Electric Utility (CA) Schedule EV: separately metered residential EV TOU, $0.1428 8pm-6am wkdy+weekends, $0.3366 otherwise."
+ },
+ {
+  "idx": 5,
+  "eia_id": "16655",
+  "utility": "Silicon Valley Power (City of Santa Clara)",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.siliconvalleypower.com/home/showdocument?id=6253",
+  "note": "SOURCE DEFECT (minor): cited showpublisheddocument version URL returned client error; showdocument?id=6253 = D-1 Domestic, 'TOU Option is available to all customers', eff 1/1/2025 (version fetched may be older than cited)."
+ },
+ {
+  "idx": 6,
+  "eia_id": "16655",
+  "utility": "Silicon Valley Power (City of Santa Clara)",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.siliconvalleypower.com/home/showpublisheddocument/6251/639032065160570000",
+  "note": "SOURCE DEFECT: cited doc 6253 is D-1 residential only, does not support C&I. CB-1 General Service Demand Metered eff 1/1/2026 has TOU option (peak Mon-Sat 6am-10pm, $12.14/kW peak demand)."
+ },
+ {
+  "idx": 7,
+  "eia_id": "11148",
+  "utility": "Lompoc Electric Utility",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://cityoflompoc.com/home/showpublisheddocument/1004/638641596125370000",
+  "note": "SOURCE DEFECT: cited doc 1014 returned client error. Resolution 6701(24) Exhibit 15 Schedule CUR-1 Firm Curtailable Load Purchase Rate: $6/kW-season + $0.10/kWh, min 4h curtailment, tied to customer gen >=100 kW. Open status not explicit."
+ },
+ {
+  "idx": 8,
+  "eia_id": "1192",
+  "utility": "City of Banning Electric Utility (BEU)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.banningca.gov/DocumentCenter/View/9913/Residential-Service-Rate-Schedule---Effective-January-1-2022",
+  "note": "RS-1 eff 11/1/2025: $43 BSC + flat energy; no TOU/EV/CPP/PTR/demand. Search found no Banning EV/TOU rate."
+ },
+ {
+  "idx": 9,
+  "eia_id": "1192",
+  "utility": "City of Banning Electric Utility (BEU)",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.banningca.gov/DocumentCenter/View/9909/Medium-Commercial-Service-Rate-Schedule---Effective-January-1-2022",
+  "note": "Cited non-www URL robots-blocked; www variant: MC-1 (50-500 kW) eff 11/1/2025 flat energy + non-TOU demand. LOW DEPTH: large-commercial (>500 kW) schedule not checked; search found no Banning TOU."
+ },
+ {
+  "idx": 10,
+  "eia_id": "10724",
+  "utility": "Lassen Municipal Utility District",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.lmud.org/my-account/rates/",
+  "note": "Schedule 1010 residential: $30 facility + flat $0.19/kWh; no TOU/EV/CPP/PTR/res demand."
+ }
+]

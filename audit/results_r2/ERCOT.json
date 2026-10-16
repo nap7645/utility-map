@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "6958",
+  "utility": "Garland Power & Light",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": null,
+  "evidence_url": "https://www.gpltexas.org/residential/residential-rates",
+  "note": "Fetch error on cited URL and on /residential replacement; unreadable"
+ },
+ {
+  "idx": 1,
+  "eia_id": "19159",
+  "utility": "Tri-County Electric Cooperative, Inc. (Texas)",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.tcectexas.com/sites/default/files/2025-05/rate-schedules-effective-january-2024.pdf",
+  "note": "202.14 Optional Large General Service TOU (on-peak 4-8pm summer)"
+ },
+ {
+  "idx": 2,
+  "eia_id": "7752",
+  "utility": "Guadalupe Valley Electric Cooperative (GVEC)",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.gvec.org/peak-time-payback/",
+  "note": "Peak-Time Payback: thermostat + Tesla/Enphase battery dispatch, live sign-up links"
+ },
+ {
+  "idx": 3,
+  "eia_id": "12268",
+  "utility": "Medina Electric Cooperative, Inc.",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.medinaec.org/LM",
+  "note": "Irrigation load management: coop shuts off irrigation pumps Jun-Sep 2-7pm for reduced rate. Irrigation-only; counted as C&I (ag) interruptible. Enrollment by eligibility check, no closure stated"
+ },
+ {
+  "idx": 4,
+  "eia_id": "11501",
+  "utility": "Magic Valley Electric Cooperative, Inc.",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://www.magicvalley.coop/residential/",
+  "note": "Residential page lists single flat rate ($.091870/kWh + $28.25 customer charge); replacement /electric-bill/ also flat PCRF only. No TOU/CPP/PTR/EV/demand found. Bar-graph image unreadable"
+ },
+ {
+  "idx": 5,
+  "eia_id": "5078",
+  "utility": "CoServ Electric (Denton County Electric Cooperative, Inc.)",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.coserv.com/service/residential/residential-rates/",
+  "note": "Summer Savings Rate (on-peak 3-8pm May-Oct) open; legacy Residential TOU closed"
+ },
+ {
+  "idx": 6,
+  "eia_id": "20404",
+  "utility": "AEP Texas North",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://aeptxsaves.com/wp-content/uploads/25-26-LM-Manual.pdf",
+  "note": "2025-26 SLMP/WLMP C&I load management; AEP Texas North ESI prefix covered, summer budget $87k"
+ },
+ {
+  "idx": 7,
+  "eia_id": "11501",
+  "utility": "Magic Valley Electric Cooperative, Inc.",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.magicvalley.coop/myresponse-program/",
+  "note": "MyResponse Nest thermostat DR, Enroll Today button; page last modified 2021"
+ },
+ {
+  "idx": 8,
+  "eia_id": "16638",
+  "utility": "San Bernard Electric Cooperative, Inc.",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.sbec.org/rate-schedules",
+  "note": "RES 1/RES 3: base + per-kWh only; no TOU/CPP/EV/demand"
+ },
+ {
+  "idx": 9,
+  "eia_id": "16638",
+  "utility": "San Bernard Electric Cooperative, Inc.",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.sbec.org/rate-schedules",
+  "note": "GS1/GS3/COMM/PRIM/IND: plain kW demand; COMM has unexplained Seasonal Charge kW x $4.95 (season undefined, not counted)"
+ },
+ {
+  "idx": 10,
+  "eia_id": "2442",
+  "utility": "Bryan Texas Utilities",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.btutilities.com/energy-efficiency/smarthome-programs/",
+  "note": "SOURCE DEFECT: cited powershare-program is a bill-donation program, irrelevant to dispatch. Replacement site search (SmartHOME = insulation/windows only) found no DLC/thermostat/battery program"
+ },
+ {
+  "idx": 11,
+  "eia_id": "10009",
+  "utility": "Karnes Electric Cooperative, Inc.",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.karnesec.org/service/commercialrates/",
+  "note": "Schedules listed (Rate 3/4/5/9A/9B/10/12/16): none TOU/CP; rate PDFs not read; site search for TOU found nothing"
+ },
+ {
+  "idx": 12,
+  "eia_id": "10649",
+  "utility": "Lamar County Electric Cooperative Association (Lamar Electric Cooperative)",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://lamarelectric.coop/member-info/calculating-your-bill",
+  "note": "Site shows residential components only; site search found no C&I TOU/CP rate. Weak: no C&I tariff published"
+ },
+ {
+  "idx": 13,
+  "eia_id": "8620",
+  "utility": "HILCO Electric Cooperative, Inc.",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://hilco.coop/faq/what-is-a-demand-charge",
+  "note": "SOURCE DEFECT: cited HECRateSheet.pdf image-only/unreadable. Replacement FAQ: demand charge applies to non-residential >25 kW only; no res TOU found"
+ },
+ {
+  "idx": 14,
+  "eia_id": "19806",
+  "utility": "Victoria Electric Cooperative, Inc.",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.victoriaelectric.coop/content/residential-rates",
+  "note": "Per-kWh + $28 customer charge; Beat the Peak is a nav link only (no rate)"
+ },
+ {
+  "idx": 15,
+  "eia_id": "17561",
+  "utility": "South Plains Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://victoriaelectric.coop/content/tariff-0",
+  "note": "Commercial-rates and tariff pages show no C&I TOU/CP; tariff PDF not read; page notes tariff outdated"
+ },
+ {
+  "idx": 16,
+  "eia_id": "19806",
+  "utility": "Victoria Electric Cooperative, Inc.",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.spec.coop/together-we-save",
+  "note": "Together We Save = EE tips; site search for load control/thermostat found only involuntary load shed pages"
+ },
+ {
+  "idx": 17,
+  "eia_id": "28604",
+  "utility": "Kerrville Public Utility Board (KPUB)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.kpub.com/rates/",
+  "note": "Residential: customer + distribution + power supply per-kWh; demand charges only on commercial"
+ },
+ {
+  "idx": 18,
+  "eia_id": "6182",
+  "utility": "Farmers Electric Cooperative (Texas)",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://farmerselectric.coop/my-account-bill/rates/",
+  "note": "Page shows only class % changes eff 2026-10-01; no TOU/CP named. Weak: schedules not published on page"
+ },
+ {
+  "idx": 19,
+  "eia_id": "40051",
+  "utility": "Texas-New Mexico Power",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": null,
+  "evidence_url": "https://tnmp.com/sites/default/files/TNMP%20Retail%20Tariff%20(20240613).pdf",
+  "note": "122k-char tariff text read; Section 6.1 rate schedules not present in extracted text; could not verify residential schedule"
+ }
+]

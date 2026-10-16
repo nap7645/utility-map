@@ -23,6 +23,7 @@ from source_tier import source_tier
 
 HABIT = {"TOU-Rate", "RTP-Rate", "CPP-PTR", "Demand-Charge", "EV-Rate"}
 DISPATCH = {"DR-DLC", "DR-BYOT", "DR-BYOD", "VPP", "DR-Curtailment"}
+INFER_NO = False
 CELLS = ["res_habit", "res_dispatch", "ci_habit", "ci_dispatch"]
 RESEARCHED_MIN = 3   # program rows needed before absence in a family counts as "No"
 
@@ -85,7 +86,10 @@ def main():
         active = [r for r in rows if r["program_status"] != "Terminated"]
         if len(active) >= RESEARCHED_MIN:
             for c in CELLS:
-                if out[c] == "Unknown" and c not in weak:
+                # Audit 2026-10-12: inferred "No" (absence of a family in programs.csv) was wrong at large
+                # IOUs (PSE&G, PECO, AEP Ohio, Dominion), so it is no longer shown. A "No" now needs a scan row
+                # (an agent checked the utility's own site). Set INFER_NO = True to restore the old behaviour.
+                if INFER_NO and out[c] == "Unknown" and c not in weak:
                     out[c] = "No"; inferred.add(c)
         return out, src, inferred
 

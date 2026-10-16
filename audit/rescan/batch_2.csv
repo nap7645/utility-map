@@ -1,0 +1,51 @@
+eia_id,cell,value,src,note
+6616,res_habit,Unknown,https://fpua.com/rates-and-resolutions/,FPUA rates page lists no schedule names; tariff PDFs not readable; unverified
+6616,res_dispatch,Unknown,https://fpua.com/rates-and-resolutions/,FPUA rates page lists no schedule names; tariff PDFs not readable; unverified
+6616,ci_habit,Unknown,https://fpua.com/rates-and-resolutions/,FPUA rates page lists no schedule names; tariff PDFs not readable; unverified
+6616,ci_dispatch,Unknown,https://fpua.com/rates-and-resolutions/,FPUA rates page lists no schedule names; tariff PDFs not readable; unverified
+6909,res_habit,Unknown,https://www.gru.com/Portals/0/GS - TOU - D - 2021.pdf,GRU TOU found only for GS (non-residential); residential rate page unreadable
+6909,res_dispatch,Unknown,https://www.gru.com/Rates,gru.com fetch failed; no evidence either way
+7264,res_habit,Unknown,https://www.floridapsc.com/library/filings/2021/01831-2021/01831-2021.pdf,PSC filing excerpt has no residential schedules
+7264,ci_habit,No,https://www.floridapsc.com/library/filings/2021/01831-2021/01831-2021.pdf,"Glades PSC tariff sheets: GS, LP, PS-2, PS-3 all flat/demand; no TOU (2021 filing, partial)"
+9617,res_dispatch,Unknown,https://www.jea.com/Residential/Save_Energy_and_Money/,jea.com blocked by human-verification
+10376,res_habit,Unknown,https://kua.com/pay-my-bill/electric-rates-service-fees-and-procedures/,"Rates PDF unreadable; secondary source lists only commercial GSDT, no residential schedules"
+10376,res_dispatch,No,https://kua.com/energy-conservation/,"KUA conservation page lists only audit, net metering, tips; no DR/thermostat program (EV charger program is not DR)"
+10376,ci_dispatch,Unknown,https://kua.com/energy-conservation/,No DR/interruptible found on conservation page; rates PDF unreadable
+10623,res_dispatch,No,https://lakelandelectric.com/programs-and-services,"Programs page lists ReEnergize, rebates, Energy Check etc.; no load control/thermostat DR (Shift to Save is a rate plan)"
+10623,ci_dispatch,No,https://lakelandelectric.com/programs-and-services,Programs page lists no interruptible/curtailable/DR program; tariff not read
+10857,res_habit,No,http://www.lcec.net/my-account/rates/,LCEC rates page lists RS only for residential; no TOU/EV TOU listed
+10857,ci_habit,Unknown,http://www.lcec.net/my-account/rates/,"Lists GS, GSD, IS-GSD, GSD-O (optional rate, structure not shown); no TOU named"
+14610,res_dispatch,No,https://www.floridapsc.com/pscfiles/website-files/PDF/Utilities/Electricgas/ARDemandSide/2024/Orlando%20Utilities%20Commission.pdf,"OUC 2024 FPSC DSM report lists no load control/DR program (rebates, surveys, Power Pass only)"
+18304,ci_habit,No,https://floridapsc.com/library/filings/2025/02515-2025/02515-2025.pdf,"SECO 2025 PSC filing: RS-TOU residential only; commercial GS, GSD, GSDI (interruptible), LGSD, no commercial TOU"
+18360,res_habit,No,https://www.floridapsc.com/library/filings/2025/15244-2025/15244-2025.pdf,SVEC Nov 2025 PSC tariff: RS and RS-PM flat; TOU schedule is non-residential only
+18449,res_habit,Unknown,https://nectarclimate.com/rates/talquin-electric-cooperative,Only secondary aggregator readable; no residential schedule shown
+18449,ci_habit,Unknown,https://nectarclimate.com/rates/talquin-electric-cooperative,Aggregator shows GSND/GSD/GSLD no TOU; utility tariff not read
+18449,ci_dispatch,Unknown,https://nectarclimate.com/rates/talquin-electric-cooperative,Aggregator shows no interruptible rate; utility tariff not read
+19161,res_habit,Unknown,https://www.floridapsc.com/library/FILINGS/2020/00660-2020/00660-2020.pdf,PSC filing covers only INT rate; full tariff not read
+19161,ci_habit,Unknown,https://www.floridapsc.com/library/FILINGS/2020/00660-2020/00660-2020.pdf,PSC filing covers only INT rate (C&I interruptible); full tariff not read
+20885,res_habit,Unknown,https://www.floridapsc.com/library/FILINGS/2025/02427-2025/02427-2025.pdf,2025 PSC filing shows no TOU but is not the full tariff
+20885,ci_habit,Unknown,https://www.floridapsc.com/library/FILINGS/2025/02427-2025/02427-2025.pdf,2025 PSC filing shows no TOU but is not the full tariff
+230,res_dispatch,Unknown,https://www.albanyga.gov/City-Departments/Utility-Operations/Light,Light dept page has no program info; rate pages not read
+230,ci_dispatch,Unknown,https://www.albanyga.gov/City-Departments/Utility-Operations/Light,Light dept page has no program info; rate pages not read
+10800,res_habit,SKIP,,not researched; site fetch failed
+10800,ci_habit,SKIP,,not researched; site fetch failed
+4433,res_habit,SKIP,,not researched; site blocked by robots
+5582,res_habit,SKIP,,not researched
+18956,ci_habit,SKIP,,not researched; ambiguous name (GA Tri-County EMC) and quota used
+18956,ci_dispatch,SKIP,,not researched; ambiguous name (GA Tri-County EMC) and quota used
+1283,ci_dispatch,Unknown,https://www.bcremc.com/save-energy-money/beat-the-peak/,Beat the Peak is voluntary conservation alerts; no C&I interruptible found; rates not read
+22822,ci_dispatch,Unknown,https://www.clarkremc.com,site blocked by robots
+5394,ci_dispatch,No,https://www.duboisrec.com/large-power/,Dubois REC Large Power (LPS) tariff page has no interruptible/PLM option; site has none listed
+8179,ci_dispatch,Unknown,https://www.harrisonremc.com/beat-the-peak/,Beat the Peak voluntary alerts (member-wide); no C&I interruptible/PLM described
+9576,res_dispatch,Unknown,https://www.hoosierenergy.com/wp-content/uploads/2022/08/Jackson-County-REMC-Hoosier-Energy-smart-thermostat-pilot.pdf,2021 smart-thermostat DR pilot completed; no evidence of currently open residential program
+17038,ci_dispatch,Unknown,https://www.rushshelby.com,site blocked by robots
+12929,ci_dispatch,No,https://www.sciremc.com/member-services/rates/,SCI REMC rate list has no interruptible/PLM/DR commercial rate; only residential TOU and EV TOU
+17599,ci_dispatch,Unknown,https://www.seiremc.com/programs,"Load Management section lists Beat the Peak, Smart Thermostats, Generator Program, Time of Day; C&I applicability unclear"
+19667,ci_dispatch,Unknown,,utility domain not identified; udwi.com is parked
+25295,ci_dispatch,Yes,https://www.winenergyremc.com/take-load-peak,"Take A Load Off The Peak: large-motor (irrigation) load control with rebates, penalty for running at peak; ag/C&I"
+20216,ci_dispatch,Unknown,https://www.wvremc.com,site blocked by robots
+1708,res_habit,Unknown,https://psc.ky.gov/tariffs/Electric/Big%20Sandy%20RECC/Tariff.pdf,Big Sandy PSC tariff: A-1 has only optional off-peak energy charge tied to EKPC marketing-rate programs; no standalone residential TOU; ambiguous
+1886,res_habit,Yes,https://psc.ky.gov/tariffs/electric/Bluegrass%20Energy%20Coop.%20Corp/Cancelled%20Tariff%20Pages/2026/GS-3%20(Residential%20and%20Farm%20Time-of-Day%20Rate)/05-01.pdf,"GS-3 Residential and Farm Time-of-Day Rate, 6th rev. sheet eff. 7/21/2025 (PSC 2025-00103); sheet now in cancelled folder (superseded revision), schedule appears maintained"
+2056,res_habit,Unknown,https://www.bgmu.com/customer-care/rates/,Rates page only links monthly PDFs; not read
+2056,res_dispatch,No,https://www.bgmu.com/customer-care/energy-programs/,BGMU programs page lists only TVA EnergyRight evaluations and Green Power Switch; no DR/thermostat
+2056,ci_habit,Unknown,https://www.bgmu.com/customer-care/rates/,Rates page only links monthly PDFs; not read

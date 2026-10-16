@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "5862",
+  "utility": "Empire Electric Association (EEA)",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.eea.coop/time-use-periods",
+  "note": "Page lists TOU Demand rate on-peak Mon-Sat 1-9pm; residential default TOUD (TOU energy + $/kW demand) per https://fourcornersfreepress.com/empires-new-rate-structure-explained/"
+ },
+ {
+  "idx": 1,
+  "eia_id": "26916",
+  "utility": "Ravalli Electric Cooperative (REC)",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://www.ravallielectric.com/member-center/billing-payments/rates/",
+  "note": "Rates page links Demand Rate info sheet and mentions demand charge alongside avg residential increase, but brochure + demand PDFs robots-blocked; residential applicability not shown"
+ },
+ {
+  "idx": 2,
+  "eia_id": "18429",
+  "utility": "Tacoma Power",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://mytpu.org/wp-content/uploads/CP_2025.pdf",
+  "note": "Cited 2021 Utility Dive article: electrofuels non-firm pilot, zero signups (stale secondary source = source defect). Schedule CP (eff 2025-04-01) says 'Service is subject to curtailment' but closed to existing >=8MW contract customers; no open DR program shown. Lean No"
+ },
+ {
+  "idx": 3,
+  "eia_id": "8773",
+  "utility": "Holy Cross Energy",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.holycross.com/member-programs/time-of-use-rate",
+  "note": "TOU rate 'available for residential and small commercial members'"
+ },
+ {
+  "idx": 4,
+  "eia_id": "16572",
+  "utility": "Salt River Project",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.srpnet.com/price-plans/business-electric/time-of-use",
+  "note": "E-32 Business TOU price plan, on-peak 5-10pm"
+ },
+ {
+  "idx": 5,
+  "eia_id": "3660",
+  "utility": "Clark Public Utilities",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://www.clarkpublicutilities.com/about-cpu/public-documents/current-electric-water-rates/",
+  "note": "Only flat residential rate 8.79c/kWh + $19; no res TOU/demand/EV/CPP. Cited page is EV managed charging (Optiwatt) = device control, belongs in res_dispatch"
+ },
+ {
+  "idx": 6,
+  "eia_id": "17166",
+  "utility": "Sierra Pacific Power Co (NV Energy - North)",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://www.nvenergy.com/publish/content/dam/nvenergy/brochures_arch/save-with-powershift/smart-thermostat/business/EEDR-Application-Thermostats.pdf",
+  "note": "Cited Jan-2026 BES summary is efficiency only, no DR (source defect). Replacement: commercial networked-thermostat DR application lists N. Nevada season but dated Oct 2018; current availability not shown"
+ },
+ {
+  "idx": 7,
+  "eia_id": "5997",
+  "utility": "Estes Park Power and Communications",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://estespark.colorado.gov/electricrates",
+  "note": "Rate classes include Residential Demand, Residential Energy Time-of-Day, Residential Energy Basic Time-of-Day"
+ },
+ {
+  "idx": 8,
+  "eia_id": "14055",
+  "utility": "Okanogan County PUD",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.okanoganpud.org/energy-services-incentives/energy-incentive-programs/",
+  "note": "Only BPA-funded EE incentives; no C&I DR/interruptible"
+ },
+ {
+  "idx": 9,
+  "eia_id": "14371",
+  "utility": "Paducah Power System",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://paducahpower.com/apply-for-service/",
+  "note": "Residential: customer charge + flat 14.999c/kWh + PCA; no TOU/demand/EV. (KY utility listed in West region - check region assignment)"
+ },
+ {
+  "idx": 10,
+  "eia_id": "1579",
+  "utility": "Benton PUD",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.bentonpud.org/about-benton-pud/planning-performance/resource-planning",
+  "note": "Only DR potential assessments; no current C&I DR program"
+ },
+ {
+  "idx": 11,
+  "eia_id": "13758",
+  "utility": "Northern Lights Inc",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.nli.coop/save/rebates/",
+  "note": "Smart thermostat rebate only (EE, no control); no load control/DR"
+ },
+ {
+  "idx": 12,
+  "eia_id": "3264",
+  "utility": "Central Lincoln PUD",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://clpud.org/customer-information/rate-schedules-policies-guidelines-standards/rate-schedules/",
+  "note": "Sched 100 residential flat; no TOU/EV/peak schedules"
+ },
+ {
+  "idx": 13,
+  "eia_id": "6716",
+  "utility": "Franklin PUD",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.franklinpud.com/rates-power-resources/rate-schedules/",
+  "note": "Sched 1 Residential and 1.2 Net Metering only; PDFs not read"
+ },
+ {
+  "idx": 14,
+  "eia_id": "8699",
+  "utility": "Inland Power & Light",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.inlandpower.com/commercial-incentives",
+  "note": "EE incentives only; no C&I DR (Large Load Customers page not read)"
+ },
+ {
+  "idx": 15,
+  "eia_id": "15419",
+  "utility": "Mason County PUD No. 3",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "",
+  "note": "Empty source_url (defect). masonpud3.org site search returned no DR/interruptible page; rate schedules not located"
+ },
+ {
+  "idx": 16,
+  "eia_id": "3660",
+  "utility": "Clark Public Utilities",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.clarkpublicutilities.com/residential-customers/reduce-energy-waste-and-lower-your-bill/all-rebates-incentives/electric-vehicle-managed-charging-program/",
+  "note": "EV Managed Charging pilot (Optiwatt) runs through end of 2026, utility-scheduled charging events, $25 credits, cap 1,400 EVs (may be full). Cited thermostat calculator page has no DR"
+ },
+ {
+  "idx": 17,
+  "eia_id": "17845",
+  "utility": "Springville City Power",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.springvilleutah.gov/power/distribution-transmission/",
+  "note": "No res load control/DR; only $0.04 export credit"
+ },
+ {
+  "idx": 18,
+  "eia_id": "3264",
+  "utility": "Central Lincoln PUD",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://clpud.org/customer-information/rate-schedules-policies-guidelines-standards/rate-schedules/",
+  "note": "C&I schedules 190/200/300/350/360 have plain demand charges; no TOU/RTP"
+ },
+ {
+  "idx": 19,
+  "eia_id": "20997",
+  "utility": "Yellowstone Valley Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.yvec.com/your-account/electrical-rates/",
+  "note": "Residential demand charge $2.00/kW applies to net-metered residential accounts. Borderline: subset-only demand charge; counts under rubric 'residential demand charge'"
+ }
+]

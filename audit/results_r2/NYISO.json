@@ -1,0 +1,90 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "14154",
+  "utility": "Orange & Rockland Utilities Inc (O&R)",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://edge-c-dcxprod-web-enfbhbfkb2fghhey.a03.azurefd.net/-/media/files/oru/documents/rates/new-york/electric/ny-electric-tariff.pdf?rev=7d156d95789c428c90046b3bb0accedd&hash=FC7E6776540FC535D723523A31354456",
+  "note": "SOURCE DEFECT: cited EV Charging Rewards page is a driver-level managed-charging incentive, not a C&I rate. NY P.S.C. No. 3 tariff TOC: SC 20 General Secondary Optional TOU, SC 21 General Primary Optional TOU, Rider M Voluntary Day-Ahead Hourly Pricing. Replace source_url with oru.com NY electric tariff page."
+ },
+ {
+  "idx": 1,
+  "eia_id": "3249",
+  "utility": "Central Hudson Gas & Electric Corp",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://www.cenhud.com/globalassets/pdf/save-energy/csrp-tariff-2025.pdf",
+  "note": "Cited PDF and centralhudson.com C&I DR page return bot-check interstitial. Piclo listing (updated 2025-09-30) says CH CSRP 'inactive or no longer accepting new applicants' (off-season; competed annually, Jun-Sep, enroll by May 1/Jun 1). Lean CONFIRMED (NY PSC-mandated CSRP/DLRP) but not verifiable on a utility page."
+ },
+ {
+  "idx": 2,
+  "eia_id": "14154",
+  "utility": "Orange & Rockland Utilities Inc (O&R)",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://greatergrid.com/enroll/programs/thermostats/oru",
+  "note": "SOURCE DEFECT: cited NYSERDA DLM overview shows O&R BYOB only as 'launching shortly' (tentative go-live 2/15/2026). O&R Bring Your Own Thermostat (implementer enrollment page): residential/commercial NY+NJ, $85/thermostat + $25/yr, ENROLL buttons live."
+ },
+ {
+  "idx": 3,
+  "eia_id": "15145",
+  "utility": "Plattsburgh Municipal Lighting Department (PMLD)",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "http://cityofplattsburgh.com/sites/cityofplattsburgh.com/files/municipal-lighting-department/TARIFF%20PAGES.pdf",
+  "note": "Only SC 1 Residential (seasonal/block); no load control/DR/interruptible for residential."
+ },
+ {
+  "idx": 4,
+  "eia_id": "15145",
+  "utility": "Plattsburgh Municipal Lighting Department (PMLD)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "http://cityofplattsburgh.com/sites/cityofplattsburgh.com/files/municipal-lighting-department/TARIFF%20PAGES.pdf",
+  "note": "SC 1 seasonal block rate; no TOU/EV/demand/CPP for residential."
+ },
+ {
+  "idx": 5,
+  "eia_id": "6775",
+  "utility": "Freeport Electric (Village of Freeport)",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.freeportelectric.com/2148/Green-Initiative",
+  "note": "Green Initiative page lists fleet EVs, solar incentive, LED streetlights; no DR/thermostat/load control. Search of freeportelectric.com found none. Confidence moderate."
+ },
+ {
+  "idx": 6,
+  "eia_id": "5930",
+  "utility": "Fairport Electric (Fairport Municipal Commission)",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.village.fairport.ny.us/departments/electric_department/energy_conservation.php",
+  "note": "Only rebate programs (appliance, heat pump, commercial, yard equipment) via IEEP; no DR/load control."
+ },
+ {
+  "idx": 7,
+  "eia_id": "5930",
+  "utility": "Fairport Electric (Fairport Municipal Commission)",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://cms9files.revize.com/fairport/electric/Billing/12-1-25%20Billing%20Sheet.pdf",
+  "note": "Classes 1-6 (eff 12/1/2025); no interruptible/curtailable/DR rider or credit for C&I."
+ }
+]

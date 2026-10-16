@@ -1,0 +1,502 @@
+[
+{
+"eia_id": "6616",
+"utility": "Fort Pierce Utilities Authority",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6616",
+"utility": "Fort Pierce Utilities Authority",
+"state": "FL",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6616",
+"utility": "Fort Pierce Utilities Authority",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6616",
+"utility": "Fort Pierce Utilities Authority",
+"state": "FL",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6909",
+"utility": "Gainesville Regional Utilities",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6909",
+"utility": "Gainesville Regional Utilities",
+"state": "FL",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "7264",
+"utility": "Glades Electric Cooperative",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "7264",
+"utility": "Glades Electric Cooperative",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "9617",
+"utility": "JEA",
+"state": "FL",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "10376",
+"utility": "Kissimmee Utility Authority",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "10376",
+"utility": "Kissimmee Utility Authority",
+"state": "FL",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "10376",
+"utility": "Kissimmee Utility Authority",
+"state": "FL",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "10623",
+"utility": "Lakeland Electric",
+"state": "FL",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "10623",
+"utility": "Lakeland Electric",
+"state": "FL",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "10857",
+"utility": "Lee County Electric Cooperative (LCEC)",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "10857",
+"utility": "Lee County Electric Cooperative (LCEC)",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "14610",
+"utility": "Orlando Utilities Commission",
+"state": "FL",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18304",
+"utility": "SECO Energy",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18360",
+"utility": "Suwannee Valley Electric Cooperative",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18449",
+"utility": "Talquin Electric Cooperative",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18449",
+"utility": "Talquin Electric Cooperative",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18449",
+"utility": "Talquin Electric Cooperative",
+"state": "FL",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "19161",
+"utility": "Tri-County Electric Cooperative (FL)",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "19161",
+"utility": "Tri-County Electric Cooperative (FL)",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20885",
+"utility": "Withlacoochee River Electric Cooperative",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20885",
+"utility": "Withlacoochee River Electric Cooperative",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "230",
+"utility": "Albany Utilities",
+"state": "GA",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "230",
+"utility": "Albany Utilities",
+"state": "GA",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "10800",
+"utility": "City of Lawrenceville Electric",
+"state": "GA",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "10800",
+"utility": "City of Lawrenceville Electric",
+"state": "GA",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "4433",
+"utility": "Covington Utilities",
+"state": "GA",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "5582",
+"utility": "East Point Power & Water",
+"state": "GA",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18956",
+"utility": "Tri-County EMC",
+"state": "GA",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18956",
+"utility": "Tri-County EMC",
+"state": "GA",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "1283",
+"utility": "Bartholomew County REMC",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "22822",
+"utility": "Clark County REMC",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5394",
+"utility": "Dubois REC",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "8179",
+"utility": "Harrison REMC",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9576",
+"utility": "Jackson County REMC",
+"state": "IN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/jackson-county-remc-hoosier-energy-smart-thermostat-pilot-demonstrates-significant-opportunity-for-energy-cost-savings/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": true
+},
+{
+"eia_id": "17038",
+"utility": "RushShelby Energy",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12929",
+"utility": "South Central Indiana REMC",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "17599",
+"utility": "Southeastern Indiana REMC",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "19667",
+"utility": "Utilities District of Western Indiana REMC",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "25295",
+"utility": "WIN Energy REMC",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "20216",
+"utility": "Whitewater Valley REMC",
+"state": "IN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.hoosierenergy.com/news-resources/lmr-participants-called-into-action-for-the-first-time/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "1708",
+"utility": "Big Sandy RECC",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "1886",
+"utility": "Blue Grass Energy Cooperative",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "2056",
+"utility": "Bowling Green Municipal Utilities",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "2056",
+"utility": "Bowling Green Municipal Utilities",
+"state": "KY",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "2056",
+"utility": "Bowling Green Municipal Utilities",
+"state": "KY",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+}
+]

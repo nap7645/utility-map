@@ -1,0 +1,102 @@
+{
+ "region": "NYISO",
+ "seed": 20261015,
+ "items": [
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "14154",
+   "utility_name": "Orange & Rockland Utilities Inc (O&R)",
+   "state": "NY",
+   "ownership": "IOU",
+   "customers": "240209",
+   "cell": "ci_habit",
+   "claimed": "Yes",
+   "source_url": "https://www.oru.com/en/our-energy-future/electric-vehicles/new-york/electric-vehicle-charging-rewards"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "3249",
+   "utility_name": "Central Hudson Gas & Electric Corp",
+   "state": "NY",
+   "ownership": "IOU",
+   "customers": "322086",
+   "cell": "ci_dispatch",
+   "claimed": "Yes",
+   "source_url": "https://www.cenhud.com/globalassets/pdf/save-energy/csrp-tariff-2025.pdf"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "14154",
+   "utility_name": "Orange & Rockland Utilities Inc (O&R)",
+   "state": "NY",
+   "ownership": "IOU",
+   "customers": "240209",
+   "cell": "res_dispatch",
+   "claimed": "Yes",
+   "source_url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/Energy-Storage/2026-01-22-Utility-DLM-Program-Overview.pdf"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "15145",
+   "utility_name": "Plattsburgh Municipal Lighting Department (PMLD)",
+   "state": "NY",
+   "ownership": "Municipal",
+   "customers": "10196",
+   "cell": "res_dispatch",
+   "claimed": "No",
+   "source_url": "http://cityofplattsburgh.com/sites/cityofplattsburgh.com/files/municipal-lighting-department/TARIFF%20PAGES.pdf"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "15145",
+   "utility_name": "Plattsburgh Municipal Lighting Department (PMLD)",
+   "state": "NY",
+   "ownership": "Municipal",
+   "customers": "10196",
+   "cell": "res_habit",
+   "claimed": "No",
+   "source_url": "http://cityofplattsburgh.com/sites/cityofplattsburgh.com/files/municipal-lighting-department/TARIFF%20PAGES.pdf"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "6775",
+   "utility_name": "Freeport Electric (Village of Freeport)",
+   "state": "NY",
+   "ownership": "Municipal",
+   "customers": "15161",
+   "cell": "res_dispatch",
+   "claimed": "No",
+   "source_url": "https://www.freeportelectric.com/2148/Green-Initiative"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "5930",
+   "utility_name": "Fairport Electric (Fairport Municipal Commission)",
+   "state": "NY",
+   "ownership": "Municipal",
+   "customers": "17826",
+   "cell": "res_dispatch",
+   "claimed": "No",
+   "source_url": "https://www.village.fairport.ny.us/departments/electric_department/energy_conservation.php"
+  },
+  {
+   "type": "presence",
+   "bucket": "r2",
+   "eia_id": "5930",
+   "utility_name": "Fairport Electric (Fairport Municipal Commission)",
+   "state": "NY",
+   "ownership": "Municipal",
+   "customers": "17826",
+   "cell": "ci_dispatch",
+   "claimed": "No",
+   "source_url": "https://cms9files.revize.com/fairport/electric/Billing/12-1-25%20Billing%20Sheet.pdf"
+  }
+ ]
+}

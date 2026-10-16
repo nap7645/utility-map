@@ -441,3 +441,17 @@ Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live,
 - Open: ~150 defects in audit/DEFECTS.md; SWEPCO LA tariff-book row (programs.csv:85, presence 17698 cd) needs re-research; Duke DEC rows cite a DEP page; PJM big-IOU No cells wrong (PSE&G ci_habit, PECO res_habit+res_dispatch, AEP Ohio ci_habit, Dominion ci_habit -> Yes).
 - Decision pending (Nathan): unsourced "No" (245 cells / 154 utilities) -> Unknown (0 tokens) vs re-research big ones (~0.4M).
 - NEXT: step 3 fix+verify defects (~0.4-0.45M), narrow re-audit (~0.5M), live-site check (~0.15M). Nathan: spot checks (RUBRIC §3), `audit.py --links`.
+
+## 2026-10-15 — defect fix round 2
+- Rule: build_presence.py INFER_NO=False — inferred "No" no longer shown (wrong at PSE&G/PECO/AEP Ohio/Dominion); a No now needs a scan row. 102 No->Unknown.
+- Fixes: audit/fixlog_defects_2026-10-15.json (213 field edits, 26 skipped), verified audit/verify_defectfix_2026-10-15.md (210/213 PASS; the 3 FAILs were one broken chunk_07 row, repaired).
+- Repaired all pre-existing malformed raw chunk rows (chunks 01,03,06,07,08; 25 rows) by copying the authoritative programs.csv row; all tags merge clean.
+- Open: PSE&G AC cycling row (2010 source) keeps res/ci_dispatch Yes; flat rates tagged TOU-Rate (PSO, Edmond, OPPD) -> false habit Yes; source repoints w/o URL (PECO, SWEPCO AR NM, Duke, TVA, Clay); Banning/Riverside ci_dispatch.
+- NEXT: narrow re-audit (failed bars, fresh seed) ~0.5M; live-site check ~0.15M; Nathan: spot checks, audit.py --links.
+
+## 2026-10-15 (b) — presence rescan (option A)
+- Round-2 re-audit (fresh seed 20261015, audit/results_r2, AUDIT_R2_*.md): pooled Yes 44/49 = 89.8%, No 65/74 = 87.8% -> bars failed; errors clustered in unsourced No and Yes citing G&T/TVA/third-party pages.
+- Rescanned 299 flagged cells (audit/rescan/: targets, batch_*.csv, applied_2026-10-15.json) into scan_AUDIT.csv. Net vs before: Yes->Unknown 121 (incl. 100 TVA PowerFlex ci_dispatch: page lists every LPC, names none), No->Unknown 81, No->Yes 13, Yes->No 8. Policies: superseded tariff sheet only -> Unknown; Yes w/o URL -> Unknown.
+- Program rows: NES Time-of-Use Rate segment -> C&I only; Clark PUD EV managed charging -> DR-DLC.
+- Verified: audit/verify_rescan_2026-10-15.md (32/33 decidable agree; PowerFlex policy rejected -> applied Unknown). Connexus ci_habit/ci_dispatch probably Yes (programs-derived Yes stands for ci_habit).
+- NEXT: round-3 re-audit on fresh seed to measure (~0.5M); live-site check; Nathan spot checks + audit.py --links.

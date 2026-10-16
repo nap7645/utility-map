@@ -1,0 +1,51 @@
+eia_id,cell,value,src,note
+276,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+276,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+2849,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+2849,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+4068,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+4068,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+5578,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+5578,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+8748,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+8748,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+40303,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+40303,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+13227,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+13227,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+13412,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+13412,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+40302,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+40302,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+13735,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+13735,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+14275,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+14275,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+15211,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+15211,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+15334,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+15334,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+18006,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+18006,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+18447,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+18447,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+18943,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+18943,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+18951,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+18951,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+19007,res_habit,Unknown,,"Own rate page not readable/located (robots, no residential schedule shown); TVA LPC"
+19007,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+19273,res_habit,No,https://www.tupeloms.gov/wp-content/uploads/2026/08/Residential-Electric-Rates-Effective-2026-08.pdf,Single flat Residential Electric Rates schedule eff 2026-08; no TOU/demand/EV; DR pages not separately checked
+19273,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+12825,res_dispatch,Unknown,,No residential DR program found on handbook/IRP; NorthWestern site fetch failed; ambiguous
+20997,res_habit,Yes,https://www.yvec.com/your-account/electrical-rates/,Residential Demand $2.00/kW (Net Metering Only)
+13441,res_dispatch,No,https://www.nhec.com/optional-energy-programs/,Peak Days is voluntary notification only (no device control); Battery Storage page is utility-owned 2.45MW unit; TOD is a rate
+1890,res_habit,Unknown,https://blueridge.coop/empowerment,EmPOWERment Rate (TOU+peak kW) described as upcoming/transition; own page does not confirm open; nectar page is third party
+7646,res_habit,Yes,https://greenwoodcpw.com/wp-content/uploads/2025/12/2026-01_E2500-Residential-EV-Charger.pdf,"Schedule E-EV Rate 2500 residential EV TOU, rev eff 2026-01-01"
+19293,res_habit,No,https://southeasternelectric.com/about/rates-policies/,Only residential rate 310 flat; no TOU/demand/EV/CPP; water heater credit is DLC (dispatch) not habit
+577,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+727,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,"TVA EnergyRight thermostat program; LPC FAQ page lists utility (Athens listed as ""Athens Utilities"")"
+727,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+947,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,"TVA EnergyRight thermostat program; LPC FAQ page lists utility (Athens listed as ""Athens Utilities"")"
+947,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; utility in participating local power company dropdown (page does not state open/closed)
+1578,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,"TVA EnergyRight thermostat program; LPC FAQ page lists utility (Athens listed as ""Athens Utilities"")"

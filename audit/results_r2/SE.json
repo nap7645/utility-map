@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "3075",
+  "utility": "Carroll County Electric Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://energyright.com/business-industry/demand-response/powerflex/",
+  "note": "TVA EnergyRight PowerFlex interruptible DR (>1 MW contract demand, >=500 kW interruptible); utility listed in LPC dropdown of signup form; TVA-wide via LPCs, LPC-specific participation not separately stated"
+ },
+ {
+  "idx": 1,
+  "eia_id": "40236",
+  "utility": "Forked Deer Electric Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://energyright.com/business-industry/demand-response/powerflex/",
+  "note": "TVA EnergyRight PowerFlex interruptible DR (>1 MW contract demand, >=500 kW interruptible); utility listed in LPC dropdown of signup form; TVA-wide via LPCs, LPC-specific participation not separately stated"
+ },
+ {
+  "idx": 2,
+  "eia_id": "17539",
+  "utility": "Dominion Energy South Carolina",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://greatergrid.com/enroll/programs/thermostats/desc/faq",
+  "note": "DESC smart thermostat DR (EnergyHub): $75 enrollment + $25/yr per device; no closure notice. Cited thermostatrewards.com URL 302-redirects here (update URL)"
+ },
+ {
+  "idx": 3,
+  "eia_id": "18957",
+  "utility": "Tri-County Electric Membership Corporation",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://connecttosavenc.com/coop/tcemc",
+  "note": "Connect to Save co-op page for TCEMC (thermostat/water-heater DR); enrollment 'temporarily paused', resumes Dec 1. Program live, new enrollment paused"
+ },
+ {
+  "idx": 4,
+  "eia_id": "3855",
+  "utility": "Columbia Power & Water Systems",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://energyright.com/business-industry/demand-response/powerflex/",
+  "note": "TVA EnergyRight PowerFlex interruptible DR (>1 MW contract demand, >=500 kW interruptible); utility listed in LPC dropdown of signup form; TVA-wide via LPCs, LPC-specific participation not separately stated"
+ },
+ {
+  "idx": 5,
+  "eia_id": "11291",
+  "utility": "Lumbee River EMC",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://www.laurinburgexchange.com/news/46311/local-electric-cooperatives-provide-limited-time-offer-to-members",
+  "note": "Only 2020 (NCEC) / 2021 news sources show Lumbee River in Connect to Save; no current utility-site page found. Stale secondary source = source defect; lean Yes"
+ },
+ {
+  "idx": 6,
+  "eia_id": "5399",
+  "utility": "Duck River Electric Membership Corporation",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://energyright.com/business-industry/demand-response/powerflex/",
+  "note": "TVA EnergyRight PowerFlex interruptible DR (>1 MW contract demand, >=500 kW interruptible); utility listed in LPC dropdown of signup form; TVA-wide via LPCs, LPC-specific participation not separately stated"
+ },
+ {
+  "idx": 7,
+  "eia_id": "13216",
+  "utility": "Nashville Electric Service",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://www.nespower.com/rates/",
+  "note": "Residential: RS flat base 9.254c + FCA + service/grid-access charges; TOU/demand/EV schedules listed only under commercial. Seasonal TVA pricing is not TOU"
+ },
+ {
+  "idx": 8,
+  "eia_id": "6443",
+  "utility": "Florida Keys Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.fkec.com/your-account/billing-information-fees/",
+  "note": "Commercial Rate 2 (non-demand) and Rate 3 (plain demand charge); no TOU/RTP"
+ },
+ {
+  "idx": 9,
+  "eia_id": "4068",
+  "utility": "Columbus Light and Water Department",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "",
+  "note": "Empty source_url (defect). No CLW (Columbus MS) utility website rate page found in 2 searches; only cdispatch news"
+ },
+ {
+  "idx": 10,
+  "eia_id": "8846",
+  "utility": "Hopkinsville Electric System",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://hop-electric.com/electric/residential-electric/schedule-of-rates",
+  "note": "Single residential rate eff 10/01/2026: $35.46 + 9.057c/kWh; no TOU/demand/EV. Empty source_url in data (defect)"
+ },
+ {
+  "idx": 11,
+  "eia_id": "6641",
+  "utility": "4-County Electric Power Association",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+  "note": "4-County EPA not in TVA EnergyRight thermostat LPC list; no own DR program found (own site not searched beyond this)"
+ },
+ {
+  "idx": 12,
+  "eia_id": "4920",
+  "utility": "Dayton Electric Department",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+  "note": "Dayton Electric Dept not in TVA EnergyRight thermostat LPC list"
+ },
+ {
+  "idx": 13,
+  "eia_id": "14649",
+  "utility": "Planters EMC",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.plantersemc.com/",
+  "note": "Homepage + web search: no C&I interruptible/DR; rate pages not linked"
+ },
+ {
+  "idx": 14,
+  "eia_id": "7646",
+  "utility": "Greenwood Commissioners of Public Works",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://greenwoodcpw.com/wp-content/uploads/2025/12/2026-01_E2500-Residential-EV-Charger.pdf",
+  "note": "Code 2500 Residential EV Charger rate (eff 2026-01): TOU on-peak $0.20/kWh vs off-peak $0.07825/kWh + $7/kW demand; available to residential customers. EV TOU counts as res_habit"
+ },
+ {
+  "idx": 15,
+  "eia_id": "3222",
+  "utility": "Central Alabama Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://caec.coop/electric-service/rates-availability/",
+  "note": "Residential, Small Power, Medium Power, Outdoor Light: flat per-kWh; no TOU/CP rates. Large-power schedules not listed. Empty source_url in data (defect)"
+ },
+ {
+  "idx": 16,
+  "eia_id": "8571",
+  "utility": "City of High Point Electric Utility",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.highpointnc.gov/351/Helpful-Programs",
+  "note": "Only appliance rebates. Caveat: ElectriCities NCEMPA offers member-city residential load management (https://www.electricities.com/wp-content/uploads/2021/12/Residential-Load-Management-3.75x8.75.pdf); High Point participation not shown"
+ },
+ {
+  "idx": 17,
+  "eia_id": "5509",
+  "utility": "Dyersburg Electric System",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+  "note": "Dyersburg Electric System not in TVA EnergyRight thermostat LPC list"
+ },
+ {
+  "idx": 18,
+  "eia_id": "14649",
+  "utility": "Planters EMC",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.plantersemc.com/",
+  "note": "Homepage lists no load control/thermostat/WH DR program; search found none"
+ },
+ {
+  "idx": 19,
+  "eia_id": "10585",
+  "utility": "La Grange Utilities",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://cms3.revize.com/revize/lagrangeGA/Documents/Department/Utilities/Electric%20Commercial%20Rate%2007012025.pdf",
+  "note": "Commercial rate has no interruptible/curtailable/DR rider"
+ }
+]

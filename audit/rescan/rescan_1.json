@@ -1,0 +1,492 @@
+[
+{
+"eia_id": "241",
+"utility": "Albertville Municipal Utilities Board",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "241",
+"utility": "Albertville Municipal Utilities Board",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "750",
+"utility": "Arab Electric Cooperative",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "750",
+"utility": "Arab Electric Cooperative",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "944",
+"utility": "Athens Utilities",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "944",
+"utility": "Athens Utilities",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "1640",
+"utility": "Bessemer Electric Service",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "1640",
+"utility": "Bessemer Electric Service",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3222",
+"utility": "Central Alabama Electric Cooperative",
+"state": "AL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3222",
+"utility": "Central Alabama Electric Cooperative",
+"state": "AL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3426",
+"utility": "Cherokee Electric Cooperative",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3426",
+"utility": "Cherokee Electric Cooperative",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "4618",
+"utility": "Cullman Electric Cooperative",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "4618",
+"utility": "Cullman Electric Cooperative",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "4958",
+"utility": "Decatur Utilities",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "4958",
+"utility": "Decatur Utilities",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "6422",
+"utility": "Florence Utilities",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "6422",
+"utility": "Florence Utilities",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9094",
+"utility": "Huntsville Utilities",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9094",
+"utility": "Huntsville Utilities",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9739",
+"utility": "Joe Wheeler EMC",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9739",
+"utility": "Joe Wheeler EMC",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "11714",
+"utility": "Marshall-DeKalb Electric Cooperative",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "11714",
+"utility": "Marshall-DeKalb Electric Cooperative",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13669",
+"utility": "North Alabama Electric Cooperative",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13669",
+"utility": "North Alabama Electric Cooperative",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "16629",
+"utility": "Sand Mountain Electric Cooperative",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "16629",
+"utility": "Sand Mountain Electric Cooperative",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "17033",
+"utility": "Sheffield Utilities",
+"state": "AL",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "17033",
+"utility": "Sheffield Utilities",
+"state": "AL",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "61432",
+"utility": "Central Coast Community Energy (3CE)",
+"state": "CA",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "19229",
+"utility": "Truckee Donner Public Utility District",
+"state": "CA",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "19229",
+"utility": "Truckee Donner Public Utility District",
+"state": "CA",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "5070",
+"utility": "Delaware Electric Cooperative",
+"state": "DE",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://www.delaware.coop/btp",
+"reason": "round-2 audit refuted: No https://www.delaware.coop/btp",
+"from_programs": false
+},
+{
+"eia_id": "9616",
+"utility": "Beaches Energy Services",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "9616",
+"utility": "Beaches Energy Services",
+"state": "FL",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "9616",
+"utility": "Beaches Energy Services",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "9616",
+"utility": "Beaches Energy Services",
+"state": "FL",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3245",
+"utility": "Central Florida Electric Cooperative",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3245",
+"utility": "Central Florida Electric Cooperative",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18445",
+"utility": "City of Tallahassee Utilities",
+"state": "FL",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18445",
+"utility": "City of Tallahassee Utilities",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3757",
+"utility": "Clay Electric Cooperative, Inc.",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3757",
+"utility": "Clay Electric Cooperative, Inc.",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3757",
+"utility": "Clay Electric Cooperative, Inc.",
+"state": "FL",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6457",
+"utility": "Florida Public Utilities Company",
+"state": "FL",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6457",
+"utility": "Florida Public Utilities Company",
+"state": "FL",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6457",
+"utility": "Florida Public Utilities Company",
+"state": "FL",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6457",
+"utility": "Florida Public Utilities Company",
+"state": "FL",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+}
+]

@@ -1,0 +1,502 @@
+[
+{
+"eia_id": "11222",
+"utility": "Loudon Utilities",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "11789",
+"utility": "Maryville Electric Department",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "11789",
+"utility": "Maryville Electric Department",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12293",
+"utility": "Memphis Light, Gas and Water Division",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12293",
+"utility": "Memphis Light, Gas and Water Division",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12330",
+"utility": "Meriwether Lewis Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12470",
+"utility": "Middle Tennessee Electric",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12470",
+"utility": "Middle Tennessee Electric",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12988",
+"utility": "Morristown Utilities Commission",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12988",
+"utility": "Morristown Utilities Commission",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13027",
+"utility": "Mountain Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13216",
+"utility": "Nashville Electric Service",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13216",
+"utility": "Nashville Electric Service",
+"state": "TN",
+"cell": "res_habit",
+"current": "Yes",
+"source": "https://www.nespower.com/rates/",
+"reason": "round-2 audit refuted: No https://www.nespower.com/rates/",
+"from_programs": false
+},
+{
+"eia_id": "13550",
+"utility": "Newport Utilities",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13550",
+"utility": "Newport Utilities",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13933",
+"utility": "Oak Ridge Electric Department",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "14455",
+"utility": "Paris Board of Public Utilities",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "15016",
+"utility": "Pickwick Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "15141",
+"utility": "Plateau Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "15293",
+"utility": "Powell Valley Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "15507",
+"utility": "Pulaski Electric System",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "16223",
+"utility": "Rockwood Electric Utility",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "16930",
+"utility": "Sequachee Valley Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "16949",
+"utility": "Sevier County Electric System",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "16949",
+"utility": "Sevier County Electric System",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "17047",
+"utility": "Shelbyville Power System",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "17694",
+"utility": "Southwest Tennessee Electric Membership Corporation",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "17694",
+"utility": "Southwest Tennessee Electric Membership Corporation",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "18643",
+"utility": "Tennessee Valley Electric Cooperative",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "18643",
+"utility": "Tennessee Valley Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "19162",
+"utility": "Tri-County Electric Membership Corporation",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "19266",
+"utility": "Tullahoma Utilities Authority",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "19574",
+"utility": "Upper Cumberland Electric Membership Corporation",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "19898",
+"utility": "Volunteer Energy Cooperative",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "19898",
+"utility": "Volunteer Energy Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "20228",
+"utility": "Weakley County Municipal Electric System",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "7979",
+"utility": "Hamilton County Electric Cooperative Association",
+"state": "TX",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "11292",
+"utility": "Lubbock Power & Light",
+"state": "TX",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "11292",
+"utility": "Lubbock Power & Light",
+"state": "TX",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "11501",
+"utility": "Magic Valley Electric Cooperative, Inc.",
+"state": "TX",
+"cell": "res_habit",
+"current": "Yes",
+"source": "https://www.magicvalley.coop/residential/",
+"reason": "round-2 audit refuted: No https://www.magicvalley.coop/residential/",
+"from_programs": false
+},
+{
+"eia_id": "2248",
+"utility": "BVU Authority (Bristol Virginia Utilities)",
+"state": "VA",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "13762",
+"utility": "Northern Neck Electric Cooperative",
+"state": "VA",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "13762",
+"utility": "Northern Neck Electric Cooperative",
+"state": "VA",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20169",
+"utility": "Avista",
+"state": "WA",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20169",
+"utility": "Avista",
+"state": "WA",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3660",
+"utility": "Clark Public Utilities",
+"state": "WA",
+"cell": "res_habit",
+"current": "Yes",
+"source": "https://www.clarkpublicutilities.com/residential-customers/reduce-energy-waste-and-lower-your-bill/all-rebates-incentives/electric-vehicle-managed-charging-program/",
+"reason": "round-2 audit refuted: No https://www.clarkpublicutilities.com/about-cpu/public-documents/current-electric-water-rates/",
+"from_programs": false
+},
+{
+"eia_id": "3660",
+"utility": "Clark Public Utilities",
+"state": "WA",
+"cell": "res_dispatch",
+"current": "No",
+"source": "https://www.clarkpublicutilities.com/residential-customers/reduce-energy-waste-and-lower-your-bill/energy-calculators/programmable-thermostat/",
+"reason": "round-2 audit refuted: Yes https://www.clarkpublicutilities.com/residential-customers/reduce-energy-waste-and-lower-your-bill/all-rebates-incentives/electric-vehicle-managed-charging-program/",
+"from_programs": false
+},
+{
+"eia_id": "15419",
+"utility": "Mason County PUD No. 3",
+"state": "WA",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "11479",
+"utility": "Madison Gas and Electric Co (MGE)",
+"state": "WI",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18336",
+"utility": "Superior Water Light & Power Co (ALLETE)",
+"state": "WI",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+}
+]

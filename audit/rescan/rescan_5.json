@@ -1,0 +1,502 @@
+[
+{
+"eia_id": "1578",
+"utility": "Benton County Electric System",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "1936",
+"utility": "Bolivar Energy Authority",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9777",
+"utility": "BrightRidge (Johnson City Power Board)",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9777",
+"utility": "BrightRidge (Johnson City Power Board)",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "2247",
+"utility": "Bristol Tennessee Essential Services",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3704",
+"utility": "CDE Lightband (Clarksville Dept of Electricity)",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3704",
+"utility": "CDE Lightband (Clarksville Dept of Electricity)",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "2960",
+"utility": "Caney Fork Electric Cooperative",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "2960",
+"utility": "Caney Fork Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3075",
+"utility": "Carroll County Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "40166",
+"utility": "Chickasaw Electric Cooperative",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "40166",
+"utility": "Chickasaw Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3758",
+"utility": "Cleveland Utilities",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3758",
+"utility": "Cleveland Utilities",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3812",
+"utility": "Clinton Utilities Board",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3855",
+"utility": "Columbia Power & Water Systems",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3855",
+"utility": "Columbia Power & Water Systems",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "4294",
+"utility": "Cookeville Electric Department",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "4624",
+"utility": "Cumberland Electric Membership Corporation",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "4624",
+"utility": "Cumberland Electric Membership Corporation",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "4920",
+"utility": "Dayton Electric Department",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5148",
+"utility": "Dickson Electric System",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5148",
+"utility": "Dickson Electric System",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5399",
+"utility": "Duck River Electric Membership Corporation",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5399",
+"utility": "Duck River Electric Membership Corporation",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5509",
+"utility": "Dyersburg Electric System",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3408",
+"utility": "EPB (Electric Power Board of Chattanooga)",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3408",
+"utility": "EPB (Electric Power Board of Chattanooga)",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5763",
+"utility": "Elizabethton Electric Department",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5763",
+"utility": "Elizabethton Electric Department",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "6234",
+"utility": "Fayetteville Public Utilities",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "40236",
+"utility": "Forked Deer Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "6608",
+"utility": "Fort Loudoun Electric Cooperative",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "6608",
+"utility": "Fort Loudoun Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "6923",
+"utility": "Gallatin Department of Electricity",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "6923",
+"utility": "Gallatin Department of Electricity",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "7174",
+"utility": "Gibson Electric Membership Corporation",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "7625",
+"utility": "Greeneville Light & Power System (Greeneville Energy Authority)",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "7625",
+"utility": "Greeneville Light & Power System (Greeneville Energy Authority)",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "8147",
+"utility": "Harriman Utility Board",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "8147",
+"utility": "Harriman Utility Board",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "8764",
+"utility": "Holston Electric Cooperative",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9612",
+"utility": "Jackson Energy Authority",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "10421",
+"utility": "Knoxville Utilities Board",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "10579",
+"utility": "LaFollette Utilities",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "10799",
+"utility": "Lawrenceburg Utility Systems",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "10906",
+"utility": "Lenoir City Utilities Board",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "10906",
+"utility": "Lenoir City Utilities Board",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "10968",
+"utility": "Lexington Electric System",
+"state": "TN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "11222",
+"utility": "Loudon Utilities",
+"state": "TN",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+}
+]

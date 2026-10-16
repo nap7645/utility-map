@@ -1,0 +1,502 @@
+[
+{
+"eia_id": "2056",
+"utility": "Bowling Green Municipal Utilities",
+"state": "KY",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3687",
+"utility": "Clark Energy Cooperative",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "4622",
+"utility": "Cumberland Valley Electric",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6194",
+"utility": "Farmers RECC",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6442",
+"utility": "Fleming-Mason Energy Cooperative",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "7558",
+"utility": "Grayson RECC",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "8846",
+"utility": "Hopkinsville Electric System",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "8846",
+"utility": "Hopkinsville Electric System",
+"state": "KY",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "8846",
+"utility": "Hopkinsville Electric System",
+"state": "KY",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "8846",
+"utility": "Hopkinsville Electric System",
+"state": "KY",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9292",
+"utility": "Inter-County Energy Cooperative",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "9575",
+"utility": "Jackson Energy Cooperative",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "11011",
+"utility": "Licking Valley RECC",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "13651",
+"utility": "Nolin RECC",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "14251",
+"utility": "Owen Electric Cooperative",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "14724",
+"utility": "Pennyrile Electric",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "14724",
+"utility": "Pennyrile Electric",
+"state": "KY",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "14724",
+"utility": "Pennyrile Electric",
+"state": "KY",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "14724",
+"utility": "Pennyrile Electric",
+"state": "KY",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "16587",
+"utility": "Salt River Electric Cooperative",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "17044",
+"utility": "Shelby Energy Cooperative",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "17564",
+"utility": "South Kentucky RECC",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18498",
+"utility": "Taylor County RECC",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20130",
+"utility": "Warren RECC",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20130",
+"utility": "Warren RECC",
+"state": "KY",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "20130",
+"utility": "Warren RECC",
+"state": "KY",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20130",
+"utility": "Warren RECC",
+"state": "KY",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "20377",
+"utility": "West Kentucky RECC",
+"state": "KY",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20377",
+"utility": "West Kentucky RECC",
+"state": "KY",
+"cell": "res_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/residential/rebates/smartthermostat/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "20377",
+"utility": "West Kentucky RECC",
+"state": "KY",
+"cell": "ci_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "20377",
+"utility": "West Kentucky RECC",
+"state": "KY",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "3266",
+"utility": "Central Maine Power Co",
+"state": "ME",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3828",
+"utility": "Cloverland Electric Cooperative",
+"state": "MI",
+"cell": "res_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "3828",
+"utility": "Cloverland Electric Cooperative",
+"state": "MI",
+"cell": "ci_dispatch",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "18895",
+"utility": "Thumb Electric Cooperative",
+"state": "MI",
+"cell": "res_habit",
+"current": "No",
+"source": "https://www.tecmi.coop/rates-tariffs",
+"reason": "round-2 audit refuted: Yes https://www.michigan.gov/mpsc/-/media/Project/Websites/mpsc/consumer/rate-books/electric/thumb/thumbmemberregcur.pdf",
+"from_programs": false
+},
+{
+"eia_id": "18895",
+"utility": "Thumb Electric Cooperative",
+"state": "MI",
+"cell": "ci_habit",
+"current": "No",
+"source": "https://www.tecmi.coop/rates-tariffs",
+"reason": "round-2 audit refuted: Yes https://www.michigan.gov/mpsc/-/media/Project/Websites/mpsc/consumer/rate-books/electric/thumb/thumbmemberregcur.pdf",
+"from_programs": false
+},
+{
+"eia_id": "689",
+"utility": "Connexus Energy",
+"state": "MN",
+"cell": "ci_habit",
+"current": "Yes",
+"source": "https://nectarclimate.com/utilities/connexus-energy",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": true
+},
+{
+"eia_id": "4577",
+"utility": "Crow Wing Power",
+"state": "MN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "5574",
+"utility": "East Central Energy",
+"state": "MN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "9475",
+"utility": "Itasca-Mantrap Electric Cooperative",
+"state": "MN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "10697",
+"utility": "Lake Country Power",
+"state": "MN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "10618",
+"utility": "Lake Region Electric Cooperative",
+"state": "MN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12546",
+"utility": "Mille Lacs Energy Cooperative",
+"state": "MN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "12651",
+"utility": "Minnesota Valley Electric Cooperative",
+"state": "MN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "16971",
+"utility": "Shakopee Public Utilities",
+"state": "MN",
+"cell": "res_habit",
+"current": "No",
+"source": "http://shakopeeutilities.com/wp-content/uploads/2020/07/SPU_2020_ElectricRates_v2.pdf",
+"reason": "round-2 audit refuted: Yes https://shakopeeutilities.com/residential/ev-charging-2/",
+"from_programs": false
+},
+{
+"eia_id": "18019",
+"utility": "Stearns Electric Association",
+"state": "MN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "20996",
+"utility": "Wright-Hennepin Cooperative Electric Association",
+"state": "MN",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "17833",
+"utility": "City Utilities of Springfield",
+"state": "MO",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://nectarclimate.com/utilities/city-utilities-springfield",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+},
+{
+"eia_id": "6641",
+"utility": "4-County Electric Power Association",
+"state": "MS",
+"cell": "res_habit",
+"current": "No",
+"source": "",
+"reason": "No without source",
+"from_programs": false
+},
+{
+"eia_id": "6641",
+"utility": "4-County Electric Power Association",
+"state": "MS",
+"cell": "ci_dispatch",
+"current": "Yes",
+"source": "https://energyright.com/business-industry/demand-response/powerflex/",
+"reason": "Yes cites G&T/program/third-party page",
+"from_programs": false
+}
+]

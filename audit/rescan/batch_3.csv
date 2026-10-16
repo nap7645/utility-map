@@ -1,0 +1,51 @@
+eia_id,cell,value,src,note
+2056,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,TVA EnergyRight PowerFlex; BGMU in participating local power company dropdown
+3687,res_habit,Yes,https://psc.ky.gov/tariffs/Electric/Clark Energy Cooperative/Tariff.pdf,"Schedule D Time-of-Use Marketing Service (separately metered off-peak, eff 5/1/2026)"
+4622,res_habit,Yes,https://psc.ky.gov/tariffs/electric/Cumberland Valley Electric/Tariff.pdf,"Schedule I Time of Day (TOD) residential, eff 5/1/2026"
+6194,res_habit,Yes,https://psc.ky.gov/tariffs/electric/Farmers RECC/Tariff.pdf,Schedule R Time-of-Day Residential Service
+6442,res_habit,Yes,https://psc.ky.gov/tariffs/electric/Fleming-Mason RECC/Cancelled Tariff Pages/2026/Schedule RSP-TOD - Residential and Small Power - Time of Day/05-01.pdf,"Schedule RSP-TOD; only superseded 5/2026 sheet seen (current Tariff.pdf unreadable), successor presumed"
+7558,res_habit,No,https://psc.ky.gov/tariffs/electric/Grayson RECC/Tariff.pdf,Only Schedule 1 flat residential; Schedule 3 Off-Peak Marketing Rate is RESERVED; tariff text truncated
+8846,res_habit,No,https://hop-electric.com/electric/residential-electric/schedule-of-rates,Single flat residential rate; no TOU/demand/EV listed
+8846,res_dispatch,Unknown,https://energyright.com/residential/rebates/smartthermostat/,HES not on Smart Thermostat Rewards participating LPC list; own DR pages not found
+8846,ci_habit,Unknown,https://hop-electric.com/electric/residential-electric/schedule-of-rates,Commercial rate page not checked
+8846,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,PowerFlex; HES in participating LPC dropdown
+9292,res_habit,Yes,https://psc.ky.gov/tariffs/electric/Inter-County Energy Cooperative Corporation/Tariff.pdf,Schedule 1-A Farm and Home Marketing Rate (ETS) off-peak hours; also EV off-peak charging pilot
+9575,res_habit,Unknown,https://psc.ky.gov/tariffs/electric/Jackson Energy Coop. Corp/Tariff.pdf,"Tariff fetch failed; Schedule 11 Residential Off Peak Retail Marketing Rate exists in 2024 cancelled sheets, terms unverified"
+11011,res_habit,Unknown,https://psc.ky.gov/tariffs/electric/Licking Valley RECC/Tariff.pdf,Tariff fetch failed; no TOD found via search
+13651,res_habit,Unknown,https://psc.ky.gov/tariffs/Electric/Nolin RECC/Tariff.pdf,Tariff text truncated; only 1980s-90s TOD sheets found
+14251,res_habit,Yes,"https://psc.ky.gov/tariffs/Electric/Owen Electric Cooperative, Inc/Cancelled Tariff Pages/2024/Schedule 1-B1 - Farm and Home - Time of Day/09-01.pdf",Schedules 1-B1/B2/B3 Farm and Home Time of Day; only superseded 2024 sheets seen
+14724,res_habit,Unknown,https://nectarclimate.com/rates/pennyrile-electric,No tariff located
+14724,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,Pennyrile RECC on EnergyRight Smart Thermostat Rewards participating list
+14724,ci_habit,Unknown,https://nectarclimate.com/rates/pennyrile-electric,No tariff located
+14724,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,PowerFlex; Pennyrile in participating LPC dropdown
+16587,res_habit,Yes,https://psc.ky.gov/tariffs/electric/Salt River Electric Coop. Corp/Cancelled Tariff Pages/2024/Schedule A-5T-TOD - Farm and Home Service Taxable (Time of Day)/09-01.pdf,Schedule A-5/A-5T-TOD Farm and Home Time of Day; only superseded 2024 sheet seen
+17044,res_habit,Unknown,"https://psc.ky.gov/tariffs/Electric/Shelby Energy Cooperative, Inc/Cancelled Tariff Pages/2026/Rate 9 - Off-Peak Retail Marketing Rate (ETS)/05-01.pdf",Rate 9 ETS off-peak marketing only; rate sheets not readable
+17564,res_habit,No,https://psc.ky.gov/tariffs/electric/South Kentucky RECC/Tariff.pdf,Tariff lists only Schedule A residential (TOD sheet cancelled 1989); tariff text truncated
+18498,res_habit,Unknown,https://psc.ky.gov/tariffs/Electric/Taylor County RECC/Tariff.pdf,Schedule R-1 Residential Marketing Rate exists in 2024 cancelled sheets; terms unverified
+20130,res_habit,Unknown,https://nectarclimate.com/rates/pennyrile-electric,No tariff located
+20130,res_dispatch,Unknown,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,Warren RECC not on Smart Thermostat Rewards list; own DR pages not checked
+20130,ci_habit,Unknown,https://nectarclimate.com/rates/pennyrile-electric,No tariff located
+20130,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,PowerFlex; Warren RECC in participating LPC dropdown
+20377,res_habit,Unknown,https://nectarclimate.com/rates/pennyrile-electric,No tariff located
+20377,res_dispatch,Yes,https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc,West Kentucky RECC on Smart Thermostat Rewards participating list
+20377,ci_habit,Unknown,https://nectarclimate.com/rates/pennyrile-electric,No tariff located
+20377,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,PowerFlex; West Kentucky RECC in participating LPC dropdown
+3266,res_dispatch,Unknown,https://www.cmpco.com,Home page shows no DR; Smart Energy pages not read
+3828,res_dispatch,Unknown,https://www.cloverland.com/billing-payments/rates-charges/,Rates page shows no DR; Rate Book Part 3 programs not read
+3828,ci_dispatch,Unknown,https://www.cloverland.com/billing-payments/rates-charges/,Rates page shows no DR; Rate Book Part 3 programs not read
+18895,res_habit,Unknown,https://www.tecmi.coop/rates-tariffs,Site blocked by robots
+18895,ci_habit,Unknown,https://www.tecmi.coop/rates-tariffs,Site blocked by robots
+689,ci_habit,No,https://www.connexusenergy.com/business/rates/business-rates,"Only Small Commercial and General Commercial, seasonal not TOD; rate-book PDF not read"
+4577,ci_dispatch,Unknown,https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/,GRE page names C&I interruptible programs but no member co-ops; no own-site evidence found
+5574,ci_dispatch,Unknown,https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/,GRE page lists no member co-ops; no own-site evidence found
+9475,ci_dispatch,Unknown,https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/,GRE page lists no member co-ops; no own-site evidence found
+10697,ci_dispatch,Yes,https://www.lakecountrypower.coop/sites/default/files/money_saving_programs/For_your_business/2025%20C%26I%20Interruptable%20Program%20Guide.pdf,"Own C&I Interruptible Program (Rate 50/57), 25 kW+; 2026 sell sheet also on site"
+10618,ci_dispatch,Unknown,https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/,GRE page lists no member co-ops; no own-site evidence found
+12546,ci_dispatch,Unknown,https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/,GRE page lists no member co-ops; no own-site evidence found
+12651,ci_dispatch,Unknown,https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/,GRE page lists no member co-ops; no own-site evidence found
+16971,res_habit,Unknown,https://utility-rates.com/providers/shakopee-public-utilities,Not verified against current SPU tariff
+18019,ci_dispatch,Unknown,https://greatriverenergy.com/transmission-and-delivery/demand-response/member-cooperative-load-management-programs/,GRE page lists no member co-ops; no own-site evidence found
+20996,ci_dispatch,Yes,https://www.whe.org/rates,Own commercial rates page lists interruptible-load rate option (terms by contact only)
+17833,ci_dispatch,Unknown,https://www.cityutilities.net/,Home page shows no DR; For Businesses page not read
+6641,res_habit,Unknown,https://energyright.com/business-industry/demand-response/powerflex/,Not checked
+6641,ci_dispatch,Yes,https://energyright.com/business-industry/demand-response/powerflex/,PowerFlex; 4-County EPA in participating LPC dropdown
