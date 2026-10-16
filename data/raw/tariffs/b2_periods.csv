@@ -1,0 +1,89 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,814,RS,weekday,Jun-Sep,0-24,0,0,1500,0.07392
+,814,RS,weekend,Jun-Sep,0-24,0,0,1500,0.07392
+,814,RS,weekday,Jun-Sep,0-24,0,1,,0.09593
+,814,RS,weekend,Jun-Sep,0-24,0,1,,0.09593
+,814,RS,weekday,"Jan-May,Oct-Dec",0-24,1,0,1000,0.0699
+,814,RS,weekend,"Jan-May,Oct-Dec",0-24,1,0,1000,0.0699
+,814,RS,weekday,"Jan-May,Oct-Dec",0-24,1,1,,0.05154
+,814,RS,weekend,"Jan-May,Oct-Dec",0-24,1,1,,0.05154
+,814,REMT (Residential Energy Management TOU),weekday,Jun-Sep,"0-6,22-24",0,0,,0.05716
+,814,REMT (Residential Energy Management TOU),weekday,Jun-Sep,"6-13,19-22",1,0,,0.06698
+,814,REMT (Residential Energy Management TOU),weekday,Jun-Sep,13-19,2,0,,0.1388
+,814,REMT (Residential Energy Management TOU),weekend,Jun-Sep,"0-6,22-24",0,0,,0.05716
+,814,REMT (Residential Energy Management TOU),weekend,Jun-Sep,6-22,1,0,,0.06698
+,814,REMT (Residential Energy Management TOU),weekday,"Jan-May,Oct-Dec","0-6,22-24",0,0,,0.05716
+,814,REMT (Residential Energy Management TOU),weekday,"Jan-May,Oct-Dec",6-22,1,0,,0.06698
+,814,REMT (Residential Energy Management TOU),weekend,"Jan-May,Oct-Dec",0-24,0,0,,0.05716
+,814,SGS (Small General Service),weekday,Jan-Dec,0-24,0,0,900,0.05637
+,814,SGS (Small General Service),weekend,Jan-Dec,0-24,0,0,900,0.05637
+,814,SGS (Small General Service),weekday,Jan-Dec,0-24,0,1,,0.03972
+,814,SGS (Small General Service),weekend,Jan-Dec,0-24,0,1,,0.03972
+,15474,RS (Residential Service),weekday,Jun-Oct,0-24,0,0,1350,0.088792
+,15474,RS (Residential Service),weekend,Jun-Oct,0-24,0,0,1350,0.088792
+,15474,RS (Residential Service),weekday,Jun-Oct,0-24,0,1,,0.114186
+,15474,RS (Residential Service),weekend,Jun-Oct,0-24,0,1,,0.114186
+,15474,RS (Residential Service),weekday,"Jan-May,Nov-Dec",0-24,1,0,475,0.079241
+,15474,RS (Residential Service),weekend,"Jan-May,Nov-Dec",0-24,1,0,475,0.079241
+,15474,RS (Residential Service),weekday,"Jan-May,Nov-Dec",0-24,1,1,1250,0.052529
+,15474,RS (Residential Service),weekend,"Jan-May,Nov-Dec",0-24,1,1,1250,0.052529
+,15474,RS (Residential Service),weekday,"Jan-May,Nov-Dec",0-24,1,2,,0.035221
+,15474,RS (Residential Service),weekend,"Jan-May,Nov-Dec",0-24,1,2,,0.035221
+,15474,RSTOD (Residential Time of Day),weekday,Jun-Oct,"0-14,19-24",0,0,,0.051016
+,15474,RSTOD (Residential Time of Day),weekday,Jun-Oct,14-19,1,0,,0.248475
+,15474,RSTOD (Residential Time of Day),weekend,Jun-Oct,0-24,0,0,,0.051016
+,15474,RSTOD (Residential Time of Day),weekday,"Jan-May,Nov-Dec",0-24,2,0,475,0.079241
+,15474,RSTOD (Residential Time of Day),weekend,"Jan-May,Nov-Dec",0-24,2,0,475,0.079241
+,15474,RSTOD (Residential Time of Day),weekday,"Jan-May,Nov-Dec",0-24,2,1,1250,0.052529
+,15474,RSTOD (Residential Time of Day),weekend,"Jan-May,Nov-Dec",0-24,2,1,1250,0.052529
+,15474,RSTOD (Residential Time of Day),weekday,"Jan-May,Nov-Dec",0-24,2,2,,0.035221
+,15474,RSTOD (Residential Time of Day),weekend,"Jan-May,Nov-Dec",0-24,2,2,,0.035221
+,15474,RSEV (Residential Service Electric Vehicle),weekday,Jun-Oct,"0-6,23-24",0,0,,0.030451
+,15474,RSEV (Residential Service Electric Vehicle),weekday,Jun-Oct,"6-14,19-23",1,0,,0.084497
+,15474,RSEV (Residential Service Electric Vehicle),weekday,Jun-Oct,14-19,2,0,,0.248475
+,15474,RSEV (Residential Service Electric Vehicle),weekend,Jun-Oct,"0-6,23-24",0,0,,0.030451
+,15474,RSEV (Residential Service Electric Vehicle),weekend,Jun-Oct,6-23,1,0,,0.084497
+,15474,RSEV (Residential Service Electric Vehicle),weekday,"Jan-May,Nov-Dec","0-6,23-24",0,0,,0.030451
+,15474,RSEV (Residential Service Electric Vehicle),weekend,"Jan-May,Nov-Dec","0-6,23-24",0,0,,0.030451
+,15474,RSEV (Residential Service Electric Vehicle),weekday,"Jan-May,Nov-Dec",6-23,3,0,,0.061045
+,15474,RSEV (Residential Service Electric Vehicle),weekend,"Jan-May,Nov-Dec",6-23,3,0,,0.061045
+,15474,GS (General Service Secondary),weekday,Jun-Oct,0-24,0,0,,0.087423
+,15474,GS (General Service Secondary),weekend,Jun-Oct,0-24,0,0,,0.087423
+,15474,GS (General Service Secondary),weekday,Jun-Oct,0-24,0,1,,0.074043
+,15474,GS (General Service Secondary),weekend,Jun-Oct,0-24,0,1,,0.074043
+,15474,GS (General Service Secondary),weekday,Jun-Oct,0-24,0,2,,0.030316
+,15474,GS (General Service Secondary),weekend,Jun-Oct,0-24,0,2,,0.030316
+,15474,GS (General Service Secondary),weekday,"Jan-May,Nov-Dec",0-24,1,0,,0.058809
+,15474,GS (General Service Secondary),weekend,"Jan-May,Nov-Dec",0-24,1,0,,0.058809
+,15474,GS (General Service Secondary),weekday,"Jan-May,Nov-Dec",0-24,1,1,,0.047105
+,15474,GS (General Service Secondary),weekend,"Jan-May,Nov-Dec",0-24,1,1,,0.047105
+,15474,GS (General Service Secondary),weekday,"Jan-May,Nov-Dec",0-24,1,2,,0.026974
+,15474,GS (General Service Secondary),weekend,"Jan-May,Nov-Dec",0-24,1,2,,0.026974
+,13756,Rate 611 (RS) Residential,weekday,Jan-Dec,0-24,0,0,,0.205
+,13756,Rate 611 (RS) Residential,weekend,Jan-Dec,0-24,0,0,,0.205
+,13756,Rate 621 (GSS) General Service - Small,weekday,Jan-Dec,0-24,0,0,,0.206152
+,13756,Rate 621 (GSS) General Service - Small,weekend,Jan-Dec,0-24,0,0,,0.206152
+,9324,R.S. Residential Electric Service (Indiana),weekday,Jan-Dec,0-24,0,0,900,0.11856
+,9324,R.S. Residential Electric Service (Indiana),weekend,Jan-Dec,0-24,0,0,900,0.11856
+,9324,R.S. Residential Electric Service (Indiana),weekday,Jan-Dec,0-24,0,1,,0.11195
+,9324,R.S. Residential Electric Service (Indiana),weekend,Jan-Dec,0-24,0,1,,0.11195
+,4922,D17 Residential distribution (delivery only; supply is competitive),weekday,Jan-Dec,0-24,0,0,,0.049318
+,4922,D17 Residential distribution (delivery only; supply is competitive),weekend,Jan-Dec,0-24,0,0,,0.049318
+,4922,D18 Residential Heating distribution (delivery only; supply is competitive),weekday,Jan-Dec,0-24,0,0,,0.049318
+,4922,D18 Residential Heating distribution (delivery only; supply is competitive),weekend,Jan-Dec,0-24,0,0,,0.049318
+,4922,G10 Standard Offer - Residential (generation only),weekday,Jan-Dec,0-24,0,0,,0.1085598
+,4922,G10 Standard Offer - Residential (generation only),weekend,Jan-Dec,0-24,0,0,,0.1085598
+,4922,G10 Standard Offer - Residential Heating (generation only),weekday,Jun-Oct,0-24,0,0,,0.1085598
+,4922,G10 Standard Offer - Residential Heating (generation only),weekend,Jun-Oct,0-24,0,0,,0.1085598
+,4922,G10 Standard Offer - Residential Heating (generation only),weekday,"Jan-May,Nov-Dec",0-24,1,0,,0.0918275
+,4922,G10 Standard Offer - Residential Heating (generation only),weekend,"Jan-May,Nov-Dec",0-24,1,0,,0.0918275
+,4922,G10 Standard Offer - Secondary (generation only),weekday,Jan-Dec,0-24,0,0,,0.1085598
+,4922,G10 Standard Offer - Secondary (generation only),weekend,Jan-Dec,0-24,0,0,,0.1085598
+,12390,Default Service PTC - Residential (generation only),weekday,Jan-Dec,0-24,0,0,,0.13951
+,12390,Default Service PTC - Residential (generation only),weekend,Jan-Dec,0-24,0,0,,0.13951
+,12390,Default Service PTC - Commercial GS-S/GS-M (generation only),weekday,Jan-Dec,0-24,0,0,,0.12864
+,12390,Default Service PTC - Commercial GS-S/GS-M (generation only),weekend,Jan-Dec,0-24,0,0,,0.12864
+,20387,Default Service PTC - Residential (generation only),weekday,Jan-Dec,0-24,0,0,,0.12075
+,20387,Default Service PTC - Residential (generation only),weekend,Jan-Dec,0-24,0,0,,0.12075
+,20387,Default Service PTC - Commercial GS-S/GS-M (generation only),weekday,Jan-Dec,0-24,0,0,,0.11779
+,20387,Default Service PTC - Commercial GS-S/GS-M (generation only),weekend,Jan-Dec,0-24,0,0,,0.11779

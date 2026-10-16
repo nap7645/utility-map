@@ -1,0 +1,126 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,61432,E-1 (3CE generation),weekday,Jan-Dec,0-24,0,0,,0.11725
+,61432,E-1 (3CE generation),weekend,Jan-Dec,0-24,0,0,,0.11725
+,61432,E-TOU-C (3CE generation),weekday,Jun-Sep,16-21,1,0,,0.19573
+,61432,E-TOU-C (3CE generation),weekend,Jun-Sep,16-21,1,0,,0.19573
+,61432,E-TOU-C (3CE generation),weekday,Jun-Sep,"0-16,21-24",0,0,,0.09376
+,61432,E-TOU-C (3CE generation),weekend,Jun-Sep,"0-16,21-24",0,0,,0.09376
+,61432,E-TOU-C (3CE generation),weekday,Oct-May,16-21,3,0,,0.12572
+,61432,E-TOU-C (3CE generation),weekend,Oct-May,16-21,3,0,,0.12572
+,61432,E-TOU-C (3CE generation),weekday,Oct-May,"0-16,21-24",2,0,,0.0993
+,61432,E-TOU-C (3CE generation),weekend,Oct-May,"0-16,21-24",2,0,,0.0993
+,61432,E-TOU-D (3CE generation),weekday,Jun-Sep,17-20,1,0,,0.19419
+,61432,E-TOU-D (3CE generation),weekday,Jun-Sep,"0-17,20-24",0,0,,0.09028
+,61432,E-TOU-D (3CE generation),weekend,Jun-Sep,0-24,0,0,,0.09028
+,61432,E-TOU-D (3CE generation),weekday,Oct-May,17-20,3,0,,0.15372
+,61432,E-TOU-D (3CE generation),weekday,Oct-May,"0-17,20-24",2,0,,0.119
+,61432,E-TOU-D (3CE generation),weekend,Oct-May,0-24,2,0,,0.119
+,61432,E-TOU-B (3CE generation),weekday,Jun-Sep,16-21,1,0,,0.25965
+,61432,E-TOU-B (3CE generation),weekday,Jun-Sep,"0-16,21-24",0,0,,0.13783
+,61432,E-TOU-B (3CE generation),weekend,Jun-Sep,0-24,0,0,,0.13783
+,61432,E-TOU-B (3CE generation),weekday,Oct-May,16-21,3,0,,0.15471
+,61432,E-TOU-B (3CE generation),weekday,Oct-May,"0-16,21-24",2,0,,0.1163
+,61432,E-TOU-B (3CE generation),weekend,Oct-May,0-24,2,0,,0.1163
+,61432,EV2-A (3CE generation),weekday,Jun-Sep,16-21,1,0,,0.17641
+,61432,EV2-A (3CE generation),weekend,Jun-Sep,16-21,1,0,,0.17641
+,61432,EV2-A (3CE generation),weekday,Jun-Sep,"15-16,21-24",2,0,,0.13214
+,61432,EV2-A (3CE generation),weekend,Jun-Sep,"15-16,21-24",2,0,,0.13214
+,61432,EV2-A (3CE generation),weekday,Jun-Sep,0-15,0,0,,0.09141
+,61432,EV2-A (3CE generation),weekend,Jun-Sep,0-15,0,0,,0.09141
+,61432,EV2-A (3CE generation),weekday,Oct-May,16-21,4,0,,0.1201
+,61432,EV2-A (3CE generation),weekend,Oct-May,16-21,4,0,,0.1201
+,61432,EV2-A (3CE generation),weekday,Oct-May,"15-16,21-24",5,0,,0.10774
+,61432,EV2-A (3CE generation),weekend,Oct-May,"15-16,21-24",5,0,,0.10774
+,61432,EV2-A (3CE generation),weekday,Oct-May,0-15,3,0,,0.08449
+,61432,EV2-A (3CE generation),weekend,Oct-May,0-15,3,0,,0.08449
+,61432,E-ELEC (3CE generation),weekday,Jun-Sep,16-21,1,0,,0.25035
+,61432,E-ELEC (3CE generation),weekend,Jun-Sep,16-21,1,0,,0.25035
+,61432,E-ELEC (3CE generation),weekday,Jun-Sep,"15-16,21-24",2,0,,0.15223
+,61432,E-ELEC (3CE generation),weekend,Jun-Sep,"15-16,21-24",2,0,,0.15223
+,61432,E-ELEC (3CE generation),weekday,Jun-Sep,0-15,0,0,,0.10758
+,61432,E-ELEC (3CE generation),weekend,Jun-Sep,0-15,0,0,,0.10758
+,61432,E-ELEC (3CE generation),weekday,Oct-May,16-21,4,0,,0.08984
+,61432,E-ELEC (3CE generation),weekend,Oct-May,16-21,4,0,,0.08984
+,61432,E-ELEC (3CE generation),weekday,Oct-May,"15-16,21-24",5,0,,0.07007
+,61432,E-ELEC (3CE generation),weekend,Oct-May,"15-16,21-24",5,0,,0.07007
+,61432,E-ELEC (3CE generation),weekday,Oct-May,0-15,3,0,,0.05685
+,61432,E-ELEC (3CE generation),weekend,Oct-May,0-15,3,0,,0.05685
+,61432,EV-A/EV-B (3CE generation),weekday,May-Oct,14-21,1,0,,0.28399
+,61432,EV-A/EV-B (3CE generation),weekday,May-Oct,"7-14,21-23",2,0,,0.14195
+,61432,EV-A/EV-B (3CE generation),weekday,May-Oct,"0-7,23-24",0,0,,0.09604
+,61432,EV-A/EV-B (3CE generation),weekend,May-Oct,15-19,1,0,,0.28399
+,61432,EV-A/EV-B (3CE generation),weekend,May-Oct,"0-15,19-24",0,0,,0.09604
+,61432,EV-A/EV-B (3CE generation),weekday,"Jan-Apr,Nov-Dec",14-21,4,0,,0.09146
+,61432,EV-A/EV-B (3CE generation),weekday,"Jan-Apr,Nov-Dec","0-14,21-24",3,0,,0.06686
+,61432,EV-A/EV-B (3CE generation),weekend,"Jan-Apr,Nov-Dec",15-19,4,0,,0.09146
+,61432,EV-A/EV-B (3CE generation),weekend,"Jan-Apr,Nov-Dec","0-15,19-24",3,0,,0.06686
+,61432,B-1 (3CE generation),weekday,Jun-Sep,16-21,1,0,,0.15644
+,61432,B-1 (3CE generation),weekend,Jun-Sep,16-21,1,0,,0.15644
+,61432,B-1 (3CE generation),weekday,Jun-Sep,"14-16,21-23",2,0,,0.11278
+,61432,B-1 (3CE generation),weekend,Jun-Sep,"14-16,21-23",2,0,,0.11278
+,61432,B-1 (3CE generation),weekday,Jun-Sep,"0-14,23-24",0,0,,0.09432
+,61432,B-1 (3CE generation),weekend,Jun-Sep,"0-14,23-24",0,0,,0.09432
+,61432,B-1 (3CE generation),weekday,Oct-May,16-21,4,0,,0.10744
+,61432,B-1 (3CE generation),weekend,Oct-May,16-21,4,0,,0.10744
+,61432,B-1 (3CE generation),weekday,Oct-Feb,"0-16,21-24",3,0,,0.09314
+,61432,B-1 (3CE generation),weekend,Oct-Feb,"0-16,21-24",3,0,,0.09314
+,61432,B-1 (3CE generation),weekday,Mar-May,9-14,5,0,,0.07858
+,61432,B-1 (3CE generation),weekend,Mar-May,9-14,5,0,,0.07858
+,61432,B-1 (3CE generation),weekday,Mar-May,"0-9,14-16,21-24",3,0,,0.09314
+,61432,B-1 (3CE generation),weekend,Mar-May,"0-9,14-16,21-24",3,0,,0.09314
+,61432,B-6 (3CE generation),weekday,Jun-Sep,16-21,1,0,,0.23939
+,61432,B-6 (3CE generation),weekend,Jun-Sep,16-21,1,0,,0.23939
+,61432,B-6 (3CE generation),weekday,Jun-Sep,"0-16,21-24",0,0,,0.08867
+,61432,B-6 (3CE generation),weekend,Jun-Sep,"0-16,21-24",0,0,,0.08867
+,61432,B-6 (3CE generation),weekday,Oct-May,16-21,3,0,,0.11484
+,61432,B-6 (3CE generation),weekend,Oct-May,16-21,3,0,,0.11484
+,61432,B-6 (3CE generation),weekday,Oct-Feb,"0-16,21-24",2,0,,0.07977
+,61432,B-6 (3CE generation),weekend,Oct-Feb,"0-16,21-24",2,0,,0.07977
+,61432,B-6 (3CE generation),weekday,Mar-May,9-14,4,0,,0.04777
+,61432,B-6 (3CE generation),weekend,Mar-May,9-14,4,0,,0.04777
+,61432,B-6 (3CE generation),weekday,Mar-May,"0-9,14-16,21-24",2,0,,0.07977
+,61432,B-6 (3CE generation),weekend,Mar-May,"0-9,14-16,21-24",2,0,,0.07977
+,61432,BEV1 (3CE generation),weekday,Jan-Dec,16-21,2,0,,0.18351
+,61432,BEV1 (3CE generation),weekend,Jan-Dec,16-21,2,0,,0.18351
+,61432,BEV1 (3CE generation),weekday,Jan-Dec,"0-9,14-16,21-24",0,0,,0.05565
+,61432,BEV1 (3CE generation),weekend,Jan-Dec,"0-9,14-16,21-24",0,0,,0.05565
+,61432,BEV1 (3CE generation),weekday,Jan-Dec,9-14,1,0,,0.03786
+,61432,BEV1 (3CE generation),weekend,Jan-Dec,9-14,1,0,,0.03786
+,61432,BEV2S (3CE generation),weekday,Jan-Dec,16-21,2,0,,0.197
+,61432,BEV2S (3CE generation),weekend,Jan-Dec,16-21,2,0,,0.197
+,61432,BEV2S (3CE generation),weekday,Jan-Dec,"0-9,14-16,21-24",0,0,,0.05457
+,61432,BEV2S (3CE generation),weekend,Jan-Dec,"0-9,14-16,21-24",0,0,,0.05457
+,61432,BEV2S (3CE generation),weekday,Jan-Dec,9-14,1,0,,0.03678
+,61432,BEV2S (3CE generation),weekend,Jan-Dec,9-14,1,0,,0.03678
+,61432,BEV2P (3CE generation),weekday,Jan-Dec,16-21,2,0,,0.18973
+,61432,BEV2P (3CE generation),weekend,Jan-Dec,16-21,2,0,,0.18973
+,61432,BEV2P (3CE generation),weekday,Jan-Dec,"0-9,14-16,21-24",0,0,,0.05247
+,61432,BEV2P (3CE generation),weekend,Jan-Dec,"0-9,14-16,21-24",0,0,,0.05247
+,61432,BEV2P (3CE generation),weekday,Jan-Dec,9-14,1,0,,0.03552
+,61432,BEV2P (3CE generation),weekend,Jan-Dec,9-14,1,0,,0.03552
+,15263,"R (Residential, SOS supply)",weekday,Jun-Sep,0-24,0,0,,0.13507
+,15263,"R (Residential, SOS supply)",weekend,Jun-Sep,0-24,0,0,,0.13507
+,15263,"R (Residential, SOS supply)",weekday,Oct-May,0-24,1,0,,0.12892
+,15263,"R (Residential, SOS supply)",weekend,Oct-May,0-24,1,0,,0.12892
+,15263,"R-TOU (Residential TOU, SOS supply)",weekday,Jun-Sep,16-21,1,0,,0.17007
+,15263,"R-TOU (Residential TOU, SOS supply)",weekday,Jun-Sep,"0-16,21-24",0,0,,0.10007
+,15263,"R-TOU (Residential TOU, SOS supply)",weekend,Jun-Sep,0-24,0,0,,0.10007
+,15263,"R-TOU (Residential TOU, SOS supply)",weekday,"Mar-May,Oct",16-21,3,0,,0.16392
+,15263,"R-TOU (Residential TOU, SOS supply)",weekday,"Mar-May,Oct","0-16,21-24",2,0,,0.09392
+,15263,"R-TOU (Residential TOU, SOS supply)",weekday,"Jan-Feb,Nov-Dec",15-20,3,0,,0.16392
+,15263,"R-TOU (Residential TOU, SOS supply)",weekday,"Jan-Feb,Nov-Dec","0-15,20-24",2,0,,0.09392
+,15263,"R-TOU (Residential TOU, SOS supply)",weekend,Oct-May,0-24,2,0,,0.09392
+,7601,Rate 1 Residential,weekday,Jan-Dec,0-24,0,0,,0.23066
+,7601,Rate 1 Residential,weekend,Jan-Dec,0-24,0,0,,0.23066
+,7601,Rate 6 General Service,weekday,Jan-Dec,0-24,0,0,,0.23451
+,7601,Rate 6 General Service,weekend,Jan-Dec,0-24,0,0,,0.23451
+,7601,Rate 8 General Service (demand),weekday,Jan-Dec,0-24,0,0,500,0.2496
+,7601,Rate 8 General Service (demand),weekend,Jan-Dec,0-24,0,0,500,0.2496
+,7601,Rate 8 General Service (demand),weekday,Jan-Dec,0-24,0,1,,0.15069
+,7601,Rate 8 General Service (demand),weekend,Jan-Dec,0-24,0,1,,0.15069
+,14154,SC1 Residential (delivery only),weekday,Jun-Sep,0-24,0,0,250,0.11052
+,14154,SC1 Residential (delivery only),weekend,Jun-Sep,0-24,0,0,250,0.11052
+,14154,SC1 Residential (delivery only),weekday,Jun-Sep,0-24,0,1,,0.13822
+,14154,SC1 Residential (delivery only),weekend,Jun-Sep,0-24,0,1,,0.13822
+,14154,SC1 Residential (delivery only),weekday,Oct-May,0-24,1,0,,0.11052
+,14154,SC1 Residential (delivery only),weekend,Oct-May,0-24,1,0,,0.11052

@@ -471,3 +471,10 @@ Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live,
 - Schema: plans/TARIFF_SCHEMA.md (added demand_seasonal, note).
 - Phase B pilot (data/raw/tariffs/pilot_*): SCE, SMUD, Ameren MO, Pedernales done (17 schedules); Duke Energy Progress failed (all PDFs blocked). ~26k tokens per utility. Verified audit/verify_tariff_pilot_2026-10-16.md: 98/101 fields; Ameren is_default fixed, seasonal demand field added.
 - Phase B estimate: top 100 ~3M, top 200 ~6M tokens (incl. verification). Decision for Nathan.
+
+## 2026-10-16 (c) — Phase B batches 1-3
+- scripts/tariff_scope.py tags URDB rows scope core/deferred (res + small C&I core: 1,478; deferred large/medium C&I 885).
+- Targets: data/raw/tariffs/phaseB_targets.csv (top 100 non-current by customers). Batches b1-b3 (24 utilities): ~14 captured (several partial), ~10 failed (Duke DEP, Duke Ohio, AEP TX Central, TNMP, NorthWestern MT, Evergy KS South, NSP-MN, ...) because tariff PDFs are blocked or WebFetch truncates them. ~16k tokens per utility attempted.
+- Verified audit/verify_tariffs_b1-3_2026-10-16.md: 55/56 fields; fixed Potomac Edison R-TOU March peak hours and Dominion SC Rate 8/9 period ids. All schedules pass 12x24 coverage.
+- scripts/merge_tariffs.py -> data/processed/tariffs_merged.csv / tariff_periods_merged.csv (agent rows replace URDB per eia_id): 155 territories, 78% of customers with a current tariff (from 63%).
+- Blocker: both sandboxes' egress proxy blocks most utility/PUC domains for curl; only WebFetch works and it truncates long PDFs. Opening egress (Admin settings -> Capabilities) would let scripts pull PDFs + pdftotext: cheaper and higher yield. Batches 4-13 (76 utilities) wait on that decision.
