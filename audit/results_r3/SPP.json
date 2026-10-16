@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "20510",
+  "utility": "Wheatland Electric Cooperative, Inc.",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.weci.net/tariffs",
+  "note": "Cited PDF has no machine-readable text. Tariff index lists 'General Service Time of Day' and 'General Service Large Time of Day' (2025-11 uploads) but index label alone is not sufficient per rubric."
+ },
+ {
+  "idx": 1,
+  "eia_id": "12524",
+  "utility": "Midwest Energy",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.mwenergy.com/assets/documents/Index_90_-_Load_Control_Program_Company_Wide.pdf",
+  "note": "Index 90 Load Control Program, eff 2025-11-17: voluntary dispatchable load control for IGS irrigation customers, first-come; seasonal Jun-Sep, enroll by May 15. Counts as C&I (ag/irrigation) dispatch; not general commercial."
+ },
+ {
+  "idx": 2,
+  "eia_id": "4063",
+  "utility": "Co-Mo Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.co-mo.coop/our-rates",
+  "note": "Residential rates eff 2026-04-01 include $5.00 demand charge on all residential; also optional TOU/EV rate (on-peak 20.56c)."
+ },
+ {
+  "idx": 3,
+  "eia_id": "5661",
+  "utility": "City of Edmond (Edmond Electric)",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.edmondok.gov/1302/Business-Rates",
+  "note": "GS-TOU, PL-TOU, LPL-TOU (on-peak 2-7 pm) listed."
+ },
+ {
+  "idx": 4,
+  "eia_id": "19293",
+  "utility": "Southeastern Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://southeasternelectric.com/about/rates-policies/",
+  "note": "Rate 310 Urban Residential (eff Jan 2026) includes controlled water heater credit (50+ gal) - utility-controlled WH. Limited to platted developments; Dual Fuel 190 closed to new members. Cited load-control page is generic (source weak; log as minor source defect)."
+ },
+ {
+  "idx": 5,
+  "eia_id": "16267",
+  "utility": "Rolling Hills Electric Cooperative, Inc.",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.rollinghills.coop/2025-rate-study",
+  "note": "Rate-study page shows current residential demand charge $0.00/kW and proposed $2.00/kW summer, $1.00 winter; whether proposed rates took effect (Oct 1 newsletter) not confirmable - newsletter PDF fetch failed. No TOU/EV/PTR/CPP shown. Possible Yes-defect if demand charge was not adopted."
+ },
+ {
+  "idx": 6,
+  "eia_id": "12524",
+  "utility": "Midwest Energy",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.mwenergy.com/assets/documents/Index_54_-_General_Service_Large_Time_of_Day_-_M_System.pdf",
+  "note": "Optional GSL-TOD eff 2026-02-01, on-peak 2-9 pm Mon-Sat Jun-Aug, >=25 kW."
+ },
+ {
+  "idx": 7,
+  "eia_id": "14062",
+  "utility": "Oklahoma Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://okcoop.org/time-of-use-rate/",
+  "note": "Residential TOU, on-peak 3-7 pm weekdays Jun-Aug at 24c/kWh, switch-rate form live."
+ },
+ {
+  "idx": 8,
+  "eia_id": "8934",
+  "utility": "Howell-Oregon Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.hoecoop.org/peakalert",
+  "note": "Only voluntary behavioral Peak Alert (no devices/credits); dual fuel page only mentions rebates; no utility-controlled load program found."
+ },
+ {
+  "idx": 9,
+  "eia_id": "10599",
+  "utility": "Lake Region Electric Cooperative (LREC)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.lrecok.coop/electric-rates",
+  "note": "Residential flat $0.0981/kWh; TOU and demand only on Large General Service."
+ },
+ {
+  "idx": 10,
+  "eia_id": "20318",
+  "utility": "Webster Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.websterec.com/your-co-op/rates/",
+  "note": "Only flat energy + large commercial demand charge (plain demand charge does not count)."
+ },
+ {
+  "idx": 11,
+  "eia_id": "11251",
+  "utility": "Loup Power District",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://loup.com/load-control/",
+  "note": "Load control page (Jun15-Sep15) does not mention residential appliances; only interruptible rate is LIS-I irrigation. No residential DLC/thermostat found."
+ },
+ {
+  "idx": 12,
+  "eia_id": "4296",
+  "utility": "Cookson Hills Electric Cooperative (CHEC)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.cooksonhills.com/rates",
+  "note": "Farm & Home Rate 1 flat/declining block; no residential TOU/demand/EV/PTR found (site search for EV rate found nothing)."
+ },
+ {
+  "idx": 13,
+  "eia_id": "27238",
+  "utility": "Southwest Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.swec.org/rate-structure-fees",
+  "note": "Single-phase residential flat $0.105/kWh (Apr 2026); demand $4.75/kW only on Three Phase Service (first 20 kWd free), not clearly residential. No TOU/EV/PTR/CPP."
+ },
+ {
+  "idx": 14,
+  "eia_id": "20927",
+  "utility": "Wood County Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.wcec.org/your-account/rates-line-extension-charges/",
+  "note": "Cited FAQ page empty of rates (weak source; replacement used). Schedule A single-phase flat $0.11506/kWh; demand only on 3-ph GS/LP. No TOU/EV/PTR/CPP."
+ },
+ {
+  "idx": 15,
+  "eia_id": "20476",
+  "utility": "Western Cooperative Electric Association, Inc.",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://westerncoop.com/rate-tariffs",
+  "note": "Only GS Small/Medium/Large, Local Access Delivery, Sub-Transmission; rate-study page describes demand + energy only, no time-based rate. Tariff PDFs not opened (weak confirmation)."
+ },
+ {
+  "idx": 16,
+  "eia_id": "5780",
+  "utility": "Elkhorn Rural Public Power District (ERPPD)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://erppd.com/customer-service/rates-schedules/",
+  "note": "Residential schedules flat; time-based only irrigation daily-control. EV link is incentive only."
+ },
+ {
+  "idx": 17,
+  "eia_id": "4671",
+  "utility": "Custer Public Power District",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.custerpower.com/customer-service/",
+  "note": "Only irrigation load control referenced; no residential DLC/thermostat/WH program."
+ },
+ {
+  "idx": 18,
+  "eia_id": "6198",
+  "utility": "Farmers' Electric Cooperative of New Mexico (FEC)",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.fecnm.org/rates",
+  "note": "Only Commercial Service and Commercial EV Charger Service listed; no TOU named. PDFs not machine-checked (weak confirmation; Commercial EV Charger Service rate could be time-differentiated)."
+ },
+ {
+  "idx": 19,
+  "eia_id": "9331",
+  "utility": "Intercounty Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.ieca.coop/rates",
+  "note": "Residential flat $0.0979/kWh + $1.59/day; no TOU/demand/EV/PTR/CPP."
+ }
+]

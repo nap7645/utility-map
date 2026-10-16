@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "5063",
+  "utility": "Denton Municipal Electric",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.cityofdenton.com/333/Business-Electric-Services",
+  "note": "General Service Time of Use (TGS): on-peak demand $13.97/kVA vs off-peak $2.76/kVA."
+ },
+ {
+  "idx": 1,
+  "eia_id": "1175",
+  "utility": "Bandera Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.banderaelectric.com/account/payment-billing-options/time-based-usage/",
+  "note": "Voluntary Time Based Usage rate, single-phase rates effective 7/1/2026."
+ },
+ {
+  "idx": 2,
+  "eia_id": "1175",
+  "utility": "Bandera Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.banderaelectric.com/energy-services/programs/smart-thermostat/",
+  "note": "BEC adjusts enrolled ecobee thermostats at peak; $8/mo credit at >=70% event participation; enroll now."
+ },
+ {
+  "idx": 3,
+  "eia_id": "14626",
+  "utility": "Pedernales Electric Cooperative, Inc.",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://mypec.com/large-power-rates/",
+  "note": "Large power TOU base power charge (summer peak 4:01-8 pm) + 4CP transmission charge."
+ },
+ {
+  "idx": 4,
+  "eia_id": "7752",
+  "utility": "Guadalupe Valley Electric Cooperative (GVEC)",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.gvec.org/electric/time-of-use-billing/",
+  "note": "Residential Time of Use program, enroll by phone."
+ },
+ {
+  "idx": 5,
+  "eia_id": "5078",
+  "utility": "CoServ Electric (Denton County Electric Cooperative, Inc.)",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.coserv.com/service/commercial/commercial-rates/",
+  "note": "Demand Metered TOU, Industrial TOU, Public Buildings TOU rates."
+ },
+ {
+  "idx": 6,
+  "eia_id": "6182",
+  "utility": "Farmers Electric Cooperative (Texas)",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://farmerselectric.coop/energy-solutions/google-nest-rush-hour-rewards-program/",
+  "note": "Residential Nest Rush Hour Rewards DR, $50 first-year credit, Enroll Now."
+ },
+ {
+  "idx": 7,
+  "eia_id": "19490",
+  "utility": "United Cooperative Services (United Electric Cooperative Services, Inc.)",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://ucs.net/thermostat-program",
+  "note": "BYOT Nest/Honeywell DR, $10/mo Jun-Sep, up to 20 events."
+ },
+ {
+  "idx": 8,
+  "eia_id": "7559",
+  "utility": "Grayson-Collin Electric Cooperative, Inc.",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.gcec.net/rates",
+  "note": "Cited rates page lists residential 'Time of Use' plan: $28 base, on-peak $0.250/kWh (2-7 pm M-F), off-peak $0.1150/kWh. Flip res_habit to Yes."
+ },
+ {
+  "idx": 9,
+  "eia_id": "2409",
+  "utility": "Brownsville Public Utilities Board (BPUB)",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.bpub.com/services/electric/energy-conservation",
+  "note": "Programs: rebates, audits, solar only; site search found no C&I DR/interruptible."
+ },
+ {
+  "idx": 10,
+  "eia_id": "1273",
+  "utility": "Bartlett Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://bartlettec.coop/energy-conservation",
+  "note": "Tips only; site search returns only B-Green Rebates; no DR."
+ },
+ {
+  "idx": 11,
+  "eia_id": "4146",
+  "utility": "Concho Valley Electric Cooperative, Inc.",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://cvec.coop/services/faqs",
+  "note": "Only V.I.P. heat-pump incentive; site search found no load control."
+ },
+ {
+  "idx": 12,
+  "eia_id": "8620",
+  "utility": "HILCO Electric Cooperative, Inc.",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://hilco.coop/energy-conservation/for-consumers",
+  "note": "Thermostat page is purchase rebate only (2026); consumer page has peak-hour conservation tips only, no co-op control."
+ },
+ {
+  "idx": 13,
+  "eia_id": "6958",
+  "utility": "Garland Power & Light",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.gpltexas.org/save-energy-money/energysaver-program",
+  "note": "EnergySaver = efficiency bill credits (page says ended 9/30/2020 - stale source); site search found no thermostat/DR program."
+ },
+ {
+  "idx": 14,
+  "eia_id": "6182",
+  "utility": "Farmers Electric Cooperative (Texas)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://farmerselectric.coop/billing-plans/",
+  "note": "Billing plans: prepaid, monthly, budget; rates page shows class % changes only; site search for TOU returned nothing."
+ },
+ {
+  "idx": 15,
+  "eia_id": "8620",
+  "utility": "HILCO Electric Cooperative, Inc.",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://static.spacecrafted.com/b993f461c2024818b0c102c57b4d48fc/r/b9129c1aca994a4fba67d678ca0fe16a/1/HECRateSheet.pdf",
+  "note": "Rate sheet PDF has no machine-readable text (image). Business page shows conservation tips only."
+ },
+ {
+  "idx": 16,
+  "eia_id": "13418",
+  "utility": "New Braunfels Utilities",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.nbutexas.com/wp-content/uploads/2023/04/FY-2024-Electric-Rates.pdf",
+  "note": "SGS/LGS/VLP: seasonal generation rate, flat transmission, 15-min demand; no TOU/4CP/RTP. SOURCE DEFECT: FY2024 sheet is stale (FY26-27 rates approved); site search found no TOU."
+ },
+ {
+  "idx": 17,
+  "eia_id": "19159",
+  "utility": "Tri-County Electric Cooperative, Inc. (Texas)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.tcectexas.com/sites/default/files/2025-05/rate-schedules-effective-january-2024.pdf",
+  "note": "202.1 Residential flat $0.14425/kWh; TOU only for public buildings (202.13) and LGS (202.14). Edge: 3-phase residential >=50 kVA can be on LGS-1 with demand charge."
+ },
+ {
+  "idx": 18,
+  "eia_id": "14626",
+  "utility": "Pedernales Electric Cooperative, Inc.",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.pec.coop/your-service/critical-load-program/",
+  "note": "Cited page is nonresidential critical-load registry (weak source). Site search: Power Rush Hour = voluntary peak alerts, no device control/VPP found. SOURCE DEFECT: cite irrelevant page."
+ },
+ {
+  "idx": 19,
+  "eia_id": "7979",
+  "utility": "Hamilton County Electric Cooperative Association",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.hamiltonelectric.coop/new-service/rates-fees/",
+  "note": "Rate 01 flat; site search found newsletters/tips only."
+ }
+]

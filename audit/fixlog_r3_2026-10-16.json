@@ -1,0 +1,121 @@
+[
+[
+"7559",
+"res_habit",
+"Yes",
+"https://www.gcec.net/rates",
+"round-3 audit: Cited rates page lists residential 'Time of Use' plan: $28 base, on-peak $0.250/kWh (2-7 pm M-F), off-peak $0.1150/kWh. Flip res_habit to Ye"
+],
+[
+"59505",
+"res_dispatch",
+"No",
+"https://www.heartlandremc.com/rebates",
+"round-3 audit: Cited WVPA page is PowerShift for schools/facilities via Hendricks Power only - not residential, does not name Heartland. Heartland rebates "
+],
+[
+"4362",
+"res_habit",
+"Yes",
+"https://cornbeltenergy.com/wp-content/uploads/2024/07/Rate-1-EV-Amended-7-25-24.pdf",
+"round-3 audit: Rate 1-EV: optional residential/farm EV+battery TOU, on-peak 2-7 pm M-F $0.185, off-peak $0.030; eff June 2019, amended 2024-07-25. Listed o"
+],
+[
+"5585",
+"res_habit",
+"Yes",
+"https://eiec.org/demand-information",
+"round-3 audit: Demand page: 'Beginning in March of 2024, Eastern Illini Electric Cooperative has added a demand component for all rate classes' - Rate 1 si"
+],
+[
+"14711",
+"ci_dispatch",
+"Unknown",
+"",
+"round-3 audit: Cited page (2017 release) and current C&I DR page/FAQ: 'The DR Program is only offered to customers of Met-Ed, Penn Power and West Penn Powe"
+],
+[
+"6784",
+"res_habit",
+"No",
+"https://www.frenchbroademc.com/index.php/billing/rates-and-fees/",
+"round-3 audit: Residential: Primary/Secondary/FlexPay flat 12.9c/kWh + base charge; demand charge only on Large Power. Site search found no res TOU/CPP/EV "
+],
+[
+"12330",
+"res_dispatch",
+"Yes",
+"https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+"round-3 audit: Meriwether Lewis Electric Cooperative is listed as a participating LPC in TVA EnergyRight Smart Thermostat Rewards (thermostat DR, up to 4F/"
+],
+[
+"19162",
+"res_dispatch",
+"Yes",
+"https://www.tcemc.org/?p=1894",
+"round-3 audit: Tri-County EMC (TN) own Demand Response Program: water-heater switch cycling and thermostat -3F during TVA peaks; $1,500 install fee waived "
+],
+[
+"7222",
+"res_habit",
+"No",
+"https://gillettewy.gov/files/assets/public/v/2/finance/documents/customer-service/utility_rates.pdf",
+"round-3 audit: Cited ch.17 PDF and city rate sheet show only flat residential + all-electric residential (customer charge + kWh); demand rate is General Se"
+],
+[
+"17470",
+"res_dispatch",
+"No",
+"https://www.snopud.com/save-energy/residential/peak-assist-program/",
+"round-3 audit: Cited FlexResponse page: pilots no longer active (2021-2024). Replacement Peak Assist is behavioral (customer self-curtails, no device contr"
+],
+[
+"10448",
+"res_dispatch",
+"Unknown",
+"",
+"round-3 audit: cited WVPA page is a schools-only program run via Hendricks Power, not residential DR for this co-op"
+],
+[
+"13647",
+"res_dispatch",
+"Unknown",
+"",
+"round-3 audit: cited WVPA page is a schools-only program run via Hendricks Power, not residential DR for this co-op"
+],
+[
+"14471",
+"res_dispatch",
+"Unknown",
+"",
+"round-3 audit: cited WVPA page is a schools-only program run via Hendricks Power, not residential DR for this co-op"
+],
+[
+"24753",
+"res_dispatch",
+"Unknown",
+"",
+"round-3 audit: cited WVPA page is a schools-only program run via Hendricks Power, not residential DR for this co-op"
+],
+[
+"27599",
+"res_dispatch",
+"Unknown",
+"",
+"round-3 audit: cited WVPA page is a schools-only program run via Hendricks Power, not residential DR for this co-op"
+],
+[
+"8000",
+"res_dispatch",
+"Unknown",
+"",
+"round-3 audit: cited WVPA page is a schools-only program run via Hendricks Power, not residential DR for this co-op"
+],
+[
+"9999",
+"res_dispatch",
+"Unknown",
+"",
+"round-3 audit: cited WVPA page is a schools-only program run via Hendricks Power, not residential DR for this co-op"
+]
+]

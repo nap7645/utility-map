@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "59505",
+  "utility": "Heartland REMC",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://www.heartlandremc.com/rebates",
+  "note": "Cited WVPA page is PowerShift for schools/facilities via Hendricks Power only - not residential, does not name Heartland. Heartland rebates page: only WH/geo/ASHP rebates, no DLC/thermostat/BYOD. Unsupported Yes; set No (or Unknown) unless a member-specific program is found."
+ },
+ {
+  "idx": 1,
+  "eia_id": "19790",
+  "utility": "Verendrye Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://verendrye.com/peak-program",
+  "note": "Off-peak program: co-op controls water heaters, AC, heat pumps during system peak for reduced rate. Enrollment window not stated but presented as active."
+ },
+ {
+  "idx": 2,
+  "eia_id": "20996",
+  "utility": "Wright-Hennepin Cooperative Electric Association",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.whe.org/rates",
+  "note": "Rates page: 'Other Commercial Rate Options' include rate structures for 'Interruptible loads'. Terms not on page (thin but explicit)."
+ },
+ {
+  "idx": 3,
+  "eia_id": "14471",
+  "utility": "Parke County REMC",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.wvpa.com/summer-enrollment/",
+  "note": "Cited WVPA page is PowerShift for schools via Hendricks Power, not residential and does not name Parke County REMC - source defect. Utility site search returned nothing usable. Likely unsupported Yes; needs re-research."
+ },
+ {
+  "idx": 4,
+  "eia_id": "13815",
+  "utility": "Northwestern Wisconsin Electric Company (NWECO)",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.nweco.com/commercial.html",
+  "note": "GS-2 Commercial TOD, CP-2 optional TOD, CP-3 Large Power TOD."
+ },
+ {
+  "idx": 5,
+  "eia_id": "18336",
+  "utility": "Superior Water Light & Power Co (ALLETE)",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.swlp.com/CustomerService/ElectricRatesExtensionRules",
+  "note": "Residential Service Time-of-Day (ERTD) on-peak 15.14/15.98c, off-peak 7.60c."
+ },
+ {
+  "idx": 6,
+  "eia_id": "10704",
+  "utility": "Lansing Board of Water & Light",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.lbwl.com/documents/2025-residential-electric",
+  "note": "RES1 standard residential is TOU (on-peak 1-8 pm M-F), RESTOU optional, RES22 EV rate; valid from 2025-10-01."
+ },
+ {
+  "idx": 7,
+  "eia_id": "14468",
+  "utility": "People's Energy Cooperative",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://peoplesenergy.coop/rates",
+  "note": "Cited off-peak page is a controlled-load program (better fits res_dispatch; minor source defect). Rates page (eff May 2026): Optional Residential TOU, Optional Residential Demand ($6.29-8.19/kW), EV Charging TOU, EV subscription pilot."
+ },
+ {
+  "idx": 8,
+  "eia_id": "8449",
+  "utility": "Henderson Municipal Power & Light",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.hmpl.com/programs.html",
+  "note": "Only HVAC rebate, attic insulation, Critical Needs; no DLC/thermostat/BYOD."
+ },
+ {
+  "idx": 9,
+  "eia_id": "1366",
+  "utility": "Bay City Electric Light & Power",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.baycitymi.gov/DocumentCenter/View/6126/2022-2024-BCELP-Electric-Service-Rate-Schedule-v2",
+  "note": "No interruptible/curtailable/DR rider in Rates 2-13 (GS-TOU Rate 5 is habit, not dispatch). Note: schedule is 2022-2024 vintage (amended Feb 2023); a newer rate book may exist."
+ },
+ {
+  "idx": 10,
+  "eia_id": "9096",
+  "utility": "Lafayette Utilities System",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://lus.org/rates/electric-rates/",
+  "note": "Residential in-city/non-city/net meter only; no TOU/demand/EV/PTR/CPP."
+ },
+ {
+  "idx": 11,
+  "eia_id": "4362",
+  "utility": "Corn Belt Energy Corporation",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://cornbeltenergy.com/wp-content/uploads/2024/07/Rate-1-EV-Amended-7-25-24.pdf",
+  "note": "Rate 1-EV: optional residential/farm EV+battery TOU, on-peak 2-7 pm M-F $0.185, off-peak $0.030; eff June 2019, amended 2024-07-25. Listed on https://cornbeltenergy.com/rates/ (both regions)."
+ },
+ {
+  "idx": 12,
+  "eia_id": "8449",
+  "utility": "Henderson Municipal Power & Light",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.hmpl.com/rates-and-fees.html",
+  "note": "Residential flat 7.941c/kWh + PCA; demand only >300 kW."
+ },
+ {
+  "idx": 13,
+  "eia_id": "5585",
+  "utility": "Eastern Illinois Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://eiec.org/demand-information",
+  "note": "Demand page: 'Beginning in March of 2024, Eastern Illini Electric Cooperative has added a demand component for all rate classes' - Rate 1 single-phase (residential) includes a demand charge. $/kW not shown on page; moderate confidence."
+ },
+ {
+  "idx": 14,
+  "eia_id": "18312",
+  "utility": "Sun Prairie Utilities",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "No",
+  "evidence_url": "https://www.sunprairieutilities.com/interruptible-load-credits",
+  "note": "Cited thermostat page is purchase rebate only ($25), no DR enrollment. But site has an 'Interruptible Load Credits' page (WPPI template; likely C&I) that failed to fetch - cannot rule out residential dispatch."
+ },
+ {
+  "idx": 15,
+  "eia_id": "18961",
+  "utility": "Twin County Electric Power Association",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.twincoepa.com/member-services/basic-rates-fees/",
+  "note": "Residential flat energy + minimum bill (eff 2025-06-01); no TOU/demand/EV/PTR/CPP."
+ },
+ {
+  "idx": 16,
+  "eia_id": "16613",
+  "utility": "Sam Houston Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "No",
+  "evidence_url": "https://www.samhouston.net/member-services/energy-charges-service-rates/",
+  "note": "samhouston.net blocks fetch (robots); replacement (notice-of-rate-change) also blocked."
+ },
+ {
+  "idx": 17,
+  "eia_id": "13143",
+  "utility": "Muscatine Power & Water (Board of Water, Electric & Communications)",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://mpw.org/wp-content/uploads/MPW-Electric-Rates-07-01-2025.pdf",
+  "note": "Commercial I/II, Industrial I/II (eff 2025-07-01): flat or demand + hours-use tiers; no TOU/TOD/RTP."
+ },
+ {
+  "idx": 18,
+  "eia_id": "20222",
+  "utility": "Wayne-White Counties Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.waynewhitecoop.com/your-account/residential-rates/",
+  "note": "Rate 1 flat $0.12379; Rate 2 seasonal electric heat blocks; kVA minimum only (not a demand charge)."
+ },
+ {
+  "idx": 19,
+  "eia_id": "17683",
+  "utility": "Southwest Mississippi Electric Power Association",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://southwestelectric.coop/residential-rates/",
+  "note": "Residential Rates 1/13/101/113/201/213 (eff 2025-11-01); sample bill flat $0.11202/kWh + daily charge; no TOU/demand/EV named. Rate PDFs not opened (moderate)."
+ }
+]

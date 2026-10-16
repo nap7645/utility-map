@@ -455,3 +455,19 @@ Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live,
 - Program rows: NES Time-of-Use Rate segment -> C&I only; Clark PUD EV managed charging -> DR-DLC.
 - Verified: audit/verify_rescan_2026-10-15.md (32/33 decidable agree; PowerFlex policy rejected -> applied Unknown). Connexus ci_habit/ci_dispatch probably Yes (programs-derived Yes stands for ci_habit).
 - NEXT: round-3 re-audit on fresh seed to measure (~0.5M); live-site check; Nathan spot checks + audit.py --links.
+
+## 2026-10-16 — round-3 re-audit
+- Fresh seed 20261016 (audit/samples_r3, results_r3, AUDIT_R3_*.md), 120 cells in PJM/ERCOT/SPP/MISO/West/SE (CAISO/NYISO/AKHI pools exhausted). Pooled: see SUMMARY in chat; No bar passes, Yes bar fails (~87%).
+- Applied the 10 refutations + 7 more Indiana REMC res_dispatch cells citing the same WVPA schools-only page -> Unknown (audit/fixlog_r3_2026-10-16.json). Penelec ci_dispatch stays Yes (programs-derived FirstEnergy C&I DR row; new 2026-31 PA plan unchecked).
+- Remaining Yes errors look random (flat rates, ended pilots), not clustered. Decision for Nathan: accept Yes ~90% or full Yes re-verify (~1,100 cells, ~2.5-3M).
+- 2026-10-16 decision (Nathan): presence accuracy "good enough for now". Yes bar set to 90% in audit/RUBRIC.md (round 3: Yes 87.5% on 40 cells, No 92.6%). Full Yes re-verify (~2.5-3M) deferred.
+- NEXT: live-site check (~0.15M) closes Rank 0; Nathan: RUBRIC §3 spot checks + `python3 scripts/audit.py --links`. Then Rank 1 (plans/RANK1.md; 5 decisions first).
+
+## 2026-10-16 (b) — Rank 1 started: bill structure Phase A + Phase B pilot
+- Defaults taken for the 5 RANK1 decisions (no paid data; res + small C&I default/TOU/EV/demand; LMP blank outside RTOs; hosting capacity links only; aggregators with a program/market route only).
+- URDB bulk CSV (Nathan download) at data/usurdb.csv, gitignored (195 MB). eia.gov / openei.org are blocked by the egress proxy in both sandboxes.
+- Phase A: scripts/urdb_coverage.py -> data/processed/urdb_coverage.csv. Of 993 territories: current (res schedule started <24 mo) 134 = 63% of customers; stale 736 = 28%; no active res schedule 123 = 8%. Fixing the top 100 / 200 / 400 non-current by customers -> 87% / 91% / 95% customer coverage.
+- scripts/urdb_extract.py -> data/processed/tariffs.csv (2,363 schedules, 134 territories) + tariff_periods.csv (12,731 rows); drops superseded and >24-mo-older versions. Not yet filtered to small C&I; not yet verified.
+- Schema: plans/TARIFF_SCHEMA.md (added demand_seasonal, note).
+- Phase B pilot (data/raw/tariffs/pilot_*): SCE, SMUD, Ameren MO, Pedernales done (17 schedules); Duke Energy Progress failed (all PDFs blocked). ~26k tokens per utility. Verified audit/verify_tariff_pilot_2026-10-16.md: 98/101 fields; Ameren is_default fixed, seasonal demand field added.
+- Phase B estimate: top 100 ~3M, top 200 ~6M tokens (incl. verification). Decision for Nathan.

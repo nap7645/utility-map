@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "7639",
+  "utility": "Greenville Utilities Commission (GUC)",
+  "cell": "ci_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.guc.com/sites/default/files/uploads/07-01-25%20Rates/07-01-25%20electric%20rates/electric-rate-schedule-eg-3-july-1-2025.pdf",
+  "note": "EG-3/EG-4 Medium/Large General Service-CP: $17.76/CP kW billed on NCEMPA monthly coincident-peak hour with advance CP-period notices -> shifting-oriented rate. Cited listing page alone does not define CP."
+ },
+ {
+  "idx": 1,
+  "eia_id": "3757",
+  "utility": "Clay Electric Cooperative, Inc.",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://clayelectric.com/sites/default/files/documents/RateBook0625.pdf",
+  "note": "Rate Schedules INT and INT-T: interruptible service >=500 kW, $11.70/kW interruptible demand credit."
+ },
+ {
+  "idx": 2,
+  "eia_id": "17033",
+  "utility": "Sheffield Utilities",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+  "note": "Sheffield Utilities listed as participating LPC in TVA EnergyRight Smart Thermostat Rewards (up to 4F / 4h adjustments during peak, per greatergrid.com/enroll/programs/thermostats/tvaenergyright). Enrollment status not dated."
+ },
+ {
+  "idx": 3,
+  "eia_id": "9617",
+  "utility": "JEA",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.jea.com/My_Account/Rates/Electric_Tariff.aspx",
+  "note": "Cited tariff page and Oct-2026 rates PDF both return bot-verification (captcha) pages; unreadable."
+ },
+ {
+  "idx": 4,
+  "eia_id": "6784",
+  "utility": "French Broad Electric Membership Corporation",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://www.frenchbroademc.com/index.php/billing/rates-and-fees/",
+  "note": "Residential: Primary/Secondary/FlexPay flat 12.9c/kWh + base charge; demand charge only on Large Power. Site search found no res TOU/CPP/EV rate."
+ },
+ {
+  "idx": 5,
+  "eia_id": "3916",
+  "utility": "Cobb EMC",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.cobbemc.com/smart-choice-rate",
+  "note": "Smart Choice residential rate: Peak Service Charge on highest 1-h kWh 2-7pm on Energy Saving Peak Days (Jun-Sep), 2026 peak days listed, sign-up open."
+ },
+ {
+  "idx": 6,
+  "eia_id": "944",
+  "utility": "Athens Utilities",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+  "note": "Athens Utilities listed as participating LPC in TVA Smart Thermostat Rewards (peak adjustments up to 4F/4h)."
+ },
+ {
+  "idx": 7,
+  "eia_id": "17539",
+  "utility": "Dominion Energy South Carolina",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "http://www.dominionenergy.com/en/South-Carolina/Large-Business-Services",
+  "note": "Interruptible Service Program/Rider: industrial on Rate 23/24, >=1,000 kW interruptible, demand-charge discount; limited capacity."
+ },
+ {
+  "idx": 8,
+  "eia_id": "7450",
+  "utility": "Grady EMC",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://gradyemc.com/rebates-services/",
+  "note": "Only audit, EV charger rebate, Green Power, solar tool; no DR/load control."
+ },
+ {
+  "idx": 9,
+  "eia_id": "15211",
+  "utility": "Pontotoc Electric Power Association",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+  "note": "Pontotoc EPA not in TVA Smart Thermostat Rewards LPC list (cited thermostatrewards URL 302-redirects there); search found no own-site DR program. Moderate confidence."
+ },
+ {
+  "idx": 10,
+  "eia_id": "4624",
+  "utility": "Cumberland Electric Membership Corporation",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://cemc.org/wp-content/uploads/2025/01/RATES-2025-FCA192-202501-002.pdf",
+  "note": "RS/SRS flat customer + energy charge; no TOU/demand/CPP/EV."
+ },
+ {
+  "idx": 11,
+  "eia_id": "26218",
+  "utility": "Little Ocmulgee EMC",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.loemc.com/",
+  "note": "Homepage/residential links: Home Energy Suite, Lowering Your Bill only; no DR/load control."
+ },
+ {
+  "idx": 12,
+  "eia_id": "9616",
+  "utility": "Beaches Energy Services",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.beachesenergy.com/energy-savings/residential-commercial-rates",
+  "note": "Rate page and site search: no load management/thermostat/water-heater DR program."
+ },
+ {
+  "idx": 13,
+  "eia_id": "12330",
+  "utility": "Meriwether Lewis Electric Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://greatergrid.com/enroll/programs/thermostats/tvaenergyright/faq/lpc",
+  "note": "Meriwether Lewis Electric Cooperative is listed as a participating LPC in TVA EnergyRight Smart Thermostat Rewards (thermostat DR, up to 4F/4h at peak)."
+ },
+ {
+  "idx": 14,
+  "eia_id": "19219",
+  "utility": "Diverse Power",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.diversepower.com/content/uploads/Residential-Service-Electric-Rate-1.pdf",
+  "note": "Residential: $40 base + seasonal tiered kWh; no TOU/demand/CPP. Note rate code 11 labeled Demand Metered but no demand charge."
+ },
+ {
+  "idx": 15,
+  "eia_id": "18305",
+  "utility": "Sumter EMC",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://sumteremc.coop/fees-and-rates",
+  "note": "Rates 6/16/21/23/41/43 are TOU/large power, none labeled interruptible/curtailable/DR; tariff PDFs not opened. Moderate confidence."
+ },
+ {
+  "idx": 16,
+  "eia_id": "19162",
+  "utility": "Tri-County Electric Membership Corporation",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "REFUTED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.tcemc.org/?p=1894",
+  "note": "Tri-County EMC (TN) own Demand Response Program: water-heater switch cycling and thermostat -3F during TVA peaks; $1,500 install fee waived for participants. (Not in TVA thermostat LPC list, which the No apparently relied on.)"
+ },
+ {
+  "idx": 17,
+  "eia_id": "15700",
+  "utility": "Rayle EMC",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.rayleemc.com/customer-service",
+  "note": "Residential services: rebates, audits only; no DR/load control."
+ },
+ {
+  "idx": 18,
+  "eia_id": "1891",
+  "utility": "Blue Ridge Mountain EMC",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.brmemc.com/electric-rate-sheet/",
+  "note": "GSA 1/2/3 (Sep 2026): flat/blocked energy + demand; no TOU/RTP."
+ },
+ {
+  "idx": 19,
+  "eia_id": "40212",
+  "utility": "Colquitt EMC",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://colquittemc.com/energy-management",
+  "note": "Energy management page: usage tools, audits, solar; no DR/load control."
+ }
+]

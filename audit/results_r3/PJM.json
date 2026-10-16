@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "84",
+  "utility": "A&N Electric Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.anec.com/your-account/anec-rates/",
+  "note": "Rates page lists Schedule CS-1 (Curtailable Service Rider) under Non-Residential. SOURCE DEFECT: cited cs-1.pdf blocked by robots (unreadable to fetcher); replace with rates page."
+ },
+ {
+  "idx": 1,
+  "eia_id": "9575",
+  "utility": "Jackson Energy Cooperative",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://www.jacksonenergy.com/energy-efficiency-programs",
+  "note": "EKPC page shows SimpleSaver (thermostat/AC, up to $20/yr credits) for unnamed 'participating co-ops'. Jackson's own EE page lists no load-control program; Jackson absent from 2012 Kentucky Living SimpleSaver co-op list; Jackson DSM-1 DLC tariff page cancelled 2019. Participation not shown; leans No."
+ },
+ {
+  "idx": 2,
+  "eia_id": "963",
+  "utility": "Atlantic City Electric Co (ACE)",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://www.atlanticcityelectric.com/SmartEnergy/InnovationAndTechnology/Pages/ElectricVehicleProgram.aspx",
+  "note": "Cited page and /evsmart render JS-only (no text). NJ BPU 5/24/2023 order shows ACE proposed off-peak BGS EV energy credit eff. 6/1/2023 (not a full TOU); approval paragraphs not visible. Need tariff PDF check."
+ },
+ {
+  "idx": 3,
+  "eia_id": "14711",
+  "utility": "Pennsylvania Electric Co (Penelec)",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://www.firstenergycorp.com/save_energy/save_energy_pennsylvania/pennpower/for_your_business/commercial-industrial-demand-response.html",
+  "note": "Cited page (2017 release) and current C&I DR page/FAQ: 'The DR Program is only offered to customers of Met-Ed, Penn Power and West Penn Power'; dated 2017-2020, last mod 2021. Penelec excluded. Phase V (2026-31) plan not checked. DATA DEFECT also: state=OH, Penelec is PA."
+ },
+ {
+  "idx": 4,
+  "eia_id": "12515",
+  "utility": "Midwest Electric, Inc.",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://midwestrec.com/rebates",
+  "note": "Midwest Electric (midwestrec.com) Cool Returns AC switch ($100 + $5/mo Jun-Sep credit), water heater load-mgmt switch required. SOURCE DEFECT: cited Buckeye 'about' page shows no program; replace URL."
+ },
+ {
+  "idx": 5,
+  "eia_id": "4622",
+  "utility": "Cumberland Valley Electric",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://cumberlandvalley.coop/smart-thermostat",
+  "note": "CVE page: '$100 rebate through our SimpleSaver program'; EKPC page shows SimpleSaver thermostats/CAC with up to $20/yr participation credits. Kentucky Living lists CVE as SimpleSaver co-op. Recommend citing CVE page."
+ },
+ {
+  "idx": 6,
+  "eia_id": "20477",
+  "utility": "City of Westerville (Westerville Electric Division)",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.westerville.org/services/electric/programs/community-energy-savings-program",
+  "note": "Smart thermostat DR program, launched, residents can opt in (BYOD)."
+ },
+ {
+  "idx": 7,
+  "eia_id": "6194",
+  "utility": "Farmers RECC",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.farmersrecc.com/rates-business",
+  "note": "Business rates page lists Interruptible Service Tariff, Voluntary Interruptible Service Tariff, Commercial Direct Load Control Tariff. SOURCE DEFECT: cited EKPC EE page is residential; replace URL."
+ },
+ {
+  "idx": 8,
+  "eia_id": "4117",
+  "utility": "Community Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.comelec.coop/your-account/rates/",
+  "note": "Only Schedule A Residential; no TOU/EV/demand/CPP. Nav has 'Beat the Peak' link (undescribed; typically voluntary peak alerts, not a rate)."
+ },
+ {
+  "idx": 9,
+  "eia_id": "3329",
+  "utility": "Chambersburg Electric Department (Borough of Chambersburg)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://ecode360.com/29119315",
+  "note": "Residential 201/211/218 flat energy charge only."
+ },
+ {
+  "idx": 10,
+  "eia_id": "21244",
+  "utility": "Southside Electric Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.sec.coop/energy-services-and-programs/energy-services-programs-savings-programs/",
+  "note": "No C&I interruptible/DR on programs page; site search found none. (Res smart-thermostat DR exists; not this cell.)"
+ },
+ {
+  "idx": 11,
+  "eia_id": "3329",
+  "utility": "Chambersburg Electric Department (Borough of Chambersburg)",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://ecode360.com/29119315",
+  "note": "No interruptible/curtailable/DR provisions. Note: Schedule HV has time-of-day option (relevant to ci_habit, not sampled)."
+ },
+ {
+  "idx": 12,
+  "eia_id": "16558",
+  "utility": "City of Salem Electric Department",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://salemva.gov/DocumentCenter/View/2525/Electric-Rates-PDF",
+  "note": "Schedules list has no interruptible/curtailable/DR."
+ },
+ {
+  "idx": 13,
+  "eia_id": "4065",
+  "utility": "City of Columbus, Division of Power",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.columbus.gov/files/sharedassets/city/v/15/services/public-utilities/dop-rates.pdf",
+  "note": "Commercial schedules flat/demand only; no TOU/RTP."
+ },
+ {
+  "idx": 14,
+  "eia_id": "3291",
+  "utility": "Central Virginia Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "",
+  "evidence_url": "https://www.mycvec.com/account/rate-schedules/",
+  "note": "No TOU named, but Schedule LPM (Large Power Market Service, >=5 MW, member commits to market purchases) may be market/RTP pass-through; Appendix A not readable. Re-check LPM terms."
+ },
+ {
+  "idx": 15,
+  "eia_id": "17564",
+  "utility": "South Kentucky RECC",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://psc.ky.gov/tariffs/electric/South Kentucky RECC/Tariff.pdf",
+  "note": "Classes of Service: Schedule A only residential; no TOU/ETS/EV/demand. (Residential DLC program R-33..R-36 exists - dispatch, not habit.)"
+ },
+ {
+  "idx": 16,
+  "eia_id": "19856",
+  "utility": "Vineland Municipal Electric Utility",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://utilities.vinelandcity.org/rate-tariffs/",
+  "note": "Residential Rate 01 only; no DR/load control."
+ },
+ {
+  "idx": 17,
+  "eia_id": "5625",
+  "utility": "Easton Utilities Commission",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://eastonutilities.com/wp-content/info/electric-tariff.pdf",
+  "note": "Tariff classes R/GS-S/GS-L/GS-P, riders USP/ER/RGGI; no interruptible/DR. Site search found no DR program. Tariff text partly truncated."
+ },
+ {
+  "idx": 18,
+  "eia_id": "13208",
+  "utility": "City of Naperville Electric Utility",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.naperville.il.us/services/electric-utility/your-electric-service/electric-rates/",
+  "note": "Residential flat customer + energy charge, demand N/A; site search found no TOU/EV rate."
+ },
+ {
+  "idx": 19,
+  "eia_id": "16558",
+  "utility": "City of Salem Electric Department",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://salemva.gov/192/Electric",
+  "note": "No residential load control on electric page or rates PDF."
+ }
+]

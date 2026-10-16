@@ -12,7 +12,7 @@ Draw a stratified random sample (strata: ownership type IOU / co-op / muni, and 
 
 | Sample | Size | Verdict per item | Pass bar |
 |---|---|---|---|
-| Presence cells set to **Yes** | ~5% of presence cells, min 20 | Confirmed / Refuted / Inconclusive | >=95% of Yes confirmed |
+| Presence cells set to **Yes** | ~5% of presence cells, min 20 | Confirmed / Refuted / Inconclusive | >=90% of Yes confirmed (lowered from 95% by Nathan 2026-10-16) |
 | Presence cells set to **No** | same draw | Confirmed (found nothing on the utility's own site/tariff) / Refuted (found a program) / Inconclusive | >=90% of No confirmed |
 | Program rows | ~10% of rows, min 15 | Name, category, $ value + units, status, URL each correct | 0 wrong $ among the top-10 utilities; log every other error and fix it |
 | State interconnection rows | every state: the 2 focus cells (export credit basis, grid-charging) | Confirmed / Refuted | >=95% confirmed (excl. inconclusive); every error fixed |

@@ -1,0 +1,222 @@
+[
+ {
+  "idx": 0,
+  "eia_id": "7222",
+  "utility": "City of Gillette Utilities",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://gillettewy.gov/files/assets/public/v/2/finance/documents/customer-service/utility_rates.pdf",
+  "note": "Cited ch.17 PDF and city rate sheet show only flat residential + all-electric residential (customer charge + kWh); demand rate is General Service only. No res TOU/demand/CPP/EV rate found."
+ },
+ {
+  "idx": 1,
+  "eia_id": "15248",
+  "utility": "Portland General Electric",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://portlandgeneral.com/save-money/save-money-home/smart-thermostat-program",
+  "note": "SOURCE DEFECT: cited Smart Battery Pilot is full/closed to new participants. Replacement: residential Smart Thermostat Program open (1-3F adjustments during peak events)."
+ },
+ {
+  "idx": 2,
+  "eia_id": "17166",
+  "utility": "Sierra Pacific Power Co (NV Energy - North)",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "Yes",
+  "evidence_url": "https://nvenergy.com/home/saveenergy/rebates/smart-thermostat/documents/ParticipationAgreement.pdf",
+  "note": "Cited page loads no program content. Undated participation agreement covers N. Nevada thermostat DR (rebate similar to OLM-AS) but does not show program currently open."
+ },
+ {
+  "idx": 3,
+  "eia_id": "14224",
+  "utility": "Otero County Electric Cooperative",
+  "cell": "res_habit",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.ocec-inc.com/rates",
+  "note": "Residential Optional TOU rate: on-peak 3-9pm $0.2650, off-peak $0.0900 (rates eff. 01/01/2020)."
+ },
+ {
+  "idx": 4,
+  "eia_id": "13407",
+  "utility": "Nevada Power Co (NV Energy - South)",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "INCONCLUSIVE",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.nvenergy.com/publish/content/dam/nvenergy/brochures_arch/save-with-powershift/smart-thermostat/business/EEDR-Application-Thermostats.pdf",
+  "note": "SOURCE DEFECT: cited summary covers only Retrofit EE program, no DR. Replacement found only a 2018 business thermostat DR application (Nevada Power); no evidence program currently open."
+ },
+ {
+  "idx": 5,
+  "eia_id": "9336",
+  "utility": "CORE Electric Cooperative",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://core.coop/cool-credits/",
+  "note": "Cool Credits summer thermostat DR (CORE/Uplight remote setpoint control) open to commercial members on single-phase / small business rate. Small-commercial only."
+ },
+ {
+  "idx": 6,
+  "eia_id": "17470",
+  "utility": "Snohomish County PUD",
+  "cell": "res_dispatch",
+  "claimed": "Yes",
+  "verdict": "REFUTED",
+  "correct_value": "No",
+  "evidence_url": "https://www.snopud.com/save-energy/residential/peak-assist-program/",
+  "note": "Cited FlexResponse page: pilots no longer active (2021-2024). Replacement Peak Assist is behavioral (customer self-curtails, no device control) and starts Jan 2027. No current res device-control program found."
+ },
+ {
+  "idx": 7,
+  "eia_id": "3660",
+  "utility": "Clark Public Utilities",
+  "cell": "ci_dispatch",
+  "claimed": "Yes",
+  "verdict": "CONFIRMED",
+  "correct_value": "Yes",
+  "evidence_url": "https://www.clarkpublicutilities.com/wp-content/uploads/2025/11/Clark-Public-Utilities-2025-DRPA-Final-Report.pdf",
+  "note": "2025 DRPA report: utility launched an Industrial DR program in 2024 shedding participating customers nominated loads. Report not a program page; terms not shown. Moderate confidence."
+ },
+ {
+  "idx": 8,
+  "eia_id": "10627",
+  "utility": "Lakeview Light & Power",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.lakeviewlight.com/services/rates-fees/rates/",
+  "note": "All commercial classes 810-920 flat energy + demand; no TOU/RTP."
+ },
+ {
+  "idx": 9,
+  "eia_id": "11135",
+  "utility": "Logan City Light & Power",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.loganutah.gov/government/departments/light_and_power/rates.php",
+  "note": "Sched 6/7/8 flat energy + peak demand; no TOU/RTP/interruptible. Sched 4 is public EV charging, not a C&I rate."
+ },
+ {
+  "idx": 10,
+  "eia_id": "3240",
+  "utility": "Central Electric Cooperative",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.cec.coop/your-account/rates/rate-schedules/",
+  "note": "Schedules B, C, EV, F: no TOU/RTP/off-peak/interruptible."
+ },
+ {
+  "idx": 11,
+  "eia_id": "4442",
+  "utility": "Cowlitz PUD",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.cowlitzpud.org/efficiency/residential-programs/",
+  "note": "Residential programs: EE, audits, HEAR only; site search found no DR/load-control program."
+ },
+ {
+  "idx": 12,
+  "eia_id": "17839",
+  "utility": "Springfield Utility Board (SUB)",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.subutil.com/conservation/for-your-home/rebates-loans/smart-thermostat-rebates/",
+  "note": "Only thermostat rebate (bill credit, no DR enrollment); no DR program on residential pages."
+ },
+ {
+  "idx": 13,
+  "eia_id": "12744",
+  "utility": "Modern Electric Water Company",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.modernelectricwater.com/customer-information/rates/rate-schedule/",
+  "note": "Rate schedules 30/32/35/37/38: tiered/flat + plain demand; no DR/load-control program on EE or rate pages."
+ },
+ {
+  "idx": 14,
+  "eia_id": "5086",
+  "utility": "Delta-Montrose Electric Association (DMEA)",
+  "cell": "res_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.dmea.com/rates",
+  "note": "2026 residential RES10/RES13/COZ: flat energy, no TOU/demand/CPP; EV01 is non-residential."
+ },
+ {
+  "idx": 15,
+  "eia_id": "40438",
+  "utility": "Columbia River PUD",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.crpud.net/my-pud/rates-policies/current-rate-schedules-2/",
+  "note": "No interruptible/curtailable/DR schedule among 20-47; Sched 47 is take-or-pay."
+ },
+ {
+  "idx": 16,
+  "eia_id": "7548",
+  "utility": "Grays Harbor PUD",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.ghpud.org/customer-service/customer-rates-fees/",
+  "note": "Sched 50/55/82/84: no interruptible/curtailable/DR. Industrial programs page EE only."
+ },
+ {
+  "idx": 17,
+  "eia_id": "3739",
+  "utility": "Clearwater Power Co",
+  "cell": "res_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.clearwaterpower.com/energy-efficiency/rebate-program/",
+  "note": "Only one-time rebates (smart thermostat, HPWH); no DR enrollment stated."
+ },
+ {
+  "idx": 18,
+  "eia_id": "13758",
+  "utility": "Northern Lights Inc",
+  "cell": "ci_habit",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.nli.coop/account-services/rates/",
+  "note": "Sched 2/3/4/5 summaries: no TOU/RTP. Schedule PDFs not opened; moderate confidence."
+ },
+ {
+  "idx": 19,
+  "eia_id": "12744",
+  "utility": "Modern Electric Water Company",
+  "cell": "ci_dispatch",
+  "claimed": "No",
+  "verdict": "CONFIRMED",
+  "correct_value": "No",
+  "evidence_url": "https://www.modernelectricwater.com/customer-information/rates/rate-schedule/",
+  "note": "Commercial 30/32/38: plain demand charge only; no interruptible/DR."
+ }
+]

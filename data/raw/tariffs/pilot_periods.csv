@@ -1,0 +1,123 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,17609,TOU-D-4-9PM,weekday,Jun-Sep,"0-16,21-24",0,0,,0.33
+,17609,TOU-D-4-9PM,weekday,Jun-Sep,16-21,1,0,,0.59
+,17609,TOU-D-4-9PM,weekend,Jun-Sep,"0-16,21-24",0,0,,0.33
+,17609,TOU-D-4-9PM,weekend,Jun-Sep,16-21,2,0,,0.44
+,17609,TOU-D-4-9PM,weekday,"Jan-May,Oct-Dec","0-8,21-24",3,0,,0.36
+,17609,TOU-D-4-9PM,weekend,"Jan-May,Oct-Dec","0-8,21-24",3,0,,0.36
+,17609,TOU-D-4-9PM,weekday,"Jan-May,Oct-Dec",8-16,4,0,,0.32
+,17609,TOU-D-4-9PM,weekend,"Jan-May,Oct-Dec",8-16,4,0,,0.32
+,17609,TOU-D-4-9PM,weekday,"Jan-May,Oct-Dec",16-21,5,0,,0.5
+,17609,TOU-D-4-9PM,weekend,"Jan-May,Oct-Dec",16-21,5,0,,0.5
+,17609,TOU-D-PRIME,weekday,Jun-Sep,"0-16,21-24",0,0,,0.26
+,17609,TOU-D-PRIME,weekday,Jun-Sep,16-21,1,0,,0.61
+,17609,TOU-D-PRIME,weekend,Jun-Sep,"0-16,21-24",0,0,,0.26
+,17609,TOU-D-PRIME,weekend,Jun-Sep,16-21,2,0,,0.39
+,17609,TOU-D-PRIME,weekday,"Jan-May,Oct-Dec","0-8,21-24",3,0,,0.3
+,17609,TOU-D-PRIME,weekend,"Jan-May,Oct-Dec","0-8,21-24",3,0,,0.3
+,17609,TOU-D-PRIME,weekday,"Jan-May,Oct-Dec",8-16,4,0,,0.24
+,17609,TOU-D-PRIME,weekend,"Jan-May,Oct-Dec",8-16,4,0,,0.24
+,17609,TOU-D-PRIME,weekday,"Jan-May,Oct-Dec",16-21,5,0,,0.45
+,17609,TOU-D-PRIME,weekend,"Jan-May,Oct-Dec",16-21,5,0,,0.45
+,17609,Tiered (Schedule D),weekday,Jan-Dec,0-24,0,0,,0.3
+,17609,Tiered (Schedule D),weekend,Jan-Dec,0-24,0,0,,0.3
+,17609,Tiered (Schedule D),weekday,Jan-Dec,0-24,1,1,,0.39
+,17609,Tiered (Schedule D),weekend,Jan-Dec,0-24,1,1,,0.39
+,16534,R-TOD Time-of-Day 5-8pm (RT02),weekday,Jun-Sep,0-12,0,0,,0.155
+,16534,R-TOD Time-of-Day 5-8pm (RT02),weekday,Jun-Sep,"12-17,20-24",1,0,,0.2139
+,16534,R-TOD Time-of-Day 5-8pm (RT02),weekday,Jun-Sep,17-20,2,0,,0.3765
+,16534,R-TOD Time-of-Day 5-8pm (RT02),weekend,Jun-Sep,0-24,0,0,,0.155
+,16534,R-TOD Time-of-Day 5-8pm (RT02),weekday,"Jan-May,Oct-Dec","0-17,20-24",3,0,,0.1285
+,16534,R-TOD Time-of-Day 5-8pm (RT02),weekday,"Jan-May,Oct-Dec",17-20,4,0,,0.1776
+,16534,R-TOD Time-of-Day 5-8pm (RT02),weekend,"Jan-May,Oct-Dec",0-24,3,0,,0.1285
+,16534,R-TOD Low Use (RTL1),weekday,Jun-Sep,0-12,0,0,,0.192
+,16534,R-TOD Low Use (RTL1),weekday,Jun-Sep,"12-17,20-24",1,0,,0.2514
+,16534,R-TOD Low Use (RTL1),weekday,Jun-Sep,17-20,2,0,,0.4154
+,16534,R-TOD Low Use (RTL1),weekend,Jun-Sep,0-24,0,0,,0.192
+,16534,R-TOD Low Use (RTL1),weekday,"Jan-May,Oct-Dec","0-17,20-24",3,0,,0.1654
+,16534,R-TOD Low Use (RTL1),weekday,"Jan-May,Oct-Dec",17-20,4,0,,0.2148
+,16534,R-TOD Low Use (RTL1),weekend,"Jan-May,Oct-Dec",0-24,3,0,,0.1654
+,16534,R Fixed Rate (RF01),weekday,Jun-Sep,0-24,0,0,,0.2189
+,16534,R Fixed Rate (RF01),weekend,Jun-Sep,0-24,0,0,,0.2189
+,16534,R Fixed Rate (RF01),weekday,"Jan-May,Oct-Dec",0-24,1,0,,0.1371
+,16534,R Fixed Rate (RF01),weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.1371
+,16534,CITS-0 C&I TOD Secondary 0-20 kW,weekday,Jun-Sep,"0-16,21-24",0,0,,0.1465
+,16534,CITS-0 C&I TOD Secondary 0-20 kW,weekday,Jun-Sep,16-21,1,0,,0.3246
+,16534,CITS-0 C&I TOD Secondary 0-20 kW,weekend,Jun-Sep,0-24,0,0,,0.1465
+,16534,CITS-0 C&I TOD Secondary 0-20 kW,weekday,"Jan-May,Oct-Dec","0-9,21-24",2,0,,0.1346
+,16534,CITS-0 C&I TOD Secondary 0-20 kW,weekday,"Jan-May,Oct-Dec",9-16,3,0,,0.1244
+,16534,CITS-0 C&I TOD Secondary 0-20 kW,weekday,"Jan-May,Oct-Dec",16-21,4,0,,0.154
+,16534,CITS-0 C&I TOD Secondary 0-20 kW,weekend,"Jan-May,Oct-Dec","0-9,16-24",2,0,,0.1346
+,16534,CITS-0 C&I TOD Secondary 0-20 kW,weekend,"Jan-May,Oct-Dec",9-16,3,0,,0.1244
+,19436,1(M) Residential Anytime,weekday,Jun-Sep,0-24,0,0,,0.156
+,19436,1(M) Residential Anytime,weekend,Jun-Sep,0-24,0,0,,0.156
+,19436,1(M) Residential Anytime,weekday,"Jan-May,Oct-Dec",0-24,1,0,750,0.1062
+,19436,1(M) Residential Anytime,weekend,"Jan-May,Oct-Dec",0-24,1,0,750,0.1062
+,19436,1(M) Residential Anytime,weekday,"Jan-May,Oct-Dec",0-24,1,1,,0.0714
+,19436,1(M) Residential Anytime,weekend,"Jan-May,Oct-Dec",0-24,1,1,,0.0714
+,19436,1(M) Evening/Morning Saver,weekday,Jun-Sep,"0-9,21-24",0,0,,0.1524
+,19436,1(M) Evening/Morning Saver,weekend,Jun-Sep,"0-9,21-24",0,0,,0.1524
+,19436,1(M) Evening/Morning Saver,weekday,Jun-Sep,9-21,1,0,,0.1581
+,19436,1(M) Evening/Morning Saver,weekend,Jun-Sep,9-21,1,0,,0.1581
+,19436,1(M) Evening/Morning Saver,weekday,"Jan-May,Oct-Dec","0-9,21-24",2,0,750,0.1045
+,19436,1(M) Evening/Morning Saver,weekend,"Jan-May,Oct-Dec","0-9,21-24",2,0,750,0.1045
+,19436,1(M) Evening/Morning Saver,weekday,"Jan-May,Oct-Dec","0-9,21-24",2,1,,0.0701
+,19436,1(M) Evening/Morning Saver,weekend,"Jan-May,Oct-Dec","0-9,21-24",2,1,,0.0701
+,19436,1(M) Evening/Morning Saver,weekday,"Jan-May,Oct-Dec",9-21,3,0,750,0.1073
+,19436,1(M) Evening/Morning Saver,weekend,"Jan-May,Oct-Dec",9-21,3,0,750,0.1073
+,19436,1(M) Evening/Morning Saver,weekday,"Jan-May,Oct-Dec",9-21,3,1,,0.0729
+,19436,1(M) Evening/Morning Saver,weekend,"Jan-May,Oct-Dec",9-21,3,1,,0.0729
+,19436,1(M) Smart Saver Option A,weekday,Jun-Sep,"0-6,22-24",0,0,,0.0767
+,19436,1(M) Smart Saver Option A,weekday,Jun-Sep,"6-15,19-22",1,0,,0.1216
+,19436,1(M) Smart Saver Option A,weekday,Jun-Sep,15-19,2,0,,0.4051
+,19436,1(M) Smart Saver Option A,weekend,Jun-Sep,"0-6,22-24",0,0,,0.0767
+,19436,1(M) Smart Saver Option A,weekend,Jun-Sep,6-22,1,0,,0.1216
+,19436,1(M) Smart Saver Option A,weekday,"Jan-May,Oct-Dec","0-6,22-24",3,0,,0.0635
+,19436,1(M) Smart Saver Option A,weekday,"Jan-May,Oct-Dec","8-18,20-22",4,0,,0.0778
+,19436,1(M) Smart Saver Option A,weekday,"Jan-May,Oct-Dec","6-8,18-20",5,0,,0.2169
+,19436,1(M) Smart Saver Option A,weekend,"Jan-May,Oct-Dec","0-6,22-24",3,0,,0.0635
+,19436,1(M) Smart Saver Option A,weekend,"Jan-May,Oct-Dec",6-22,4,0,,0.0778
+,19436,1(M) Overnight Saver Option A,weekday,Jun-Sep,6-22,0,0,,0.1839
+,19436,1(M) Overnight Saver Option A,weekend,Jun-Sep,6-22,0,0,,0.1839
+,19436,1(M) Overnight Saver Option A,weekday,Jun-Sep,"0-6,22-24",1,0,,0.0732
+,19436,1(M) Overnight Saver Option A,weekend,Jun-Sep,"0-6,22-24",1,0,,0.0732
+,19436,1(M) Overnight Saver Option A,weekday,"Jan-May,Oct-Dec",6-22,2,0,,0.1034
+,19436,1(M) Overnight Saver Option A,weekend,"Jan-May,Oct-Dec",6-22,2,0,,0.1034
+,19436,1(M) Overnight Saver Option A,weekday,"Jan-May,Oct-Dec","0-6,22-24",3,0,,0.0631
+,19436,1(M) Overnight Saver Option A,weekend,"Jan-May,Oct-Dec","0-6,22-24",3,0,,0.0631
+,19436,1(M) Ultimate Saver,weekday,Jun-Sep,15-19,0,0,,0.3413
+,19436,1(M) Ultimate Saver,weekday,Jun-Sep,"0-15,19-24",1,0,,0.0578
+,19436,1(M) Ultimate Saver,weekend,Jun-Sep,0-24,1,0,,0.0578
+,19436,1(M) Ultimate Saver,weekday,"Jan-May,Oct-Dec","6-8,18-20",2,0,,0.1856
+,19436,1(M) Ultimate Saver,weekday,"Jan-May,Oct-Dec","0-6,8-18,20-24",3,0,,0.0511
+,19436,1(M) Ultimate Saver,weekend,"Jan-May,Oct-Dec",0-24,3,0,,0.0511
+,19436,2(M) Small General Service Standard,weekday,Jun-Sep,0-24,0,0,,0.1346
+,19436,2(M) Small General Service Standard,weekend,Jun-Sep,0-24,0,0,,0.1346
+,19436,2(M) Small General Service Standard,weekday,"Jan-May,Oct-Dec",0-24,1,0,,0.1005
+,19436,2(M) Small General Service Standard,weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.1005
+,19436,2(M) Small General Service Overnight Saver,weekday,Jun-Sep,6-22,0,0,,0.1489
+,19436,2(M) Small General Service Overnight Saver,weekend,Jun-Sep,6-22,0,0,,0.1489
+,19436,2(M) Small General Service Overnight Saver,weekday,Jun-Sep,"0-6,22-24",1,0,,0.089
+,19436,2(M) Small General Service Overnight Saver,weekend,Jun-Sep,"0-6,22-24",1,0,,0.089
+,19436,2(M) Small General Service Overnight Saver,weekday,"Jan-May,Oct-Dec",6-22,2,0,,0.0993
+,19436,2(M) Small General Service Overnight Saver,weekend,"Jan-May,Oct-Dec",6-22,2,0,,0.0993
+,19436,2(M) Small General Service Overnight Saver,weekday,"Jan-May,Oct-Dec","0-6,22-24",3,0,,0.0633
+,19436,2(M) Small General Service Overnight Saver,weekend,"Jan-May,Oct-Dec","0-6,22-24",3,0,,0.0633
+,14626,Residential flat,weekday,Jan-Dec,0-24,0,0,,0.109134
+,14626,Residential flat,weekend,Jan-Dec,0-24,0,0,,0.109134
+,14626,Residential Time-of-Use,weekday,Jun-Sep,"0-14,21-24",0,0,,0.086715
+,14626,Residential Time-of-Use,weekend,Jun-Sep,"0-14,21-24",0,0,,0.086715
+,14626,Residential Time-of-Use,weekday,Jun-Sep,"14-16,20-21",1,0,,0.136403
+,14626,Residential Time-of-Use,weekend,Jun-Sep,"14-16,20-21",1,0,,0.136403
+,14626,Residential Time-of-Use,weekday,Jun-Sep,16-20,2,0,,0.205077
+,14626,Residential Time-of-Use,weekend,Jun-Sep,16-20,2,0,,0.205077
+,14626,Residential Time-of-Use,weekday,"Mar-May,Oct-Nov","0-17,21-24",0,0,,0.086715
+,14626,Residential Time-of-Use,weekend,"Mar-May,Oct-Nov","0-17,21-24",0,0,,0.086715
+,14626,Residential Time-of-Use,weekday,"Mar-May,Oct-Nov",17-21,3,0,,0.129676
+,14626,Residential Time-of-Use,weekend,"Mar-May,Oct-Nov",17-21,3,0,,0.129676
+,14626,Residential Time-of-Use,weekday,"Jan-Feb,Dec","0-5,9-17,21-24",0,0,,0.086715
+,14626,Residential Time-of-Use,weekend,"Jan-Feb,Dec","0-5,9-17,21-24",0,0,,0.086715
+,14626,Residential Time-of-Use,weekday,"Jan-Feb,Dec","5-9,17-21",3,0,,0.129676
+,14626,Residential Time-of-Use,weekend,"Jan-Feb,Dec","5-9,17-21",3,0,,0.129676
+,14626,Small Power flat three-phase,weekday,Jan-Dec,0-24,0,0,,0.113094
+,14626,Small Power flat three-phase,weekend,Jan-Dec,0-24,0,0,,0.113094
