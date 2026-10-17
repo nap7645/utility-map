@@ -1,0 +1,34 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,3278,Residential Service (delivery only),weekday,Jan-Dec,0-24,0,0,,0.032966
+,3278,Residential Service (delivery only),weekend,Jan-Dec,0-24,0,0,,0.032966
+,3278,Secondary Voltage Service <=10 kW (delivery only),weekday,Jan-Dec,0-24,0,0,,0.026454
+,3278,Secondary Voltage Service <=10 kW (delivery only),weekend,Jan-Dec,0-24,0,0,,0.026454
+,40051,Residential Service (delivery only),weekday,Jan-Dec,0-24,0,0,,0.04602
+,40051,Residential Service (delivery only),weekend,Jan-Dec,0-24,0,0,,0.04602
+,40051,Secondary Service <=5 kW (delivery only),weekday,Jan-Dec,0-24,0,0,,0.00298
+,40051,Secondary Service <=5 kW (delivery only),weekend,Jan-Dec,0-24,0,0,,0.00298
+,3542,RS (distribution charges only),weekday,Jan-Dec,0-24,0,0,,0.039693
+,3542,RS (distribution charges only),weekend,Jan-Dec,0-24,0,0,,0.039693
+,3542,TD (distribution charges only),weekday,Jun-Sep,"0-11,20-24",0,0,,0.01396
+,3542,TD (distribution charges only),weekday,Jun-Sep,11-20,1,0,,0.07995
+,3542,TD (distribution charges only),weekday,"Jan-May,Oct-Dec","0-9,14-17,21-24",2,0,,0.013976
+,3542,TD (distribution charges only),weekday,"Jan-May,Oct-Dec","9-14,17-21",3,0,,0.063519
+,3542,TD (distribution charges only),weekend,Jun-Sep,0-24,0,0,,0.01396
+,3542,TD (distribution charges only),weekend,"Jan-May,Oct-Dec",0-24,2,0,,0.013976
+,3542,TD-CPP (distribution charges only),weekday,May-Sep,0-5,0,0,,0.030884
+,3542,TD-CPP (distribution charges only),weekday,May-Sep,"5-14,20-24",1,0,,0.038605
+,3542,TD-CPP (distribution charges only),weekday,May-Sep,14-20,2,0,,0.057908
+,3542,TD-CPP (distribution charges only),weekday,"Jan-Apr,Oct-Dec",0-5,0,0,,0.030884
+,3542,TD-CPP (distribution charges only),weekday,"Jan-Apr,Oct-Dec",5-24,1,0,,0.038605
+,3542,TD-CPP (distribution charges only),weekend,Jan-Dec,0-5,0,0,,0.030884
+,3542,TD-CPP (distribution charges only),weekend,Jan-Dec,5-24,1,0,,0.038605
+,3542,DM (distribution charges only),weekday,Jan-Dec,0-24,0,0,2800,0.048863
+,3542,DM (distribution charges only),weekend,Jan-Dec,0-24,0,0,2800,0.048863
+,3542,DM (distribution charges only),weekday,Jan-Dec,0-24,0,1,,0.004339
+,3542,DM (distribution charges only),weekend,Jan-Dec,0-24,0,1,,0.004339
+,12825,"REDS-1 Residential (bundled, incl. tax)",weekday,Jan-Dec,0-24,0,0,,0.15827
+,12825,"REDS-1 Residential (bundled, incl. tax)",weekend,Jan-Dec,0-24,0,0,,0.15827
+,12825,"GS-1 Secondary Non-Demand (bundled, incl. tax)",weekday,Jan-Dec,0-24,0,0,,0.143891
+,12825,"GS-1 Secondary Non-Demand (bundled, incl. tax)",weekend,Jan-Dec,0-24,0,0,,0.143891
+,12825,"GS-1 Secondary Demand (bundled, incl. tax)",weekday,Jan-Dec,0-24,0,0,,0.092369
+,12825,"GS-1 Secondary Demand (bundled, incl. tax)",weekend,Jan-Dec,0-24,0,0,,0.092369

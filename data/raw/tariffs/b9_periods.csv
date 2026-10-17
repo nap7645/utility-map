@@ -1,0 +1,158 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,19499,R1 Standard Residential,weekday,Jan-Dec,0-24,0,0,,0.1184
+,19499,R1 Standard Residential,weekend,Jan-Dec,0-24,0,0,,0.1184
+,19499,RTD1 Time of Use,weekday,Jan-Dec,"0-17,21-24",0,0,,0.0672
+,19499,RTD1 Time of Use,weekday,Jan-Dec,17-21,1,0,,0.188
+,19499,RTD1 Time of Use,weekend,Jan-Dec,0-24,0,0,,0.0672
+,19499,RDP1 Peak Time of Use,weekday,Jan-Dec,"0-17,21-24",0,0,,0.0672
+,19499,RDP1 Peak Time of Use,weekday,Jan-Dec,17-21,1,0,,0.1549
+,19499,RDP1 Peak Time of Use,weekend,Jan-Dec,0-24,0,0,,0.0672
+,19499,RD1 Smart Choice,weekday,Jan-Dec,0-24,0,0,,0.0557
+,19499,RD1 Smart Choice,weekend,Jan-Dec,0-24,0,0,,0.0557
+,19499,C1 Small Commercial Secondary (<100 kW),weekday,Jan-Dec,0-24,0,0,,0.1316
+,19499,C1 Small Commercial Secondary (<100 kW),weekend,Jan-Dec,0-24,0,0,,0.1316
+,19499,CTD1 Small Commercial Time of Use (<100 kW),weekday,Jan-Dec,"0-17,21-24",0,0,,0.0663
+,19499,CTD1 Small Commercial Time of Use (<100 kW),weekday,Jan-Dec,17-21,1,0,,0.2249
+,19499,CTD1 Small Commercial Time of Use (<100 kW),weekend,Jan-Dec,0-24,0,0,,0.0663
+,56146,RS-1 Residential Service,weekday,Jan-Dec,0-24,0,0,500,0.12159
+,56146,RS-1 Residential Service,weekend,Jan-Dec,0-24,0,0,500,0.12159
+,56146,RS-1 Residential Service,weekday,Jan-Dec,0-24,1,1,,0.15807
+,56146,RS-1 Residential Service,weekend,Jan-Dec,0-24,1,1,,0.15807
+,56146,RS-TOU Residential Time of Use,weekday,Jan-Dec,"0-17,20-24",0,0,,0.12133
+,56146,RS-TOU Residential Time of Use,weekday,Jan-Dec,17-20,1,0,,0.24266
+,56146,RS-TOU Residential Time of Use,weekend,Jan-Dec,0-24,0,0,,0.12133
+,56146,SGS-N Small General Service Non-Demand (<10 kW),weekday,Jan-Dec,0-24,0,0,,0.11141
+,56146,SGS-N Small General Service Non-Demand (<10 kW),weekend,Jan-Dec,0-24,0,0,,0.11141
+,56146,SGS-TOU Small General Service Time of Use (<50 kW),weekday,Jan-Dec,"0-17,20-24",0,0,,0.10147
+,56146,SGS-TOU Small General Service Time of Use (<50 kW),weekday,Jan-Dec,17-20,1,0,,0.20294
+,56146,SGS-TOU Small General Service Time of Use (<50 kW),weekend,Jan-Dec,0-24,0,0,,0.10147
+,19728,ERRES Residential Service,weekday,Jan-Dec,0-24,0,0,400,0.106249
+,19728,ERRES Residential Service,weekend,Jan-Dec,0-24,0,0,400,0.106249
+,19728,ERRES Residential Service,weekday,Jan-Dec,0-24,1,1,,0.125626
+,19728,ERRES Residential Service,weekend,Jan-Dec,0-24,1,1,,0.125626
+,19728,ERREST Residential Time-of-Use,weekday,May-Oct,"0-15,19-24",0,0,400,0.096122
+,19728,ERREST Residential Time-of-Use,weekday,May-Oct,15-19,1,0,400,0.18602
+,19728,ERREST Residential Time-of-Use,weekday,May-Oct,"0-15,19-24",2,1,,0.108716
+,19728,ERREST Residential Time-of-Use,weekday,May-Oct,15-19,3,1,,0.198614
+,19728,ERREST Residential Time-of-Use,weekend,May-Oct,0-24,0,0,400,0.096122
+,19728,ERREST Residential Time-of-Use,weekend,May-Oct,0-24,2,1,,0.108716
+,19728,ERREST Residential Time-of-Use,weekday,"Jan-Apr,Nov-Dec","0-6,9-18,21-24",4,0,400,0.090964
+,19728,ERREST Residential Time-of-Use,weekday,"Jan-Apr,Nov-Dec","6-9,18-21",5,0,400,0.160494
+,19728,ERREST Residential Time-of-Use,weekday,"Jan-Apr,Nov-Dec","0-6,9-18,21-24",6,1,,0.103558
+,19728,ERREST Residential Time-of-Use,weekday,"Jan-Apr,Nov-Dec","6-9,18-21",7,1,,0.173088
+,19728,ERREST Residential Time-of-Use,weekend,"Jan-Apr,Nov-Dec",0-24,4,0,400,0.090964
+,19728,ERREST Residential Time-of-Use,weekend,"Jan-Apr,Nov-Dec",0-24,6,1,,0.103558
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,May-Oct,"5-15,19-22",0,0,400,0.096122
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,May-Oct,15-19,1,0,400,0.18602
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,May-Oct,"0-5,22-24",2,0,400,0.082998
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,May-Oct,"5-15,19-22",3,1,,0.108716
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,May-Oct,15-19,4,1,,0.198614
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,May-Oct,"0-5,22-24",5,1,,0.095592
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekend,May-Oct,5-22,0,0,400,0.096122
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekend,May-Oct,"0-5,22-24",2,0,400,0.082998
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekend,May-Oct,5-22,3,1,,0.108716
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekend,May-Oct,"0-5,22-24",5,1,,0.095592
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,"Jan-Apr,Nov-Dec","9-18,21-22",6,0,400,0.090964
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,"Jan-Apr,Nov-Dec",5-6,6,0,400,0.090964
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,"Jan-Apr,Nov-Dec","6-9,18-21",7,0,400,0.160494
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,"Jan-Apr,Nov-Dec","0-5,22-24",8,0,400,0.07784
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,"Jan-Apr,Nov-Dec","9-18,21-22",9,1,,0.103558
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,"Jan-Apr,Nov-Dec",5-6,9,1,,0.103558
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,"Jan-Apr,Nov-Dec","6-9,18-21",10,1,,0.173088
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekday,"Jan-Apr,Nov-Dec","0-5,22-24",11,1,,0.090434
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekend,"Jan-Apr,Nov-Dec",5-22,6,0,400,0.090964
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekend,"Jan-Apr,Nov-Dec","0-5,22-24",8,0,400,0.07784
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekend,"Jan-Apr,Nov-Dec",5-22,9,1,,0.103558
+,19728,ERSOTE Residential Super Off-Peak TOU EV,weekend,"Jan-Apr,Nov-Dec","0-5,22-24",11,1,,0.090434
+,19728,EGSGS Small General Service,weekday,Jan-Dec,0-24,0,0,400,0.104167
+,19728,EGSGS Small General Service,weekend,Jan-Dec,0-24,0,0,400,0.104167
+,19728,EGSGS Small General Service,weekday,Jan-Dec,0-24,1,1,7500,0.114417
+,19728,EGSGS Small General Service,weekend,Jan-Dec,0-24,1,1,7500,0.114417
+,19728,EGSGS Small General Service,weekday,Jan-Dec,0-24,2,2,,0.159003
+,19728,EGSGS Small General Service,weekend,Jan-Dec,0-24,2,2,,0.159003
+,19728,EGSGST Small General Service Time-of-Use,weekday,May-Oct,"0-14,20-24",0,0,400,0.100357
+,19728,EGSGST Small General Service Time-of-Use,weekday,May-Oct,14-20,1,0,400,0.184476
+,19728,EGSGST Small General Service Time-of-Use,weekday,May-Oct,"0-14,20-24",2,1,7500,0.105482
+,19728,EGSGST Small General Service Time-of-Use,weekday,May-Oct,14-20,3,1,7500,0.189601
+,19728,EGSGST Small General Service Time-of-Use,weekday,May-Oct,"0-14,20-24",4,2,,0.149043
+,19728,EGSGST Small General Service Time-of-Use,weekday,May-Oct,14-20,5,2,,0.233162
+,19728,EGSGST Small General Service Time-of-Use,weekend,May-Oct,0-24,0,0,400,0.100357
+,19728,EGSGST Small General Service Time-of-Use,weekend,May-Oct,0-24,2,1,7500,0.105482
+,19728,EGSGST Small General Service Time-of-Use,weekend,May-Oct,0-24,4,2,,0.149043
+,19728,EGSGST Small General Service Time-of-Use,weekday,"Jan-Apr,Nov-Dec","0-5,9-17,21-24",6,0,400,0.092924
+,19728,EGSGST Small General Service Time-of-Use,weekday,"Jan-Apr,Nov-Dec","5-9,17-21",7,0,400,0.183164
+,19728,EGSGST Small General Service Time-of-Use,weekday,"Jan-Apr,Nov-Dec","0-5,9-17,21-24",8,1,7500,0.098049
+,19728,EGSGST Small General Service Time-of-Use,weekday,"Jan-Apr,Nov-Dec","5-9,17-21",9,1,7500,0.188289
+,19728,EGSGST Small General Service Time-of-Use,weekday,"Jan-Apr,Nov-Dec","0-5,9-17,21-24",10,2,,0.14161
+,19728,EGSGST Small General Service Time-of-Use,weekday,"Jan-Apr,Nov-Dec","5-9,17-21",11,2,,0.23185
+,19728,EGSGST Small General Service Time-of-Use,weekend,"Jan-Apr,Nov-Dec",0-24,6,0,400,0.092924
+,19728,EGSGST Small General Service Time-of-Use,weekend,"Jan-Apr,Nov-Dec",0-24,8,1,7500,0.098049
+,19728,EGSGST Small General Service Time-of-Use,weekend,"Jan-Apr,Nov-Dec",0-24,10,2,,0.14161
+,6909,Residential Electric Regular Service,weekday,Jan-Dec,0-24,0,0,1000,0.0846
+,6909,Residential Electric Regular Service,weekend,Jan-Dec,0-24,0,0,1000,0.0846
+,6909,Residential Electric Regular Service,weekday,Jan-Dec,0-24,1,1,,0.1213
+,6909,Residential Electric Regular Service,weekend,Jan-Dec,0-24,1,1,,0.1213
+,6909,General Service Non-Demand (<50 kW),weekday,Jan-Dec,0-24,0,0,1500,0.1118
+,6909,General Service Non-Demand (<50 kW),weekend,Jan-Dec,0-24,0,0,1500,0.1118
+,6909,General Service Non-Demand (<50 kW),weekday,Jan-Dec,0-24,1,1,,0.1486
+,6909,General Service Non-Demand (<50 kW),weekend,Jan-Dec,0-24,1,1,,0.1486
+,6909,General Service Non-Demand Time of Use (<50 kW),weekday,Jan-Dec,6-22,0,0,,0.2972
+,6909,General Service Non-Demand Time of Use (<50 kW),weekday,Jan-Dec,"0-6,22-24",1,0,,0.0559
+,6909,General Service Non-Demand Time of Use (<50 kW),weekend,Jan-Dec,0-24,1,0,,0.0559
+,4624,RS Residential Rate,weekday,Jun-Sep,0-24,0,0,,0.08657
+,4624,RS Residential Rate,weekend,Jun-Sep,0-24,0,0,,0.08657
+,4624,RS Residential Rate,weekday,"Jan-Mar,Dec",0-24,1,0,,0.08435
+,4624,RS Residential Rate,weekend,"Jan-Mar,Dec",0-24,1,0,,0.08435
+,4624,RS Residential Rate,weekday,"Apr-May,Oct-Nov",0-24,2,0,,0.08058
+,4624,RS Residential Rate,weekend,"Apr-May,Oct-Nov",0-24,2,0,,0.08058
+,4624,GSA General Power (<=50 kW),weekday,Jun-Sep,0-24,0,0,,0.09577
+,4624,GSA General Power (<=50 kW),weekend,Jun-Sep,0-24,0,0,,0.09577
+,4624,GSA General Power (<=50 kW),weekday,"Jan-Mar,Dec",0-24,1,0,,0.09073
+,4624,GSA General Power (<=50 kW),weekend,"Jan-Mar,Dec",0-24,1,0,,0.09073
+,4624,GSA General Power (<=50 kW),weekday,"Apr-May,Oct-Nov",0-24,2,0,,0.08914
+,4624,GSA General Power (<=50 kW),weekend,"Apr-May,Oct-Nov",0-24,2,0,,0.08914
+,17832,Residential Regular Monthly Rate,weekday,May-Oct,0-24,0,0,1000,0.106
+,17832,Residential Regular Monthly Rate,weekend,May-Oct,0-24,0,0,1000,0.106
+,17832,Residential Regular Monthly Rate,weekday,May-Oct,0-24,1,1,,0.12
+,17832,Residential Regular Monthly Rate,weekend,May-Oct,0-24,1,1,,0.12
+,17832,Residential Regular Monthly Rate,weekday,"Jan-Apr,Nov-Dec",0-24,0,0,1000,0.106
+,17832,Residential Regular Monthly Rate,weekend,"Jan-Apr,Nov-Dec",0-24,0,0,1000,0.106
+,17832,Residential Regular Monthly Rate,weekday,"Jan-Apr,Nov-Dec",0-24,0,1,,0.106
+,17832,Residential Regular Monthly Rate,weekend,"Jan-Apr,Nov-Dec",0-24,0,1,,0.106
+,17832,GS General Service/Commercial,weekday,Jan-Dec,0-24,0,0,2500,0.133
+,17832,GS General Service/Commercial,weekend,Jan-Dec,0-24,0,0,2500,0.133
+,17832,GS General Service/Commercial,weekday,Jan-Dec,0-24,1,1,,0.122
+,17832,GS General Service/Commercial,weekend,Jan-Dec,0-24,1,1,,0.122
+,13716,22 Residential (RS),weekday,Jan-Dec,0-24,0,0,5000,0.08518
+,13716,22 Residential (RS),weekend,Jan-Dec,0-24,0,0,5000,0.08518
+,13716,22 Residential (RS),weekday,Jan-Dec,0-24,1,1,,0.10518
+,13716,22 Residential (RS),weekend,Jan-Dec,0-24,1,1,,0.10518
+,13716,32 Residential Time of Use (TRS),weekday,"Jan-Mar,Dec","0-5,11-24",0,0,,0.0494
+,13716,32 Residential Time of Use (TRS),weekday,"Jan-Mar,Dec",5-11,1,0,,0.22888
+,13716,32 Residential Time of Use (TRS),weekday,Nov,"0-5,11-24",2,0,,0.05168
+,13716,32 Residential Time of Use (TRS),weekday,Nov,5-11,3,0,,0.2178
+,13716,32 Residential Time of Use (TRS),weekday,"Apr-May,Oct","0-14,20-24",2,0,,0.05168
+,13716,32 Residential Time of Use (TRS),weekday,"Apr-May,Oct",14-20,3,0,,0.2178
+,13716,32 Residential Time of Use (TRS),weekday,Jun-Sep,"0-14,20-24",4,0,,0.04721
+,13716,32 Residential Time of Use (TRS),weekday,Jun-Sep,14-20,5,0,,0.20437
+,13716,32 Residential Time of Use (TRS),weekend,"Jan-Mar,Dec",0-24,0,0,,0.0494
+,13716,32 Residential Time of Use (TRS),weekend,"Apr-May,Oct-Nov",0-24,2,0,,0.05168
+,13716,32 Residential Time of Use (TRS),weekend,Jun-Sep,0-24,4,0,,0.04721
+,13716,"40/41 General Power GSA 1 (<50 kW, <=15,000 kWh)",weekday,Jan-Dec,0-24,0,0,,0.10328
+,13716,"40/41 General Power GSA 1 (<50 kW, <=15,000 kWh)",weekend,Jan-Dec,0-24,0,0,,0.10328
+,6342,Rate 1/51 Single Phase,weekday,Jun-Oct,0-24,0,0,500,0.128625
+,6342,Rate 1/51 Single Phase,weekend,Jun-Oct,0-24,0,0,500,0.128625
+,6342,Rate 1/51 Single Phase,weekday,Jun-Oct,0-24,0,1,,0.128625
+,6342,Rate 1/51 Single Phase,weekend,Jun-Oct,0-24,0,1,,0.128625
+,6342,Rate 1/51 Single Phase,weekday,"Jan-May,Nov-Dec",0-24,0,0,500,0.128625
+,6342,Rate 1/51 Single Phase,weekend,"Jan-May,Nov-Dec",0-24,0,0,500,0.128625
+,6342,Rate 1/51 Single Phase,weekday,"Jan-May,Nov-Dec",0-24,1,1,,0.109513
+,6342,Rate 1/51 Single Phase,weekend,"Jan-May,Nov-Dec",0-24,1,1,,0.109513
+,6342,Rate 2 Three Phase 50 kVA or less,weekday,Jun-Oct,0-24,0,0,500,0.135897
+,6342,Rate 2 Three Phase 50 kVA or less,weekend,Jun-Oct,0-24,0,0,500,0.135897
+,6342,Rate 2 Three Phase 50 kVA or less,weekday,Jun-Oct,0-24,0,1,,0.135897
+,6342,Rate 2 Three Phase 50 kVA or less,weekend,Jun-Oct,0-24,0,1,,0.135897
+,6342,Rate 2 Three Phase 50 kVA or less,weekday,"Jan-May,Nov-Dec",0-24,0,0,500,0.135897
+,6342,Rate 2 Three Phase 50 kVA or less,weekend,"Jan-May,Nov-Dec",0-24,0,0,500,0.135897
+,6342,Rate 2 Three Phase 50 kVA or less,weekday,"Jan-May,Nov-Dec",0-24,1,1,,0.120314
+,6342,Rate 2 Three Phase 50 kVA or less,weekend,"Jan-May,Nov-Dec",0-24,1,1,,0.120314

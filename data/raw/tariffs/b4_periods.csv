@@ -1,0 +1,121 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,20885,RR,weekday,Jan-Dec,0-24,0,0,1000,0.0603
+,20885,RR,weekend,Jan-Dec,0-24,0,0,1000,0.0603
+,20885,RR,weekday,Jan-Dec,0-24,0,1,,0.0633
+,20885,RR,weekend,Jan-Dec,0-24,0,1,,0.0633
+,20885,GS,weekday,Jan-Dec,0-24,0,0,,0.0609
+,20885,GS,weekend,Jan-Dec,0-24,0,0,,0.0609
+,10857,RS,weekday,Jan-Dec,0-24,0,0,500,0.1129
+,10857,RS,weekend,Jan-Dec,0-24,0,0,500,0.1129
+,10857,RS,weekday,Jan-Dec,0-24,0,1,1000,0.1206
+,10857,RS,weekend,Jan-Dec,0-24,0,1,1000,0.1206
+,10857,RS,weekday,Jan-Dec,0-24,0,2,,0.1282
+,10857,RS,weekend,Jan-Dec,0-24,0,2,,0.1282
+,10857,GS,weekday,Jan-Dec,0-24,0,0,,0.119
+,10857,GS,weekend,Jan-Dec,0-24,0,0,,0.119
+,10857,GSD,weekday,Jan-Dec,0-24,0,0,,0.076
+,10857,GSD,weekend,Jan-Dec,0-24,0,0,,0.076
+,18304,RS,weekday,Jan-Dec,0-24,0,0,1000,0.1194
+,18304,RS,weekend,Jan-Dec,0-24,0,0,1000,0.1194
+,18304,RS,weekday,Jan-Dec,0-24,0,1,,0.1479
+,18304,RS,weekend,Jan-Dec,0-24,0,1,,0.1479
+,18304,RS-TOU,weekday,Apr-Oct,0-6,0,0,,0.077
+,18304,RS-TOU,weekend,Apr-Oct,0-6,0,0,,0.077
+,18304,RS-TOU,weekday,Apr-Oct,"6-14,18-24",1,0,,0.097
+,18304,RS-TOU,weekend,Apr-Oct,"6-14,18-24",1,0,,0.097
+,18304,RS-TOU,weekday,Apr-Oct,14-18,2,0,,0.237
+,18304,RS-TOU,weekend,Apr-Oct,14-18,2,0,,0.237
+,18304,RS-TOU,weekday,"Jan-Mar,Nov-Dec",0-6,0,0,,0.077
+,18304,RS-TOU,weekend,"Jan-Mar,Nov-Dec",0-6,0,0,,0.077
+,18304,RS-TOU,weekday,"Jan-Mar,Nov-Dec",6-9,2,0,,0.237
+,18304,RS-TOU,weekend,"Jan-Mar,Nov-Dec",6-9,2,0,,0.237
+,18304,RS-TOU,weekday,"Jan-Mar,Nov-Dec",9-24,1,0,,0.097
+,18304,RS-TOU,weekend,"Jan-Mar,Nov-Dec",9-24,1,0,,0.097
+,18304,GS,weekday,Jan-Dec,0-24,0,0,,0.1255
+,18304,GS,weekend,Jan-Dec,0-24,0,0,,0.1255
+,18304,GSD,weekday,Jan-Dec,0-24,0,0,,0.0975
+,18304,GSD,weekend,Jan-Dec,0-24,0,0,,0.0975
+,3660,Residential (schedule no. not stated),weekday,Jan-Dec,0-24,0,0,,0.0879
+,3660,Residential (schedule no. not stated),weekend,Jan-Dec,0-24,0,0,,0.0879
+,3660,"34 (Small General Service, first tier)",weekday,Jan-Dec,0-24,0,0,,0.0833
+,3660,"34 (Small General Service, first tier)",weekend,Jan-Dec,0-24,0,0,,0.0833
+,3660,"434 (optional demand-metered, first tier)",weekday,Jan-Dec,0-24,0,0,,0.0833
+,3660,"434 (optional demand-metered, first tier)",weekend,Jan-Dec,0-24,0,0,,0.0833
+,3916,R-12 Standard (Rate 10),weekday,"Jan-Apr,Nov-Dec",0-24,0,0,1000,0.083
+,3916,R-12 Standard (Rate 10),weekend,"Jan-Apr,Nov-Dec",0-24,0,0,1000,0.083
+,3916,R-12 Standard (Rate 10),weekday,"Jan-Apr,Nov-Dec",0-24,0,1,,0.09
+,3916,R-12 Standard (Rate 10),weekend,"Jan-Apr,Nov-Dec",0-24,0,1,,0.09
+,3916,R-12 Standard (Rate 10),weekday,May-Oct,0-24,1,0,1000,0.083
+,3916,R-12 Standard (Rate 10),weekend,May-Oct,0-24,1,0,1000,0.083
+,3916,R-12 Standard (Rate 10),weekday,May-Oct,0-24,1,1,,0.125
+,3916,R-12 Standard (Rate 10),weekend,May-Oct,0-24,1,1,,0.125
+,3916,Fixed,weekday,Jan-Dec,0-24,0,0,,0.0825
+,3916,Fixed,weekend,Jan-Dec,0-24,0,0,,0.0825
+,3916,NiteFlex,weekday,Jan-Dec,13-21,0,0,,0.14
+,3916,NiteFlex,weekend,Jan-Dec,13-21,0,0,,0.14
+,3916,NiteFlex,weekday,Jan-Dec,"6-13,21-24",1,0,,0.075
+,3916,NiteFlex,weekend,Jan-Dec,"6-13,21-24",1,0,,0.075
+,3916,NiteFlex,weekday,Jan-Dec,0-6,2,0,400,0.0
+,3916,NiteFlex,weekend,Jan-Dec,0-6,2,0,400,0.0
+,3916,NiteFlex,weekday,Jan-Dec,0-6,2,1,,0.05
+,3916,NiteFlex,weekend,Jan-Dec,0-6,2,1,,0.05
+,3916,SmartChoice (R-14),weekday,Jan-Dec,0-24,0,0,,0.075
+,3916,SmartChoice (R-14),weekend,Jan-Dec,0-24,0,0,,0.075
+,3916,CS-14 Rate 30 (Small General Service),weekday,"Jan-Apr,Nov-Dec",0-24,0,0,1000,0.121125
+,3916,CS-14 Rate 30 (Small General Service),weekend,"Jan-Apr,Nov-Dec",0-24,0,0,1000,0.121125
+,3916,CS-14 Rate 30 (Small General Service),weekday,"Jan-Apr,Nov-Dec",0-24,0,1,2500,0.090725
+,3916,CS-14 Rate 30 (Small General Service),weekend,"Jan-Apr,Nov-Dec",0-24,0,1,2500,0.090725
+,3916,CS-14 Rate 30 (Small General Service),weekday,"Jan-Apr,Nov-Dec",0-24,0,2,,0.08854
+,3916,CS-14 Rate 30 (Small General Service),weekend,"Jan-Apr,Nov-Dec",0-24,0,2,,0.08854
+,3916,CS-14 Rate 30 (Small General Service),weekday,May-Oct,0-24,1,0,1000,0.121125
+,3916,CS-14 Rate 30 (Small General Service),weekend,May-Oct,0-24,1,0,1000,0.121125
+,3916,CS-14 Rate 30 (Small General Service),weekday,May-Oct,0-24,1,1,,0.11229
+,3916,CS-14 Rate 30 (Small General Service),weekend,May-Oct,0-24,1,1,,0.11229
+,3916,"CS-14T Rate 14T (Small General Service TOU, experimental)",weekday,Jun-Aug,"0-15,20-24",0,0,,0.09785
+,3916,"CS-14T Rate 14T (Small General Service TOU, experimental)",weekday,Jun-Aug,15-20,1,0,,0.24415
+,3916,"CS-14T Rate 14T (Small General Service TOU, experimental)",weekend,Jun-Aug,0-24,0,0,,0.09785
+,3916,"CS-14T Rate 14T (Small General Service TOU, experimental)",weekday,"Jan-May,Sep-Dec",0-24,0,0,,0.09785
+,3916,"CS-14T Rate 14T (Small General Service TOU, experimental)",weekend,"Jan-May,Sep-Dec",0-24,0,0,,0.09785
+,3916,CEV1 (commercial EV charging),weekday,Jan-Dec,7-19,0,0,,0.15
+,3916,CEV1 (commercial EV charging),weekend,Jan-Dec,7-19,0,0,,0.15
+,3916,CEV1 (commercial EV charging),weekday,Jan-Dec,"0-7,19-24",1,0,,0.1
+,3916,CEV1 (commercial EV charging),weekend,Jan-Dec,"0-7,19-24",1,0,,0.1
+,10421,RS,weekday,Jun-Sep,0-24,0,0,,0.12513
+,10421,RS,weekend,Jun-Sep,0-24,0,0,,0.12513
+,10421,RS,weekday,"Jan-May,Oct-Dec",0-24,1,0,,0.12472
+,10421,RS,weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.12472
+,10421,RS-TOU,weekday,Apr-Oct,"0-14,20-24",0,0,,0.09551
+,10421,RS-TOU,weekday,Apr-Oct,14-20,1,0,,0.23192
+,10421,RS-TOU,weekday,"Jan-Mar,Nov-Dec","0-5,11-24",0,0,,0.09551
+,10421,RS-TOU,weekday,"Jan-Mar,Nov-Dec",5-11,1,0,,0.23192
+,10421,RS-TOU,weekend,Jan-Dec,0-24,0,0,,0.09551
+,10421,"GSA (<=50 kW and <=15,000 kWh tier)",weekday,Jun-Sep,0-24,0,0,,0.14399
+,10421,"GSA (<=50 kW and <=15,000 kWh tier)",weekend,Jun-Sep,0-24,0,0,,0.14399
+,10421,"GSA (<=50 kW and <=15,000 kWh tier)",weekday,"Jan-May,Oct-Dec",0-24,1,0,,0.14358
+,10421,"GSA (<=50 kW and <=15,000 kWh tier)",weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.14358
+,10421,GSA-TOU (<=50 kW tier),weekday,Apr-Oct,"0-14,20-24",0,0,,0.10016
+,10421,GSA-TOU (<=50 kW tier),weekday,Apr-Oct,14-20,1,0,,0.23767
+,10421,GSA-TOU (<=50 kW tier),weekday,"Jan-Mar,Nov-Dec","0-5,11-24",0,0,,0.10016
+,10421,GSA-TOU (<=50 kW tier),weekday,"Jan-Mar,Nov-Dec",5-11,1,0,,0.23767
+,10421,GSA-TOU (<=50 kW tier),weekend,Jan-Dec,0-24,0,0,,0.10016
+,20404,Residential Service (delivery only),weekday,Jan-Dec,0-24,0,0,,0.032966
+,20404,Residential Service (delivery only),weekend,Jan-Dec,0-24,0,0,,0.032966
+,20404,Secondary Voltage <=10 kW (delivery only),weekday,Jan-Dec,0-24,0,0,,0.026454
+,20404,Secondary Voltage <=10 kW (delivery only),weekend,Jan-Dec,0-24,0,0,,0.026454
+,3408,RS Base Rate Plan,weekday,Jan-Dec,0-24,0,0,,0.09464
+,3408,RS Base Rate Plan,weekend,Jan-Dec,0-24,0,0,,0.09464
+,3408,NRS Night Shift,weekday,Jan-Dec,5-23,0,0,,0.10516
+,3408,NRS Night Shift,weekend,Jan-Dec,5-23,0,0,,0.10516
+,3408,NRS Night Shift,weekday,Jan-Dec,"0-5,23-24",1,0,,0.06306
+,3408,NRS Night Shift,weekend,Jan-Dec,"0-5,23-24",1,0,,0.06306
+,3408,TRS Time Shift,weekday,Apr-Oct,"0-15,19-24",0,0,,0.08075
+,3408,TRS Time Shift,weekday,Apr-Oct,15-19,1,0,,0.17744
+,3408,TRS Time Shift,weekday,"Jan-Mar,Nov-Dec","0-6,10-24",0,0,,0.08075
+,3408,TRS Time Shift,weekday,"Jan-Mar,Nov-Dec",6-10,1,0,,0.17744
+,3408,TRS Time Shift,weekend,Jan-Dec,0-24,0,0,,0.08075
+,3408,"GSA (<=50 kW and <=15,000 kWh tier)",weekday,Jan-Dec,0-24,0,0,,0.10859
+,3408,"GSA (<=50 kW and <=15,000 kWh tier)",weekend,Jan-Dec,0-24,0,0,,0.10859
+,3408,"GSA (50-1,000 kW tier)",weekday,Jan-Dec,0-24,0,0,15000,0.10859
+,3408,"GSA (50-1,000 kW tier)",weekend,Jan-Dec,0-24,0,0,15000,0.10859
+,3408,"GSA (50-1,000 kW tier)",weekday,Jan-Dec,0-24,0,1,,0.0464
+,3408,"GSA (50-1,000 kW tier)",weekend,Jan-Dec,0-24,0,1,,0.0464

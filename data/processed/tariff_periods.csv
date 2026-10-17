@@ -8813,113 +8813,113 @@ urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,e
 69b44560e277b3255b096e7c,15472,General Service Three Phase,weekend,Jan-Dec,00-24,0,0,500.0,0.48854
 69b44560e277b3255b096e7c,15472,General Service Three Phase,weekend,Jan-Dec,00-24,0,1,1000.0,0.48854
 69b44560e277b3255b096e7c,15472,General Service Three Phase,weekend,Jan-Dec,00-24,0,2,,0.48854
-69bd6fcabeca13d34008ca0a,5416,Residential Service (RES-55) Single Phase,weekday,"Jan-Apr,Oct-Dec",00-24,1,0,800.0,0.15153
-69bd6fcabeca13d34008ca0a,5416,Residential Service (RES-55) Single Phase,weekday,"Jan-Apr,Oct-Dec",00-24,1,1,,0.14153
-69bd6fcabeca13d34008ca0a,5416,Residential Service (RES-55) Single Phase,weekday,May-Sep,00-24,0,0,,0.15153
-69bd6fcabeca13d34008ca0a,5416,Residential Service (RES-55) Single Phase,weekend,"Jan-Apr,Oct-Dec",00-24,1,0,800.0,0.15153
-69bd6fcabeca13d34008ca0a,5416,Residential Service (RES-55) Single Phase,weekend,"Jan-Apr,Oct-Dec",00-24,1,1,,0.14153
-69bd6fcabeca13d34008ca0a,5416,Residential Service (RES-55) Single Phase,weekend,May-Sep,00-24,0,0,,0.15153
-69bd75bdf04ecaab900f6ecb,5416,Residential Service (RES-55) Three Phase,weekday,"Jan-Apr,Oct-Dec",00-24,0,0,800.0,0.15153
-69bd75bdf04ecaab900f6ecb,5416,Residential Service (RES-55) Three Phase,weekday,"Jan-Apr,Oct-Dec",00-24,0,1,,0.14153
-69bd75bdf04ecaab900f6ecb,5416,Residential Service (RES-55) Three Phase,weekday,May-Sep,00-24,1,0,,0.15153
-69bd75bdf04ecaab900f6ecb,5416,Residential Service (RES-55) Three Phase,weekend,"Jan-Apr,Oct-Dec",00-24,0,0,800.0,0.15153
-69bd75bdf04ecaab900f6ecb,5416,Residential Service (RES-55) Three Phase,weekend,"Jan-Apr,Oct-Dec",00-24,0,1,,0.14153
-69bd75bdf04ecaab900f6ecb,5416,Residential Service (RES-55) Three Phase,weekend,May-Sep,00-24,1,0,,0.15153
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-24",0,0,,0.09773
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,May-Sep,"00-01,06-11,16-18,21-24",0,0,,0.09773
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.20606
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,May-Sep,18-21,1,0,,0.20606
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06972
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,May-Sep,"01-06,11-16",2,0,,0.06972
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-24",0,0,,0.09773
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekend,May-Sep,"00-01,06-11,16-24",0,0,,0.09773
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekend,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06972
-69bd7649f0300279d30f154b,5416,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekend,May-Sep,"01-06,11-16",2,0,,0.06972
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-24",0,0,,0.09773
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,May-Sep,"00-01,06-11,16-18,21-24",0,0,,0.09773
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.20606
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,May-Sep,18-21,1,0,,0.20606
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06972
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,May-Sep,"01-06,11-16",2,0,,0.06972
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-24",0,0,,0.09773
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekend,May-Sep,"00-01,06-11,16-24",0,0,,0.09773
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekend,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06972
-69bd786dbeca13d34008ca0b,5416,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekend,May-Sep,"01-06,11-16",2,0,,0.06972
-69bd7a61f5cd25efec0e9aab,5416,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,"Jan-Feb,Dec","00-06,09-18,21-24",0,0,,0.13788
-69bd7a61f5cd25efec0e9aab,5416,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,Mar-Nov,"06-18,21-24",0,0,,0.13788
-69bd7a61f5cd25efec0e9aab,5416,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,"Jan-Feb,Dec","06-09,18-21",1,0,,0.21248
-69bd7a61f5cd25efec0e9aab,5416,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,Mar-Nov,18-21,1,0,,0.21248
-69bd7a61f5cd25efec0e9aab,5416,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,Mar-Nov,00-06,2,0,,0.10792
-69bd7a61f5cd25efec0e9aab,5416,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekend,"Jan-Feb,Dec",00-24,0,0,,0.13788
-69bd7a61f5cd25efec0e9aab,5416,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekend,Mar-Nov,06-24,0,0,,0.13788
-69bd7a61f5cd25efec0e9aab,5416,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekend,Mar-Nov,00-06,2,0,,0.10792
-69bd7c6ffd0b7759a904a08c,5416,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,"Jan-Feb,Dec","00-06,09-18,21-24",0,0,,0.13788
-69bd7c6ffd0b7759a904a08c,5416,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,Mar-Nov,"06-18,21-24",0,0,,0.13788
-69bd7c6ffd0b7759a904a08c,5416,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,"Jan-Feb,Dec","06-09,18-21",1,0,,0.21248
-69bd7c6ffd0b7759a904a08c,5416,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,Mar-Nov,18-21,1,0,,0.21248
-69bd7c6ffd0b7759a904a08c,5416,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,Mar-Nov,00-06,2,0,,0.10792
-69bd7c6ffd0b7759a904a08c,5416,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekend,"Jan-Feb,Dec",00-24,0,0,,0.13788
-69bd7c6ffd0b7759a904a08c,5416,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekend,Mar-Nov,06-24,0,0,,0.13788
-69bd7c6ffd0b7759a904a08c,5416,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekend,Mar-Nov,00-06,2,0,,0.10792
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.13505
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.13505
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.29684
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,May-Sep,18-21,1,0,,0.29684
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.09476
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,May-Sep,01-06,2,0,,0.09476
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.13505
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekend,May-Sep,"00-01,06-24",0,0,,0.13505
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.09476
-69bd7cb70db95c60750df1ea,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekend,May-Sep,01-06,2,0,,0.09476
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.13505
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.13505
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.29684
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,May-Sep,18-21,1,0,,0.29684
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.09476
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,May-Sep,01-06,2,0,,0.09476
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.13505
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekend,May-Sep,"00-01,06-24",0,0,,0.13505
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.09476
-69bd7e68716eda62f20f1b2b,5416,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekend,May-Sep,01-06,2,0,,0.09476
-69bd828545db8e02760d3f0a,5416,Small General Service (SGS-55) Single Phase,weekday,Jan-Dec,00-24,0,0,2000.0,0.15861
-69bd828545db8e02760d3f0a,5416,Small General Service (SGS-55) Single Phase,weekday,Jan-Dec,00-24,0,1,,0.11632
-69bd828545db8e02760d3f0a,5416,Small General Service (SGS-55) Single Phase,weekend,Jan-Dec,00-24,0,0,2000.0,0.15861
-69bd828545db8e02760d3f0a,5416,Small General Service (SGS-55) Single Phase,weekend,Jan-Dec,00-24,0,1,,0.11632
-69bd841942d1943b1e0a845b,5416,Small General Service (SGS-55) Three Phase,weekday,Jan-Dec,00-24,0,0,2000.0,0.15861
-69bd841942d1943b1e0a845b,5416,Small General Service (SGS-55) Three Phase,weekday,Jan-Dec,00-24,0,1,,0.11632
-69bd841942d1943b1e0a845b,5416,Small General Service (SGS-55) Three Phase,weekend,Jan-Dec,00-24,0,0,2000.0,0.15861
-69bd841942d1943b1e0a845b,5416,Small General Service (SGS-55) Three Phase,weekend,Jan-Dec,00-24,0,1,,0.11632
-69bd84cceee23e40f709bd2c,5416,General Service (GS-55) Single Phase,weekday,Jan-Dec,00-24,0,0,750.0,0.21923
-69bd84cceee23e40f709bd2c,5416,General Service (GS-55) Single Phase,weekday,Jan-Dec,00-24,0,1,2750.0,0.15544
-69bd84cceee23e40f709bd2c,5416,General Service (GS-55) Single Phase,weekday,Jan-Dec,00-24,0,2,,0.14139
-69bd84cceee23e40f709bd2c,5416,General Service (GS-55) Single Phase,weekend,Jan-Dec,00-24,0,0,750.0,0.21923
-69bd84cceee23e40f709bd2c,5416,General Service (GS-55) Single Phase,weekend,Jan-Dec,00-24,0,1,2750.0,0.15544
-69bd84cceee23e40f709bd2c,5416,General Service (GS-55) Single Phase,weekend,Jan-Dec,00-24,0,2,,0.14139
-69bd85310f362bd2370e5dcc,5416,General Service (GS-55) Three Phase,weekday,Jan-Dec,00-24,0,0,750.0,0.21923
-69bd85310f362bd2370e5dcc,5416,General Service (GS-55) Three Phase,weekday,Jan-Dec,00-24,0,1,2750.0,0.15544
-69bd85310f362bd2370e5dcc,5416,General Service (GS-55) Three Phase,weekday,Jan-Dec,00-24,0,2,,0.14139
-69bd85310f362bd2370e5dcc,5416,General Service (GS-55) Three Phase,weekend,Jan-Dec,00-24,0,0,750.0,0.21923
-69bd85310f362bd2370e5dcc,5416,General Service (GS-55) Three Phase,weekend,Jan-Dec,00-24,0,1,2750.0,0.15544
-69bd85310f362bd2370e5dcc,5416,General Service (GS-55) Three Phase,weekend,Jan-Dec,00-24,0,2,,0.14139
-69bd859cf5cd25efec0e9aac,5416,Small General Service Constant Load (SGS-CLR 55) Single Phase,weekday,Jan-Dec,00-24,0,0,,0.10679
-69bd859cf5cd25efec0e9aac,5416,Small General Service Constant Load (SGS-CLR 55) Single Phase,weekend,Jan-Dec,00-24,0,0,,0.10679
-69bd85fbb46bd6bd3a043bfa,5416,Small General Service Constant load (SGS - CLR 55) Three Phase,weekday,Jan-Dec,00-24,0,0,,0.10679
-69bd85fbb46bd6bd3a043bfa,5416,Small General Service Constant load (SGS - CLR 55) Three Phase,weekend,Jan-Dec,00-24,0,0,,0.10679
-69bd86c794f41049050030fa,5416,Medium General Service (MGS-55) Single Phase,weekday,Jan-Dec,00-24,0,0,,0.08898
-69bd86c794f41049050030fa,5416,Medium General Service (MGS-55) Single Phase,weekend,Jan-Dec,00-24,0,0,,0.08898
-69bd874a0b1df265d00f4b1b,5416,Medium General Service (MGS-55) Three Phase,weekday,Jan-Dec,00-24,0,0,,0.08898
-69bd874a0b1df265d00f4b1b,5416,Medium General Service (MGS-55) Three Phase,weekend,Jan-Dec,00-24,0,0,,0.08898
-69bd87b4477fec3bbb0d885a,5416,Medium General Service TOU (MGS-TOU 55),weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.05947
-69bd87b4477fec3bbb0d885a,5416,Medium General Service TOU (MGS-TOU 55),weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.05947
-69bd87b4477fec3bbb0d885a,5416,Medium General Service TOU (MGS-TOU 55),weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.14353
-69bd87b4477fec3bbb0d885a,5416,Medium General Service TOU (MGS-TOU 55),weekday,May-Sep,18-21,1,0,,0.14353
-69bd87b4477fec3bbb0d885a,5416,Medium General Service TOU (MGS-TOU 55),weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.0334
-69bd87b4477fec3bbb0d885a,5416,Medium General Service TOU (MGS-TOU 55),weekday,May-Sep,01-06,2,0,,0.0334
-69bd87b4477fec3bbb0d885a,5416,Medium General Service TOU (MGS-TOU 55),weekend,Jan-Dec,00-24,0,0,,0.05947
-69bd8a7e0515b79e440f348b,5416,Church and School Service (CSG-41) Single Phase,weekday,Jan-Dec,00-24,0,0,,0.18066
-69bd8a7e0515b79e440f348b,5416,Church and School Service (CSG-41) Single Phase,weekend,Jan-Dec,00-24,0,0,,0.18066
-69bd8b0394f41049050030fb,5416,Church and School Service (CSG-41) Three Phase,weekday,Jan-Dec,00-24,0,0,,0.18066
-69bd8b0394f41049050030fb,5416,Church and School Service (CSG-41) Three Phase,weekend,Jan-Dec,00-24,0,0,,0.18066
+69bd6fcabeca13d34008ca0a,3046,Residential Service (RES-55) Single Phase,weekday,"Jan-Apr,Oct-Dec",00-24,1,0,800.0,0.15153
+69bd6fcabeca13d34008ca0a,3046,Residential Service (RES-55) Single Phase,weekday,"Jan-Apr,Oct-Dec",00-24,1,1,,0.14153
+69bd6fcabeca13d34008ca0a,3046,Residential Service (RES-55) Single Phase,weekday,May-Sep,00-24,0,0,,0.15153
+69bd6fcabeca13d34008ca0a,3046,Residential Service (RES-55) Single Phase,weekend,"Jan-Apr,Oct-Dec",00-24,1,0,800.0,0.15153
+69bd6fcabeca13d34008ca0a,3046,Residential Service (RES-55) Single Phase,weekend,"Jan-Apr,Oct-Dec",00-24,1,1,,0.14153
+69bd6fcabeca13d34008ca0a,3046,Residential Service (RES-55) Single Phase,weekend,May-Sep,00-24,0,0,,0.15153
+69bd75bdf04ecaab900f6ecb,3046,Residential Service (RES-55) Three Phase,weekday,"Jan-Apr,Oct-Dec",00-24,0,0,800.0,0.15153
+69bd75bdf04ecaab900f6ecb,3046,Residential Service (RES-55) Three Phase,weekday,"Jan-Apr,Oct-Dec",00-24,0,1,,0.14153
+69bd75bdf04ecaab900f6ecb,3046,Residential Service (RES-55) Three Phase,weekday,May-Sep,00-24,1,0,,0.15153
+69bd75bdf04ecaab900f6ecb,3046,Residential Service (RES-55) Three Phase,weekend,"Jan-Apr,Oct-Dec",00-24,0,0,800.0,0.15153
+69bd75bdf04ecaab900f6ecb,3046,Residential Service (RES-55) Three Phase,weekend,"Jan-Apr,Oct-Dec",00-24,0,1,,0.14153
+69bd75bdf04ecaab900f6ecb,3046,Residential Service (RES-55) Three Phase,weekend,May-Sep,00-24,1,0,,0.15153
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-24",0,0,,0.09773
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,May-Sep,"00-01,06-11,16-18,21-24",0,0,,0.09773
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.20606
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,May-Sep,18-21,1,0,,0.20606
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06972
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekday,May-Sep,"01-06,11-16",2,0,,0.06972
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-24",0,0,,0.09773
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekend,May-Sep,"00-01,06-11,16-24",0,0,,0.09773
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekend,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06972
+69bd7649f0300279d30f154b,3046,Residential Service Time-of-Use (R-TOUD-55) Single Phase,weekend,May-Sep,"01-06,11-16",2,0,,0.06972
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-24",0,0,,0.09773
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,May-Sep,"00-01,06-11,16-18,21-24",0,0,,0.09773
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.20606
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,May-Sep,18-21,1,0,,0.20606
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06972
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekday,May-Sep,"01-06,11-16",2,0,,0.06972
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-24",0,0,,0.09773
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekend,May-Sep,"00-01,06-11,16-24",0,0,,0.09773
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekend,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06972
+69bd786dbeca13d34008ca0b,3046,Residential Service Time-of-Use (R-TOUD-55) Three Phase,weekend,May-Sep,"01-06,11-16",2,0,,0.06972
+69bd7a61f5cd25efec0e9aab,3046,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,"Jan-Feb,Dec","00-06,09-18,21-24",0,0,,0.13788
+69bd7a61f5cd25efec0e9aab,3046,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,Mar-Nov,"06-18,21-24",0,0,,0.13788
+69bd7a61f5cd25efec0e9aab,3046,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,"Jan-Feb,Dec","06-09,18-21",1,0,,0.21248
+69bd7a61f5cd25efec0e9aab,3046,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,Mar-Nov,18-21,1,0,,0.21248
+69bd7a61f5cd25efec0e9aab,3046,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekday,Mar-Nov,00-06,2,0,,0.10792
+69bd7a61f5cd25efec0e9aab,3046,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekend,"Jan-Feb,Dec",00-24,0,0,,0.13788
+69bd7a61f5cd25efec0e9aab,3046,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekend,Mar-Nov,06-24,0,0,,0.13788
+69bd7a61f5cd25efec0e9aab,3046,Residential Service Solar Time-of-Use (R-STOU) Three Phase,weekend,Mar-Nov,00-06,2,0,,0.10792
+69bd7c6ffd0b7759a904a08c,3046,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,"Jan-Feb,Dec","00-06,09-18,21-24",0,0,,0.13788
+69bd7c6ffd0b7759a904a08c,3046,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,Mar-Nov,"06-18,21-24",0,0,,0.13788
+69bd7c6ffd0b7759a904a08c,3046,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,"Jan-Feb,Dec","06-09,18-21",1,0,,0.21248
+69bd7c6ffd0b7759a904a08c,3046,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,Mar-Nov,18-21,1,0,,0.21248
+69bd7c6ffd0b7759a904a08c,3046,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekday,Mar-Nov,00-06,2,0,,0.10792
+69bd7c6ffd0b7759a904a08c,3046,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekend,"Jan-Feb,Dec",00-24,0,0,,0.13788
+69bd7c6ffd0b7759a904a08c,3046,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekend,Mar-Nov,06-24,0,0,,0.13788
+69bd7c6ffd0b7759a904a08c,3046,Residential Service Solar Time-of-Use (R-STOU) Single Phase,weekend,Mar-Nov,00-06,2,0,,0.10792
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.13505
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.13505
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.29684
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,May-Sep,18-21,1,0,,0.29684
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.09476
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekday,May-Sep,01-06,2,0,,0.09476
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.13505
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekend,May-Sep,"00-01,06-24",0,0,,0.13505
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.09476
+69bd7cb70db95c60750df1ea,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Single Phase,weekend,May-Sep,01-06,2,0,,0.09476
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.13505
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.13505
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.29684
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,May-Sep,18-21,1,0,,0.29684
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.09476
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekday,May-Sep,01-06,2,0,,0.09476
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.13505
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekend,May-Sep,"00-01,06-24",0,0,,0.13505
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.09476
+69bd7e68716eda62f20f1b2b,3046,Residential Service Time-of-Use with Critical Peak Pricing(R-TOU-CPP) Three Phase,weekend,May-Sep,01-06,2,0,,0.09476
+69bd828545db8e02760d3f0a,3046,Small General Service (SGS-55) Single Phase,weekday,Jan-Dec,00-24,0,0,2000.0,0.15861
+69bd828545db8e02760d3f0a,3046,Small General Service (SGS-55) Single Phase,weekday,Jan-Dec,00-24,0,1,,0.11632
+69bd828545db8e02760d3f0a,3046,Small General Service (SGS-55) Single Phase,weekend,Jan-Dec,00-24,0,0,2000.0,0.15861
+69bd828545db8e02760d3f0a,3046,Small General Service (SGS-55) Single Phase,weekend,Jan-Dec,00-24,0,1,,0.11632
+69bd841942d1943b1e0a845b,3046,Small General Service (SGS-55) Three Phase,weekday,Jan-Dec,00-24,0,0,2000.0,0.15861
+69bd841942d1943b1e0a845b,3046,Small General Service (SGS-55) Three Phase,weekday,Jan-Dec,00-24,0,1,,0.11632
+69bd841942d1943b1e0a845b,3046,Small General Service (SGS-55) Three Phase,weekend,Jan-Dec,00-24,0,0,2000.0,0.15861
+69bd841942d1943b1e0a845b,3046,Small General Service (SGS-55) Three Phase,weekend,Jan-Dec,00-24,0,1,,0.11632
+69bd84cceee23e40f709bd2c,3046,General Service (GS-55) Single Phase,weekday,Jan-Dec,00-24,0,0,750.0,0.21923
+69bd84cceee23e40f709bd2c,3046,General Service (GS-55) Single Phase,weekday,Jan-Dec,00-24,0,1,2750.0,0.15544
+69bd84cceee23e40f709bd2c,3046,General Service (GS-55) Single Phase,weekday,Jan-Dec,00-24,0,2,,0.14139
+69bd84cceee23e40f709bd2c,3046,General Service (GS-55) Single Phase,weekend,Jan-Dec,00-24,0,0,750.0,0.21923
+69bd84cceee23e40f709bd2c,3046,General Service (GS-55) Single Phase,weekend,Jan-Dec,00-24,0,1,2750.0,0.15544
+69bd84cceee23e40f709bd2c,3046,General Service (GS-55) Single Phase,weekend,Jan-Dec,00-24,0,2,,0.14139
+69bd85310f362bd2370e5dcc,3046,General Service (GS-55) Three Phase,weekday,Jan-Dec,00-24,0,0,750.0,0.21923
+69bd85310f362bd2370e5dcc,3046,General Service (GS-55) Three Phase,weekday,Jan-Dec,00-24,0,1,2750.0,0.15544
+69bd85310f362bd2370e5dcc,3046,General Service (GS-55) Three Phase,weekday,Jan-Dec,00-24,0,2,,0.14139
+69bd85310f362bd2370e5dcc,3046,General Service (GS-55) Three Phase,weekend,Jan-Dec,00-24,0,0,750.0,0.21923
+69bd85310f362bd2370e5dcc,3046,General Service (GS-55) Three Phase,weekend,Jan-Dec,00-24,0,1,2750.0,0.15544
+69bd85310f362bd2370e5dcc,3046,General Service (GS-55) Three Phase,weekend,Jan-Dec,00-24,0,2,,0.14139
+69bd859cf5cd25efec0e9aac,3046,Small General Service Constant Load (SGS-CLR 55) Single Phase,weekday,Jan-Dec,00-24,0,0,,0.10679
+69bd859cf5cd25efec0e9aac,3046,Small General Service Constant Load (SGS-CLR 55) Single Phase,weekend,Jan-Dec,00-24,0,0,,0.10679
+69bd85fbb46bd6bd3a043bfa,3046,Small General Service Constant load (SGS - CLR 55) Three Phase,weekday,Jan-Dec,00-24,0,0,,0.10679
+69bd85fbb46bd6bd3a043bfa,3046,Small General Service Constant load (SGS - CLR 55) Three Phase,weekend,Jan-Dec,00-24,0,0,,0.10679
+69bd86c794f41049050030fa,3046,Medium General Service (MGS-55) Single Phase,weekday,Jan-Dec,00-24,0,0,,0.08898
+69bd86c794f41049050030fa,3046,Medium General Service (MGS-55) Single Phase,weekend,Jan-Dec,00-24,0,0,,0.08898
+69bd874a0b1df265d00f4b1b,3046,Medium General Service (MGS-55) Three Phase,weekday,Jan-Dec,00-24,0,0,,0.08898
+69bd874a0b1df265d00f4b1b,3046,Medium General Service (MGS-55) Three Phase,weekend,Jan-Dec,00-24,0,0,,0.08898
+69bd87b4477fec3bbb0d885a,3046,Medium General Service TOU (MGS-TOU 55),weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.05947
+69bd87b4477fec3bbb0d885a,3046,Medium General Service TOU (MGS-TOU 55),weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.05947
+69bd87b4477fec3bbb0d885a,3046,Medium General Service TOU (MGS-TOU 55),weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.14353
+69bd87b4477fec3bbb0d885a,3046,Medium General Service TOU (MGS-TOU 55),weekday,May-Sep,18-21,1,0,,0.14353
+69bd87b4477fec3bbb0d885a,3046,Medium General Service TOU (MGS-TOU 55),weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.0334
+69bd87b4477fec3bbb0d885a,3046,Medium General Service TOU (MGS-TOU 55),weekday,May-Sep,01-06,2,0,,0.0334
+69bd87b4477fec3bbb0d885a,3046,Medium General Service TOU (MGS-TOU 55),weekend,Jan-Dec,00-24,0,0,,0.05947
+69bd8a7e0515b79e440f348b,3046,Church and School Service (CSG-41) Single Phase,weekday,Jan-Dec,00-24,0,0,,0.18066
+69bd8a7e0515b79e440f348b,3046,Church and School Service (CSG-41) Single Phase,weekend,Jan-Dec,00-24,0,0,,0.18066
+69bd8b0394f41049050030fb,3046,Church and School Service (CSG-41) Three Phase,weekday,Jan-Dec,00-24,0,0,,0.18066
+69bd8b0394f41049050030fb,3046,Church and School Service (CSG-41) Three Phase,weekend,Jan-Dec,00-24,0,0,,0.18066
 69bd927af5cd25efec0e9aad,15466,Residential Energy Time Of Use (Schedule RE-TOU),weekday,"Jan-May,Oct-Dec",17-21,0,0,,0.32832
 69bd927af5cd25efec0e9aad,15466,Residential Energy Time Of Use (Schedule RE-TOU),weekday,"Jan-May,Oct-Dec","00-17,21-24",1,0,,0.12165
 69bd927af5cd25efec0e9aad,15466,Residential Energy Time Of Use (Schedule RE-TOU),weekday,Jun-Sep,17-21,2,0,,0.38109
@@ -9419,147 +9419,147 @@ urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,e
 69cc00121b23fb4e8c0bb0fc,56697,DS-3 General Service - Zone 1 - +100kV,weekend,Jan-Dec,00-24,0,0,,0.169546
 69cc001460833d2be10b3b9e,56697,DS-3 General Service - Zone 1 - +100kV,weekday,Jan-Dec,00-24,0,0,,0.100896
 69cc001460833d2be10b3b9e,56697,DS-3 General Service - Zone 1 - +100kV,weekend,Jan-Dec,00-24,0,0,,0.100896
-69cd352b09603a422306664b,5416,Residential Service - Single Phase,weekday,"Jan-Apr,Oct-Dec",00-24,1,0,800.0,0.1472
-69cd352b09603a422306664b,5416,Residential Service - Single Phase,weekday,"Jan-Apr,Oct-Dec",00-24,1,1,,0.1372
-69cd352b09603a422306664b,5416,Residential Service - Single Phase,weekday,May-Sep,00-24,0,0,,0.1472
-69cd352b09603a422306664b,5416,Residential Service - Single Phase,weekend,"Jan-Jun,Nov-Dec",00-24,1,0,800.0,0.1472
-69cd352b09603a422306664b,5416,Residential Service - Single Phase,weekend,"Jan-Jun,Nov-Dec",00-24,1,1,,0.1372
-69cd352b09603a422306664b,5416,Residential Service - Single Phase,weekend,Jul-Oct,00-24,0,0,,0.1472
-69cd629d14b8f6b45904597b,5416,Residential Service - Three Phase,weekday,"Jan-Jun,Nov-Dec",00-24,1,0,800.0,0.1472
-69cd629d14b8f6b45904597b,5416,Residential Service - Three Phase,weekday,"Jan-Jun,Nov-Dec",00-24,1,1,,0.1372
-69cd629d14b8f6b45904597b,5416,Residential Service - Three Phase,weekday,Jul-Oct,00-24,0,0,,0.1472
-69cd629d14b8f6b45904597b,5416,Residential Service - Three Phase,weekend,"Jan-Jun,Nov-Dec",00-24,1,0,800.0,0.1472
-69cd629d14b8f6b45904597b,5416,Residential Service - Three Phase,weekend,"Jan-Jun,Nov-Dec",00-24,1,1,,0.1372
-69cd629d14b8f6b45904597b,5416,Residential Service - Three Phase,weekend,Jul-Oct,00-24,0,0,,0.1472
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-24",0,0,,0.0873
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.0873
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.17735
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,May-Sep,18-21,1,0,,0.17735
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06444
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,May-Sep,01-06,2,0,,0.06444
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-24",0,0,,0.0873
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekend,May-Sep,"00-01,06-24",0,0,,0.0873
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekend,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06444
-69cd63013faac17f1d0fcd1d,5416,Residential Service-Time of Use (R-TOUD) - Single Phase,weekend,May-Sep,01-06,2,0,,0.06444
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.0873
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.0873
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.17735
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,May-Sep,18-21,1,0,,0.17735
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.06444
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,May-Sep,01-06,2,0,,0.06444
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.0873
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekend,May-Sep,"00-01,06-24",0,0,,0.0873
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.06444
-69cd6357a035e584860dc1b1,5416,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekend,May-Sep,01-06,2,0,,0.06444
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.09469
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekday,May-Sep,01-06,0,0,,0.09469
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",1,0,,0.13418
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,2,0,,0.32002
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekday,May-Sep,"00-01,06-18,21-24",3,0,,0.13418
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekday,May-Sep,18-21,4,0,,0.32002
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.09469
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekend,May-Sep,01-06,0,0,,0.09469
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",1,0,,0.13418
-69cd6489e87f91f6450b476a,5416,Residential Time of Use (R-TOU) Three Phase,weekend,May-Sep,"00-01,06-24",3,0,,0.13418
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.09469
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekday,May-Sep,01-06,0,0,,0.09469
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",1,0,,0.13418
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,2,0,,0.32002
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekday,May-Sep,"00-01,06-18,21-24",3,0,,0.13418
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekday,May-Sep,18-21,4,0,,0.32002
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.09469
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekend,May-Sep,01-06,0,0,,0.09469
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",1,0,,0.13418
-69cd6514a035e584860dc1b2,5416,Residential Time of Use (R-TOU) Single Phase,weekend,May-Sep,"00-01,06-24",3,0,,0.13418
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.10371
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,May-Sep,01-06,0,0,,0.10371
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",1,0,,0.13097
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,May-Sep,"00-01,06-18,21-24",1,0,,0.13097
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,2,0,,0.24049
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,May-Sep,18-21,2,0,,0.24049
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.10371
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekend,May-Sep,01-06,0,0,,0.10371
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",1,0,,0.13097
-69cd654cfc5a374fa508b47d,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekend,May-Sep,"00-01,06-24",1,0,,0.13097
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.10371
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,May-Sep,01-06,0,0,,0.10371
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",1,0,,0.13097
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,May-Sep,"00-01,06-18,21-24",1,0,,0.13097
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,2,0,,0.24049
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,May-Sep,18-21,2,0,,0.24049
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.10371
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekend,May-Sep,01-06,0,0,,0.10371
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",1,0,,0.13097
-69cd65b7a31f9248970fb3bd,5416,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekend,May-Sep,"00-01,06-24",1,0,,0.13097
-69cd662342e2e751b502a5bc,5416,Residential Time of Use EV(R-TOU-EV) Single Phase,weekday,Jan-Dec,05-23,0,0,,0.15193
-69cd662342e2e751b502a5bc,5416,Residential Time of Use EV(R-TOU-EV) Single Phase,weekday,Jan-Dec,"00-05,23-24",1,0,,0.08645
-69cd662342e2e751b502a5bc,5416,Residential Time of Use EV(R-TOU-EV) Single Phase,weekend,Jan-Dec,05-23,0,0,,0.15193
-69cd662342e2e751b502a5bc,5416,Residential Time of Use EV(R-TOU-EV) Single Phase,weekend,Jan-Dec,"00-05,23-24",1,0,,0.08645
-69cd668a60ba8e37e10134fb,5416,Residential Time of Use EV(R-TOU-EV) Three Phase,weekday,Jan-Dec,05-23,0,0,,0.15193
-69cd668a60ba8e37e10134fb,5416,Residential Time of Use EV(R-TOU-EV) Three Phase,weekday,Jan-Dec,"00-05,23-24",1,0,,0.08645
-69cd668a60ba8e37e10134fb,5416,Residential Time of Use EV(R-TOU-EV) Three Phase,weekend,Jan-Dec,05-23,0,0,,0.15193
-69cd668a60ba8e37e10134fb,5416,Residential Time of Use EV(R-TOU-EV) Three Phase,weekend,Jan-Dec,"00-05,23-24",1,0,,0.08645
-69cd66c1efe98db1540a4a0f,5416,Small General Service - Single Phase,weekday,Jan-Dec,00-24,0,0,750.0,0.13397
-69cd66c1efe98db1540a4a0f,5416,Small General Service - Single Phase,weekday,Jan-Dec,00-24,0,1,2000.0,0.11375
-69cd66c1efe98db1540a4a0f,5416,Small General Service - Single Phase,weekday,Jan-Dec,00-24,0,2,,0.10825
-69cd66c1efe98db1540a4a0f,5416,Small General Service - Single Phase,weekend,Jan-Dec,00-24,0,0,750.0,0.13397
-69cd66c1efe98db1540a4a0f,5416,Small General Service - Single Phase,weekend,Jan-Dec,00-24,0,1,2000.0,0.11375
-69cd66c1efe98db1540a4a0f,5416,Small General Service - Single Phase,weekend,Jan-Dec,00-24,0,2,,0.10825
-69cd672d60833d2be10b3b9f,5416,Small General Service - Three Phase,weekday,Jan-Dec,00-24,0,0,750.0,0.13397
-69cd672d60833d2be10b3b9f,5416,Small General Service - Three Phase,weekday,Jan-Dec,00-24,0,1,2000.0,0.11375
-69cd672d60833d2be10b3b9f,5416,Small General Service - Three Phase,weekday,Jan-Dec,00-24,0,2,,0.10825
-69cd672d60833d2be10b3b9f,5416,Small General Service - Three Phase,weekend,Jan-Dec,00-24,0,0,750.0,0.13397
-69cd672d60833d2be10b3b9f,5416,Small General Service - Three Phase,weekend,Jan-Dec,00-24,0,1,2000.0,0.11375
-69cd672d60833d2be10b3b9f,5416,Small General Service - Three Phase,weekend,Jan-Dec,00-24,0,2,,0.10825
-69cd6774a111e9a95e0c0d9c,5416,Small General Service All-Energy TOU - Single Phase,weekday,"Jan-Apr,Oct-Dec","00-02,04-06,09-11,16-18,21-24",0,0,,0.0993
-69cd6774a111e9a95e0c0d9c,5416,Small General Service All-Energy TOU - Single Phase,weekday,May-Sep,"00-02,09-18,21-24",0,0,,0.0993
-69cd6774a111e9a95e0c0d9c,5416,Small General Service All-Energy TOU - Single Phase,weekday,Jan-Dec,"06-09,18-21",1,0,,0.19672
-69cd6774a111e9a95e0c0d9c,5416,Small General Service All-Energy TOU - Single Phase,weekday,"Jan-Apr,Oct-Dec","02-04,11-16",2,0,,0.07833
-69cd6774a111e9a95e0c0d9c,5416,Small General Service All-Energy TOU - Single Phase,weekday,May-Sep,02-06,2,0,,0.07833
-69cd6774a111e9a95e0c0d9c,5416,Small General Service All-Energy TOU - Single Phase,weekend,"Jan-Apr,Oct-Dec","00-02,04-11,16-24",0,0,,0.0993
-69cd6774a111e9a95e0c0d9c,5416,Small General Service All-Energy TOU - Single Phase,weekend,May-Sep,"00-02,06-24",0,0,,0.0993
-69cd6774a111e9a95e0c0d9c,5416,Small General Service All-Energy TOU - Single Phase,weekend,"Jan-Apr,Oct-Dec","02-04,11-16",2,0,,0.07833
-69cd6774a111e9a95e0c0d9c,5416,Small General Service All-Energy TOU - Single Phase,weekend,May-Sep,02-06,2,0,,0.07833
-69cd67a2fc5a374fa508b47e,5416,Small General Service All-Energy TOU - Three Phase,weekday,"Jan-Apr,Oct-Dec","00-02,04-06,09-11,16-18,21-24",0,0,,0.0993
-69cd67a2fc5a374fa508b47e,5416,Small General Service All-Energy TOU - Three Phase,weekday,May-Sep,"00-02,09-18,21-24",0,0,,0.0993
-69cd67a2fc5a374fa508b47e,5416,Small General Service All-Energy TOU - Three Phase,weekday,Jan-Dec,"06-09,18-21",1,0,,0.19672
-69cd67a2fc5a374fa508b47e,5416,Small General Service All-Energy TOU - Three Phase,weekday,"Jan-Apr,Oct-Dec","02-04,11-16",2,0,,0.07833
-69cd67a2fc5a374fa508b47e,5416,Small General Service All-Energy TOU - Three Phase,weekday,May-Sep,02-06,2,0,,0.07833
-69cd67a2fc5a374fa508b47e,5416,Small General Service All-Energy TOU - Three Phase,weekend,"Jan-Apr,Oct-Dec","00-02,04-11,16-24",0,0,,0.0993
-69cd67a2fc5a374fa508b47e,5416,Small General Service All-Energy TOU - Three Phase,weekend,May-Sep,"00-02,06-24",0,0,,0.0993
-69cd67a2fc5a374fa508b47e,5416,Small General Service All-Energy TOU - Three Phase,weekend,"Jan-Apr,Oct-Dec","02-04,11-16",2,0,,0.07833
-69cd67a2fc5a374fa508b47e,5416,Small General Service All-Energy TOU - Three Phase,weekend,May-Sep,02-06,2,0,,0.07833
-69cd67f1a035e584860dc1b3,5416,Medium General Service - Single Phase,weekday,Jan-Dec,00-24,0,0,,0.08265
-69cd67f1a035e584860dc1b3,5416,Medium General Service - Single Phase,weekend,Jan-Dec,00-24,0,0,,0.08265
-69cd6847cb753416e904eaab,5416,Medium General Service Schedule - Three Phase,weekday,Jan-Dec,00-24,0,0,,0.08052
-69cd6847cb753416e904eaab,5416,Medium General Service Schedule - Three Phase,weekend,Jan-Dec,00-24,0,0,,0.08052
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.05151
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.05151
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.10913
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekday,May-Sep,18-21,1,0,,0.10913
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.03388
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekday,May-Sep,01-06,2,0,,0.03388
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.05151
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekend,May-Sep,"00-01,06-24",0,0,,0.05151
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.03388
-69cd689c5eb3f10f4604e25d,5416,Medium General Service TOU,weekend,May-Sep,01-06,2,0,,0.03388
-69cd6909e87f91f6450b476b,5416,Church Service (Time-of-Use),weekday,"Jan-Mar,Oct-Dec","00-06,13-16,21-24",0,0,,0.06698
-69cd6909e87f91f6450b476b,5416,Church Service (Time-of-Use),weekday,Apr-Sep,"00-10,22-24",0,0,,0.06698
-69cd6909e87f91f6450b476b,5416,Church Service (Time-of-Use),weekday,"Jan-Mar,Oct-Dec","06-13,16-21",1,0,,0.25147
-69cd6909e87f91f6450b476b,5416,Church Service (Time-of-Use),weekday,Apr-Sep,10-22,1,0,,0.25147
-69cd6909e87f91f6450b476b,5416,Church Service (Time-of-Use),weekend,Jan-Dec,00-24,0,0,,0.06698
-69cd694b0fd070966102784b,5416,Large General Service,weekday,Jan-Dec,00-24,0,0,,0.05539
-69cd694b0fd070966102784b,5416,Large General Service,weekend,Jan-Dec,00-24,0,0,,0.05539
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,15-24",0,0,,0.04176
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.04176
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.07091
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekday,May-Sep,18-21,1,0,,0.07091
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekday,"Jan-Apr,Oct-Dec","01-03,11-15",2,0,,0.03396
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekday,May-Sep,01-06,2,0,,0.03396
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.04176
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekend,May-Sep,"00-01,06-24",0,0,,0.04176
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.03396
-69cd69bc8444b2eead02b3fc,5416,Large General Service Time of Use,weekend,May-Sep,01-06,2,0,,0.03396
+69cd352b09603a422306664b,3046,Residential Service - Single Phase,weekday,"Jan-Apr,Oct-Dec",00-24,1,0,800.0,0.1472
+69cd352b09603a422306664b,3046,Residential Service - Single Phase,weekday,"Jan-Apr,Oct-Dec",00-24,1,1,,0.1372
+69cd352b09603a422306664b,3046,Residential Service - Single Phase,weekday,May-Sep,00-24,0,0,,0.1472
+69cd352b09603a422306664b,3046,Residential Service - Single Phase,weekend,"Jan-Jun,Nov-Dec",00-24,1,0,800.0,0.1472
+69cd352b09603a422306664b,3046,Residential Service - Single Phase,weekend,"Jan-Jun,Nov-Dec",00-24,1,1,,0.1372
+69cd352b09603a422306664b,3046,Residential Service - Single Phase,weekend,Jul-Oct,00-24,0,0,,0.1472
+69cd629d14b8f6b45904597b,3046,Residential Service - Three Phase,weekday,"Jan-Jun,Nov-Dec",00-24,1,0,800.0,0.1472
+69cd629d14b8f6b45904597b,3046,Residential Service - Three Phase,weekday,"Jan-Jun,Nov-Dec",00-24,1,1,,0.1372
+69cd629d14b8f6b45904597b,3046,Residential Service - Three Phase,weekday,Jul-Oct,00-24,0,0,,0.1472
+69cd629d14b8f6b45904597b,3046,Residential Service - Three Phase,weekend,"Jan-Jun,Nov-Dec",00-24,1,0,800.0,0.1472
+69cd629d14b8f6b45904597b,3046,Residential Service - Three Phase,weekend,"Jan-Jun,Nov-Dec",00-24,1,1,,0.1372
+69cd629d14b8f6b45904597b,3046,Residential Service - Three Phase,weekend,Jul-Oct,00-24,0,0,,0.1472
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-24",0,0,,0.0873
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.0873
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.17735
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,May-Sep,18-21,1,0,,0.17735
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06444
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekday,May-Sep,01-06,2,0,,0.06444
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-24",0,0,,0.0873
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekend,May-Sep,"00-01,06-24",0,0,,0.0873
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekend,"Jan-Apr,Oct-Dec",01-03,2,0,,0.06444
+69cd63013faac17f1d0fcd1d,3046,Residential Service-Time of Use (R-TOUD) - Single Phase,weekend,May-Sep,01-06,2,0,,0.06444
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.0873
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.0873
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.17735
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,May-Sep,18-21,1,0,,0.17735
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.06444
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekday,May-Sep,01-06,2,0,,0.06444
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.0873
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekend,May-Sep,"00-01,06-24",0,0,,0.0873
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.06444
+69cd6357a035e584860dc1b1,3046,Residential Time Of Use Schedule (R-TOUD) - Three Phase,weekend,May-Sep,01-06,2,0,,0.06444
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.09469
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekday,May-Sep,01-06,0,0,,0.09469
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",1,0,,0.13418
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,2,0,,0.32002
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekday,May-Sep,"00-01,06-18,21-24",3,0,,0.13418
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekday,May-Sep,18-21,4,0,,0.32002
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.09469
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekend,May-Sep,01-06,0,0,,0.09469
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",1,0,,0.13418
+69cd6489e87f91f6450b476a,3046,Residential Time of Use (R-TOU) Three Phase,weekend,May-Sep,"00-01,06-24",3,0,,0.13418
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.09469
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekday,May-Sep,01-06,0,0,,0.09469
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",1,0,,0.13418
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,2,0,,0.32002
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekday,May-Sep,"00-01,06-18,21-24",3,0,,0.13418
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekday,May-Sep,18-21,4,0,,0.32002
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.09469
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekend,May-Sep,01-06,0,0,,0.09469
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",1,0,,0.13418
+69cd6514a035e584860dc1b2,3046,Residential Time of Use (R-TOU) Single Phase,weekend,May-Sep,"00-01,06-24",3,0,,0.13418
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.10371
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,May-Sep,01-06,0,0,,0.10371
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",1,0,,0.13097
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,May-Sep,"00-01,06-18,21-24",1,0,,0.13097
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,"Jan-Apr,Oct-Dec",06-09,2,0,,0.24049
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekday,May-Sep,18-21,2,0,,0.24049
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.10371
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekend,May-Sep,01-06,0,0,,0.10371
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",1,0,,0.13097
+69cd654cfc5a374fa508b47d,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Single Phase,weekend,May-Sep,"00-01,06-24",1,0,,0.13097
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.10371
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,May-Sep,01-06,0,0,,0.10371
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",1,0,,0.13097
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,May-Sep,"00-01,06-18,21-24",1,0,,0.13097
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,"Jan-Apr,Oct-Dec",06-09,2,0,,0.24049
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekday,May-Sep,18-21,2,0,,0.24049
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",0,0,,0.10371
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekend,May-Sep,01-06,0,0,,0.10371
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",1,0,,0.13097
+69cd65b7a31f9248970fb3bd,3046,Residential Time of Use with Critical Peak Pricing (R-TOU-CPP) Three Phase,weekend,May-Sep,"00-01,06-24",1,0,,0.13097
+69cd662342e2e751b502a5bc,3046,Residential Time of Use EV(R-TOU-EV) Single Phase,weekday,Jan-Dec,05-23,0,0,,0.15193
+69cd662342e2e751b502a5bc,3046,Residential Time of Use EV(R-TOU-EV) Single Phase,weekday,Jan-Dec,"00-05,23-24",1,0,,0.08645
+69cd662342e2e751b502a5bc,3046,Residential Time of Use EV(R-TOU-EV) Single Phase,weekend,Jan-Dec,05-23,0,0,,0.15193
+69cd662342e2e751b502a5bc,3046,Residential Time of Use EV(R-TOU-EV) Single Phase,weekend,Jan-Dec,"00-05,23-24",1,0,,0.08645
+69cd668a60ba8e37e10134fb,3046,Residential Time of Use EV(R-TOU-EV) Three Phase,weekday,Jan-Dec,05-23,0,0,,0.15193
+69cd668a60ba8e37e10134fb,3046,Residential Time of Use EV(R-TOU-EV) Three Phase,weekday,Jan-Dec,"00-05,23-24",1,0,,0.08645
+69cd668a60ba8e37e10134fb,3046,Residential Time of Use EV(R-TOU-EV) Three Phase,weekend,Jan-Dec,05-23,0,0,,0.15193
+69cd668a60ba8e37e10134fb,3046,Residential Time of Use EV(R-TOU-EV) Three Phase,weekend,Jan-Dec,"00-05,23-24",1,0,,0.08645
+69cd66c1efe98db1540a4a0f,3046,Small General Service - Single Phase,weekday,Jan-Dec,00-24,0,0,750.0,0.13397
+69cd66c1efe98db1540a4a0f,3046,Small General Service - Single Phase,weekday,Jan-Dec,00-24,0,1,2000.0,0.11375
+69cd66c1efe98db1540a4a0f,3046,Small General Service - Single Phase,weekday,Jan-Dec,00-24,0,2,,0.10825
+69cd66c1efe98db1540a4a0f,3046,Small General Service - Single Phase,weekend,Jan-Dec,00-24,0,0,750.0,0.13397
+69cd66c1efe98db1540a4a0f,3046,Small General Service - Single Phase,weekend,Jan-Dec,00-24,0,1,2000.0,0.11375
+69cd66c1efe98db1540a4a0f,3046,Small General Service - Single Phase,weekend,Jan-Dec,00-24,0,2,,0.10825
+69cd672d60833d2be10b3b9f,3046,Small General Service - Three Phase,weekday,Jan-Dec,00-24,0,0,750.0,0.13397
+69cd672d60833d2be10b3b9f,3046,Small General Service - Three Phase,weekday,Jan-Dec,00-24,0,1,2000.0,0.11375
+69cd672d60833d2be10b3b9f,3046,Small General Service - Three Phase,weekday,Jan-Dec,00-24,0,2,,0.10825
+69cd672d60833d2be10b3b9f,3046,Small General Service - Three Phase,weekend,Jan-Dec,00-24,0,0,750.0,0.13397
+69cd672d60833d2be10b3b9f,3046,Small General Service - Three Phase,weekend,Jan-Dec,00-24,0,1,2000.0,0.11375
+69cd672d60833d2be10b3b9f,3046,Small General Service - Three Phase,weekend,Jan-Dec,00-24,0,2,,0.10825
+69cd6774a111e9a95e0c0d9c,3046,Small General Service All-Energy TOU - Single Phase,weekday,"Jan-Apr,Oct-Dec","00-02,04-06,09-11,16-18,21-24",0,0,,0.0993
+69cd6774a111e9a95e0c0d9c,3046,Small General Service All-Energy TOU - Single Phase,weekday,May-Sep,"00-02,09-18,21-24",0,0,,0.0993
+69cd6774a111e9a95e0c0d9c,3046,Small General Service All-Energy TOU - Single Phase,weekday,Jan-Dec,"06-09,18-21",1,0,,0.19672
+69cd6774a111e9a95e0c0d9c,3046,Small General Service All-Energy TOU - Single Phase,weekday,"Jan-Apr,Oct-Dec","02-04,11-16",2,0,,0.07833
+69cd6774a111e9a95e0c0d9c,3046,Small General Service All-Energy TOU - Single Phase,weekday,May-Sep,02-06,2,0,,0.07833
+69cd6774a111e9a95e0c0d9c,3046,Small General Service All-Energy TOU - Single Phase,weekend,"Jan-Apr,Oct-Dec","00-02,04-11,16-24",0,0,,0.0993
+69cd6774a111e9a95e0c0d9c,3046,Small General Service All-Energy TOU - Single Phase,weekend,May-Sep,"00-02,06-24",0,0,,0.0993
+69cd6774a111e9a95e0c0d9c,3046,Small General Service All-Energy TOU - Single Phase,weekend,"Jan-Apr,Oct-Dec","02-04,11-16",2,0,,0.07833
+69cd6774a111e9a95e0c0d9c,3046,Small General Service All-Energy TOU - Single Phase,weekend,May-Sep,02-06,2,0,,0.07833
+69cd67a2fc5a374fa508b47e,3046,Small General Service All-Energy TOU - Three Phase,weekday,"Jan-Apr,Oct-Dec","00-02,04-06,09-11,16-18,21-24",0,0,,0.0993
+69cd67a2fc5a374fa508b47e,3046,Small General Service All-Energy TOU - Three Phase,weekday,May-Sep,"00-02,09-18,21-24",0,0,,0.0993
+69cd67a2fc5a374fa508b47e,3046,Small General Service All-Energy TOU - Three Phase,weekday,Jan-Dec,"06-09,18-21",1,0,,0.19672
+69cd67a2fc5a374fa508b47e,3046,Small General Service All-Energy TOU - Three Phase,weekday,"Jan-Apr,Oct-Dec","02-04,11-16",2,0,,0.07833
+69cd67a2fc5a374fa508b47e,3046,Small General Service All-Energy TOU - Three Phase,weekday,May-Sep,02-06,2,0,,0.07833
+69cd67a2fc5a374fa508b47e,3046,Small General Service All-Energy TOU - Three Phase,weekend,"Jan-Apr,Oct-Dec","00-02,04-11,16-24",0,0,,0.0993
+69cd67a2fc5a374fa508b47e,3046,Small General Service All-Energy TOU - Three Phase,weekend,May-Sep,"00-02,06-24",0,0,,0.0993
+69cd67a2fc5a374fa508b47e,3046,Small General Service All-Energy TOU - Three Phase,weekend,"Jan-Apr,Oct-Dec","02-04,11-16",2,0,,0.07833
+69cd67a2fc5a374fa508b47e,3046,Small General Service All-Energy TOU - Three Phase,weekend,May-Sep,02-06,2,0,,0.07833
+69cd67f1a035e584860dc1b3,3046,Medium General Service - Single Phase,weekday,Jan-Dec,00-24,0,0,,0.08265
+69cd67f1a035e584860dc1b3,3046,Medium General Service - Single Phase,weekend,Jan-Dec,00-24,0,0,,0.08265
+69cd6847cb753416e904eaab,3046,Medium General Service Schedule - Three Phase,weekday,Jan-Dec,00-24,0,0,,0.08052
+69cd6847cb753416e904eaab,3046,Medium General Service Schedule - Three Phase,weekend,Jan-Dec,00-24,0,0,,0.08052
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,16-24",0,0,,0.05151
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.05151
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.10913
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekday,May-Sep,18-21,1,0,,0.10913
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekday,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.03388
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekday,May-Sep,01-06,2,0,,0.03388
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.05151
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekend,May-Sep,"00-01,06-24",0,0,,0.05151
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.03388
+69cd689c5eb3f10f4604e25d,3046,Medium General Service TOU,weekend,May-Sep,01-06,2,0,,0.03388
+69cd6909e87f91f6450b476b,3046,Church Service (Time-of-Use),weekday,"Jan-Mar,Oct-Dec","00-06,13-16,21-24",0,0,,0.06698
+69cd6909e87f91f6450b476b,3046,Church Service (Time-of-Use),weekday,Apr-Sep,"00-10,22-24",0,0,,0.06698
+69cd6909e87f91f6450b476b,3046,Church Service (Time-of-Use),weekday,"Jan-Mar,Oct-Dec","06-13,16-21",1,0,,0.25147
+69cd6909e87f91f6450b476b,3046,Church Service (Time-of-Use),weekday,Apr-Sep,10-22,1,0,,0.25147
+69cd6909e87f91f6450b476b,3046,Church Service (Time-of-Use),weekend,Jan-Dec,00-24,0,0,,0.06698
+69cd694b0fd070966102784b,3046,Large General Service,weekday,Jan-Dec,00-24,0,0,,0.05539
+69cd694b0fd070966102784b,3046,Large General Service,weekend,Jan-Dec,00-24,0,0,,0.05539
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekday,"Jan-Apr,Oct-Dec","00-01,03-06,09-11,15-24",0,0,,0.04176
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekday,May-Sep,"00-01,06-18,21-24",0,0,,0.04176
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekday,"Jan-Apr,Oct-Dec",06-09,1,0,,0.07091
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekday,May-Sep,18-21,1,0,,0.07091
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekday,"Jan-Apr,Oct-Dec","01-03,11-15",2,0,,0.03396
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekday,May-Sep,01-06,2,0,,0.03396
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekend,"Jan-Apr,Oct-Dec","00-01,03-11,16-24",0,0,,0.04176
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekend,May-Sep,"00-01,06-24",0,0,,0.04176
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekend,"Jan-Apr,Oct-Dec","01-03,11-16",2,0,,0.03396
+69cd69bc8444b2eead02b3fc,3046,Large General Service Time of Use,weekend,May-Sep,01-06,2,0,,0.03396
 69d3d2c1334726786f005c2a,3249,S.C. No. 1 Residential (Unbundled),weekday,Jan-Dec,00-24,0,0,,0.28869
 69d3d2c1334726786f005c2a,3249,S.C. No. 1 Residential (Unbundled),weekend,Jan-Dec,00-24,0,0,,0.28869
 69d3d525c9ba50cb2d0b2f7a,3249,S.C. No. 1 Residential,weekday,Jan-Dec,00-24,0,0,,0.43097

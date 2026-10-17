@@ -12,6 +12,13 @@ cols = ["label", "eiaid", "name", "is_default", "startdate", "enddate", "latest_
         "demandratestructure/period0/tier0rate", "fixedchargefirstmeter"]
 u = pd.read_csv(src, usecols=lambda c: c in cols, low_memory=False)
 u["eiaid"] = pd.to_numeric(u["eiaid"], errors="coerce").astype("Int64").astype(str)
+# URDB files some utilities under another utility's EIA id; data/crosswalk/urdb_eia_map.csv reassigns them.
+_xw = os.path.join(ROOT, "data/crosswalk/urdb_eia_map.csv")
+if os.path.exists(_xw):
+    _u = pd.read_csv(src, usecols=["label", "utility"], low_memory=False).set_index("label").utility
+    for _, x in pd.read_csv(_xw, dtype=str).iterrows():
+        m = (u.eiaid == x.urdb_eiaid) & u.label.map(_u).fillna("").str.startswith(x.urdb_utility_prefix)
+        u.loc[m, "eiaid"] = x.target_eia
 for c in ("startdate", "enddate", "latest_update"):
     u[c] = pd.to_datetime(u[c], errors="coerce", utc=True)
 u["active"] = u["enddate"].isna() | (u["enddate"] > pd.Timestamp.now(tz="UTC"))

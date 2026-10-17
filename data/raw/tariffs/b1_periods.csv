@@ -5,26 +5,26 @@ urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,e
 ,8901,Residential Electric Rates (delivery only),weekend,Jan-Dec,0-24,0,0,,0.02324
 ,733,R.S. Residential Service,weekday,Jan-Dec,0-24,0,0,,0.07622
 ,733,R.S. Residential Service,weekend,Jan-Dec,0-24,0,0,,0.07622
-,733,R.S.-S.D. Smart Demand,weekday,Jan-Dec,7-20,1,0,,0.07028
-,733,R.S.-S.D. Smart Demand,weekday,Jan-Dec,"0-7,20-24",0,0,,0.03358
-,733,R.S.-S.D. Smart Demand,weekend,Jan-Dec,0-24,0,0,,0.03358
-,733,R.S.-T.O.D. Time-of-Day,weekday,Jan-Dec,7-20,1,0,,0.14306
-,733,R.S.-T.O.D. Time-of-Day,weekday,Jan-Dec,"0-7,20-24",0,0,,0.03358
-,733,R.S.-T.O.D. Time-of-Day,weekend,Jan-Dec,0-24,0,0,,0.03358
-,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Dec-Feb,7-10,2,0,,0.175
+,733,R.S.-S.D. Smart Demand,weekday,Jan-Dec,7-20,0,0,,0.07028
+,733,R.S.-S.D. Smart Demand,weekday,Jan-Dec,"0-7,20-24",1,0,,0.03358
+,733,R.S.-S.D. Smart Demand,weekend,Jan-Dec,0-24,1,0,,0.03358
+,733,R.S.-T.O.D. Time-of-Day,weekday,Jan-Dec,7-20,0,0,,0.14306
+,733,R.S.-T.O.D. Time-of-Day,weekday,Jan-Dec,"0-7,20-24",1,0,,0.03358
+,733,R.S.-T.O.D. Time-of-Day,weekend,Jan-Dec,0-24,1,0,,0.03358
+,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Dec-Feb,7-10,0,0,,0.175
 ,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Dec-Feb,10-20,1,0,,0.10672
-,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Dec-Feb,"0-7,20-24",0,0,,0.05083
-,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Jun-Sep,16-19,2,0,,0.175
+,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Dec-Feb,"0-7,20-24",2,0,,0.05083
+,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Jun-Sep,16-19,0,0,,0.175
 ,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Jun-Sep,"7-16,19-20",1,0,,0.10672
-,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Jun-Sep,"0-7,20-24",0,0,,0.05083
+,733,R.S.-S.T.O.U. Smart Time of Use,weekday,Jun-Sep,"0-7,20-24",2,0,,0.05083
 ,733,R.S.-S.T.O.U. Smart Time of Use,weekday,"Mar-May,Oct-Nov",7-20,1,0,,0.10672
-,733,R.S.-S.T.O.U. Smart Time of Use,weekday,"Mar-May,Oct-Nov","0-7,20-24",0,0,,0.05083
-,733,R.S.-S.T.O.U. Smart Time of Use,weekend,Jan-Dec,0-24,0,0,,0.05083
+,733,R.S.-S.T.O.U. Smart Time of Use,weekday,"Mar-May,Oct-Nov","0-7,20-24",2,0,,0.05083
+,733,R.S.-S.T.O.U. Smart Time of Use,weekend,Jan-Dec,0-24,2,0,,0.05083
 ,733,S.G.S. Small General Service,weekday,Jan-Dec,0-24,0,0,,0.06446
 ,733,S.G.S. Small General Service,weekend,Jan-Dec,0-24,0,0,,0.06446
-,733,S.G.S. Load Management TOD provision,weekday,Jan-Dec,7-20,1,0,,0.109
-,733,S.G.S. Load Management TOD provision,weekday,Jan-Dec,"0-7,20-24",0,0,,0.03001
-,733,S.G.S. Load Management TOD provision,weekend,Jan-Dec,0-24,0,0,,0.03001
+,733,S.G.S. Load Management TOD provision,weekday,Jan-Dec,7-20,0,0,,0.109
+,733,S.G.S. Load Management TOD provision,weekday,Jan-Dec,"0-7,20-24",1,0,,0.03001
+,733,S.G.S. Load Management TOD provision,weekend,Jan-Dec,0-24,1,0,,0.03001
 ,18454,RS Residential Service,weekday,Jan-Dec,0-24,0,0,1000,0.08948
 ,18454,RS Residential Service,weekend,Jan-Dec,0-24,0,0,1000,0.08948
 ,18454,RS Residential Service,weekday,Jan-Dec,0-24,0,1,,0.09948
@@ -33,11 +33,11 @@ urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,e
 ,18454,RSVP-1 Residential Variable Pricing,weekend,Jan-Dec,0-24,0,0,,0.09435
 ,18454,GS General Service Non-Demand,weekday,Jan-Dec,0-24,0,0,,0.08668
 ,18454,GS General Service Non-Demand,weekend,Jan-Dec,0-24,0,0,,0.08668
-,18454,GST Time-of-Day General Service Non-Demand,weekday,Apr-Oct,12-21,1,0,,0.13579
-,18454,GST Time-of-Day General Service Non-Demand,weekday,Apr-Oct,"0-12,21-24",0,0,,0.0698
-,18454,GST Time-of-Day General Service Non-Demand,weekday,"Jan-Mar,Nov-Dec","6-10,18-22",1,0,,0.13579
-,18454,GST Time-of-Day General Service Non-Demand,weekday,"Jan-Mar,Nov-Dec","0-6,10-18,22-24",0,0,,0.0698
-,18454,GST Time-of-Day General Service Non-Demand,weekend,Jan-Dec,0-24,0,0,,0.0698
+,18454,GST Time-of-Day General Service Non-Demand,weekday,Apr-Oct,12-21,0,0,,0.13579
+,18454,GST Time-of-Day General Service Non-Demand,weekday,Apr-Oct,"0-12,21-24",1,0,,0.0698
+,18454,GST Time-of-Day General Service Non-Demand,weekday,"Jan-Mar,Nov-Dec","6-10,18-22",0,0,,0.13579
+,18454,GST Time-of-Day General Service Non-Demand,weekday,"Jan-Mar,Nov-Dec","0-6,10-18,22-24",1,0,,0.0698
+,18454,GST Time-of-Day General Service Non-Demand,weekend,Jan-Dec,0-24,1,0,,0.0698
 ,18454,GSD General Service Demand,weekday,Jan-Dec,0-24,0,0,,0.00815
 ,18454,GSD General Service Demand,weekend,Jan-Dec,0-24,0,0,,0.00815
 ,17539,Rate 8 Residential Service,weekday,May-Sep,0-24,0,0,800,0.15878
@@ -48,30 +48,30 @@ urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,e
 ,17539,Rate 8 Residential Service,weekend,Oct-Apr,0-24,1,0,800,0.15878
 ,17539,Rate 8 Residential Service,weekday,Oct-Apr,0-24,1,1,,0.15253
 ,17539,Rate 8 Residential Service,weekend,Oct-Apr,0-24,1,1,,0.15253
-,17539,Rate 5 Residential Time of Use,weekday,May-Sep,16-20,1,0,,0.29907
-,17539,Rate 5 Residential Time of Use,weekend,May-Sep,16-20,1,0,,0.29907
-,17539,Rate 5 Residential Time of Use,weekday,May-Sep,1-5,2,0,,0.09623
-,17539,Rate 5 Residential Time of Use,weekend,May-Sep,1-5,2,0,,0.09623
-,17539,Rate 5 Residential Time of Use,weekday,May-Sep,"0-1,5-16,20-24",0,0,,0.15074
-,17539,Rate 5 Residential Time of Use,weekend,May-Sep,"0-1,5-16,20-24",0,0,,0.15074
-,17539,Rate 5 Residential Time of Use,weekday,Oct-Apr,6-9,1,0,,0.29907
-,17539,Rate 5 Residential Time of Use,weekend,Oct-Apr,6-9,1,0,,0.29907
-,17539,Rate 5 Residential Time of Use,weekday,Oct-Apr,"1-5,12-15",2,0,,0.09623
-,17539,Rate 5 Residential Time of Use,weekend,Oct-Apr,"1-5,12-15",2,0,,0.09623
-,17539,Rate 5 Residential Time of Use,weekday,Oct-Apr,"0-1,5-6,9-12,15-24",0,0,,0.15074
-,17539,Rate 5 Residential Time of Use,weekend,Oct-Apr,"0-1,5-6,9-12,15-24",0,0,,0.15074
+,17539,Rate 5 Residential Time of Use,weekday,May-Sep,16-20,0,0,,0.29907
+,17539,Rate 5 Residential Time of Use,weekend,May-Sep,16-20,0,0,,0.29907
+,17539,Rate 5 Residential Time of Use,weekday,May-Sep,1-5,1,0,,0.09623
+,17539,Rate 5 Residential Time of Use,weekend,May-Sep,1-5,1,0,,0.09623
+,17539,Rate 5 Residential Time of Use,weekday,May-Sep,"0-1,5-16,20-24",2,0,,0.15074
+,17539,Rate 5 Residential Time of Use,weekend,May-Sep,"0-1,5-16,20-24",2,0,,0.15074
+,17539,Rate 5 Residential Time of Use,weekday,Oct-Apr,6-9,0,0,,0.29907
+,17539,Rate 5 Residential Time of Use,weekend,Oct-Apr,6-9,0,0,,0.29907
+,17539,Rate 5 Residential Time of Use,weekday,Oct-Apr,"1-5,12-15",1,0,,0.09623
+,17539,Rate 5 Residential Time of Use,weekend,Oct-Apr,"1-5,12-15",1,0,,0.09623
+,17539,Rate 5 Residential Time of Use,weekday,Oct-Apr,"0-1,5-6,9-12,15-24",2,0,,0.15074
+,17539,Rate 5 Residential Time of Use,weekend,Oct-Apr,"0-1,5-6,9-12,15-24",2,0,,0.15074
 ,17539,Rate 7 Residential Time-of-Use Demand,weekday,May-Sep,16-20,0,0,,0.17441
 ,17539,Rate 7 Residential Time-of-Use Demand,weekend,May-Sep,16-20,0,0,,0.17441
-,17539,Rate 7 Residential Time-of-Use Demand,weekday,May-Sep,1-5,2,0,,0.08841
-,17539,Rate 7 Residential Time-of-Use Demand,weekend,May-Sep,1-5,2,0,,0.08841
-,17539,Rate 7 Residential Time-of-Use Demand,weekday,May-Sep,"0-1,5-16,20-24",1,0,,0.10124
-,17539,Rate 7 Residential Time-of-Use Demand,weekend,May-Sep,"0-1,5-16,20-24",1,0,,0.10124
+,17539,Rate 7 Residential Time-of-Use Demand,weekday,May-Sep,1-5,1,0,,0.08841
+,17539,Rate 7 Residential Time-of-Use Demand,weekend,May-Sep,1-5,1,0,,0.08841
+,17539,Rate 7 Residential Time-of-Use Demand,weekday,May-Sep,"0-1,5-16,20-24",2,0,,0.10124
+,17539,Rate 7 Residential Time-of-Use Demand,weekend,May-Sep,"0-1,5-16,20-24",2,0,,0.10124
 ,17539,Rate 7 Residential Time-of-Use Demand,weekday,Oct-Apr,6-9,0,0,,0.17441
 ,17539,Rate 7 Residential Time-of-Use Demand,weekend,Oct-Apr,6-9,0,0,,0.17441
-,17539,Rate 7 Residential Time-of-Use Demand,weekday,Oct-Apr,"1-5,12-15",2,0,,0.08841
-,17539,Rate 7 Residential Time-of-Use Demand,weekend,Oct-Apr,"1-5,12-15",2,0,,0.08841
-,17539,Rate 7 Residential Time-of-Use Demand,weekday,Oct-Apr,"0-1,5-6,9-12,15-24",1,0,,0.10124
-,17539,Rate 7 Residential Time-of-Use Demand,weekend,Oct-Apr,"0-1,5-6,9-12,15-24",1,0,,0.10124
+,17539,Rate 7 Residential Time-of-Use Demand,weekday,Oct-Apr,"1-5,12-15",1,0,,0.08841
+,17539,Rate 7 Residential Time-of-Use Demand,weekend,Oct-Apr,"1-5,12-15",1,0,,0.08841
+,17539,Rate 7 Residential Time-of-Use Demand,weekday,Oct-Apr,"0-1,5-6,9-12,15-24",2,0,,0.10124
+,17539,Rate 7 Residential Time-of-Use Demand,weekend,Oct-Apr,"0-1,5-6,9-12,15-24",2,0,,0.10124
 ,17539,Rate 9 General Service,weekday,May-Sep,0-24,0,0,3000,0.14283
 ,17539,Rate 9 General Service,weekend,May-Sep,0-24,0,0,3000,0.14283
 ,17539,Rate 9 General Service,weekday,May-Sep,0-24,0,1,,0.15196
@@ -80,18 +80,18 @@ urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,e
 ,17539,Rate 9 General Service,weekend,Oct-Apr,0-24,1,0,3000,0.14283
 ,17539,Rate 9 General Service,weekday,Oct-Apr,0-24,1,1,,0.133
 ,17539,Rate 9 General Service,weekend,Oct-Apr,0-24,1,1,,0.133
-,17539,Rate 16 General Service Time-of-Use,weekday,May-Sep,17-21,1,0,,0.21305
-,17539,Rate 16 General Service Time-of-Use,weekend,May-Sep,17-21,1,0,,0.21305
-,17539,Rate 16 General Service Time-of-Use,weekday,May-Sep,1-5,2,0,,0.07263
-,17539,Rate 16 General Service Time-of-Use,weekend,May-Sep,1-5,2,0,,0.07263
-,17539,Rate 16 General Service Time-of-Use,weekday,May-Sep,"0-1,5-17,21-24",0,0,,0.13484
-,17539,Rate 16 General Service Time-of-Use,weekend,May-Sep,"0-1,5-17,21-24",0,0,,0.13484
-,17539,Rate 16 General Service Time-of-Use,weekday,Oct-Apr,"6-9,17-21",1,0,,0.21305
-,17539,Rate 16 General Service Time-of-Use,weekend,Oct-Apr,"6-9,17-21",1,0,,0.21305
-,17539,Rate 16 General Service Time-of-Use,weekday,Oct-Apr,1-5,2,0,,0.07263
-,17539,Rate 16 General Service Time-of-Use,weekend,Oct-Apr,1-5,2,0,,0.07263
-,17539,Rate 16 General Service Time-of-Use,weekday,Oct-Apr,"0-1,5-6,9-17,21-24",0,0,,0.13484
-,17539,Rate 16 General Service Time-of-Use,weekend,Oct-Apr,"0-1,5-6,9-17,21-24",0,0,,0.13484
+,17539,Rate 16 General Service Time-of-Use,weekday,May-Sep,17-21,0,0,,0.21305
+,17539,Rate 16 General Service Time-of-Use,weekend,May-Sep,17-21,0,0,,0.21305
+,17539,Rate 16 General Service Time-of-Use,weekday,May-Sep,1-5,1,0,,0.07263
+,17539,Rate 16 General Service Time-of-Use,weekend,May-Sep,1-5,1,0,,0.07263
+,17539,Rate 16 General Service Time-of-Use,weekday,May-Sep,"0-1,5-17,21-24",2,0,,0.13484
+,17539,Rate 16 General Service Time-of-Use,weekend,May-Sep,"0-1,5-17,21-24",2,0,,0.13484
+,17539,Rate 16 General Service Time-of-Use,weekday,Oct-Apr,"6-9,17-21",0,0,,0.21305
+,17539,Rate 16 General Service Time-of-Use,weekend,Oct-Apr,"6-9,17-21",0,0,,0.21305
+,17539,Rate 16 General Service Time-of-Use,weekday,Oct-Apr,1-5,1,0,,0.07263
+,17539,Rate 16 General Service Time-of-Use,weekend,Oct-Apr,1-5,1,0,,0.07263
+,17539,Rate 16 General Service Time-of-Use,weekday,Oct-Apr,"0-1,5-6,9-17,21-24",2,0,,0.13484
+,17539,Rate 16 General Service Time-of-Use,weekend,Oct-Apr,"0-1,5-6,9-17,21-24",2,0,,0.13484
 ,3755,Rate RS Residential (distribution only),weekday,Jan-Dec,0-24,0,0,,0.02951
 ,3755,Rate RS Residential (distribution only),weekend,Jan-Dec,0-24,0,0,,0.02951
 ,3755,SSO generation price to compare (supply only),weekday,Jan-Dec,0-24,0,0,,0.091107

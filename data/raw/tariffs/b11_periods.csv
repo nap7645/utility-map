@@ -1,0 +1,49 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,8287,Schedule R,weekday,Jan-Dec,0-24,0,0,300,0.466365
+,8287,Schedule R,weekend,Jan-Dec,0-24,0,0,300,0.466365
+,8287,Schedule R,weekday,Jan-Dec,0-24,1,1,1000,0.504659
+,8287,Schedule R,weekend,Jan-Dec,0-24,1,1,1000,0.504659
+,8287,Schedule R,weekday,Jan-Dec,0-24,2,2,,0.517217
+,8287,Schedule R,weekend,Jan-Dec,0-24,2,2,,0.517217
+,8287,Schedule G (General Service Non-Demand),weekday,Jan-Dec,0-24,0,0,,0.500715
+,8287,Schedule G (General Service Non-Demand),weekend,Jan-Dec,0-24,0,0,,0.500715
+,3841,1Q Residential,weekday,Jan-Dec,0-24,0,0,,0.087
+,3841,1Q Residential,weekend,Jan-Dec,0-24,0,0,,0.087
+,3841,61K Residential Time of Use,weekday,Apr-Oct,"0-15,18-24",0,0,,0.041
+,3841,61K Residential Time of Use,weekday,Apr-Oct,15-18,1,0,,0.35
+,3841,61K Residential Time of Use,weekend,Apr-Oct,0-24,0,0,,0.041
+,3841,61K Residential Time of Use,weekday,"Jan-Mar,Nov-Dec","0-6,8-24",0,0,,0.041
+,3841,61K Residential Time of Use,weekday,"Jan-Mar,Nov-Dec",6-8,1,0,,0.35
+,3841,61K Residential Time of Use,weekend,"Jan-Mar,Nov-Dec",0-24,0,0,,0.041
+,3841,2Q Small Commercial (<=25 kW),weekday,Jan-Dec,0-24,0,0,,0.08
+,3841,2Q Small Commercial (<=25 kW),weekend,Jan-Dec,0-24,0,0,,0.08
+,3841,52I Small Commercial Time of Use,weekday,Apr-Oct,"0-15,18-24",0,0,,0.048
+,3841,52I Small Commercial Time of Use,weekday,Apr-Oct,15-18,1,0,,0.1556
+,3841,52I Small Commercial Time of Use,weekend,Apr-Oct,0-24,0,0,,0.048
+,3841,52I Small Commercial Time of Use,weekday,"Jan-Mar,Nov-Dec","0-6,8-24",0,0,,0.048
+,3841,52I Small Commercial Time of Use,weekday,"Jan-Mar,Nov-Dec",6-8,1,0,,0.1556
+,3841,52I Small Commercial Time of Use,weekend,"Jan-Mar,Nov-Dec",0-24,0,0,,0.048
+,10376,RS Residential Service,weekday,Jan-Dec,0-24,0,0,1000,0.1231
+,10376,RS Residential Service,weekend,Jan-Dec,0-24,0,0,1000,0.1231
+,10376,RS Residential Service,weekday,Jan-Dec,0-24,1,1,,0.13575
+,10376,RS Residential Service,weekend,Jan-Dec,0-24,1,1,,0.13575
+,10376,GS General Service,weekday,Jan-Dec,0-24,0,0,,0.13429
+,10376,GS General Service,weekend,Jan-Dec,0-24,0,0,,0.13429
+,4432,Residential 'Rates' tab (flat),weekday,Jan-Dec,0-24,0,0,,0.116
+,4432,Residential 'Rates' tab (flat),weekend,Jan-Dec,0-24,0,0,,0.116
+,4432,Residential Time of Use,weekday,Jun-Oct,14-20,1,0,,0.3
+,4432,Residential Time of Use,weekday,Jun-Oct,"5-14,20-23",2,0,,0.095
+,4432,Residential Time of Use,weekday,"Jan-Feb,Dec",5-10,1,0,,0.3
+,4432,Residential Time of Use,weekday,"Jan-Feb,Dec",10-23,2,0,,0.095
+,4432,Residential Time of Use,weekday,"Mar-May,Nov",5-23,2,0,,0.095
+,4432,Residential Time of Use,weekday,Jun-Oct,"0-5,23-24",3,0,,0.065
+,4432,Residential Time of Use,weekend,Jun-Oct,"0-5,23-24",3,0,,0.065
+,4432,Residential Time of Use,weekend,Jun-Oct,5-23,2,0,,0.095
+,4432,Residential Time of Use,weekday,"Jan-Feb,Dec","0-5,23-24",3,0,,0.065
+,4432,Residential Time of Use,weekend,"Jan-Feb,Dec","0-5,23-24",3,0,,0.065
+,4432,Residential Time of Use,weekend,"Jan-Feb,Dec",5-23,2,0,,0.095
+,4432,Residential Time of Use,weekday,"Mar-May,Nov","0-5,23-24",3,0,,0.065
+,4432,Residential Time of Use,weekend,"Mar-May,Nov","0-5,23-24",3,0,,0.065
+,4432,Residential Time of Use,weekend,"Mar-May,Nov",5-23,2,0,,0.095
+,4432,Small Commercial,weekday,Jan-Dec,0-24,0,0,,0.135
+,4432,Small Commercial,weekend,Jan-Dec,0-24,0,0,,0.135

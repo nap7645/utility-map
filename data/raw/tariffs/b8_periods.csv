@@ -1,0 +1,99 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,5202,"A Residential (Bill Codes 1,11; delivery charge only)",weekday,Jan-Dec,0-24,0,0,,0.028346
+,5202,"A Residential (Bill Codes 1,11; delivery charge only)",weekend,Jan-Dec,0-24,0,0,,0.028346
+,5202,B Commercial and Small Power (<40 kVA; delivery charge only),weekday,Jan-Dec,0-24,0,0,,0.025787
+,5202,B Commercial and Small Power (<40 kVA; delivery charge only),weekend,Jan-Dec,0-24,0,0,,0.025787
+,3093,Rate 1 Single Phase <100 kW (Residential),weekday,Oct-Apr,0-24,0,0,500,0.12397
+,3093,Rate 1 Single Phase <100 kW (Residential),weekend,Oct-Apr,0-24,0,0,500,0.12397
+,3093,Rate 1 Single Phase <100 kW (Residential),weekday,Oct-Apr,0-24,1,1,,0.11456
+,3093,Rate 1 Single Phase <100 kW (Residential),weekend,Oct-Apr,0-24,1,1,,0.11456
+,3093,Rate 1 Single Phase <100 kW (Residential),weekday,May-Sep,0-24,0,0,,0.12397
+,3093,Rate 1 Single Phase <100 kW (Residential),weekend,May-Sep,0-24,0,0,,0.12397
+,3093,Rate 1 Single Phase <100 kW (C&I),weekday,Oct-Apr,0-24,0,0,500,0.12397
+,3093,Rate 1 Single Phase <100 kW (C&I),weekend,Oct-Apr,0-24,0,0,500,0.12397
+,3093,Rate 1 Single Phase <100 kW (C&I),weekday,Oct-Apr,0-24,1,1,,0.11456
+,3093,Rate 1 Single Phase <100 kW (C&I),weekend,Oct-Apr,0-24,1,1,,0.11456
+,3093,Rate 1 Single Phase <100 kW (C&I),weekday,May-Sep,0-24,0,0,,0.12397
+,3093,Rate 1 Single Phase <100 kW (C&I),weekend,May-Sep,0-24,0,0,,0.12397
+,3093,Rate 2 Three Phase <100 kW (C&I),weekday,Oct-Apr,0-24,0,0,500,0.12397
+,3093,Rate 2 Three Phase <100 kW (C&I),weekend,Oct-Apr,0-24,0,0,500,0.12397
+,3093,Rate 2 Three Phase <100 kW (C&I),weekday,Oct-Apr,0-24,1,1,,0.11456
+,3093,Rate 2 Three Phase <100 kW (C&I),weekend,Oct-Apr,0-24,1,1,,0.11456
+,3093,Rate 2 Three Phase <100 kW (C&I),weekday,May-Sep,0-24,0,0,,0.12397
+,3093,Rate 2 Three Phase <100 kW (C&I),weekend,May-Sep,0-24,0,0,,0.12397
+,25177,31 Residential and Farm,weekday,Jun-Aug,0-24,0,0,,0.146
+,25177,31 Residential and Farm,weekend,Jun-Aug,0-24,0,0,,0.146
+,25177,31 Residential and Farm,weekday,Sep-May,0-24,1,0,,0.132
+,25177,31 Residential and Farm,weekend,Sep-May,0-24,1,0,,0.132
+,25177,EV-1 Residential EV (sub-metered),weekday,Jan-Dec,"0-7,22-24",0,0,,0.0803
+,25177,EV-1 Residential EV (sub-metered),weekday,Jan-Dec,"7-9,16-22",1,0,,0.42
+,25177,EV-1 Residential EV (sub-metered),weekday,Jun-Aug,9-16,2,0,,0.146
+,25177,EV-1 Residential EV (sub-metered),weekday,Sep-May,9-16,3,0,,0.132
+,25177,EV-1 Residential EV (sub-metered),weekend,Jan-Dec,0-24,0,0,,0.0803
+,25177,41 Small General Service,weekday,Jun-Aug,0-24,0,0,,0.1453
+,25177,41 Small General Service,weekend,Jun-Aug,0-24,0,0,,0.1453
+,25177,41 Small General Service,weekday,Sep-May,0-24,1,0,,0.1313
+,25177,41 Small General Service,weekend,Sep-May,0-24,1,0,,0.1313
+,25177,54 General Service Optional Time-of-Day,weekday,Jan-Dec,0-24,0,0,,0.0559
+,25177,54 General Service Optional Time-of-Day,weekend,Jan-Dec,0-24,0,0,,0.0559
+,3522,Residential Service - South District,weekday,Jan-Dec,0-24,0,0,,0.242488
+,3522,Residential Service - South District,weekend,Jan-Dec,0-24,0,0,,0.242488
+,3522,Small General Service - South District,weekday,Jan-Dec,0-24,0,0,,0.232118
+,3522,Small General Service - South District,weekend,Jan-Dec,0-24,0,0,,0.232118
+,3522,Residential Service - North District,weekday,Jan-Dec,0-24,0,0,,0.210338
+,3522,Residential Service - North District,weekend,Jan-Dec,0-24,0,0,,0.210338
+,3522,Small General Service - North District,weekday,Jan-Dec,0-24,0,0,,0.199968
+,3522,Small General Service - North District,weekend,Jan-Dec,0-24,0,0,,0.199968
+,5070,R Residential Service,weekday,Jan-Dec,0-24,0,0,700,0.121678
+,5070,R Residential Service,weekend,Jan-Dec,0-24,0,0,700,0.121678
+,5070,R Residential Service,weekday,Jan-Dec,0-24,1,1,,0.101678
+,5070,R Residential Service,weekend,Jan-Dec,0-24,1,1,,0.101678
+,5070,R-BTP Residential Beat the Peak TOU,weekday,Jan-Dec,15-18,0,0,,0.271962
+,5070,R-BTP Residential Beat the Peak TOU,weekend,Jan-Dec,15-18,0,0,,0.271962
+,5070,R-BTP Residential Beat the Peak TOU,weekday,Jan-Dec,"5-15,18-23",1,0,,0.092212
+,5070,R-BTP Residential Beat the Peak TOU,weekend,Jan-Dec,"5-15,18-23",1,0,,0.092212
+,5070,R-BTP Residential Beat the Peak TOU,weekday,Jan-Dec,"0-5,23-24",2,0,,0.086812
+,5070,R-BTP Residential Beat the Peak TOU,weekend,Jan-Dec,"0-5,23-24",2,0,,0.086812
+,5070,GS General Service,weekday,Jan-Dec,0-24,0,0,700,0.132266
+,5070,GS General Service,weekend,Jan-Dec,0-24,0,0,700,0.132266
+,5070,GS General Service,weekday,Jan-Dec,0-24,1,1,,0.122266
+,5070,GS General Service,weekend,Jan-Dec,0-24,1,1,,0.122266
+,5070,GS-TOU General Service Time of Use,weekday,Jan-Dec,17-21,0,0,,0.344236
+,5070,GS-TOU General Service Time of Use,weekday,Jan-Dec,"0-17,21-24",1,0,,0.108536
+,5070,GS-TOU General Service Time of Use,weekend,Jan-Dec,0-24,1,0,,0.108536
+,16088,D Domestic Service,weekday,Oct-May,0-24,0,0,350,0.1364
+,16088,D Domestic Service,weekend,Oct-May,0-24,0,0,350,0.1364
+,16088,D Domestic Service,weekday,Oct-May,0-24,1,1,750,0.2134
+,16088,D Domestic Service,weekend,Oct-May,0-24,1,1,750,0.2134
+,16088,D Domestic Service,weekday,Oct-May,0-24,2,2,,0.2462
+,16088,D Domestic Service,weekend,Oct-May,0-24,2,2,,0.2462
+,16088,D Domestic Service,weekday,Jun-Sep,0-24,0,0,750,0.1364
+,16088,D Domestic Service,weekend,Jun-Sep,0-24,0,0,750,0.1364
+,16088,D Domestic Service,weekday,Jun-Sep,0-24,1,1,1500,0.2134
+,16088,D Domestic Service,weekend,Jun-Sep,0-24,1,1,1500,0.2134
+,16088,D Domestic Service,weekday,Jun-Sep,0-24,2,2,,0.2462
+,16088,D Domestic Service,weekend,Jun-Sep,0-24,2,2,,0.2462
+,16088,D-TOU Domestic Time-of-Use,weekday,Oct-May,16-21,0,0,135,0.1728
+,16088,D-TOU Domestic Time-of-Use,weekend,Oct-May,16-21,0,0,135,0.1728
+,16088,D-TOU Domestic Time-of-Use,weekday,Oct-May,16-21,1,1,,0.2764
+,16088,D-TOU Domestic Time-of-Use,weekend,Oct-May,16-21,1,1,,0.2764
+,16088,D-TOU Domestic Time-of-Use,weekday,Oct-May,"6-16,21-23",2,0,250,0.1382
+,16088,D-TOU Domestic Time-of-Use,weekend,Oct-May,"6-16,21-23",2,0,250,0.1382
+,16088,D-TOU Domestic Time-of-Use,weekday,Oct-May,"6-16,21-23",3,1,,0.2212
+,16088,D-TOU Domestic Time-of-Use,weekend,Oct-May,"6-16,21-23",3,1,,0.2212
+,16088,D-TOU Domestic Time-of-Use,weekday,Oct-May,"0-6,23-24",4,0,,0.1253
+,16088,D-TOU Domestic Time-of-Use,weekend,Oct-May,"0-6,23-24",4,0,,0.1253
+,16088,D-TOU Domestic Time-of-Use,weekday,Jun-Sep,14-19,5,0,330,0.2304
+,16088,D-TOU Domestic Time-of-Use,weekend,Jun-Sep,14-19,5,0,330,0.2304
+,16088,D-TOU Domestic Time-of-Use,weekday,Jun-Sep,14-19,6,1,,0.3686
+,16088,D-TOU Domestic Time-of-Use,weekend,Jun-Sep,14-19,6,1,,0.3686
+,16088,D-TOU Domestic Time-of-Use,weekday,Jun-Sep,"6-14,19-23",7,0,550,0.1497
+,16088,D-TOU Domestic Time-of-Use,weekend,Jun-Sep,"6-14,19-23",7,0,550,0.1497
+,16088,D-TOU Domestic Time-of-Use,weekday,Jun-Sep,"6-14,19-23",8,1,,0.2395
+,16088,D-TOU Domestic Time-of-Use,weekend,Jun-Sep,"6-14,19-23",8,1,,0.2395
+,16088,D-TOU Domestic Time-of-Use,weekday,Jun-Sep,"0-6,23-24",4,0,,0.1253
+,16088,D-TOU Domestic Time-of-Use,weekend,Jun-Sep,"0-6,23-24",4,0,,0.1253
+,16088,"A General Service (flat rate, <20 kW)",weekday,Jan-Dec,0-24,0,0,15000,0.1664
+,16088,"A General Service (flat rate, <20 kW)",weekend,Jan-Dec,0-24,0,0,15000,0.1664
+,16088,"A General Service (flat rate, <20 kW)",weekday,Jan-Dec,0-24,1,1,,0.2541
+,16088,"A General Service (flat rate, <20 kW)",weekend,Jan-Dec,0-24,1,1,,0.2541

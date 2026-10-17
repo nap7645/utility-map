@@ -1,0 +1,61 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,3704,RS (122),weekday,Jan-Dec,0-24,0,0,,0.10426
+,3704,RS (122),weekend,Jan-Dec,0-24,0,0,,0.10426
+,3704,GSA-1 (440),weekday,Jan-Dec,0-24,0,0,,0.11915
+,3704,GSA-1 (440),weekend,Jan-Dec,0-24,0,0,,0.11915
+,1889,1.1 Schedule R,weekday,Jun-Oct,0-24,1,0,,0.1132
+,1889,1.1 Schedule R,weekend,Jun-Oct,0-24,1,0,,0.1132
+,1889,1.1 Schedule R,weekday,"Jan-May,Nov-Dec",0-24,0,0,,0.1097
+,1889,1.1 Schedule R,weekend,"Jan-May,Nov-Dec",0-24,0,0,,0.1097
+,1889,1.2 Schedule RE (all-electric),weekday,Jun-Oct,0-24,3,0,,0.113
+,1889,1.2 Schedule RE (all-electric),weekend,Jun-Oct,0-24,3,0,,0.113
+,1889,1.2 Schedule RE (all-electric),weekday,"Jan-May,Nov-Dec",0-24,0,0,750,0.1095
+,1889,1.2 Schedule RE (all-electric),weekend,"Jan-May,Nov-Dec",0-24,0,0,750,0.1095
+,1889,1.2 Schedule RE (all-electric),weekday,"Jan-May,Nov-Dec",0-24,1,1,1300,0.1052
+,1889,1.2 Schedule RE (all-electric),weekend,"Jan-May,Nov-Dec",0-24,1,1,1300,0.1052
+,1889,1.2 Schedule RE (all-electric),weekday,"Jan-May,Nov-Dec",0-24,2,2,,0.1028
+,1889,1.2 Schedule RE (all-electric),weekend,"Jan-May,Nov-Dec",0-24,2,2,,0.1028
+,1889,1.4 Schedule R-TOU2 (pilot),weekday,Jun-Sep,"0-5,22-24",0,0,,0.0669
+,1889,1.4 Schedule R-TOU2 (pilot),weekday,Jun-Sep,"5-12,18-22",1,0,,0.0911
+,1889,1.4 Schedule R-TOU2 (pilot),weekday,Jun-Sep,12-18,2,0,,0.3813
+,1889,1.4 Schedule R-TOU2 (pilot),weekend,Jun-Sep,"0-5,22-24",0,0,,0.0669
+,1889,1.4 Schedule R-TOU2 (pilot),weekend,Jun-Sep,5-22,1,0,,0.0911
+,1889,1.4 Schedule R-TOU2 (pilot),weekday,"Jan-May,Oct-Dec","0-5,22-24",0,0,,0.0669
+,1889,1.4 Schedule R-TOU2 (pilot),weekend,"Jan-May,Oct-Dec","0-5,22-24",0,0,,0.0669
+,1889,1.4 Schedule R-TOU2 (pilot),weekday,"Jan-May,Oct-Dec",5-22,1,0,,0.0911
+,1889,1.4 Schedule R-TOU2 (pilot),weekend,"Jan-May,Oct-Dec",5-22,1,0,,0.0911
+,1889,"1.6 Schedule EV-SUB (pilot, EV submeter)",weekday,Jun-Sep,"0-5,22-24",0,0,,0.0669
+,1889,"1.6 Schedule EV-SUB (pilot, EV submeter)",weekday,Jun-Sep,"5-12,18-22",1,0,,0.0955
+,1889,"1.6 Schedule EV-SUB (pilot, EV submeter)",weekday,Jun-Sep,12-18,2,0,,0.3857
+,1889,"1.6 Schedule EV-SUB (pilot, EV submeter)",weekend,Jun-Sep,"0-5,22-24",0,0,,0.0669
+,1889,"1.6 Schedule EV-SUB (pilot, EV submeter)",weekend,Jun-Sep,5-22,1,0,,0.0955
+,1889,"1.6 Schedule EV-SUB (pilot, EV submeter)",weekday,"Jan-May,Oct-Dec","0-5,22-24",0,0,,0.0669
+,1889,"1.6 Schedule EV-SUB (pilot, EV submeter)",weekend,"Jan-May,Oct-Dec","0-5,22-24",0,0,,0.0669
+,1889,"1.6 Schedule EV-SUB (pilot, EV submeter)",weekday,"Jan-May,Oct-Dec",5-22,1,0,,0.0955
+,1889,"1.6 Schedule EV-SUB (pilot, EV submeter)",weekend,"Jan-May,Oct-Dec",5-22,1,0,,0.0955
+,1889,2.1 Schedule GS (<25 kW),weekday,Jan-Dec,0-24,0,0,7000,0.1225
+,1889,2.1 Schedule GS (<25 kW),weekend,Jan-Dec,0-24,0,0,7000,0.1225
+,1889,2.1 Schedule GS (<25 kW),weekday,Jan-Dec,0-24,1,1,,0.1015
+,1889,2.1 Schedule GS (<25 kW),weekend,Jan-Dec,0-24,1,1,,0.1015
+,6604,Residential Standard TOD (gas/boiler heat),weekday,May-Sep,"0-14,19-24",0,0,,0.0898
+,6604,Residential Standard TOD (gas/boiler heat),weekday,May-Sep,14-19,1,0,,0.323
+,6604,Residential Standard TOD (gas/boiler heat),weekday,"Jan-Apr,Oct-Dec","0-17,21-24",0,0,,0.0898
+,6604,Residential Standard TOD (gas/boiler heat),weekday,"Jan-Apr,Oct-Dec",17-21,2,0,,0.2978
+,6604,Residential Standard TOD (gas/boiler heat),weekend,Jan-Dec,0-24,0,0,,0.0898
+,6604,Residential Electric Heat TOD,weekday,May-Sep,"0-14,19-24",0,0,,0.0985
+,6604,Residential Electric Heat TOD,weekday,May-Sep,14-19,1,0,,0.3318
+,6604,Residential Electric Heat TOD,weekday,"Jan-Apr,Oct-Dec","0-17,21-24",0,0,,0.0985
+,6604,Residential Electric Heat TOD,weekday,"Jan-Apr,Oct-Dec",17-21,2,0,,0.3065
+,6604,Residential Electric Heat TOD,weekend,Jan-Dec,0-24,0,0,,0.0985
+,6604,E200 Small Commercial (<25 kW avg demand),weekday,"Jan-May,Oct-Dec",0-24,0,0,,0.1267
+,6604,E200 Small Commercial (<25 kW avg demand),weekend,"Jan-May,Oct-Dec",0-24,0,0,,0.1267
+,6604,E200 Small Commercial (<25 kW avg demand),weekday,Jun-Sep,0-24,1,0,,0.143
+,6604,E200 Small Commercial (<25 kW avg demand),weekend,Jun-Sep,0-24,1,0,,0.143
+,6604,E250 Mid-Size Commercial (25-49 kW avg demand),weekday,Jan-Dec,0-24,0,0,,0.0903
+,6604,E250 Mid-Size Commercial (25-49 kW avg demand),weekend,Jan-Dec,0-24,0,0,,0.0903
+,17252,RS-24 Residential Service,weekday,Jan-Dec,0-24,0,0,,0.0948
+,17252,RS-24 Residential Service,weekend,Jan-Dec,0-24,0,0,,0.0948
+,17252,SGS1-10 Small General Service Single Phase,weekday,Jan-Dec,0-24,0,0,,0.0955
+,17252,SGS1-10 Small General Service Single Phase,weekend,Jan-Dec,0-24,0,0,,0.0955
+,17252,SGS3-7 Small General Service Three Phase,weekday,Jan-Dec,0-24,0,0,,0.0955
+,17252,SGS3-7 Small General Service Three Phase,weekend,Jan-Dec,0-24,0,0,,0.0955

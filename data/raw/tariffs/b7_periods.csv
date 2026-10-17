@@ -1,0 +1,103 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,12745,D - Residential Service,weekday,May-Sep,0-24,0,0,500,0.17759
+,12745,D - Residential Service,weekend,May-Sep,0-24,0,0,500,0.17759
+,12745,D - Residential Service,weekday,May-Sep,0-24,1,1,,0.21349
+,12745,D - Residential Service,weekend,May-Sep,0-24,1,1,,0.21349
+,12745,D - Residential Service,weekday,"Jan-Apr,Oct-Dec",0-24,2,0,500,0.15279
+,12745,D - Residential Service,weekend,"Jan-Apr,Oct-Dec",0-24,2,0,500,0.15279
+,12745,D - Residential Service,weekday,"Jan-Apr,Oct-Dec",0-24,3,1,,0.18249
+,12745,D - Residential Service,weekend,"Jan-Apr,Oct-Dec",0-24,3,1,,0.18249
+,12745,EV-D - Residential TOU Pilot (EV owners),weekday,"Jan-Apr,Oct-Dec","0-17,20-24",0,0,,0.14324
+,12745,EV-D - Residential TOU Pilot (EV owners),weekday,"Jan-Apr,Oct-Dec",17-20,1,0,,0.22401
+,12745,EV-D - Residential TOU Pilot (EV owners),weekend,"Jan-Apr,Oct-Dec",0-24,0,0,,0.14324
+,12745,EV-D - Residential TOU Pilot (EV owners),weekday,May-Sep,"0-13,23-24",2,0,,0.14513
+,12745,EV-D - Residential TOU Pilot (EV owners),weekday,May-Sep,"13-17,20-23",3,0,,0.20192
+,12745,EV-D - Residential TOU Pilot (EV owners),weekday,May-Sep,17-20,4,0,,0.31235
+,12745,EV-D - Residential TOU Pilot (EV owners),weekend,May-Sep,0-24,2,0,,0.14513
+,12745,GS-1 - General Service Non-Demand,weekday,May-Sep,0-24,0,0,,0.16979
+,12745,GS-1 - General Service Non-Demand,weekend,May-Sep,0-24,0,0,,0.16979
+,12745,GS-1 - General Service Non-Demand,weekday,"Jan-Apr,Oct-Dec",0-24,1,0,,0.14968
+,12745,GS-1 - General Service Non-Demand,weekend,"Jan-Apr,Oct-Dec",0-24,1,0,,0.14968
+,12745,GS-2 - General Service Demand,weekday,May-Sep,0-24,0,0,20000,0.1578
+,12745,GS-2 - General Service Demand,weekend,May-Sep,0-24,0,0,20000,0.1578
+,12745,GS-2 - General Service Demand,weekday,May-Sep,0-24,1,1,,0.12685
+,12745,GS-2 - General Service Demand,weekend,May-Sep,0-24,1,1,,0.12685
+,12745,GS-2 - General Service Demand,weekday,"Jan-Apr,Oct-Dec",0-24,2,0,20000,0.13184
+,12745,GS-2 - General Service Demand,weekend,"Jan-Apr,Oct-Dec",0-24,2,0,20000,0.13184
+,12745,GS-2 - General Service Demand,weekday,"Jan-Apr,Oct-Dec",0-24,3,1,,0.10447
+,12745,GS-2 - General Service Demand,weekend,"Jan-Apr,Oct-Dec",0-24,3,1,,0.10447
+,19159,"202.1 Residential, Non-Commercial Farm and Public Buildings",weekday,Jan-Dec,0-24,0,0,,0.14425
+,19159,"202.1 Residential, Non-Commercial Farm and Public Buildings",weekend,Jan-Dec,0-24,0,0,,0.14425
+,19159,202.2 General Service,weekday,Jan-Dec,0-24,0,0,,0.1432
+,19159,202.2 General Service,weekend,Jan-Dec,0-24,0,0,,0.1432
+,38084,A - Residential Service,weekday,Jan-Dec,0-24,0,0,,0.14742
+,38084,A - Residential Service,weekend,Jan-Dec,0-24,0,0,,0.14742
+,38084,GS - General Service (single phase),weekday,Jan-Dec,0-24,0,0,,0.14742
+,38084,GS - General Service (single phase),weekend,Jan-Dec,0-24,0,0,,0.14742
+,38084,GS - General Service (three phase),weekday,Jan-Dec,0-24,0,0,,0.16979
+,38084,GS - General Service (three phase),weekend,Jan-Dec,0-24,0,0,,0.16979
+,18085,R - Residential Service,weekday,Jan-Dec,0-24,0,0,,0.026
+,18085,R - Residential Service,weekend,Jan-Dec,0-24,0,0,,0.026
+,18085,SGS - Small General Service,weekday,Jan-Dec,0-24,0,0,,0.026
+,18085,SGS - Small General Service,weekend,Jan-Dec,0-24,0,0,,0.026
+,18085,MGS - Medium General Service,weekday,Jan-Dec,0-24,0,0,,0.01
+,18085,MGS - Medium General Service,weekend,Jan-Dec,0-24,0,0,,0.01
+,19898,RS - Residential Rate,weekday,Jun-Sep,0-24,0,0,,0.09265
+,19898,RS - Residential Rate,weekend,Jun-Sep,0-24,0,0,,0.09265
+,19898,RS - Residential Rate,weekday,"Jan-Mar,Dec",0-24,1,0,,0.09077
+,19898,RS - Residential Rate,weekend,"Jan-Mar,Dec",0-24,1,0,,0.09077
+,19898,RS - Residential Rate,weekday,"Apr-May,Oct-Nov",0-24,2,0,,0.08976
+,19898,RS - Residential Rate,weekend,"Apr-May,Oct-Nov",0-24,2,0,,0.08976
+,19898,"GSA Part 1 - General Power (<=50 kW, <=15,000 kWh/mo)",weekday,Jun-Sep,0-24,0,0,,0.10497
+,19898,"GSA Part 1 - General Power (<=50 kW, <=15,000 kWh/mo)",weekend,Jun-Sep,0-24,0,0,,0.10497
+,19898,"GSA Part 1 - General Power (<=50 kW, <=15,000 kWh/mo)",weekday,"Jan-Mar,Dec",0-24,1,0,,0.10309
+,19898,"GSA Part 1 - General Power (<=50 kW, <=15,000 kWh/mo)",weekend,"Jan-Mar,Dec",0-24,1,0,,0.10309
+,19898,"GSA Part 1 - General Power (<=50 kW, <=15,000 kWh/mo)",weekday,"Apr-May,Oct-Nov",0-24,2,0,,0.10207
+,19898,"GSA Part 1 - General Power (<=50 kW, <=15,000 kWh/mo)",weekend,"Apr-May,Oct-Nov",0-24,2,0,,0.10207
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekday,Jun-Sep,0-24,0,0,15000,0.10497
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekend,Jun-Sep,0-24,0,0,15000,0.10497
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekday,Jun-Sep,0-24,1,1,,0.04995
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekend,Jun-Sep,0-24,1,1,,0.04995
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekday,"Jan-Mar,Dec",0-24,2,0,15000,0.10309
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekend,"Jan-Mar,Dec",0-24,2,0,15000,0.10309
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekday,"Jan-Mar,Dec",0-24,3,1,,0.04959
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekend,"Jan-Mar,Dec",0-24,3,1,,0.04959
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekday,"Apr-May,Oct-Nov",0-24,4,0,15000,0.10207
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekend,"Apr-May,Oct-Nov",0-24,4,0,15000,0.10207
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekday,"Apr-May,Oct-Nov",0-24,3,1,,0.04959
+,19898,"GSA Part 2 - General Power (50-1,000 kW)",weekend,"Apr-May,Oct-Nov",0-24,3,1,,0.04959
+,590,D - Domestic Service (DS),weekday,Jan-Dec,0-24,0,0,,0.14
+,590,D - Domestic Service (DS),weekend,Jan-Dec,0-24,0,0,,0.14
+,590,D - Domestic Service (DS),weekday,Jan-Dec,0-24,1,1,,0.2149
+,590,D - Domestic Service (DS),weekend,Jan-Dec,0-24,1,1,,0.2149
+,590,TOU-2 - Domestic Time-of-Use,weekday,Jul-Oct,"0-16,21-24",0,0,,0.1665
+,590,TOU-2 - Domestic Time-of-Use,weekday,Jul-Oct,16-21,1,0,,0.332
+,590,TOU-2 - Domestic Time-of-Use,weekend,Jul-Oct,0-24,0,0,,0.1665
+,590,TOU-2 - Domestic Time-of-Use,weekday,"Jan-Jun,Nov-Dec","0-8,21-24",2,0,,0.1615
+,590,TOU-2 - Domestic Time-of-Use,weekday,"Jan-Jun,Nov-Dec",8-16,3,0,,0.12
+,590,TOU-2 - Domestic Time-of-Use,weekday,"Jan-Jun,Nov-Dec",16-21,4,0,,0.3125
+,590,TOU-2 - Domestic Time-of-Use,weekend,"Jan-Jun,Nov-Dec","0-16,21-24",3,0,,0.12
+,590,TOU-2 - Domestic Time-of-Use,weekend,"Jan-Jun,Nov-Dec",16-21,2,0,,0.1615
+,590,GS-1 Rate A - General Service (non-demand),weekday,Jan-Dec,0-24,0,0,,0.196
+,590,GS-1 Rate A - General Service (non-demand),weekend,Jan-Dec,0-24,0,0,,0.196
+,590,GS-1 Rate B - General Service (demand),weekday,Jan-Dec,0-24,0,0,,0.1378
+,590,GS-1 Rate B - General Service (demand),weekend,Jan-Dec,0-24,0,0,,0.1378
+,18445,RS - Residential Service,weekday,Jan-Dec,0-24,0,0,,0.09214
+,18445,RS - Residential Service,weekend,Jan-Dec,0-24,0,0,,0.09214
+,18445,RST - Residential Service Time of Use (optional),weekday,Jan-Dec,"0-7,19-24",0,0,,0.03876
+,18445,RST - Residential Service Time of Use (optional),weekday,Jan-Dec,7-19,1,0,,0.22624
+,18445,RST - Residential Service Time of Use (optional),weekend,Jan-Dec,0-24,0,0,,0.03876
+,18445,GS - General Service Non-Demand,weekday,Jan-Dec,0-24,0,0,,0.07289
+,18445,GS - General Service Non-Demand,weekend,Jan-Dec,0-24,0,0,,0.07289
+,17833,Residential Electric Service Rate,weekday,"Jan-May,Oct-Dec",0-24,0,0,900,0.1127
+,17833,Residential Electric Service Rate,weekend,"Jan-May,Oct-Dec",0-24,0,0,900,0.1127
+,17833,Residential Electric Service Rate,weekday,"Jan-May,Oct-Dec",0-24,1,1,,0.1051
+,17833,Residential Electric Service Rate,weekend,"Jan-May,Oct-Dec",0-24,1,1,,0.1051
+,17833,Residential Electric Service Rate,weekday,Jun-Sep,0-24,0,0,500,0.1127
+,17833,Residential Electric Service Rate,weekend,Jun-Sep,0-24,0,0,500,0.1127
+,17833,Residential Electric Service Rate,weekday,Jun-Sep,0-24,2,1,,0.1394
+,17833,Residential Electric Service Rate,weekend,Jun-Sep,0-24,2,1,,0.1394
+,17833,General Lighting Service Rate (single-phase non-residential),weekday,Jan-Dec,0-24,0,0,,0.1118
+,17833,General Lighting Service Rate (single-phase non-residential),weekend,Jan-Dec,0-24,0,0,,0.1118
+,17833,General Power Service Rate (three-phase non-residential),weekday,Jan-Dec,0-24,0,0,,0.0596
+,17833,General Power Service Rate (three-phase non-residential),weekend,Jan-Dec,0-24,0,0,,0.0596

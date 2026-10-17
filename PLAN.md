@@ -478,3 +478,19 @@ Then: merge_region.py --tag SE (programs/ic), alias fixes, --apply, verify live,
 - Verified audit/verify_tariffs_b1-3_2026-10-16.md: 55/56 fields; fixed Potomac Edison R-TOU March peak hours and Dominion SC Rate 8/9 period ids. All schedules pass 12x24 coverage.
 - scripts/merge_tariffs.py -> data/processed/tariffs_merged.csv / tariff_periods_merged.csv (agent rows replace URDB per eia_id): 155 territories, 78% of customers with a current tariff (from 63%).
 - Blocker: both sandboxes' egress proxy blocks most utility/PUC domains for curl; only WebFetch works and it truncates long PDFs. Opening egress (Admin settings -> Capabilities) would let scripts pull PDFs + pdftotext: cheaper and higher yield. Batches 4-13 (76 utilities) wait on that decision.
+
+## 2026-10-16 (d) — network opened; EIA-861 loaded; Phase B b4/b5/retry
+- Nathan enabled network egress: eia.gov, openei.org, PUC and ISO sites now reachable from both shells (duke-energy.com, iid.com, Evergy still block cloud IPs; the Mac shell got 302 from Duke).
+- scripts/eia861_load.py -> data/processed/eia861_rates.csv (2024 avg cents/kWh bundled + delivery-only, res + com, and dynamic-pricing flags/enrollment) for 928/993 territories. Inputs in data/raw/eia861/.
+- Cross-check vs presence: res_habit No but EIA res dynamic pricing = 10 (Hawaii explained by closed-to-new; Walton EMC, Delta-Montrose, Flint, Central GA, Wayne-White, Orcas, Provo to re-check); Unknown with EIA dynamic pricing: res 52, C&I 200 -> candidate fill (not applied; EIA 2024 enrollment does not prove open now).
+- URDB crosswalk data/crosswalk/urdb_eia_map.csv: Duke Energy Progress (3046) rows are filed under eiaid 5416 as "Progress Energy Carolinas" -> now mapped (DEP current). Both urdb scripts read it.
+- Phase B with curl+pdftotext: b4 8/8, b5 8/8 (IID partial), retry bR 4/6 (Evergy KS South blocked, NSP-MN only 2024 book). ~25k tokens/utility, much higher yield.
+- Verified audit/verify_tariffs_b4-5-R_2026-10-16.md: 62/63 fields; fixed MGE fuel-credit note, TNMP/Duke OH min_bill, IID tier, CORE WPCA note; renumbered period ids in all agent period files so same id = same price (0 conflicts).
+- Merged (scripts/merge_tariffs.py): 176 territories, 83% of customers with a current tariff.
+- NEXT: batches 6-13 (64 utilities, ~1.6M + verify ~0.2M) -> ~88% customers. Riders/fuel adjustments are mostly in notes, not coded: a bill engine needs a rider pass later.
+
+## 2026-10-16 (e) — Phase B complete for the top 100
+- Batches b6-b13 (64 utilities) via curl+pdftotext. Verified: audit/verify_tariffs_b6-8_2026-10-16.md (9/9 schedules PASS), audit/verify_tariffs_b9-13_2026-10-16.md (10/10 PASS); structure checks pass on all batches; Modesto EV-D effective date fixed to 2025-01-01.
+- Merged: 230 territories, 86.6% of customers with a current tariff (95 agent-researched + URDB current). Not captured (9): Evergy KS South, NSP-MN (only 2024 book), SLEMCO, Lubbock, Glendale, Farmers EC TX, Sam Houston EC, Baldwin EMC (DEP is covered via URDB crosswalk).
+- Known gaps: fuel/PCA/riders mostly in notes, not in energy prices; several TOU options not published as text; Blue Ridge Energy (NC) new rates 2026-11-03 -> re-pull; Unitil supply resets each Feb 1; SMUD 2027 prices published.
+- NEXT (Rank 1): rider pass for top utilities (so bills are exact), or move to LMP history (network now open; ISO sites reachable). Drawer card "Bill structure" on the map once data shape is settled.

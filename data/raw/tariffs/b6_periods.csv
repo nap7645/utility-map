@@ -1,0 +1,127 @@
+urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
+,19446,RS Residential Service,weekday,Jan-Dec,0-24,0,0,,0.126104
+,19446,RS Residential Service,weekend,Jan-Dec,0-24,0,0,,0.126104
+,19446,DS Secondary Distribution Voltage,weekday,Jan-Dec,0-24,0,0,6000,0.126995
+,19446,DS Secondary Distribution Voltage,weekend,Jan-Dec,0-24,0,0,6000,0.126995
+,12199,Rate 10 Residential Electric Service,weekday,"Jan-May,Oct-Dec",0-24,0,0,750,0.06321
+,12199,Rate 10 Residential Electric Service,weekend,"Jan-May,Oct-Dec",0-24,0,0,750,0.06321
+,12199,Rate 10 Residential Electric Service,weekday,"Jan-May,Oct-Dec",0-24,1,1,,0.03321
+,12199,Rate 10 Residential Electric Service,weekend,"Jan-May,Oct-Dec",0-24,1,1,,0.03321
+,12199,Rate 10 Residential Electric Service,weekday,Jun-Sep,0-24,0,0,,0.06321
+,12199,Rate 10 Residential Electric Service,weekend,Jun-Sep,0-24,0,0,,0.06321
+,12199,Rate 16 Optional Time-of-Day Residential,weekday,"Jan-May,Oct-Dec",12-20,0,0,,0.06289
+,12199,Rate 16 Optional Time-of-Day Residential,weekday,"Jan-May,Oct-Dec","0-12,20-24",1,0,,0.03289
+,12199,Rate 16 Optional Time-of-Day Residential,weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.03289
+,12199,Rate 16 Optional Time-of-Day Residential,weekday,Jun-Sep,12-20,2,0,,0.07789
+,12199,Rate 16 Optional Time-of-Day Residential,weekday,Jun-Sep,"0-12,20-24",3,0,,0.04789
+,12199,Rate 16 Optional Time-of-Day Residential,weekend,Jun-Sep,0-24,3,0,,0.04789
+,12199,Rate 20 Small General Electric Service,weekday,"Jan-May,Oct-Dec",0-24,0,0,750,0.05654
+,12199,Rate 20 Small General Electric Service,weekend,"Jan-May,Oct-Dec",0-24,0,0,750,0.05654
+,12199,Rate 20 Small General Electric Service,weekday,"Jan-May,Oct-Dec",0-24,1,1,,0.02654
+,12199,Rate 20 Small General Electric Service,weekend,"Jan-May,Oct-Dec",0-24,1,1,,0.02654
+,12199,Rate 20 Small General Electric Service,weekday,Jun-Sep,0-24,0,0,,0.05654
+,12199,Rate 20 Small General Electric Service,weekend,Jun-Sep,0-24,0,0,,0.05654
+,12199,Rate 26 Optional Time-of-Day Small General,weekday,"Jan-May,Oct-Dec",12-20,0,0,,0.04246
+,12199,Rate 26 Optional Time-of-Day Small General,weekday,"Jan-May,Oct-Dec","0-12,20-24",1,0,,0.01746
+,12199,Rate 26 Optional Time-of-Day Small General,weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.01746
+,12199,Rate 26 Optional Time-of-Day Small General,weekday,Jun-Sep,12-20,2,0,,0.05746
+,12199,Rate 26 Optional Time-of-Day Small General,weekday,Jun-Sep,"0-12,20-24",3,0,,0.03246
+,12199,Rate 26 Optional Time-of-Day Small General,weekend,Jun-Sep,0-24,3,0,,0.03246
+,7090,Rate 1 RS Residential Service,weekday,"Jan-May,Nov-Dec",0-24,0,0,500,0.046
+,7090,Rate 1 RS Residential Service,weekend,"Jan-May,Nov-Dec",0-24,0,0,500,0.046
+,7090,Rate 1 RS Residential Service,weekday,"Jan-May,Nov-Dec",0-24,1,1,1000,0.072
+,7090,Rate 1 RS Residential Service,weekend,"Jan-May,Nov-Dec",0-24,1,1,1000,0.072
+,7090,Rate 1 RS Residential Service,weekday,"Jan-May,Nov-Dec",0-24,2,2,,0.0645
+,7090,Rate 1 RS Residential Service,weekend,"Jan-May,Nov-Dec",0-24,2,2,,0.0645
+,7090,Rate 1 RS Residential Service,weekday,Jun-Oct,0-24,0,0,500,0.046
+,7090,Rate 1 RS Residential Service,weekend,Jun-Oct,0-24,0,0,500,0.046
+,7090,Rate 1 RS Residential Service,weekday,Jun-Oct,0-24,3,1,1000,0.09
+,7090,Rate 1 RS Residential Service,weekend,Jun-Oct,0-24,3,1,1000,0.09
+,7090,Rate 1 RS Residential Service,weekday,Jun-Oct,0-24,4,2,,0.1058
+,7090,Rate 1 RS Residential Service,weekend,Jun-Oct,0-24,4,2,,0.1058
+,7090,Rate 300 EV Residential Electric Vehicle Service,weekday,Jun-Sep,14-20,0,0,,0.203
+,7090,Rate 300 EV Residential Electric Vehicle Service,weekday,Jun-Sep,"7-14,20-23",1,0,,0.06
+,7090,Rate 300 EV Residential Electric Vehicle Service,weekday,Jun-Sep,"0-7,23-24",2,0,,0.04
+,7090,Rate 300 EV Residential Electric Vehicle Service,weekend,Jun-Sep,7-23,1,0,,0.06
+,7090,Rate 300 EV Residential Electric Vehicle Service,weekend,Jun-Sep,"0-7,23-24",2,0,,0.04
+,7090,Rate 300 EV Residential Electric Vehicle Service,weekday,"Jan-May,Oct-Dec",7-23,1,0,,0.06
+,7090,Rate 300 EV Residential Electric Vehicle Service,weekend,"Jan-May,Oct-Dec",7-23,1,0,,0.06
+,7090,Rate 300 EV Residential Electric Vehicle Service,weekday,"Jan-May,Oct-Dec","0-7,23-24",2,0,,0.04
+,7090,Rate 300 EV Residential Electric Vehicle Service,weekend,"Jan-May,Oct-Dec","0-7,23-24",2,0,,0.04
+,7090,Rate 3 SC Small Commercial Service,weekday,"Jan-May,Nov-Dec",0-24,0,0,5000,0.108
+,7090,Rate 3 SC Small Commercial Service,weekend,"Jan-May,Nov-Dec",0-24,0,0,5000,0.108
+,7090,Rate 3 SC Small Commercial Service,weekday,"Jan-May,Nov-Dec",0-24,1,1,,0.07
+,7090,Rate 3 SC Small Commercial Service,weekend,"Jan-May,Nov-Dec",0-24,1,1,,0.07
+,7090,Rate 3 SC Small Commercial Service,weekday,Jun-Oct,0-24,0,0,5000,0.108
+,7090,Rate 3 SC Small Commercial Service,weekend,Jun-Oct,0-24,0,0,5000,0.108
+,7090,Rate 3 SC Small Commercial Service,weekday,Jun-Oct,0-24,2,1,,0.12
+,7090,Rate 3 SC Small Commercial Service,weekend,Jun-Oct,0-24,2,1,,0.12
+,689,Residential and Single Phase,weekday,Jun-Sep,0-24,0,0,,0.139
+,689,Residential and Single Phase,weekend,Jun-Sep,0-24,0,0,,0.139
+,689,Residential and Single Phase,weekday,"Jan-May,Oct-Dec",0-24,1,0,,0.129
+,689,Residential and Single Phase,weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.129
+,689,Residential Time-of-Day,weekday,Jan-Dec,16-20,0,0,,0.225
+,689,Residential Time-of-Day,weekday,Jan-Dec,8-16,1,0,,0.133
+,689,Residential Time-of-Day,weekday,Jan-Dec,"0-8,20-24",2,0,,0.0725
+,689,Residential Time-of-Day,weekend,Jan-Dec,8-20,1,0,,0.133
+,689,Residential Time-of-Day,weekend,Jan-Dec,"0-8,20-24",2,0,,0.0725
+,689,Small Commercial,weekday,Jun-Sep,0-24,0,0,,0.139
+,689,Small Commercial,weekend,Jun-Sep,0-24,0,0,,0.139
+,689,Small Commercial,weekday,"Jan-May,Oct-Dec",0-24,1,0,,0.129
+,689,Small Commercial,weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.129
+,14232,M101 Residential Service,weekday,Jun-Sep,0-24,0,0,,0.08194
+,14232,M101 Residential Service,weekend,Jun-Sep,0-24,0,0,,0.08194
+,14232,M101 Residential Service,weekday,"Jan-May,Oct-Dec",0-24,1,0,,0.06111
+,14232,M101 Residential Service,weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.06111
+,14232,M241 Residential Demand Control (RDC),weekday,Jun-Sep,0-24,0,0,,0.03721
+,14232,M241 Residential Demand Control (RDC),weekend,Jun-Sep,0-24,0,0,,0.03721
+,14232,M241 Residential Demand Control (RDC),weekday,"Jan-May,Oct-Dec",0-24,1,0,,0.0425
+,14232,M241 Residential Demand Control (RDC),weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.0425
+,14232,M781 Off-Peak EV (self-contained metering),weekday,Jun-Sep,"22-24,0-6",0,0,,0.01032
+,14232,M781 Off-Peak EV (self-contained metering),weekend,Jun-Sep,"22-24,0-6",0,0,,0.01032
+,14232,M781 Off-Peak EV (self-contained metering),weekday,Jun-Sep,6-22,1,0,,0.06485
+,14232,M781 Off-Peak EV (self-contained metering),weekend,Jun-Sep,6-22,1,0,,0.06485
+,14232,M781 Off-Peak EV (self-contained metering),weekday,"Jan-May,Oct-Dec","22-24,0-6",2,0,,0.01109
+,14232,M781 Off-Peak EV (self-contained metering),weekend,"Jan-May,Oct-Dec","22-24,0-6",2,0,,0.01109
+,14232,M781 Off-Peak EV (self-contained metering),weekday,"Jan-May,Oct-Dec",6-22,3,0,,0.04271
+,14232,M781 Off-Peak EV (self-contained metering),weekend,"Jan-May,Oct-Dec",6-22,3,0,,0.04271
+,14232,M404 Small General Service (<20 kW),weekday,Jun-Sep,0-24,0,0,,0.07546
+,14232,M404 Small General Service (<20 kW),weekend,Jun-Sep,0-24,0,0,,0.07546
+,14232,M404 Small General Service (<20 kW),weekday,"Jan-May,Oct-Dec",0-24,1,0,,0.05595
+,14232,M404 Small General Service (<20 kW),weekend,"Jan-May,Oct-Dec",0-24,1,0,,0.05595
+,20065,Standard Residential Rate,weekday,May-Oct,0-24,0,0,800,0.1225
+,20065,Standard Residential Rate,weekend,May-Oct,0-24,0,0,800,0.1225
+,20065,Standard Residential Rate,weekday,May-Oct,0-24,1,1,,0.1295
+,20065,Standard Residential Rate,weekend,May-Oct,0-24,1,1,,0.1295
+,20065,Standard Residential Rate,weekday,"Jan-Apr,Nov-Dec",0-24,2,0,400,0.1205
+,20065,Standard Residential Rate,weekend,"Jan-Apr,Nov-Dec",0-24,2,0,400,0.1205
+,20065,Standard Residential Rate,weekday,"Jan-Apr,Nov-Dec",0-24,3,1,1100,0.0975
+,20065,Standard Residential Rate,weekend,"Jan-Apr,Nov-Dec",0-24,3,1,1100,0.0975
+,20065,Standard Residential Rate,weekday,"Jan-Apr,Nov-Dec",0-24,4,2,,0.0885
+,20065,Standard Residential Rate,weekend,"Jan-Apr,Nov-Dec",0-24,4,2,,0.0885
+,11501,Residential (rates page; schedule name not stated),weekday,Jan-Dec,0-24,0,0,,0.09187
+,11501,Residential (rates page; schedule name not stated),weekend,Jan-Dec,0-24,0,0,,0.09187
+,11501,General Service (<50 kW),weekday,Jan-Dec,0-24,0,0,,0.09187
+,11501,General Service (<50 kW),weekend,Jan-Dec,0-24,0,0,,0.09187
+,10623,RS Standard Price Plan,weekday,Jan-Dec,0-24,0,0,1000,0.05673
+,10623,RS Standard Price Plan,weekend,Jan-Dec,0-24,0,0,1000,0.05673
+,10623,RS Standard Price Plan,weekday,Jan-Dec,0-24,1,1,1500,0.067
+,10623,RS Standard Price Plan,weekend,Jan-Dec,0-24,1,1,1500,0.067
+,10623,RS Standard Price Plan,weekday,Jan-Dec,0-24,2,2,,0.0741
+,10623,RS Standard Price Plan,weekend,Jan-Dec,0-24,2,2,,0.0741
+,10623,RSD Demand Price Plan,weekday,Jan-Dec,0-24,0,0,,0.0282
+,10623,RSD Demand Price Plan,weekend,Jan-Dec,0-24,0,0,,0.0282
+,10623,RSX-1 Shift to Save,weekday,Apr-Oct,12-21,0,0,,0.14904
+,10623,RSX-1 Shift to Save,weekday,Apr-Oct,"0-12,21-24",1,0,,0.01678
+,10623,RSX-1 Shift to Save,weekday,"Jan-Mar,Nov-Dec","6-10,18-22",0,0,,0.14904
+,10623,RSX-1 Shift to Save,weekday,"Jan-Mar,Nov-Dec","0-6,10-18,22-24",1,0,,0.01678
+,10623,RSX-1 Shift to Save,weekend,Jan-Dec,0-24,1,0,,0.01678
+,10623,GS General Service (<50 kW),weekday,Jan-Dec,0-24,0,0,,0.05773
+,10623,GS General Service (<50 kW),weekend,Jan-Dec,0-24,0,0,,0.05773
+,10623,GSBD General Service Business Demand (<50 kW),weekday,Jan-Dec,0-24,0,0,,0.02696
+,10623,GSBD General Service Business Demand (<50 kW),weekend,Jan-Dec,0-24,0,0,,0.02696
+,10623,GSX-1 General Service Shift to Save (<50 kW),weekday,Apr-Oct,12-21,0,0,,0.14554
+,10623,GSX-1 General Service Shift to Save (<50 kW),weekday,Apr-Oct,"0-12,21-24",1,0,,0.0179
+,10623,GSX-1 General Service Shift to Save (<50 kW),weekday,"Jan-Mar,Nov-Dec","6-10,18-22",0,0,,0.14554
+,10623,GSX-1 General Service Shift to Save (<50 kW),weekday,"Jan-Mar,Nov-Dec","0-6,10-18,22-24",1,0,,0.0179
+,10623,GSX-1 General Service Shift to Save (<50 kW),weekend,Jan-Dec,0-24,1,0,,0.0179
