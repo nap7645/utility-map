@@ -1,0 +1,515 @@
+eia_id,hifld_name,hifld_state,market,zone,method,confidence,source_url,has_price_data,notes
+13519,CITY OF NEWARK - (DE),DE,PJM,,,,,,
+5027,DELMARVA POWER,DE,PJM,DPL,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Delaware peninsula = DPL zone
+5070,DELAWARE ELECTRIC COOPERATIVE,DE,PJM,DPL,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Delaware peninsula = DPL zone
+5335,CITY OF DOVER - (DE),DE,PJM,DPL,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Delaware peninsula = DPL zone
+10704,CITY OF LANSING - (MI),MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+11701,CITY OF MARQUETTE - (MI),MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12377,MIDWEST ENERGY COOPERATIVE,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+1366,CITY OF BAY CITY - (MI),MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+15340,PRESQUE ISLE ELEC & GAS COOP,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+18895,THUMB ELECTRIC COOP OF MICH,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+19125,CITY OF TRAVERSE CITY - (MI),MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+19396,TRI-COUNTY ELECTRIC COOP (MI),MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+19578,UPPER PENINSULA POWER COMPANY,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+21048,WYANDOTTE MUNICIPAL SERV COMM,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+305,ALGER-DELTA COOP ELECTRIC ASSN,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+3436,CHERRYLAND ELECTRIC COOP INC,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+38084,GREAT LAKES ENERGY COOP,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+3828,CLOVERLAND ELECTRIC CO-OP,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+392,ALPENA POWER CO,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+4254,CONSUMERS ENERGY CO,MI,MISO,MICHIGAN.HUB,iso_table,high,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+5109,DTE ELECTRIC COMPANY,MI,MISO,MICHIGAN.HUB,iso_table,high,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+7483,CITY OF GRAND HAVEN - (MI),MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+8723,CITY OF HOLLAND,MI,MISO,MICHIGAN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+1009,CITY OF AUSTIN - (MN),MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+10618,LAKE REGION ELECTRIC COOPERATIVE - (MN),MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+10697,LAKE COUNTRY POWER,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12546,MILLE LACS ENERGY COOPERATIVE,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12647,"ALLETE, INC.",MN,MISO,MINN.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,"Minnesota Hub is the nearest hub, not a zone price"
+12651,MINNESOTA VALLEY ELECTRIC COOP,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12894,CITY OF MOORHEAD - (MN),MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+13780,NORTHERN STATES POWER CO,MN,MISO,MINN.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,"Minnesota Hub is the nearest hub, not a zone price"
+13781,NORTHERN STATES POWER CO - MINNESOTA,MN,MISO,MINN.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,"Minnesota Hub is the nearest hub, not a zone price"
+14232,OTTER TAIL POWER CO,MN,MISO,MINN.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,"Minnesota Hub is the nearest hub, not a zone price"
+14246,CITY OF OWATONNA - (MN),MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+14468,PEOPLE'S COOPERATIVE SERVICES,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+1529,"BELTRAMI ELECTRIC COOP, INC",MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+16181,ROCHESTER PUBLIC UTILITIES,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+16368,RUNESTONE ELECTRIC ASSN,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+16971,SHAKOPEE PUBLIC UTILITIES COMM,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+18019,STEARNS COOPERATIVE ELEC ASSN,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+18047,STEELE-WASECA COOPERATIVE ELECTRIC,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+1884,BENCO ELECTRIC COOPERATIVE,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+19157,MIENERGY COOPERATIVE,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+20639,"WILD RICE ELECTRIC COOP, INC",MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+20996,WRIGHT-HENNEPIN COOP ELEC ASSN,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+25177,DAKOTA ELECTRIC ASSOCIATION,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+295,CITY OF ALEXANDRIA - (MN),MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+3400,CITY OF CHASKA - (MN),MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+4577,CROW WING COOPERATIVE POWER & LIGHT COMP,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+5574,EAST CENTRAL ENERGY,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+5773,CITY OF ELK RIVER,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+6782,FREEBORN MOWER ELECTRIC COOPERATIVE,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+689,CONNEXUS ENERGY,MN,MISO,MINN.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,"Minnesota Hub is the nearest hub, not a zone price"
+691,CITY OF ANOKA,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+9475,ITASCA-MANTRAP CO-OP ELECTRICAL ASSN,MN,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+10056,CITY OF KAUKAUNA,WI,MISO,,,,,,
+108,ADAMS-COLUMBIA ELECTRIC COOP,WI,MISO,,,,,,
+11479,MADISON GAS & ELECTRIC CO,WI,MISO,,,,,,
+11571,MANITOWOC PUBLIC UTILITIES,WI,MISO,,,,,,
+11740,CITY OF MARSHFIELD - (WI),WI,MISO,,,,,,
+1251,BARRON ELECTRIC COOP,WI,MISO,,,,,,
+13815,NORTHWESTERN WISCONSIN ELEC CO,WI,MISO,,,,,,
+13936,OAKDALE ELECTRIC COOP,WI,MISO,,,,,,
+13963,OCONOMOWOC UTILITIES,WI,MISO,,,,,,
+13964,OCONTO ELECTRIC COOPERATIVE,WI,MISO,,,,,,
+15344,POLK-BURNETT ELECTRIC COOP,WI,MISO,,,,,,
+16060,RIVERLAND ENERGY COOPERATIVE,WI,MISO,,,,,,
+16196,ROCK ENERGY COOPERATIVE,WI,MISO,,,,,,
+16740,SCENIC RIVERS ENERGY COOP,WI,MISO,,,,,,
+17868,ST CROIX ELECTRIC COOP,WI,MISO,,,,,,
+18312,SUN PRAIRIE UTILITIES,WI,MISO,,,,,,
+18336,SUPERIOR WATER AND LIGHT CO,WI,MISO,,,,,,
+19813,VERNON ELECTRIC COOP,WI,MISO,,,,,,
+20847,WISCONSIN ELECTRIC POWER CO,WI,MISO,,,,,,
+20856,WISCONSIN POWER & LIGHT CO,WI,MISO,,,,,,
+20860,WISCONSIN PUBLIC SERVICE CORP,WI,MISO,,,,,,
+20862,WISCONSIN RAPIDS W W & L COMM,WI,MISO,,,,,,
+4715,DAHLBERG LIGHT & POWER CO,WI,MISO,,,,,,
+5417,DUNN COUNTY ELECTRIC COOP,WI,MISO,,,,,,
+5632,EAU CLAIRE ELECTRIC COOP,WI,MISO,,,,,,
+60631,UPPER MICHIGAN ENERGY RESOURCES CORP.,WI,MISO,,,,,,
+11053,LINN COUNTY REC,IA,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12341,MIDAMERICAN ENERGY CO,IA,MISO,MINN.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,"Minnesota Hub is the nearest hub, not a zone price"
+12450,MIDLAND POWER COOP,IA,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12642,MAQUOKETA VALLEY RRL ELEC COOP,IA,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+13143,BOARD OF WATER ELECTRIC & COMMUNICATIONS,IA,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17260,NORTH WEST RURAL ELECTRIC COOP,IA,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+3203,CEDAR FALLS UTILITIES,IA,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+554,CITY OF AMES - (IA),IA,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+5605,EASTERN IOWA LIGHT & POWER COOP,IA,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+9417,INTERSTATE POWER AND LIGHT CO,IA,MISO,MINN.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,"Minnesota Hub is the nearest hub, not a zone price"
+9425,IOWA LAKES ELECTRIC COOP,IA,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12395,MENARD ELECTRIC COOP,IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+13208,CITY OF NAPERVILLE - (IL),IL,PJM,COMED,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Chicago-area municipal inside ComEd zone
+1325,CITY OF BATAVIA - (IL),IL,PJM,COMED,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Chicago-area municipal inside ComEd zone
+13292,NORRIS ELECTRIC COOP,IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17585,"SOUTHEASTERN IL ELEC COOP, INC",IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17631,SOUTHERN ILLINOIS ELEC COOP,IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17697,SOUTHWESTERN ELECTRIC COOP INC - (IL),IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17828,CITY OF SPRINGFIELD - (IL),IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17860,CITY OF ST CHARLES - (IL),IL,PJM,COMED,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Chicago-area municipal inside ComEd zone
+18955,"TRI-COUNTY ELECTRIC COOP, INC (IL)",IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+20222,WAYNE-WHITE COUNTIES ELEC COOP,IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+4110,COMMONWEALTH EDISON CO,IL,PJM,COMED,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+4362,CORN BELT ENERGY CORPORATION,IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+5535,EGYPTIAN ELECTRIC COOP ASSN,IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+5585,EASTERN ILLINOIS ELEC COOP,IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+7096,CITY OF GENEVA- (IL),IL,PJM,COMED,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Chicago-area municipal inside ComEd zone
+9209,ILLINOIS RURAL ELECTRIC COOP,IL,MISO,ILLINOIS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+9750,"JO-CARROLL ENERGY, INC",IL,PJM,,,,,,
+10448,KOSCIUSKO COUNTY RURAL E M C,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+11142,CITY OF LOGANSPORT - (IN),IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12674,CITY OF MISHAWAKA,IN,PJM,AEP,name_match,low,https://www.pjm.com/markets-and-operations/energy,No,NE Indiana inside I&M (AEP zone)
+1283,BARTHOLOMEW COUNTY RURAL E M C,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12929,SOUTH CENTRAL INDIANA REMC,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+13647,NOBLE COUNTY R E M C,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+13756,NORTHERN INDIANA PUB SERV CO,IN,MISO,INDIANA.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+14471,PARKE COUNTY RURAL E M C,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+14839,CITY OF PERU - (IN),IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+15470,"DUKE ENERGY INDIANA, LLC",IN,MISO,INDIANA.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+15989,CITY OF RICHMOND - (IN),IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17038,RUSHSHELBY ENERGY,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17599,SOUTHEASTERN INDIANA R E M C,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17633,SOUTHERN INDIANA GAS & ELEC CO,IN,MISO,INDIANA.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+18940,TIPMONT RURAL ELEC MEMBER CORP,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+19667,UTILITIES DIST-WESTERN IN REMC,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+20216,WHITEWATER VALLEY RURAL EMC,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+20603,NORTHEASTERN RURAL E M C,IN,PJM,AEP,name_match,low,https://www.pjm.com/markets-and-operations/energy,No,NE Indiana inside I&M (AEP zone)
+22822,CLARK COUNTY RURAL E M C - (IN),IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+24753,BOONE COUNTY RURAL EMC,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+25295,WESTERN INDIANA ENERGY REMC,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+27599,CARROLL-WHITE REMC,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+4508,"CRAWFORDSVILLE ELEC, LGT & PWR",IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+5394,DUBOIS RURAL ELECTRIC COOP INC,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+59505,HEARTLAND REMC,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+636,CITY OF ANDERSON - (IN),IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+7627,CITY OF GREENFIELD - (IN),IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+8000,NINESTAR CONNECT,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+8179,HARRISON COUNTY RURAL E M C,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+8447,HENDRICKS COUNTY RURAL E M C,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+9273,INDIANAPOLIS POWER & LIGHT CO,IN,MISO,INDIANA.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+9324,INDIANA MICHIGAN POWER CO,IN,MISO,,,,,,presence rto=MISO but I&M is PJM (AEP zone); verify rto field
+9576,JACKSON COUNTY RURAL E M C - (IN),IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+9778,JOHNSON COUNTY RURAL E M C,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+9999,KANKAKEE VALLEY RURAL E M C,IN,MISO,INDIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+10331,KINGSPORT POWER CO,OH,PJM,AEP,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,AEP zone
+10668,LICKING RURAL ELECTRIC INC,OH,PJM,,,,,,
+11200,"LORAIN-MEDINA R E C, INC",OH,PJM,,,,,,
+12390,METROPOLITAN EDISON CO,OH,PJM,,,,,,multi-zone or unverified territory; left blank
+12515,"MIDWEST ELECTRIC, INC",OH,PJM,,,,,,
+12990,CONSOLIDATED COOPERATIVE,OH,PJM,,,,,,
+13602,CITY OF NILES - (OH),OH,PJM,,,,,,
+13998,OHIO EDISON CO,OH,PJM,ATSI,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,FirstEnergy Ohio/Penn Power = ATSI zone
+14006,OHIO POWER CO,OH,PJM,AEP,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,AEP zone
+14381,CITY OF PAINESVILLE,OH,PJM,,,,,,
+14599,"PAULDING-PUTMAN ELEC COOP, INC",OH,PJM,,,,,,
+14711,PENNSYLVANIA ELECTRIC CO,OH,PJM,,,,,,multi-zone or unverified territory; left blank
+14716,PENNSYLVANIA POWER CO,OH,PJM,ATSI,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,FirstEnergy Ohio/Penn Power = ATSI zone
+15054,"PIONEER RURAL ELEC COOP, INC - (OH)",OH,PJM,,,,,,
+15095,CITY OF PIQUA - (OH),OH,PJM,,,,,,
+18085,SOUTH CENTRAL POWER COMPANY,OH,PJM,,,,,,
+18997,THE TOLEDO EDISON CO,OH,PJM,ATSI,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,FirstEnergy Ohio/Penn Power = ATSI zone
+19501,"UNION RURAL ELECTRIC COOP, INC",OH,PJM,,,,,,
+19951,CITY OF WADSWORTH - (OH),OH,PJM,,,,,,
+20150,WASHINGTON ELECTRIC COOP - (OH),OH,PJM,,,,,,
+20477,CITY OF WESTERVILLE - (OH),OH,PJM,,,,,,
+20521,WHEELING POWER CO,OH,PJM,AEP,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,AEP zone
+2054,CITY OF BOWLING GREEN - (OH),OH,PJM,,,,,,
+22053,KENTUCKY POWER CO,OH,PJM,AEP,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,AEP zone
+2502,"BUCKEYE RURAL ELEC COOP, INC",OH,PJM,,,,,,
+2651,BUTLER RURAL ELECTRIC COOP INC - (OH),OH,PJM,,,,,,
+3076,"CARROLL ELECTRIC COOP, INC - (OH)",OH,PJM,,,,,,
+3542,DUKE ENERGY OHIO INC,OH,PJM,DEOK,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+3755,CLEVELAND ELECTRIC ILLUM CO,OH,PJM,ATSI,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,FirstEnergy Ohio/Penn Power = ATSI zone
+3762,CITY OF CLEVELAND - (OH),OH,PJM,ATSI,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Cleveland Public Power inside ATSI footprint
+4065,CITY OF COLUMBUS - (OH),OH,PJM,,,,,,
+4683,CITY OF CUYAHOGA FALLS - (OH),OH,PJM,,,,,,
+4922,DAYTON POWER & LIGHT CO,OH,PJM,DAY,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+733,APPALACHIAN POWER CO,OH,PJM,AEP,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,AEP zone
+7891,GUERNSEY-MUSKINGUM EL COOP INC,OH,PJM,,,,,,
+7977,CITY OF HAMILTON - (OH),OH,PJM,,,,,,
+8034,HANCOCK-WOOD ELECTRIC COOP INC,OH,PJM,,,,,,
+8761,HOLMES-WAYNE ELECTRIC COOP INC,OH,PJM,,,,,,
+9726,JERSEY CENTRAL POWER & LT CO,OH,PJM,JCPLC,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+10000,EVERGY METRO,MO,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+10370,CITY OF KIRKWOOD - (MO),MO,MISO,,,,,,
+12698,EVERGY MISSOURI WEST,MO,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+17833,CITY UTILITIES OF SPRINGFIELD - (MO),MO,MISO,,,,,,
+19436,UNION ELECTRIC CO - (MO),MO,MISO,,,,,,Ameren Missouri (AMMO) no hub; blank
+3600,CITIZENS ELECTRIC CORPORATION - (MO),MO,MISO,,,,,,
+3634,CITY OF NIXA - (MO),MO,SPP,,,,,,
+4045,CITY OF COLUMBIA - (MO),MO,MISO,,,,,,
+56697,AMEREN ILLINOIS COMPANY,MO,MISO,ILLINOIS.HUB,iso_table,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,Illinois Hub is in the Ameren Illinois area
+5860,EMPIRE DISTRICT ELECTRIC CO,MO,SPP,,,,,,
+9231,CITY OF INDEPENDENCE - (MO),MO,MISO,,,,,,
+12796,MONONGAHELA POWER CO,PA,PJM,APS,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,Allegheny Power zone
+14715,PPL ELECTRIC UTILITIES CORP,PA,PJM,PPL,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+14940,PECO ENERGY CO,PA,PJM,PECO,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+15263,THE POTOMAC EDISON COMPANY,PA,PJM,APS,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,Allegheny Power zone
+19390,"UGI UTILITIES, INC",PA,PJM,,,,,,
+20387,WEST PENN POWER COMPANY,PA,PJM,APS,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,Allegheny Power zone
+3329,BOROUGH OF CHAMBERSBURG,PA,PJM,,,,,,
+40167,"SOMERSET RURAL ELEC COOP, INC",PA,PJM,,,,,,
+40219,"UNITED ELECTRIC COOP, INC - (PA)",PA,PJM,,,,,,
+40220,ADAMS ELECTRIC COOPERATIVE INC,PA,PJM,,,,,,
+40222,VALLEY RURAL ELECTRIC COOP INC,PA,PJM,,,,,,
+40224,"CENTRAL ELECTRIC COOP, INC - (PA)",PA,PJM,,,,,,
+40289,CLAVERACK RURAL ELEC COOP INC,PA,PJM,,,,,,
+40290,TRI-COUNTY RURAL ELEC COOP INC (PA),PA,PJM,,,,,,
+40292,REA ENERGY COOP INC,PA,PJM,,,,,,
+40293,"NORTHWESTERN RURAL E C A, INC - (PA)",PA,PJM,,,,,,
+5487,DUQUESNE LIGHT CO,PA,PJM,DUQ,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+15477,PUBLIC SERVICE ELEC & GAS CO,NJ,PJM,PSEG,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+19856,CITY OF VINELAND - (NJ),NJ,PJM,,,,,,
+2650,BOROUGH OF BUTLER - (NJ),NJ,PJM,,,,,,
+40299,SUSSEX RURAL ELECTRIC COOP INC,NJ,PJM,,,,,,
+963,ATLANTIC CITY ELECTRIC CO,NJ,PJM,AECO,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+1167,BALTIMORE GAS & ELECTRIC CO,MD,PJM,BGE,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+17637,SOUTHERN MARYLAND ELEC COOP INC,MD,PJM,,,,,,
+3503,"CHOPTANK ELECTRIC COOPERATIVE, INC",MD,PJM,,,,,,
+5625,EASTON UTILITIES COMM,MD,PJM,,,,,,
+7908,HAGERSTOWN LIGHT DEPARTMENT,MD,PJM,,,,,,
+1062,BARC ELECTRIC COOP INC,VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+11560,CITY OF MANASSAS - (VA),VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,
+12260,MECKLENBURG ELECTRIC COOPERATIVE,VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+13640,NORTHERN VIRGINIA ELEC COOP,VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+13762,"NORTHERN NECK ELEC COOP, INC",VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+15410,PRINCE GEORGE ELECTRIC COOP,VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+16558,CITY OF SALEM - (VA),VA,PJM,DOM,state_default,low,https://www.pjm.com/markets-and-operations/energy,No,Virginia default
+17066,SHENANDOAH VALLEY ELEC COOP,VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+19876,VIRGINIA ELECTRIC & POWER CO,VA,PJM,DOM,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+21244,"SOUTHSIDE ELECTRIC COOP, INC",VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+3291,CENTRAL VIRGINIA ELECTRIC COOP,VA,PJM,DOM,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+40228,RAPPAHANNOCK ELECTRIC COOP,VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+4117,COMMUNITY ELECTRIC COOP,VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+4794,CITY OF DANVILLE - (VA),VA,PJM,DOM,state_default,low,https://www.pjm.com/markets-and-operations/energy,No,Virginia default
+8198,CITY OF HARRISONBURG - (VA),VA,PJM,DOM,state_default,low,https://www.pjm.com/markets-and-operations/energy,No,Virginia default
+84,A & N ELECTRIC COOP,VA,PJM,DOM,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,Virginia co-op inside Dominion zone footprint
+11011,LICKING VALLEY RURAL E C C,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+12243,MEADE COUNTY RURAL E C C,KY,MISO,,,,,,
+13651,NOLIN RURAL ELECTRIC COOP CORP,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+14251,OWEN ELECTRIC COOP INC,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+14268,CITY OF OWENSBORO - (KY),KY,MISO,,,,,,
+16587,SALT RIVER ELECTRIC COOP CORP,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+17044,"SHELBY ENERGY CO-OP, INC",KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+1708,BIG SANDY RURAL ELEC COOP CORP,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+17564,SOUTH KENTUCKY RURAL E C C,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+18498,TAYLOR COUNTY RURAL E C C,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+1886,BLUE GRASS ENERGY COOP CORP,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+19446,DUKE ENERGY KENTUCKY,KY,PJM,DEOK,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+3687,CLARK ENERGY COOP INC - (KY),KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+4622,"CUMBERLAND VALLEY ELECTRIC, INC.",KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+6194,FARMERS RURAL ELECTRIC COOP CORP - (KY),KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+6442,FLEMING-MASON ENERGY COOP INC,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+7558,GRAYSON RURAL ELECTRIC COOP CORP,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+8449,HENDERSON CITY UTILITY COMM,KY,MISO,,,,,,
+9292,INTER COUNTY ENERGY COOP CORP,KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+9575,JACKSON ENERGY COOP CORP - (KY),KY,PJM,EKPC,name_match,medium,https://www.pjm.com/markets-and-operations/energy,No,East Kentucky Power Coop member system
+9605,JACKSON PURCHASE ENERGY CORPORATION,KY,MISO,,,,,,
+9964,KENERGY CORP,KY,MISO,,,,,,
+13676,"NORTH ARKANSAS ELEC COOP, INC",AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+13718,CITY OF NORTH LITTLE ROCK - (AR),AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+14289,OZARKS ELECTRIC COOP CORP - (AR),AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+14446,PARAGOULD LIGHT & WATER COMM,AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+14864,PETIT JEAN ELECTRIC COOP CORP,AR,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+1581,CITY OF BENTON - (AR),AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+1586,CITY OF BENTONVILLE - (AR),AR,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+17540,"SOUTH CENTRAL ARK EL COOP, INC",AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17671,SOUTHWEST ARKANSAS E C C,AR,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+20382,CITY OF WEST MEMPHIS - (AR),AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+20963,WOODRUFF ELECTRIC COOP CORP,AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+2678,C & L ELECTRIC COOP CORP,AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+3093,CARROLL ELECTRIC COOP CORP - (AR),AR,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+3712,CLAY COUNTY ELECTRIC COOP CORP,AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+4280,CONWAY CORPORATION,AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+4509,CRAIGHEAD ELECTRIC COOP CORP,AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+6342,FIRST ELECTRIC COOP CORP,AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+814,ENTERGY ARKANSAS LLC,AR,MISO,ARKANSAS.HUB,iso_table,high,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+817,ARKANSAS VALLEY ELEC COOP CORP,AR,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+9879,CITY WATER AND LIGHT PLANT,AR,MISO,ARKANSAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+11241,ENTERGY LOUISIANA LLC,LA,MISO,LOUISIANA.HUB,iso_table,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+13478,"ENTERGY NEW ORLEANS, LLC",LA,MISO,LOUISIANA.HUB,iso_table,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+13783,NORTHEAST LOUISIANA POWER COOP INC.,LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+1458,"BEAUREGARD ELECTRIC COOP, INC",LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+15175,POINTE COUPEE ELEC MEMBER CORP,LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+16463,CITY OF RUSTON - (LA),LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17565,SOUTH LOUISIANA ELEC COOP ASSN,LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17684,SOUTHWEST LOUISIANA E M C,LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+21567,"WASHINGTON-ST TAMMANY E C, INC",LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+298,CITY OF ALEXANDRIA - (LA),LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+3265,CLECO POWER LLC,LA,MISO,LOUISIANA.HUB,iso_table,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+3641,"CLAIBORNE ELECTRIC COOP, INC",LA,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+4153,"CONCORDIA ELECTRIC COOP, INC",LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+5202,DIXIE ELECTRIC MEMBERSHIP CORP,LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+8884,TERREBONNE PARISH CONSOL GOV'T,LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+9096,CITY OF LAFAYETTE - (LA),LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+9682,"JEFFERSON DAVIS ELEC COOP, INC",LA,MISO,LOUISIANA.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+11519,MAGNOLIA ELECTRIC POWER ASSN,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12685,ENTERGY MISSISSIPPI LLC,MS,MISO,MS.HUB,iso_table,high,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+12686,MISSISSIPPI POWER CO,MS,MISO,,,,,,Southern Co subsidiary; presence rto=MISO looks wrong; verify
+14563,PEARL RIVER VALLEY EL PWR ASSN,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17252,SINGING RIVER ELEC COOPERATIVE,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17647,SOUTHERN PINE ELECTRIC COOPERATIVE,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17683,SOUTHWEST MISSISSIPPI E P A,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+18961,TWIN COUNTY ELECTRIC PWR ASSN,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+21114,YAZOO VALLEY ELEC POWER ASSN,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+22815,DELTA ELECTRIC POWER ASSN,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+3841,COAST ELECTRIC POWER ASSN,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+5175,DIXIE ELECTRIC POWER ASSN,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+5578,EAST MISSISSIPPI ELEC PWR ASSN,MS,MISO,MS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12199,MONTANA-DAKOTA UTILITIES CO,ND,MISO,MINN.HUB,name_match,medium,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,"Minnesota Hub is the nearest hub, not a zone price"
+12301,NODAK ELECTRIC COOP INC,ND,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+12899,MOR-GRAN-SOU ELECTRIC COOP INC,ND,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+19790,VERENDRYE ELECTRIC COOP INC,ND,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+24949,CASS COUNTY ELEC COOP INC,ND,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+2985,"CAPITAL ELECTRIC COOP, INC",ND,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+17267,SIOUX VALLEY SW ELEC COOP,SD,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+19293,SOUTHEASTERN ELECTRIC COOP INC - (SD),SD,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+20187,WATERTOWN MUNICIPAL UTILITIES,SD,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+2285,CITY OF BROOKINGS - (SD),SD,MISO,MINN.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+15270,POTOMAC ELECTRIC POWER CO,DC,PJM,PEPCO,iso_table,high,https://www.pjm.com/markets-and-operations/energy,No,
+55937,ENTERGY TEXAS INC.,TX,MISO,TEXAS.HUB,iso_table,high,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,
+17698,SOUTHWESTERN ELECTRIC POWER CO,OK,SPP,SPPSOUTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Southern SPP footprint; hub is context, not settlement point"
+4226,CONSOLIDATED EDISON CO-NY INC,NY,NYISO,J (N.Y.C.),iso_table,medium,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,Westchester is zone I; NYC zone J dominant
+13573,NIAGARA MOHAWK POWER CORP.,NY,NYISO,C (CENTRL),iso_table,low,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,Spans A-F; Central dominant
+11171,LONG ISLAND POWER AUTHORITY,NY,NYISO,K (LONGIL),iso_table,high,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,
+13511,NEW YORK STATE ELEC & GAS CORP,NY,NYISO,C (CENTRL),iso_table,low,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,Spans B-G; Central dominant
+16183,ROCHESTER GAS & ELECTRIC CORP,NY,NYISO,B (GENESE),iso_table,high,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,
+3249,CENTRAL HUDSON GAS & ELEC CORP,NY,NYISO,G (HUD VL),iso_table,medium,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,
+14154,ORANGE & ROCKLAND UTILS INC,NY,NYISO,G (HUD VL),iso_table,medium,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,
+9645,JAMESTOWN BOARD OF PUBLIC UTIL,NY,NYISO,A (WEST),name_match,high,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,
+5930,VILLAGE OF FAIRPORT - (NY),NY,NYISO,B (GENESE),name_match,high,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,
+6775,VILLAGE OF FREEPORT - (NY),NY,NYISO,K (LONGIL),iso_table,high,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,
+16217,VILLAGE OF ROCKVILLE CENTRE - (NY),NY,NYISO,K (LONGIL),iso_table,high,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,
+15145,CITY OF PLATTSBURGH - (NY),NY,NYISO,D (NORTH),name_match,high,https://mis.nyiso.com/public/ (zones A-K by TO service area),Yes,
+11804,MASSACHUSETTS ELECTRIC CO,MA,ISO-NE,,,,,,multi-zone or unverified territory; left blank
+13206,NANTUCKET ELECTRIC CO,MA,ISO-NE,.Z.SEMASS,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+14328,PACIFIC GAS & ELECTRIC CO.,CA,CAISO,DLAP_PGAE-APND,iso_table,high,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,PG&E DLAP
+17609,SOUTHERN CALIFORNIA EDISON CO,CA,CAISO,DLAP_SCE-APND,iso_table,high,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,SCE DLAP
+16609,SAN DIEGO GAS & ELECTRIC CO,CA,CAISO,DLAP_SDGE-APND,iso_table,high,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,SDG&E DLAP
+61432,CENTRAL COAST COMMUNITY ENERGY,CA,CAISO,DLAP_PGAE-APND,manual,medium,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,CCA load settles in PG&E area
+590,CITY OF ANAHEIM - (CA),CA,CAISO,DLAP_SCE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside SCE area; own settlement point/sub-LAP may differ
+16088,CITY OF RIVERSIDE - (CA),CA,CAISO,DLAP_SCE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside SCE area; own settlement point/sub-LAP may differ
+19281,TURLOCK IRRIGATION DISTRICT,CA,CAISO,,,,,,
+14534,CITY OF PASADENA - (CA),CA,CAISO,DLAP_SCE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside SCE area; own settlement point/sub-LAP may differ
+16655,CITY OF SANTA CLARA - (CA),CA,CAISO,DLAP_PGAE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside PG&E area; own settlement point may differ
+57483,LIBERTY UTILITIES,CA,ISO-NE,,,,,,
+207,ALAMEDA MUNICIPAL POWER,CA,CAISO,DLAP_PGAE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside PG&E area; own settlement point may differ
+14401,CITY OF PALO ALTO - (CA),CA,CAISO,DLAP_PGAE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside PG&E area; own settlement point may differ
+11124,CITY OF LODI - (CA),CA,CAISO,DLAP_PGAE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside PG&E area; own settlement point may differ
+17612,BEAR VALLEY ELECTRIC SERVICE,CA,CAISO,,,,,,
+4003,CITY OF COLTON - (CA),CA,CAISO,DLAP_SCE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside SCE area; own settlement point/sub-LAP may differ
+1050,CITY OF AZUSA,CA,CAISO,DLAP_SCE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside SCE area; own settlement point/sub-LAP may differ
+11148,CITY OF LOMPOC - (CA),CA,CAISO,DLAP_PGAE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside PG&E area; own settlement point may differ
+1192,CITY OF BANNING - (CA),CA,CAISO,DLAP_SCE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside SCE area; own settlement point/sub-LAP may differ
+10724,LASSEN MUNICIPAL UTILITY DISTRICT,CA,CAISO,DLAP_PGAE-APND,manual,low,https://oasis.caiso.com/ (DLAP = default load aggregation point per IOU area),Yes,Municipal inside PG&E area; own settlement point may differ
+13831,CITY OF NORWICH - (CT),CT,ISO-NE,.Z.CONNECTICUT,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+19497,UNITED ILLUMINATING CO,CT,ISO-NE,.Z.CONNECTICUT,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+20038,TOWN OF WALLINGFORD - (CT),CT,ISO-NE,.Z.CONNECTICUT,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+4176,CONNECTICUT LIGHT & POWER CO,CT,ISO-NE,.Z.CONNECTICUT,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+7716,GROTON DEPT OF UTILITIES - (CT),CT,ISO-NE,.Z.CONNECTICUT,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+11586,TOWN OF MANSFIELD - (MA),MA,ISO-NE,,,,,,
+11624,TOWN OF MARBLEHEAD - (MA),MA,ISO-NE,.Z.NEMASSBOST,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,North Shore / Middlesex; NEMA/Boston zone
+12473,TOWN OF MIDDLEBOROUGH - (MA),MA,ISO-NE,.Z.SEMASS,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+13679,TOWN OF NORTH ATTLEBOROUGH - (MA),MA,ISO-NE,,,,,,
+13839,CITY OF NORWOOD - (MA),MA,ISO-NE,,,,,,
+14605,CITY OF PEABODY - (MA),MA,ISO-NE,.Z.NEMASSBOST,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,North Shore / Middlesex; NEMA/Boston zone
+1523,TOWN OF BELMONT - (MA),MA,ISO-NE,,,,,,
+15748,TOWN OF READING - (MA),MA,ISO-NE,.Z.NEMASSBOST,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,North Shore / Middlesex; NEMA/Boston zone
+17127,TOWN OF SHREWSBURY - (MA),MA,ISO-NE,.Z.WCMASS,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+18488,CITY OF TAUNTON,MA,ISO-NE,.Z.SEMASS,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+19979,TOWN OF WAKEFIELD - (MA),MA,ISO-NE,.Z.NEMASSBOST,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,North Shore / Middlesex; NEMA/Boston zone
+20310,TOWN OF WELLESLEY - (MA),MA,ISO-NE,,,,,,
+20481,CITY OF WESTFIELD - (MA),MA,ISO-NE,.Z.WCMASS,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+2144,TOWN OF BRAINTREE - (MA),MA,ISO-NE,,,,,,
+3477,CITY OF CHICOPEE - (MA),MA,ISO-NE,.Z.WCMASS,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+5480,TOWN OF DANVERS,MA,ISO-NE,.Z.NEMASSBOST,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,North Shore / Middlesex; NEMA/Boston zone
+54913,NSTAR ELECTRIC COMPANY,MA,ISO-NE,.Z.NEMASSBOST,iso_table,low,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,Eversource East; also SEMA/Cape area
+8774,CITY OF HOLYOKE - (MA),MA,ISO-NE,.Z.WCMASS,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+8796,CITY OF HINGHAM - (MA),MA,ISO-NE,,,,,,
+8973,TOWN OF HUDSON - (MA),MA,ISO-NE,,,,,,
+13214,THE NARRAGANSETT ELECTRIC CO,RI,ISO-NE,.Z.RHODEISLAND,iso_table,high,,Yes,Narragansett (RI Energy) serves Rhode Island; ISO-NE load zone RI (verify_lmp_2026-10-19.md).
+13441,NEW HAMPSHIRE ELEC COOP INC,NH,ISO-NE,.Z.NEWHAMPSHIRE,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+15472,PUBLIC SERVICE CO OF NH,NH,ISO-NE,.Z.NEWHAMPSHIRE,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+24590,UNITIL ENERGY SYSTEMS,NH,ISO-NE,.Z.NEWHAMPSHIRE,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+26510,LIBERTY UTILITIES (GRANITE STATE ELECTRI,NH,ISO-NE,.Z.NEWHAMPSHIRE,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+6374,FITCHBURG GAS & ELEC LIGHT CO,NH,ISO-NE,.Z.WCMASS,name_match,medium,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+19791,"VERMONT ELECTRIC COOPERATIVE, INC",VT,ISO-NE,.Z.VERMONT,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+20151,WASHINGTON ELECTRIC COOP - (VT),VT,ISO-NE,.Z.VERMONT,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+2548,CITY OF BURLINGTON ELECTRIC - (VT),VT,ISO-NE,.Z.VERMONT,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+7601,GREEN MOUNTAIN POWER CORP,VT,ISO-NE,.Z.VERMONT,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+1179,VERSANT POWER,ME,ISO-NE,.Z.MAINE,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+3266,CENTRAL MAINE POWER CO,ME,ISO-NE,.Z.MAINE,iso_table,high,https://www.iso-ne.com/about/key-stats/maps-and-diagrams,Yes,
+10817,"LEA COUNTY ELECTRIC COOP, INC",NM,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+3287,"CENTRAL VALLEY ELEC COOP, INC",NM,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+6198,"FARMERS ELECTRIC COOP, INC - (NM)",NM,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+10009,KARNES ELECTRIC COOP INC,TX,ERCOT,LZ_SOUTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,South Texas
+1015,AUSTIN ENERGY,TX,ERCOT,LZ_AEN,iso_table,high,https://www.ercot.com/mktinfo/prices,Yes,
+10625,"LAMB COUNTY ELECTRIC COOP, INC",TX,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+10649,LAMAR COUNTY ELEC COOP ASSN,TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+11292,CITY OF LUBBOCK - (TX),TX,ERCOT,LZ_WEST,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,Lubbock P&L joined ERCOT 2021
+11501,MAGIC VALLEY ELECTRIC COOP INC,TX,ERCOT,LZ_SOUTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,South Texas
+1175,"BANDERA ELECTRIC COOP, INC",TX,ERCOT,,,,,,
+12268,"MEDINA ELECTRIC COOP, INC",TX,ERCOT,,,,,,
+12452,MID-SOUTH ELECTRIC COOP ASSN,TX,ERCOT,,,,,,
+1273,"BARTLETT ELECTRIC COOP, INC",TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+13332,"NAVARRO COUNTY ELEC COOP, INC",TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+13418,CITY OF NEW BRAUNFELS - (TX),TX,ERCOT,,,,,,
+13830,NUECES ELECTRIC COOPERATIVE,TX,ERCOT,LZ_SOUTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,South Texas
+14424,"PANOLA-HARRISON ELEC COOP, INC",TX,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+14626,"PEDERNALES ELECTRIC COOP, INC",TX,ERCOT,,,,,,
+1591,"BIG COUNTRY ELECTRIC COOP, INC",TX,ERCOT,,,,,,
+16057,"RIO GRANDE ELECTRIC COOP, INC",TX,ERCOT,LZ_SOUTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,South Texas
+16146,"NAVASOTA VALLEY ELEC COOP, INC",TX,ERCOT,,,,,,multi-zone or unverified territory; left blank
+16461,"RUSK COUNTY ELECTRIC COOP, INC",TX,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+16604,CITY OF SAN ANTONIO - (TX),TX,ERCOT,LZ_CPS,iso_table,high,https://www.ercot.com/mktinfo/prices,Yes,CPS Energy
+16613,SAM HOUSTON ELECTRIC COOP INC,TX,MISO,TEXAS.HUB,state_default,low,https://www.misoenergy.org/markets-and-operations/ (hub/zone definitions; site blocks scripted access),Yes,state default to nearest MISO hub; MISO zonal LMP not in public DA file
+16627,SAN PATRICIO ELECTRIC COOP INC,TX,ERCOT,LZ_SOUTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,South Texas
+16638,"SAN BERNARD ELECTRIC COOP, INC",TX,ERCOT,,,,,,multi-zone or unverified territory; left blank
+17561,SOUTH PLAINS ELECTRIC COOP INC,TX,ERCOT,,,,,,
+17718,SOUTHWESTERN PUBLIC SERVICE CO,TX,SPP,SPPSOUTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Southern SPP footprint; hub is context, not settlement point"
+1892,"BLUEBONNET ELECTRIC COOP, INC",TX,ERCOT,,,,,,
+18976,TRINITY VALLEY ELEC COOP INC,TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+19159,"TRI-COUNTY ELECTRIC COOP, INC (TX)",TX,ERCOT,,,,,,
+19490,UNITED ELECTRIC COOP SERVICE INC - (TX),TX,ERCOT,,,,,,
+19579,UPSHUR RURAL ELEC COOP CORP,TX,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+19806,"VICTORIA ELECTRIC COOP, INC",TX,ERCOT,,,,,,
+20230,WEATHERFORD MUN UTILITY SYSTEM,TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+2049,"BOWIE-CASS ELECTRIC COOP, INC",TX,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+20927,"WOOD COUNTY ELECTRIC COOP, INC",TX,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+20948,WISE ELECTRIC COOP INC,TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+2409,BROWNSVILLE PUBLIC UTILITIES BOARD,TX,ERCOT,LZ_SOUTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,South Texas
+2442,CITY OF BRYAN - (TX),TX,ERCOT,,,,,,
+27369,TAYLOR ELECTRIC COOP INC - (TX),TX,ERCOT,,,,,,
+28604,KERRVILLE PUBLIC UTILITY BOARD,TX,ERCOT,,,,,,
+28978,CITY OF SAN MARCOS - (TX),TX,ERCOT,,,,,,
+3282,"CENTRAL TEXAS ELEC COOP, INC",TX,ERCOT,,,,,,
+3470,CHEROKEE COUNTY ELEC COOP ASSN,TX,ERCOT,,,,,,multi-zone or unverified territory; left blank
+3940,CITY OF COLLEGE STATION - (TX),TX,ERCOT,,,,,,
+4146,CONCHO VALLEY ELEC COOP INC,TX,ERCOT,,,,,,
+4262,COOKE COUNTY ELEC COOP ASSN,TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+4295,COMANCHE COUNTY ELEC COOP ASSN,TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+4939,"DEAF SMITH ELECTRIC COOP, INC",TX,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+4975,DEEP EAST TEXAS ELEC COOP INC,TX,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+5063,CITY OF DENTON - (TX),TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+5078,"DENTON COUNTY ELEC COOP, INC",TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+55982,HEART OF TEXAS ELECTRIC COOP,TX,ERCOT,,,,,,
+6173,FANNIN COUNTY ELECTRIC COOP,TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+6182,"FARMERS ELECTRIC COOP, INC - (TX)",TX,ERCOT,,,,,,
+6183,"FAYETTE ELECTRIC COOP, INC",TX,ERCOT,,,,,,
+6427,CITY OF FLORESVILLE,TX,ERCOT,,,,,,
+6958,CITY OF GARLAND - (TX),TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+7129,CITY OF GEORGETOWN - (TX),TX,ERCOT,,,,,,
+7559,"GRAYSON-COLLIN ELEC COOP, INC",TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+7634,CITY OF GREENVILLE - (TX),TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+7752,GUADALUPE VALLEY ELEC COOP INC,TX,ERCOT,,,,,,
+7979,HAMILTON COUNTY ELEC COOP ASSN,TX,ERCOT,LZ_NORTH,name_match,medium,https://www.ercot.com/mktinfo/prices,Yes,North/north-central Texas co-op or municipal
+8620,"HILCO ELECTRIC COOPERATIVE, INC.",TX,ERCOT,,,,,,
+8898,HOUSTON COUNTY ELEC COOP INC,TX,ERCOT,,,,,,multi-zone or unverified territory; left blank
+9590,"JACKSON ELECTRIC COOP, INC - (TX)",TX,ERCOT,,,,,,
+9668,"JASPER-NEWTON ELEC COOP, INC",TX,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+44372,ONCOR ELECTRIC DELIVERY COMPANY LLC,TX,ERCOT,LZ_NORTH,iso_table,medium,https://www.ercot.com/mktinfo/prices,Yes,Oncor spans North and West zones; North dominant
+8901,CENTERPOINT ENERGY,TX,ERCOT,LZ_HOUSTON,iso_table,high,https://www.ercot.com/mktinfo/prices,Yes,
+40051,TEXAS-NEW MEXICO POWER CO,TX,ERCOT,,,,,,
+3278,AEP TEXAS CENTRAL COMPANY,TX,ERCOT,LZ_SOUTH,iso_table,high,https://www.ercot.com/mktinfo/prices,Yes,
+20404,AEP TEXAS NORTH COMPANY,TX,ERCOT,LZ_WEST,iso_table,medium,https://www.ercot.com/mktinfo/prices,Yes,
+13807,NORTHWESTERN ELECTRIC COOP INC - (OK),OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+14062,OKLAHOMA ELECTRIC COOP INC,OK,SPP,SPPSOUTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Southern SPP footprint; hub is context, not settlement point"
+14063,OKLAHOMA GAS & ELECTRIC CO,OK,SPP,SPPSOUTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Southern SPP footprint; hub is context, not settlement point"
+14775,PEOPLE'S ELECTRIC COOPERATIVE,OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+15202,CITY OF PONCA CITY - (OK),OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+15474,PUBLIC SERVICE CO OF OKLAHOMA,OK,SPP,SPPSOUTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Southern SPP footprint; hub is context, not settlement point"
+15746,RED RIVER VALLEY RRL ELEC ASSN,OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+16382,"RURAL ELECTRIC COOP, INC",OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+17603,SOUTHEASTERN ELECTRIC COOP INC - (OK),OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+18125,STILLWATER UTILITIES AUTHORITY,OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+18433,TAHLEQUAH PUBLIC WORKS AUTHORITY,OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+19160,"TRI-COUNTY ELECTRIC COOP, INC (OK)",OK,SPP,SPPSOUTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Southern SPP footprint; hub is context, not settlement point"
+2911,"CANADIAN VALLEY ELEC COOP, INC",OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+3478,CIMARRON ELECTRIC COOP,OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+3527,CHOCTAW ELECTRIC COOP INC,OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+3647,CITY OF CLAREMORE,OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+4401,"COTTON ELECTRIC COOP, INC",OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+5661,CITY OF EDMOND - (OK),OK,SPP,SPPSOUTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Southern SPP footprint; hub is context, not settlement point"
+60482,CKENERGY ELECTRIC COOPERATIVE,OK,SPP,SPPSOUTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+10005,"EVERGY KANSAS SOUTH, INC",KS,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+10019,FREESTATE ELECTRIC COOP,KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+12524,MIDWEST ENERGY INC,KS,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+13799,PRAIRIE LAND ELECTRIC COOP INC,KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+15073,"PIONEER ELECTRIC COOP, INC - (KS)",KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+16267,ROLLING HILLS ELECTRIC COOP,KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+16854,"HEARTLAND RURAL ELEC COOP, INC",KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+19820,VICTORY ELECTRIC COOP ASSN INC,KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+20476,WESTERN COOP ELECTRIC ASSN INC,KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+20510,"WHEATLAND ELECTRIC COOP, INC",KS,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+22500,"EVERGY KANSAS CENTRAL, INC",KS,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+60839,SOUTHERN PIONEER ELECTRIC COMPANY,KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+64196,"4 RIVERS ELECTRIC COOPERATIVE, INC.",KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+6941,CITY OF GARDEN CITY,KS,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+9996,CITY OF KANSAS CITY - (KS),KS,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+11018,LINCOLN ELECTRIC SYSTEM,NE,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+11251,LOUP RIVER PUBLIC POWER DIST,NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+13337,NEBRASKA PUBLIC POWER DISTRICT,NE,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+13664,NORRIS PUBLIC POWER DISTRICT,NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+13725,CITY OF NORTH PLATTE,NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+14127,OMAHA PUBLIC POWER DISTRICT,NE,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+17642,SOUTHERN PUBLIC POWER DISTRICT,NE,SPP,SPPNORTH_HUB,name_match,low,https://www.spp.org/markets-operations/,Yes,"Northern SPP footprint; hub is context, not settlement point"
+40606,CITY OF GRAND ISLAND - (NE),NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+4373,CORNHUSKER PUBLIC POWER DIST,NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+4671,CUSTER PUBLIC POWER DISTRICT,NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+4911,DAWSON POWER DISTRICT,NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+5780,ELKHORN RURAL PUBLIC PWR DIST,NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+6779,CITY OF FREMONT - (NE),NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)
+8245,CITY OF HASTINGS - (NE),NE,SPP,SPPNORTH_HUB,state_default,low,https://www.spp.org/markets-operations/,Yes,state default to nearest SPP hub (context only)

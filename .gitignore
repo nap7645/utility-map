@@ -4,3 +4,4 @@ __pycache__/
 PowerUp2026-Workshop-Tutorials/
 *.tgz
 data/usurdb.csv
+data/lmp_cache/

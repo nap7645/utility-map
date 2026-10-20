@@ -110,8 +110,8 @@ urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,e
 ,15263,"R-TOU (Residential TOU, SOS supply)",weekday,"Jan-Feb,Nov-Dec",15-20,2,0,,0.16392
 ,15263,"R-TOU (Residential TOU, SOS supply)",weekday,"Jan-Feb,Nov-Dec","0-15,20-24",3,0,,0.09392
 ,15263,"R-TOU (Residential TOU, SOS supply)",weekend,Oct-May,0-24,3,0,,0.09392
-,7601,Rate 1 Residential,weekday,Jan-Dec,0-24,0,0,,0.23066
-,7601,Rate 1 Residential,weekend,Jan-Dec,0-24,0,0,,0.23066
+,7601,Rate 1 Residential,weekday,Jan-Dec,0-24,0,0,,0.22639
+,7601,Rate 1 Residential,weekend,Jan-Dec,0-24,0,0,,0.22639
 ,7601,Rate 6 General Service,weekday,Jan-Dec,0-24,0,0,,0.23451
 ,7601,Rate 6 General Service,weekend,Jan-Dec,0-24,0,0,,0.23451
 ,7601,Rate 8 General Service (demand),weekday,Jan-Dec,0-24,0,0,500,0.2496

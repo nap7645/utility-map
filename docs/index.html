@@ -587,11 +587,7 @@ function openDrawer(p){
 
   h += interconnectionHTML(p, u);
 
-  h += `<div class="sec"><h3>Full bill structure</h3>
-    <div class="placeholder">Phase 3 — not yet built. Will carry: fixed/customer charge, energy
-    charges by season and period, demand charges and ratchets, all riders (fuel/PCA, capacity,
-    transmission, EE surcharge), minimum bills, taxes and franchise fees, plus 5–10 yr
-    escalation history.</div></div>`;
+  h += billHTML(p) + lmpHTML(p);
 
   h += `<div class="sec"><h3>Aggregators / CSPs</h3>
     <div class="placeholder">Phase 4 — not yet built. Most residential BTM assets reach DR and
@@ -619,6 +615,42 @@ function openDrawer(p){
   drawer.classList.add('open');
 }
 document.getElementById('closeDrawer').onclick = ()=>drawer.classList.remove('open');
+
+/* ---- bill structure + wholesale price shape (data/tariffs.json) ---- */
+let TAR = {};
+function billHTML(p){
+  const t = TAR[String(p.ID)]; const c = v => v==null ? '' : (v*100).toFixed(1)+'¢';
+  if(!t) return `<div class="sec"><h3>Bill structure</h3><div class="placeholder">No rate data yet.</div></div>`;
+  let h = `<div class="sec"><h3>Bill structure</h3>`;
+  if(t.eia && (t.eia.r!=null||t.eia.c!=null||t.eia.rd!=null)){ const e=t.eia;
+    h += `<div class="chips">${e.r!=null?`<span>avg residential ${e.r.toFixed(1)}¢/kWh</span>`:''}${e.c!=null?`<span>avg commercial ${e.c.toFixed(1)}¢/kWh</span>`:''}`+
+         `${e.rd!=null?`<span>delivery-only res ${e.rd.toFixed(1)}¢</span>`:''}${e.dyn?`<span>EIA reports: ${esc(e.dyn.join(', '))}</span>`:''}</div>`+
+         `<div class="pc-foot">Averages = revenue ÷ sales, EIA-861 2024 (all-in, includes riders).</div>`; }
+  if(t.t && t.t.length){
+    h += `<table class="pc"><tr><th>Schedule</th><th>Fixed</th><th>Energy (all tiers/periods)</th><th>Peak (weekday)</th></tr>` +
+      t.t.map(r=>`<tr><td>${r.s==='R'?'🏠':'🏢'} ${esc(r.n)}${r.d?' <b>(default)</b>':''}<div class="pc-names">${esc(r.ty)}${r.dm?` · demand $${r.dm}/kW`:''}${r.ef?` · eff. ${esc(r.ef)}`:''} · <a href="${esc(r.u)}" target="_blank" rel="noopener">src ↗</a> <i>${r.m==='URDB'?'(URDB)':'(tariff)'}</i></div></td>`+
+        `<td>${r.fx!=null?'$'+r.fx+(r.fu==='$/day'?'/day':'/mo'):''}</td><td>${r.lo==null?'':r.lo===r.hi?c(r.lo):c(r.lo)+'–'+c(r.hi)}</td><td>${esc(r.pk||'')}</td></tr>`).join('') + `</table>`;
+    h += `<div class="pc-foot">Energy = base per-kWh charges from the tariff; riders/fuel adjustments listed below are extra unless noted.</div>`;
+  }
+  if(t.rd && t.rd.length){
+    h += `<div class="pc-foot"><b>Riders (residential):</b> ` + t.rd.map(r=>`${esc(r.n)} ${r.k!=null?(r.k*100).toFixed(3)+'¢/kWh':''}${r.mo!=null?' $'+r.mo+'/mo':''}${r.kw!=null?' $'+r.kw+'/kW':''}${r.a?'':' <i>(not additive)</i>'}`).join(' · ') + `</div>`;
+  }
+  return h + `</div>`;
+}
+function spark(a, b){
+  const all=a.concat(b).filter(v=>v!=null); if(!all.length) return '';
+  const lo=Math.min(...all), hi=Math.max(...all), W=240, H=60, x=i=>4+i*(W-8)/23, y=v=>H-4-(v-lo)*(H-12)/((hi-lo)||1);
+  const path=arr=>arr.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
+  return `<svg width="${W}" height="${H}" role="img" aria-label="hourly price shape"><path d="${path(a)}" fill="none" stroke="#d35400" stroke-width="2"/>`+
+    `<path d="${path(b)}" fill="none" stroke="#2c7fb8" stroke-width="2"/><text x="4" y="10" font-size="9" fill="#666">$${hi.toFixed(0)}</text>`+
+    `<text x="4" y="${H-2}" font-size="9" fill="#666">$${lo.toFixed(0)}</text></svg>`;
+}
+function lmpHTML(p){
+  const l = (TAR[String(p.ID)]||{}).lmp; if(!l) return '';
+  return `<div class="sec"><h3>Wholesale price shape (${esc(l.mk)} ${esc(l.z)}, 2025 day-ahead)</h3>
+    <div class="chips"><span>mean $${l.mean}/MWh</span><span>typical daily spread $${l.sp}/MWh</span><span>p90 spread $${l.p90}</span><span>${l.neg} negative hours</span></div>
+    ${spark(l.su,l.wi)}<div class="pc-foot">Average price by hour of day: <span style="color:#d35400">summer (Jun–Sep)</span>, <span style="color:#2c7fb8">winter (Dec–Feb)</span>. Zone match confidence: ${esc(l.cf||'n/a')}. Hubs only for MISO/SPP.</div></div>`;
+}
 
 function popup(p){
   const u = progsFor(p);
@@ -669,6 +701,7 @@ async function load(){
       else statusEl.textContent = 'programs.json not found — map will render without program data.';
     }catch(e){ console.warn('programs.json load failed', e); }
     try{
+      try{ const tr = await fetch('data/tariffs.json',{cache:'no-cache'}); if(tr.ok) TAR = await tr.json(); }catch(e){}
       const pp = await fetch('data/presence.json',{cache:'no-cache'});
       if(pp.ok) PRES = await pp.json();
     }catch(e){ console.warn('presence.json load failed', e); }

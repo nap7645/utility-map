@@ -1,6 +1,6 @@
 urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,energy_usd_per_kwh
-,44372,Residential Retail Delivery Service (delivery only),weekday,Jan-Dec,0-24,0,0,,0.025344
-,44372,Residential Retail Delivery Service (delivery only),weekend,Jan-Dec,0-24,0,0,,0.025344
+,44372,Residential Retail Delivery Service (delivery only),weekday,Jan-Dec,0-24,0,0,,0.036043
+,44372,Residential Retail Delivery Service (delivery only),weekend,Jan-Dec,0-24,0,0,,0.036043
 ,8901,Residential Electric Rates (delivery only),weekday,Jan-Dec,0-24,0,0,,0.02324
 ,8901,Residential Electric Rates (delivery only),weekend,Jan-Dec,0-24,0,0,,0.02324
 ,733,R.S. Residential Service,weekday,Jan-Dec,0-24,0,0,,0.07622
@@ -92,7 +92,7 @@ urdb_label,eia_id,rate_schedule,day_type,months,hours,period,tier,tier_max_kwh,e
 ,17539,Rate 16 General Service Time-of-Use,weekend,Oct-Apr,1-5,1,0,,0.07263
 ,17539,Rate 16 General Service Time-of-Use,weekday,Oct-Apr,"0-1,5-6,9-17,21-24",2,0,,0.13484
 ,17539,Rate 16 General Service Time-of-Use,weekend,Oct-Apr,"0-1,5-6,9-17,21-24",2,0,,0.13484
-,3755,Rate RS Residential (distribution only),weekday,Jan-Dec,0-24,0,0,,0.02951
-,3755,Rate RS Residential (distribution only),weekend,Jan-Dec,0-24,0,0,,0.02951
+,3755,Rate RS Residential (distribution only),weekday,Jan-Dec,0-24,0,0,,0.048397
+,3755,Rate RS Residential (distribution only),weekend,Jan-Dec,0-24,0,0,,0.048397
 ,3755,SSO generation price to compare (supply only),weekday,Jan-Dec,0-24,0,0,,0.091107
 ,3755,SSO generation price to compare (supply only),weekend,Jan-Dec,0-24,0,0,,0.091107
